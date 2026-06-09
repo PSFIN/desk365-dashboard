@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gulf Coast Property Management — Desk365 Dashboard</title>
+<title>Gulf Coast — Desk365 Dashboard</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -11,22 +11,53 @@
 
   header {
     background: linear-gradient(135deg, #1a3a5c 0%, #2e6da4 100%);
-    color: white; padding: 20px 32px;
+    color: white; padding: 18px 32px;
     display: flex; align-items: center; justify-content: space-between;
     box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    flex-wrap: wrap; gap: 12px;
   }
-  header h1 { font-size: 22px; font-weight: 600; letter-spacing: 0.3px; }
-  header p  { font-size: 13px; opacity: 0.8; margin-top: 3px; }
-  .badge { background: #27ae60; padding: 5px 14px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+  header h1 { font-size: 20px; font-weight: 600; }
+  header p  { font-size: 12px; opacity: 0.75; margin-top: 3px; }
 
-  .container { max-width: 1400px; margin: 0 auto; padding: 24px 24px; }
+  .header-right { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
 
-  /* KPI Cards */
+  .last-updated {
+    font-size: 12px; background: rgba(255,255,255,0.15);
+    padding: 6px 14px; border-radius: 20px; white-space: nowrap;
+  }
+  .last-updated span { font-weight: 600; }
+
+  #refreshBtn {
+    background: #27ae60; color: white; border: none;
+    padding: 8px 20px; border-radius: 20px; font-size: 13px;
+    font-weight: 600; cursor: pointer; display: flex; align-items: center;
+    gap: 7px; transition: background 0.2s, transform 0.1s;
+    white-space: nowrap;
+  }
+  #refreshBtn:hover { background: #219a52; }
+  #refreshBtn:active { transform: scale(0.97); }
+  #refreshBtn:disabled { background: #7f8c8d; cursor: not-allowed; }
+  #refreshBtn .spinner { display: none; width: 14px; height: 14px;
+    border: 2px solid rgba(255,255,255,0.4); border-top-color: white;
+    border-radius: 50%; animation: spin 0.7s linear infinite; }
+  #refreshBtn.loading .spinner { display: inline-block; }
+  #refreshBtn.loading .btn-text { opacity: 0.7; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .status-bar {
+    background: #fff3cd; border-left: 4px solid #f39c12;
+    padding: 10px 24px; font-size: 13px; color: #856404;
+    display: none;
+  }
+  .status-bar.error { background: #f8d7da; border-color: #e74c3c; color: #721c24; }
+  .status-bar.success { background: #d4edda; border-color: #27ae60; color: #155724; }
+
+  .container { max-width: 1400px; margin: 0 auto; padding: 24px; }
+
   .kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 24px; }
   .kpi-card {
     background: white; border-radius: 10px; padding: 22px 24px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
-    border-top: 4px solid #2e6da4;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08); border-top: 4px solid #2e6da4;
     transition: transform 0.2s;
   }
   .kpi-card:hover { transform: translateY(-2px); }
@@ -34,64 +65,95 @@
   .kpi-card.green  { border-top-color: #27ae60; }
   .kpi-card.orange { border-top-color: #f39c12; }
   .kpi-card.blue   { border-top-color: #2e6da4; }
-  .kpi-card .label { font-size: 12px; font-weight: 600; color: #7f8c8d; text-transform: uppercase; letter-spacing: 0.8px; }
-  .kpi-card .value { font-size: 42px; font-weight: 700; margin: 6px 0 4px; line-height: 1; }
+  .kpi-card .label { font-size: 11px; font-weight: 700; color: #7f8c8d; text-transform: uppercase; letter-spacing: 0.8px; }
+  .kpi-card .value { font-size: 44px; font-weight: 700; margin: 6px 0 4px; line-height: 1; }
   .kpi-card.red    .value { color: #e74c3c; }
   .kpi-card.green  .value { color: #27ae60; }
   .kpi-card.orange .value { color: #f39c12; }
   .kpi-card.blue   .value { color: #2e6da4; }
   .kpi-card .sub   { font-size: 12px; color: #95a5a6; }
 
-  /* Chart grid */
   .chart-grid-3 { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 16px; margin-bottom: 24px; }
   .chart-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px; }
   .chart-card {
     background: white; border-radius: 10px; padding: 20px 24px;
     box-shadow: 0 1px 4px rgba(0,0,0,0.08);
   }
-  .chart-card h3 { font-size: 13px; font-weight: 600; color: #5d6d7e; text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 16px; }
+  .chart-card h3 { font-size: 11px; font-weight: 700; color: #5d6d7e; text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 16px; }
   .chart-card canvas { max-height: 260px; }
 
+  .loading-overlay {
+    display: none; position: fixed; inset: 0;
+    background: rgba(26,58,92,0.6); z-index: 999;
+    flex-direction: column; align-items: center; justify-content: center; color: white;
+  }
+  .loading-overlay.show { display: flex; }
+  .big-spinner {
+    width: 52px; height: 52px; border: 5px solid rgba(255,255,255,0.3);
+    border-top-color: white; border-radius: 50%;
+    animation: spin 0.8s linear infinite; margin-bottom: 18px;
+  }
+  .loading-overlay p { font-size: 16px; font-weight: 500; }
+  .loading-overlay small { font-size: 12px; opacity: 0.7; margin-top: 6px; }
+
   footer { text-align: center; padding: 20px; font-size: 12px; color: #aaa; }
+
+  @media (max-width: 900px) {
+    .kpi-row { grid-template-columns: repeat(2, 1fr); }
+    .chart-grid-3 { grid-template-columns: 1fr; }
+    .chart-grid-2 { grid-template-columns: 1fr; }
+  }
 </style>
 </head>
 <body>
 
+<!-- Loading overlay -->
+<div class="loading-overlay" id="loadingOverlay">
+  <div class="big-spinner"></div>
+  <p>Fetching live tickets from Desk365...</p>
+  <small id="loadingDetail">Connecting to API</small>
+</div>
+
 <header>
   <div>
     <h1>🏖️ Gulf Coast Property Management — Support Dashboard</h1>
-    <p>Desk365 Live Ticket Analytics &nbsp;|&nbsp; Data as of June 9, 2026</p>
+    <p>Live Desk365 Ticket Analytics</p>
   </div>
-  <div class="badge">● LIVE DATA</div>
+  <div class="header-right">
+    <div class="last-updated" id="lastUpdated">Last updated: <span>Never</span></div>
+    <button id="refreshBtn" onclick="loadData()">
+      <div class="spinner"></div>
+      <span class="btn-text">🔄 Refresh Data</span>
+    </button>
+  </div>
 </header>
 
-<div class="container">
+<div class="status-bar" id="statusBar"></div>
 
-  <!-- KPI Cards -->
+<div class="container">
   <div class="kpi-row">
     <div class="kpi-card red">
       <div class="label">Open Tickets</div>
-      <div class="value">1,260</div>
+      <div class="value" id="kpiOpen">—</div>
       <div class="sub">Requires attention</div>
     </div>
     <div class="kpi-card green">
       <div class="label">Resolved</div>
-      <div class="value">280</div>
-      <div class="sub">Successfully closed</div>
+      <div class="value" id="kpiResolved">—</div>
+      <div class="sub">Successfully resolved</div>
     </div>
     <div class="kpi-card orange">
       <div class="label">Closed</div>
-      <div class="value">560</div>
-      <div class="sub">Total closed tickets</div>
+      <div class="value" id="kpiClosed">—</div>
+      <div class="sub">Total closed</div>
     </div>
     <div class="kpi-card blue">
-      <div class="label">Total Tickets</div>
-      <div class="value">2,100</div>
-      <div class="sub">6,911 all time</div>
+      <div class="label">Total in System</div>
+      <div class="value" id="kpiTotal">—</div>
+      <div class="sub">All time tickets</div>
     </div>
   </div>
 
-  <!-- Row 2: Category bar + Status donut + Aging donut -->
   <div class="chart-grid-3">
     <div class="chart-card">
       <h3>Tickets by Category</h3>
@@ -107,124 +169,172 @@
     </div>
   </div>
 
-  <!-- Row 3: Assignee + Subcategory -->
   <div class="chart-grid-2">
     <div class="chart-card">
       <h3>Open Tickets by Assignee</h3>
       <canvas id="assigneeChart"></canvas>
     </div>
     <div class="chart-card">
-      <h3>Top Subcategories</h3>
+      <h3>Tickets by Subcategory (Top 8)</h3>
       <canvas id="subcatChart"></canvas>
     </div>
   </div>
-
 </div>
 
-<footer>Gulf Coast Property Management &nbsp;|&nbsp; Desk365 Dashboard &nbsp;|&nbsp; Powered by Desk365 REST API</footer>
+<footer>Gulf Coast Property Management &nbsp;|&nbsp; Desk365 Live Dashboard &nbsp;|&nbsp; <a href="https://github.com/PSFIN/desk365-dashboard" target="_blank" style="color:#aaa">GitHub</a></footer>
 
 <script>
-const BLUE_PALETTE = [
-  '#2e6da4','#3a85c1','#e74c3c','#f39c12','#27ae60',
-  '#8e44ad','#16a085','#d35400','#2980b9','#c0392b'
-];
+const API_KEY = "3ee9b8349e32663055ad56f4d5f92ea12758d3360e72623665bd82a97ec800aa";
+const BASE    = "https://gulfcoast.desk365.io/apis/v3/tickets";
+const PALETTE = ['#2e6da4','#e74c3c','#27ae60','#f39c12','#8e44ad','#16a085','#d35400','#2980b9','#c0392b','#1abc9c'];
 
-// 1. Category Bar Chart
-new Chart(document.getElementById('catChart'), {
-  type: 'bar',
-  data: {
-    labels: ['Maintenance','Sales & Revenue','Accounting','OTA Management','Inspection/Cleaning','HOA Management','Marketing','Human Resources'],
-    datasets: [{
-      label: 'Tickets',
-      data: [630, 490, 350, 210, 140, 70, 70, 70],
-      backgroundColor: BLUE_PALETTE,
-      borderRadius: 5,
-    }]
-  },
-  options: {
-    responsive: true, maintainAspectRatio: true,
-    plugins: { legend: { display: false } },
-    scales: {
-      y: { beginAtZero: true, grid: { color: '#f0f0f0' } },
-      x: { ticks: { font: { size: 11 } } }
+let charts = {};
+
+function showStatus(msg, type = 'info') {
+  const bar = document.getElementById('statusBar');
+  bar.textContent = msg;
+  bar.className = 'status-bar ' + type;
+  bar.style.display = 'block';
+  if (type === 'success') setTimeout(() => bar.style.display = 'none', 4000);
+}
+
+function setLoading(on, detail = '') {
+  document.getElementById('loadingOverlay').classList.toggle('show', on);
+  document.getElementById('refreshBtn').disabled = on;
+  document.getElementById('refreshBtn').classList.toggle('loading', on);
+  if (detail) document.getElementById('loadingDetail').textContent = detail;
+}
+
+function updateLastUpdated() {
+  const now = new Date();
+  const str = now.toLocaleDateString('en-US', {month:'short',day:'numeric',year:'numeric'}) +
+              ' ' + now.toLocaleTimeString('en-US', {hour:'2-digit',minute:'2-digit'});
+  document.getElementById('lastUpdated').innerHTML = `Last updated: <span>${str}</span>`;
+}
+
+async function fetchPage(page) {
+  const res = await fetch(`${BASE}?per_page=100&page=${page}`, {
+    headers: { 'Authorization': API_KEY }
+  });
+  if (!res.ok) throw new Error(`API error: ${res.status}`);
+  return res.json();
+}
+
+async function loadData() {
+  setLoading(true, 'Connecting to Desk365 API...');
+  try {
+    // Get first page + total count
+    const first = await fetchPage(1);
+    const total = first.count;
+    const pages = Math.min(Math.ceil(total / 100), 70);
+    let tickets = [...first.tickets];
+
+    setLoading(true, `Fetching tickets... (page 1 of ${pages})`);
+
+    for (let p = 2; p <= pages; p++) {
+      const d = await fetchPage(p);
+      tickets = tickets.concat(d.tickets);
+      if (p % 5 === 0) {
+        document.getElementById('loadingDetail').textContent =
+          `Fetching tickets... (page ${p} of ${pages} — ${tickets.length} loaded)`;
+      }
     }
-  }
-});
 
-// 2. Status Donut
-new Chart(document.getElementById('statusChart'), {
-  type: 'doughnut',
-  data: {
-    labels: ['Open', 'Closed', 'Resolved'],
-    datasets: [{ data: [1260, 560, 280], backgroundColor: ['#e74c3c','#95a5a6','#27ae60'], borderWidth: 2 }]
-  },
-  options: {
-    responsive: true, maintainAspectRatio: true,
-    plugins: {
-      legend: { position: 'bottom', labels: { font: { size: 12 } } }
+    renderDashboard(tickets, total);
+    updateLastUpdated();
+    showStatus(`✅ Dashboard updated — ${tickets.length} tickets loaded from Desk365.`, 'success');
+  } catch(err) {
+    showStatus(`⚠️ Could not fetch live data: ${err.message}. This may be a browser CORS restriction — data shown is from last refresh.`, 'error');
+    console.error(err);
+  } finally {
+    setLoading(false);
+  }
+}
+
+function count(tickets, key, val) {
+  return tickets.filter(t => t[key] === val).length;
+}
+
+function topN(arr, key, n) {
+  const c = {};
+  arr.forEach(t => { const v = t[key]; if (v) c[v] = (c[v]||0)+1; });
+  return Object.entries(c).sort((a,b)=>b[1]-a[1]).slice(0,n);
+}
+
+function makeChart(id, type, labels, data, opts = {}) {
+  if (charts[id]) charts[id].destroy();
+  const ctx = document.getElementById(id).getContext('2d');
+  charts[id] = new Chart(ctx, {
+    type,
+    data: {
+      labels,
+      datasets: [{
+        data,
+        backgroundColor: opts.singleColor ? opts.singleColor : PALETTE,
+        borderRadius: type === 'bar' ? 5 : 0,
+        borderWidth: type === 'doughnut' ? 2 : 0,
+        label: opts.label || 'Tickets'
+      }]
     },
-    cutout: '65%'
-  }
-});
-
-// 3. Priority Donut (1=Urgent,2=High,3=Medium,4=Low,5=?)
-new Chart(document.getElementById('priorityChart'), {
-  type: 'doughnut',
-  data: {
-    labels: ['Urgent (1)', 'High (2)', 'Medium (3)', 'Low (4)', 'Other'],
-    datasets: [{ data: [252, 420, 630, 504, 294], backgroundColor: ['#e74c3c','#f39c12','#3a85c1','#27ae60','#95a5a6'], borderWidth: 2 }]
-  },
-  options: {
-    responsive: true, maintainAspectRatio: true,
-    plugins: { legend: { position: 'bottom', labels: { font: { size: 11 } } } },
-    cutout: '65%'
-  }
-});
-
-// 4. Assignee Horizontal Bar
-new Chart(document.getElementById('assigneeChart'), {
-  type: 'bar',
-  data: {
-    labels: ['J Lizada','H Nomura','S Soriafrausto','E Morales','C Thayer','C Hernandez','B Meyer','D Husak'],
-    datasets: [{
-      label: 'Tickets',
-      data: [420, 350, 280, 210, 140, 140, 140, 140],
-      backgroundColor: '#2e6da4',
-      borderRadius: 4,
-    }]
-  },
-  options: {
-    indexAxis: 'y',
-    responsive: true, maintainAspectRatio: true,
-    plugins: { legend: { display: false } },
-    scales: {
-      x: { beginAtZero: true, grid: { color: '#f0f0f0' } },
-      y: { ticks: { font: { size: 12 } } }
+    options: {
+      responsive: true, maintainAspectRatio: true,
+      plugins: { legend: { display: type === 'doughnut', position: 'bottom', labels: { font: { size: 11 } } } },
+      scales: type !== 'doughnut' ? {
+        [opts.indexAxis === 'y' ? 'x' : 'y']: { beginAtZero: true, grid: { color: '#f5f5f5' } },
+        [opts.indexAxis === 'y' ? 'y' : 'x']: { ticks: { font: { size: 11 }, maxRotation: opts.rotate || 0 } }
+      } : {},
+      indexAxis: opts.indexAxis || 'x',
+      cutout: type === 'doughnut' ? '65%' : undefined,
     }
-  }
-});
+  });
+}
 
-// 5. Subcategory Bar
-new Chart(document.getElementById('subcatChart'), {
-  type: 'bar',
-  data: {
-    labels: ['Amenities/Amazon','HOA Onboarding','Pool Heat Req','Owner Inquiry','Lease Renewal','Booking Issue','Cleaning Req','Maintenance Req'],
-    datasets: [{
-      label: 'Tickets',
-      data: [310, 210, 180, 160, 140, 130, 120, 110],
-      backgroundColor: BLUE_PALETTE,
-      borderRadius: 4,
-    }]
-  },
-  options: {
-    responsive: true, maintainAspectRatio: true,
-    plugins: { legend: { display: false } },
-    scales: {
-      y: { beginAtZero: true, grid: { color: '#f0f0f0' } },
-      x: { ticks: { font: { size: 10 }, maxRotation: 30 } }
-    }
-  }
-});
+function renderDashboard(tickets, totalInSystem) {
+  // KPIs
+  document.getElementById('kpiOpen').textContent    = count(tickets,'status','Open').toLocaleString();
+  document.getElementById('kpiResolved').textContent = count(tickets,'status','Resolved').toLocaleString();
+  document.getElementById('kpiClosed').textContent   = count(tickets,'status','Closed').toLocaleString();
+  document.getElementById('kpiTotal').textContent    = totalInSystem.toLocaleString();
+
+  // Category bar
+  const cats = topN(tickets, 'category', 8);
+  makeChart('catChart', 'bar', cats.map(x=>x[0]), cats.map(x=>x[1]), { rotate: 20 });
+
+  // Status donut
+  const open = count(tickets,'status','Open');
+  const closed = count(tickets,'status','Closed');
+  const resolved = count(tickets,'status','Resolved');
+  makeChart('statusChart', 'doughnut', ['Open','Closed','Resolved'], [open, closed, resolved]);
+
+  // Priority donut
+  const priorities = { 'Urgent': 0, 'High': 0, 'Medium': 0, 'Low': 0 };
+  tickets.forEach(t => {
+    const p = t.priority;
+    if (p === 1) priorities['Urgent']++;
+    else if (p === 2) priorities['High']++;
+    else if (p === 3 || p === 4) priorities['Medium']++;
+    else priorities['Low']++;
+  });
+  makeChart('priorityChart', 'doughnut',
+    Object.keys(priorities), Object.values(priorities));
+
+  // Assignee horizontal bar — format email to name
+  const asgn = topN(tickets, 'assigned_to', 8)
+    .map(([email, cnt]) => [
+      email.split('@')[0].split('.').map(w => w.charAt(0).toUpperCase()+w.slice(1)).join(' '),
+      cnt
+    ]);
+  makeChart('assigneeChart', 'bar', asgn.map(x=>x[0]), asgn.map(x=>x[1]),
+    { indexAxis: 'y', singleColor: '#2e6da4', label: 'Tickets' });
+
+  // Subcategory bar
+  const subs = topN(tickets, 'subcategory', 8);
+  makeChart('subcatChart', 'bar', subs.map(x=>x[0]), subs.map(x=>x[1]),
+    { rotate: 20 });
+}
+
+// Auto-load on page open
+window.addEventListener('load', loadData);
 </script>
 </body>
 </html>
