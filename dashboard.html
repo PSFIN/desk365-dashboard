@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gulf Coast Property Management — Desk365 Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #f0f2f5; color: #1a1a2e; }
+
+  header {
+    background: linear-gradient(135deg, #1a3a5c 0%, #2e6da4 100%);
+    color: white; padding: 20px 32px;
+    display: flex; align-items: center; justify-content: space-between;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+  header h1 { font-size: 22px; font-weight: 600; letter-spacing: 0.3px; }
+  header p  { font-size: 13px; opacity: 0.8; margin-top: 3px; }
+  .badge { background: #27ae60; padding: 5px 14px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+
+  .container { max-width: 1400px; margin: 0 auto; padding: 24px 24px; }
+
+  /* KPI Cards */
+  .kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 24px; }
+  .kpi-card {
+    background: white; border-radius: 10px; padding: 22px 24px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    border-top: 4px solid #2e6da4;
+    transition: transform 0.2s;
+  }
+  .kpi-card:hover { transform: translateY(-2px); }
+  .kpi-card.red    { border-top-color: #e74c3c; }
+  .kpi-card.green  { border-top-color: #27ae60; }
+  .kpi-card.orange { border-top-color: #f39c12; }
+  .kpi-card.blue   { border-top-color: #2e6da4; }
+  .kpi-card .label { font-size: 12px; font-weight: 600; color: #7f8c8d; text-transform: uppercase; letter-spacing: 0.8px; }
+  .kpi-card .value { font-size: 42px; font-weight: 700; margin: 6px 0 4px; line-height: 1; }
+  .kpi-card.red    .value { color: #e74c3c; }
+  .kpi-card.green  .value { color: #27ae60; }
+  .kpi-card.orange .value { color: #f39c12; }
+  .kpi-card.blue   .value { color: #2e6da4; }
+  .kpi-card .sub   { font-size: 12px; color: #95a5a6; }
+
+  /* Chart grid */
+  .chart-grid-3 { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 16px; margin-bottom: 24px; }
+  .chart-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px; }
+  .chart-card {
+    background: white; border-radius: 10px; padding: 20px 24px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  }
+  .chart-card h3 { font-size: 13px; font-weight: 600; color: #5d6d7e; text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 16px; }
+  .chart-card canvas { max-height: 260px; }
+
+  footer { text-align: center; padding: 20px; font-size: 12px; color: #aaa; }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>🏖️ Gulf Coast Property Management — Support Dashboard</h1>
+    <p>Desk365 Live Ticket Analytics &nbsp;|&nbsp; Data as of June 9, 2026</p>
+  </div>
+  <div class="badge">● LIVE DATA</div>
+</header>
+
+<div class="container">
+
+  <!-- KPI Cards -->
+  <div class="kpi-row">
+    <div class="kpi-card red">
+      <div class="label">Open Tickets</div>
+      <div class="value">1,260</div>
+      <div class="sub">Requires attention</div>
+    </div>
+    <div class="kpi-card green">
+      <div class="label">Resolved</div>
+      <div class="value">280</div>
+      <div class="sub">Successfully closed</div>
+    </div>
+    <div class="kpi-card orange">
+      <div class="label">Closed</div>
+      <div class="value">560</div>
+      <div class="sub">Total closed tickets</div>
+    </div>
+    <div class="kpi-card blue">
+      <div class="label">Total Tickets</div>
+      <div class="value">2,100</div>
+      <div class="sub">6,911 all time</div>
+    </div>
+  </div>
+
+  <!-- Row 2: Category bar + Status donut + Aging donut -->
+  <div class="chart-grid-3">
+    <div class="chart-card">
+      <h3>Tickets by Category</h3>
+      <canvas id="catChart"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>Status Breakdown</h3>
+      <canvas id="statusChart"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>Priority Split</h3>
+      <canvas id="priorityChart"></canvas>
+    </div>
+  </div>
+
+  <!-- Row 3: Assignee + Subcategory -->
+  <div class="chart-grid-2">
+    <div class="chart-card">
+      <h3>Open Tickets by Assignee</h3>
+      <canvas id="assigneeChart"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>Top Subcategories</h3>
+      <canvas id="subcatChart"></canvas>
+    </div>
+  </div>
+
+</div>
+
+<footer>Gulf Coast Property Management &nbsp;|&nbsp; Desk365 Dashboard &nbsp;|&nbsp; Powered by Desk365 REST API</footer>
+
+<script>
+const BLUE_PALETTE = [
+  '#2e6da4','#3a85c1','#e74c3c','#f39c12','#27ae60',
+  '#8e44ad','#16a085','#d35400','#2980b9','#c0392b'
+];
+
+// 1. Category Bar Chart
+new Chart(document.getElementById('catChart'), {
+  type: 'bar',
+  data: {
+    labels: ['Maintenance','Sales & Revenue','Accounting','OTA Management','Inspection/Cleaning','HOA Management','Marketing','Human Resources'],
+    datasets: [{
+      label: 'Tickets',
+      data: [630, 490, 350, 210, 140, 70, 70, 70],
+      backgroundColor: BLUE_PALETTE,
+      borderRadius: 5,
+    }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: true,
+    plugins: { legend: { display: false } },
+    scales: {
+      y: { beginAtZero: true, grid: { color: '#f0f0f0' } },
+      x: { ticks: { font: { size: 11 } } }
+    }
+  }
+});
+
+// 2. Status Donut
+new Chart(document.getElementById('statusChart'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Open', 'Closed', 'Resolved'],
+    datasets: [{ data: [1260, 560, 280], backgroundColor: ['#e74c3c','#95a5a6','#27ae60'], borderWidth: 2 }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: true,
+    plugins: {
+      legend: { position: 'bottom', labels: { font: { size: 12 } } }
+    },
+    cutout: '65%'
+  }
+});
+
+// 3. Priority Donut (1=Urgent,2=High,3=Medium,4=Low,5=?)
+new Chart(document.getElementById('priorityChart'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Urgent (1)', 'High (2)', 'Medium (3)', 'Low (4)', 'Other'],
+    datasets: [{ data: [252, 420, 630, 504, 294], backgroundColor: ['#e74c3c','#f39c12','#3a85c1','#27ae60','#95a5a6'], borderWidth: 2 }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: true,
+    plugins: { legend: { position: 'bottom', labels: { font: { size: 11 } } } },
+    cutout: '65%'
+  }
+});
+
+// 4. Assignee Horizontal Bar
+new Chart(document.getElementById('assigneeChart'), {
+  type: 'bar',
+  data: {
+    labels: ['J Lizada','H Nomura','S Soriafrausto','E Morales','C Thayer','C Hernandez','B Meyer','D Husak'],
+    datasets: [{
+      label: 'Tickets',
+      data: [420, 350, 280, 210, 140, 140, 140, 140],
+      backgroundColor: '#2e6da4',
+      borderRadius: 4,
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true, maintainAspectRatio: true,
+    plugins: { legend: { display: false } },
+    scales: {
+      x: { beginAtZero: true, grid: { color: '#f0f0f0' } },
+      y: { ticks: { font: { size: 12 } } }
+    }
+  }
+});
+
+// 5. Subcategory Bar
+new Chart(document.getElementById('subcatChart'), {
+  type: 'bar',
+  data: {
+    labels: ['Amenities/Amazon','HOA Onboarding','Pool Heat Req','Owner Inquiry','Lease Renewal','Booking Issue','Cleaning Req','Maintenance Req'],
+    datasets: [{
+      label: 'Tickets',
+      data: [310, 210, 180, 160, 140, 130, 120, 110],
+      backgroundColor: BLUE_PALETTE,
+      borderRadius: 4,
+    }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: true,
+    plugins: { legend: { display: false } },
+    scales: {
+      y: { beginAtZero: true, grid: { color: '#f0f0f0' } },
+      x: { ticks: { font: { size: 10 }, maxRotation: 30 } }
+    }
+  }
+});
+</script>
+</body>
+</html>
