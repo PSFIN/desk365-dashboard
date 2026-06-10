@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gulf Coast — Desk365 Dashboard v2</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #f0f2f5; color: #1a1a2e; }
+
+  header {
+    background: linear-gradient(135deg, #1a3a5c 0%, #2e6da4 100%);
+    color: white; padding: 18px 32px;
+    display: flex; align-items: center; justify-content: space-between;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    flex-wrap: wrap; gap: 12px;
+  }
+  header h1 { font-size: 20px; font-weight: 600; }
+  header p  { font-size: 12px; opacity: 0.75; margin-top: 3px; }
+  .header-right { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .last-updated { font-size: 12px; background: rgba(255,255,255,0.15); padding: 6px 14px; border-radius: 20px; white-space: nowrap; }
+  .last-updated span { font-weight: 600; }
+
+  #refreshBtn {
+    background: #27ae60; color: white; border: none;
+    padding: 8px 20px; border-radius: 20px; font-size: 13px;
+    font-weight: 600; cursor: pointer; display: flex; align-items: center;
+    gap: 7px; transition: background 0.2s, transform 0.1s; white-space: nowrap;
+  }
+  #refreshBtn:hover { background: #219a52; }
+  #refreshBtn:disabled { background: #7f8c8d; cursor: not-allowed; }
+  #refreshBtn .spinner { display: none; width: 14px; height: 14px; border: 2px solid rgba(255,255,255,0.4); border-top-color: white; border-radius: 50%; animation: spin 0.7s linear infinite; }
+  #refreshBtn.loading .spinner { display: inline-block; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .status-bar { background: #fff3cd; border-left: 4px solid #f39c12; padding: 10px 24px; font-size: 13px; color: #856404; display: none; }
+  .status-bar.error { background: #f8d7da; border-color: #e74c3c; color: #721c24; }
+  .status-bar.success { background: #d4edda; border-color: #27ae60; color: #155724; }
+
+  .container { max-width: 1400px; margin: 0 auto; padding: 24px; }
+
+  /* KPI cards — clickable */
+  .kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 24px; }
+  .kpi-card {
+    background: white; border-radius: 10px; padding: 22px 24px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08); border-top: 4px solid #2e6da4;
+    cursor: pointer; transition: transform 0.15s, box-shadow 0.15s;
+    position: relative;
+  }
+  .kpi-card:hover { transform: translateY(-3px); box-shadow: 0 6px 18px rgba(0,0,0,0.12); }
+  .kpi-card.active { box-shadow: 0 0 0 3px #2e6da4, 0 4px 12px rgba(0,0,0,0.1); }
+  .kpi-card.red    { border-top-color: #e74c3c; }
+  .kpi-card.red.active { box-shadow: 0 0 0 3px #e74c3c, 0 4px 12px rgba(0,0,0,0.1); }
+  .kpi-card.green  { border-top-color: #27ae60; }
+  .kpi-card.green.active { box-shadow: 0 0 0 3px #27ae60, 0 4px 12px rgba(0,0,0,0.1); }
+  .kpi-card.orange { border-top-color: #f39c12; }
+  .kpi-card.orange.active { box-shadow: 0 0 0 3px #f39c12, 0 4px 12px rgba(0,0,0,0.1); }
+  .kpi-card.blue   { border-top-color: #2e6da4; }
+  .kpi-card .label { font-size: 11px; font-weight: 700; color: #7f8c8d; text-transform: uppercase; letter-spacing: 0.8px; }
+  .kpi-card .value { font-size: 44px; font-weight: 700; margin: 6px 0 4px; line-height: 1; }
+  .kpi-card.red    .value { color: #e74c3c; }
+  .kpi-card.green  .value { color: #27ae60; }
+  .kpi-card.orange .value { color: #f39c12; }
+  .kpi-card.blue   .value { color: #2e6da4; }
+  .kpi-card .sub { font-size: 12px; color: #95a5a6; }
+  .kpi-card .click-hint { font-size: 10px; color: #bdc3c7; margin-top: 6px; }
+
+  /* Charts */
+  .chart-grid-3 { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 16px; margin-bottom: 24px; }
+  .chart-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px; }
+  .chart-card { background: white; border-radius: 10px; padding: 20px 24px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+  .chart-card h3 { font-size: 11px; font-weight: 700; color: #5d6d7e; text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 4px; }
+  .chart-card .chart-hint { font-size: 10px; color: #bdc3c7; margin-bottom: 12px; }
+  .chart-card canvas { max-height: 260px; cursor: pointer; }
+
+  /* Active filter banner */
+  .filter-banner {
+    display: none; background: #eaf4ff; border: 1px solid #2e6da4;
+    border-radius: 8px; padding: 10px 18px; margin-bottom: 16px;
+    font-size: 13px; color: #1a3a5c; align-items: center; gap: 12px;
+  }
+  .filter-banner.show { display: flex; }
+  .filter-banner strong { font-weight: 700; }
+  .filter-banner button {
+    margin-left: auto; background: none; border: 1px solid #2e6da4;
+    color: #2e6da4; padding: 4px 12px; border-radius: 12px; font-size: 12px;
+    cursor: pointer; white-space: nowrap;
+  }
+  .filter-banner button:hover { background: #2e6da4; color: white; }
+
+  /* Ticket table */
+  .ticket-panel { background: white; border-radius: 10px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); margin-bottom: 24px; overflow: hidden; }
+  .ticket-panel-header {
+    padding: 16px 24px; border-bottom: 1px solid #f0f2f5;
+    display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;
+  }
+  .ticket-panel-header h3 { font-size: 13px; font-weight: 700; color: #1a1a2e; }
+  .ticket-panel-header span { font-size: 12px; color: #7f8c8d; }
+
+  .ticket-search { padding: 8px 12px; border: 1px solid #dde1e7; border-radius: 6px; font-size: 12px; width: 240px; outline: none; }
+  .ticket-search:focus { border-color: #2e6da4; }
+
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  thead th {
+    padding: 10px 14px; text-align: left; font-size: 11px; font-weight: 700;
+    color: #7f8c8d; text-transform: uppercase; letter-spacing: 0.6px;
+    border-bottom: 2px solid #f0f2f5; background: #fafbfc; white-space: nowrap;
+    cursor: pointer; user-select: none;
+  }
+  thead th:hover { color: #2e6da4; }
+  thead th .sort-icon { margin-left: 4px; opacity: 0.4; }
+  thead th.sorted .sort-icon { opacity: 1; color: #2e6da4; }
+  tbody tr { border-bottom: 1px solid #f5f6f8; transition: background 0.1s; }
+  tbody tr:hover { background: #f8fafc; cursor: pointer; }
+  tbody td { padding: 10px 14px; vertical-align: middle; }
+  .ticket-num { font-weight: 700; color: #2e6da4; font-size: 12px; }
+  .ticket-subject { max-width: 320px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 12px; }
+  .badge {
+    display: inline-block; padding: 2px 9px; border-radius: 10px;
+    font-size: 11px; font-weight: 600; white-space: nowrap;
+  }
+  .badge-open    { background: #fde8e8; color: #c0392b; }
+  .badge-resolved{ background: #d5f5e3; color: #1e8449; }
+  .badge-closed  { background: #eaf0fb; color: #2471a3; }
+  .badge-urgent  { background: #fde8e8; color: #c0392b; }
+  .badge-medium  { background: #fef9e7; color: #b7950b; }
+  .badge-low     { background: #eafaf1; color: #1e8449; }
+  .assignee-cell { font-size: 12px; white-space: nowrap; }
+  .date-cell { font-size: 11px; color: #7f8c8d; white-space: nowrap; }
+
+  .pager { display: flex; align-items: center; gap: 8px; padding: 12px 24px; border-top: 1px solid #f0f2f5; font-size: 12px; color: #7f8c8d; flex-wrap: wrap; }
+  .pager button {
+    background: white; border: 1px solid #dde1e7; padding: 5px 12px;
+    border-radius: 5px; font-size: 12px; cursor: pointer;
+  }
+  .pager button:hover:not(:disabled) { background: #f0f4f8; border-color: #2e6da4; color: #2e6da4; }
+  .pager button:disabled { opacity: 0.4; cursor: not-allowed; }
+  .pager .page-info { margin: 0 8px; }
+
+  /* Ticket detail modal */
+  .modal-backdrop { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.45); z-index: 1000; }
+  .modal-backdrop.show { display: flex; align-items: center; justify-content: center; padding: 20px; }
+  .modal {
+    background: white; border-radius: 12px; max-width: 680px; width: 100%;
+    max-height: 85vh; overflow-y: auto;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+  }
+  .modal-header {
+    padding: 20px 24px 16px; border-bottom: 1px solid #f0f2f5;
+    display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; position: sticky; top: 0; background: white; z-index: 1;
+  }
+  .modal-header h2 { font-size: 15px; font-weight: 700; line-height: 1.4; }
+  .modal-close { background: none; border: none; font-size: 20px; cursor: pointer; color: #7f8c8d; padding: 0 4px; flex-shrink: 0; }
+  .modal-body { padding: 20px 24px; }
+  .modal-field { margin-bottom: 14px; }
+  .modal-field label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.7px; color: #95a5a6; display: block; margin-bottom: 4px; }
+  .modal-field .val { font-size: 13px; color: #1a1a2e; }
+  .modal-desc { font-size: 13px; color: #444; line-height: 1.6; max-height: 140px; overflow-y: auto; background: #fafbfc; border-radius: 6px; padding: 10px 12px; border: 1px solid #eee; }
+  .modal-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 24px; }
+
+  .loading-overlay { display: none; position: fixed; inset: 0; background: rgba(26,58,92,0.6); z-index: 999; flex-direction: column; align-items: center; justify-content: center; color: white; }
+  .loading-overlay.show { display: flex; }
+  .big-spinner { width: 52px; height: 52px; border: 5px solid rgba(255,255,255,0.3); border-top-color: white; border-radius: 50%; animation: spin 0.8s linear infinite; margin-bottom: 18px; }
+
+  footer { text-align: center; padding: 20px; font-size: 12px; color: #aaa; }
+
+  @media (max-width: 900px) {
+    .kpi-row { grid-template-columns: repeat(2, 1fr); }
+    .chart-grid-3, .chart-grid-2 { grid-template-columns: 1fr; }
+    .ticket-search { width: 100%; }
+    .modal-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="loading-overlay" id="loadingOverlay">
+  <div class="big-spinner"></div>
+  <p>Loading ticket data...</p>
+</div>
+
+<header>
+  <div>
+    <h1>🏖️ Gulf Coast Property Management — Support Dashboard</h1>
+    <p>Live Desk365 Ticket Analytics &nbsp;·&nbsp; Click any card or chart to filter tickets</p>
+  </div>
+  <div class="header-right">
+    <div class="last-updated" id="lastUpdated">Last updated: <span>Never</span></div>
+    <button id="refreshBtn" onclick="loadData()">
+      <div class="spinner"></div>
+      <span class="btn-text">🔄 Refresh</span>
+    </button>
+  </div>
+</header>
+
+<div class="status-bar" id="statusBar"></div>
+
+<div class="container">
+
+  <!-- KPI Cards -->
+  <div class="kpi-row">
+    <div class="kpi-card red" onclick="filterBy('status','Open')" id="kpiCardOpen">
+      <div class="label">Open Tickets</div>
+      <div class="value" id="kpiOpen">—</div>
+      <div class="sub">Requires attention</div>
+      <div class="click-hint">▶ Click to view tickets</div>
+    </div>
+    <div class="kpi-card green" onclick="filterBy('status','Resolved')" id="kpiCardResolved">
+      <div class="label">Resolved</div>
+      <div class="value" id="kpiResolved">—</div>
+      <div class="sub">Successfully resolved</div>
+      <div class="click-hint">▶ Click to view tickets</div>
+    </div>
+    <div class="kpi-card orange" onclick="filterBy('status','Closed')" id="kpiCardClosed">
+      <div class="label">Closed</div>
+      <div class="value" id="kpiClosed">—</div>
+      <div class="sub">Total closed</div>
+      <div class="click-hint">▶ Click to view tickets</div>
+    </div>
+    <div class="kpi-card blue" onclick="clearFilter()" id="kpiCardTotal">
+      <div class="label">Total in System</div>
+      <div class="value" id="kpiTotal">—</div>
+      <div class="sub">All time tickets</div>
+      <div class="click-hint">▶ Click to show all</div>
+    </div>
+  </div>
+
+  <!-- Charts -->
+  <div class="chart-grid-3">
+    <div class="chart-card">
+      <h3>Tickets by Category</h3>
+      <div class="chart-hint">Click a bar to filter</div>
+      <canvas id="catChart"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>Status Breakdown</h3>
+      <div class="chart-hint">Click a segment to filter</div>
+      <canvas id="statusChart"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>Priority Split</h3>
+      <div class="chart-hint">Click a segment to filter</div>
+      <canvas id="priorityChart"></canvas>
+    </div>
+  </div>
+
+  <div class="chart-grid-2">
+    <div class="chart-card">
+      <h3>Open Tickets by Assignee</h3>
+      <div class="chart-hint">Click a bar to filter by assignee</div>
+      <canvas id="assigneeChart"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>Tickets by Subcategory (Top 8)</h3>
+      <div class="chart-hint">Click a bar to filter</div>
+      <canvas id="subcatChart"></canvas>
+    </div>
+  </div>
+
+  <!-- Active filter banner -->
+  <div class="filter-banner" id="filterBanner">
+    <span id="filterLabel">Showing: all tickets</span>
+    <button onclick="clearFilter()">✕ Clear filter</button>
+  </div>
+
+  <!-- Ticket table -->
+  <div class="ticket-panel">
+    <div class="ticket-panel-header">
+      <div>
+        <h3 id="tableTitle">All Tickets</h3>
+        <span id="tableCount"></span>
+      </div>
+      <input class="ticket-search" id="ticketSearch" type="text" placeholder="Search subject, assignee, category..." oninput="applySearch()">
+    </div>
+    <div class="table-wrap">
+      <table id="ticketTable">
+        <thead>
+          <tr>
+            <th onclick="sortTable('ticket_number')">  # <span class="sort-icon">↕</span></th>
+            <th onclick="sortTable('subject')">Subject <span class="sort-icon">↕</span></th>
+            <th onclick="sortTable('status')">Status <span class="sort-icon">↕</span></th>
+            <th onclick="sortTable('priority')">Priority <span class="sort-icon">↕</span></th>
+            <th onclick="sortTable('category')">Category <span class="sort-icon">↕</span></th>
+            <th onclick="sortTable('assigned_to')">Assignee <span class="sort-icon">↕</span></th>
+            <th onclick="sortTable('created_on')">Created <span class="sort-icon">↕</span></th>
+          </tr>
+        </thead>
+        <tbody id="ticketBody"></tbody>
+      </table>
+    </div>
+    <div class="pager" id="pager">
+      <button id="prevBtn" onclick="changePage(-1)">← Prev</button>
+      <span class="page-info" id="pageInfo"></span>
+      <button id="nextBtn" onclick="changePage(1)">Next →</button>
+      <span id="totalInfo" style="margin-left:8px;"></span>
+    </div>
+  </div>
+
+</div>
+
+<!-- Ticket detail modal -->
+<div class="modal-backdrop" id="modalBackdrop" onclick="closeModal(event)">
+  <div class="modal" id="modalBox">
+    <div class="modal-header">
+      <h2 id="modalTitle"></h2>
+      <button class="modal-close" onclick="closeModalDirect()">✕</button>
+    </div>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<footer>Gulf Coast Property Management &nbsp;|&nbsp; Desk365 Live Dashboard v2 &nbsp;|&nbsp; <a href="https://github.com/PSFIN/desk365-dashboard" target="_blank" style="color:#aaa">GitHub</a></footer>
+
+<script>
+const PALETTE = ['#2e6da4','#e74c3c','#27ae60','#f39c12','#8e44ad','#16a085','#d35400','#2980b9','#c0392b','#1abc9c'];
+
+let allTickets = [];
+let filteredTickets = [];
+let searchedTickets = [];
+let charts = {};
+let currentPage = 1;
+const PAGE_SIZE = 25;
+let sortKey = 'ticket_number';
+let sortDir = -1; // -1 = desc, 1 = asc
+let activeFilter = null; // {key, value, label}
+
+// ─── Data loading ────────────────────────────────────────────────
+function showStatus(msg, type = 'info') {
+  const bar = document.getElementById('statusBar');
+  bar.textContent = msg;
+  bar.className = 'status-bar ' + type;
+  bar.style.display = 'block';
+  if (type === 'success') setTimeout(() => bar.style.display = 'none', 4000);
+}
+
+async function loadData() {
+  document.getElementById('loadingOverlay').classList.add('show');
+  document.getElementById('refreshBtn').disabled = true;
+  document.getElementById('refreshBtn').classList.add('loading');
+  try {
+    const res = await fetch(`data.json?t=${Date.now()}`);
+    if (!res.ok) throw new Error(`data.json not found (${res.status})`);
+    const json = await res.json();
+    allTickets = json.tickets || [];
+    document.getElementById('lastUpdated').innerHTML = `Last updated: <span>${json.fetched_at}</span>`;
+    renderKPIs(allTickets, json.total_in_system);
+    renderCharts(allTickets);
+    clearFilter();
+    showStatus(`✅ Loaded ${json.count.toLocaleString()} tickets — data as of ${json.fetched_at}`, 'success');
+  } catch(err) {
+    showStatus(`⚠️ Could not load data: ${err.message}`, 'error');
+  } finally {
+    document.getElementById('loadingOverlay').classList.remove('show');
+    document.getElementById('refreshBtn').disabled = false;
+    document.getElementById('refreshBtn').classList.remove('loading');
+  }
+}
+
+// ─── KPIs ────────────────────────────────────────────────────────
+function cnt(arr, key, val) { return arr.filter(t => t[key] === val).length; }
+
+function renderKPIs(tickets, totalInSystem) {
+  document.getElementById('kpiOpen').textContent     = cnt(tickets,'status','Open').toLocaleString();
+  document.getElementById('kpiResolved').textContent = cnt(tickets,'status','Resolved').toLocaleString();
+  document.getElementById('kpiClosed').textContent   = cnt(tickets,'status','Closed').toLocaleString();
+  document.getElementById('kpiTotal').textContent    = totalInSystem.toLocaleString();
+}
+
+// ─── Charts ──────────────────────────────────────────────────────
+function topN(arr, keyFn, n) {
+  const c = {};
+  arr.forEach(t => { const v = keyFn(t); if (v) c[v] = (c[v]||0)+1; });
+  return Object.entries(c).sort((a,b)=>b[1]-a[1]).slice(0,n);
+}
+
+function priorityLabel(p) {
+  if (p === 1) return 'Urgent';
+  if (p === 5) return 'Medium';
+  return 'Low';
+}
+
+function makeChart(id, type, labels, data, opts = {}, clickFn) {
+  if (charts[id]) charts[id].destroy();
+  const ctx = document.getElementById(id).getContext('2d');
+  charts[id] = new Chart(ctx, {
+    type,
+    data: {
+      labels,
+      datasets: [{
+        data,
+        backgroundColor: opts.singleColor
+          ? Array(data.length).fill(opts.singleColor)
+          : PALETTE,
+        hoverBackgroundColor: opts.singleColor
+          ? Array(data.length).fill('#1a5276')
+          : PALETTE.map(c => c + 'cc'),
+        borderRadius: type === 'bar' ? 5 : 0,
+        borderWidth: type === 'doughnut' ? 2 : 0,
+        label: opts.label || 'Tickets'
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: true,
+      onClick: (evt, elements) => {
+        if (elements.length && clickFn) {
+          clickFn(labels[elements[0].index], data[elements[0].index]);
+        }
+      },
+      plugins: {
+        legend: { display: type === 'doughnut', position: 'bottom', labels: { font: { size: 11 } } },
+        tooltip: { callbacks: { label: ctx => ` ${ctx.parsed.y ?? ctx.parsed} tickets` } }
+      },
+      scales: type !== 'doughnut' ? {
+        [opts.indexAxis === 'y' ? 'x' : 'y']: { beginAtZero: true, grid: { color: '#f5f5f5' } },
+        [opts.indexAxis === 'y' ? 'y' : 'x']: { ticks: { font: { size: 11 }, maxRotation: opts.rotate || 0 } }
+      } : {},
+      indexAxis: opts.indexAxis || 'x',
+      cutout: type === 'doughnut' ? '65%' : undefined,
+    }
+  });
+}
+
+function renderCharts(tickets) {
+  // Category
+  const cats = topN(tickets, t => t.category, 8);
+  makeChart('catChart', 'bar', cats.map(x=>x[0]), cats.map(x=>x[1]), { rotate: 20 },
+    (label) => filterBy('category', label));
+
+  // Status
+  const open = cnt(tickets,'status','Open');
+  const closed = cnt(tickets,'status','Closed');
+  const resolved = cnt(tickets,'status','Resolved');
+  makeChart('statusChart', 'doughnut', ['Open','Closed','Resolved'], [open, closed, resolved], {},
+    (label) => filterBy('status', label));
+
+  // Priority
+  const prioMap = { 'Urgent': 0, 'Medium': 0, 'Low': 0 };
+  tickets.forEach(t => { prioMap[priorityLabel(t.priority)]++; });
+  makeChart('priorityChart', 'doughnut',
+    Object.keys(prioMap), Object.values(prioMap), {},
+    (label) => filterByPriority(label));
+
+  // Assignee (open tickets only)
+  const openTickets = tickets.filter(t => t.status === 'Open');
+  const asgn = topN(openTickets, t => t.assigned_to, 8)
+    .map(([email, cnt]) => [
+      email ? email.split('@')[0].split('.').map(w => w.charAt(0).toUpperCase()+w.slice(1)).join(' ') : 'Unassigned',
+      cnt,
+      email
+    ]);
+  makeChart('assigneeChart', 'bar',
+    asgn.map(x=>x[0]), asgn.map(x=>x[1]),
+    { indexAxis: 'y', singleColor: '#2e6da4', label: 'Open Tickets' },
+    (label, _, idx) => {
+      const email = asgn[idx] ? asgn[idx][2] : null;
+      if (email) filterBy('assigned_to', email, label);
+    });
+  // Fix: chartjs click gives label not index in some versions — re-bind
+  const assigneeCanvas = document.getElementById('assigneeChart');
+  assigneeCanvas.onclick = null;
+  charts['assigneeChart'].options.onClick = (evt, elements) => {
+    if (elements.length) {
+      const i = elements[0].index;
+      if (asgn[i]) filterBy('assigned_to', asgn[i][2], asgn[i][0]);
+    }
+  };
+  charts['assigneeChart'].update();
+
+  // Subcategory
+  const subs = topN(tickets, t => t.subcategory, 8);
+  makeChart('subcatChart', 'bar', subs.map(x=>x[0]), subs.map(x=>x[1]), { rotate: 20 },
+    (label) => filterBy('subcategory', label));
+}
+
+// ─── Filter logic ─────────────────────────────────────────────────
+function filterBy(key, value, displayName) {
+  activeFilter = { key, value, label: displayName || value };
+  const name = displayName || value;
+
+  // Update filter banner
+  document.getElementById('filterLabel').innerHTML = `Showing: <strong>${name}</strong> tickets`;
+  document.getElementById('filterBanner').classList.add('show');
+
+  // Update KPI card active state
+  document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
+  if (key === 'status') {
+    const map = { Open: 'kpiCardOpen', Resolved: 'kpiCardResolved', Closed: 'kpiCardClosed' };
+    if (map[value]) document.getElementById(map[value]).classList.add('active');
+  }
+
+  filteredTickets = allTickets.filter(t => {
+    if (key === 'assigned_to') return t.assigned_to === value;
+    return t[key] === value;
+  });
+
+  document.getElementById('ticketSearch').value = '';
+  searchedTickets = [...filteredTickets];
+  currentPage = 1;
+  renderTable();
+}
+
+function filterByPriority(label) {
+  const priorityNum = { 'Urgent': 1, 'Medium': 5, 'Low': 10 };
+  const num = priorityNum[label];
+  activeFilter = { key: 'priority', value: num, label: `${label} priority` };
+
+  document.getElementById('filterLabel').innerHTML = `Showing: <strong>${label} priority</strong> tickets`;
+  document.getElementById('filterBanner').classList.add('show');
+  document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
+
+  filteredTickets = allTickets.filter(t => {
+    if (label === 'Urgent') return t.priority === 1;
+    if (label === 'Medium') return t.priority === 5;
+    return t.priority !== 1 && t.priority !== 5;
+  });
+
+  document.getElementById('ticketSearch').value = '';
+  searchedTickets = [...filteredTickets];
+  currentPage = 1;
+  renderTable();
+}
+
+function clearFilter() {
+  activeFilter = null;
+  document.getElementById('filterBanner').classList.remove('show');
+  document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
+  filteredTickets = [...allTickets];
+  document.getElementById('ticketSearch').value = '';
+  searchedTickets = [...filteredTickets];
+  currentPage = 1;
+  renderTable();
+}
+
+function applySearch() {
+  const q = document.getElementById('ticketSearch').value.toLowerCase().trim();
+  if (!q) {
+    searchedTickets = [...filteredTickets];
+  } else {
+    searchedTickets = filteredTickets.filter(t =>
+      (t.subject||'').toLowerCase().includes(q) ||
+      (t.assigned_to||'').toLowerCase().includes(q) ||
+      (t.category||'').toLowerCase().includes(q) ||
+      (t.contact_name||'').toLowerCase().includes(q) ||
+      String(t.ticket_number).includes(q)
+    );
+  }
+  currentPage = 1;
+  renderTable();
+}
+
+// ─── Table rendering ──────────────────────────────────────────────
+function sortTable(key) {
+  if (sortKey === key) sortDir *= -1;
+  else { sortKey = key; sortDir = -1; }
+
+  // Update sort icons
+  document.querySelectorAll('thead th').forEach(th => th.classList.remove('sorted'));
+  const idx = ['ticket_number','subject','status','priority','category','assigned_to','created_on'].indexOf(key);
+  if (idx >= 0) document.querySelectorAll('thead th')[idx].classList.add('sorted');
+
+  renderTable();
+}
+
+function formatDate(str) {
+  if (!str) return '—';
+  return str.slice(0, 10);
+}
+
+function assigneeName(email) {
+  if (!email) return '—';
+  return email.split('@')[0].split('.').map(w => w.charAt(0).toUpperCase()+w.slice(1)).join(' ');
+}
+
+function statusBadge(s) {
+  const cls = { Open:'badge-open', Resolved:'badge-resolved', Closed:'badge-closed' }[s] || '';
+  return `<span class="badge ${cls}">${s}</span>`;
+}
+
+function priorityBadge(p) {
+  const lbl = priorityLabel(p);
+  const cls = { Urgent:'badge-urgent', Medium:'badge-medium', Low:'badge-low' }[lbl];
+  return `<span class="badge ${cls}">${lbl}</span>`;
+}
+
+function renderTable() {
+  const sorted = [...searchedTickets].sort((a, b) => {
+    let av = a[sortKey], bv = b[sortKey];
+    if (av == null) av = '';
+    if (bv == null) bv = '';
+    if (typeof av === 'number') return sortDir * (av - bv);
+    return sortDir * String(av).localeCompare(String(bv));
+  });
+
+  const total = sorted.length;
+  const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+  currentPage = Math.min(currentPage, totalPages);
+  const start = (currentPage - 1) * PAGE_SIZE;
+  const page = sorted.slice(start, start + PAGE_SIZE);
+
+  // Update table title
+  const filterDesc = activeFilter ? activeFilter.label : 'All';
+  document.getElementById('tableTitle').textContent = `${filterDesc} Tickets`;
+  document.getElementById('tableCount').textContent = `${total.toLocaleString()} ticket${total !== 1 ? 's' : ''}`;
+
+  const tbody = document.getElementById('ticketBody');
+  tbody.innerHTML = page.map(t => `
+    <tr onclick="openModal(${t.ticket_number})">
+      <td class="ticket-num">#${t.ticket_number}</td>
+      <td class="ticket-subject" title="${(t.subject||'').replace(/"/g,'&quot;')}">${t.subject || '—'}</td>
+      <td>${statusBadge(t.status)}</td>
+      <td>${priorityBadge(t.priority)}</td>
+      <td style="font-size:12px">${t.category || '—'}</td>
+      <td class="assignee-cell">${assigneeName(t.assigned_to)}</td>
+      <td class="date-cell">${formatDate(t.created_on)}</td>
+    </tr>
+  `).join('');
+
+  // Pager
+  document.getElementById('pageInfo').textContent = `Page ${currentPage} of ${totalPages}`;
+  document.getElementById('totalInfo').textContent = `${total.toLocaleString()} total`;
+  document.getElementById('prevBtn').disabled = currentPage <= 1;
+  document.getElementById('nextBtn').disabled = currentPage >= totalPages;
+}
+
+function changePage(dir) {
+  currentPage += dir;
+  renderTable();
+}
+
+// ─── Modal ────────────────────────────────────────────────────────
+function openModal(ticketNum) {
+  const t = allTickets.find(x => x.ticket_number === ticketNum);
+  if (!t) return;
+  document.getElementById('modalTitle').textContent = `#${t.ticket_number} — ${t.subject || '(no subject)'}`;
+  document.getElementById('modalBody').innerHTML = `
+    <div class="modal-grid">
+      <div class="modal-field"><label>Status</label><div class="val">${statusBadge(t.status)}</div></div>
+      <div class="modal-field"><label>Priority</label><div class="val">${priorityBadge(t.priority)}</div></div>
+      <div class="modal-field"><label>Category</label><div class="val">${t.category || '—'}</div></div>
+      <div class="modal-field"><label>Subcategory</label><div class="val">${t.subcategory || '—'}</div></div>
+      <div class="modal-field"><label>Assigned To</label><div class="val">${assigneeName(t.assigned_to)}</div></div>
+      <div class="modal-field"><label>Contact</label><div class="val">${t.contact_name || '—'}</div></div>
+      <div class="modal-field"><label>Created</label><div class="val">${t.created_on ? t.created_on.slice(0,16) : '—'}</div></div>
+      <div class="modal-field"><label>Due Date</label><div class="val">${t.due_date ? t.due_date.slice(0,10) : '—'}</div></div>
+      ${t.resolved_on ? `<div class="modal-field"><label>Resolved</label><div class="val">${t.resolved_on.slice(0,16)}</div></div>` : ''}
+      ${t.closed_on ? `<div class="modal-field"><label>Closed</label><div class="val">${t.closed_on.slice(0,16)}</div></div>` : ''}
+      <div class="modal-field"><label>Group</label><div class="val">${t.group || '—'}</div></div>
+      <div class="modal-field"><label>Conversations</label><div class="val">${t.conversation_count ?? '—'}</div></div>
+    </div>
+    ${t.description_text ? `<div class="modal-field" style="margin-top:8px"><label>Description</label><div class="modal-desc">${(t.description_text||'').replace(/</g,'&lt;')}</div></div>` : ''}
+  `;
+  document.getElementById('modalBackdrop').classList.add('show');
+}
+
+function closeModal(evt) {
+  if (evt.target === document.getElementById('modalBackdrop')) closeModalDirect();
+}
+function closeModalDirect() {
+  document.getElementById('modalBackdrop').classList.remove('show');
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModalDirect(); });
+
+// ─── Boot ─────────────────────────────────────────────────────────
+window.addEventListener('load', loadData);
+</script>
+</body>
+</html>
