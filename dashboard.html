@@ -184,8 +184,6 @@
 <footer>Gulf Coast Property Management &nbsp;|&nbsp; Desk365 Live Dashboard &nbsp;|&nbsp; <a href="https://github.com/PSFIN/desk365-dashboard" target="_blank" style="color:#aaa">GitHub</a></footer>
 
 <script>
-const API_KEY = "3ee9b8349e32663055ad56f4d5f92ea12758d3360e72623665bd82a97ec800aa";
-const BASE    = "https://gulfcoast.desk365.io/apis/v3/tickets";
 const PALETTE = ['#2e6da4','#e74c3c','#27ae60','#f39c12','#8e44ad','#16a085','#d35400','#2980b9','#c0392b','#1abc9c'];
 
 let charts = {};
@@ -205,46 +203,23 @@ function setLoading(on, detail = '') {
   if (detail) document.getElementById('loadingDetail').textContent = detail;
 }
 
-function updateLastUpdated() {
-  const now = new Date();
-  const str = now.toLocaleDateString('en-US', {month:'short',day:'numeric',year:'numeric'}) +
-              ' ' + now.toLocaleTimeString('en-US', {hour:'2-digit',minute:'2-digit'});
+function updateLastUpdated(str) {
   document.getElementById('lastUpdated').innerHTML = `Last updated: <span>${str}</span>`;
 }
 
-async function fetchPage(page) {
-  const res = await fetch(`${BASE}?per_page=100&page=${page}`, {
-    headers: { 'Authorization': API_KEY }
-  });
-  if (!res.ok) throw new Error(`API error: ${res.status}`);
-  return res.json();
-}
-
 async function loadData() {
-  setLoading(true, 'Connecting to Desk365 API...');
+  setLoading(true, 'Loading ticket data...');
   try {
-    // Get first page + total count
-    const first = await fetchPage(1);
-    const total = first.count;
-    const pages = Math.min(Math.ceil(total / 100), 70);
-    let tickets = [...first.tickets];
+    // Load from pre-fetched data.json (updated daily by GitHub Action)
+    const res = await fetch(`data.json?t=${Date.now()}`);
+    if (!res.ok) throw new Error(`data.json not found (${res.status})`);
+    const json = await res.json();
 
-    setLoading(true, `Fetching tickets... (page 1 of ${pages})`);
-
-    for (let p = 2; p <= pages; p++) {
-      const d = await fetchPage(p);
-      tickets = tickets.concat(d.tickets);
-      if (p % 5 === 0) {
-        document.getElementById('loadingDetail').textContent =
-          `Fetching tickets... (page ${p} of ${pages} — ${tickets.length} loaded)`;
-      }
-    }
-
-    renderDashboard(tickets, total);
-    updateLastUpdated();
-    showStatus(`✅ Dashboard updated — ${tickets.length} tickets loaded from Desk365.`, 'success');
+    renderDashboard(json.tickets, json.total_in_system);
+    updateLastUpdated(json.fetched_at);
+    showStatus(`✅ Loaded ${json.count.toLocaleString()} tickets — data as of ${json.fetched_at}`, 'success');
   } catch(err) {
-    showStatus(`⚠️ Could not fetch live data: ${err.message}. This may be a browser CORS restriction — data shown is from last refresh.`, 'error');
+    showStatus(`⚠️ Could not load data: ${err.message}. The daily data fetch may not have run yet — check back shortly.`, 'error');
     console.error(err);
   } finally {
     setLoading(false);
@@ -306,14 +281,13 @@ function renderDashboard(tickets, totalInSystem) {
   const resolved = count(tickets,'status','Resolved');
   makeChart('statusChart', 'doughnut', ['Open','Closed','Resolved'], [open, closed, resolved]);
 
-  // Priority donut
-  const priorities = { 'Urgent': 0, 'High': 0, 'Medium': 0, 'Low': 0 };
+  // Priority donut — Desk365 values: 1=Urgent, 5=Medium, 10=Low
+  const priorities = { 'Urgent': 0, 'Medium': 0, 'Low': 0 };
   tickets.forEach(t => {
     const p = t.priority;
-    if (p === 1) priorities['Urgent']++;
-    else if (p === 2) priorities['High']++;
-    else if (p === 3 || p === 4) priorities['Medium']++;
-    else priorities['Low']++;
+    if (p === 1)       priorities['Urgent']++;
+    else if (p === 5)  priorities['Medium']++;
+    else               priorities['Low']++;
   });
   makeChart('priorityChart', 'doughnut',
     Object.keys(priorities), Object.values(priorities));

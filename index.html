@@ -281,14 +281,13 @@ function renderDashboard(tickets, totalInSystem) {
   const resolved = count(tickets,'status','Resolved');
   makeChart('statusChart', 'doughnut', ['Open','Closed','Resolved'], [open, closed, resolved]);
 
-  // Priority donut
-  const priorities = { 'Urgent': 0, 'High': 0, 'Medium': 0, 'Low': 0 };
+  // Priority donut — Desk365 values: 1=Urgent, 5=Medium, 10=Low
+  const priorities = { 'Urgent': 0, 'Medium': 0, 'Low': 0 };
   tickets.forEach(t => {
     const p = t.priority;
-    if (p === 1) priorities['Urgent']++;
-    else if (p === 2) priorities['High']++;
-    else if (p === 3 || p === 4) priorities['Medium']++;
-    else priorities['Low']++;
+    if (p === 1)       priorities['Urgent']++;
+    else if (p === 5)  priorities['Medium']++;
+    else               priorities['Low']++;
   });
   makeChart('priorityChart', 'doughnut',
     Object.keys(priorities), Object.values(priorities));
