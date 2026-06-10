@@ -2,8 +2,8 @@ name: Fetch Desk365 Tickets
 
 on:
   schedule:
-    - cron: '0 8 * * *'   # Every day at 8am UTC
-  workflow_dispatch:        # Allow manual trigger via GitHub button
+    - cron: '0 8 * * *'
+  workflow_dispatch:
 
 jobs:
   fetch:
@@ -16,39 +16,62 @@ jobs:
           DESK365_API_KEY: ${{ secrets.DESK365_API_KEY }}
         run: |
           python3 << 'EOF'
-          import urllib.request, json, time, os
+          import urllib.request, urllib.error, json, time, os
           from datetime import datetime, timezone
 
           API_KEY = os.environ["DESK365_API_KEY"]
           BASE = "https://gulfcoast.desk365.io/apis/v3/tickets"
 
-          def fetch(url):
-              req = urllib.request.Request(url, headers={"Authorization": API_KEY})
-              with urllib.request.urlopen(req) as r:
-                  return json.loads(r.read())
+          def fetch_with_retry(url, max_retries=5):
+              for attempt in range(max_retries):
+                  try:
+                      req = urllib.request.Request(url, headers={"Authorization": API_KEY})
+                      with urllib.request.urlopen(req, timeout=30) as r:
+                          return json.loads(r.read())
+                  except urllib.error.HTTPError as e:
+                      if e.code == 429:
+                          wait = (attempt + 1) * 10
+                          print(f"  Rate limited (429), waiting {wait}s before retry {attempt+1}/{max_retries}...")
+                          time.sleep(wait)
+                      else:
+                          raise
+              raise Exception(f"Failed after {max_retries} retries")
 
-          first = fetch(f"{BASE}?per_page=100&page=1")
-          total = first["count"]
-          pages = min((total // 100) + (1 if total % 100 else 0), 70)
-          tickets = list(first["tickets"])
-          print(f"Total: {total}, Pages: {pages}")
+          # Fetch all tickets across all statuses
+          all_tickets = []
+          statuses = ["open", "resolved", "closed"]
 
-          for p in range(2, pages + 1):
-              time.sleep(0.5)
-              d = fetch(f"{BASE}?per_page=100&page={p}")
-              tickets.extend(d["tickets"])
-              if p % 10 == 0:
-                  print(f"  Page {p}/{pages} — {len(tickets)} tickets")
+          for status in statuses:
+              print(f"\nFetching {status} tickets...")
+              first = fetch_with_retry(f"{BASE}?per_page=100&page=1&status={status}")
+              total_status = first.get("count", 0)
+              pages = min((total_status // 100) + (1 if total_status % 100 else 0), 100)
+              tickets = list(first["tickets"])
+              print(f"  {status}: {total_status} total, {pages} pages")
+
+              for p in range(2, pages + 1):
+                  time.sleep(1.5)
+                  d = fetch_with_retry(f"{BASE}?per_page=100&page={p}&status={status}")
+                  tickets.extend(d["tickets"])
+                  if p % 5 == 0:
+                      print(f"  Page {p}/{pages} — {len(tickets)} {status} tickets")
+
+              all_tickets.extend(tickets)
+              print(f"  Done: {len(tickets)} {status} tickets fetched")
+
+          # Get total count
+          total_info = fetch_with_retry(f"{BASE}?per_page=1&page=1")
+          total_in_system = total_info.get("count", len(all_tickets))
 
           output = {
               "fetched_at": datetime.now(timezone.utc).strftime("%b %d, %Y %H:%M UTC"),
-              "total_in_system": total,
-              "count": len(tickets),
-              "tickets": tickets
+              "total_in_system": total_in_system,
+              "count": len(all_tickets),
+              "tickets": all_tickets
           }
           with open("data.json", "w") as f:
               json.dump(output, f)
-          print(f"Done — {len(tickets)} tickets saved")
+          print(f"\n✅ Done — {len(all_tickets)} total tickets saved to data.json")
           EOF
 
       - name: Commit updated data
