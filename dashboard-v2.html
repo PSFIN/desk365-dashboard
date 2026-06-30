@@ -41,7 +41,7 @@
   .container { max-width: 1400px; margin: 0 auto; padding: 24px; }
 
   /* KPI cards — clickable */
-  .kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 24px; }
+  .kpi-row { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; margin-bottom: 24px; }
   .kpi-card {
     background: white; border-radius: 10px; padding: 22px 24px;
     box-shadow: 0 1px 4px rgba(0,0,0,0.08); border-top: 4px solid #2e6da4;
@@ -56,6 +56,9 @@
   .kpi-card.green.active { box-shadow: 0 0 0 3px #27ae60, 0 4px 12px rgba(0,0,0,0.1); }
   .kpi-card.orange { border-top-color: #f39c12; }
   .kpi-card.orange.active { box-shadow: 0 0 0 3px #f39c12, 0 4px 12px rgba(0,0,0,0.1); }
+  .kpi-card.purple { border-top-color: #8e44ad; }
+  .kpi-card.purple .value { color: #8e44ad; }
+  .kpi-card.purple.active { box-shadow: 0 0 0 3px #8e44ad, 0 4px 12px rgba(0,0,0,0.1); }
   .kpi-card.blue   { border-top-color: #2e6da4; }
   .kpi-card .label { font-size: 11px; font-weight: 700; color: #7f8c8d; text-transform: uppercase; letter-spacing: 0.8px; }
   .kpi-card .value { font-size: 44px; font-weight: 700; margin: 6px 0 4px; line-height: 1; }
@@ -166,8 +169,16 @@
 
   footer { text-align: center; padding: 20px; font-size: 12px; color: #aaa; }
 
+  .chart-full { margin-bottom: 24px; }
+  .chart-grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 24px; }
+  .stat-mini { text-align: center; }
+  .stat-mini .stat-val { font-size: 28px; font-weight: 700; }
+  .stat-mini .stat-lbl { font-size: 11px; color: #7f8c8d; text-transform: uppercase; letter-spacing: 0.6px; margin-top: 4px; }
+  .badge-pending { background: #fff3cd; color: #856404; }
+
   @media (max-width: 900px) {
-    .kpi-row { grid-template-columns: repeat(2, 1fr); }
+    .kpi-row { grid-template-columns: repeat(3, 1fr); }
+    .chart-grid-4 { grid-template-columns: repeat(2, 1fr); }
     .chart-grid-3, .chart-grid-2 { grid-template-columns: 1fr; }
     .ticket-search { width: 100%; }
     .modal-grid { grid-template-columns: 1fr; }
@@ -202,28 +213,34 @@
   <!-- KPI Cards -->
   <div class="kpi-row">
     <div class="kpi-card red" onclick="filterBy('status','Open')" id="kpiCardOpen">
-      <div class="label">Open Tickets</div>
+      <div class="label">Open</div>
       <div class="value" id="kpiOpen">—</div>
       <div class="sub">Requires attention</div>
-      <div class="click-hint">▶ Click to view tickets</div>
+      <div class="click-hint">▶ Click to filter</div>
     </div>
-    <div class="kpi-card orange" onclick="filterBy('status','Pending')" id="kpiCardPending">
-      <div class="label">Pending</div>
-      <div class="value" id="kpiPending">—</div>
-      <div class="sub">Awaiting response</div>
-      <div class="click-hint">▶ Click to view tickets</div>
+    <div class="kpi-card green" onclick="filterBy('status','Resolved')" id="kpiCardResolved">
+      <div class="label">Resolved</div>
+      <div class="value" id="kpiResolved">—</div>
+      <div class="sub">Awaiting closure</div>
+      <div class="click-hint">▶ Click to filter</div>
     </div>
-    <div class="kpi-card green" onclick="filterBy('status','Closed')" id="kpiCardClosed">
+    <div class="kpi-card purple" onclick="filterOverdue()" id="kpiCardOverdue">
+      <div class="label">Overdue</div>
+      <div class="value" id="kpiOverdue">—</div>
+      <div class="sub">Past due date</div>
+      <div class="click-hint">▶ Click to filter</div>
+    </div>
+    <div class="kpi-card orange" onclick="filterBy('status','Closed')" id="kpiCardClosed">
       <div class="label">Closed</div>
       <div class="value" id="kpiClosed">—</div>
       <div class="sub">Total closed</div>
-      <div class="click-hint">▶ Click to view tickets</div>
+      <div class="click-hint">▶ Click to filter</div>
     </div>
     <div class="kpi-card blue" onclick="clearFilter()" id="kpiCardTotal">
       <div class="label">Total in System</div>
       <div class="value" id="kpiTotal">—</div>
-      <div class="sub">All active tickets (excl. archived)</div>
-      <div class="click-hint">▶ Click to show all</div>
+      <div class="sub">Excl. archived</div>
+      <div class="click-hint">▶ Show all</div>
     </div>
   </div>
 
@@ -246,6 +263,13 @@
     </div>
   </div>
 
+  <!-- Trend chart — full width -->
+  <div class="chart-card chart-full">
+    <h3>Ticket Volume — Last 12 Months</h3>
+    <div class="chart-hint">Monthly ticket creation trend</div>
+    <canvas id="trendChart" style="max-height:200px"></canvas>
+  </div>
+
   <div class="chart-grid-2">
     <div class="chart-card">
       <h3>Open Tickets by Assignee</h3>
@@ -253,9 +277,22 @@
       <canvas id="assigneeChart"></canvas>
     </div>
     <div class="chart-card">
+      <h3>Tickets by Group</h3>
+      <div class="chart-hint">Click a bar to filter</div>
+      <canvas id="groupChart"></canvas>
+    </div>
+  </div>
+
+  <div class="chart-grid-2">
+    <div class="chart-card">
       <h3>Tickets by Subcategory (Top 8)</h3>
       <div class="chart-hint">Click a bar to filter</div>
       <canvas id="subcatChart"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>Ticket Source</h3>
+      <div class="chart-hint">Click a segment to filter</div>
+      <canvas id="sourceChart"></canvas>
     </div>
   </div>
 
@@ -278,12 +315,14 @@
       <table id="ticketTable">
         <thead>
           <tr>
-            <th onclick="sortTable('ticket_number')">  # <span class="sort-icon">↕</span></th>
+            <th onclick="sortTable('ticket_number')"># <span class="sort-icon">↕</span></th>
             <th onclick="sortTable('subject')">Subject <span class="sort-icon">↕</span></th>
             <th onclick="sortTable('status')">Status <span class="sort-icon">↕</span></th>
             <th onclick="sortTable('priority')">Priority <span class="sort-icon">↕</span></th>
             <th onclick="sortTable('category')">Category <span class="sort-icon">↕</span></th>
+            <th onclick="sortTable('group')">Group <span class="sort-icon">↕</span></th>
             <th onclick="sortTable('assigned_to')">Assignee <span class="sort-icon">↕</span></th>
+            <th onclick="sortTable('due_date')">Due Date <span class="sort-icon">↕</span></th>
             <th onclick="sortTable('created_on')">Created <span class="sort-icon">↕</span></th>
           </tr>
         </thead>
@@ -413,37 +452,51 @@ async function loadData() {
   currentOffset = 0;
 
   try {
-    // ── Step 1: fetch accurate status counts in parallel (3 calls + 1 total) ──
-    const fOpen    = encodeURIComponent(JSON.stringify({status:['Open']}));
-    const fPending = encodeURIComponent(JSON.stringify({status:['Pending']}));
-    const fClosed  = encodeURIComponent(JSON.stringify({status:['Closed']}));
-    const [openRes, pendingRes, closedRes, totalRes] = await Promise.all([
+    // ── Step 1: fetch accurate status counts in parallel ──
+    const fOpen     = encodeURIComponent(JSON.stringify({status:['Open']}));
+    const fResolved = encodeURIComponent(JSON.stringify({status:['Resolved']}));
+    const fClosed   = encodeURIComponent(JSON.stringify({status:['Closed']}));
+    const fActive   = encodeURIComponent(JSON.stringify({status:['Open','Pending','Resolved']}));
+    const [openRes, resolvedRes, closedRes, totalRes] = await Promise.all([
       apiFetch(`/tickets?ticket_count=30&filters=${fOpen}`),
-      apiFetch(`/tickets?ticket_count=30&filters=${fPending}`),
+      apiFetch(`/tickets?ticket_count=30&filters=${fResolved}`),
       apiFetch(`/tickets?ticket_count=30&filters=${fClosed}`),
       apiFetch(`/tickets?ticket_count=30`)
     ]);
     const statusCounts = {
-      open:    openRes.count    ?? 0,
-      pending: pendingRes.count ?? 0,
-      closed:  closedRes.count  ?? 0,
-      total:   totalRes.count   ?? 0
+      open:     openRes.count     ?? 0,
+      resolved: resolvedRes.count ?? 0,
+      closed:   closedRes.count   ?? 0,
+      total:    totalRes.count    ?? 0
     };
     totalInSystem = statusCounts.total;
-    renderKPIsFromCounts(statusCounts);
 
-    // ── Step 2: fetch first 500 tickets (5 × 100) sequentially ──
-    document.getElementById('loadingOverlay').querySelector('p').textContent = 'Loading tickets…';
-    for (let i = 0; i < 5; i++) {
-      const offset = i * FETCH_PER_CALL;
-      const data = await apiFetch(`/tickets?ticket_count=${FETCH_PER_CALL}&offset=${offset}`);
-      const batch = (data.tickets || data.data || [])
-        .filter(t => t.status !== 'Archived');
-      allTickets = allTickets.concat(batch);
-      currentOffset = offset + FETCH_PER_CALL;
+    // ── Step 2: fetch ALL active (Open+Pending+Resolved) tickets first ──
+    document.getElementById('loadingOverlay').querySelector('p').textContent = 'Loading active tickets…';
+    let activeTickets = [];
+    for (let offset = 0; ; offset += FETCH_PER_CALL) {
+      const data = await apiFetch(`/tickets?ticket_count=${FETCH_PER_CALL}&offset=${offset}&filters=${fActive}`);
+      const batch = (data.tickets || data.data || []).filter(t => t.status !== 'Archived');
+      activeTickets = activeTickets.concat(batch);
       if (batch.length < FETCH_PER_CALL) break;
-      if (i < 4) await delay(150);
+      await delay(150);
     }
+
+    // ── Step 3: fetch recent closed tickets for charts/trends (3 × 100) ──
+    document.getElementById('loadingOverlay').querySelector('p').textContent = 'Loading recent history…';
+    let closedTickets = [];
+    for (let i = 0; i < 3; i++) {
+      const data = await apiFetch(`/tickets?ticket_count=${FETCH_PER_CALL}&offset=${i * FETCH_PER_CALL}&filters=${fClosed}`);
+      const batch = (data.tickets || data.data || []);
+      closedTickets = closedTickets.concat(batch);
+      if (batch.length < FETCH_PER_CALL) break;
+      if (i < 2) await delay(150);
+    }
+
+    allTickets = [...activeTickets, ...closedTickets];
+    currentOffset = allTickets.length;
+
+    renderKPIsFromCounts(statusCounts, allTickets);
 
     const now = new Date().toLocaleString('en-US', { month:'short', day:'numeric', year:'numeric', hour:'2-digit', minute:'2-digit', timeZoneName:'short' });
     document.getElementById('lastUpdated').innerHTML = `Last updated: <span>${now}</span>`;
@@ -465,15 +518,22 @@ async function loadData() {
 // ─── KPIs ────────────────────────────────────────────────────────
 function cnt(arr, key, val) { return arr.filter(t => t[key] === val).length; }
 
-function renderKPIsFromCounts(counts) {
-  document.getElementById('kpiOpen').textContent    = counts.open.toLocaleString();
-  document.getElementById('kpiPending').textContent = counts.pending.toLocaleString();
-  document.getElementById('kpiClosed').textContent  = counts.closed.toLocaleString();
-  document.getElementById('kpiTotal').textContent   = counts.total.toLocaleString();
+function renderKPIsFromCounts(counts, tickets) {
+  document.getElementById('kpiOpen').textContent     = counts.open.toLocaleString();
+  document.getElementById('kpiResolved').textContent = counts.resolved.toLocaleString();
+  document.getElementById('kpiClosed').textContent   = counts.closed.toLocaleString();
+  document.getElementById('kpiTotal').textContent    = counts.total.toLocaleString();
+  if (tickets) {
+    const today = new Date(); today.setHours(0,0,0,0);
+    const overdue = tickets.filter(t =>
+      t.due_date && new Date(t.due_date) < today &&
+      !['Closed','Archived'].includes(t.status)
+    ).length;
+    document.getElementById('kpiOverdue').textContent = overdue.toLocaleString();
+  }
 }
 
 function renderKPIs(tickets, total) {
-  // used after load-more to update KPI cards from loaded set only if counts aren't cached
   document.getElementById('kpiTotal').textContent = (total || totalInSystem).toLocaleString();
 }
 
@@ -581,6 +641,61 @@ function renderCharts(tickets) {
   const subs = topN(tickets, t => t.subcategory, 8);
   makeChart('subcatChart', 'bar', subs.map(x=>x[0]), subs.map(x=>x[1]), { rotate: 20 },
     (label) => filterBy('subcategory', label));
+
+  // Group
+  const groups = topN(tickets, t => t.group, 10);
+  makeChart('groupChart', 'bar', groups.map(x=>x[0]), groups.map(x=>x[1]),
+    { indexAxis: 'y', singleColor: '#8e44ad', label: 'Tickets' },
+    (label) => filterBy('group', label));
+
+  // Source
+  const sources = topN(tickets, t => t.source, 8);
+  makeChart('sourceChart', 'doughnut', sources.map(x=>x[0]), sources.map(x=>x[1]), {},
+    (label) => filterBy('source', label));
+
+  // Ticket trend — last 12 months
+  const now = new Date();
+  const monthLabels = [];
+  const monthCounts = {};
+  for (let i = 11; i >= 0; i--) {
+    const d = new Date(now.getFullYear(), now.getMonth() - i, 1);
+    const key = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}`;
+    const label = d.toLocaleString('default', { month:'short', year:'2-digit' });
+    monthLabels.push(label);
+    monthCounts[key] = 0;
+  }
+  tickets.forEach(t => {
+    if (!t.created_on) return;
+    const key = t.created_on.slice(0,7);
+    if (monthCounts[key] !== undefined) monthCounts[key]++;
+  });
+  if (charts['trendChart']) charts['trendChart'].destroy();
+  const tCtx = document.getElementById('trendChart').getContext('2d');
+  charts['trendChart'] = new Chart(tCtx, {
+    type: 'line',
+    data: {
+      labels: monthLabels,
+      datasets: [{
+        label: 'Tickets Created',
+        data: Object.values(monthCounts),
+        borderColor: '#2e6da4',
+        backgroundColor: 'rgba(46,109,164,0.08)',
+        borderWidth: 2,
+        fill: true,
+        tension: 0.3,
+        pointRadius: 4,
+        pointBackgroundColor: '#2e6da4'
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: true,
+      plugins: { legend: { display: false } },
+      scales: {
+        y: { beginAtZero: true, grid: { color: '#f5f5f5' } },
+        x: { grid: { display: false } }
+      }
+    }
+  });
 }
 
 // ─── Filter logic ─────────────────────────────────────────────────
@@ -595,7 +710,7 @@ function filterBy(key, value, displayName) {
   // Update KPI card active state
   document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
   if (key === 'status') {
-    const map = { Open: 'kpiCardOpen', Pending: 'kpiCardPending', Closed: 'kpiCardClosed' };
+    const map = { Open: 'kpiCardOpen', Resolved: 'kpiCardResolved', Closed: 'kpiCardClosed' };
     if (map[value]) document.getElementById(map[value]).classList.add('active');
   }
 
@@ -626,6 +741,23 @@ function filterByPriority(label) {
     return t.priority !== 1 && t.priority !== 5;
   });
 
+  document.getElementById('ticketSearch').value = '';
+  searchedTickets = [...filteredTickets];
+  currentPage = 1;
+  renderTable();
+  scrollToTable();
+}
+
+function filterOverdue() {
+  const today = new Date(); today.setHours(0,0,0,0);
+  activeFilter = { key: '_overdue', value: true, label: 'Overdue' };
+  document.getElementById('filterLabel').innerHTML = `Showing: <strong>Overdue</strong> tickets (past due date)`;
+  document.getElementById('filterBanner').classList.add('show');
+  document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
+  document.getElementById('kpiCardOverdue').classList.add('active');
+  filteredTickets = allTickets.filter(t =>
+    t.due_date && new Date(t.due_date) < today && !['Closed','Archived'].includes(t.status)
+  );
   document.getElementById('ticketSearch').value = '';
   searchedTickets = [...filteredTickets];
   currentPage = 1;
@@ -672,7 +804,7 @@ function sortTable(key) {
 
   // Update sort icons
   document.querySelectorAll('thead th').forEach(th => th.classList.remove('sorted'));
-  const idx = ['ticket_number','subject','status','priority','category','assigned_to','created_on'].indexOf(key);
+  const idx = ['ticket_number','subject','status','priority','category','group','assigned_to','due_date','created_on'].indexOf(key);
   if (idx >= 0) document.querySelectorAll('thead th')[idx].classList.add('sorted');
 
   renderTable();
@@ -719,18 +851,25 @@ function renderTable() {
   document.getElementById('tableTitle').textContent = `${filterDesc} Tickets`;
   document.getElementById('tableCount').textContent = `${total.toLocaleString()} ticket${total !== 1 ? 's' : ''}`;
 
+  const today = new Date(); today.setHours(0,0,0,0);
   const tbody = document.getElementById('ticketBody');
-  tbody.innerHTML = page.map(t => `
+  tbody.innerHTML = page.map(t => {
+    const isOverdue = t.due_date && new Date(t.due_date) < today && !['Closed','Archived'].includes(t.status);
+    const dueCls = isOverdue ? 'style="color:#e74c3c;font-weight:700"' : '';
+    return `
     <tr onclick="openModal(${t.ticket_number})">
       <td class="ticket-num">#${t.ticket_number}</td>
       <td class="ticket-subject" title="${(t.subject||'').replace(/"/g,'&quot;')}">${t.subject || '—'}</td>
       <td>${statusBadge(t.status)}</td>
       <td>${priorityBadge(t.priority)}</td>
       <td style="font-size:12px">${t.category || '—'}</td>
+      <td style="font-size:12px">${t.group || '—'}</td>
       <td class="assignee-cell">${assigneeName(t.assigned_to)}</td>
+      <td class="date-cell" ${dueCls}>${formatDate(t.due_date)}${isOverdue?' ⚠':''}
+      </td>
       <td class="date-cell">${formatDate(t.created_on)}</td>
-    </tr>
-  `).join('');
+    </tr>`;
+  }).join('');
 
   // Pager
   document.getElementById('pageInfo').textContent = `Page ${currentPage} of ${totalPages}`;
