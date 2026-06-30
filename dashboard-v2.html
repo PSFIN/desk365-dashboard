@@ -411,7 +411,7 @@ async function loadMore() {
     const batch = (data.tickets || data.data || []).filter(t => t.status !== 'Archived');
     allTickets = allTickets.concat(batch);
     currentOffset += FETCH_PER_CALL;
-    renderCharts(allTickets);
+    renderCharts(allTickets.filter(t => t.status === 'Open'));
     if (activeFilter) {
       filteredTickets = allTickets.filter(t => {
         if (activeFilter.key === 'priority') {
@@ -495,7 +495,7 @@ async function loadData() {
 
     const now = new Date().toLocaleString('en-US', { month:'short', day:'numeric', year:'numeric', hour:'2-digit', minute:'2-digit', timeZoneName:'short' });
     document.getElementById('lastUpdated').innerHTML = `Last updated: <span>${now}</span>`;
-    renderCharts(allTickets);
+    renderCharts(allTickets.filter(t => t.status === 'Open'));
     clearFilter();
     updateLoadMoreBtn();
     showStatus(`✅ Showing ${allTickets.length.toLocaleString()} of ${totalInSystem.toLocaleString()} tickets (counts are system-wide and accurate)`, 'success');
@@ -707,6 +707,11 @@ function filterBy(key, value, displayName) {
     return t[key] === value;
   });
 
+  // Update charts only for Open/Resolved — not Closed/Total
+  if (key === 'status' && (value === 'Open' || value === 'Resolved')) {
+    renderCharts(filteredTickets);
+  }
+
   document.getElementById('ticketSearch').value = '';
   searchedTickets = [...filteredTickets];
   currentPage = 1;
@@ -746,6 +751,7 @@ function filterOverdue() {
   filteredTickets = allTickets.filter(t =>
     t.due_date && new Date(t.due_date) < today && !['Closed','Archived'].includes(t.status)
   );
+  renderCharts(filteredTickets);
   document.getElementById('ticketSearch').value = '';
   searchedTickets = [...filteredTickets];
   currentPage = 1;
@@ -758,6 +764,7 @@ function clearFilter() {
   document.getElementById('filterBanner').classList.remove('show');
   document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
   filteredTickets = [...allTickets];
+  renderCharts(allTickets.filter(t => t.status === 'Open'));
   document.getElementById('ticketSearch').value = '';
   searchedTickets = [...filteredTickets];
   currentPage = 1;
