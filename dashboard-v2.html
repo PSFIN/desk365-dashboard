@@ -296,6 +296,9 @@
       <button id="nextBtn" onclick="changePage(1)">Next →</button>
       <span id="totalInfo" style="margin-left:8px;"></span>
     </div>
+    <div style="padding: 10px 24px 16px; border-top: 1px solid #f0f2f5;">
+      <button id="loadMoreBtn" onclick="loadMore()" style="display:none; background:#2e6da4; color:white; border:none; padding:8px 18px; border-radius:6px; font-size:12px; cursor:pointer; font-weight:600;">⬇ Load next tickets</button>
+    </div>
   </div>
 
 </div>
@@ -316,15 +319,22 @@
 <script>
 const PALETTE = ['#2e6da4','#e74c3c','#27ae60','#f39c12','#8e44ad','#16a085','#d35400','#2980b9','#c0392b','#1abc9c'];
 
+const API_KEY  = '3ee9b8349e32663055ad56f4d5f92ea12758d3360e72623665bd82a97ec800aa';
+const API_BASE = 'https://gulfcoast.desk365.io/apis/v3';
+const FETCH_PER_CALL = 100;
+
 let allTickets = [];
 let filteredTickets = [];
 let searchedTickets = [];
 let charts = {};
 let currentPage = 1;
-const PAGE_SIZE = 25;
+const PAGE_SIZE = 50;
 let sortKey = 'ticket_number';
-let sortDir = -1; // -1 = desc, 1 = asc
-let activeFilter = null; // {key, value, label}
+let sortDir = -1;
+let activeFilter = null;
+let totalInSystem = 0;
+let currentOffset = 0;
+let isLoadingMore = false;
 
 // ─── Data loading ────────────────────────────────────────────────
 function showStatus(msg, type = 'info') {
@@ -332,25 +342,90 @@ function showStatus(msg, type = 'info') {
   bar.textContent = msg;
   bar.className = 'status-bar ' + type;
   bar.style.display = 'block';
-  if (type === 'success') setTimeout(() => bar.style.display = 'none', 4000);
+  if (type === 'success') setTimeout(() => bar.style.display = 'none', 5000);
+}
+
+async function apiFetch(path) {
+  const res = await fetch(`${API_BASE}${path}`, {
+    headers: { 'Authorization': API_KEY, 'Accept': 'application/json' }
+  });
+  if (!res.ok) throw new Error(`API error ${res.status}: ${res.statusText}`);
+  return res.json();
+}
+
+function updateLoadMoreBtn() {
+  const btn = document.getElementById('loadMoreBtn');
+  if (!btn) return;
+  const remaining = totalInSystem - allTickets.length;
+  if (remaining <= 0) {
+    btn.style.display = 'none';
+  } else {
+    btn.style.display = 'inline-block';
+    btn.textContent = isLoadingMore
+      ? '⏳ Loading…'
+      : `⬇ Load next ${Math.min(FETCH_PER_CALL, remaining).toLocaleString()} tickets (${allTickets.length.toLocaleString()} / ${totalInSystem.toLocaleString()} loaded)`;
+    btn.disabled = isLoadingMore;
+  }
+}
+
+async function loadMore() {
+  if (isLoadingMore || currentOffset >= totalInSystem) return;
+  isLoadingMore = true;
+  updateLoadMoreBtn();
+  try {
+    const data = await apiFetch(`/tickets?ticket_count=${FETCH_PER_CALL}&offset=${currentOffset}`);
+    const batch = data.tickets || data.data || [];
+    allTickets = allTickets.concat(batch);
+    currentOffset += batch.length;
+    renderKPIs(allTickets, totalInSystem);
+    renderCharts(allTickets);
+    if (activeFilter) {
+      filteredTickets = allTickets.filter(t => {
+        if (activeFilter.key === 'priority') {
+          const lbl = activeFilter.label.replace(' priority','');
+          if (lbl === 'Urgent') return t.priority === 1;
+          if (lbl === 'Medium') return t.priority === 5;
+          return t.priority !== 1 && t.priority !== 5;
+        }
+        return t[activeFilter.key] === activeFilter.value;
+      });
+    } else {
+      filteredTickets = [...allTickets];
+    }
+    searchedTickets = [...filteredTickets];
+    renderTable();
+    showStatus(`✅ Loaded ${allTickets.length.toLocaleString()} of ${totalInSystem.toLocaleString()} tickets`, 'success');
+  } catch(err) {
+    showStatus(`⚠️ Load more failed: ${err.message} — you may have hit the rate limit (100 calls/hour). Wait a minute and try again.`, 'error');
+  } finally {
+    isLoadingMore = false;
+    updateLoadMoreBtn();
+  }
 }
 
 async function loadData() {
   document.getElementById('loadingOverlay').classList.add('show');
   document.getElementById('refreshBtn').disabled = true;
   document.getElementById('refreshBtn').classList.add('loading');
+  allTickets = [];
+  currentOffset = 0;
   try {
-    const res = await fetch(`data.json?t=${Date.now()}`);
-    if (!res.ok) throw new Error(`data.json not found (${res.status})`);
-    const json = await res.json();
-    allTickets = json.tickets || [];
-    document.getElementById('lastUpdated').innerHTML = `Last updated: <span>${json.fetched_at}</span>`;
-    renderKPIs(allTickets, json.total_in_system);
+    const data = await apiFetch(`/tickets?ticket_count=${FETCH_PER_CALL}&offset=0`);
+    totalInSystem = data.count ?? data.total ?? 0;
+    const batch = data.tickets || data.data || [];
+    allTickets = batch;
+    currentOffset = batch.length;
+
+    const now = new Date().toLocaleString('en-US', { month:'short', day:'numeric', year:'numeric', hour:'2-digit', minute:'2-digit', timeZoneName:'short' });
+    document.getElementById('lastUpdated').innerHTML = `Last updated: <span>${now}</span>`;
+    renderKPIs(allTickets, totalInSystem);
     renderCharts(allTickets);
     clearFilter();
-    showStatus(`✅ Loaded ${json.count.toLocaleString()} tickets — data as of ${json.fetched_at}`, 'success');
+    updateLoadMoreBtn();
+    showStatus(`✅ Showing ${batch.length.toLocaleString()} of ${totalInSystem.toLocaleString()} tickets — click "Load next" below the table to fetch more`, 'success');
   } catch(err) {
-    showStatus(`⚠️ Could not load data: ${err.message}`, 'error');
+    showStatus(`⚠️ Could not load from Desk365 API: ${err.message}`, 'error');
+    console.error(err);
   } finally {
     document.getElementById('loadingOverlay').classList.remove('show');
     document.getElementById('refreshBtn').disabled = false;
