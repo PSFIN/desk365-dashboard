@@ -258,16 +258,9 @@
     </div>
   </div>
 
-  <!-- Trend chart — full width -->
-  <div class="chart-card chart-full">
-    <h3>Ticket Volume — Last 12 Months</h3>
-    <div class="chart-hint">Monthly ticket creation trend</div>
-    <canvas id="trendChart" style="max-height:200px"></canvas>
-  </div>
-
   <div class="chart-grid-2">
     <div class="chart-card">
-      <h3>Open Tickets by Assignee</h3>
+      <h3>Tickets by Assignee</h3>
       <div class="chart-hint">Click a bar to filter by assignee</div>
       <canvas id="assigneeChart"></canvas>
     </div>
@@ -278,17 +271,10 @@
     </div>
   </div>
 
-  <div class="chart-grid-2">
-    <div class="chart-card">
-      <h3>Tickets by Subcategory (Top 8)</h3>
-      <div class="chart-hint">Click a bar to filter</div>
-      <canvas id="subcatChart"></canvas>
-    </div>
-    <div class="chart-card">
-      <h3>Ticket Source</h3>
-      <div class="chart-hint">Click a segment to filter</div>
-      <canvas id="sourceChart"></canvas>
-    </div>
+  <div class="chart-card chart-full">
+    <h3>Tickets by Subcategory (Top 10)</h3>
+    <div class="chart-hint">Click a bar to filter</div>
+    <canvas id="subcatChart" style="max-height:220px"></canvas>
   </div>
 
   <!-- Active filter banner -->
@@ -599,9 +585,8 @@ function renderCharts(tickets) {
     Object.keys(prioMap), Object.values(prioMap), {},
     (label) => filterByPriority(label));
 
-  // Assignee (open tickets only)
-  const openTickets = tickets.filter(t => t.status === 'Open');
-  const asgn = topN(openTickets, t => t.assigned_to, 8)
+  // Assignee — based on current ticket set
+  const asgn = topN(tickets, t => t.assigned_to, 10)
     .map(([email, cnt]) => [
       email ? email.split('@')[0].split('.').map(w => w.charAt(0).toUpperCase()+w.slice(1)).join(' ') : 'Unassigned',
       cnt,
@@ -625,8 +610,8 @@ function renderCharts(tickets) {
   };
   charts['assigneeChart'].update();
 
-  // Subcategory
-  const subs = topN(tickets, t => t.subcategory, 8);
+  // Subcategory top 10
+  const subs = topN(tickets, t => t.subcategory, 10);
   makeChart('subcatChart', 'bar', subs.map(x=>x[0]), subs.map(x=>x[1]), { rotate: 20 },
     (label) => filterBy('subcategory', label));
 
@@ -636,54 +621,6 @@ function renderCharts(tickets) {
     { indexAxis: 'y', singleColor: '#8e44ad', label: 'Tickets' },
     (label) => filterBy('group', label));
 
-  // Source
-  const sources = topN(tickets, t => t.source, 8);
-  makeChart('sourceChart', 'doughnut', sources.map(x=>x[0]), sources.map(x=>x[1]), {},
-    (label) => filterBy('source', label));
-
-  // Ticket trend — last 12 months
-  const now = new Date();
-  const monthLabels = [];
-  const monthCounts = {};
-  for (let i = 11; i >= 0; i--) {
-    const d = new Date(now.getFullYear(), now.getMonth() - i, 1);
-    const key = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}`;
-    const label = d.toLocaleString('default', { month:'short', year:'2-digit' });
-    monthLabels.push(label);
-    monthCounts[key] = 0;
-  }
-  tickets.forEach(t => {
-    if (!t.created_on) return;
-    const key = t.created_on.slice(0,7);
-    if (monthCounts[key] !== undefined) monthCounts[key]++;
-  });
-  if (charts['trendChart']) charts['trendChart'].destroy();
-  const tCtx = document.getElementById('trendChart').getContext('2d');
-  charts['trendChart'] = new Chart(tCtx, {
-    type: 'line',
-    data: {
-      labels: monthLabels,
-      datasets: [{
-        label: 'Tickets Created',
-        data: Object.values(monthCounts),
-        borderColor: '#2e6da4',
-        backgroundColor: 'rgba(46,109,164,0.08)',
-        borderWidth: 2,
-        fill: true,
-        tension: 0.3,
-        pointRadius: 4,
-        pointBackgroundColor: '#2e6da4'
-      }]
-    },
-    options: {
-      responsive: true, maintainAspectRatio: true,
-      plugins: { legend: { display: false } },
-      scales: {
-        y: { beginAtZero: true, grid: { color: '#f5f5f5' } },
-        x: { grid: { display: false } }
-      }
-    }
-  });
 }
 
 // ─── Filter logic ─────────────────────────────────────────────────
