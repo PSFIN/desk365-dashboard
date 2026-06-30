@@ -207,13 +207,13 @@
       <div class="sub">Requires attention</div>
       <div class="click-hint">▶ Click to view tickets</div>
     </div>
-    <div class="kpi-card green" onclick="filterBy('status','Resolved')" id="kpiCardResolved">
-      <div class="label">Resolved</div>
-      <div class="value" id="kpiResolved">—</div>
-      <div class="sub">Successfully resolved</div>
+    <div class="kpi-card orange" onclick="filterBy('status','Pending')" id="kpiCardPending">
+      <div class="label">Pending</div>
+      <div class="value" id="kpiPending">—</div>
+      <div class="sub">Awaiting response</div>
       <div class="click-hint">▶ Click to view tickets</div>
     </div>
-    <div class="kpi-card orange" onclick="filterBy('status','Closed')" id="kpiCardClosed">
+    <div class="kpi-card green" onclick="filterBy('status','Closed')" id="kpiCardClosed">
       <div class="label">Closed</div>
       <div class="value" id="kpiClosed">—</div>
       <div class="sub">Total closed</div>
@@ -222,7 +222,7 @@
     <div class="kpi-card blue" onclick="clearFilter()" id="kpiCardTotal">
       <div class="label">Total in System</div>
       <div class="value" id="kpiTotal">—</div>
-      <div class="sub">All time tickets</div>
+      <div class="sub">All active tickets (excl. archived)</div>
       <div class="click-hint">▶ Click to show all</div>
     </div>
   </div>
@@ -374,10 +374,9 @@ async function loadMore() {
   updateLoadMoreBtn();
   try {
     const data = await apiFetch(`/tickets?ticket_count=${FETCH_PER_CALL}&offset=${currentOffset}`);
-    const batch = data.tickets || data.data || [];
+    const batch = (data.tickets || data.data || []).filter(t => t.status !== 'Archived');
     allTickets = allTickets.concat(batch);
-    currentOffset += batch.length;
-    renderKPIs(allTickets, totalInSystem);
+    currentOffset += FETCH_PER_CALL;
     renderCharts(allTickets);
     if (activeFilter) {
       filteredTickets = allTickets.filter(t => {
@@ -403,31 +402,61 @@ async function loadMore() {
   }
 }
 
+const delay = ms => new Promise(r => setTimeout(r, ms));
+
 async function loadData() {
   document.getElementById('loadingOverlay').classList.add('show');
+  document.getElementById('loadingOverlay').querySelector('p').textContent = 'Fetching ticket counts…';
   document.getElementById('refreshBtn').disabled = true;
   document.getElementById('refreshBtn').classList.add('loading');
   allTickets = [];
   currentOffset = 0;
+
   try {
-    const data = await apiFetch(`/tickets?ticket_count=${FETCH_PER_CALL}&offset=0`);
-    totalInSystem = data.count ?? data.total ?? 0;
-    const batch = data.tickets || data.data || [];
-    allTickets = batch;
-    currentOffset = batch.length;
+    // ── Step 1: fetch accurate status counts in parallel (3 calls + 1 total) ──
+    const fOpen    = encodeURIComponent(JSON.stringify({status:['Open']}));
+    const fPending = encodeURIComponent(JSON.stringify({status:['Pending']}));
+    const fClosed  = encodeURIComponent(JSON.stringify({status:['Closed']}));
+    const [openRes, pendingRes, closedRes, totalRes] = await Promise.all([
+      apiFetch(`/tickets?ticket_count=30&filters=${fOpen}`),
+      apiFetch(`/tickets?ticket_count=30&filters=${fPending}`),
+      apiFetch(`/tickets?ticket_count=30&filters=${fClosed}`),
+      apiFetch(`/tickets?ticket_count=30`)
+    ]);
+    const statusCounts = {
+      open:    openRes.count    ?? 0,
+      pending: pendingRes.count ?? 0,
+      closed:  closedRes.count  ?? 0,
+      total:   totalRes.count   ?? 0
+    };
+    totalInSystem = statusCounts.total;
+    renderKPIsFromCounts(statusCounts);
+
+    // ── Step 2: fetch first 500 tickets (5 × 100) sequentially ──
+    document.getElementById('loadingOverlay').querySelector('p').textContent = 'Loading tickets…';
+    for (let i = 0; i < 5; i++) {
+      const offset = i * FETCH_PER_CALL;
+      const data = await apiFetch(`/tickets?ticket_count=${FETCH_PER_CALL}&offset=${offset}`);
+      const batch = (data.tickets || data.data || [])
+        .filter(t => t.status !== 'Archived');
+      allTickets = allTickets.concat(batch);
+      currentOffset = offset + FETCH_PER_CALL;
+      if (batch.length < FETCH_PER_CALL) break;
+      if (i < 4) await delay(150);
+    }
 
     const now = new Date().toLocaleString('en-US', { month:'short', day:'numeric', year:'numeric', hour:'2-digit', minute:'2-digit', timeZoneName:'short' });
     document.getElementById('lastUpdated').innerHTML = `Last updated: <span>${now}</span>`;
-    renderKPIs(allTickets, totalInSystem);
     renderCharts(allTickets);
     clearFilter();
     updateLoadMoreBtn();
-    showStatus(`✅ Showing ${batch.length.toLocaleString()} of ${totalInSystem.toLocaleString()} tickets — click "Load next" below the table to fetch more`, 'success');
+    showStatus(`✅ Showing ${allTickets.length.toLocaleString()} of ${totalInSystem.toLocaleString()} tickets (counts are system-wide and accurate)`, 'success');
   } catch(err) {
     showStatus(`⚠️ Could not load from Desk365 API: ${err.message}`, 'error');
     console.error(err);
   } finally {
     document.getElementById('loadingOverlay').classList.remove('show');
+    document.getElementById('loadingOverlay').querySelector('p').textContent = 'Loading ticket data…';
     document.getElementById('refreshBtn').disabled = false;
     document.getElementById('refreshBtn').classList.remove('loading');
   }
@@ -436,11 +465,16 @@ async function loadData() {
 // ─── KPIs ────────────────────────────────────────────────────────
 function cnt(arr, key, val) { return arr.filter(t => t[key] === val).length; }
 
-function renderKPIs(tickets, totalInSystem) {
-  document.getElementById('kpiOpen').textContent     = cnt(tickets,'status','Open').toLocaleString();
-  document.getElementById('kpiResolved').textContent = cnt(tickets,'status','Resolved').toLocaleString();
-  document.getElementById('kpiClosed').textContent   = cnt(tickets,'status','Closed').toLocaleString();
-  document.getElementById('kpiTotal').textContent    = totalInSystem.toLocaleString();
+function renderKPIsFromCounts(counts) {
+  document.getElementById('kpiOpen').textContent    = counts.open.toLocaleString();
+  document.getElementById('kpiPending').textContent = counts.pending.toLocaleString();
+  document.getElementById('kpiClosed').textContent  = counts.closed.toLocaleString();
+  document.getElementById('kpiTotal').textContent   = counts.total.toLocaleString();
+}
+
+function renderKPIs(tickets, total) {
+  // used after load-more to update KPI cards from loaded set only if counts aren't cached
+  document.getElementById('kpiTotal').textContent = (total || totalInSystem).toLocaleString();
 }
 
 // ─── Charts ──────────────────────────────────────────────────────
@@ -561,7 +595,7 @@ function filterBy(key, value, displayName) {
   // Update KPI card active state
   document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
   if (key === 'status') {
-    const map = { Open: 'kpiCardOpen', Resolved: 'kpiCardResolved', Closed: 'kpiCardClosed' };
+    const map = { Open: 'kpiCardOpen', Pending: 'kpiCardPending', Closed: 'kpiCardClosed' };
     if (map[value]) document.getElementById(map[value]).classList.add('active');
   }
 
