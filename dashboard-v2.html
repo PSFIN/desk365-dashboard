@@ -499,6 +499,7 @@ function filterBy(key, value, displayName) {
   searchedTickets = [...filteredTickets];
   currentPage = 1;
   renderTable();
+  scrollToTable();
 }
 
 function filterByPriority(label) {
@@ -520,6 +521,7 @@ function filterByPriority(label) {
   searchedTickets = [...filteredTickets];
   currentPage = 1;
   renderTable();
+  scrollToTable();
 }
 
 function clearFilter() {
@@ -531,6 +533,10 @@ function clearFilter() {
   searchedTickets = [...filteredTickets];
   currentPage = 1;
   renderTable();
+}
+
+function scrollToTable() {
+  document.getElementById('filterBanner').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function applySearch() {

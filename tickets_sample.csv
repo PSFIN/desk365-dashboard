@@ -1,0 +1,134 @@
+TicketID,Subject,Status,Priority,Category,Group,AssignedTo,CreatedDate,AgingDays,DueDate,SLABreached
+10001,Support request #10001,Pending,Medium,Vacation Rentals,Maintenance Work Orders,Mike Torres,2026-06-02,4,2026-06-09,No
+10002,Support request #10002,Open,Low,HOA Management,Maintenance Work Orders,Sarah Johnson,2026-05-23,14,2026-06-06,No
+10003,Support request #10003,Open,Medium,Vacation Rentals,Cleaning Request/Issues,Mike Torres,2026-06-01,5,2026-06-08,No
+10004,Support request #10004,Open,Medium,HOA Management,Cleaning Request/Issues,Beth Roberts,2026-06-02,4,2026-06-09,No
+10005,Support request #10005,Open,Medium,HOA Management,Cleaning Request/Issues,Lisa Chen,2026-04-13,54,2026-04-20,Yes
+10006,Support request #10006,Open,High,Vacation Rentals,Maintenance Work Orders,Beth Roberts,2026-06-05,1,2026-06-10,No
+10007,Support request #10007,Open,Medium,Annual Rentals,Cleaning Request/Issues,Sarah Johnson,2026-05-01,36,2026-05-08,Yes
+10008,Support request #10008,Open,Low,Annual Rentals,Cleaning Request/Issues,Amy Williams,2026-05-24,13,2026-06-07,No
+10009,Support request #10009,Open,Low,HOA Management,Maintenance Work Orders,Sarah Johnson,2026-05-31,6,2026-06-14,No
+10010,Support request #10010,Open,Urgent,Annual Rentals,Cleaning Request/Issues,Beth Roberts,2026-04-18,49,2026-04-21,Yes
+10011,Support request #10011,Open,Medium,HOA Management,Cleaning Request/Issues,Sarah Johnson,2026-04-20,47,2026-04-27,Yes
+10012,Support request #10012,Open,Low,Vacation Rentals,Maintenance Work Orders,Mike Torres,2026-05-07,30,2026-05-21,Yes
+10013,Support request #10013,Open,High,HOA Management,Cleaning Request/Issues,Lisa Chen,2026-04-18,49,2026-04-23,Yes
+10014,Support request #10014,Open,Low,Annual Rentals,Cleaning Request/Issues,Beth Roberts,2026-04-21,46,2026-05-05,Yes
+10015,Support request #10015,Open,High,HOA Management,Cleaning Request/Issues,Mike Torres,2026-03-15,83,2026-03-20,Yes
+10016,Support request #10016,Open,Medium,Annual Rentals,Cleaning Request/Issues,Lisa Chen,2026-05-05,32,2026-05-12,Yes
+10017,Support request #10017,Open,Urgent,Vacation Rentals,Maintenance Work Orders,Beth Roberts,2026-03-16,82,2026-03-19,Yes
+10018,Support request #10018,Open,Medium,Vacation Rentals,Cleaning Request/Issues,Lisa Chen,2026-05-29,8,2026-06-05,Yes
+10019,Support request #10019,Open,Medium,HOA Management,Cleaning Request/Issues,Beth Roberts,2026-05-28,9,2026-06-04,Yes
+10020,Support request #10020,Open,Medium,HOA Management,Cleaning Request/Issues,David Kim,2026-03-14,84,2026-03-21,Yes
+10021,Support request #10021,Open,Low,HOA Management,Cleaning Request/Issues,Amy Williams,2026-05-19,18,2026-06-02,Yes
+10022,Support request #10022,Open,Low,HOA Management,Cleaning Request/Issues,David Kim,2026-03-23,75,2026-04-06,Yes
+10023,Support request #10023,Open,Medium,Vacation Rentals,Cleaning Request/Issues,Sarah Johnson,2026-05-19,18,2026-05-26,Yes
+10024,Support request #10024,Open,High,HOA Management,Cleaning Request/Issues,David Kim,2026-05-17,20,2026-05-22,Yes
+10025,Support request #10025,Open,Medium,Annual Rentals,Cleaning Request/Issues,Amy Williams,2026-04-17,50,2026-04-24,Yes
+10026,Support request #10026,Open,Low,Vacation Rentals,Maintenance Work Orders,Beth Roberts,2026-03-27,71,2026-04-10,Yes
+10027,Support request #10027,Open,Medium,Annual Rentals,Maintenance Work Orders,Beth Roberts,2026-03-10,88,2026-03-17,Yes
+10028,Support request #10028,Open,Medium,Annual Rentals,Cleaning Request/Issues,Sarah Johnson,2026-04-29,38,2026-05-06,Yes
+10029,Support request #10029,Open,Urgent,Vacation Rentals,Signal Inn,Amy Williams,2026-05-03,34,2026-05-06,Yes
+10030,Support request #10030,Open,High,HOA Management,Cleaning Request/Issues,Amy Williams,2026-03-17,81,2026-03-22,Yes
+10031,Support request #10031,Open,Medium,Vacation Rentals,Cleaning Request/Issues,Amy Williams,2026-05-17,20,2026-05-24,Yes
+10032,Support request #10032,Open,Urgent,HOA Management,Maintenance Work Orders,Lisa Chen,2026-03-30,68,2026-04-02,Yes
+10033,Support request #10033,Open,Medium,Annual Rentals,Maintenance Work Orders,Mike Torres,2026-05-22,15,2026-05-29,Yes
+10034,Support request #10034,Open,Low,Vacation Rentals,Maintenance Work Orders,Beth Roberts,2026-03-25,73,2026-04-08,Yes
+10035,Support request #10035,Open,Medium,HOA Management,Signal Inn,Mike Torres,2026-05-28,9,2026-06-04,Yes
+10036,Support request #10036,Open,Low,Vacation Rentals,Maintenance Work Orders,Lisa Chen,2026-04-06,61,2026-04-20,Yes
+10037,Support request #10037,Open,Medium,Vacation Rentals,Cleaning Request/Issues,Amy Williams,2026-03-20,78,2026-03-27,Yes
+10038,Support request #10038,Open,Medium,Annual Rentals,Cleaning Request/Issues,David Kim,2026-03-09,89,2026-03-16,Yes
+10039,Support request #10039,Open,Urgent,HOA Management,Cleaning Request/Issues,David Kim,2026-03-14,84,2026-03-17,Yes
+10040,Support request #10040,Open,Low,Vacation Rentals,Cleaning Request/Issues,Amy Williams,2026-05-08,29,2026-05-22,Yes
+10041,Support request #10041,Open,Medium,Vacation Rentals,Cleaning Request/Issues,Beth Roberts,2026-03-22,76,2026-03-29,Yes
+10042,Support request #10042,Open,Medium,Vacation Rentals,Cleaning Request/Issues,Lisa Chen,2026-05-07,30,2026-05-14,Yes
+10043,Support request #10043,Open,Low,Annual Rentals,Cleaning Request/Issues,Mike Torres,2026-05-06,31,2026-05-20,Yes
+10044,Support request #10044,Open,Medium,Vacation Rentals,Cleaning Request/Issues,David Kim,2026-03-24,74,2026-03-31,Yes
+10045,Support request #10045,Open,High,HOA Management,Cleaning Request/Issues,David Kim,2026-05-12,25,2026-05-17,Yes
+10046,Support request #10046,Open,Medium,HOA Management,Cleaning Request/Issues,Sarah Johnson,2026-04-14,53,2026-04-21,Yes
+10047,Support request #10047,Open,Medium,Annual Rentals,Cleaning Request/Issues,Beth Roberts,2026-03-15,83,2026-03-22,Yes
+10048,Support request #10048,Open,Medium,Vacation Rentals,Cleaning Request/Issues,Amy Williams,2026-05-23,14,2026-05-30,Yes
+10049,Support request #10049,Open,Medium,Annual Rentals,Cleaning Request/Issues,Mike Torres,2026-04-12,55,2026-04-19,Yes
+10050,Support request #10050,Open,High,HOA Management,Cleaning Request/Issues,Sarah Johnson,2026-05-27,10,2026-06-01,Yes
+10051,Support request #10051,Open,Low,Vacation Rentals,Maintenance Work Orders,Mike Torres,2026-03-28,70,2026-04-11,Yes
+10052,Support request #10052,Open,Low,Annual Rentals,Cleaning Request/Issues,Sarah Johnson,2026-04-04,63,2026-04-18,Yes
+10053,Support request #10053,Open,Low,Annual Rentals,Signal Inn,David Kim,2026-06-05,1,2026-06-19,No
+10054,Support request #10054,Open,Low,HOA Management,Signal Inn,Beth Roberts,2026-03-08,90,2026-03-22,Yes
+10055,Support request #10055,Open,Medium,Vacation Rentals,Cleaning Request/Issues,Sarah Johnson,2026-05-17,20,2026-05-24,Yes
+10056,Support request #10056,Open,Medium,Annual Rentals,Cleaning Request/Issues,Sarah Johnson,2026-03-28,70,2026-04-04,Yes
+10057,Support request #10057,Open,Low,HOA Management,Cleaning Request/Issues,Mike Torres,2026-04-05,62,2026-04-19,Yes
+10058,Support request #10058,Open,Low,Vacation Rentals,Cleaning Request/Issues,Sarah Johnson,2026-04-01,66,2026-04-15,Yes
+10059,Support request #10059,Open,Medium,Annual Rentals,Maintenance Work Orders,Sarah Johnson,2026-03-11,87,2026-03-18,Yes
+10060,Support request #10060,Open,High,HOA Management,Cleaning Request/Issues,Sarah Johnson,2026-03-25,73,2026-03-30,Yes
+10061,Support request #10061,Open,Medium,HOA Management,Cleaning Request/Issues,Amy Williams,2026-04-13,54,2026-04-20,Yes
+10062,Support request #10062,Open,Medium,HOA Management,Cleaning Request/Issues,Lisa Chen,2026-05-03,34,2026-05-10,Yes
+10063,Support request #10063,Open,Low,HOA Management,Cleaning Request/Issues,Lisa Chen,2026-04-16,51,2026-04-30,Yes
+10064,Support request #10064,Open,Medium,HOA Management,Cleaning Request/Issues,Amy Williams,2026-05-27,10,2026-06-03,Yes
+10065,Support request #10065,Open,Urgent,HOA Management,Cleaning Request/Issues,Lisa Chen,2026-05-27,10,2026-05-30,Yes
+10066,Support request #10066,Open,Low,Vacation Rentals,Maintenance Work Orders,Lisa Chen,2026-04-22,45,2026-05-06,Yes
+10067,Support request #10067,Open,Low,HOA Management,Maintenance Work Orders,Lisa Chen,2026-04-10,57,2026-04-24,Yes
+10068,Support request #10068,Open,Medium,HOA Management,Cleaning Request/Issues,Amy Williams,2026-03-14,84,2026-03-21,Yes
+10069,Support request #10069,Open,Low,Vacation Rentals,Cleaning Request/Issues,Lisa Chen,2026-03-13,85,2026-03-27,Yes
+10070,Support request #10070,Open,Low,Vacation Rentals,Maintenance Work Orders,Lisa Chen,2026-05-23,14,2026-06-06,No
+10071,Support request #10071,Open,Low,Vacation Rentals,Maintenance Work Orders,Beth Roberts,2026-05-10,27,2026-05-24,Yes
+10072,Support request #10072,Open,Medium,Annual Rentals,Cleaning Request/Issues,Sarah Johnson,2026-05-03,34,2026-05-10,Yes
+10073,Support request #10073,Open,Low,Vacation Rentals,Maintenance Work Orders,Sarah Johnson,2026-04-12,55,2026-04-26,Yes
+10074,Support request #10074,Open,Medium,Annual Rentals,Cleaning Request/Issues,Mike Torres,2026-05-20,17,2026-05-27,Yes
+10075,Support request #10075,Open,Medium,HOA Management,Maintenance Work Orders,Sarah Johnson,2026-03-27,71,2026-04-03,Yes
+10076,Support request #10076,Open,Low,HOA Management,Maintenance Work Orders,Sarah Johnson,2026-03-09,89,2026-03-23,Yes
+10077,Support request #10077,Open,High,Annual Rentals,Cleaning Request/Issues,Mike Torres,2026-03-23,75,2026-03-28,Yes
+10078,Support request #10078,Open,Low,Vacation Rentals,Maintenance Work Orders,Lisa Chen,2026-04-20,47,2026-05-04,Yes
+10079,Support request #10079,Open,Low,Annual Rentals,Cleaning Request/Issues,Amy Williams,2026-05-05,32,2026-05-19,Yes
+10080,Support request #10080,Open,High,HOA Management,Signal Inn,Mike Torres,2026-04-14,53,2026-04-19,Yes
+10081,Support request #10081,Open,High,Vacation Rentals,Maintenance Work Orders,David Kim,2026-05-06,31,2026-05-11,Yes
+10082,Support request #10082,Open,Low,Annual Rentals,Maintenance Work Orders,Beth Roberts,2026-04-24,43,2026-05-08,Yes
+10083,Support request #10083,Open,High,HOA Management,Cleaning Request/Issues,Sarah Johnson,2026-05-05,32,2026-05-10,Yes
+10084,Support request #10084,Open,Medium,Vacation Rentals,Maintenance Work Orders,Mike Torres,2026-06-01,5,2026-06-08,No
+10085,Support request #10085,Open,High,Vacation Rentals,Cleaning Request/Issues,Mike Torres,2026-04-08,59,2026-04-13,Yes
+10086,Support request #10086,Open,Low,Annual Rentals,Cleaning Request/Issues,Sarah Johnson,2026-05-12,25,2026-05-26,Yes
+10087,Support request #10087,Open,Urgent,HOA Management,Cleaning Request/Issues,David Kim,2026-05-01,36,2026-05-04,Yes
+10088,Support request #10088,Open,Medium,Vacation Rentals,Cleaning Request/Issues,Sarah Johnson,2026-03-29,69,2026-04-05,Yes
+10089,Support request #10089,Open,High,Annual Rentals,Cleaning Request/Issues,Sarah Johnson,2026-05-03,34,2026-05-08,Yes
+10090,Support request #10090,Open,Low,Annual Rentals,Cleaning Request/Issues,David Kim,2026-04-11,56,2026-04-25,Yes
+10091,Support request #10091,Open,Medium,HOA Management,Cleaning Request/Issues,Mike Torres,2026-04-01,66,2026-04-08,Yes
+10092,Support request #10092,Open,Low,HOA Management,Cleaning Request/Issues,Beth Roberts,2026-04-11,56,2026-04-25,Yes
+10093,Support request #10093,Open,Medium,Annual Rentals,Cleaning Request/Issues,Sarah Johnson,2026-03-12,86,2026-03-19,Yes
+10094,Support request #10094,Open,High,HOA Management,Cleaning Request/Issues,Sarah Johnson,2026-04-24,43,2026-04-29,Yes
+10095,Support request #10095,Open,Medium,HOA Management,Cleaning Request/Issues,David Kim,2026-04-28,39,2026-05-05,Yes
+10096,Support request #10096,Open,Medium,Vacation Rentals,Cleaning Request/Issues,Mike Torres,2026-03-08,90,2026-03-15,Yes
+10097,Support request #10097,Open,Medium,Vacation Rentals,Maintenance Work Orders,Amy Williams,2026-04-18,49,2026-04-25,Yes
+10098,Support request #10098,Open,Medium,Vacation Rentals,Cleaning Request/Issues,Lisa Chen,2026-04-15,52,2026-04-22,Yes
+10099,Support request #10099,Open,Low,HOA Management,Maintenance Work Orders,Beth Roberts,2026-04-11,56,2026-04-25,Yes
+10100,Support request #10100,Open,Medium,Vacation Rentals,Cleaning Request/Issues,Amy Williams,2026-04-10,57,2026-04-17,Yes
+10101,Support request #10101,Open,Medium,Annual Rentals,Cleaning Request/Issues,Amy Williams,2026-05-15,22,2026-05-22,Yes
+10102,Support request #10102,Open,Medium,Vacation Rentals,Cleaning Request/Issues,Beth Roberts,2026-03-18,80,2026-03-25,Yes
+10103,Support request #10103,Open,Medium,Vacation Rentals,Cleaning Request/Issues,Mike Torres,2026-05-11,26,2026-05-18,Yes
+10104,Support request #10104,Open,Urgent,Vacation Rentals,Maintenance Work Orders,David Kim,2026-03-19,79,2026-03-22,Yes
+10105,Support request #10105,Open,Medium,HOA Management,Cleaning Request/Issues,Beth Roberts,2026-03-17,81,2026-03-24,Yes
+10106,Support request #10106,Open,Medium,HOA Management,Cleaning Request/Issues,Beth Roberts,2026-04-15,52,2026-04-22,Yes
+10107,Support request #10107,Open,Low,Vacation Rentals,Maintenance Work Orders,Mike Torres,2026-05-23,14,2026-06-06,No
+10108,Support request #10108,Open,High,Vacation Rentals,Cleaning Request/Issues,Amy Williams,2026-03-08,90,2026-03-13,Yes
+10109,Support request #10109,Open,Low,Annual Rentals,Cleaning Request/Issues,Beth Roberts,2026-05-21,16,2026-06-04,Yes
+10110,Support request #10110,Open,Medium,Annual Rentals,Cleaning Request/Issues,Amy Williams,2026-03-26,72,2026-04-02,Yes
+10111,Support request #10111,Open,High,HOA Management,Cleaning Request/Issues,David Kim,2026-04-02,65,2026-04-07,Yes
+10112,Support request #10112,Open,High,Vacation Rentals,Cleaning Request/Issues,Beth Roberts,2026-04-06,61,2026-04-11,Yes
+10113,Support request #10113,Open,Low,Vacation Rentals,Cleaning Request/Issues,Lisa Chen,2026-03-31,67,2026-04-14,Yes
+10114,Support request #10114,Open,Medium,Annual Rentals,Cleaning Request/Issues,Lisa Chen,2026-04-30,37,2026-05-07,Yes
+10115,Support request #10115,Open,High,Vacation Rentals,Cleaning Request/Issues,David Kim,2026-05-26,11,2026-05-31,Yes
+10116,Support request #10116,Open,Medium,Annual Rentals,Cleaning Request/Issues,Lisa Chen,2026-05-09,28,2026-05-16,Yes
+10117,Support request #10117,Open,Medium,Annual Rentals,Cleaning Request/Issues,David Kim,2026-04-13,54,2026-04-20,Yes
+10118,Support request #10118,Open,High,Vacation Rentals,Maintenance Work Orders,Amy Williams,2026-03-23,75,2026-03-28,Yes
+10119,Support request #10119,Open,Medium,Annual Rentals,Maintenance Work Orders,David Kim,2026-06-05,1,2026-06-12,No
+10120,Support request #10120,Open,High,HOA Management,Cleaning Request/Issues,Amy Williams,2026-04-13,54,2026-04-18,Yes
+10121,Support request #10121,Open,Medium,Annual Rentals,Cleaning Request/Issues,David Kim,2026-05-08,29,2026-05-15,Yes
+10122,Support request #10122,Open,Medium,HOA Management,Cleaning Request/Issues,David Kim,2026-04-17,50,2026-04-24,Yes
+10123,Support request #10123,Open,Medium,HOA Management,Maintenance Work Orders,Amy Williams,2026-04-07,60,2026-04-14,Yes
+10124,Support request #10124,Open,Low,HOA Management,Cleaning Request/Issues,Sarah Johnson,2026-04-16,51,2026-04-30,Yes
+10125,Support request #10125,Open,Low,Annual Rentals,Cleaning Request/Issues,Mike Torres,2026-04-12,55,2026-04-26,Yes
+10126,Support request #10126,Open,Low,Annual Rentals,Cleaning Request/Issues,Lisa Chen,2026-04-18,49,2026-05-02,Yes
+10127,Support request #10127,Open,Medium,Annual Rentals,Cleaning Request/Issues,Lisa Chen,2026-04-18,49,2026-04-25,Yes
+10128,Support request #10128,Open,High,HOA Management,Cleaning Request/Issues,Sarah Johnson,2026-04-06,61,2026-04-11,Yes
+10129,Support request #10129,Open,Urgent,Vacation Rentals,Cleaning Request/Issues,Beth Roberts,2026-04-22,45,2026-04-25,Yes
+10130,Support request #10130,Open,Low,Vacation Rentals,Maintenance Work Orders,Sarah Johnson,2026-06-02,4,2026-06-16,No
+10131,Support request #10131,Open,Medium,HOA Management,Cleaning Request/Issues,Sarah Johnson,2026-05-06,31,2026-05-13,Yes
+10132,Support request #10132,Open,Medium,Annual Rentals,Cleaning Request/Issues,Lisa Chen,2026-05-09,28,2026-05-16,Yes
+10133,Support request #10133,Open,Low,HOA Management,Signal Inn,Sarah Johnson,2026-03-20,78,2026-04-03,Yes
