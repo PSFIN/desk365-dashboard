@@ -245,19 +245,14 @@
   </div>
 
   <!-- Charts -->
-  <div class="chart-grid-3">
+  <div class="chart-grid-2">
     <div class="chart-card">
       <h3>Tickets by Category</h3>
       <div class="chart-hint">Click a bar to filter</div>
       <canvas id="catChart"></canvas>
     </div>
     <div class="chart-card">
-      <h3>Status Breakdown</h3>
-      <div class="chart-hint">Click a segment to filter</div>
-      <canvas id="statusChart"></canvas>
-    </div>
-    <div class="chart-card">
-      <h3>Priority Split</h3>
+      <h3>Open Tickets — Priority Split</h3>
       <div class="chart-hint">Click a segment to filter</div>
       <canvas id="priorityChart"></canvas>
     </div>
@@ -597,16 +592,9 @@ function renderCharts(tickets) {
   makeChart('catChart', 'bar', cats.map(x=>x[0]), cats.map(x=>x[1]), { rotate: 20 },
     (label) => filterBy('category', label));
 
-  // Status
-  const open = cnt(tickets,'status','Open');
-  const closed = cnt(tickets,'status','Closed');
-  const resolved = cnt(tickets,'status','Resolved');
-  makeChart('statusChart', 'doughnut', ['Open','Closed','Resolved'], [open, closed, resolved], {},
-    (label) => filterBy('status', label));
-
-  // Priority
+  // Priority — open tickets only
   const prioMap = { 'Urgent': 0, 'Medium': 0, 'Low': 0 };
-  tickets.forEach(t => { prioMap[priorityLabel(t.priority)]++; });
+  tickets.filter(t => t.status === 'Open').forEach(t => { prioMap[priorityLabel(t.priority)]++; });
   makeChart('priorityChart', 'doughnut',
     Object.keys(prioMap), Object.values(prioMap), {},
     (label) => filterByPriority(label));
