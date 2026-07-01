@@ -259,17 +259,10 @@
     </div>
   </div>
 
-  <div class="chart-grid-2">
-    <div class="chart-card">
-      <h3>Tickets by Assignee</h3>
-      <div class="chart-hint">Click a bar to filter by assignee</div>
-      <canvas id="assigneeChart"></canvas>
-    </div>
-    <div class="chart-card">
-      <h3>Tickets by Group</h3>
-      <div class="chart-hint">Click a bar to filter</div>
-      <canvas id="groupChart"></canvas>
-    </div>
+  <div class="chart-card chart-full">
+    <h3>Tickets by Assignee</h3>
+    <div class="chart-hint">Click a bar to filter by assignee</div>
+    <canvas id="assigneeChart" style="max-height:400px"></canvas>
   </div>
 
   <div class="chart-card chart-full">
@@ -623,8 +616,8 @@ function renderCharts(tickets) {
     Object.keys(prioMap), Object.values(prioMap), {},
     (label) => filterByPriority(label));
 
-  // Assignee — based on current ticket set
-  const asgn = topN(tickets, t => t.assigned_to, 10)
+  // Assignee — show all
+  const asgn = topN(tickets, t => t.assigned_to, 999)
     .map(([email, cnt]) => [
       email ? email.split('@')[0].split('.').map(w => w.charAt(0).toUpperCase()+w.slice(1)).join(' ') : 'Unassigned',
       cnt,
@@ -653,11 +646,6 @@ function renderCharts(tickets) {
   makeChart('subcatChart', 'bar', subs.map(x=>x[0]), subs.map(x=>x[1]), { rotate: 20 },
     (label) => filterBy('subcategory', label));
 
-  // Group
-  const groups = topN(tickets, t => t.group, 10);
-  makeChart('groupChart', 'bar', groups.map(x=>x[0]), groups.map(x=>x[1]),
-    { indexAxis: 'y', singleColor: '#8e44ad', label: 'Tickets' },
-    (label) => filterBy('group', label));
 
 }
 
