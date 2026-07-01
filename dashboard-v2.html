@@ -616,12 +616,12 @@ function renderCharts(tickets) {
     Object.keys(prioMap), Object.values(prioMap), {},
     (label) => filterByPriority(label));
 
-  // Assignee — show all
-  const asgn = topN(tickets, t => t.assigned_to, 999)
+  // Assignee — show all including unassigned
+  const asgn = topN(tickets, t => t.assigned_to || '__unassigned__', 999)
     .map(([email, cnt]) => [
-      email ? email.split('@')[0].split('.').map(w => w.charAt(0).toUpperCase()+w.slice(1)).join(' ') : 'Unassigned',
+      email === '__unassigned__' ? 'Unassigned' : email.split('@')[0].split('.').map(w => w.charAt(0).toUpperCase()+w.slice(1)).join(' '),
       cnt,
-      email
+      email === '__unassigned__' ? null : email
     ]);
   makeChart('assigneeChart', 'bar',
     asgn.map(x=>x[0]), asgn.map(x=>x[1]),
