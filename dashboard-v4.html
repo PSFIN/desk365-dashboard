@@ -45,7 +45,7 @@
   /* ── TV / Presentation mode — full-screen landscape layout ── */
   body.tv-mode {
     overflow: hidden;
-    background: #0d1b2a;
+    background: #f0f2f5;
   }
 
   /* Compact header strip */
@@ -61,7 +61,7 @@
   body.tv-mode header p  { display: none; }
   body.tv-mode .header-right { display: flex; }
   body.tv-mode #tvNextRefresh { display: inline-block !important; }
-  body.tv-mode #tvBtn { background: rgba(255,255,0,0.3); border-color: yellow; }
+  body.tv-mode #tvBtn { background: rgba(255,255,255,0.3); border-color: rgba(255,255,255,0.7); color: white; }
   body.tv-mode #refreshBtn { display: none; }
 
   /* Full-screen grid container */
@@ -79,7 +79,7 @@
       "assignee glidepath";
     gap: 8px;
     overflow: hidden;
-    background: #0d1b2a;
+    background: #f0f2f5;
   }
 
   /* KPI row */
@@ -87,7 +87,7 @@
     grid-area: kpi; margin: 0; gap: 8px;
   }
   body.tv-mode .kpi-card {
-    padding: 14px 18px; border-radius: 8px; border-top-width: 3px;
+    padding: 12px 18px; border-radius: 8px; border-top-width: 3px;
   }
   body.tv-mode .kpi-card .value { font-size: 52px; }
   body.tv-mode .kpi-card .label { font-size: 9px; }
@@ -102,7 +102,7 @@
   body.tv-mode #sectionAssignee canvas { flex: 1; max-height: none !important; }
   body.tv-mode .dept-legend { display: none; }
 
-  /* Aging + Oldest stacked vertically on top-right */
+  /* Aging + Oldest on top-right */
   body.tv-mode #sectionAging {
     grid-area: aging; margin: 0;
     display: grid;
@@ -114,7 +114,7 @@
     overflow: hidden; display: flex; flex-direction: column; margin: 0;
   }
   body.tv-mode #sectionAging canvas { flex: 1; max-height: none !important; }
-  body.tv-mode #sectionAging #oldestTable { flex: 1; overflow-y: auto; font-size: 11px; }
+  body.tv-mode #sectionAging #oldestTable { flex: 1; overflow-y: auto; }
 
   /* Glidepath + Throughput on bottom-right */
   body.tv-mode #sectionGlidepath {
@@ -127,28 +127,17 @@
   }
   body.tv-mode #sectionGlidepath canvas { flex: 1; max-height: none !important; }
 
-  /* Dark card theme for all chart cards in TV mode */
+  /* Chart cards in TV mode — same white as normal but compact */
   body.tv-mode .chart-card {
-    background: #132334; border-radius: 8px; padding: 12px 16px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    padding: 10px 14px;
   }
-  body.tv-mode .chart-card h3  { color: #8ab4d4; font-size: 10px; }
+  body.tv-mode .chart-card h3  { font-size: 11px; margin-bottom: 2px; }
   body.tv-mode .chart-card .chart-hint { display: none; }
 
-  /* Dark KPI cards */
-  body.tv-mode .kpi-card {
-    background: #132334;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
-  }
-  body.tv-mode .kpi-card .sub { color: #7f9db5; }
-  body.tv-mode .kpi-card .label { color: #7f9db5; }
-
   /* Oldest tickets table in TV mode */
-  body.tv-mode #oldestTable table { font-size: 11px; }
-  body.tv-mode #oldestTable thead th { background: #0d1b2a; color: #7f9db5; font-size: 10px; padding: 6px 8px; }
+  body.tv-mode #oldestTable table { font-size: 12px; }
+  body.tv-mode #oldestTable thead th { font-size: 11px; padding: 6px 8px; }
   body.tv-mode #oldestTable tbody td { padding: 5px 8px; }
-  body.tv-mode #oldestTable tbody tr { border-bottom-color: #1e3347; }
-  body.tv-mode #oldestTable tbody tr:hover { background: #1a2e42; }
 
   /* Hide everything else in TV mode */
   body.tv-mode #noPlanPanel     { display: none; }
