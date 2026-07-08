@@ -72,7 +72,7 @@
     padding: 8px;
     display: grid;
     grid-template-columns: 55fr 45fr;
-    grid-template-rows: auto 1fr 1fr;
+    grid-template-rows: 130px 1fr 1fr;
     grid-template-areas:
       "kpi      kpi"
       "assignee aging"
@@ -84,14 +84,15 @@
 
   /* KPI row */
   body.tv-mode .kpi-row {
-    grid-area: kpi; margin: 0; gap: 8px;
+    grid-area: kpi; margin: 0; gap: 8px; align-items: stretch;
   }
   body.tv-mode .kpi-card {
-    padding: 12px 18px; border-radius: 8px; border-top-width: 3px;
+    padding: 14px 20px; border-radius: 8px; border-top-width: 3px;
+    display: flex; flex-direction: column; justify-content: center;
   }
-  body.tv-mode .kpi-card .value { font-size: 52px; }
-  body.tv-mode .kpi-card .label { font-size: 9px; }
-  body.tv-mode .kpi-card .sub   { font-size: 10px; }
+  body.tv-mode .kpi-card .value { font-size: 48px; margin: 4px 0 2px; }
+  body.tv-mode .kpi-card .label { font-size: 10px; }
+  body.tv-mode .kpi-card .sub   { font-size: 11px; }
   body.tv-mode .kpi-card .click-hint { display: none; }
 
   /* Assignee chart (left, tall) */
@@ -106,7 +107,7 @@
   body.tv-mode #sectionAging {
     grid-area: aging; margin: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 3fr;
     gap: 8px;
     overflow: hidden;
   }
@@ -114,18 +115,22 @@
     overflow: hidden; display: flex; flex-direction: column; margin: 0;
   }
   body.tv-mode #sectionAging canvas { flex: 1; max-height: none !important; }
-  body.tv-mode #sectionAging #oldestTable { flex: 1; overflow-y: auto; }
+  body.tv-mode #sectionAging #oldestTable { flex: 1; overflow-y: auto; font-size: 12px; }
+  body.tv-mode #sectionAging #oldestTable table { font-size: 12px; }
+  body.tv-mode #sectionAging #oldestTable .ticket-subject { max-width: 160px; }
 
-  /* Glidepath + Throughput on bottom-right */
+  /* Glidepath full-width on bottom-right (throughput hidden — sparse data) */
   body.tv-mode #sectionGlidepath {
     grid-area: glidepath; margin: 0;
-    display: grid; grid-template-columns: 1fr 1fr;
+    display: grid; grid-template-columns: 1fr;
     gap: 8px; overflow: hidden;
   }
   body.tv-mode #sectionGlidepath .chart-card {
     overflow: hidden; display: flex; flex-direction: column; margin: 0;
+    min-height: 0;
   }
-  body.tv-mode #sectionGlidepath canvas { flex: 1; max-height: none !important; }
+  body.tv-mode #sectionGlidepath canvas { flex: 1; max-height: none !important; min-height: 0; }
+  body.tv-mode #sectionGlidepath .chart-card:last-child { display: none; }
 
   /* Chart cards in TV mode — same white as normal but compact */
   body.tv-mode .chart-card {
