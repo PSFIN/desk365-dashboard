@@ -45,127 +45,186 @@
   #tvBtn:hover { background: rgba(255,255,255,0.25); }
 
   /* ══════════════════════════════════════════════════════════════════
-     TV / EXECUTIVE DASHBOARD — Modern SaaS design (Linear / Vercel)
+     TV / EXECUTIVE DASHBOARD — Premium SaaS Redesign
+     Inspired by Linear, Stripe, Vercel — dark, precise, data-forward
      ══════════════════════════════════════════════════════════════════ */
+
+  @keyframes tv-live-pulse {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0.25; }
+  }
 
   body.tv-mode {
     overflow: hidden;
-    background: #0d1117;
+    background: #07090e;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   }
 
   /* ── Header ─────────────────────────────────────────────────────── */
   body.tv-mode header {
-    background: #090c10;
-    border-bottom: 1px solid #1e2430;
-    padding: 0 20px;
+    background: #050810;
+    /* Blue accent line at top — signature SaaS chrome */
+    box-shadow: inset 0 2px 0 #1d4ed8, 0 1px 0 #151d2e;
+    padding: 0 22px;
     position: fixed; top: 0; left: 0; right: 0;
-    z-index: 100; height: 48px;
+    z-index: 100; height: 52px;
     flex-wrap: nowrap; align-items: center;
-    box-shadow: 0 1px 0 #1e2430;
   }
   body.tv-mode header h1 {
-    font-size: 13px; font-weight: 600; letter-spacing: -0.2px;
-    white-space: nowrap; color: #e6edf3;
+    font-size: 13px; font-weight: 600; letter-spacing: -0.3px;
+    white-space: nowrap; color: #e2e8f0;
   }
   body.tv-mode header p { display: none; }
   body.tv-mode .header-right { display: flex; gap: 8px; align-items: center; }
 
+  /* Live pulsing indicator + last-updated chip */
   body.tv-mode #lastUpdated {
+    display: inline-flex; align-items: center; gap: 7px;
     font-size: 11px; font-weight: 400; white-space: nowrap;
-    background: rgba(255,255,255,0.04); border: 1px solid #2d333b;
-    color: #6e7681; border-radius: 6px; padding: 3px 10px;
+    background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
+    color: #64748b; border-radius: 20px; padding: 4px 12px;
   }
-  body.tv-mode #lastUpdated span { color: #c9d1d9; font-weight: 500; }
+  body.tv-mode #lastUpdated::before {
+    content: '';
+    display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+    background: #22c55e; flex-shrink: 0;
+    animation: tv-live-pulse 2.4s ease-in-out infinite;
+  }
+  body.tv-mode #lastUpdated span { color: #94a3b8; font-weight: 500; }
+
   body.tv-mode #tvNextRefresh {
-    display: inline-flex !important; align-items: center;
+    display: inline-flex !important; align-items: center; gap: 6px;
     font-size: 11px; font-weight: 500; white-space: nowrap;
-    background: rgba(56,139,253,0.1); border: 1px solid rgba(56,139,253,0.25);
-    color: #79c0ff; border-radius: 6px; padding: 3px 10px;
+    background: rgba(59,130,246,0.1); border: 1px solid rgba(59,130,246,0.2);
+    color: #93c5fd; border-radius: 20px; padding: 4px 12px;
+  }
+  body.tv-mode #tvNextRefresh::before {
+    content: '⟳'; font-size: 12px; line-height: 1;
   }
   body.tv-mode #tvBtn {
     font-size: 11px; font-weight: 500; cursor: pointer;
-    background: rgba(248,81,73,0.1); border: 1px solid rgba(248,81,73,0.25);
-    color: #ff7b72; border-radius: 6px; padding: 3px 10px;
+    background: rgba(239,68,68,0.1); border: 1px solid rgba(239,68,68,0.2);
+    color: #fca5a5; border-radius: 20px; padding: 4px 12px;
   }
   body.tv-mode #refreshBtn { display: none; }
 
-  /* ── Main grid ───────────────────────────────────────────────────── */
+  /* ── Grid ───────────────────────────────────────────────────────── */
   body.tv-mode .container {
     position: fixed;
-    top: 48px; left: 0; right: 0; bottom: 0;
+    top: 52px; left: 0; right: 0; bottom: 0;
     max-width: none; padding: 10px;
     display: grid;
     grid-template-columns: 55fr 45fr;
-    grid-template-rows: 116px 1fr 1fr;
+    grid-template-rows: 122px 1fr 1fr;
     grid-template-areas:
       "kpi      kpi"
       "assignee aging"
       "assignee glidepath";
     gap: 8px; overflow: hidden;
-    background: #0d1117;
+    background: #07090e;
   }
 
-  /* ── KPI cards ───────────────────────────────────────────────────── */
+  /* ── KPI cards — each uniquely tinted ───────────────────────────── */
   body.tv-mode .kpi-row {
     grid-area: kpi; margin: 0; gap: 8px; align-items: stretch;
   }
   body.tv-mode .kpi-card {
-    background: #161b22;
-    border: 1px solid #21262d;
-    border-left: 3px solid;          /* color set per-variant below */
-    border-top: 1px solid #21262d;  /* override normal top-border rule */
-    border-radius: 8px;
-    padding: 12px 16px;
-    box-shadow: none;
+    /* base — overridden per color below */
+    border-radius: 10px; padding: 14px 18px;
+    box-shadow: none; transition: none;
     display: flex; flex-direction: column; justify-content: space-between;
-    transition: none;
+    position: relative; overflow: hidden;
   }
   body.tv-mode .kpi-card:hover { transform: none; box-shadow: none; }
   body.tv-mode .kpi-card.active { box-shadow: none; }
 
-  body.tv-mode .kpi-card.red    { border-left-color: #f85149; }
-  body.tv-mode .kpi-card.green  { border-left-color: #3fb950; }
-  body.tv-mode .kpi-card.teal   { border-left-color: #22d3ee; }
-  body.tv-mode .kpi-card.purple { border-left-color: #bc8cff; }
-  body.tv-mode .kpi-card.orange { border-left-color: #f0883e; }
-  body.tv-mode .kpi-card.blue   { border-left-color: #388bfd; }
+  /* Subtle left-edge glow bar */
+  body.tv-mode .kpi-card::after {
+    content: '';
+    position: absolute; left: 0; top: 20%; bottom: 20%; width: 3px;
+    border-radius: 0 2px 2px 0;
+  }
+
+  body.tv-mode .kpi-card.red {
+    background: rgba(239,68,68,0.08); border: 1px solid rgba(239,68,68,0.18);
+  }
+  body.tv-mode .kpi-card.red::after { background: #ef4444; }
+
+  body.tv-mode .kpi-card.green {
+    background: rgba(34,197,94,0.08); border: 1px solid rgba(34,197,94,0.18);
+  }
+  body.tv-mode .kpi-card.green::after { background: #22c55e; }
+
+  body.tv-mode .kpi-card.teal {
+    background: rgba(6,182,212,0.07); border: 1px solid rgba(6,182,212,0.16);
+  }
+  body.tv-mode .kpi-card.teal::after { background: #06b6d4; }
+
+  body.tv-mode .kpi-card.purple {
+    background: rgba(168,85,247,0.08); border: 1px solid rgba(168,85,247,0.18);
+  }
+  body.tv-mode .kpi-card.purple::after { background: #a855f7; }
+
+  body.tv-mode .kpi-card.orange {
+    background: rgba(249,115,22,0.08); border: 1px solid rgba(249,115,22,0.18);
+  }
+  body.tv-mode .kpi-card.orange::after { background: #f97316; }
+
+  body.tv-mode .kpi-card.blue {
+    background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.18);
+  }
+  body.tv-mode .kpi-card.blue::after { background: #3b82f6; }
 
   body.tv-mode .kpi-card .label {
     font-size: 9px; font-weight: 700; text-transform: uppercase;
-    letter-spacing: 1px; color: #484f58;
+    letter-spacing: 1.2px; color: rgba(148,163,184,0.6);
   }
   body.tv-mode .kpi-card .value {
-    font-size: 42px; font-weight: 700; line-height: 1;
-    margin: 0; letter-spacing: -2px;
+    font-size: 50px; font-weight: 800; line-height: 1;
+    margin: 2px 0 0; letter-spacing: -3px;
     font-variant-numeric: tabular-nums;
   }
-  body.tv-mode .kpi-card.red    .value { color: #f85149; }
-  body.tv-mode .kpi-card.green  .value { color: #3fb950; }
+  body.tv-mode .kpi-card.red    .value { color: #f87171; }
+  body.tv-mode .kpi-card.green  .value { color: #4ade80; }
   body.tv-mode .kpi-card.teal   .value { color: #22d3ee; }
-  body.tv-mode .kpi-card.purple .value { color: #bc8cff; }
-  body.tv-mode .kpi-card.orange .value { color: #f0883e; }
-  body.tv-mode .kpi-card.blue   .value { color: #388bfd; }
+  body.tv-mode .kpi-card.purple .value { color: #c084fc; }
+  body.tv-mode .kpi-card.orange .value { color: #fb923c; }
+  body.tv-mode .kpi-card.blue   .value { color: #60a5fa; }
 
-  body.tv-mode .kpi-card .sub { font-size: 10px; color: #30363d; }
+  body.tv-mode .kpi-card .sub {
+    font-size: 10px; color: rgba(100,116,139,0.7); margin-top: 2px;
+  }
   body.tv-mode .kpi-card .click-hint { display: none; }
 
-  /* ── Chart cards (shared) ─────────────────────────────────────────── */
+  /* ── Chart cards ─────────────────────────────────────────────────── */
   body.tv-mode .chart-card {
-    background: #161b22;
-    border: 1px solid #21262d;
-    border-radius: 10px;
-    padding: 12px 14px;
-    box-shadow: none;
+    background: #0c1220;
+    border: 1px solid #182033;
+    border-radius: 12px;
+    padding: 14px 16px;
+    /* subtle top highlight — adds depth */
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.04);
   }
   body.tv-mode .chart-card h3 {
-    font-size: 9px; font-weight: 700;
-    text-transform: uppercase; letter-spacing: 1.1px;
-    color: #3d444d; margin-bottom: 10px;
+    display: flex; align-items: center; gap: 7px;
+    font-size: 9px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 1.3px; color: #334155; margin-bottom: 10px;
   }
+  /* Colored dot before each section title */
+  body.tv-mode .chart-card h3::before {
+    content: '';
+    display: inline-block; width: 7px; height: 7px; border-radius: 50%;
+    flex-shrink: 0;
+    background: #3b82f6; /* default; overridden per section */
+  }
+  body.tv-mode #sectionAssignee h3::before  { background: #4ade80; }
+  body.tv-mode #sectionAging .chart-card:first-child h3::before { background: #f87171; }
+  body.tv-mode #sectionAging .chart-card:last-child  h3::before { background: #fb923c; }
+  body.tv-mode #sectionGlidepath h3::before { background: #60a5fa; }
+
   body.tv-mode .chart-card .chart-hint { display: none; }
 
-  /* ── Assignee chart ──────────────────────────────────────────────── */
+  /* ── Assignee ────────────────────────────────────────────────────── */
   body.tv-mode #sectionAssignee {
     grid-area: assignee; margin: 0; overflow: hidden;
     display: flex; flex-direction: column;
@@ -173,7 +232,7 @@
   body.tv-mode #sectionAssignee canvas { flex: 1; max-height: none !important; }
   body.tv-mode .dept-legend { display: none; }
 
-  /* ── Age buckets + Oldest tickets ────────────────────────────────── */
+  /* ── Age buckets + Oldest ────────────────────────────────────────── */
   body.tv-mode #sectionAging {
     grid-area: aging; margin: 0;
     display: grid; grid-template-columns: 2fr 3fr;
@@ -185,31 +244,26 @@
   body.tv-mode #sectionAging canvas { flex: 1; max-height: none !important; }
   body.tv-mode #sectionAging #oldestTable { flex: 1; overflow-y: auto; margin-top: 0; }
 
-  /* Oldest table — dark style */
-  body.tv-mode #oldestTable table { width: 100%; border-collapse: collapse; font-size: 12px; }
-  body.tv-mode #oldestTable thead tr {
-    border-bottom: 1px solid #21262d;
-  }
+  /* Oldest table */
+  body.tv-mode #oldestTable table { width: 100%; border-collapse: collapse; }
   body.tv-mode #oldestTable thead th {
-    background: transparent; color: #3d444d;
-    font-size: 9px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase;
-    padding: 0 8px 8px;
+    background: transparent; color: #1e293b;
+    font-size: 8px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase;
+    padding: 0 8px 10px; border-bottom: 1px solid #182033;
   }
-  body.tv-mode #oldestTable tbody tr {
-    border-bottom: 1px solid #1c2128; cursor: pointer;
-  }
-  body.tv-mode #oldestTable tbody tr:hover { background: #1c2128; }
-  body.tv-mode #oldestTable tbody td { padding: 7px 8px; color: #adbac7; }
-  /* Days cell */
+  body.tv-mode #oldestTable tbody tr { border-bottom: 1px solid #111827; cursor: pointer; }
+  body.tv-mode #oldestTable tbody tr:hover { background: rgba(255,255,255,0.03); }
+  body.tv-mode #oldestTable tbody td { padding: 8px 8px; vertical-align: middle; }
+  /* Days — large colored number */
   body.tv-mode #oldestTable tbody td:first-child {
-    font-size: 16px !important; font-weight: 800 !important;
+    font-size: 17px !important; font-weight: 800 !important; width: 44px; text-align: center;
   }
-  /* Ticket # cell */
-  body.tv-mode #oldestTable tbody td:nth-child(2) { color: #79c0ff !important; }
+  /* Ticket # */
+  body.tv-mode #oldestTable tbody td:nth-child(2) { color: #60a5fa !important; font-size: 11px; font-weight: 600; }
   /* Subject */
-  body.tv-mode #oldestTable tbody td:nth-child(3) { color: #cdd9e5; }
+  body.tv-mode #oldestTable tbody td:nth-child(3) { color: #94a3b8; font-size: 12px; }
   /* Assignee */
-  body.tv-mode #oldestTable tbody td:last-child { color: #636e7b !important; font-size: 11px; }
+  body.tv-mode #oldestTable tbody td:last-child { color: #334155 !important; font-size: 10px; }
 
   /* ── Glidepath ───────────────────────────────────────────────────── */
   body.tv-mode #sectionGlidepath {
