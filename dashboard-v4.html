@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Gulf Coast — Desk365 Dashboard v4</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
 <style>
@@ -42,60 +44,128 @@
   }
   #tvBtn:hover { background: rgba(255,255,255,0.25); }
 
-  /* ── TV / Presentation mode — full-screen landscape layout ── */
+  /* ══════════════════════════════════════════════════════════════════
+     TV / EXECUTIVE DASHBOARD — Modern SaaS design (Linear / Vercel)
+     ══════════════════════════════════════════════════════════════════ */
+
   body.tv-mode {
     overflow: hidden;
-    background: #f0f2f5;
+    background: #0d1117;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   }
 
-  /* Compact header strip */
+  /* ── Header ─────────────────────────────────────────────────────── */
   body.tv-mode header {
-    padding: 0 28px;
+    background: #090c10;
+    border-bottom: 1px solid #1e2430;
+    padding: 0 20px;
     position: fixed; top: 0; left: 0; right: 0;
-    z-index: 100;
-    height: 50px;
-    flex-wrap: nowrap;
-    align-items: center;
+    z-index: 100; height: 48px;
+    flex-wrap: nowrap; align-items: center;
+    box-shadow: 0 1px 0 #1e2430;
   }
-  body.tv-mode header h1 { font-size: 15px; white-space: nowrap; }
-  body.tv-mode header p  { display: none; }
-  body.tv-mode .header-right { display: flex; }
-  body.tv-mode #tvNextRefresh { display: inline-block !important; }
-  body.tv-mode #tvBtn { background: rgba(255,255,255,0.3); border-color: rgba(255,255,255,0.7); color: white; }
+  body.tv-mode header h1 {
+    font-size: 13px; font-weight: 600; letter-spacing: -0.2px;
+    white-space: nowrap; color: #e6edf3;
+  }
+  body.tv-mode header p { display: none; }
+  body.tv-mode .header-right { display: flex; gap: 8px; align-items: center; }
+
+  body.tv-mode #lastUpdated {
+    font-size: 11px; font-weight: 400; white-space: nowrap;
+    background: rgba(255,255,255,0.04); border: 1px solid #2d333b;
+    color: #6e7681; border-radius: 6px; padding: 3px 10px;
+  }
+  body.tv-mode #lastUpdated span { color: #c9d1d9; font-weight: 500; }
+  body.tv-mode #tvNextRefresh {
+    display: inline-flex !important; align-items: center;
+    font-size: 11px; font-weight: 500; white-space: nowrap;
+    background: rgba(56,139,253,0.1); border: 1px solid rgba(56,139,253,0.25);
+    color: #79c0ff; border-radius: 6px; padding: 3px 10px;
+  }
+  body.tv-mode #tvBtn {
+    font-size: 11px; font-weight: 500; cursor: pointer;
+    background: rgba(248,81,73,0.1); border: 1px solid rgba(248,81,73,0.25);
+    color: #ff7b72; border-radius: 6px; padding: 3px 10px;
+  }
   body.tv-mode #refreshBtn { display: none; }
 
-  /* Full-screen grid container */
+  /* ── Main grid ───────────────────────────────────────────────────── */
   body.tv-mode .container {
     position: fixed;
-    top: 50px; left: 0; right: 0; bottom: 0;
-    max-width: none;
-    padding: 8px;
+    top: 48px; left: 0; right: 0; bottom: 0;
+    max-width: none; padding: 10px;
     display: grid;
     grid-template-columns: 55fr 45fr;
-    grid-template-rows: 130px 1fr 1fr;
+    grid-template-rows: 116px 1fr 1fr;
     grid-template-areas:
       "kpi      kpi"
       "assignee aging"
       "assignee glidepath";
-    gap: 8px;
-    overflow: hidden;
-    background: #f0f2f5;
+    gap: 8px; overflow: hidden;
+    background: #0d1117;
   }
 
-  /* KPI row */
+  /* ── KPI cards ───────────────────────────────────────────────────── */
   body.tv-mode .kpi-row {
     grid-area: kpi; margin: 0; gap: 8px; align-items: stretch;
   }
   body.tv-mode .kpi-card {
-    padding: 14px 20px; border-radius: 8px; border-top-width: 3px;
-    display: flex; flex-direction: column; justify-content: center;
+    background: #161b22;
+    border: 1px solid #21262d;
+    border-left: 3px solid;          /* color set per-variant below */
+    border-top: 1px solid #21262d;  /* override normal top-border rule */
+    border-radius: 8px;
+    padding: 12px 16px;
+    box-shadow: none;
+    display: flex; flex-direction: column; justify-content: space-between;
+    transition: none;
   }
-  body.tv-mode .kpi-card .value { font-size: 48px; margin: 4px 0 2px; }
-  body.tv-mode .kpi-card .label { font-size: 10px; }
-  body.tv-mode .kpi-card .sub   { font-size: 11px; }
+  body.tv-mode .kpi-card:hover { transform: none; box-shadow: none; }
+  body.tv-mode .kpi-card.active { box-shadow: none; }
+
+  body.tv-mode .kpi-card.red    { border-left-color: #f85149; }
+  body.tv-mode .kpi-card.green  { border-left-color: #3fb950; }
+  body.tv-mode .kpi-card.teal   { border-left-color: #22d3ee; }
+  body.tv-mode .kpi-card.purple { border-left-color: #bc8cff; }
+  body.tv-mode .kpi-card.orange { border-left-color: #f0883e; }
+  body.tv-mode .kpi-card.blue   { border-left-color: #388bfd; }
+
+  body.tv-mode .kpi-card .label {
+    font-size: 9px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 1px; color: #484f58;
+  }
+  body.tv-mode .kpi-card .value {
+    font-size: 42px; font-weight: 700; line-height: 1;
+    margin: 0; letter-spacing: -2px;
+    font-variant-numeric: tabular-nums;
+  }
+  body.tv-mode .kpi-card.red    .value { color: #f85149; }
+  body.tv-mode .kpi-card.green  .value { color: #3fb950; }
+  body.tv-mode .kpi-card.teal   .value { color: #22d3ee; }
+  body.tv-mode .kpi-card.purple .value { color: #bc8cff; }
+  body.tv-mode .kpi-card.orange .value { color: #f0883e; }
+  body.tv-mode .kpi-card.blue   .value { color: #388bfd; }
+
+  body.tv-mode .kpi-card .sub { font-size: 10px; color: #30363d; }
   body.tv-mode .kpi-card .click-hint { display: none; }
 
-  /* Assignee chart (left, tall) */
+  /* ── Chart cards (shared) ─────────────────────────────────────────── */
+  body.tv-mode .chart-card {
+    background: #161b22;
+    border: 1px solid #21262d;
+    border-radius: 10px;
+    padding: 12px 14px;
+    box-shadow: none;
+  }
+  body.tv-mode .chart-card h3 {
+    font-size: 9px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 1.1px;
+    color: #3d444d; margin-bottom: 10px;
+  }
+  body.tv-mode .chart-card .chart-hint { display: none; }
+
+  /* ── Assignee chart ──────────────────────────────────────────────── */
   body.tv-mode #sectionAssignee {
     grid-area: assignee; margin: 0; overflow: hidden;
     display: flex; flex-direction: column;
@@ -103,54 +173,64 @@
   body.tv-mode #sectionAssignee canvas { flex: 1; max-height: none !important; }
   body.tv-mode .dept-legend { display: none; }
 
-  /* Aging + Oldest on top-right */
+  /* ── Age buckets + Oldest tickets ────────────────────────────────── */
   body.tv-mode #sectionAging {
     grid-area: aging; margin: 0;
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    gap: 8px;
-    overflow: hidden;
+    display: grid; grid-template-columns: 2fr 3fr;
+    gap: 8px; overflow: hidden;
   }
   body.tv-mode #sectionAging .chart-card {
     overflow: hidden; display: flex; flex-direction: column; margin: 0;
   }
   body.tv-mode #sectionAging canvas { flex: 1; max-height: none !important; }
-  body.tv-mode #sectionAging #oldestTable { flex: 1; overflow-y: auto; font-size: 12px; }
-  body.tv-mode #sectionAging #oldestTable table { font-size: 12px; }
-  body.tv-mode #sectionAging #oldestTable .ticket-subject { max-width: 160px; }
+  body.tv-mode #sectionAging #oldestTable { flex: 1; overflow-y: auto; margin-top: 0; }
 
-  /* Glidepath full-width on bottom-right (throughput hidden — sparse data) */
+  /* Oldest table — dark style */
+  body.tv-mode #oldestTable table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  body.tv-mode #oldestTable thead tr {
+    border-bottom: 1px solid #21262d;
+  }
+  body.tv-mode #oldestTable thead th {
+    background: transparent; color: #3d444d;
+    font-size: 9px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase;
+    padding: 0 8px 8px;
+  }
+  body.tv-mode #oldestTable tbody tr {
+    border-bottom: 1px solid #1c2128; cursor: pointer;
+  }
+  body.tv-mode #oldestTable tbody tr:hover { background: #1c2128; }
+  body.tv-mode #oldestTable tbody td { padding: 7px 8px; color: #adbac7; }
+  /* Days cell */
+  body.tv-mode #oldestTable tbody td:first-child {
+    font-size: 16px !important; font-weight: 800 !important;
+  }
+  /* Ticket # cell */
+  body.tv-mode #oldestTable tbody td:nth-child(2) { color: #79c0ff !important; }
+  /* Subject */
+  body.tv-mode #oldestTable tbody td:nth-child(3) { color: #cdd9e5; }
+  /* Assignee */
+  body.tv-mode #oldestTable tbody td:last-child { color: #636e7b !important; font-size: 11px; }
+
+  /* ── Glidepath ───────────────────────────────────────────────────── */
   body.tv-mode #sectionGlidepath {
     grid-area: glidepath; margin: 0;
     display: grid; grid-template-columns: 1fr;
     gap: 8px; overflow: hidden;
   }
   body.tv-mode #sectionGlidepath .chart-card {
-    overflow: hidden; display: flex; flex-direction: column; margin: 0;
-    min-height: 0;
+    overflow: hidden; display: flex; flex-direction: column;
+    margin: 0; min-height: 0;
   }
   body.tv-mode #sectionGlidepath canvas { flex: 1; max-height: none !important; min-height: 0; }
   body.tv-mode #sectionGlidepath .chart-card:last-child { display: none; }
 
-  /* Chart cards in TV mode — same white as normal but compact */
-  body.tv-mode .chart-card {
-    padding: 10px 14px;
-  }
-  body.tv-mode .chart-card h3  { font-size: 11px; margin-bottom: 2px; }
-  body.tv-mode .chart-card .chart-hint { display: none; }
-
-  /* Oldest tickets table in TV mode */
-  body.tv-mode #oldestTable table { font-size: 12px; }
-  body.tv-mode #oldestTable thead th { font-size: 11px; padding: 6px 8px; }
-  body.tv-mode #oldestTable tbody td { padding: 5px 8px; }
-
-  /* Hide everything else in TV mode */
-  body.tv-mode #noPlanPanel     { display: none; }
-  body.tv-mode #sectionCatPrio  { display: none; }
-  body.tv-mode .filter-banner   { display: none !important; }
-  body.tv-mode .ticket-panel    { display: none; }
-  body.tv-mode .status-bar      { display: none !important; }
-  body.tv-mode footer            { display: none; }
+  /* ── Hide everything else ────────────────────────────────────────── */
+  body.tv-mode #noPlanPanel    { display: none; }
+  body.tv-mode #sectionCatPrio { display: none; }
+  body.tv-mode .filter-banner  { display: none !important; }
+  body.tv-mode .ticket-panel   { display: none; }
+  body.tv-mode .status-bar     { display: none !important; }
+  body.tv-mode footer           { display: none; }
 
   .status-bar { background: #fff3cd; border-left: 4px solid #f39c12; padding: 10px 24px; font-size: 13px; color: #856404; display: none; }
   .status-bar.error { background: #f8d7da; border-color: #e74c3c; color: #721c24; }
@@ -1144,10 +1224,24 @@ function scheduleTVRefresh() {
   }, delay);
 }
 
+function applyTVChartTheme(dark) {
+  if (dark) {
+    Chart.defaults.color = '#6e7681';
+    Chart.defaults.borderColor = '#21262d';
+    Chart.defaults.plugins.legend.labels.color = '#6e7681';
+  } else {
+    Chart.defaults.color = '#666';
+    Chart.defaults.borderColor = 'rgba(0,0,0,0.1)';
+    Chart.defaults.plugins.legend.labels.color = '#666';
+  }
+  Object.values(charts).forEach(c => { try { c.update('none'); } catch(e){} });
+}
+
 function toggleTV() {
   document.body.classList.toggle('tv-mode');
   const isTV = document.body.classList.contains('tv-mode');
   document.getElementById('tvBtn').textContent = isTV ? '✕ Exit TV' : '📺 TV Mode';
+  applyTVChartTheme(isTV);
   if (isTV) {
     scheduleTVRefresh();
   } else {
@@ -1155,10 +1249,9 @@ function toggleTV() {
     tvRefreshTimer = null;
     document.getElementById('tvNextRefresh').style.display = 'none';
   }
-  /* Give the CSS grid time to settle, then resize all charts */
   setTimeout(() => {
     Object.values(charts).forEach(c => { try { c.resize(); } catch(e){} });
-  }, 120);
+  }, 150);
 }
 
 // ─── Ticket aging helpers ──────────────────────────────────────────
