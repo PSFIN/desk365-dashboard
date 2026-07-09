@@ -1,3 +1,5 @@
+<!-- START OF FILE text/html -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,12 +7,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Gulf Coast — Desk365 Dashboard v4</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: 'Segoe UI', Arial, sans-serif; background: #f0f2f5; color: #1a1a2e; }
+  body { font-family: 'Inter', 'Segoe UI', Arial, sans-serif; background: #f0f2f5; color: #1a1a2e; transition: background 0.3s ease; }
 
   header {
     background: linear-gradient(135deg, #1a3a5c 0%, #2e6da4 100%);
@@ -50,174 +52,201 @@
      ══════════════════════════════════════════════════════════════════ */
 
   @keyframes tv-live-pulse {
-    0%, 100% { opacity: 1; }
-    50%       { opacity: 0.25; }
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50%       { opacity: 0.3; transform: scale(1.15); }
   }
 
   body.tv-mode {
     overflow: hidden;
-    background: #07090e;
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #09090b;
+    color: #f4f4f5;
   }
 
-  /* ── Header ─────────────────────────────────────────────────────── */
+  /* Custom minimal dark scrollbar for internal tables */
+  body.tv-mode *::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  body.tv-mode *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  body.tv-mode *::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
+  body.tv-mode *::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  /* ── TV Mode Header ─────────────────────────────────────────────── */
   body.tv-mode header {
-    background: #050810;
-    /* Blue accent line at top — signature SaaS chrome */
-    box-shadow: inset 0 2px 0 #1d4ed8, 0 1px 0 #151d2e;
-    padding: 0 22px;
+    background: #09090b;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.08);
+    padding: 0 24px;
     position: fixed; top: 0; left: 0; right: 0;
-    z-index: 100; height: 52px;
+    z-index: 100; height: 56px;
     flex-wrap: nowrap; align-items: center;
   }
   body.tv-mode header h1 {
-    font-size: 13px; font-weight: 600; letter-spacing: -0.3px;
-    white-space: nowrap; color: #e2e8f0;
+    font-size: 14px; font-weight: 600; letter-spacing: -0.3px;
+    white-space: nowrap; color: #f4f4f5;
   }
   body.tv-mode header p { display: none; }
   body.tv-mode .header-right { display: flex; gap: 8px; align-items: center; }
 
   /* Live pulsing indicator + last-updated chip */
   body.tv-mode #lastUpdated {
-    display: inline-flex; align-items: center; gap: 7px;
-    font-size: 11px; font-weight: 400; white-space: nowrap;
-    background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
-    color: #64748b; border-radius: 20px; padding: 4px 12px;
+    display: inline-flex; align-items: center; gap: 8px;
+    font-size: 11px; font-weight: 500; white-space: nowrap;
+    background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08);
+    color: #a1a1aa; border-radius: 9999px; padding: 4px 14px;
   }
   body.tv-mode #lastUpdated::before {
     content: '';
     display: inline-block; width: 6px; height: 6px; border-radius: 50%;
-    background: #22c55e; flex-shrink: 0;
-    animation: tv-live-pulse 2.4s ease-in-out infinite;
+    background: #10b981; flex-shrink: 0;
+    box-shadow: 0 0 8px #10b981;
+    animation: tv-live-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
   }
-  body.tv-mode #lastUpdated span { color: #94a3b8; font-weight: 500; }
+  body.tv-mode #lastUpdated span { color: #f4f4f5; font-weight: 600; }
 
   body.tv-mode #tvNextRefresh {
     display: inline-flex !important; align-items: center; gap: 6px;
     font-size: 11px; font-weight: 500; white-space: nowrap;
-    background: rgba(59,130,246,0.1); border: 1px solid rgba(59,130,246,0.2);
-    color: #93c5fd; border-radius: 20px; padding: 4px 12px;
+    background: rgba(59,130,246,0.06); border: 1px solid rgba(59,130,246,0.15);
+    color: #60a5fa; border-radius: 9999px; padding: 4px 14px;
   }
   body.tv-mode #tvNextRefresh::before {
-    content: '⟳'; font-size: 12px; line-height: 1;
+    content: '⟳'; font-size: 11px; line-height: 1; margin-right: 2px;
   }
   body.tv-mode #tvBtn {
     font-size: 11px; font-weight: 500; cursor: pointer;
-    background: rgba(239,68,68,0.1); border: 1px solid rgba(239,68,68,0.2);
-    color: #fca5a5; border-radius: 20px; padding: 4px 12px;
+    background: rgba(239,68,68,0.06); border: 1px solid rgba(239,68,68,0.15);
+    color: #f87171; border-radius: 9999px; padding: 4px 14px;
+    transition: background 0.2s, border-color 0.2s;
+  }
+  body.tv-mode #tvBtn:hover {
+    background: rgba(239,68,68,0.12);
+    border-color: rgba(239,68,68,0.3);
   }
   body.tv-mode #refreshBtn { display: none; }
 
-  /* ── Grid ───────────────────────────────────────────────────────── */
+  /* ── TV Grid Structure ──────────────────────────────────────────── */
   body.tv-mode .container {
     position: fixed;
-    top: 52px; left: 0; right: 0; bottom: 0;
-    max-width: none; padding: 10px;
+    top: 56px; left: 0; right: 0; bottom: 0;
+    max-width: none; padding: 12px;
     display: grid;
     grid-template-columns: 55fr 45fr;
-    grid-template-rows: 122px 1fr 1fr;
+    grid-template-rows: 110px 1fr 1fr;
     grid-template-areas:
       "kpi      kpi"
       "assignee aging"
       "assignee glidepath";
-    gap: 8px; overflow: hidden;
-    background: #07090e;
+    gap: 12px; overflow: hidden;
+    background: #09090b;
   }
 
-  /* ── KPI cards — each uniquely tinted ───────────────────────────── */
+  /* ── KPI cards — Premium Radial Glowing Panels ──────────────────── */
   body.tv-mode .kpi-row {
-    grid-area: kpi; margin: 0; gap: 8px; align-items: stretch;
+    grid-area: kpi; margin: 0; gap: 12px; align-items: stretch;
   }
   body.tv-mode .kpi-card {
-    /* base — overridden per color below */
-    border-radius: 10px; padding: 14px 18px;
+    border-radius: 12px; padding: 12px 18px;
     box-shadow: none; transition: none;
-    display: flex; flex-direction: column; justify-content: space-between;
+    display: flex; flex-direction: column; justify-content: center;
     position: relative; overflow: hidden;
+    background: #121214;
+    border: 1px solid rgba(255, 255, 255, 0.05);
   }
   body.tv-mode .kpi-card:hover { transform: none; box-shadow: none; }
-  body.tv-mode .kpi-card.active { box-shadow: none; }
+  body.tv-mode .kpi-card.active { box-shadow: 0 0 0 1px #3b82f6; }
 
-  /* Subtle left-edge glow bar */
+  /* Subtle aesthetic colored left glow bar */
   body.tv-mode .kpi-card::after {
     content: '';
-    position: absolute; left: 0; top: 20%; bottom: 20%; width: 3px;
-    border-radius: 0 2px 2px 0;
+    position: absolute; left: 0; top: 25%; bottom: 25%; width: 3px;
+    border-radius: 0 4px 4px 0;
   }
 
   body.tv-mode .kpi-card.red {
-    background: rgba(239,68,68,0.08); border: 1px solid rgba(239,68,68,0.18);
+    background: radial-gradient(circle at 100% 0%, rgba(239, 68, 68, 0.06) 0%, rgba(18, 18, 20, 0.3) 60%), #121214;
+    border-color: rgba(239, 68, 68, 0.15);
   }
-  body.tv-mode .kpi-card.red::after { background: #ef4444; }
+  body.tv-mode .kpi-card.red::after { background: #ef4444; box-shadow: 0 0 8px #ef4444; }
 
   body.tv-mode .kpi-card.green {
-    background: rgba(34,197,94,0.08); border: 1px solid rgba(34,197,94,0.18);
+    background: radial-gradient(circle at 100% 0%, rgba(16, 185, 129, 0.06) 0%, rgba(18, 18, 20, 0.3) 60%), #121214;
+    border-color: rgba(16, 185, 129, 0.15);
   }
-  body.tv-mode .kpi-card.green::after { background: #22c55e; }
+  body.tv-mode .kpi-card.green::after { background: #10b981; box-shadow: 0 0 8px #10b981; }
 
   body.tv-mode .kpi-card.teal {
-    background: rgba(6,182,212,0.07); border: 1px solid rgba(6,182,212,0.16);
+    background: radial-gradient(circle at 100% 0%, rgba(6, 182, 212, 0.06) 0%, rgba(18, 18, 20, 0.3) 60%), #121214;
+    border-color: rgba(6, 182, 212, 0.15);
   }
-  body.tv-mode .kpi-card.teal::after { background: #06b6d4; }
+  body.tv-mode .kpi-card.teal::after { background: #06b6d4; box-shadow: 0 0 8px #06b6d4; }
 
   body.tv-mode .kpi-card.purple {
-    background: rgba(168,85,247,0.08); border: 1px solid rgba(168,85,247,0.18);
+    background: radial-gradient(circle at 100% 0%, rgba(168, 85, 247, 0.06) 0%, rgba(18, 18, 20, 0.3) 60%), #121214;
+    border-color: rgba(168, 85, 247, 0.15);
   }
-  body.tv-mode .kpi-card.purple::after { background: #a855f7; }
+  body.tv-mode .kpi-card.purple::after { background: #a855f7; box-shadow: 0 0 8px #a855f7; }
 
   body.tv-mode .kpi-card.orange {
-    background: rgba(249,115,22,0.08); border: 1px solid rgba(249,115,22,0.18);
+    background: radial-gradient(circle at 100% 0%, rgba(249, 115, 22, 0.08) 0%, rgba(18, 18, 20, 0.3) 60%), #121214;
+    border-color: rgba(249, 115, 22, 0.15);
   }
-  body.tv-mode .kpi-card.orange::after { background: #f97316; }
+  body.tv-mode .kpi-card.orange::after { background: #f97316; box-shadow: 0 0 8px #f97316; }
 
   body.tv-mode .kpi-card.blue {
-    background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.18);
+    background: radial-gradient(circle at 100% 0%, rgba(59, 130, 246, 0.08) 0%, rgba(18, 18, 20, 0.3) 60%), #121214;
+    border-color: rgba(59, 130, 246, 0.15);
   }
-  body.tv-mode .kpi-card.blue::after { background: #3b82f6; }
+  body.tv-mode .kpi-card.blue::after { background: #3b82f6; box-shadow: 0 0 8px #3b82f6; }
 
   body.tv-mode .kpi-card .label {
-    font-size: 9px; font-weight: 700; text-transform: uppercase;
-    letter-spacing: 1.2px; color: rgba(148,163,184,0.6);
+    font-size: 10px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 1.5px; color: #a1a1aa;
   }
   body.tv-mode .kpi-card .value {
-    font-size: 50px; font-weight: 800; line-height: 1;
-    margin: 2px 0 0; letter-spacing: -3px;
+    font-size: 32px; font-weight: 800; line-height: 1.1;
+    margin: 2px 0; letter-spacing: -1px;
     font-variant-numeric: tabular-nums;
   }
-  body.tv-mode .kpi-card.red    .value { color: #f87171; }
-  body.tv-mode .kpi-card.green  .value { color: #4ade80; }
-  body.tv-mode .kpi-card.teal   .value { color: #22d3ee; }
-  body.tv-mode .kpi-card.purple .value { color: #c084fc; }
-  body.tv-mode .kpi-card.orange .value { color: #fb923c; }
-  body.tv-mode .kpi-card.blue   .value { color: #60a5fa; }
+  body.tv-mode .kpi-card.red    .value { color: #f87171; text-shadow: 0 0 10px rgba(248, 113, 113, 0.1); }
+  body.tv-mode .kpi-card.green  .value { color: #34d399; text-shadow: 0 0 10px rgba(52, 211, 153, 0.1); }
+  body.tv-mode .kpi-card.teal   .value { color: #22d3ee; text-shadow: 0 0 10px rgba(34, 211, 238, 0.1); }
+  body.tv-mode .kpi-card.purple .value { color: #c084fc; text-shadow: 0 0 10px rgba(192, 132, 252, 0.1); }
+  body.tv-mode .kpi-card.orange .value { color: #fb923c; text-shadow: 0 0 10px rgba(251, 146, 60, 0.1); }
+  body.tv-mode .kpi-card.blue   .value { color: #60a5fa; text-shadow: 0 0 10px rgba(96, 165, 250, 0.1); }
 
   body.tv-mode .kpi-card .sub {
-    font-size: 10px; color: rgba(100,116,139,0.7); margin-top: 2px;
+    font-size: 11px; color: #71717a; margin-top: 1px; font-weight: 500;
   }
   body.tv-mode .kpi-card .click-hint { display: none; }
 
   /* ── Chart cards ─────────────────────────────────────────────────── */
   body.tv-mode .chart-card {
-    background: #0c1220;
-    border: 1px solid #182033;
+    background: #121214;
+    border: 1px solid rgba(255, 255, 255, 0.055);
     border-radius: 12px;
-    padding: 14px 16px;
-    /* subtle top highlight — adds depth */
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.04);
+    padding: 16px 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+    display: flex; flex-direction: column; position: relative;
   }
   body.tv-mode .chart-card h3 {
-    display: flex; align-items: center; gap: 7px;
-    font-size: 9px; font-weight: 700; text-transform: uppercase;
-    letter-spacing: 1.3px; color: #334155; margin-bottom: 10px;
+    display: flex; align-items: center; gap: 8px;
+    font-size: 11px; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 1.5px; color: #a1a1aa; margin-bottom: 12px;
   }
-  /* Colored dot before each section title */
   body.tv-mode .chart-card h3::before {
     content: '';
-    display: inline-block; width: 7px; height: 7px; border-radius: 50%;
+    display: inline-block; width: 6px; height: 6px; border-radius: 50%;
     flex-shrink: 0;
-    background: #3b82f6; /* default; overridden per section */
+    background: #3b82f6;
   }
-  body.tv-mode #sectionAssignee h3::before  { background: #4ade80; }
+  body.tv-mode #sectionAssignee h3::before  { background: #10b981; }
   body.tv-mode #sectionAging .chart-card:first-child h3::before { background: #f87171; }
   body.tv-mode #sectionAging .chart-card:last-child  h3::before { background: #fb923c; }
   body.tv-mode #sectionGlidepath h3::before { background: #60a5fa; }
@@ -236,7 +265,7 @@
   body.tv-mode #sectionAging {
     grid-area: aging; margin: 0;
     display: grid; grid-template-columns: 2fr 3fr;
-    gap: 8px; overflow: hidden;
+    gap: 12px; overflow: hidden;
   }
   body.tv-mode #sectionAging .chart-card {
     overflow: hidden; display: flex; flex-direction: column; margin: 0;
@@ -247,29 +276,25 @@
   /* Oldest table */
   body.tv-mode #oldestTable table { width: 100%; border-collapse: collapse; }
   body.tv-mode #oldestTable thead th {
-    background: transparent; color: #1e293b;
-    font-size: 8px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase;
-    padding: 0 8px 10px; border-bottom: 1px solid #182033;
+    background: transparent; color: #64748b;
+    font-size: 9px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase;
+    padding: 0 8px 10px; border-bottom: 1px solid rgba(255,255,255,0.06);
   }
-  body.tv-mode #oldestTable tbody tr { border-bottom: 1px solid #111827; cursor: pointer; }
-  body.tv-mode #oldestTable tbody tr:hover { background: rgba(255,255,255,0.03); }
+  body.tv-mode #oldestTable tbody tr { border-bottom: 1px solid rgba(255,255,255,0.04); cursor: pointer; }
+  body.tv-mode #oldestTable tbody tr:hover { background: rgba(255,255,255,0.02); }
   body.tv-mode #oldestTable tbody td { padding: 8px 8px; vertical-align: middle; }
-  /* Days — large colored number */
   body.tv-mode #oldestTable tbody td:first-child {
-    font-size: 17px !important; font-weight: 800 !important; width: 44px; text-align: center;
+    font-size: 16px !important; font-weight: 800 !important; width: 44px; text-align: center;
   }
-  /* Ticket # */
-  body.tv-mode #oldestTable tbody td:nth-child(2) { color: #60a5fa !important; font-size: 11px; font-weight: 600; }
-  /* Subject */
-  body.tv-mode #oldestTable tbody td:nth-child(3) { color: #94a3b8; font-size: 12px; }
-  /* Assignee */
-  body.tv-mode #oldestTable tbody td:last-child { color: #334155 !important; font-size: 10px; }
+  body.tv-mode #oldestTable tbody td:nth-child(2) { color: #58a6ff !important; font-size: 11px; font-weight: 600; }
+  body.tv-mode #oldestTable tbody td:nth-child(3) { color: #e2e8f0; font-size: 12px; }
+  body.tv-mode #oldestTable tbody td:last-child { color: #94a3b8 !important; font-size: 10px; }
 
   /* ── Glidepath ───────────────────────────────────────────────────── */
   body.tv-mode #sectionGlidepath {
     grid-area: glidepath; margin: 0;
     display: grid; grid-template-columns: 1fr;
-    gap: 8px; overflow: hidden;
+    gap: 12px; overflow: hidden;
   }
   body.tv-mode #sectionGlidepath .chart-card {
     overflow: hidden; display: flex; flex-direction: column;
@@ -278,7 +303,7 @@
   body.tv-mode #sectionGlidepath canvas { flex: 1; max-height: none !important; min-height: 0; }
   body.tv-mode #sectionGlidepath .chart-card:last-child { display: none; }
 
-  /* ── Hide everything else ────────────────────────────────────────── */
+  /* ── Hidden elements in TV Mode ──────────────────────────────────── */
   body.tv-mode #noPlanPanel    { display: none; }
   body.tv-mode #sectionCatPrio { display: none; }
   body.tv-mode .filter-banner  { display: none !important; }
@@ -286,13 +311,14 @@
   body.tv-mode .status-bar     { display: none !important; }
   body.tv-mode footer           { display: none; }
 
+  /* ── Standard Mode Styles ────────────────────────────────────────── */
   .status-bar { background: #fff3cd; border-left: 4px solid #f39c12; padding: 10px 24px; font-size: 13px; color: #856404; display: none; }
   .status-bar.error { background: #f8d7da; border-color: #e74c3c; color: #721c24; }
   .status-bar.success { background: #d4edda; border-color: #27ae60; color: #155724; }
 
   .container { max-width: 1400px; margin: 0 auto; padding: 24px; }
 
-  /* KPI cards */
+  /* KPI cards standard */
   .kpi-row { display: grid; grid-template-columns: repeat(6, 1fr); gap: 16px; margin-bottom: 24px; }
   .kpi-card {
     background: white; border-radius: 10px; padding: 22px 24px;
@@ -323,7 +349,7 @@
   .kpi-card .sub { font-size: 12px; color: #95a5a6; }
   .kpi-card .click-hint { font-size: 10px; color: #bdc3c7; margin-top: 6px; }
 
-  /* Charts */
+  /* Charts standard */
   .chart-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px; }
   .chart-card { background: white; border-radius: 10px; padding: 20px 24px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
   .chart-card h3 { font-size: 11px; font-weight: 700; color: #5d6d7e; text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 4px; }
@@ -405,7 +431,7 @@
   .pager button:disabled { opacity: 0.4; cursor: not-allowed; }
   .pager .page-info { margin: 0 8px; }
 
-  /* Modal */
+  /* Modal details standard */
   .modal-backdrop { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.45); z-index: 1000; }
   .modal-backdrop.show { display: flex; align-items: center; justify-content: center; padding: 20px; }
   .modal { background: white; border-radius: 12px; max-width: 680px; width: 100%; max-height: 85vh; overflow-y: auto; box-shadow: 0 20px 60px rgba(0,0,0,0.25); }
@@ -419,7 +445,7 @@
   .modal-desc { font-size: 13px; color: #444; line-height: 1.6; max-height: 140px; overflow-y: auto; background: #fafbfc; border-radius: 6px; padding: 10px 12px; border: 1px solid #eee; }
   .modal-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 24px; }
 
-  .loading-overlay { display: none; position: fixed; inset: 0; background: rgba(26,58,92,0.6); z-index: 999; flex-direction: column; align-items: center; justify-content: center; color: white; }
+  .loading-overlay { display: none; position: fixed; inset: 0; background: rgba(9, 9, 11, 0.8); backdrop-filter: blur(8px); z-index: 999; flex-direction: column; align-items: center; justify-content: center; color: white; }
   .loading-overlay.show { display: flex; }
   .big-spinner { width: 52px; height: 52px; border: 5px solid rgba(255,255,255,0.3); border-top-color: white; border-radius: 50%; animation: spin 0.8s linear infinite; margin-bottom: 18px; }
 
@@ -620,8 +646,15 @@
 <footer>Gulf Coast Property Management &nbsp;|&nbsp; Desk365 Live Dashboard v4 &nbsp;|&nbsp; <a href="https://github.com/PSFIN/desk365-dashboard" target="_blank" style="color:#aaa">GitHub</a></footer>
 
 <script>
-const PALETTE = ['#2e6da4','#e74c3c','#27ae60','#f39c12','#8e44ad','#16a085','#d35400','#2980b9','#c0392b','#1abc9c'];
-const DEPT_PALETTE = ['#2e6da4','#e74c3c','#27ae60','#f39c12','#8e44ad','#16a085','#d35400','#c0392b','#1abc9c','#7f8c8d'];
+// Dynamic global palettes mapped dynamically on mode toggle
+let PALETTE = ['#2e6da4','#e74c3c','#27ae60','#f39c12','#8e44ad','#16a085','#d35400','#2980b9','#c0392b','#1abc9c'];
+let DEPT_PALETTE = ['#2e6da4','#e74c3c','#27ae60','#f39c12','#8e44ad','#16a085','#d35400','#c0392b','#1abc9c','#7f8c8d'];
+
+const LIGHT_PALETTE = ['#2e6da4','#e74c3c','#27ae60','#f39c12','#8e44ad','#16a085','#d35400','#2980b9','#c0392b','#1abc9c'];
+const DARK_PALETTE = ['#3b82f6', '#ec4899', '#10b981', '#f59e0b', '#8b5cf6', '#06b6d4', '#f97316', '#a855f7', '#14b8a6', '#6366f1'];
+
+const LIGHT_DEPT_PALETTE = ['#2e6da4','#e74c3c','#27ae60','#f39c12','#8e44ad','#16a085','#d35400','#c0392b','#1abc9c','#7f8c8d'];
+const DARK_DEPT_PALETTE = ['#3b82f6', '#ef4444', '#10b981', '#f59e0b', '#8b5cf6', '#06b6d4', '#f97316', '#6366f1', '#14b8a6', '#64748b'];
 
 const API_KEY  = '3ee9b8349e32663055ad56f4d5f92ea12758d3360e72623665bd82a97ec800aa';
 const API_BASE = 'https://gulfcoast.desk365.io/apis/v3';
@@ -787,7 +820,6 @@ async function loadData() {
 
 // ─── Department colour mapping (by primary category) ──────────────
 function buildDeptColors(tickets) {
-  // Count category occurrences per assignee across ALL tickets
   const asgnCats = {};
   tickets.forEach(t => {
     if (!t.assigned_to || !t.category) return;
@@ -798,12 +830,10 @@ function buildDeptColors(tickets) {
   Object.entries(asgnCats).forEach(([email, cats]) => {
     asgnPrimaryGroup[email] = Object.entries(cats).sort((a,b) => b[1]-a[1])[0][0];
   });
-  // Assign a colour to each unique category
   const cats = [...new Set(Object.values(asgnPrimaryGroup))].sort();
   deptColorMap = {};
   cats.forEach((c, i) => { deptColorMap[c] = DEPT_PALETTE[i % DEPT_PALETTE.length]; });
 
-  // Render legend
   const legend = document.getElementById('deptLegend');
   legend.innerHTML = cats.map(c =>
     `<div class="dept-legend-item"><div class="dept-legend-dot" style="background:${deptColorMap[c]}"></div>${c}</div>`
@@ -845,6 +875,10 @@ function makeChart(id, type, labels, data, opts = {}, clickFn) {
   const isHorizontal = opts.indexAxis === 'y';
   const isDoughnut   = type === 'doughnut';
   const total        = data.reduce((s, v) => s + v, 0);
+  const isTV         = document.body.classList.contains('tv-mode');
+
+  const primaryTextColor = isTV ? '#94a3b8' : '#1a1a2e';
+  const gridBorderColor = isTV ? 'rgba(255, 255, 255, 0.05)' : '#f5f5f5';
 
   const tooltipLabel = c => {
     const val = isHorizontal ? c.parsed.x : (isDoughnut ? c.parsed : c.parsed.y);
@@ -852,14 +886,14 @@ function makeChart(id, type, labels, data, opts = {}, clickFn) {
   };
 
   const datalabelsConfig = isDoughnut ? {
-    color: '#fff', font: { weight: '700', size: 12 },
+    color: '#fff', font: { weight: '700', size: 11 },
     formatter: (val) => val > 0 ? `${val}\n(${Math.round(val/total*100)}%)` : '',
     display: (ctx) => ctx.dataset.data[ctx.dataIndex] > 0, textAlign: 'center'
   } : isHorizontal ? {
-    anchor: 'end', align: 'right', color: '#1a1a2e', font: { weight: '700', size: 11 },
+    anchor: 'end', align: 'right', color: primaryTextColor, font: { weight: '700', size: 10 },
     formatter: val => val || '', clamp: true
   } : {
-    anchor: 'end', align: 'top', color: '#1a1a2e', font: { weight: '700', size: 11 },
+    anchor: 'end', align: 'top', color: primaryTextColor, font: { weight: '700', size: 10 },
     formatter: val => val || '', clamp: true
   };
 
@@ -870,9 +904,10 @@ function makeChart(id, type, labels, data, opts = {}, clickFn) {
       datasets: [{
         data,
         backgroundColor: opts.colors || (opts.singleColor ? Array(data.length).fill(opts.singleColor) : PALETTE),
-        hoverBackgroundColor: opts.singleColor ? Array(data.length).fill('#1a5276') : PALETTE.map(c => c + 'cc'),
-        borderRadius: type === 'bar' ? 5 : 0,
-        borderWidth: isDoughnut ? 2 : 0,
+        hoverBackgroundColor: (opts.colors || (opts.singleColor ? Array(data.length).fill(opts.singleColor) : PALETTE)).map(c => c + 'cc'),
+        borderRadius: type === 'bar' ? 6 : 0,
+        borderWidth: isDoughnut ? (isTV ? 1 : 2) : 0,
+        borderColor: isTV ? '#121214' : '#fff',
         label: opts.label || 'Tickets'
       }]
     },
@@ -882,22 +917,44 @@ function makeChart(id, type, labels, data, opts = {}, clickFn) {
         if (elements.length && clickFn) clickFn(labels[elements[0].index], data[elements[0].index]);
       },
       plugins: {
-        legend: { display: isDoughnut, position: 'bottom', labels: { font: { size: 11 } } },
+        legend: { 
+          display: isDoughnut, 
+          position: 'bottom', 
+          labels: { 
+            font: { size: 11 },
+            color: primaryTextColor
+          } 
+        },
         tooltip: { callbacks: { label: tooltipLabel } },
         datalabels: datalabelsConfig
       },
       scales: !isDoughnut ? {
-        [isHorizontal ? 'x' : 'y']: { beginAtZero: true, grid: { color: '#f5f5f5' }, ticks: { display: !isHorizontal } },
-        [isHorizontal ? 'y' : 'x']: { ticks: { font: { size: 11 }, maxRotation: opts.rotate || 0 } }
+        [isHorizontal ? 'x' : 'y']: { 
+          beginAtZero: true, 
+          grid: { color: gridBorderColor }, 
+          ticks: { display: !isHorizontal, color: primaryTextColor } 
+        },
+        [isHorizontal ? 'y' : 'x']: { 
+          grid: { display: false },
+          ticks: { font: { size: 10 }, maxRotation: opts.rotate || 0, color: primaryTextColor } 
+        }
       } : {},
       indexAxis: opts.indexAxis || 'x',
-      cutout: isDoughnut ? '60%' : undefined,
+      cutout: isDoughnut ? '65%' : undefined,
       layout: { padding: { right: isHorizontal ? 36 : 0, top: !isDoughnut && !isHorizontal ? 20 : 0 } }
     }
   });
 }
 
 function renderCharts(tickets) {
+  const isTV = document.body.classList.contains('tv-mode');
+  const primaryTextColor = isTV ? '#94a3b8' : '#1a1a2e';
+  const gridBorderColor = isTV ? 'rgba(255, 255, 255, 0.05)' : '#f5f5f5';
+
+  const tvBucketColors = ['#10b981', '#f59e0b', '#f97316', '#ef4444', '#f43f5e'];
+  const lightBucketColors = ['#27ae60', '#f1c40f', '#f39c12', '#e67e22', '#e74c3c'];
+  const activeBucketColors = isTV ? tvBucketColors : lightBucketColors;
+
   // Category
   const cats = topN(tickets, t => t.category, 8);
   makeChart('catChart', 'bar', cats.map(x=>x[0]), cats.map(x=>x[1]), { rotate: 20 },
@@ -909,7 +966,7 @@ function renderCharts(tickets) {
   makeChart('priorityChart', 'doughnut', Object.keys(prioMap), Object.values(prioMap), {},
     (label) => filterByPriority(label));
 
-  // Assignee — stacked by age bucket, Y-axis labels coloured by dept
+  // Assignee
   const asgnMap = {};
   tickets.forEach(t => {
     const email = t.assigned_to || '__unassigned__';
@@ -932,7 +989,7 @@ function renderCharts(tickets) {
       datasets: AGING_BUCKETS.map((b, bi) => ({
         label: b.label,
         data: asgnEntries.map(e => e.buckets[bi]),
-        backgroundColor: b.color,
+        backgroundColor: activeBucketColors[bi],
         borderWidth: 0,
         borderRadius: bi === AGING_BUCKETS.length - 1 ? { topLeft: 5, topRight: 5 } : 0,
       }))
@@ -963,12 +1020,11 @@ function renderCharts(tickets) {
         scrollToTable();
       },
       plugins: {
-        legend: { display: true, position: 'top', labels: { font: { size: 11 }, usePointStyle: true } },
+        legend: { display: true, position: 'top', labels: { font: { size: 10 }, usePointStyle: true, color: primaryTextColor } },
         tooltip: { callbacks: { label: c => ` ${c.dataset.label}: ${c.parsed.x} tickets` } },
         datalabels: {
           display: ctx => {
             const chart = ctx.chart;
-            // Find the last currently visible dataset
             let lastVisible = -1;
             for (let i = AGING_BUCKETS.length - 1; i >= 0; i--) {
               if (chart.isDatasetVisible(i)) { lastVisible = i; break; }
@@ -983,20 +1039,26 @@ function renderCharts(tickets) {
             return AGING_BUCKETS.reduce((s, _, bi) =>
               s + (chart.isDatasetVisible(bi) ? asgnEntries[ctx.dataIndex].buckets[bi] : 0), 0);
           },
-          anchor: 'end', align: 'right', color: '#1a1a2e', font: { weight: '700', size: 11 }, clamp: true
+          anchor: 'end', align: 'right', color: primaryTextColor, font: { weight: '700', size: 10 }, clamp: true
         }
       },
       scales: {
-        x: { stacked: true, beginAtZero: true, grid: { color: '#f5f5f5' } },
+        x: { 
+          stacked: true, 
+          beginAtZero: true, 
+          grid: { color: gridBorderColor },
+          ticks: { color: primaryTextColor, font: { size: 10 } }
+        },
         y: {
           stacked: true,
+          grid: { display: false },
           ticks: {
-            font: { size: 11 },
+            font: { size: 10 },
             color: ctx => {
               const e = asgnEntries[ctx.index];
               if (!e || e.email === '__unassigned__') return '#7f8c8d';
               const grp = asgnPrimaryGroup[e.email];
-              return grp ? deptColorMap[grp] : '#1a1a2e';
+              return grp ? deptColorMap[grp] : primaryTextColor;
             }
           }
         }
@@ -1005,10 +1067,7 @@ function renderCharts(tickets) {
     }
   });
 
-  // Aging chart + oldest table
   renderAgingChart(allTickets.filter(t => t.status === 'Open'));
-
-  // New v4 sections
   renderNoPlan(allTickets.filter(t => t.status === 'Open'));
   renderGlidepath(allTickets.filter(t => t.status === 'Open'));
   renderThroughput(allTickets);
@@ -1280,15 +1339,22 @@ function scheduleTVRefresh() {
 
 function applyTVChartTheme(dark) {
   if (dark) {
-    Chart.defaults.color = '#6e7681';
-    Chart.defaults.borderColor = '#21262d';
-    Chart.defaults.plugins.legend.labels.color = '#6e7681';
+    PALETTE = DARK_PALETTE;
+    DEPT_PALETTE = DARK_DEPT_PALETTE;
+    Chart.defaults.color = '#94a3b8';
+    Chart.defaults.borderColor = 'rgba(255, 255, 255, 0.05)';
+    Chart.defaults.plugins.legend.labels.color = '#94a3b8';
   } else {
-    Chart.defaults.color = '#666';
-    Chart.defaults.borderColor = 'rgba(0,0,0,0.1)';
-    Chart.defaults.plugins.legend.labels.color = '#666';
+    PALETTE = LIGHT_PALETTE;
+    DEPT_PALETTE = LIGHT_DEPT_PALETTE;
+    Chart.defaults.color = '#5d6d7e';
+    Chart.defaults.borderColor = '#f0f2f5';
+    Chart.defaults.plugins.legend.labels.color = '#5d6d7e';
   }
-  Object.values(charts).forEach(c => { try { c.update('none'); } catch(e){} });
+  if (allTickets.length) {
+    buildDeptColors(allTickets);
+    renderCharts(allTickets.filter(t => t.status === 'Open'));
+  }
 }
 
 function toggleTV() {
@@ -1339,6 +1405,14 @@ function bucketOf(d) {
 }
 
 function renderAgingChart(openTickets) {
+  const isTV = document.body.classList.contains('tv-mode');
+  const primaryTextColor = isTV ? '#94a3b8' : '#1a1a2e';
+  const gridBorderColor = isTV ? 'rgba(255, 255, 255, 0.05)' : '#f5f5f5';
+
+  const tvBucketColors = ['#10b981', '#f59e0b', '#f97316', '#ef4444', '#f43f5e'];
+  const lightBucketColors = ['#27ae60', '#f1c40f', '#f39c12', '#e67e22', '#e74c3c'];
+  const activeBucketColors = isTV ? tvBucketColors : lightBucketColors;
+
   const counts = AGING_BUCKETS.map(() => 0);
   openTickets.forEach(t => {
     const d = daysOpen(t);
@@ -1350,7 +1424,7 @@ function renderAgingChart(openTickets) {
     type: 'bar', plugins: [ChartDataLabels],
     data: {
       labels: AGING_BUCKETS.map(b => b.label),
-      datasets: [{ data: counts, backgroundColor: AGING_BUCKETS.map(b => b.color), borderRadius: 5, borderWidth: 0, label: 'Open Tickets' }]
+      datasets: [{ data: counts, backgroundColor: activeBucketColors, borderRadius: 6, borderWidth: 0, label: 'Open Tickets' }]
     },
     options: {
       responsive: true, maintainAspectRatio: true,
@@ -1358,11 +1432,18 @@ function renderAgingChart(openTickets) {
       plugins: {
         legend: { display: false },
         tooltip: { callbacks: { label: c => ` ${c.parsed.y} tickets` } },
-        datalabels: { anchor: 'end', align: 'top', color: '#1a1a2e', font: { weight: '700', size: 12 }, formatter: v => v || '' }
+        datalabels: { anchor: 'end', align: 'top', color: primaryTextColor, font: { weight: '700', size: 11 }, formatter: v => v || '' }
       },
       scales: {
-        y: { beginAtZero: true, grid: { color: '#f5f5f5' } },
-        x: { ticks: { font: { size: 11 } } }
+        y: { 
+          beginAtZero: true, 
+          grid: { color: gridBorderColor },
+          ticks: { color: primaryTextColor, font: { size: 10 } }
+        },
+        x: { 
+          grid: { display: false },
+          ticks: { font: { size: 10 }, color: primaryTextColor } 
+        }
       },
       layout: { padding: { top: 20 } }
     }
@@ -1372,19 +1453,24 @@ function renderAgingChart(openTickets) {
   const sorted = [...openTickets].filter(t => daysOpen(t) !== null).sort((a,b) => daysOpen(b)-daysOpen(a)).slice(0,10);
   const rows = sorted.map(t => {
     const d = daysOpen(t);
-    let color = '#27ae60';
-    if (d > 60) color = '#e74c3c'; else if (d > 30) color = '#e67e22'; else if (d > 14) color = '#f39c12'; else if (d > 7) color = '#f1c40f';
+    const colorIdx = bucketOf(d);
+    const color = activeBucketColors[colorIdx !== -1 ? colorIdx : 4];
+    
     const subj = (t.subject||'—').length > 40 ? (t.subject||'').slice(0,40)+'…' : (t.subject||'—');
-    return `<tr onclick="openModal(${t.ticket_number})" style="cursor:pointer;border-bottom:1px solid #f5f6f8">
+    return `<tr onclick="openModal(${t.ticket_number})" style="cursor:pointer;border-bottom:1px solid ${isTV ? 'rgba(255,255,255,0.04)' : '#f5f6f8'}">
       <td style="padding:7px 8px;font-weight:800;font-size:18px;color:${color};width:50px;text-align:center">${d}</td>
-      <td style="padding:7px 8px;font-size:12px;font-weight:700;color:#2e6da4">#${t.ticket_number}</td>
-      <td style="padding:7px 8px;font-size:12px" title="${(t.subject||'').replace(/"/g,'&quot;')}">${subj}</td>
-      <td style="padding:7px 8px;font-size:11px;color:#7f8c8d;white-space:nowrap">${assigneeName(t.assigned_to)}</td>
+      <td style="padding:7px 8px;font-size:12px;font-weight:700;color:${isTV ? '#58a6ff' : '#2e6da4'}">#${t.ticket_number}</td>
+      <td style="padding:7px 8px;font-size:12px;color:${isTV ? '#e2e8f0' : '#1a1a2e'}" title="${(t.subject||'').replace(/"/g,'&quot;')}">${subj}</td>
+      <td style="padding:7px 8px;font-size:11px;color:${isTV ? '#94a3b8' : '#7f8c8d'};white-space:nowrap">${assigneeName(t.assigned_to)}</td>
     </tr>`;
   }).join('');
+
+  const tableHeaderColor = isTV ? '#64748b' : '#7f8c8d';
+  const borderBottomColor = isTV ? '1px solid rgba(255,255,255,0.06)' : '2px solid #f0f2f5';
+
   document.getElementById('oldestTable').innerHTML = `
     <table style="width:100%;border-collapse:collapse">
-      <thead><tr style="font-size:10px;color:#7f8c8d;text-transform:uppercase;letter-spacing:.6px">
+      <thead><tr style="font-size:10px;color:${tableHeaderColor};text-transform:uppercase;letter-spacing:.6px;border-bottom:${borderBottomColor}">
         <th style="padding:4px 8px;text-align:center">Days</th>
         <th style="padding:4px 8px;text-align:left">#</th>
         <th style="padding:4px 8px;text-align:left">Subject</th>
@@ -1440,13 +1526,11 @@ function renderGlidepath(openTickets) {
   const withPlan = openTickets.filter(t => t.due_date);
   const today = new Date(); today.setHours(0,0,0,0);
 
-  // Build weekly buckets (next 16 weeks + overdue bucket)
   const weekMap = {};
   let overdueCount = 0;
   withPlan.forEach(t => {
     const due = new Date(t.due_date);
     if (due < today) { overdueCount++; return; }
-    // Monday of that due week
     const day = due.getDay();
     const diff = due.getDate() - day + (day === 0 ? -6 : 1);
     const mon = new Date(due); mon.setDate(diff); mon.setHours(0,0,0,0);
@@ -1454,11 +1538,10 @@ function renderGlidepath(openTickets) {
     weekMap[key] = (weekMap[key] || 0) + 1;
   });
 
-  // Show up to 12 weeks from today
   const weeks = [];
   const tmp = new Date(today);
   const day0 = tmp.getDay();
-  tmp.setDate(tmp.getDate() - day0 + (day0 === 0 ? -6 : 1)); // start of this week
+  tmp.setDate(tmp.getDate() - day0 + (day0 === 0 ? -6 : 1));
   for (let i = 0; i < 12; i++) {
     const key = tmp.toISOString().slice(0,10);
     weeks.push({ key, label: tmp.toLocaleDateString('en-US', { month:'short', day:'numeric' }), count: weekMap[key] || 0 });
@@ -1467,6 +1550,12 @@ function renderGlidepath(openTickets) {
 
   const labels = weeks.map(w => w.label);
   const counts = weeks.map(w => w.count);
+
+  const isTV = document.body.classList.contains('tv-mode');
+  const primaryTextColor = isTV ? '#94a3b8' : '#1a1a2e';
+  const gridBorderColor = isTV ? 'rgba(255, 255, 255, 0.05)' : '#f5f5f5';
+  const accentColor = isTV ? '#3b82f6' : '#2e6da4';
+  const overdueBarColor = isTV ? '#ef4444' : '#e74c3c';
 
   if (charts['glidepathChart']) charts['glidepathChart'].destroy();
   const ctx = document.getElementById('glidepathChart').getContext('2d');
@@ -1477,8 +1566,8 @@ function renderGlidepath(openTickets) {
       datasets: [{
         label: 'Tickets due',
         data: counts,
-        backgroundColor: counts.map((_, i) => i === 0 ? '#e74c3c' : '#2e6da4'),
-        borderRadius: 5, borderWidth: 0
+        backgroundColor: counts.map((_, i) => i === 0 ? overdueBarColor : accentColor),
+        borderRadius: 6, borderWidth: 0
       }]
     },
     options: {
@@ -1486,11 +1575,18 @@ function renderGlidepath(openTickets) {
       plugins: {
         legend: { display: false },
         tooltip: { callbacks: { label: c => ` ${c.parsed.y} tickets due this week` } },
-        datalabels: { anchor: 'end', align: 'top', color: '#1a1a2e', font: { weight: '700', size: 11 }, formatter: v => v || '' }
+        datalabels: { anchor: 'end', align: 'top', color: primaryTextColor, font: { weight: '700', size: 10 }, formatter: v => v || '' }
       },
       scales: {
-        y: { beginAtZero: true, grid: { color: '#f5f5f5' } },
-        x: { ticks: { font: { size: 10 }, maxRotation: 30 } }
+        y: { 
+          beginAtZero: true, 
+          grid: { color: gridBorderColor },
+          ticks: { color: primaryTextColor, font: { size: 10 } }
+        },
+        x: { 
+          grid: { display: false },
+          ticks: { font: { size: 10 }, maxRotation: 30, color: primaryTextColor } 
+        }
       },
       layout: { padding: { top: 20 } }
     }
@@ -1508,6 +1604,13 @@ function renderThroughput(tickets) {
   const sorted = groups.sort((a,b) => (openByGrp[b]||0) - (openByGrp[a]||0)).slice(0, 10);
   const shortLabels = sorted.map(g => g.length > 18 ? g.slice(0,16)+'…' : g);
 
+  const isTV = document.body.classList.contains('tv-mode');
+  const primaryTextColor = isTV ? '#94a3b8' : '#1a1a2e';
+  const gridBorderColor = isTV ? 'rgba(255, 255, 255, 0.05)' : '#f5f5f5';
+
+  const openColor = isTV ? '#f43f5e' : '#e74c3c';
+  const closedColor = isTV ? '#10b981' : '#27ae60';
+
   if (charts['throughputChart']) charts['throughputChart'].destroy();
   const ctx = document.getElementById('throughputChart').getContext('2d');
   charts['throughputChart'] = new Chart(ctx, {
@@ -1515,23 +1618,38 @@ function renderThroughput(tickets) {
     data: {
       labels: shortLabels,
       datasets: [
-        { label: 'Open',   data: sorted.map(g => openByGrp[g]||0),   backgroundColor: '#e74c3c', borderRadius: 4, borderWidth: 0 },
-        { label: 'Closed', data: sorted.map(g => closedByGrp[g]||0), backgroundColor: '#27ae60', borderRadius: 4, borderWidth: 0 }
+        { label: 'Open',   data: sorted.map(g => openByGrp[g]||0),   backgroundColor: openColor, borderRadius: 5, borderWidth: 0 },
+        { label: 'Closed', data: sorted.map(g => closedByGrp[g]||0), backgroundColor: closedColor, borderRadius: 5, borderWidth: 0 }
       ]
     },
     options: {
       responsive: true, maintainAspectRatio: true,
       plugins: {
-        legend: { display: true, position: 'top', labels: { font: { size: 11 }, usePointStyle: true } },
+        legend: { 
+          display: true, 
+          position: 'top', 
+          labels: { 
+            font: { size: 10 }, 
+            usePointStyle: true,
+            color: primaryTextColor
+          } 
+        },
         tooltip: { callbacks: { label: c => ` ${c.dataset.label}: ${c.parsed.y}` } },
         datalabels: {
-          anchor: 'end', align: 'top', color: '#1a1a2e', font: { weight: '700', size: 10 },
+          anchor: 'end', align: 'top', color: primaryTextColor, font: { weight: '700', size: 9 },
           formatter: v => v || '', clamp: true
         }
       },
       scales: {
-        y: { beginAtZero: true, grid: { color: '#f5f5f5' } },
-        x: { ticks: { font: { size: 10 }, maxRotation: 30 } }
+        y: { 
+          beginAtZero: true, 
+          grid: { color: gridBorderColor },
+          ticks: { color: primaryTextColor, font: { size: 9 } }
+        },
+        x: { 
+          grid: { display: false },
+          ticks: { font: { size: 9 }, maxRotation: 30, color: primaryTextColor } 
+        }
       },
       layout: { padding: { top: 20 } }
     }
