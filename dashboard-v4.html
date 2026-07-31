@@ -512,17 +512,11 @@
       <div class="sub">Past target date</div>
       <div class="click-hint">▶ Click to filter</div>
     </div>
-    <div class="kpi-card orange" onclick="filterBy('status','Closed')" id="kpiCardClosed">
-      <div class="label">Closed</div>
-      <div class="value" id="kpiClosed">—</div>
-      <div class="sub">Total closed</div>
+    <div class="kpi-card orange" onclick="filterUnassigned()" id="kpiCardUnassigned">
+      <div class="label">Unassigned</div>
+      <div class="value" id="kpiUnassigned">—</div>
+      <div class="sub">Should be zero ✓</div>
       <div class="click-hint">▶ Click to filter</div>
-    </div>
-    <div class="kpi-card blue" onclick="clearFilter()" id="kpiCardTotal">
-      <div class="label">Total in System</div>
-      <div class="value" id="kpiTotal">—</div>
-      <div class="sub">Excl. archived</div>
-      <div class="click-hint">▶ Show all</div>
     </div>
   </div>
 
@@ -845,14 +839,22 @@ function renderKPIsFromCounts(counts, tickets) {
   document.getElementById('kpiOpen').textContent     = counts.open.toLocaleString();
   document.getElementById('kpiResolved').textContent = counts.resolved.toLocaleString();
   document.getElementById('kpiPending').textContent  = counts.pending.toLocaleString();
-  document.getElementById('kpiClosed').textContent   = counts.closed.toLocaleString();
-  document.getElementById('kpiTotal').textContent    = counts.total.toLocaleString();
   if (tickets) {
     const today = new Date(); today.setHours(0,0,0,0);
     const overdue = tickets.filter(t =>
       t.due_date && new Date(t.due_date) < today && !['Closed','Archived'].includes(t.status)
     ).length;
     document.getElementById('kpiOverdue').textContent = overdue.toLocaleString();
+    const unassigned = tickets.filter(t =>
+      !t.assigned_to && !['Closed','Archived'].includes(t.status)
+    ).length;
+    const el = document.getElementById('kpiUnassigned');
+    el.textContent = unassigned.toLocaleString();
+    /* Turn card green if zero, red if any unassigned */
+    const card = document.getElementById('kpiCardUnassigned');
+    card.classList.remove('orange','red','green');
+    card.classList.add(unassigned === 0 ? 'green' : 'red');
+    card.querySelector('.sub').textContent = unassigned === 0 ? '✓ All tickets assigned' : '⚠ Needs attention';
   }
 }
 
@@ -997,22 +999,39 @@ function renderCharts(tickets) {
     options: {
       indexAxis: 'y', responsive: true, maintainAspectRatio: true,
       onClick: (evt, elements) => {
-        if (!elements.length) return;
-        const { index: i, datasetIndex: bi } = elements[0];
-        const e = asgnEntries[i];
-        if (!e) return;
-        const b = AGING_BUCKETS[bi];
-        const label = e.name + ' — ' + b.label;
-        activeFilter = { key: '_assignee_age', value: { email: e.email, bi }, label };
-        document.getElementById('filterLabel').innerHTML = `Showing: <strong>${label}</strong>`;
-        document.getElementById('filterBanner').classList.add('show');
-        document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
-        filteredTickets = allTickets.filter(t => {
-          if (t.status !== 'Open') return false;
-          if (e.email === '__unassigned__' ? !!t.assigned_to : t.assigned_to !== e.email) return false;
-          const d = daysOpen(t);
-          return d !== null && d >= b.min && d <= b.max;
-        });
+        const chart = charts['assigneeChart'];
+        if (elements.length) {
+          /* Clicked on a bar segment — filter by assignee + age bucket */
+          const { index: i, datasetIndex: bi } = elements[0];
+          const e = asgnEntries[i];
+          if (!e) return;
+          const b = AGING_BUCKETS[bi];
+          const label = e.name + ' — ' + b.label;
+          activeFilter = { key: '_assignee_age', value: { email: e.email, bi }, label };
+          document.getElementById('filterLabel').innerHTML = `Showing: <strong>${label}</strong>`;
+          document.getElementById('filterBanner').classList.add('show');
+          document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
+          filteredTickets = allTickets.filter(t => {
+            if (t.status !== 'Open') return false;
+            if (e.email === '__unassigned__' ? !!t.assigned_to : t.assigned_to !== e.email) return false;
+            const d = daysOpen(t);
+            return d !== null && d >= b.min && d <= b.max;
+          });
+        } else {
+          /* Clicked outside bars — check if click landed on a Y-axis label */
+          const { left, right, top, bottom } = chart.chartArea;
+          const canvasRect = chart.canvas.getBoundingClientRect();
+          const x = evt.native.clientX - canvasRect.left;
+          const y = evt.native.clientY - canvasRect.top;
+          if (x > left) return; /* clicked in chart area but no bar hit */
+          const scale = chart.scales.y;
+          const idx = scale.getValueForPixel(y);
+          const i = Math.round(idx);
+          if (i < 0 || i >= asgnEntries.length) return;
+          const e = asgnEntries[i];
+          filterByAssignee(e.email, e.name);
+          return;
+        }
         document.getElementById('ticketSearch').value = '';
         searchedTickets = [...filteredTickets];
         currentPage = 1;
@@ -1042,10 +1061,19 @@ function renderCharts(tickets) {
           anchor: 'end', align: 'right', color: primaryTextColor, font: { weight: '700', size: 10 }, clamp: true
         }
       },
+      onHover: (evt, elements) => {
+        const chart = charts['assigneeChart'];
+        if (!chart) return;
+        const { left } = chart.chartArea;
+        const canvasRect = chart.canvas.getBoundingClientRect();
+        const x = evt.native.clientX - canvasRect.left;
+        const inLabelZone = x < left;
+        chart.canvas.style.cursor = (elements.length || inLabelZone) ? 'pointer' : 'default';
+      },
       scales: {
-        x: { 
-          stacked: true, 
-          beginAtZero: true, 
+        x: {
+          stacked: true,
+          beginAtZero: true,
           grid: { color: gridBorderColor },
           ticks: { color: primaryTextColor, font: { size: 10 } }
         },
@@ -1053,7 +1081,7 @@ function renderCharts(tickets) {
           stacked: true,
           grid: { display: false },
           ticks: {
-            font: { size: 10 },
+            font: { size: 10, weight: '500' },
             color: ctx => {
               const e = asgnEntries[ctx.index];
               if (!e || e.email === '__unassigned__') return '#7f8c8d';
@@ -1109,6 +1137,35 @@ function filterByPriority(label) {
     if (label === 'Medium') return t.priority === 5;
     return t.priority !== 1 && t.priority !== 5;
   });
+  document.getElementById('ticketSearch').value = '';
+  searchedTickets = [...filteredTickets];
+  currentPage = 1;
+  renderTable();
+  scrollToTable();
+}
+
+function filterUnassigned() {
+  activeFilter = { key: '_unassigned', value: true, label: 'Unassigned' };
+  document.getElementById('filterLabel').innerHTML = `Showing: <strong>Unassigned</strong> tickets`;
+  document.getElementById('filterBanner').classList.add('show');
+  document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
+  document.getElementById('kpiCardUnassigned').classList.add('active');
+  filteredTickets = allTickets.filter(t => !t.assigned_to && !['Closed','Archived'].includes(t.status));
+  document.getElementById('ticketSearch').value = '';
+  searchedTickets = [...filteredTickets];
+  currentPage = 1;
+  renderTable();
+  scrollToTable();
+}
+
+function filterByAssignee(email, name) {
+  activeFilter = { key: 'assigned_to', value: email, label: name };
+  document.getElementById('filterLabel').innerHTML = `Showing: all tickets for <strong>${name}</strong>`;
+  document.getElementById('filterBanner').classList.add('show');
+  document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
+  filteredTickets = allTickets.filter(t =>
+    email === '__unassigned__' ? !t.assigned_to : t.assigned_to === email
+  );
   document.getElementById('ticketSearch').value = '';
   searchedTickets = [...filteredTickets];
   currentPage = 1;
