@@ -540,24 +540,18 @@
   </div>
 
   <!-- Tickets with No Plan -->
-  <div class="alert-panel" id="noPlanPanel">
-    <h3>⚠️ Tickets with No Plan</h3>
-    <div class="alert-hint">Open tickets with no Target Closure Date set — click to filter</div>
-    <div class="alert-count" id="noPlanCount">—<span>open tickets have no target closure date</span></div>
-    <div id="noPlanList"></div>
-  </div>
-
-  <!-- Planned Closure Glidepath -->
+  <!-- Planned Closure Glidepath + No Plan side by side -->
   <div class="chart-grid-2" id="sectionGlidepath">
     <div class="chart-card">
       <h3>Planned Closure Glidepath (Weekly)</h3>
       <div class="chart-hint">Open tickets due by week — based on Target Closure Date</div>
       <canvas id="glidepathChart" style="max-height:260px"></canvas>
     </div>
-    <div class="chart-card" style="display:none">
-      <h3>Throughput by Department</h3>
-      <div class="chart-hint">Open vs Closed tickets per group</div>
-      <canvas id="throughputChart" style="max-height:260px"></canvas>
+    <div class="alert-panel" id="noPlanPanel" style="margin-bottom:0">
+      <h3>⚠️ Tickets with No Plan</h3>
+      <div class="alert-hint">Open tickets with no Target Closure Date set — click to filter</div>
+      <div class="alert-count" id="noPlanCount">—<span>open tickets have no target closure date</span></div>
+      <div id="noPlanList"></div>
     </div>
   </div>
 
@@ -1633,6 +1627,7 @@ function renderGlidepath(openTickets) {
 
 // ─── Throughput by Department ──────────────────────────────────────
 function renderThroughput(tickets) {
+  if (!document.getElementById('throughputChart')) return;
   const groups = [...new Set(tickets.map(t => t.group).filter(Boolean))];
   const openByGrp  = {}; const closedByGrp = {};
   groups.forEach(g => {
