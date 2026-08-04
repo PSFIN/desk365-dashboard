@@ -1694,5 +1694,16 @@ function renderThroughput(tickets) {
 // ─── Boot ──────────────────────────────────────────────────────────
 window.addEventListener('load', loadData);
 </script>
+<!-- Go to top button -->
+<button id="goTopBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top"
+  style="display:none;position:fixed;bottom:28px;right:28px;z-index:9999;width:44px;height:44px;border-radius:50%;border:none;background:#3498db;color:#fff;font-size:20px;cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,0.2);transition:opacity 0.2s,transform 0.2s;line-height:44px;text-align:center">↑</button>
+<script>
+  (function(){
+    const btn = document.getElementById('goTopBtn');
+    window.addEventListener('scroll', () => {
+      btn.style.display = window.scrollY > 300 ? 'block' : 'none';
+    }, { passive: true });
+  })();
+</script>
 </body>
 </html>
