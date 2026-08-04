@@ -467,9 +467,12 @@
 </div>
 
 <header>
-  <div>
-    <h1>🏖️ Gulf Coast Property Management — Support Dashboard</h1>
-    <p>Live Desk365 Ticket Analytics &nbsp;·&nbsp; Click any card or chart to filter tickets</p>
+  <div style="display:flex;align-items:center;gap:14px">
+    <img src="logo.jpeg" alt="Gulf Coast Property Management" style="height:52px;width:auto;border-radius:4px;flex-shrink:0">
+    <div>
+      <h1>Gulf Coast Property Management — Support Dashboard</h1>
+      <p>Live Desk365 Ticket Analytics &nbsp;·&nbsp; Click any card or chart to filter tickets</p>
+    </div>
   </div>
   <div class="header-right">
     <div class="last-updated" id="lastUpdated">Last updated: <span>Never</span></div>
@@ -1285,7 +1288,7 @@ function renderTable() {
     const isOverdue = t.due_date && new Date(t.due_date) < today && !['Closed','Archived'].includes(t.status);
     const dueCls = isOverdue ? 'style="color:#e74c3c;font-weight:700"' : '';
     return `<tr onclick="openModal(${t.ticket_number})">
-      <td class="ticket-num"><a href="https://gulfcoast.desk365.io/agent/tickets/${t.ticket_number}" target="_blank" onclick="event.stopPropagation()" style="color:inherit;text-decoration:none" title="Open in Desk365">#${t.ticket_number} ↗</a></td>
+      <td class="ticket-num"><a href="https://gulfcoast.desk365.io/app/tickets/ticketdetails?viewNumber=1&tktNum=${t.ticket_number}" target="_blank" onclick="event.stopPropagation()" style="color:inherit;text-decoration:none" title="Open in Desk365">#${t.ticket_number} ↗</a></td>
       <td class="ticket-subject" title="${(t.subject||'').replace(/"/g,'&quot;')}">${t.subject || '—'}</td>
       <td>${statusBadge(t.status)}</td>
       <td>${priorityBadge(t.priority)}</td>
@@ -1315,7 +1318,7 @@ function openModal(ticketNum) {
   const t = allTickets.find(x => x.ticket_number === ticketNum);
   if (!t) return;
   const lastUpd = t.updated_at || t.last_updated || t.modified_at;
-  document.getElementById('modalTitle').innerHTML = `#${t.ticket_number} — ${t.subject || '(no subject)'} <a href="https://gulfcoast.desk365.io/agent/tickets/${t.ticket_number}" target="_blank" style="font-size:13px;font-weight:400;color:#EA7A1E;text-decoration:none;margin-left:8px" title="Open in Desk365">↗ Open in Desk365</a>`;
+  document.getElementById('modalTitle').innerHTML = `#${t.ticket_number} — ${t.subject || '(no subject)'} <a href="https://gulfcoast.desk365.io/app/tickets/ticketdetails?viewNumber=1&tktNum=${t.ticket_number}" target="_blank" style="font-size:13px;font-weight:400;color:#EA7A1E;text-decoration:none;margin-left:8px" title="Open in Desk365">↗ Open in Desk365</a>`;
   document.getElementById('modalBody').innerHTML = `
     <div class="modal-grid">
       <div class="modal-field"><label>Status</label><div class="val">${statusBadge(t.status)}</div></div>
