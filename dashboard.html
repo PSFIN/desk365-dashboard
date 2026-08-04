@@ -15,7 +15,7 @@
   body { font-family: 'Inter', 'Segoe UI', Arial, sans-serif; background: #f0f2f5; color: #1a1a2e; transition: background 0.3s ease; }
 
   header {
-    background: linear-gradient(135deg, #1a3a5c 0%, #2e6da4 100%);
+    background: linear-gradient(135deg, #003158 0%, #024F8D 100%);
     color: white; padding: 18px 32px;
     display: flex; align-items: center; justify-content: space-between;
     box-shadow: 0 2px 8px rgba(0,0,0,0.2);
@@ -28,12 +28,12 @@
   .last-updated span { font-weight: 600; }
 
   #refreshBtn {
-    background: #27ae60; color: white; border: none;
+    background: #EA7A1E; color: white; border: none;
     padding: 8px 20px; border-radius: 20px; font-size: 13px;
     font-weight: 600; cursor: pointer; display: flex; align-items: center;
     gap: 7px; transition: background 0.2s; white-space: nowrap;
   }
-  #refreshBtn:hover { background: #219a52; }
+  #refreshBtn:hover { background: #c9661a; }
   #refreshBtn:disabled { background: #7f8c8d; cursor: not-allowed; }
   #refreshBtn .spinner { display: none; width: 14px; height: 14px; border: 2px solid rgba(255,255,255,0.4); border-top-color: white; border-radius: 50%; animation: spin 0.7s linear infinite; }
   #refreshBtn.loading .spinner { display: inline-block; }
@@ -322,11 +322,11 @@
   .kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 24px; }
   .kpi-card {
     background: white; border-radius: 10px; padding: 22px 24px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.08); border-top: 4px solid #2e6da4;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08); border-top: 4px solid #024F8D;
     cursor: pointer; transition: transform 0.15s, box-shadow 0.15s; position: relative;
   }
   .kpi-card:hover { transform: translateY(-3px); box-shadow: 0 6px 18px rgba(0,0,0,0.12); }
-  .kpi-card.active { box-shadow: 0 0 0 3px #2e6da4, 0 4px 12px rgba(0,0,0,0.1); }
+  .kpi-card.active { box-shadow: 0 0 0 3px #024F8D, 0 4px 12px rgba(0,0,0,0.1); }
   .kpi-card.red    { border-top-color: #e74c3c; }
   .kpi-card.red.active { box-shadow: 0 0 0 3px #e74c3c, 0 4px 12px rgba(0,0,0,0.1); }
   .kpi-card.green  { border-top-color: #27ae60; }
@@ -336,7 +336,7 @@
   .kpi-card.purple { border-top-color: #8e44ad; }
   .kpi-card.purple .value { color: #8e44ad; }
   .kpi-card.purple.active { box-shadow: 0 0 0 3px #8e44ad, 0 4px 12px rgba(0,0,0,0.1); }
-  .kpi-card.blue   { border-top-color: #2e6da4; }
+  .kpi-card.blue   { border-top-color: #024F8D; }
   .kpi-card.teal   { border-top-color: #16a085; }
   .kpi-card.teal .value { color: #16a085; }
   .kpi-card.teal.active { box-shadow: 0 0 0 3px #16a085, 0 4px 12px rgba(0,0,0,0.1); }
@@ -345,7 +345,7 @@
   .kpi-card.red    .value { color: #e74c3c; }
   .kpi-card.green  .value { color: #27ae60; }
   .kpi-card.orange .value { color: #f39c12; }
-  .kpi-card.blue   .value { color: #2e6da4; }
+  .kpi-card.blue   .value { color: #024F8D; }
   .kpi-card .sub { font-size: 12px; color: #95a5a6; }
   .kpi-card .click-hint { font-size: 10px; color: #bdc3c7; margin-top: 6px; }
 
@@ -374,18 +374,18 @@
 
   /* Active filter banner */
   .filter-banner {
-    display: none; background: #eaf4ff; border: 1px solid #2e6da4;
+    display: none; background: #e8f0f8; border: 1px solid #024F8D;
     border-radius: 8px; padding: 10px 18px; margin-bottom: 16px;
     font-size: 13px; color: #1a3a5c; align-items: center; gap: 12px;
   }
   .filter-banner.show { display: flex; }
   .filter-banner strong { font-weight: 700; }
   .filter-banner button {
-    margin-left: auto; background: none; border: 1px solid #2e6da4;
+    margin-left: auto; background: none; border: 1px solid #024F8D;
     color: #2e6da4; padding: 4px 12px; border-radius: 12px; font-size: 12px;
     cursor: pointer; white-space: nowrap;
   }
-  .filter-banner button:hover { background: #2e6da4; color: white; }
+  .filter-banner button:hover { background: #024F8D; color: white; }
 
   /* Ticket table */
   .ticket-panel { background: white; border-radius: 10px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); margin-bottom: 24px; overflow: hidden; }
@@ -405,13 +405,13 @@
     border-bottom: 2px solid #f0f2f5; background: #fafbfc; white-space: nowrap;
     cursor: pointer; user-select: none;
   }
-  thead th:hover { color: #2e6da4; }
+  thead th:hover { color: #024F8D; }
   thead th .sort-icon { margin-left: 4px; opacity: 0.4; }
-  thead th.sorted .sort-icon { opacity: 1; color: #2e6da4; }
+  thead th.sorted .sort-icon { opacity: 1; color: #024F8D; }
   tbody tr { border-bottom: 1px solid #f5f6f8; transition: background 0.1s; }
   tbody tr:hover { background: #f8fafc; cursor: pointer; }
   tbody td { padding: 10px 14px; vertical-align: middle; }
-  .ticket-num { font-weight: 700; color: #2e6da4; font-size: 12px; }
+  .ticket-num { font-weight: 700; color: #024F8D; font-size: 12px; }
   .ticket-subject { max-width: 280px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 12px; }
   .badge { display: inline-block; padding: 2px 9px; border-radius: 10px; font-size: 11px; font-weight: 600; white-space: nowrap; }
   .badge-open     { background: #fde8e8; color: #c0392b; }
@@ -1315,7 +1315,7 @@ function openModal(ticketNum) {
   const t = allTickets.find(x => x.ticket_number === ticketNum);
   if (!t) return;
   const lastUpd = t.updated_at || t.last_updated || t.modified_at;
-  document.getElementById('modalTitle').innerHTML = `#${t.ticket_number} — ${t.subject || '(no subject)'} <a href="https://gulfcoast.desk365.io/agent/tickets/${t.ticket_number}" target="_blank" style="font-size:13px;font-weight:400;color:#3498db;text-decoration:none;margin-left:8px" title="Open in Desk365">↗ Open in Desk365</a>`;
+  document.getElementById('modalTitle').innerHTML = `#${t.ticket_number} — ${t.subject || '(no subject)'} <a href="https://gulfcoast.desk365.io/agent/tickets/${t.ticket_number}" target="_blank" style="font-size:13px;font-weight:400;color:#EA7A1E;text-decoration:none;margin-left:8px" title="Open in Desk365">↗ Open in Desk365</a>`;
   document.getElementById('modalBody').innerHTML = `
     <div class="modal-grid">
       <div class="modal-field"><label>Status</label><div class="val">${statusBadge(t.status)}</div></div>
@@ -1696,7 +1696,7 @@ window.addEventListener('load', loadData);
 </script>
 <!-- Go to top button -->
 <button id="goTopBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top"
-  style="display:none;position:fixed;bottom:28px;right:28px;z-index:9999;width:44px;height:44px;border-radius:50%;border:none;background:#3498db;color:#fff;font-size:20px;cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,0.2);transition:opacity 0.2s,transform 0.2s;line-height:44px;text-align:center">↑</button>
+  style="display:none;position:fixed;bottom:28px;right:28px;z-index:9999;width:44px;height:44px;border-radius:50%;border:none;background:#003158;color:#fff;font-size:20px;cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,0.2);transition:opacity 0.2s,transform 0.2s;line-height:44px;text-align:center">↑</button>
 <script>
   (function(){
     const btn = document.getElementById('goTopBtn');
