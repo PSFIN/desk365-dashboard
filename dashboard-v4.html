@@ -494,12 +494,6 @@
       <div class="sub">Requires attention</div>
       <div class="click-hint">▶ Click to filter</div>
     </div>
-    <div class="kpi-card green" onclick="filterBy('status','Resolved')" id="kpiCardResolved">
-      <div class="label">Resolved</div>
-      <div class="value" id="kpiResolved">—</div>
-      <div class="sub">Awaiting closure</div>
-      <div class="click-hint">▶ Click to filter</div>
-    </div>
     <div class="kpi-card teal" onclick="filterBy('status','Pending')" id="kpiCardPending">
       <div class="label">Pending</div>
       <div class="value" id="kpiPending">—</div>
@@ -557,7 +551,7 @@
       <div class="chart-hint">Open tickets due by week — based on Target Closure Date</div>
       <canvas id="glidepathChart" style="max-height:260px"></canvas>
     </div>
-    <div class="chart-card">
+    <div class="chart-card" style="display:none">
       <h3>Throughput by Department</h3>
       <div class="chart-hint">Open vs Closed tickets per group</div>
       <canvas id="throughputChart" style="max-height:260px"></canvas>
@@ -747,49 +741,32 @@ async function loadData() {
   currentOffset = 0;
 
   try {
-    const fOpen     = encodeURIComponent(JSON.stringify({status:['Open']}));
-    const fResolved = encodeURIComponent(JSON.stringify({status:['Resolved']}));
-    const fClosed   = encodeURIComponent(JSON.stringify({status:['Closed']}));
-    const fPending  = encodeURIComponent(JSON.stringify({status:['Pending']}));
-    const fActive   = encodeURIComponent(JSON.stringify({status:['Open','Pending','Resolved']}));
+    const fOpen    = encodeURIComponent(JSON.stringify({status:['Open']}));
+    const fPending = encodeURIComponent(JSON.stringify({status:['Pending']}));
+    const fActive  = encodeURIComponent(JSON.stringify({status:['Open','Pending']}));
 
-    const [openRes, resolvedRes, closedRes, pendingRes, totalRes] = await Promise.all([
+    const [openRes, pendingRes] = await Promise.all([
       apiFetch(`/tickets?ticket_count=30&filters=${fOpen}`),
-      apiFetch(`/tickets?ticket_count=30&filters=${fResolved}`),
-      apiFetch(`/tickets?ticket_count=30&filters=${fClosed}`),
-      apiFetch(`/tickets?ticket_count=30&filters=${fPending}`),
-      apiFetch(`/tickets?ticket_count=30`)
+      apiFetch(`/tickets?ticket_count=30&filters=${fPending}`)
     ]);
     const statusCounts = {
-      open:     openRes.count     ?? 0,
-      resolved: resolvedRes.count ?? 0,
-      closed:   closedRes.count   ?? 0,
-      pending:  pendingRes.count  ?? 0,
-      total:    totalRes.count    ?? 0
+      open:    openRes.count    ?? 0,
+      pending: pendingRes.count ?? 0,
+      overdue: 0  // computed from tickets below
     };
-    totalInSystem = statusCounts.total;
+    totalInSystem = statusCounts.open + statusCounts.pending;
 
-    document.getElementById('loadingOverlay').querySelector('p').textContent = 'Loading active tickets…';
+    document.getElementById('loadingOverlay').querySelector('p').textContent = 'Loading open tickets…';
     let activeTickets = [];
     for (let offset = 0; ; offset += FETCH_PER_CALL) {
       const data = await apiFetch(`/tickets?ticket_count=${FETCH_PER_CALL}&offset=${offset}&filters=${fActive}`);
-      const batch = (data.tickets || data.data || []).filter(t => t.status !== 'Archived');
+      const batch = (data.tickets || data.data || []).filter(t => !['Closed','Archived'].includes(t.status));
       activeTickets = activeTickets.concat(batch);
       if (batch.length < FETCH_PER_CALL) break;
       await delay(150);
     }
 
-    document.getElementById('loadingOverlay').querySelector('p').textContent = 'Loading recent history…';
-    let closedTickets = [];
-    for (let i = 0; i < 3; i++) {
-      const data = await apiFetch(`/tickets?ticket_count=${FETCH_PER_CALL}&offset=${i * FETCH_PER_CALL}&filters=${fClosed}`);
-      const batch = (data.tickets || data.data || []);
-      closedTickets = closedTickets.concat(batch);
-      if (batch.length < FETCH_PER_CALL) break;
-      if (i < 2) await delay(150);
-    }
-
-    allTickets = [...activeTickets, ...closedTickets];
+    allTickets = [...activeTickets];
     currentOffset = allTickets.length;
 
     buildDeptColors(allTickets);
@@ -800,7 +777,7 @@ async function loadData() {
     renderCharts(allTickets.filter(t => t.status === 'Open'));
     clearFilter();
     updateLoadMoreBtn();
-    showStatus(`✅ Showing ${allTickets.length.toLocaleString()} of ${totalInSystem.toLocaleString()} tickets`, 'success');
+    showStatus(`✅ Loaded ${allTickets.length.toLocaleString()} open/pending tickets`, 'success');
   } catch(err) {
     showStatus(`⚠️ Could not load from Desk365 API: ${err.message}`, 'error');
     console.error(err);
@@ -837,7 +814,7 @@ function buildDeptColors(tickets) {
 // ─── KPIs ─────────────────────────────────────────────────────────
 function renderKPIsFromCounts(counts, tickets) {
   document.getElementById('kpiOpen').textContent     = counts.open.toLocaleString();
-  document.getElementById('kpiResolved').textContent = counts.resolved.toLocaleString();
+  // Resolved card removed
   document.getElementById('kpiPending').textContent  = counts.pending.toLocaleString();
   if (tickets) {
     const today = new Date(); today.setHours(0,0,0,0);
@@ -999,39 +976,23 @@ function renderCharts(tickets) {
     options: {
       indexAxis: 'y', responsive: true, maintainAspectRatio: true,
       onClick: (evt, elements) => {
+        if (!elements.length) return;
         const chart = charts['assigneeChart'];
-        if (elements.length) {
-          /* Clicked on a bar segment — filter by assignee + age bucket */
-          const { index: i, datasetIndex: bi } = elements[0];
-          const e = asgnEntries[i];
-          if (!e) return;
-          const b = AGING_BUCKETS[bi];
-          const label = e.name + ' — ' + b.label;
-          activeFilter = { key: '_assignee_age', value: { email: e.email, bi }, label };
-          document.getElementById('filterLabel').innerHTML = `Showing: <strong>${label}</strong>`;
-          document.getElementById('filterBanner').classList.add('show');
-          document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
-          filteredTickets = allTickets.filter(t => {
-            if (t.status !== 'Open') return false;
-            if (e.email === '__unassigned__' ? !!t.assigned_to : t.assigned_to !== e.email) return false;
-            const d = daysOpen(t);
-            return d !== null && d >= b.min && d <= b.max;
-          });
-        } else {
-          /* Clicked outside bars — check if click landed on a Y-axis label */
-          const { left, right, top, bottom } = chart.chartArea;
-          const canvasRect = chart.canvas.getBoundingClientRect();
-          const x = evt.native.clientX - canvasRect.left;
-          const y = evt.native.clientY - canvasRect.top;
-          if (x > left) return; /* clicked in chart area but no bar hit */
-          const scale = chart.scales.y;
-          const idx = scale.getValueForPixel(y);
-          const i = Math.round(idx);
-          if (i < 0 || i >= asgnEntries.length) return;
-          const e = asgnEntries[i];
-          filterByAssignee(e.email, e.name);
-          return;
-        }
+        const { index: i, datasetIndex: bi } = elements[0];
+        const e = asgnEntries[i];
+        if (!e) return;
+        const b = AGING_BUCKETS[bi];
+        const label = e.name + ' — ' + b.label;
+        activeFilter = { key: '_assignee_age', value: { email: e.email, bi }, label };
+        document.getElementById('filterLabel').innerHTML = `Showing: <strong>${label}</strong>`;
+        document.getElementById('filterBanner').classList.add('show');
+        document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
+        filteredTickets = allTickets.filter(t => {
+          if (t.status !== 'Open') return false;
+          if (e.email === '__unassigned__' ? !!t.assigned_to : t.assigned_to !== e.email) return false;
+          const d = daysOpen(t);
+          return d !== null && d >= b.min && d <= b.max;
+        });
         document.getElementById('ticketSearch').value = '';
         searchedTickets = [...filteredTickets];
         currentPage = 1;
@@ -1094,6 +1055,22 @@ function renderCharts(tickets) {
       layout: { padding: { right: 36 } }
     }
   });
+
+  /* Direct canvas listener for Y-axis label clicks (more reliable than Chart.js onClick for label zone) */
+  const asgnCanvas = document.getElementById('assigneeChart');
+  asgnCanvas._labelClickHandler && asgnCanvas.removeEventListener('click', asgnCanvas._labelClickHandler);
+  asgnCanvas._labelClickHandler = function(e) {
+    const chart = charts['assigneeChart'];
+    if (!chart) return;
+    const rect = asgnCanvas.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    if (x >= chart.chartArea.left) return; /* in bar area — handled by Chart.js onClick */
+    const idx = Math.round(chart.scales.y.getValueForPixel(y));
+    if (idx < 0 || idx >= asgnEntries.length) return;
+    filterByAssignee(asgnEntries[idx].email, asgnEntries[idx].name);
+  };
+  asgnCanvas.addEventListener('click', asgnCanvas._labelClickHandler);
 
   renderAgingChart(allTickets.filter(t => t.status === 'Open'));
   renderNoPlan(allTickets.filter(t => t.status === 'Open'));
@@ -1205,11 +1182,12 @@ function filterNoPlan() {
 }
 
 function clearFilter() {
-  activeFilter = null;
+  activeFilter = { key: 'status', value: 'Open', label: 'Open' };
   document.getElementById('filterBanner').classList.remove('show');
   document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
-  filteredTickets = [...allTickets];
-  renderCharts(allTickets.filter(t => t.status === 'Open'));
+  document.getElementById('kpiCardOpen')?.classList.add('active');
+  filteredTickets = allTickets.filter(t => t.status === 'Open');
+  renderCharts(filteredTickets);
   document.getElementById('ticketSearch').value = '';
   searchedTickets = [...filteredTickets];
   currentPage = 1;
@@ -1307,7 +1285,7 @@ function renderTable() {
     const isOverdue = t.due_date && new Date(t.due_date) < today && !['Closed','Archived'].includes(t.status);
     const dueCls = isOverdue ? 'style="color:#e74c3c;font-weight:700"' : '';
     return `<tr onclick="openModal(${t.ticket_number})">
-      <td class="ticket-num">#${t.ticket_number}</td>
+      <td class="ticket-num"><a href="https://gulfcoast.desk365.io/agent/tickets/${t.ticket_number}" target="_blank" onclick="event.stopPropagation()" style="color:inherit;text-decoration:none" title="Open in Desk365">#${t.ticket_number} ↗</a></td>
       <td class="ticket-subject" title="${(t.subject||'').replace(/"/g,'&quot;')}">${t.subject || '—'}</td>
       <td>${statusBadge(t.status)}</td>
       <td>${priorityBadge(t.priority)}</td>
@@ -1337,7 +1315,7 @@ function openModal(ticketNum) {
   const t = allTickets.find(x => x.ticket_number === ticketNum);
   if (!t) return;
   const lastUpd = t.updated_at || t.last_updated || t.modified_at;
-  document.getElementById('modalTitle').textContent = `#${t.ticket_number} — ${t.subject || '(no subject)'}`;
+  document.getElementById('modalTitle').innerHTML = `#${t.ticket_number} — ${t.subject || '(no subject)'} <a href="https://gulfcoast.desk365.io/agent/tickets/${t.ticket_number}" target="_blank" style="font-size:13px;font-weight:400;color:#3498db;text-decoration:none;margin-left:8px" title="Open in Desk365">↗ Open in Desk365</a>`;
   document.getElementById('modalBody').innerHTML = `
     <div class="modal-grid">
       <div class="modal-field"><label>Status</label><div class="val">${statusBadge(t.status)}</div></div>
