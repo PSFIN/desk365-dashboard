@@ -948,12 +948,12 @@ function renderCharts(tickets) {
     const email = t.assigned_to || '__unassigned__';
     const name = email === '__unassigned__' ? 'Unassigned'
       : email.split('@')[0].split('.').map(w => w.charAt(0).toUpperCase()+w.slice(1)).join(' ');
-    if (!asgnMap[email]) asgnMap[email] = { name, email, buckets: [0,0,0,0,0] };
+    if (!asgnMap[email]) asgnMap[email] = { name, email, buckets: AGING_BUCKETS.map(() => 0) };
     const d = daysOpen(t);
     if (d !== null) asgnMap[email].buckets[bucketOf(d)]++;
   });
   const asgnEntries = Object.values(asgnMap)
-    .sort((a,b) => b.buckets.reduce((s,v)=>s+v,0) - a.buckets.reduce((s,v)=>s+v,0));
+    .sort((a,b) => b.buckets.reduce((s,v)=>s+v,0) - a.buckets.reduce((s,v)=>s+v,0)); /* descending: highest total at top */
   const asgnLabels = asgnEntries.map(e => e.name);
 
   if (charts['assigneeChart']) charts['assigneeChart'].destroy();
