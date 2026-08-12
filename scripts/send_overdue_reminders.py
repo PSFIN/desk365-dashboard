@@ -155,11 +155,22 @@ def send_reminders(grouped):
         return json.loads(r.read())
 
 
+REQUIRED_SETUP_VARS = [
+    "GRAPH_TENANT_ID", "GRAPH_APP_ID", "GRAPH_APP_SECRET",
+    "TEAMS_APP_CATALOG_ID", "REMINDER_WEBHOOK_URL", "REMINDER_WEBHOOK_SECRET",
+]
+
+
 def main():
     skip_time_check = os.environ.get("SKIP_TIME_CHECK", "false").lower() == "true"
     if not skip_time_check and not in_send_window():
         print(f"Current time in America/New_York is {datetime.now(EASTERN).strftime('%H:%M')} — outside the 9am send window, skipping.")
         return
+
+    missing = [v for v in REQUIRED_SETUP_VARS if not os.environ.get(v)]
+    if missing:
+        print(f"::warning::Setup isn't finished yet — missing GitHub secret(s): {', '.join(missing)}. See teams-bot/README.md.")
+        print("Still checking what Desk365 currently looks like, for visibility:")
 
     print("Fetching open/pending tickets from Desk365…")
     tickets = fetch_open_pending_tickets()
@@ -176,6 +187,10 @@ def main():
 
     if not grouped:
         print("No overdue tickets to remind anyone about today.")
+        return
+
+    if missing:
+        print("Stopping here — can't reach Graph or the bot webhook until the secrets above are set.")
         return
 
     print("Ensuring the reminder bot is installed for each assignee…")
