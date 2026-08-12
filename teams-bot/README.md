@@ -61,8 +61,9 @@ version to migrate to later; moving is just: install the same two things there, 
 
 1. Install cloudflared: `brew install cloudflared` (Python 3 is already present on macOS).
 2. `cd teams-bot && pip3 install -r requirements.txt`
-3. `cp .env.example .env`, then fill in `BOT_APP_ID`, `BOT_APP_PASSWORD` (from step 1), and a
-   random `REMINDER_WEBHOOK_SECRET` (any long random string — the same value goes into a
+3. `cp .env.example .env`, then fill in `BOT_APP_ID`, `BOT_APP_PASSWORD`, `BOT_APP_TENANT_ID`
+   (all from step 1 — tenant ID is the "App Tenant ID" shown on the Bot's Configuration page),
+   and a random `REMINDER_WEBHOOK_SECRET` (any long random string — the same value goes into a
    GitHub secret in step 5).
 4. Test it runs: `python3 bot_service.py` — should print `Starting bot_service on port 3978…`
    with no errors. Ctrl+C to stop for now.
