@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.16",
+  "version": "1.0.0",
+  "id": "REPLACE_WITH_BOT_APP_ID",
+  "packageName": "com.gulfcoast.desk365reminders",
+  "developer": {
+    "name": "Gulf Coast Property Management",
+    "websiteUrl": "https://github.com/PSFIN/desk365-dashboard",
+    "privacyUrl": "https://github.com/PSFIN/desk365-dashboard",
+    "termsOfUseUrl": "https://github.com/PSFIN/desk365-dashboard"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "Desk365 Reminders",
+    "full": "Desk365 Overdue Ticket Reminders"
+  },
+  "description": {
+    "short": "Daily overdue Desk365 ticket reminders",
+    "full": "Sends each assignee a daily Teams message listing their overdue Desk365 support tickets. Internal tool, not published to the Teams store."
+  },
+  "accentColor": "#003158",
+  "bots": [
+    {
+      "botId": "REPLACE_WITH_BOT_APP_ID",
+      "scopes": ["personal"],
+      "supportsFiles": false,
+      "isNotificationOnly": true
+    }
+  ],
+  "permissions": ["identity", "messageTeamMembers"],
+  "validDomains": []
+}

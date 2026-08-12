@@ -1,0 +1,37 @@
+name: Send Overdue Ticket Reminders
+
+on:
+  schedule:
+    # Runs at both 13:00 and 14:00 UTC on weekdays so one of them lands at 9am ET
+    # year-round despite the US DST switch. The script itself checks the real
+    # America/New_York clock and skips the run that's outside the 9am window.
+    - cron: '0 13,14 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      test_assignee_email:
+        description: 'Only send to this one assignee (for a safe end-to-end test)'
+        required: false
+        default: ''
+
+jobs:
+  send-reminders:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Send overdue reminders
+        env:
+          DESK365_API_KEY: ${{ secrets.DESK365_API_KEY }}
+          GRAPH_TENANT_ID: ${{ secrets.GRAPH_TENANT_ID }}
+          GRAPH_APP_ID: ${{ secrets.GRAPH_APP_ID }}
+          GRAPH_APP_SECRET: ${{ secrets.GRAPH_APP_SECRET }}
+          TEAMS_APP_CATALOG_ID: ${{ secrets.TEAMS_APP_CATALOG_ID }}
+          REMINDER_WEBHOOK_URL: ${{ secrets.REMINDER_WEBHOOK_URL }}
+          REMINDER_WEBHOOK_SECRET: ${{ secrets.REMINDER_WEBHOOK_SECRET }}
+          TEST_ASSIGNEE_EMAIL: ${{ github.event.inputs.test_assignee_email }}
+          SKIP_TIME_CHECK: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
+        run: python3 scripts/send_overdue_reminders.py

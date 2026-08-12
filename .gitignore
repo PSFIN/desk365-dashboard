@@ -1,3 +1,5 @@
 CONFIG.md
 desk365_live_tickets.csv
 .claude/
+teams-bot/.env
+teams-bot/conversation_refs.json
