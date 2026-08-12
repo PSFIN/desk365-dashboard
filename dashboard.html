@@ -27,6 +27,21 @@
   .last-updated { font-size: 12px; background: rgba(255,255,255,0.15); padding: 6px 14px; border-radius: 20px; white-space: nowrap; }
   .last-updated span { font-weight: 600; }
 
+  .global-search-wrap { position: relative; }
+  #globalSearch {
+    background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.25);
+    color: white; padding: 8px 14px 8px 32px; border-radius: 20px; font-size: 13px;
+    width: 220px; outline: none; transition: background 0.2s, border-color 0.2s, width 0.2s;
+  }
+  #globalSearch::placeholder { color: rgba(255,255,255,0.6); }
+  #globalSearch:focus { background: rgba(255,255,255,0.95); color: #1a1a2e; border-color: #EA7A1E; width: 280px; }
+  #globalSearch:focus::placeholder { color: #7f8c8d; }
+  .global-search-wrap::before {
+    content: '🔍'; position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+    font-size: 12px; opacity: 0.7; pointer-events: none;
+  }
+  body.tv-mode .global-search-wrap { display: none; }
+
   #refreshBtn {
     background: #EA7A1E; color: white; border: none;
     padding: 8px 20px; border-radius: 20px; font-size: 13px;
@@ -475,6 +490,9 @@
     </div>
   </div>
   <div class="header-right">
+    <div class="global-search-wrap">
+      <input id="globalSearch" type="text" placeholder="Search ticket # or keyword…" oninput="onGlobalSearchInput()" onkeydown="onGlobalSearchKey(event)">
+    </div>
     <div class="last-updated" id="lastUpdated">Last updated: <span>Never</span></div>
     <div class="last-updated" id="tvNextRefresh" style="display:none;background:rgba(255,255,0,0.2);border:1px solid rgba(255,255,0,0.4)"></div>
     <button id="tvBtn" onclick="toggleTV()">📺 TV Mode</button>
@@ -1211,11 +1229,40 @@ function applySearch() {
       (t.assigned_to||'').toLowerCase().includes(q) ||
       (t.category||'').toLowerCase().includes(q) ||
       (t.contact_name||'').toLowerCase().includes(q) ||
+      (t.description_text||'').toLowerCase().includes(q) ||
       String(t.ticket_number).includes(q)
     );
   }
   currentPage = 1;
   renderTable();
+}
+
+// ─── Global header search ───────────────────────────────────────────
+let globalSearchHadValue = false;
+function onGlobalSearchInput() {
+  const val = document.getElementById('globalSearch').value;
+  const q = val.trim();
+  // Keyword search: mirror into the table search box (searches currently loaded tickets)
+  document.getElementById('ticketSearch').value = val;
+  applySearch();
+  if (q && !globalSearchHadValue) scrollToTicketPanel();
+  globalSearchHadValue = !!q;
+}
+
+function scrollToTicketPanel() {
+  document.querySelector('.ticket-panel').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function onGlobalSearchKey(evt) {
+  if (evt.key !== 'Enter') return;
+  const q = document.getElementById('globalSearch').value.trim();
+  if (!q) return;
+  if (/^\d+$/.test(q)) {
+    // Pure number: jump straight to that ticket, fetching it if not already loaded
+    openModal(Number(q));
+  } else {
+    scrollToTicketPanel();
+  }
 }
 
 // ─── Table rendering ───────────────────────────────────────────────
@@ -1314,9 +1361,24 @@ function changePage(dir) {
 }
 
 // ─── Modal ─────────────────────────────────────────────────────────
-function openModal(ticketNum) {
-  const t = allTickets.find(x => x.ticket_number === ticketNum);
-  if (!t) return;
+async function openModal(ticketNum) {
+  ticketNum = Number(ticketNum);
+  let t = allTickets.find(x => x.ticket_number === ticketNum);
+  if (!t) {
+    showStatus(`🔍 Looking up ticket #${ticketNum}…`, 'info');
+    try {
+      const data = await apiFetch(`/tickets/details?ticket_number=${ticketNum}`);
+      t = data.ticket || data.data || (data.ticket_number ? data : null);
+      if (t && t.ticket_number) {
+        allTickets.push(t);
+        document.getElementById('statusBar').style.display = 'none';
+      }
+    } catch (err) {
+      showStatus(`⚠️ Ticket #${ticketNum} not found`, 'error');
+      return;
+    }
+  }
+  if (!t) { showStatus(`⚠️ Ticket #${ticketNum} not found`, 'error'); return; }
   const lastUpd = t.updated_at || t.last_updated || t.modified_at;
   document.getElementById('modalTitle').innerHTML = `#${t.ticket_number} — ${t.subject || '(no subject)'} <a href="https://gulfcoast.desk365.io/app/tickets/ticketdetails?viewNumber=1&tktNum=${t.ticket_number}" target="_blank" style="font-size:13px;font-weight:400;color:#EA7A1E;text-decoration:none;margin-left:8px" title="Open in Desk365">↗ Open in Desk365</a>`;
   document.getElementById('modalBody').innerHTML = `
