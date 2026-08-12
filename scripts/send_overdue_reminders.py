@@ -44,7 +44,8 @@ def fetch_json(url, method="GET", data=None, headers=None):
         req_headers["Content-Type"] = "application/json"
     req = urllib.request.Request(url, data=body, method=method, headers=req_headers)
     with urllib.request.urlopen(req, timeout=30) as r:
-        return json.loads(r.read())
+        raw = r.read()
+        return json.loads(raw) if raw else {}
 
 
 def fetch_open_pending_tickets():
