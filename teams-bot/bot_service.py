@@ -32,12 +32,13 @@ log = logging.getLogger("bot_service")
 
 APP_ID = os.environ["BOT_APP_ID"]
 APP_PASSWORD = os.environ["BOT_APP_PASSWORD"]
+APP_TENANT_ID = os.environ["BOT_APP_TENANT_ID"]
 WEBHOOK_SECRET = os.environ["REMINDER_WEBHOOK_SECRET"]
 PORT = int(os.environ.get("PORT", 3978))
 
 REFS_FILE = Path(__file__).parent / "conversation_refs.json"
 
-adapter_settings = BotFrameworkAdapterSettings(APP_ID, APP_PASSWORD)
+adapter_settings = BotFrameworkAdapterSettings(APP_ID, APP_PASSWORD, channel_auth_tenant=APP_TENANT_ID)
 adapter = BotFrameworkAdapter(adapter_settings)
 
 
