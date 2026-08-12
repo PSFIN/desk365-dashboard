@@ -1,9 +1,10 @@
 # Daily overdue-ticket Teams reminders — setup guide
 
 Everything in this repo (manifest, `bot_service.py`, the GitHub Action) is already written.
-This guide is only the steps **you** need to do in the Azure Portal, Teams Admin Center, and
-on your Windows PC — none of this can be done from a coding session, since it needs your own
-admin login.
+Steps 1–3 and 5 happen in the Azure Portal / Teams Admin Center / GitHub — those need **your**
+own admin login, so only you can do them. Step 4 (running the webhook service) is currently on
+the Mac mini this repo lives on, which Claude can set up and run directly once real Bot
+credentials exist.
 
 Do these roughly in order; later steps depend on IDs/secrets from earlier ones.
 
@@ -51,32 +52,40 @@ users, the bot's credentials can only send messages).
    → this is `TEAMS_APP_CATALOG_ID` (different from the Bot App ID from step 1 — this is the ID
    Teams assigned to the *catalog entry*).
 
-## 4. Set up the Windows PC
+## 4. Host the bot's webhook — currently the Mac mini, Windows PC later
 
-1. Install [Python 3.11+](https://www.python.org/downloads/) and
-   [cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/downloads/).
-2. Copy this repo (or just the `teams-bot/` folder) onto the PC.
-3. `cd teams-bot`, then:
-   ```
-   pip install -r requirements.txt
-   copy .env.example .env
-   ```
-   Edit `.env` and fill in `BOT_APP_ID`, `BOT_APP_PASSWORD` (from step 1), and pick a random
-   `REMINDER_WEBHOOK_SECRET` (any long random string — you'll put the same value in a GitHub
-   secret later).
-4. Test it runs: `python bot_service.py` — should print `Starting bot_service on port 3978…`
+Hosting for now: the always-on Mac mini this repo lives on (Claude can run these steps
+directly). Nothing below is Windows-specific in principle — see **4b** for the Windows PC
+version to migrate to later; moving is just: install the same two things there, copy the
+`.env`, point the tunnel/Azure messaging endpoint at the new machine's tunnel URL.
+
+1. Install cloudflared: `brew install cloudflared` (Python 3 is already present on macOS).
+2. `cd teams-bot && pip3 install -r requirements.txt`
+3. `cp .env.example .env`, then fill in `BOT_APP_ID`, `BOT_APP_PASSWORD` (from step 1), and a
+   random `REMINDER_WEBHOOK_SECRET` (any long random string — the same value goes into a
+   GitHub secret in step 5).
+4. Test it runs: `python3 bot_service.py` — should print `Starting bot_service on port 3978…`
    with no errors. Ctrl+C to stop for now.
-5. Start a tunnel: `cloudflared tunnel --url http://localhost:3978`. It prints a stable-ish
-   `https://xxxxx.trycloudflare.com` URL — that's your public endpoint.
-   - For a permanent setup, use a [named Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
-     instead (needs a free Cloudflare account + a domain, but gives a fixed URL that survives
-     restarts instead of a new random one each time).
-6. Go back to **Azure Bot → Configuration → Messaging endpoint** and set it to
-   `https://<your-tunnel-url>/api/messages`.
-7. Make both `bot_service.py` and `cloudflared tunnel …` start automatically and restart on
-   crash/reboot — e.g. via **Task Scheduler** (trigger: at log on / at startup, with "restart
-   task if it fails" configured), or wrap them as Windows services with
-   [NSSM](https://nssm.cc/). Two long-running processes: the Python service and the tunnel.
+5. Start a tunnel: `cloudflared tunnel --url http://localhost:3978`. It prints a
+   `https://xxxxx.trycloudflare.com` URL — that's the public endpoint used in steps 6 and 5 below.
+   - For a URL that survives restarts (a quick tunnel gets a new random one each time), use a
+     [named Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
+     instead (needs a free Cloudflare account + a domain).
+6. Set **Azure Bot → Configuration → Messaging endpoint** to `https://<tunnel-url>/api/messages`.
+7. Keep both processes running permanently and restarting on crash/reboot via **launchd**
+   (macOS's service manager) — two `LaunchAgent` plists, one for `bot_service.py` one for
+   `cloudflared tunnel`, each with `RunAtLoad` and `KeepAlive` set. Ask Claude to set these up
+   once real Bot credentials exist in `.env` — it's a quick, standard launchd config.
+
+### 4b. Later: moving to the Windows PC
+
+Same two pieces, same order: install Python 3.11+ and
+[cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/downloads/),
+copy the `teams-bot/` folder and its filled-in `.env` over, run `bot_service.py` and
+`cloudflared tunnel --url http://localhost:3978`, then update the Azure messaging endpoint and
+the `REMINDER_WEBHOOK_URL` GitHub secret to the new tunnel URL. For persistence on Windows, use
+**Task Scheduler** (trigger: at log on/startup, "restart task if it fails") or wrap both as
+services with [NSSM](https://nssm.cc/).
 
 ## 5. Add GitHub repo secrets
 

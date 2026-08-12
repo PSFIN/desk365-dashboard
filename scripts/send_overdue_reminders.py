@@ -48,12 +48,15 @@ def fetch_json(url, method="GET", data=None, headers=None):
 
 
 def fetch_open_pending_tickets():
+    # NOTE: Desk365's documented `status=[...]` filter param is silently ignored by the API
+    # (confirmed empirically — it returns the full unfiltered ticket set regardless). The
+    # working param, taken from dashboard.html's loadData(), is `filters={"status": [...]}`.
     tickets = []
     offset = 0
     per_page = 100
-    status_param = urllib.parse.quote(json.dumps(["Open", "Pending"]))
+    filter_param = urllib.parse.quote(json.dumps({"status": ["Open", "Pending"]}))
     while True:
-        url = f"{API_BASE}/tickets?ticket_count={per_page}&offset={offset}&status={status_param}"
+        url = f"{API_BASE}/tickets?ticket_count={per_page}&offset={offset}&filters={filter_param}"
         data = fetch_json(url, headers={"Authorization": API_KEY})
         batch = data.get("tickets") or data.get("data") or []
         if not batch:
