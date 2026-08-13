@@ -2,10 +2,11 @@ name: Send Overdue Ticket Reminders
 
 on:
   schedule:
-    # Runs at both 13:00 and 14:00 UTC on weekdays so one of them lands at 9am ET
-    # year-round despite the US DST switch. The script itself checks the real
-    # America/New_York clock and skips the run that's outside the 9am window.
-    - cron: '0 13,14 * * 1-5'
+    # Mon/Wed/Fri only (per Ian's call — daily was expected to get ignored like email).
+    # Runs at both 13:00 and 14:00 UTC so one of them lands at 9am ET year-round
+    # despite the US DST switch; the script checks the real America/New_York clock
+    # and skips the run that's outside the 9am window.
+    - cron: '0 13,14 * * 1,3,5'
   workflow_dispatch:
     inputs:
       test_assignee_email:
@@ -32,6 +33,7 @@ jobs:
           TEAMS_APP_CATALOG_ID: ${{ secrets.TEAMS_APP_CATALOG_ID }}
           REMINDER_WEBHOOK_URL: ${{ secrets.REMINDER_WEBHOOK_URL }}
           REMINDER_WEBHOOK_SECRET: ${{ secrets.REMINDER_WEBHOOK_SECRET }}
+          PILOT_ALLOWLIST: ${{ secrets.PILOT_ALLOWLIST }}
           TEST_ASSIGNEE_EMAIL: ${{ github.event.inputs.test_assignee_email }}
           SKIP_TIME_CHECK: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
         run: python3 scripts/send_overdue_reminders.py

@@ -185,6 +185,19 @@ def main():
     if test_email:
         grouped = {test_email: grouped.get(test_email, [])}
         print(f"TEST MODE: only sending to {test_email} ({len(grouped[test_email])} overdue ticket(s))")
+    else:
+        # Pilot phase (per Ian's call — trial with a small group before company-wide).
+        # Manual test runs above bypass this on purpose; the real schedule doesn't.
+        allowlist_raw = os.environ.get("PILOT_ALLOWLIST", "").strip()
+        if allowlist_raw:
+            allowlist = {e.strip().lower() for e in allowlist_raw.split(",") if e.strip()}
+            skipped = sorted(set(grouped) - allowlist)
+            # Every pilot member gets a message, even "0 overdue tickets" — consistency
+            # matters more than skipping empty ones, same as TEST MODE above.
+            grouped = {email: grouped.get(email, []) for email in sorted(allowlist)}
+            print(f"PILOT MODE: sending to {len(grouped)} pilot assignee(s)")
+            if skipped:
+                print(f"  Skipped (not in pilot yet): {', '.join(skipped)}")
 
     if not grouped:
         print("No overdue tickets to remind anyone about today.")
