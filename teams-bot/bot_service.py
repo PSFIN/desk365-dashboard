@@ -137,6 +137,19 @@ def send_overdue():
     async def send_all():
         for email, tickets in payload.items():
             ref_dict = refs.get(email.lower())
+
+            if not ref_dict:
+                # First message for a brand-new install: the Graph install call and this
+                # request can both fire before Teams' conversationUpdate callback (which is
+                # what actually stores the reference) has landed on /api/messages. Poll
+                # briefly rather than failing immediately — observed delay is ~2-3s.
+                for _ in range(8):
+                    await asyncio.sleep(1)
+                    ref_dict = load_refs().get(email.lower())
+                    if ref_dict:
+                        log.info("Conversation reference for %s arrived after waiting", email)
+                        break
+
             if not ref_dict:
                 results[email] = "no_conversation_ref"
                 log.warning("No conversation reference stored for %s — bot not installed for them yet?", email)
