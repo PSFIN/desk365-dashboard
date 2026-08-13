@@ -100,15 +100,22 @@ services with [NSSM](https://nssm.cc/).
 | `TEAMS_APP_CATALOG_ID` | from step 3 |
 | `REMINDER_WEBHOOK_URL` | your tunnel URL, e.g. `https://xxxxx.trycloudflare.com` (no trailing path) |
 | `REMINDER_WEBHOOK_SECRET` | the same random string you put in the PC's `.env` |
+| `PILOT_ALLOWLIST` | comma-separated emails — only these people get real scheduled messages |
 
 (`DESK365_API_KEY` already exists from the ticket-fetch workflow.)
 
 ## 6. Get everyone signed up
 
-The GitHub Action installs the bot for each assignee automatically the first time they show up
-with an overdue ticket — no action needed from them beyond having a Teams account. The first
-message they get from the bot is a one-time "you're set up" confirmation, then daily reminders
-after that.
+**Pilot phase:** per Ian's call, this isn't rolled out company-wide yet. `PILOT_ALLOWLIST`
+restricts the real Mon/Wed/Fri schedule to whoever's listed there, regardless of who else has
+overdue tickets — to add someone, just add their email to that secret (comma-separated). Manual
+test runs (step 7 below) always bypass this and only message the one address you type in, so
+they're safe to use on anyone at any time.
+
+For whoever *is* in the allowlist: the GitHub Action installs the bot for them automatically the
+first time they're due a message — no action needed beyond having a Teams account. The first
+message they get is a one-time "you're set up" confirmation, then the regular reminders after
+that (even "0 overdue tickets," so the message stays consistent).
 
 ## 7. Test before trusting the schedule
 
