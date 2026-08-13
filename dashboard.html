@@ -1264,15 +1264,34 @@ function scrollToTicketPanel() {
   document.querySelector('.ticket-panel').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
-function onGlobalSearchKey(evt) {
+async function onGlobalSearchKey(evt) {
   if (evt.key !== 'Enter') return;
   const q = document.getElementById('globalSearch').value.trim();
   if (!q) return;
-  if (/^\d+$/.test(q)) {
-    // Pure number: jump straight to that ticket, fetching it if not already loaded
-    openModal(Number(q));
-  } else {
-    scrollToTicketPanel();
+  scrollToTicketPanel();
+
+  // If it's a ticket number that isn't among the currently loaded/shown tickets,
+  // fetch it and add it to the list so the user can see and confirm it before
+  // clicking in — never jump straight into the modal from here.
+  if (/^\d+$/.test(q) && searchedTickets.length === 0) {
+    const num = Number(q);
+    if (allTickets.some(t => t.ticket_number === num)) return;
+    showStatus(`🔍 Looking up ticket #${num}…`, 'info');
+    try {
+      const data = await apiFetch(`/tickets/details?ticket_number=${num}`);
+      const t = data.ticket || data.data || (data.ticket_number ? data : null);
+      if (t && t.ticket_number) {
+        allTickets.push(t);
+        searchedTickets = [t];
+        currentPage = 1;
+        renderTable();
+        document.getElementById('statusBar').style.display = 'none';
+      } else {
+        showStatus(`⚠️ Ticket #${num} not found`, 'error');
+      }
+    } catch (err) {
+      showStatus(`⚠️ Ticket #${num} not found`, 'error');
+    }
   }
 }
 
