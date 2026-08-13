@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.desk365.botservice</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/shinodvengaloor/desk365-bot-runtime/.venv/bin/python</string>
+        <string>/Users/shinodvengaloor/desk365-bot-runtime/bot_service.py</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/Users/shinodvengaloor/desk365-bot-runtime</string>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/Users/shinodvengaloor/Library/Logs/desk365-teams-bot/bot_service.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/shinodvengaloor/Library/Logs/desk365-teams-bot/bot_service.log</string>
+</dict>
+</plist>

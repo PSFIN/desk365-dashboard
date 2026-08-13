@@ -54,29 +54,53 @@ users, the bot's credentials can only send messages).
 
 ## 4. Host the bot's webhook — currently the Mac mini, Windows PC later
 
-Hosting for now: the always-on Mac mini this repo lives on (Claude can run these steps
-directly). Nothing below is Windows-specific in principle — see **4b** for the Windows PC
-version to migrate to later; moving is just: install the same two things there, copy the
-`.env`, point the tunnel/Azure messaging endpoint at the new machine's tunnel URL.
+Hosting for now: the always-on Mac mini this repo lives on. Nothing below is Windows-specific
+in principle — see **4b** for the Windows PC version to migrate to later.
 
+**Important: the running copy lives outside this repo, at `~/desk365-bot-runtime/` on the Mac
+mini — not in `teams-bot/` here.** This repo (which syncs via iCloud Drive) is the *source*:
+`bot_service.py`, `requirements.txt`, the manifest. The actual venv, `.env`, and
+`conversation_refs.json` live in the local runtime folder instead, for two reasons:
+- macOS blocks `launchd`-started processes from reading iCloud Drive paths (a TCC/privacy
+  restriction) — a plain `python3 bot_service.py` run from Terminal works fine there, but the
+  persistent service below can't start if it points at this folder.
+- `conversation_refs.json` and the log files change constantly; keeping that churn out of an
+  iCloud-synced folder avoids needless sync traffic.
+
+**Setup:**
 1. Install cloudflared: `brew install cloudflared` (Python 3 is already present on macOS).
-2. `cd teams-bot && pip3 install -r requirements.txt`
-3. `cp .env.example .env`, then fill in `BOT_APP_ID`, `BOT_APP_PASSWORD`, `BOT_APP_TENANT_ID`
-   (all from step 1 — tenant ID is the "App Tenant ID" shown on the Bot's Configuration page),
-   and a random `REMINDER_WEBHOOK_SECRET` (any long random string — the same value goes into a
+2. `mkdir -p ~/desk365-bot-runtime && cd ~/desk365-bot-runtime`
+3. Copy `bot_service.py` and `requirements.txt` from this repo's `teams-bot/` folder here, then
+   `python3 -m venv .venv && .venv/bin/pip install -r requirements.txt`.
+4. Copy `teams-bot/.env.example` here as `.env`, then fill in `BOT_APP_ID`, `BOT_APP_PASSWORD`,
+   `BOT_APP_TENANT_ID` (all from step 1 — tenant ID is the "App Tenant ID" shown on the Bot's
+   Configuration page), and a random `REMINDER_WEBHOOK_SECRET` (the same value goes into a
    GitHub secret in step 5).
-4. Test it runs: `python3 bot_service.py` — should print `Starting bot_service on port 3978…`
-   with no errors. Ctrl+C to stop for now.
-5. Start a tunnel: `cloudflared tunnel --url http://localhost:3978`. It prints a
-   `https://xxxxx.trycloudflare.com` URL — that's the public endpoint used in steps 6 and 5 below.
-   - For a URL that survives restarts (a quick tunnel gets a new random one each time), use a
-     [named Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
-     instead (needs a free Cloudflare account + a domain).
-6. Set **Azure Bot → Configuration → Messaging endpoint** to `https://<tunnel-url>/api/messages`.
-7. Keep both processes running permanently and restarting on crash/reboot via **launchd**
-   (macOS's service manager) — two `LaunchAgent` plists, one for `bot_service.py` one for
-   `cloudflared tunnel`, each with `RunAtLoad` and `KeepAlive` set. Ask Claude to set these up
-   once real Bot credentials exist in `.env` — it's a quick, standard launchd config.
+5. Test it runs: `.venv/bin/python bot_service.py` — should print `Starting bot_service on port
+   3978…` with no errors. Ctrl+C to stop.
+6. Start a tunnel: `cloudflared tunnel --url http://localhost:3978`. It prints a
+   `https://xxxxx.trycloudflare.com` URL — that's the public endpoint used below and in step 5.
+   - **This URL changes every time the tunnel restarts** (crash, reboot, manual restart) — it's
+     Cloudflare's free "quick tunnel." When that happens, update it in two places: **Azure Bot →
+     Configuration → Messaging endpoint** (append `/api/messages`) and the `REMINDER_WEBHOOK_URL`
+     GitHub secret. Check `~/Library/Logs/desk365-teams-bot/cloudflared.log` for the current URL.
+   - For a URL that never changes, use a [named Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
+     instead (needs a free Cloudflare account + a domain you control in Cloudflare DNS) — worth
+     doing once this is relied on daily, to remove the manual-fix step above.
+7. Set **Azure Bot → Configuration → Messaging endpoint** to `https://<tunnel-url>/api/messages`.
+8. Keep both processes running permanently via **launchd** (macOS's service manager) — two
+   `LaunchAgent` plists (copies checked into this repo at `teams-bot/launchd/` for reference;
+   the live ones are at `~/Library/LaunchAgents/com.desk365.botservice.plist` and
+   `com.desk365.cloudflaretunnel.plist`), both with `RunAtLoad` and `KeepAlive` set, pointing at
+   `~/desk365-bot-runtime/`. Logs go to `~/Library/Logs/desk365-teams-bot/`. Reload after any
+   change: `launchctl unload ~/Library/LaunchAgents/com.desk365.<name>.plist && launchctl load
+   ~/Library/LaunchAgents/com.desk365.<name>.plist`.
+   - This requires the Mac mini to be logged in (LaunchAgents are per-user, not system-wide) —
+     make sure auto-login is enabled if the machine ever restarts unattended.
+
+**To deploy a code change to `bot_service.py`:** edit it in this repo as usual, then copy the
+updated file to `~/desk365-bot-runtime/bot_service.py` and reload the `botservice` LaunchAgent
+(the tunnel doesn't need restarting for a code-only change).
 
 ### 4b. Later: moving to the Windows PC
 
