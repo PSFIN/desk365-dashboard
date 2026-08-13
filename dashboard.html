@@ -42,6 +42,27 @@
   }
   body.tv-mode .global-search-wrap { display: none; }
 
+  .global-search-results {
+    display: none; position: absolute; top: calc(100% + 6px); left: 0; width: 320px;
+    background: white; border-radius: 10px; box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+    overflow: hidden; z-index: 500; max-height: 340px; overflow-y: auto;
+  }
+  .global-search-results.show { display: block; }
+  .global-search-results .gsr-hint {
+    padding: 10px 14px; font-size: 12px; color: #7f8c8d; border-bottom: 1px solid #f0f2f5;
+  }
+  .global-search-results .gsr-row {
+    display: flex; flex-direction: column; gap: 2px; padding: 10px 14px; cursor: pointer;
+    border-bottom: 1px solid #f0f2f5; text-decoration: none; color: inherit;
+  }
+  .global-search-results .gsr-row:last-child { border-bottom: none; }
+  .global-search-results .gsr-row:hover { background: #f5f8fc; }
+  .global-search-results .gsr-num { font-size: 12px; font-weight: 700; color: #2e6da4; }
+  .global-search-results .gsr-subject {
+    font-size: 12.5px; color: #1a1a2e; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .global-search-results .gsr-meta { font-size: 11px; color: #7f8c8d; }
+
   #refreshBtn {
     background: #EA7A1E; color: white; border: none;
     padding: 8px 20px; border-radius: 20px; font-size: 13px;
@@ -491,7 +512,9 @@
   </div>
   <div class="header-right">
     <div class="global-search-wrap">
-      <input id="globalSearch" type="text" placeholder="Search ticket # or keyword…" oninput="onGlobalSearchInput()" onkeydown="onGlobalSearchKey(event)">
+      <input id="globalSearch" type="text" inputmode="numeric" placeholder="Search ticket #…"
+        oninput="onGlobalSearchInput()" onkeydown="onGlobalSearchKey(event)" onblur="onGlobalSearchBlur()">
+      <div class="global-search-results" id="globalSearchResults"></div>
     </div>
     <div class="last-updated" id="lastUpdated">Last updated: <span>Never</span></div>
     <div class="last-updated" id="tvNextRefresh" style="display:none;background:rgba(255,255,0,0.2);border:1px solid rgba(255,255,0,0.4)"></div>
@@ -1248,50 +1271,81 @@ function applySearch() {
   renderTable();
 }
 
-// ─── Global header search ───────────────────────────────────────────
-let globalSearchHadValue = false;
-function onGlobalSearchInput() {
-  const val = document.getElementById('globalSearch').value;
-  const q = val.trim();
-  // Keyword search: mirror into the table search box (searches currently loaded tickets)
-  document.getElementById('ticketSearch').value = val;
-  applySearch();
-  if (q && !globalSearchHadValue) scrollToTicketPanel();
-  globalSearchHadValue = !!q;
+// ─── Global header search — ticket number lookup only ──────────────────
+// Desk365's API has no free-text search endpoint (confirmed against their docs and
+// by direct testing), so this box only handles ticket numbers: it looks across all
+// of Desk365 (not just what's currently loaded), shows matches in a popup, and each
+// result links straight out to the ticket in Desk365 rather than opening our modal.
+// Keyword search stays on the ticket-table search box below, scoped to loaded tickets.
+let globalSearchToken = 0;
+
+function deskLink(num) {
+  return `https://gulfcoast.desk365.io/app/tickets/ticketdetails?viewNumber=1&tktNum=${num}`;
 }
 
-function scrollToTicketPanel() {
-  document.querySelector('.ticket-panel').scrollIntoView({ behavior: 'smooth', block: 'start' });
+function renderGlobalSearchResults(rows, hint) {
+  const box = document.getElementById('globalSearchResults');
+  const hintHtml = hint ? `<div class="gsr-hint">${hint}</div>` : '';
+  const rowsHtml = rows.map(t => `
+    <a class="gsr-row" href="${deskLink(t.ticket_number)}" target="_blank" rel="noopener">
+      <span class="gsr-num">#${t.ticket_number} ↗</span>
+      <span class="gsr-subject">${(t.subject || '(no subject)').replace(/</g, '&lt;')}</span>
+      <span class="gsr-meta">${t.status || ''}${t.assigned_to ? ' · ' + assigneeName(t.assigned_to) : ''}</span>
+    </a>
+  `).join('');
+  box.innerHTML = hintHtml + rowsHtml;
+  box.classList.toggle('show', !!(hint || rows.length));
+}
+
+function hideGlobalSearchResults() {
+  const box = document.getElementById('globalSearchResults');
+  box.classList.remove('show');
+  box.innerHTML = '';
+}
+
+function onGlobalSearchInput() {
+  const q = document.getElementById('globalSearch').value.trim();
+  globalSearchToken++;
+  if (!q) { hideGlobalSearchResults(); return; }
+  if (!/^\d+$/.test(q)) { renderGlobalSearchResults([], 'Ticket number only'); return; }
+  const num = Number(q);
+  const local = allTickets.filter(t => String(t.ticket_number).includes(q)).slice(0, 8);
+  if (local.length) {
+    renderGlobalSearchResults(local);
+  } else {
+    renderGlobalSearchResults([], 'Press Enter to look up in Desk365');
+  }
+}
+
+function onGlobalSearchBlur() {
+  // Delay so a click on a result link registers before the popup disappears
+  setTimeout(hideGlobalSearchResults, 200);
 }
 
 async function onGlobalSearchKey(evt) {
   if (evt.key !== 'Enter') return;
   const q = document.getElementById('globalSearch').value.trim();
-  if (!q) return;
-  scrollToTicketPanel();
+  if (!q || !/^\d+$/.test(q)) return;
+  const num = Number(q);
 
-  // If it's a ticket number that isn't among the currently loaded/shown tickets,
-  // fetch it and add it to the list so the user can see and confirm it before
-  // clicking in — never jump straight into the modal from here.
-  if (/^\d+$/.test(q) && searchedTickets.length === 0) {
-    const num = Number(q);
-    if (allTickets.some(t => t.ticket_number === num)) return;
-    showStatus(`🔍 Looking up ticket #${num}…`, 'info');
-    try {
-      const data = await apiFetch(`/tickets/details?ticket_number=${num}`);
-      const t = data.ticket || data.data || (data.ticket_number ? data : null);
-      if (t && t.ticket_number) {
-        allTickets.push(t);
-        searchedTickets = [t];
-        currentPage = 1;
-        renderTable();
-        document.getElementById('statusBar').style.display = 'none';
-      } else {
-        showStatus(`⚠️ Ticket #${num} not found`, 'error');
-      }
-    } catch (err) {
-      showStatus(`⚠️ Ticket #${num} not found`, 'error');
+  const local = allTickets.filter(t => String(t.ticket_number).includes(q)).slice(0, 8);
+  if (local.some(t => t.ticket_number === num)) return; // exact match already showing
+
+  const myToken = ++globalSearchToken;
+  renderGlobalSearchResults(local, `Looking up #${num} in Desk365…`);
+  try {
+    const data = await apiFetch(`/tickets/details?ticket_number=${num}`);
+    const t = data.ticket || data.data || (data.ticket_number ? data : null);
+    if (myToken !== globalSearchToken) return; // input changed while this was in flight
+    if (t && t.ticket_number) {
+      if (!allTickets.some(x => x.ticket_number === t.ticket_number)) allTickets.push(t);
+      renderGlobalSearchResults([t, ...local]);
+    } else {
+      renderGlobalSearchResults(local, `Ticket #${num} not found in Desk365`);
     }
+  } catch (err) {
+    if (myToken !== globalSearchToken) return;
+    renderGlobalSearchResults(local, `Ticket #${num} not found in Desk365`);
   }
 }
 
