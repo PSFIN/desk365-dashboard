@@ -1121,7 +1121,7 @@ function filterBy(key, value, displayName) {
   searchedTickets = [...filteredTickets];
   currentPage = 1;
   renderTable();
-  scrollToTable();
+  if (!(key === 'status' && value === 'Open')) scrollToTable();
 }
 
 function filterByPriority(label) {
@@ -1157,13 +1157,25 @@ function filterUnassigned() {
 }
 
 function filterByAssignee(email, name) {
-  activeFilter = { key: 'assigned_to', value: email, label: name };
-  document.getElementById('filterLabel').innerHTML = `Showing: all tickets for <strong>${name}</strong>`;
+  const keepOverdue = activeFilter && activeFilter.key === '_overdue';
+  const matchesAssignee = t => email === '__unassigned__' ? !t.assigned_to : t.assigned_to === email;
+
+  if (keepOverdue) {
+    const today = new Date(); today.setHours(0,0,0,0);
+    activeFilter = { key: '_overdue_assignee', value: email, label: `${name} — Overdue` };
+    document.getElementById('filterLabel').innerHTML = `Showing: <strong>Overdue</strong> tickets for <strong>${name}</strong>`;
+    filteredTickets = allTickets.filter(t =>
+      matchesAssignee(t) && t.due_date && new Date(t.due_date) < today && !['Closed','Archived'].includes(t.status)
+    );
+  } else {
+    activeFilter = { key: 'assigned_to', value: email, label: name };
+    document.getElementById('filterLabel').innerHTML = `Showing: all tickets for <strong>${name}</strong>`;
+    filteredTickets = allTickets.filter(matchesAssignee);
+  }
+
   document.getElementById('filterBanner').classList.add('show');
   document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
-  filteredTickets = allTickets.filter(t =>
-    email === '__unassigned__' ? !t.assigned_to : t.assigned_to === email
-  );
+  if (keepOverdue) document.getElementById('kpiCardOverdue').classList.add('active');
   document.getElementById('ticketSearch').value = '';
   searchedTickets = [...filteredTickets];
   currentPage = 1;
@@ -1186,7 +1198,6 @@ function filterOverdue() {
   searchedTickets = [...filteredTickets];
   currentPage = 1;
   renderTable();
-  scrollToTable();
 }
 
 function filterNoPlan() {
