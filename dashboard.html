@@ -28,14 +28,14 @@
   .last-updated { font-size: 12px; background: rgba(255,255,255,0.15); padding: 6px 14px; border-radius: 20px; white-space: nowrap; }
   .last-updated span { font-weight: 600; }
 
-  .global-search-wrap { position: relative; }
+  .global-search-wrap { position: relative; width: 280px; flex-shrink: 0; }
   #globalSearch {
     background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.25);
     color: white; padding: 8px 14px 8px 32px; border-radius: 20px; font-size: 13px;
-    width: 220px; outline: none; transition: background 0.2s, border-color 0.2s, width 0.2s;
+    width: 100%; box-sizing: border-box; outline: none; transition: background 0.2s, border-color 0.2s;
   }
   #globalSearch::placeholder { color: rgba(255,255,255,0.6); }
-  #globalSearch:focus { background: rgba(255,255,255,0.95); color: #1a1a2e; border-color: #EA7A1E; width: 280px; }
+  #globalSearch:focus { background: rgba(255,255,255,0.95); color: #1a1a2e; border-color: #EA7A1E; }
   #globalSearch:focus::placeholder { color: #7f8c8d; }
   .global-search-wrap::before {
     content: '🔍'; position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
@@ -76,12 +76,12 @@
   #refreshBtn.loading .spinner { display: inline-block; }
   @keyframes spin { to { transform: rotate(360deg); } }
 
-  #tvBtn {
+  #tvBtn, #viewAllBtn {
     background: rgba(255,255,255,0.15); color: white; border: 1px solid rgba(255,255,255,0.3);
     padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600;
     cursor: pointer; white-space: nowrap; transition: background 0.2s;
   }
-  #tvBtn:hover { background: rgba(255,255,255,0.25); }
+  #tvBtn:hover, #viewAllBtn:hover { background: rgba(255,255,255,0.25); }
 
   /* ══════════════════════════════════════════════════════════════════
      TV / EXECUTIVE DASHBOARD — Premium SaaS Redesign
@@ -343,8 +343,6 @@
   /* ── Hidden elements in TV Mode ──────────────────────────────────── */
   body.tv-mode #noPlanPanel    { display: none; }
   body.tv-mode #sectionCatPrio { display: none; }
-  body.tv-mode .filter-banner  { display: none !important; }
-  body.tv-mode .ticket-panel   { display: none; }
   body.tv-mode .status-bar     { display: none !important; }
   body.tv-mode footer           { display: none; }
 
@@ -409,29 +407,10 @@
   .alert-count { font-size: 36px; font-weight: 700; color: #e74c3c; line-height: 1; margin-bottom: 8px; }
   .alert-count span { font-size: 13px; font-weight: 400; color: #7f8c8d; margin-left: 6px; }
 
-  /* Active filter banner */
-  .filter-banner {
-    display: none; background: #e8f0f8; border: 1px solid #024F8D;
-    border-radius: 8px; padding: 10px 18px; margin-bottom: 16px;
-    font-size: 13px; color: #1a3a5c; align-items: center; gap: 12px;
-  }
-  .filter-banner.show { display: flex; }
-  .filter-banner strong { font-weight: 700; }
-  .filter-banner button {
-    margin-left: auto; background: none; border: 1px solid #024F8D;
-    color: #2e6da4; padding: 4px 12px; border-radius: 12px; font-size: 12px;
-    cursor: pointer; white-space: nowrap;
-  }
-  .filter-banner button:hover { background: #024F8D; color: white; }
-
-  /* Ticket table */
-  .ticket-panel { background: white; border-radius: 10px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); margin-bottom: 24px; overflow: hidden; }
-  .ticket-panel-header {
-    padding: 16px 24px; border-bottom: 1px solid #f0f2f5;
-    display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;
-  }
-  .ticket-panel-header h3 { font-size: 13px; font-weight: 700; color: #1a1a2e; }
-  .ticket-panel-header span { font-size: 12px; color: #7f8c8d; }
+  /* List modal header (title + search + close, all in one row) */
+  .list-modal-header { align-items: center; flex-wrap: wrap; }
+  .list-modal-header h2 { font-size: 13px; }
+  .list-modal-header .table-count { font-size: 12px; color: #7f8c8d; font-weight: 400; }
   .ticket-search { padding: 8px 12px; border: 1px solid #dde1e7; border-radius: 6px; font-size: 12px; width: 240px; outline: none; }
   .ticket-search:focus { border-color: #2e6da4; }
   .table-wrap { overflow-x: auto; }
@@ -449,7 +428,23 @@
   tbody tr:hover { background: #f8fafc; cursor: pointer; }
   tbody td { padding: 10px 14px; vertical-align: middle; }
   .ticket-num { font-weight: 700; color: #024F8D; font-size: 12px; }
-  .ticket-subject { max-width: 280px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 12px; }
+  .ticket-subject { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 12px; }
+
+  /* Fixed column widths for the popup ticket table — keeps it within the modal, no horizontal scroll */
+  #ticketTable { table-layout: fixed; }
+  #ticketTable th, #ticketTable td { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding-left: 10px; padding-right: 10px; }
+  #ticketTable thead th { white-space: normal; overflow-wrap: break-word; line-height: 1.3; }
+  #ticketTable th:nth-child(1),  #ticketTable td:nth-child(1)  { width: 8%; }
+  #ticketTable th:nth-child(2),  #ticketTable td:nth-child(2)  { width: 21%; }
+  #ticketTable th:nth-child(3),  #ticketTable td:nth-child(3)  { width: 7%; }
+  #ticketTable th:nth-child(4),  #ticketTable td:nth-child(4)  { width: 7%; }
+  #ticketTable th:nth-child(5),  #ticketTable td:nth-child(5)  { width: 11%; }
+  #ticketTable th:nth-child(6),  #ticketTable td:nth-child(6)  { width: 7%; }
+  #ticketTable th:nth-child(7),  #ticketTable td:nth-child(7)  { width: 10%; }
+  #ticketTable th:nth-child(8),  #ticketTable td:nth-child(8)  { width: 8%; }
+  #ticketTable th:nth-child(9),  #ticketTable td:nth-child(9)  { width: 7%; }
+  #ticketTable th:nth-child(10), #ticketTable td:nth-child(10) { width: 7%; }
+  #ticketTable th:nth-child(11), #ticketTable td:nth-child(11) { width: 7%; }
   .badge { display: inline-block; padding: 2px 9px; border-radius: 10px; font-size: 11px; font-weight: 600; white-space: nowrap; }
   .badge-open     { background: #fde8e8; color: #c0392b; }
   .badge-resolved { background: #d5f5e3; color: #1e8449; }
@@ -471,7 +466,10 @@
   /* Modal details standard */
   .modal-backdrop { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.45); z-index: 1000; }
   .modal-backdrop.show { display: flex; align-items: center; justify-content: center; padding: 20px; }
+  #listModalBackdrop { z-index: 900; }
   .modal { background: white; border-radius: 12px; max-width: 680px; width: 100%; max-height: 85vh; overflow-y: auto; box-shadow: 0 20px 60px rgba(0,0,0,0.25); }
+  .modal-wide { max-width: 1400px; max-height: 90vh; display: flex; flex-direction: column; overflow-y: hidden; }
+  .modal-wide .modal-body { padding: 0; overflow-y: auto; }
   .modal-header { padding: 20px 24px 16px; border-bottom: 1px solid #f0f2f5; display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; position: sticky; top: 0; background: white; z-index: 1; }
   .modal-header h2 { font-size: 15px; font-weight: 700; line-height: 1.4; }
   .modal-close { background: none; border: none; font-size: 20px; cursor: pointer; color: #7f8c8d; padding: 0 4px; flex-shrink: 0; }
@@ -519,6 +517,7 @@
     </div>
     <div class="last-updated" id="lastUpdated">Last updated: <span>Never</span></div>
     <div class="last-updated" id="tvNextRefresh" style="display:none;background:rgba(255,255,0,0.2);border:1px solid rgba(255,255,0,0.4)"></div>
+    <button id="viewAllBtn" onclick="viewAllTickets()">📋 All Tickets</button>
     <button id="tvBtn" onclick="toggleTV()">📺 TV Mode</button>
     <button id="refreshBtn" onclick="loadData()">
       <div class="spinner"></div>
@@ -611,55 +610,9 @@
     </div>
   </div>
 
-  <!-- Active filter banner -->
-  <div class="filter-banner" id="filterBanner">
-    <span id="filterLabel">Showing: all tickets</span>
-    <button onclick="clearFilter()">✕ Clear filter</button>
-  </div>
-
-  <!-- Ticket table -->
-  <div class="ticket-panel">
-    <div class="ticket-panel-header">
-      <div>
-        <h3 id="tableTitle">All Tickets</h3>
-        <span id="tableCount"></span>
-      </div>
-      <input class="ticket-search" id="ticketSearch" type="text" placeholder="Search subject, assignee, category..." oninput="applySearch()">
-    </div>
-    <div class="table-wrap">
-      <table id="ticketTable">
-        <thead>
-          <tr>
-            <th onclick="sortTable('ticket_number')"># <span class="sort-icon">↕</span></th>
-            <th onclick="sortTable('subject')">Subject <span class="sort-icon">↕</span></th>
-            <th onclick="sortTable('status')">Status <span class="sort-icon">↕</span></th>
-            <th onclick="sortTable('priority')">Priority <span class="sort-icon">↕</span></th>
-            <th onclick="sortTable('category')">Category <span class="sort-icon">↕</span></th>
-            <th onclick="sortTable('group')">Group <span class="sort-icon">↕</span></th>
-            <th onclick="sortTable('assigned_to')">Assignee <span class="sort-icon">↕</span></th>
-            <th onclick="sortTable('due_date')">Target Closure Date <span class="sort-icon">↕</span></th>
-            <th onclick="sortTable('updated_at')">Last Updated <span class="sort-icon">↕</span></th>
-            <th onclick="sortTable('created_on')">Created <span class="sort-icon">↕</span></th>
-            <th onclick="sortTable('_daysOpen')">Days Open <span class="sort-icon">↕</span></th>
-          </tr>
-        </thead>
-        <tbody id="ticketBody"></tbody>
-      </table>
-    </div>
-    <div class="pager" id="pager">
-      <button id="prevBtn" onclick="changePage(-1)">← Prev</button>
-      <span class="page-info" id="pageInfo"></span>
-      <button id="nextBtn" onclick="changePage(1)">Next →</button>
-      <span id="totalInfo" style="margin-left:8px;"></span>
-    </div>
-    <div style="padding: 10px 24px 16px; border-top: 1px solid #f0f2f5;">
-      <button id="loadMoreBtn" onclick="loadMore()" style="display:none; background:#2e6da4; color:white; border:none; padding:8px 18px; border-radius:6px; font-size:12px; cursor:pointer; font-weight:600;">⬇ Load next tickets</button>
-    </div>
-  </div>
-
 </div>
 
-<!-- Ticket detail modal -->
+<!-- Ticket detail modal (single ticket) -->
 <div class="modal-backdrop" id="modalBackdrop" onclick="closeModal(event)">
   <div class="modal" id="modalBox">
     <div class="modal-header">
@@ -667,6 +620,51 @@
       <button class="modal-close" onclick="closeModalDirect()">✕</button>
     </div>
     <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<!-- Ticket list modal (all tickets / filtered results) -->
+<div class="modal-backdrop" id="listModalBackdrop" onclick="closeListModal(event)">
+  <div class="modal modal-wide" id="listModalBox">
+    <div class="modal-header list-modal-header">
+      <div>
+        <h2 id="tableTitle">All Tickets</h2>
+        <span class="table-count" id="tableCount"></span>
+      </div>
+      <input class="ticket-search" id="ticketSearch" type="text" placeholder="Search subject, assignee, category..." oninput="applySearch()">
+      <button class="modal-close" onclick="closeListModalDirect()">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="table-wrap">
+        <table id="ticketTable">
+          <thead>
+            <tr>
+              <th onclick="sortTable('ticket_number')"># <span class="sort-icon">↕</span></th>
+              <th onclick="sortTable('subject')">Subject <span class="sort-icon">↕</span></th>
+              <th onclick="sortTable('status')">Status <span class="sort-icon">↕</span></th>
+              <th onclick="sortTable('priority')">Priority <span class="sort-icon">↕</span></th>
+              <th onclick="sortTable('category')">Category <span class="sort-icon">↕</span></th>
+              <th onclick="sortTable('group')">Group <span class="sort-icon">↕</span></th>
+              <th onclick="sortTable('assigned_to')">Assignee <span class="sort-icon">↕</span></th>
+              <th onclick="sortTable('due_date')" title="Target Closure Date">Due Date <span class="sort-icon">↕</span></th>
+              <th onclick="sortTable('updated_at')">Updated <span class="sort-icon">↕</span></th>
+              <th onclick="sortTable('created_on')">Created <span class="sort-icon">↕</span></th>
+              <th onclick="sortTable('_daysOpen')">Days Open <span class="sort-icon">↕</span></th>
+            </tr>
+          </thead>
+          <tbody id="ticketBody"></tbody>
+        </table>
+      </div>
+      <div class="pager" id="pager">
+        <button id="prevBtn" onclick="changePage(-1)">← Prev</button>
+        <span class="page-info" id="pageInfo"></span>
+        <button id="nextBtn" onclick="changePage(1)">Next →</button>
+        <span id="totalInfo" style="margin-left:8px;"></span>
+      </div>
+      <div style="padding: 10px 24px 16px; border-top: 1px solid #f0f2f5;">
+        <button id="loadMoreBtn" onclick="loadMore()" style="display:none; background:#2e6da4; color:white; border:none; padding:8px 18px; border-radius:6px; font-size:12px; cursor:pointer; font-weight:600;">⬇ Load next tickets</button>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -1021,8 +1019,6 @@ function renderCharts(tickets) {
         const b = AGING_BUCKETS[bi];
         const label = e.name + ' — ' + b.label;
         activeFilter = { key: '_assignee_age', value: { email: e.email, bi }, label };
-        document.getElementById('filterLabel').innerHTML = `Showing: <strong>${label}</strong>`;
-        document.getElementById('filterBanner').classList.add('show');
         document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
         filteredTickets = allTickets.filter(t => {
           if (t.status !== 'Open') return false;
@@ -1034,7 +1030,7 @@ function renderCharts(tickets) {
         searchedTickets = [...filteredTickets];
         currentPage = 1;
         renderTable();
-        scrollToTable();
+        openListModal();
       },
       plugins: {
         legend: { display: true, position: 'top', labels: { font: { size: 10 }, usePointStyle: true, color: primaryTextColor } },
@@ -1126,9 +1122,6 @@ function renderCharts(tickets) {
 // ─── Filter logic ──────────────────────────────────────────────────
 function filterBy(key, value, displayName) {
   activeFilter = { key, value, label: displayName || value };
-  const name = displayName || value;
-  document.getElementById('filterLabel').innerHTML = `Showing: <strong>${name}</strong> tickets`;
-  document.getElementById('filterBanner').classList.add('show');
   document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
   if (key === 'status') {
     const map = { Open:'kpiCardOpen', Resolved:'kpiCardResolved', Closed:'kpiCardClosed', Pending:'kpiCardPending' };
@@ -1145,14 +1138,12 @@ function filterBy(key, value, displayName) {
   searchedTickets = [...filteredTickets];
   currentPage = 1;
   renderTable();
-  if (!(key === 'status' && value === 'Open')) scrollToTable();
+  openListModal();
 }
 
 function filterByPriority(label) {
   const priorityNum = { 'Urgent': 1, 'Medium': 5, 'Low': 10 };
   activeFilter = { key: 'priority', value: priorityNum[label], label: `${label} priority` };
-  document.getElementById('filterLabel').innerHTML = `Showing: <strong>${label} priority</strong> tickets`;
-  document.getElementById('filterBanner').classList.add('show');
   document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
   filteredTickets = allTickets.filter(t => {
     if (label === 'Urgent') return t.priority === 1;
@@ -1163,13 +1154,11 @@ function filterByPriority(label) {
   searchedTickets = [...filteredTickets];
   currentPage = 1;
   renderTable();
-  scrollToTable();
+  openListModal();
 }
 
 function filterUnassigned() {
   activeFilter = { key: '_unassigned', value: true, label: 'Unassigned' };
-  document.getElementById('filterLabel').innerHTML = `Showing: <strong>Unassigned</strong> tickets`;
-  document.getElementById('filterBanner').classList.add('show');
   document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
   document.getElementById('kpiCardUnassigned').classList.add('active');
   filteredTickets = allTickets.filter(t => !t.assigned_to && !['Closed','Archived'].includes(t.status));
@@ -1177,7 +1166,7 @@ function filterUnassigned() {
   searchedTickets = [...filteredTickets];
   currentPage = 1;
   renderTable();
-  scrollToTable();
+  openListModal();
 }
 
 function filterByAssignee(email, name) {
@@ -1187,31 +1176,26 @@ function filterByAssignee(email, name) {
   if (keepOverdue) {
     const today = new Date(); today.setHours(0,0,0,0);
     activeFilter = { key: '_overdue_assignee', value: email, label: `${name} — Overdue` };
-    document.getElementById('filterLabel').innerHTML = `Showing: <strong>Overdue</strong> tickets for <strong>${name}</strong>`;
     filteredTickets = allTickets.filter(t =>
       matchesAssignee(t) && t.due_date && new Date(t.due_date) < today && !['Closed','Archived'].includes(t.status)
     );
   } else {
     activeFilter = { key: 'assigned_to', value: email, label: name };
-    document.getElementById('filterLabel').innerHTML = `Showing: all tickets for <strong>${name}</strong>`;
     filteredTickets = allTickets.filter(matchesAssignee);
   }
 
-  document.getElementById('filterBanner').classList.add('show');
   document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
   if (keepOverdue) document.getElementById('kpiCardOverdue').classList.add('active');
   document.getElementById('ticketSearch').value = '';
   searchedTickets = [...filteredTickets];
   currentPage = 1;
   renderTable();
-  scrollToTable();
+  openListModal();
 }
 
 function filterOverdue() {
   const today = new Date(); today.setHours(0,0,0,0);
   activeFilter = { key: '_overdue', value: true, label: 'Overdue' };
-  document.getElementById('filterLabel').innerHTML = `Showing: <strong>Overdue</strong> tickets (past target closure date)`;
-  document.getElementById('filterBanner').classList.add('show');
   document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
   document.getElementById('kpiCardOverdue').classList.add('active');
   filteredTickets = allTickets.filter(t =>
@@ -1222,24 +1206,22 @@ function filterOverdue() {
   searchedTickets = [...filteredTickets];
   currentPage = 1;
   renderTable();
+  openListModal();
 }
 
 function filterNoPlan() {
   activeFilter = { key: '_noplan', value: true, label: 'No Plan' };
-  document.getElementById('filterLabel').innerHTML = `Showing: Open tickets with <strong>no target closure date</strong>`;
-  document.getElementById('filterBanner').classList.add('show');
   document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
   filteredTickets = allTickets.filter(t => t.status === 'Open' && !t.due_date);
   document.getElementById('ticketSearch').value = '';
   searchedTickets = [...filteredTickets];
   currentPage = 1;
   renderTable();
-  scrollToTable();
+  openListModal();
 }
 
 function clearFilter() {
   activeFilter = { key: 'status', value: 'Open', label: 'Open' };
-  document.getElementById('filterBanner').classList.remove('show');
   document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
   document.getElementById('kpiCardOpen')?.classList.add('active');
   filteredTickets = allTickets.filter(t => t.status === 'Open');
@@ -1250,8 +1232,25 @@ function clearFilter() {
   renderTable();
 }
 
-function scrollToTable() {
-  document.getElementById('filterBanner').scrollIntoView({ behavior: 'smooth', block: 'start' });
+function viewAllTickets() {
+  activeFilter = null;
+  document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
+  filteredTickets = [...allTickets];
+  document.getElementById('ticketSearch').value = '';
+  searchedTickets = [...filteredTickets];
+  currentPage = 1;
+  renderTable();
+  openListModal();
+}
+
+function openListModal() {
+  document.getElementById('listModalBackdrop').classList.add('show');
+}
+function closeListModal(evt) {
+  if (evt.target === document.getElementById('listModalBackdrop')) closeListModalDirect();
+}
+function closeListModalDirect() {
+  document.getElementById('listModalBackdrop').classList.remove('show');
 }
 
 function applySearch() {
@@ -1424,9 +1423,9 @@ function renderTable() {
       <td class="ticket-subject" title="${(t.subject||'').replace(/"/g,'&quot;')}">${t.subject || '—'}</td>
       <td>${statusBadge(t.status)}</td>
       <td>${priorityBadge(t.priority)}</td>
-      <td style="font-size:12px">${t.category || '—'}</td>
-      <td style="font-size:12px">${t.group || '—'}</td>
-      <td class="assignee-cell">${assigneeName(t.assigned_to)}</td>
+      <td style="font-size:12px" title="${(t.category||'').replace(/"/g,'&quot;')}">${t.category || '—'}</td>
+      <td style="font-size:12px" title="${(t.group||'').replace(/"/g,'&quot;')}">${t.group || '—'}</td>
+      <td class="assignee-cell" title="${assigneeName(t.assigned_to)}">${assigneeName(t.assigned_to)}</td>
       <td class="date-cell" ${dueCls}>${formatDate(t.due_date)}${isOverdue?' ⚠':''}</td>
       <td>${formatLastUpdated(t)}</td>
       <td class="date-cell">${formatDate(t.created_on)}</td>
@@ -1493,7 +1492,11 @@ function closeModal(evt) {
 function closeModalDirect() {
   document.getElementById('modalBackdrop').classList.remove('show');
 }
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModalDirect(); });
+document.addEventListener('keydown', e => {
+  if (e.key !== 'Escape') return;
+  if (document.getElementById('modalBackdrop').classList.contains('show')) closeModalDirect();
+  else if (document.getElementById('listModalBackdrop').classList.contains('show')) closeListModalDirect();
+});
 
 // ─── TV / Presentation mode ────────────────────────────────────────
 let tvRefreshTimer = null;
@@ -1666,8 +1669,6 @@ function renderAgingChart(openTickets) {
 function filterByAgeBucket(bucketIdx) {
   const b = AGING_BUCKETS[bucketIdx];
   activeFilter = { key: '_age', value: bucketIdx, label: b.label };
-  document.getElementById('filterLabel').innerHTML = `Showing: Open tickets aged <strong>${b.label}</strong>`;
-  document.getElementById('filterBanner').classList.add('show');
   document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
   filteredTickets = allTickets.filter(t => {
     if (t.status !== 'Open') return false;
@@ -1678,7 +1679,7 @@ function filterByAgeBucket(bucketIdx) {
   searchedTickets = [...filteredTickets];
   currentPage = 1;
   renderTable();
-  scrollToTable();
+  openListModal();
 }
 
 // ─── Tickets with No Plan ──────────────────────────────────────────
