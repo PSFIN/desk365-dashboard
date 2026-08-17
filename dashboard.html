@@ -1145,7 +1145,7 @@ function filterBy(key, value, displayName) {
   searchedTickets = [...filteredTickets];
   currentPage = 1;
   renderTable();
-  if (!(key === 'status' && value === 'Open')) scrollToTable();
+  if (!(key === 'status' && (value === 'Open' || value === 'Pending'))) scrollToTable();
 }
 
 function filterByPriority(label) {
@@ -1177,7 +1177,6 @@ function filterUnassigned() {
   searchedTickets = [...filteredTickets];
   currentPage = 1;
   renderTable();
-  scrollToTable();
 }
 
 function filterByAssignee(email, name) {
