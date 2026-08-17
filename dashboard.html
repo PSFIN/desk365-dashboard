@@ -585,7 +585,7 @@
   <div class="chart-grid-2" id="sectionGlidepath">
     <div class="chart-card">
       <h3>Planned Closure Glidepath (Weekly)</h3>
-      <div class="chart-hint">Open tickets due by week — based on Target Closure Date</div>
+      <div class="chart-hint">Open tickets due by week — based on Target Closure Date &nbsp;·&nbsp; Click a bar to filter</div>
       <canvas id="glidepathChart" style="max-height:260px"></canvas>
     </div>
     <div class="alert-panel" id="noPlanPanel" style="margin-bottom:0">
@@ -1757,20 +1757,36 @@ function renderGlidepath(openTickets) {
     },
     options: {
       responsive: true, maintainAspectRatio: true,
+      onClick: (evt, elements) => {
+        if (!elements.length) return;
+        const week = weeks[elements[0].index];
+        const weekStart = new Date(week.key + 'T00:00:00');
+        const weekEnd = new Date(weekStart); weekEnd.setDate(weekEnd.getDate() + 7);
+        activeFilter = { key: '_glidepath_week', value: week.key, label: `Due week of ${week.label}` };
+        document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
+        filteredTickets = allTickets.filter(t =>
+          t.status === 'Open' && t.due_date && new Date(t.due_date) >= weekStart && new Date(t.due_date) < weekEnd
+        );
+        document.getElementById('ticketSearch').value = '';
+        searchedTickets = [...filteredTickets];
+        currentPage = 1;
+        renderTable();
+        openListModal();
+      },
       plugins: {
         legend: { display: false },
         tooltip: { callbacks: { label: c => ` ${c.parsed.y} tickets due this week` } },
         datalabels: { anchor: 'end', align: 'top', color: primaryTextColor, font: { weight: '700', size: 10 }, formatter: v => v || '' }
       },
       scales: {
-        y: { 
-          beginAtZero: true, 
+        y: {
+          beginAtZero: true,
           grid: { color: gridBorderColor },
           ticks: { color: primaryTextColor, font: { size: 10 } }
         },
-        x: { 
+        x: {
           grid: { display: false },
-          ticks: { font: { size: 10 }, maxRotation: 30, color: primaryTextColor } 
+          ticks: { font: { size: 10 }, maxRotation: 30, color: primaryTextColor }
         }
       },
       layout: { padding: { top: 20 } }
