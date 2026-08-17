@@ -690,6 +690,7 @@ const FETCH_PER_CALL = 100;
 let allTickets = [];
 let filteredTickets = [];
 let searchedTickets = [];
+let chartTickets = []; // the exact subset renderCharts() last drew its bars from — click filters must match this, not allTickets
 let charts = {};
 let currentPage = 1;
 const PAGE_SIZE = 50;
@@ -965,6 +966,7 @@ function makeChart(id, type, labels, data, opts = {}, clickFn) {
 }
 
 function renderCharts(tickets) {
+  chartTickets = tickets;
   const isTV = document.body.classList.contains('tv-mode');
   const primaryTextColor = isTV ? '#94a3b8' : '#1a1a2e';
   const gridBorderColor = isTV ? 'rgba(255, 255, 255, 0.05)' : '#f5f5f5';
@@ -1024,8 +1026,9 @@ function renderCharts(tickets) {
         document.getElementById('filterLabel').innerHTML = `Showing: <strong>${label}</strong>`;
         document.getElementById('filterBanner').classList.add('show');
         document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
-        filteredTickets = allTickets.filter(t => {
-          if (t.status !== 'Open') return false;
+        // Filter the exact same subset the bars were built from (`tickets`, this render's
+        // argument) — not allTickets — so the count clicked matches the count shown.
+        filteredTickets = tickets.filter(t => {
           if (e.email === '__unassigned__' ? !!t.assigned_to : t.assigned_to !== e.email) return false;
           const d = daysOpen(t);
           return d !== null && d >= b.min && d <= b.max;
@@ -1134,7 +1137,11 @@ function filterBy(key, value, displayName) {
     const map = { Open:'kpiCardOpen', Resolved:'kpiCardResolved', Closed:'kpiCardClosed', Pending:'kpiCardPending' };
     if (map[value]) document.getElementById(map[value]).classList.add('active');
   }
-  filteredTickets = allTickets.filter(t => {
+  // 'category' comes from the category chart, which draws its bars from whatever subset
+  // is currently active (Open, Overdue, etc.) — filter that same subset, not all tickets,
+  // so the count clicked always matches the count shown on the bar.
+  const source = key === 'category' ? chartTickets : allTickets;
+  filteredTickets = source.filter(t => {
     if (key === 'assigned_to') return t.assigned_to === value;
     return t[key] === value;
   });
@@ -1154,7 +1161,10 @@ function filterByPriority(label) {
   document.getElementById('filterLabel').innerHTML = `Showing: <strong>${label} priority</strong> tickets`;
   document.getElementById('filterBanner').classList.add('show');
   document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
+  // The chart is always "Open Tickets — Priority Split", regardless of what other filter
+  // is active, so the click filter must match that same Open-only restriction.
   filteredTickets = allTickets.filter(t => {
+    if (t.status !== 'Open') return false;
     if (label === 'Urgent') return t.priority === 1;
     if (label === 'Medium') return t.priority === 5;
     return t.priority !== 1 && t.priority !== 5;
@@ -1760,12 +1770,18 @@ function renderGlidepath(openTickets) {
         const week = weeks[elements[0].index];
         const weekStart = new Date(week.key + 'T00:00:00');
         const weekEnd = new Date(weekStart); weekEnd.setDate(weekEnd.getDate() + 7);
+        const todayStart = new Date(); todayStart.setHours(0,0,0,0);
         activeFilter = { key: '_glidepath_week', value: week.key, label: `Due week of ${week.label}` };
         document.getElementById('filterLabel').innerHTML = `Showing: <strong>Due week of ${week.label}</strong>`;
         document.getElementById('filterBanner').classList.add('show');
         document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
+        // The bar itself excludes already-overdue tickets (those get bucketed into the
+        // separate overdue count, not this week's bar) — match that here too, or "this
+        // week"'s bar would undercount vs. what clicking it actually shows.
         filteredTickets = allTickets.filter(t =>
-          t.status === 'Open' && t.due_date && new Date(t.due_date) >= weekStart && new Date(t.due_date) < weekEnd
+          t.status === 'Open' && t.due_date &&
+          new Date(t.due_date) >= weekStart && new Date(t.due_date) < weekEnd &&
+          new Date(t.due_date) >= todayStart
         );
         document.getElementById('ticketSearch').value = '';
         searchedTickets = [...filteredTickets];
