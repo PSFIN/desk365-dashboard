@@ -136,6 +136,28 @@ def ensure_bot_installed(token, catalog_app_id, email):
         return False, f"{e.code}: {e.read().decode(errors='ignore')[:200]}"
 
 
+def force_reinstall_bot(token, catalog_app_id, email):
+    """Uninstall then reinstall — a plain re-POST to installedApps is a no-op (409) if
+    already installed, and Teams only fires the conversationUpdate callback (which is what
+    actually stores the conversation reference) on a genuinely new install. Used to recover
+    someone whose earlier install happened while our webhook endpoint was unreachable."""
+    list_url = f"https://graph.microsoft.com/v1.0/users/{urllib.parse.quote(email)}/teamwork/installedApps?$expand=teamsApp"
+    headers = {"Authorization": f"Bearer {token}"}
+    try:
+        data = fetch_json(list_url, headers=headers)
+        installed_id = next(
+            (item["id"] for item in data.get("value", [])
+             if item.get("teamsApp", {}).get("id") == catalog_app_id),
+            None,
+        )
+        if installed_id:
+            del_url = f"https://graph.microsoft.com/v1.0/users/{urllib.parse.quote(email)}/teamwork/installedApps/{installed_id}"
+            fetch_json(del_url, method="DELETE", headers=headers)
+    except urllib.error.HTTPError as e:
+        return False, f"uninstall failed: {e.code}: {e.read().decode(errors='ignore')[:200]}"
+    return ensure_bot_installed(token, catalog_app_id, email)
+
+
 def in_send_window():
     now_et = datetime.now(EASTERN)
     return now_et.hour == 9 and now_et.minute < 30
@@ -210,8 +232,15 @@ def main():
     print("Ensuring the reminder bot is installed for each assignee…")
     token = get_graph_token()
     catalog_app_id = os.environ["TEAMS_APP_CATALOG_ID"]
+    force_reinstall = {
+        e.strip().lower() for e in os.environ.get("FORCE_REINSTALL_EMAILS", "").split(",") if e.strip()
+    }
     for email in grouped:
-        ok, info = ensure_bot_installed(token, catalog_app_id, email)
+        if email in force_reinstall:
+            ok, info = force_reinstall_bot(token, catalog_app_id, email)
+            info = f"reinstalled, {info}"
+        else:
+            ok, info = ensure_bot_installed(token, catalog_app_id, email)
         print(f"  {email}: {'ok' if ok else 'FAILED'} ({info})")
         if not ok:
             print(f"::warning::Could not install reminder bot for {email}: {info}")

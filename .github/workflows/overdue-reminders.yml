@@ -13,6 +13,10 @@ on:
         description: 'Only send to this one assignee (for a safe end-to-end test)'
         required: false
         default: ''
+      force_reinstall_emails:
+        description: 'Comma-separated emails to uninstall+reinstall the bot for (recovers a stuck no_conversation_ref after a webhook-endpoint outage)'
+        required: false
+        default: ''
 
 jobs:
   send-reminders:
@@ -35,5 +39,6 @@ jobs:
           REMINDER_WEBHOOK_SECRET: ${{ secrets.REMINDER_WEBHOOK_SECRET }}
           PILOT_ALLOWLIST: ${{ secrets.PILOT_ALLOWLIST }}
           TEST_ASSIGNEE_EMAIL: ${{ github.event.inputs.test_assignee_email }}
+          FORCE_REINSTALL_EMAILS: ${{ github.event.inputs.force_reinstall_emails }}
           SKIP_TIME_CHECK: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
         run: python3 scripts/send_overdue_reminders.py
