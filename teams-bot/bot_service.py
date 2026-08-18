@@ -6,9 +6,10 @@ Two endpoints:
                            On "bot added for a user" it looks up that user's email via the
                            Teams roster API and stores their conversation reference locally,
                            so we can message them later without them saying anything first.
-  POST /api/send-overdue  GitHub Actions calls this daily with {assignee_email: [tickets]}.
+  POST /api/send-overdue  GitHub Actions calls this daily with
+                           {total_overdue, assignees: {email: {name, tickets}}}.
                            Bearer-token protected. Looks up each assignee's stored conversation
-                           reference and sends them a proactive Teams message.
+                           reference and sends them a proactive, personal Teams message.
 
 See teams-bot/README.md for setup (Azure Bot resource, Cloudflare Tunnel, running this as a
 persistent Windows service).
@@ -114,14 +115,26 @@ def messages():
     return jsonify({}), 201
 
 
-def format_message(tickets: list) -> str:
+def format_message(name: str, tickets: list, total_overdue: int) -> str:
+    first_name = name.split()[0] if name else "there"
     n = len(tickets)
-    lines = [f"You have {n} overdue ticket{'s' if n != 1 else ''}:"]
-    for t in tickets:
-        lines.append(
-            f"- #{t.get('ticket_number')} — {t.get('subject', '(no subject)')} — "
-            f"{t.get('days_overdue', '?')} day(s) overdue — {t.get('url', '')}"
-        )
+    lines = [
+        f"Hi {first_name},",
+        "",
+        f"Nice work, team — we've brought overdue tickets down to just {total_overdue} "
+        "company-wide. Still more to go, so let's keep at it.",
+        "",
+    ]
+    if n:
+        lines.append(f"You have {n} overdue ticket{'s' if n != 1 else ''}:")
+        for t in tickets:
+            lines.append(
+                f"- #{t.get('ticket_number')} — {t.get('subject', '(no subject)')} — "
+                f"{t.get('days_overdue', '?')} day(s) overdue — {t.get('url', '')}"
+            )
+    else:
+        lines.append("You have 0 overdue tickets right now — great job staying on top of it!")
+    lines += ["", "If you need any help or clarification, reach out to your manager."]
     return "\n".join(lines)
 
 
@@ -131,11 +144,15 @@ def send_overdue():
         abort(401)
 
     payload = request.get_json(force=True, silent=True) or {}
+    assignees = payload.get("assignees", {})
+    total_overdue = payload.get("total_overdue", sum(len(a.get("tickets", [])) for a in assignees.values()))
     refs = load_refs()
     results = {}
 
     async def send_all():
-        for email, tickets in payload.items():
+        for email, info in assignees.items():
+            tickets = info.get("tickets", [])
+            name = info.get("name", "")
             ref_dict = refs.get(email.lower())
 
             if not ref_dict:
@@ -156,7 +173,7 @@ def send_overdue():
                 continue
 
             reference = ConversationReference().deserialize(ref_dict)
-            message = format_message(tickets)
+            message = format_message(name, tickets, total_overdue)
 
             async def callback(turn_context: TurnContext, _message=message):
                 await turn_context.send_activity(_message)

@@ -7,8 +7,9 @@ Runs on a schedule via .github/workflows/overdue-reminders.yml.
 3. Groups them by assignee email.
 4. Makes sure the reminder bot is installed for each assignee (Graph app-only call,
    idempotent — harmless if already installed).
-5. POSTs the grouped tickets to the PC-hosted bot's webhook, which sends each
-   assignee their own Teams message.
+5. Looks up each assignee's real name from Desk365's agent directory, for a personal
+   greeting, and POSTs {total_overdue, assignees: {email: {name, tickets}}} to the
+   PC-hosted bot's webhook, which sends each assignee their own Teams message.
 
 Required environment variables (all provided as GitHub Actions secrets):
   DESK365_API_KEY, GRAPH_TENANT_ID, GRAPH_APP_ID, GRAPH_APP_SECRET,
@@ -67,6 +68,24 @@ def fetch_open_pending_tickets():
         if len(batch) < per_page:
             break
     return tickets
+
+
+def fetch_agent_names():
+    """Real display names from Desk365's agent directory (e.g. 'Chelsea Thayer' for
+    c.thayer@...) so the reminder can greet people by their actual name. Falls back to a
+    capitalized-email-prefix guess for anyone not found, rather than failing the whole run
+    over one lookup issue."""
+    try:
+        data = fetch_json(f"{API_BASE}/agents", headers={"Authorization": API_KEY})
+        agents = data.get("content") or data.get("agents") or data.get("data") or []
+        return {a["email"].strip().lower(): a["name"] for a in agents if a.get("email") and a.get("name")}
+    except Exception as e:
+        print(f"::warning::Could not fetch agent names from Desk365 ({e}) — using email-based names")
+        return {}
+
+
+def guess_name(email):
+    return " ".join(w.capitalize() for w in email.split("@")[0].split("."))
 
 
 def parse_due_date_et(due: str):
@@ -163,11 +182,11 @@ def in_send_window():
     return now_et.hour == 9 and now_et.minute < 30
 
 
-def send_reminders(grouped):
+def send_reminders(payload):
     url = os.environ["REMINDER_WEBHOOK_URL"].rstrip("/") + "/api/send-overdue"
     req = urllib.request.Request(
         url,
-        data=json.dumps(grouped).encode(),
+        data=json.dumps(payload).encode(),
         method="POST",
         headers={
             "Authorization": f'Bearer {os.environ["REMINDER_WEBHOOK_SECRET"]}',
@@ -245,9 +264,18 @@ def main():
         if not ok:
             print(f"::warning::Could not install reminder bot for {email}: {info}")
 
+    names = fetch_agent_names()
+    payload = {
+        "total_overdue": total_overdue,
+        "assignees": {
+            email: {"name": names.get(email, guess_name(email)), "tickets": tix}
+            for email, tix in grouped.items()
+        },
+    }
+
     print("Sending reminders via the PC webhook…")
     try:
-        result = send_reminders(grouped)
+        result = send_reminders(payload)
     except urllib.error.HTTPError as e:
         print(f"::error::Webhook call failed: {e.code} {e.read().decode(errors='ignore')}")
         sys.exit(1)
