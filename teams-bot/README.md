@@ -52,6 +52,24 @@ users, the bot's credentials can only send messages).
    → this is `TEAMS_APP_CATALOG_ID` (different from the Bot App ID from step 1 — this is the ID
    Teams assigned to the *catalog entry*).
 
+### 3b. Posting announcements to a team channel (optional)
+
+The bot's manifest declares both `personal` and `team` scope, so besides DMing individuals it
+can also post one-off announcements to a channel — separate from the daily per-person overdue
+reminders. This needs one manual step per channel:
+
+1. Re-upload the manifest zip (step 3 above) if you changed it after the first upload — Teams
+   Admin Center **Manage apps** lets you update an existing entry with a new zip.
+2. In Teams, go to the target team (e.g. "All Staff") → **⋯ → Manage team → Apps → Upload a
+   custom app** (or **Apps → find "Desk365 Reminders" → Add to a team**) → select the team.
+   This fires a one-time install event that `bot_service.py` uses to store a channel-level
+   conversation reference in `channel_refs.json` (separate from `conversation_refs.json`,
+   which is per-person).
+3. Once installed, `POST /api/post-channel` (bearer-protected, same secret as
+   `/api/send-overdue`) with `{"message": "..."}` posts to every channel the bot is in, or
+   `{"team_id": "...", "message": "..."}` to just one. Check `channel_refs.json` or the
+   `known_channels` count on `/health` to confirm it registered.
+
 ## 4. Host the bot's webhook — currently the Mac mini, Windows PC later
 
 Hosting for now: the always-on Mac mini this repo lives on. Nothing below is Windows-specific

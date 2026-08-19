@@ -1,15 +1,21 @@
 """
 Runs on the always-on Windows PC, exposed to the internet via a Cloudflare Tunnel.
 
-Two endpoints:
+Three endpoints:
   POST /api/messages      Bot Framework calls this for every event (installs, replies, etc).
                            On "bot added for a user" it looks up that user's email via the
                            Teams roster API and stores their conversation reference locally,
                            so we can message them later without them saying anything first.
+                           On "bot added to a team" (requires the "team" scope in the app
+                           manifest, and someone adding the app to that team) it stores a
+                           separate, team-level conversation reference instead.
   POST /api/send-overdue  GitHub Actions calls this daily with
                            {total_overdue, assignees: {email: {name, tickets}}}.
                            Bearer-token protected. Looks up each assignee's stored conversation
                            reference and sends them a proactive, personal Teams message.
+  POST /api/post-channel  Bearer-token protected. Posts a plain message to every known team
+                           channel (or one specific team, via {"team_id": ..., "message": ...}).
+                           Used for one-off announcements rather than the daily per-person run.
 
 See teams-bot/README.md for setup (Azure Bot resource, Cloudflare Tunnel, running this as a
 persistent Windows service).
@@ -38,6 +44,7 @@ WEBHOOK_SECRET = os.environ["REMINDER_WEBHOOK_SECRET"]
 PORT = int(os.environ.get("PORT", 3978))
 
 REFS_FILE = Path(__file__).parent / "conversation_refs.json"
+CHANNEL_REFS_FILE = Path(__file__).parent / "channel_refs.json"
 
 adapter_settings = BotFrameworkAdapterSettings(APP_ID, APP_PASSWORD, channel_auth_tenant=APP_TENANT_ID)
 adapter = BotFrameworkAdapter(adapter_settings)
@@ -53,11 +60,34 @@ def save_refs(refs: dict) -> None:
     REFS_FILE.write_text(json.dumps(refs, indent=2))
 
 
+def load_channel_refs() -> dict:
+    if CHANNEL_REFS_FILE.exists():
+        return json.loads(CHANNEL_REFS_FILE.read_text())
+    return {}
+
+
+def save_channel_refs(refs: dict) -> None:
+    CHANNEL_REFS_FILE.write_text(json.dumps(refs, indent=2))
+
+
 class ReminderBot(TeamsActivityHandler):
     async def on_teams_members_added(self, members_added, team_info, turn_context: TurnContext):
         for member in members_added:
             if member.id == turn_context.activity.recipient.id:
-                continue  # that's the bot itself being added, not a person
+                # The bot itself being added. In a team context (team_info set) that means
+                # someone just added the app to a team — store a channel-level conversation
+                # reference so we can post announcements there later. In a personal context
+                # there's nothing else to do here.
+                if team_info:
+                    reference = TurnContext.get_conversation_reference(turn_context.activity)
+                    refs = load_channel_refs()
+                    refs[team_info.id] = reference.serialize()
+                    save_channel_refs(refs)
+                    log.info("Stored channel conversation reference for team %s", team_info.id)
+                    await turn_context.send_activity(
+                        "Thanks for adding me here — I can now post updates to this channel."
+                    )
+                continue
 
             email = None
             try:
@@ -91,7 +121,11 @@ app = Flask(__name__)
 
 @app.route("/health", methods=["GET"])
 def health():
-    return jsonify({"status": "ok", "known_assignees": len(load_refs())})
+    return jsonify({
+        "status": "ok",
+        "known_assignees": len(load_refs()),
+        "known_channels": len(load_channel_refs()),
+    })
 
 
 @app.route("/api/messages", methods=["POST"])
@@ -190,6 +224,44 @@ def send_overdue():
     return jsonify(results), 200
 
 
+@app.route("/api/post-channel", methods=["POST"])
+def post_channel():
+    if request.headers.get("Authorization") != f"Bearer {WEBHOOK_SECRET}":
+        abort(401)
+
+    payload = request.get_json(force=True, silent=True) or {}
+    message = (payload.get("message") or "").strip()
+    if not message:
+        abort(400)
+
+    refs = load_channel_refs()
+    team_id = payload.get("team_id")
+    if team_id:
+        refs = {team_id: refs[team_id]} if team_id in refs else {}
+    results = {}
+
+    async def post_all():
+        for tid, ref_dict in refs.items():
+            reference = ConversationReference().deserialize(ref_dict)
+
+            async def callback(turn_context: TurnContext, _message=message):
+                await turn_context.send_activity(_message)
+
+            try:
+                await adapter.continue_conversation(reference, callback, APP_ID)
+                results[tid] = "sent"
+                log.info("Posted to channel/team %s", tid)
+            except Exception as e:
+                results[tid] = f"error: {e}"
+                log.exception("Failed to post to channel/team %s", tid)
+
+    asyncio.run(post_all())
+    return jsonify(results), 200
+
+
 if __name__ == "__main__":
-    log.info("Starting bot_service on port %d (%d assignees known)", PORT, len(load_refs()))
+    log.info(
+        "Starting bot_service on port %d (%d assignees, %d channels known)",
+        PORT, len(load_refs()), len(load_channel_refs()),
+    )
     app.run(host="0.0.0.0", port=PORT)

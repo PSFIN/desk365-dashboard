@@ -3,6 +3,7 @@ desk365_live_tickets.csv
 .claude/
 teams-bot/.env
 teams-bot/conversation_refs.json
+teams-bot/channel_refs.json
 teams-bot/.venv/
 teams-bot/manifest/*.zip
 .DS_Store
