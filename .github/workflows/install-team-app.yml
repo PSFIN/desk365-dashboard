@@ -1,0 +1,27 @@
+name: Install Reminder Bot Into a Team
+
+on:
+  workflow_dispatch:
+    inputs:
+      team_id:
+        description: 'Team (Group) ID to install the bot into, e.g. from Teams > Get link to team'
+        required: true
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install into team
+        env:
+          GRAPH_TENANT_ID: ${{ secrets.GRAPH_TENANT_ID }}
+          GRAPH_APP_ID: ${{ secrets.GRAPH_APP_ID }}
+          GRAPH_APP_SECRET: ${{ secrets.GRAPH_APP_SECRET }}
+          TEAMS_APP_CATALOG_ID: ${{ secrets.TEAMS_APP_CATALOG_ID }}
+          TEAM_ID: ${{ github.event.inputs.team_id }}
+        run: python3 scripts/install_team_app.py
