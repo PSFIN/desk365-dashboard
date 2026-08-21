@@ -152,23 +152,32 @@ def messages():
 def format_message(name: str, tickets: list, total_overdue: int) -> str:
     first_name = name.split()[0] if name else "there"
     n = len(tickets)
-    lines = [
-        f"Hi {first_name},",
-        "",
-        f"Nice work, team — we've brought overdue tickets down to just {total_overdue} "
-        "company-wide. Still more to go, so let's keep at it.",
-        "",
-    ]
+
     if n:
-        lines.append(f"You have {n} overdue ticket{'s' if n != 1 else ''}:")
+        lines = [
+            f"Hi {first_name}, hope your week's going well!",
+            "",
+            f"Just a quick nudge — {'this one could' if n == 1 else 'these could'} use some attention:",
+            "",
+        ]
         for t in tickets:
             lines.append(
                 f"- #{t.get('ticket_number')} — {t.get('subject', '(no subject)')} — "
                 f"{t.get('days_overdue', '?')} day(s) overdue — {t.get('url', '')}"
             )
+        lines += [
+            "",
+            f"On the bright side, we've brought overdue tickets down from 100+ to just "
+            f"{total_overdue} company-wide — every one you close helps keep that going.",
+            "",
+            "Anything blocking you? Just give your manager a shout.",
+        ]
     else:
-        lines.append("You have 0 overdue tickets right now — great job staying on top of it!")
-    lines += ["", "If you need any help or clarification, reach out to your manager."]
+        lines = [
+            f"Hi {first_name} — nothing overdue on your end right now. Nice work staying on top of it!",
+            "",
+            f"({total_overdue} left company-wide, down from 100+ — the team's making good progress.)",
+        ]
     return "\n".join(lines)
 
 
