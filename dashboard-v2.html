@@ -76,12 +76,13 @@
   #refreshBtn.loading .spinner { display: inline-block; }
   @keyframes spin { to { transform: rotate(360deg); } }
 
-  #tvBtn {
+  #tvBtn, #workOrdersBtn {
     background: rgba(255,255,255,0.15); color: white; border: 1px solid rgba(255,255,255,0.3);
     padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600;
     cursor: pointer; white-space: nowrap; transition: background 0.2s;
   }
-  #tvBtn:hover { background: rgba(255,255,255,0.25); }
+  #tvBtn:hover, #workOrdersBtn:hover { background: rgba(255,255,255,0.25); }
+  #workOrdersBtn { text-decoration: none; display: inline-block; }
 
   /* ══════════════════════════════════════════════════════════════════
      TV / EXECUTIVE DASHBOARD — Premium SaaS Redesign
@@ -167,6 +168,7 @@
     border-color: rgba(239,68,68,0.3);
   }
   body.tv-mode #refreshBtn { display: none; }
+  body.tv-mode #workOrdersBtn { display: none; }
 
   /* ── TV Grid Structure ──────────────────────────────────────────── */
   body.tv-mode .container {
@@ -519,6 +521,7 @@
     </div>
     <div class="last-updated" id="lastUpdated">Last updated: <span>Never</span></div>
     <div class="last-updated" id="tvNextRefresh" style="display:none;background:rgba(255,255,0,0.2);border:1px solid rgba(255,255,0,0.4)"></div>
+    <a href="work-orders.html" id="workOrdersBtn">🔧 Work Orders</a>
     <button id="tvBtn" onclick="toggleTV()">📺 TV Mode</button>
     <button id="refreshBtn" onclick="loadData()">
       <div class="spinner"></div>
