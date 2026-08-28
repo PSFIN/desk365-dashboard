@@ -1,0 +1,30 @@
+[
+  {
+    "ts": "2026-08-28T16:51:51+00:00",
+    "ticket_number": 8509,
+    "subject": "Dreams of Paradise-towels",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.williams@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-08-28T16:51:51+00:00",
+    "ticket_number": 7397,
+    "subject": "Marriott Curation Rejected - Signal inn 03",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-08-28T16:51:51+00:00",
+    "ticket_number": 8502,
+    "subject": "60 Day Payment Notices Issue",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-08-28T16:51:51+00:00",
+    "ticket_number": 8385,
+    "subject": "Add Property to Manatee Tourist Development Tax Umbrella - Sun Seeker - 5544 Summit Pointe Cir",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  }
+]
