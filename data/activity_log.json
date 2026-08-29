@@ -1,5 +1,174 @@
 [
   {
+    "ts": "2026-08-29T00:49:01+00:00",
+    "ticket_number": 8512,
+    "subject": "Price Analysis",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.paulin@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-08-29T00:49:01+00:00",
+    "ticket_number": 8511,
+    "subject": "rent rev",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.paulin@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-08-29T00:49:01+00:00",
+    "ticket_number": 8501,
+    "subject": "Res. No. 61513 - Debbie Shaw  - Shaker of Salt - \"Unauthorized Event\" notice from VRBO",
+    "type": "reassigned",
+    "detail": "Reassigned from b.williams@choosegulfcoast.com to l.winter@choosegulfcoast.com",
+    "from": "b.williams@choosegulfcoast.com",
+    "to": "l.winter@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-08-29T00:49:01+00:00",
+    "ticket_number": 8501,
+    "subject": "Res. No. 61513 - Debbie Shaw  - Shaker of Salt - \"Unauthorized Event\" notice from VRBO",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-01 17:07:53 to 2026-08-28 21:07:53",
+    "from": "2026-09-01 17:07:53",
+    "to": "2026-08-28 21:07:53"
+  },
+  {
+    "ts": "2026-08-29T00:49:01+00:00",
+    "ticket_number": 8501,
+    "subject": "Res. No. 61513 - Debbie Shaw  - Shaker of Salt - \"Unauthorized Event\" notice from VRBO",
+    "type": "priority_changed",
+    "detail": "Priority changed from 5 to 20",
+    "from": 5,
+    "to": 20
+  },
+  {
+    "ts": "2026-08-29T00:49:01+00:00",
+    "ticket_number": 8474,
+    "subject": "Unit: Dreams Of Paradise | Guest Name: Profitt Danielle | Guest Compensation / Pest & Maintenance Escalation",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-08-30 14:28:00 to 2026-08-31 14:28:00",
+    "from": "2026-08-30 14:28:00",
+    "to": "2026-08-31 14:28:00"
+  },
+  {
+    "ts": "2026-08-29T00:49:01+00:00",
+    "ticket_number": 8444,
+    "subject": "PCA for Par Then Bar Due Date: 12/20/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-28 20:09:00 to 2026-12-31 21:09:00",
+    "from": "2026-09-28 20:09:00",
+    "to": "2026-12-31 21:09:00"
+  },
+  {
+    "ts": "2026-08-29T00:49:01+00:00",
+    "ticket_number": 8310,
+    "subject": "Sandalfoot Tent Card",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-08-28 18:13:00 to 2026-09-04 18:13:00",
+    "from": "2026-08-28 18:13:00",
+    "to": "2026-09-04 18:13:00"
+  },
+  {
+    "ts": "2026-08-29T00:49:01+00:00",
+    "ticket_number": 8239,
+    "subject": "PCA for The Duffers Retreat Due Date: 9/2/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from t.healy@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
+    "from": "t.healy@choosegulfcoast.com",
+    "to": "c.thayer@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-08-29T00:49:01+00:00",
+    "ticket_number": 8181,
+    "subject": "PCA for Sunny Retreat Due Date: 9/9/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from t.healy@choosegulfcoast.com to s.paulin@choosegulfcoast.com",
+    "from": "t.healy@choosegulfcoast.com",
+    "to": "s.paulin@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-08-29T00:49:01+00:00",
+    "ticket_number": 8176,
+    "subject": "PCA for Sunny Life Due Date: 9/6/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from t.healy@choosegulfcoast.com to s.paulin@choosegulfcoast.com",
+    "from": "t.healy@choosegulfcoast.com",
+    "to": "s.paulin@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-08-29T00:49:01+00:00",
+    "ticket_number": 7852,
+    "subject": "Business Cards",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-08-28 16:00:00 to 2026-09-04 16:00:00",
+    "from": "2026-08-28 16:00:00",
+    "to": "2026-09-04 16:00:00"
+  },
+  {
+    "ts": "2026-08-29T00:49:01+00:00",
+    "ticket_number": 7162,
+    "subject": "PCA for The River\u2019s End Due Date: 7/22/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from t.healy@choosegulfcoast.com to s.paulin@choosegulfcoast.com",
+    "from": "t.healy@choosegulfcoast.com",
+    "to": "s.paulin@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-08-29T00:49:01+00:00",
+    "ticket_number": 8507,
+    "subject": "Shaw Debbie | Res #: 61518 | Unit: Shaker Of Salt | Property Change Request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-08-29T00:49:01+00:00",
+    "ticket_number": 8487,
+    "subject": "Tee Time-New build",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-08-29T00:49:01+00:00",
+    "ticket_number": 8458,
+    "subject": "QC needed to close RR GC1647",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-08-29T00:49:01+00:00",
+    "ticket_number": 8455,
+    "subject": "DBPR License : Sun Seeker - 5544 Summit Pointe Cir",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-08-29T00:49:01+00:00",
+    "ticket_number": 8451,
+    "subject": "New Jot Form for All HOA docs required from Owner",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-08-29T00:49:01+00:00",
+    "ticket_number": 8416,
+    "subject": "Johnson Chase/Res #: 55736/ Turtle House/Compensation Review Request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-08-29T00:49:01+00:00",
+    "ticket_number": 8282,
+    "subject": "Res. No. 38642- Amy Phuprasert  - property name - Gulf & Bay 1272:     Issue: 1 of 3:  Dirty Towel",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-08-29T00:49:01+00:00",
+    "ticket_number": 7910,
+    "subject": "Walsh Laura | Res #: 44722| Guest Request for Management Assistance \u2013 A/C Not Cooling",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-08-28T16:51:51+00:00",
     "ticket_number": 8509,
     "subject": "Dreams of Paradise-towels",

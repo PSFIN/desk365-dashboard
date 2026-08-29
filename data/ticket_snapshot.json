@@ -1,16 +1,23 @@
 {
+  "8512": {
+    "subject": "Price Analysis",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-02 22:00:00",
+    "priority": 10
+  },
+  "8511": {
+    "subject": "rent rev",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-02 18:27:39",
+    "priority": 1
+  },
   "8509": {
     "subject": "Dreams of Paradise-towels",
     "assigned_to": "b.williams@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-02 16:49:35",
-    "priority": 1
-  },
-  "8507": {
-    "subject": "Shaw Debbie | Res #: 61518 | Unit: Shaker Of Salt | Property Change Request",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-02 14:04:49",
     "priority": 1
   },
   "8506": {
@@ -43,10 +50,10 @@
   },
   "8501": {
     "subject": "Res. No. 61513 - Debbie Shaw  - Shaker of Salt - \"Unauthorized Event\" notice from VRBO",
-    "assigned_to": "b.williams@choosegulfcoast.com",
+    "assigned_to": "l.winter@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-01 17:07:53",
-    "priority": 5
+    "due_date": "2026-08-28 21:07:53",
+    "priority": 20
   },
   "8500": {
     "subject": "rent rev",
@@ -90,13 +97,6 @@
     "due_date": "2026-09-03 19:07:00",
     "priority": 10
   },
-  "8487": {
-    "subject": "Tee Time-New build",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-08-31 16:31:14",
-    "priority": 1
-  },
   "8479": {
     "subject": "Unit: Southern Exposure | Guest Name: Gittings Candice | Window Cracked",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
@@ -115,7 +115,7 @@
     "subject": "Unit: Dreams Of Paradise | Guest Name: Profitt Danielle | Guest Compensation / Pest & Maintenance Escalation",
     "assigned_to": "b.williams@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-08-30 14:28:00",
+    "due_date": "2026-08-31 14:28:00",
     "priority": 20
   },
   "8470": {
@@ -153,33 +153,12 @@
     "due_date": "2026-08-31 15:54:00",
     "priority": 10
   },
-  "8458": {
-    "subject": "QC needed to close RR GC1647",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-08-28 21:30:00",
-    "priority": 10
-  },
-  "8455": {
-    "subject": "DBPR License : Sun Seeker - 5544 Summit Pointe Cir",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-08-28 19:00:00",
-    "priority": 10
-  },
   "8453": {
     "subject": "2D3 - owner, new photos request",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-08-31 18:00:00",
     "priority": 20
-  },
-  "8451": {
-    "subject": "New Jot Form for All HOA docs required from Owner",
-    "assigned_to": "b.zeh@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-08-31 22:00:00",
-    "priority": 10
   },
   "8448": {
     "subject": "Walsh Tony | Unit: Palm Garden | Res #: 47948 | Leaking Ceiling and Toilet Issue",
@@ -192,7 +171,7 @@
     "subject": "PCA for Par Then Bar Due Date: 12/20/2026",
     "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-28 20:09:00",
+    "due_date": "2026-12-31 21:09:00",
     "priority": 5
   },
   "8443": {
@@ -229,13 +208,6 @@
     "status": "Open",
     "due_date": "2026-08-31 18:52:00",
     "priority": 5
-  },
-  "8416": {
-    "subject": "Johnson Chase/Res #: 55736/ Turtle House/Compensation Review Request",
-    "assigned_to": "b.williams@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-08-30 22:00:00",
-    "priority": 10
   },
   "8413": {
     "subject": "New Hire Platform Access - Matt Moritz",
@@ -367,7 +339,7 @@
     "subject": "Sandalfoot Tent Card",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-08-28 18:13:00",
+    "due_date": "2026-09-04 18:13:00",
     "priority": 10
   },
   "8307": {
@@ -390,13 +362,6 @@
     "status": "Open",
     "due_date": "2026-08-28 15:20:00",
     "priority": 10
-  },
-  "8282": {
-    "subject": "Res. No. 38642- Amy Phuprasert  - property name - Gulf & Bay 1272:     Issue: 1 of 3:  Dirty Towel",
-    "assigned_to": "b.williams@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-08-29 19:16:00",
-    "priority": 5
   },
   "8264": {
     "subject": "Harbour Happiness-pool lights quote",
@@ -421,7 +386,7 @@
   },
   "8239": {
     "subject": "PCA for The Duffers Retreat Due Date: 9/2/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-12 16:11:00",
     "priority": 5
@@ -456,7 +421,7 @@
   },
   "8181": {
     "subject": "PCA for Sunny Retreat Due Date: 9/9/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-10 14:48:00",
     "priority": 5
@@ -484,7 +449,7 @@
   },
   "8176": {
     "subject": "PCA for Sunny Life Due Date: 9/6/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-04 14:43:00",
     "priority": 5
@@ -559,18 +524,11 @@
     "due_date": "2026-09-11 18:57:00",
     "priority": 5
   },
-  "7910": {
-    "subject": "Walsh Laura | Res #: 44722| Guest Request for Management Assistance \u2013 A/C Not Cooling",
-    "assigned_to": "b.williams@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-08-29 21:00:00",
-    "priority": 20
-  },
   "7852": {
     "subject": "Business Cards",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-08-28 16:00:00",
+    "due_date": "2026-09-04 16:00:00",
     "priority": 5
   },
   "7837": {
@@ -764,7 +722,7 @@
   },
   "7162": {
     "subject": "PCA for The River\u2019s End Due Date: 7/22/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-02 22:00:00",
     "priority": 5
