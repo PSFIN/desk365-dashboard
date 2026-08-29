@@ -1,5 +1,123 @@
 [
   {
+    "ts": "2026-08-29T17:27:33+00:00",
+    "ticket_number": 8514,
+    "subject": "Rodriguez Sergio | zSunset Splash |  Res #: 59824 |  Lights not working in the Patio",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-08-29T17:27:33+00:00",
+    "ticket_number": 8513,
+    "subject": "Altschuler Max/ A Shore Thing/Res #: 58976/Waterfall pool feature",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to m.eronico@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "m.eronico@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-08-29T17:27:33+00:00",
+    "ticket_number": 8333,
+    "subject": "PCA for Lido Del Mare Due Date: 8/25/ 2026",
+    "type": "reassigned",
+    "detail": "Reassigned from s.paulin@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
+    "from": "s.paulin@choosegulfcoast.com",
+    "to": "j.rushton@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-08-29T17:27:33+00:00",
+    "ticket_number": 8328,
+    "subject": "PCA for Beach Heron Due Date: 9/12/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from s.paulin@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
+    "from": "s.paulin@choosegulfcoast.com",
+    "to": "j.rushton@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-08-29T17:27:33+00:00",
+    "ticket_number": 8181,
+    "subject": "PCA for Sunny Retreat Due Date: 9/9/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from s.paulin@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "s.paulin@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-08-29T17:27:33+00:00",
+    "ticket_number": 8177,
+    "subject": "PCA for The Beach Fact Oar Due Date: 9/7/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from s.paulin@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
+    "from": "s.paulin@choosegulfcoast.com",
+    "to": "j.rushton@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-08-29T17:27:33+00:00",
+    "ticket_number": 8176,
+    "subject": "PCA for Sunny Life Due Date: 9/6/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from s.paulin@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "s.paulin@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-08-29T17:27:33+00:00",
+    "ticket_number": 7955,
+    "subject": "PCA for Paradis Sur Mer Due Date: 9/1/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from s.paulin@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
+    "from": "s.paulin@choosegulfcoast.com",
+    "to": "j.rushton@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-08-29T17:27:33+00:00",
+    "ticket_number": 7605,
+    "subject": "PCA for Awake Zone Due Date: 8/13/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from s.paulin@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "s.paulin@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-08-29T17:27:33+00:00",
+    "ticket_number": 7599,
+    "subject": "PCA for Admirals Watch Due Date:  8/6/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from s.paulin@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "s.paulin@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-08-29T17:27:33+00:00",
+    "ticket_number": 7162,
+    "subject": "PCA for The River\u2019s End Due Date: 7/22/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from s.paulin@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "s.paulin@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-08-29T17:27:33+00:00",
+    "ticket_number": 8512,
+    "subject": "Price Analysis",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-08-29T17:27:33+00:00",
+    "ticket_number": 8511,
+    "subject": "rent rev",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-08-29T17:27:33+00:00",
+    "ticket_number": 8500,
+    "subject": "rent rev",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-08-29T07:34:22+00:00",
     "ticket_number": 8513,
     "subject": "Altschuler Max/ A Shore Thing/Res #: 58976/Waterfall pool feature",
