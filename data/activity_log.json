@@ -1,5 +1,28 @@
 [
   {
+    "ts": "2026-08-30T15:16:44+00:00",
+    "ticket_number": 8521,
+    "subject": "Dupuy Laura | Gulf & Bay Bayside - 1340 | Res #: 59076 | Feedback",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-08-30T15:16:44+00:00",
+    "ticket_number": 8282,
+    "subject": "Res. No. 38642- Amy Phuprasert  - property name - Gulf & Bay 1272:     Issue: 1 of 3:  Dirty Towel",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-08-29 19:16:00 to 2026-09-03 19:16:00",
+    "from": "2026-08-29 19:16:00",
+    "to": "2026-09-03 19:16:00"
+  },
+  {
+    "ts": "2026-08-30T15:16:44+00:00",
+    "ticket_number": 8494,
+    "subject": "Pritchett Darin |  Day Dreamer | Res #: 52252 | TV not working",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-08-30T10:59:39+00:00",
     "ticket_number": 8505,
     "subject": "Create Dashboard for Work Order Performance",

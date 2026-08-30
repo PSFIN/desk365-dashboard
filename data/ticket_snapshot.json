@@ -1,4 +1,11 @@
 {
+  "8521": {
+    "subject": "Dupuy Laura | Gulf & Bay Bayside - 1340 | Res #: 59076 | Feedback",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-02 22:00:00",
+    "priority": 1
+  },
   "8517": {
     "subject": "Unit: Golden Beach #1 | Guest Name: Korpinen Terry | Pest Control & Safety Hazard (Ant Infestation)",
     "assigned_to": "j.banks@choosegulfcoast.com",
@@ -89,13 +96,6 @@
     "status": "Open",
     "due_date": "2026-08-28 18:34:18",
     "priority": 20
-  },
-  "8494": {
-    "subject": "Pritchett Darin |  Day Dreamer | Res #: 52252 | TV not working",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-01 14:01:52",
-    "priority": 1
   },
   "8491": {
     "subject": "Property Management Inquiry",
@@ -381,7 +381,7 @@
     "subject": "Res. No. 38642- Amy Phuprasert  - property name - Gulf & Bay 1272:     Issue: 1 of 3:  Dirty Towel",
     "assigned_to": "b.williams@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-08-29 19:16:00",
+    "due_date": "2026-09-03 19:16:00",
     "priority": 5
   },
   "8264": {
