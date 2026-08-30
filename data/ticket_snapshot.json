@@ -1,4 +1,18 @@
 {
+  "8523": {
+    "subject": "5B3 ARDI comforter cleaning",
+    "assigned_to": "n.armstrong@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-02 22:00:00",
+    "priority": 1
+  },
+  "8522": {
+    "subject": "Cristobal Ricardo | Res #: 49339 | Sunnyside Up | Roaches and Insects",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-02 22:00:00",
+    "priority": 1
+  },
   "8521": {
     "subject": "Dupuy Laura | Gulf & Bay Bayside - 1340 | Res #: 59076 | Feedback",
     "assigned_to": "j.rushton@choosegulfcoast.com",
@@ -370,13 +384,6 @@
     "due_date": "2026-08-28 21:00:00",
     "priority": 1
   },
-  "8293": {
-    "subject": "GBB1368 request for ARDI reimbursement",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-08-28 15:20:00",
-    "priority": 10
-  },
   "8282": {
     "subject": "Res. No. 38642- Amy Phuprasert  - property name - Gulf & Bay 1272:     Issue: 1 of 3:  Dirty Towel",
     "assigned_to": "b.williams@choosegulfcoast.com",
@@ -415,13 +422,6 @@
   "8231": {
     "subject": "Res #: 59964| Unit: Gulf & Bay Bayside - 1318| Guest Name: Albert Silke | Mold Issue",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-08-31 18:00:00",
-    "priority": 20
-  },
-  "8207": {
-    "subject": "Charge owner for carpet cleaning Invoice #116038",
-    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-08-31 18:00:00",
     "priority": 20

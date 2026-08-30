@@ -1,5 +1,33 @@
 [
   {
+    "ts": "2026-08-30T18:41:03+00:00",
+    "ticket_number": 8523,
+    "subject": "5B3 ARDI comforter cleaning",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.armstrong@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-08-30T18:41:03+00:00",
+    "ticket_number": 8522,
+    "subject": "Cristobal Ricardo | Res #: 49339 | Sunnyside Up | Roaches and Insects",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-08-30T18:41:03+00:00",
+    "ticket_number": 8293,
+    "subject": "GBB1368 request for ARDI reimbursement",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-08-30T18:41:03+00:00",
+    "ticket_number": 8207,
+    "subject": "Charge owner for carpet cleaning Invoice #116038",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-08-30T15:16:44+00:00",
     "ticket_number": 8521,
     "subject": "Dupuy Laura | Gulf & Bay Bayside - 1340 | Res #: 59076 | Feedback",
