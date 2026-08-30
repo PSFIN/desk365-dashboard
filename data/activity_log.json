@@ -1,5 +1,19 @@
 [
   {
+    "ts": "2026-08-30T00:29:34+00:00",
+    "ticket_number": 8516,
+    "subject": "Unit: Coral Paradise | Guest Name: Schwab Emily | Exterior Structure / Storm Damage",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-08-30T00:29:34+00:00",
+    "ticket_number": 8515,
+    "subject": "Guest Name: Mulroy Ana | Unit: Dreams Of Paradise | Pool Heat Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-08-29T17:27:33+00:00",
     "ticket_number": 8514,
     "subject": "Rodriguez Sergio | zSunset Splash |  Res #: 59824 |  Lights not working in the Patio",
