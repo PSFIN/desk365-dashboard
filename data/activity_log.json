@@ -1,5 +1,19 @@
 [
   {
+    "ts": "2026-08-31T00:06:12+00:00",
+    "ticket_number": 8526,
+    "subject": "Ovedia Nicole/Signal Inn - Unit 15/ Res #: 59441/Late Check-Out Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-08-31T00:06:12+00:00",
+    "ticket_number": 8525,
+    "subject": "Leitsch William/Colony Inn C-05/  Res #: 61901/Modify Reservation",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-08-30T21:46:43+00:00",
     "ticket_number": 8524,
     "subject": "Shaw Debbie | Res #: 61513 | $100  coupon",
