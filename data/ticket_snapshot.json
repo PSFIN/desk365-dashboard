@@ -1,4 +1,74 @@
 {
+  "8551": {
+    "subject": "Add Property to Manatee Tourist Development Tax Umbrella : Putt in Paradise - 19116 SCALLOP LOOP, #202",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-03 22:00:00",
+    "priority": 10
+  },
+  "8550": {
+    "subject": "DR-11 Form : Putt in Paradise -19116 SCALLOP LOOP, #202",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-03 22:00:00",
+    "priority": 10
+  },
+  "8549": {
+    "subject": "DR-1C Form : Putt in Paradise - 19116 SCALLOP LOOP, #202",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-03 22:00:00",
+    "priority": 10
+  },
+  "8548": {
+    "subject": "Pollett Elizabeth/Harbour Happiness/ Res #: 59239/Maintenance & Management Ticket \u2013 Pool Safety Concern",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-02 17:31:56",
+    "priority": 20
+  },
+  "8547": {
+    "subject": "Add Property to Manatee Tourist Development Tax Umbrella - Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-03 20:50:37",
+    "priority": 10
+  },
+  "8546": {
+    "subject": "Res. No. 60111 - Michael Khalil  - Gulf & Bay 1260:     Issue: master bedroom needs a door lock",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-03 20:29:19",
+    "priority": 5
+  },
+  "8545": {
+    "subject": "DR-11 Form : Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-03 20:27:00",
+    "priority": 10
+  },
+  "8544": {
+    "subject": "DR-1C Form : Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-03 20:21:52",
+    "priority": 10
+  },
+  "8543": {
+    "subject": "Name: John Solt  | Res: 54089 | HOA Membership Extension",
+    "assigned_to": "b.zeh@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-03 20:02:08",
+    "priority": 1
+  },
+  "8542": {
+    "subject": "Fireside cottage-ARDI comforter",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-03 19:28:18",
+    "priority": 1
+  },
   "8541": {
     "subject": "Res #: 52252 | Pritchett Darin | Day Dreamer | Communal Pool Out of Service",
     "assigned_to": "b.williams@choosegulfcoast.com",
@@ -87,7 +157,7 @@
     "subject": "GBB Key Packet Envelopes",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-01 18:00:00",
+    "due_date": "2026-09-02 18:00:00",
     "priority": 20
   },
   "8524": {
@@ -169,14 +239,14 @@
   },
   "8504": {
     "subject": "Bihday Deborah/Paraclete Paradise/Res #: 58054/ Pool Vendor \u2013 Return Visit Required",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-01 22:00:00",
     "priority": 1
   },
   "8503": {
     "subject": "Putt in Paradise-elock Lynx",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-01 20:26:43",
     "priority": 1
@@ -288,14 +358,14 @@
   },
   "8434": {
     "subject": "Mirrored closet door:GBB1269",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-08-31 22:00:00",
     "priority": 5
   },
   "8431": {
     "subject": "Microwave:Aloha House:WO #41938277",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.friday@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-08-31 22:00:00",
     "priority": 5
@@ -360,7 +430,7 @@
     "subject": "Seabird Villa - Switching to annual",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-08-31 20:28:00",
+    "due_date": "2026-09-01 20:28:00",
     "priority": 1
   },
   "8355": {
@@ -409,7 +479,7 @@
     "subject": "PCA for Beach Heron Due Date: 9/12/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-08-31 22:00:00",
+    "due_date": "2026-09-02 22:00:00",
     "priority": 5
   },
   "8322": {
@@ -535,7 +605,7 @@
     "subject": "PCA for The Beach Fact Oar Due Date: 9/7/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-08-31 14:44:00",
+    "due_date": "2026-09-02 14:44:00",
     "priority": 5
   },
   "8176": {
@@ -551,13 +621,6 @@
     "status": "Open",
     "due_date": "2026-08-14 21:13:00",
     "priority": 10
-  },
-  "8128": {
-    "subject": "Name: Jacobs Mary | Res:59802 | Property: Longboat Dream | Future Guest Request",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-08-31 19:49:00",
-    "priority": 1
   },
   "8111": {
     "subject": "Fraser Rachel/A Shore Thing/Res #: 46904/Pool heating Request",
@@ -577,7 +640,7 @@
     "subject": "Qualify for ARDI?",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-08-29 22:00:00",
+    "due_date": "2026-09-01 22:00:00",
     "priority": 10
   },
   "8007": {
@@ -591,7 +654,7 @@
     "subject": "PCA for Paradis Sur Mer Due Date: 9/1/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-08-31 20:39:00",
+    "due_date": "2026-09-02 20:39:00",
     "priority": 5
   },
   "7951": {
@@ -599,13 +662,6 @@
     "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-12 19:00:00",
-    "priority": 5
-  },
-  "7950": {
-    "subject": "PCA for Turtle House Due Date: 8/31/2026",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-08-29 18:58:00",
     "priority": 5
   },
   "7949": {
@@ -717,7 +773,7 @@
     "subject": "PCA for A Shore Thing Due Date: 8/7/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-08-29 22:00:00",
+    "due_date": "2026-09-02 22:00:00",
     "priority": 5
   },
   "7599": {
@@ -773,14 +829,14 @@
     "subject": "PCA for Family Tides Due Date: 7/31/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-08-29 20:35:00",
+    "due_date": "2026-09-04 20:35:00",
     "priority": 5
   },
   "7361": {
     "subject": "PCA for Gulf & Bay Bayside - 1350 Due Date: 7/30/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-08-29 09:30:00",
+    "due_date": "2026-09-02 09:30:00",
     "priority": 5
   },
   "7360": {
@@ -808,7 +864,7 @@
     "subject": "PCA for Gulf & Bay Bayside - 1346 Due Date: 7/24/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-08-29 10:30:00",
+    "due_date": "2026-09-02 10:30:00",
     "priority": 5
   },
   "7162": {

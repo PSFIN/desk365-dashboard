@@ -1,5 +1,215 @@
 [
   {
+    "ts": "2026-08-31T23:15:49+00:00",
+    "ticket_number": 8551,
+    "subject": "Add Property to Manatee Tourist Development Tax Umbrella : Putt in Paradise - 19116 SCALLOP LOOP, #202",
+    "type": "created",
+    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-08-31T23:15:49+00:00",
+    "ticket_number": 8550,
+    "subject": "DR-11 Form : Putt in Paradise -19116 SCALLOP LOOP, #202",
+    "type": "created",
+    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-08-31T23:15:49+00:00",
+    "ticket_number": 8549,
+    "subject": "DR-1C Form : Putt in Paradise - 19116 SCALLOP LOOP, #202",
+    "type": "created",
+    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-08-31T23:15:49+00:00",
+    "ticket_number": 8548,
+    "subject": "Pollett Elizabeth/Harbour Happiness/ Res #: 59239/Maintenance & Management Ticket \u2013 Pool Safety Concern",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-08-31T23:15:49+00:00",
+    "ticket_number": 8547,
+    "subject": "Add Property to Manatee Tourist Development Tax Umbrella - Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
+    "type": "created",
+    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-08-31T23:15:49+00:00",
+    "ticket_number": 8546,
+    "subject": "Res. No. 60111 - Michael Khalil  - Gulf & Bay 1260:     Issue: master bedroom needs a door lock",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-08-31T23:15:49+00:00",
+    "ticket_number": 8545,
+    "subject": "DR-11 Form : Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
+    "type": "created",
+    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-08-31T23:15:49+00:00",
+    "ticket_number": 8544,
+    "subject": "DR-1C Form : Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
+    "type": "created",
+    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-08-31T23:15:49+00:00",
+    "ticket_number": 8543,
+    "subject": "Name: John Solt  | Res: 54089 | HOA Membership Extension",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.zeh@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-08-31T23:15:49+00:00",
+    "ticket_number": 8542,
+    "subject": "Fireside cottage-ARDI comforter",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.thayer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-08-31T23:15:49+00:00",
+    "ticket_number": 8529,
+    "subject": "GBB Key Packet Envelopes",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-01 18:00:00 to 2026-09-02 18:00:00",
+    "from": "2026-09-01 18:00:00",
+    "to": "2026-09-02 18:00:00"
+  },
+  {
+    "ts": "2026-08-31T23:15:49+00:00",
+    "ticket_number": 8504,
+    "subject": "Bihday Deborah/Paraclete Paradise/Res #: 58054/ Pool Vendor \u2013 Return Visit Required",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-08-31T23:15:49+00:00",
+    "ticket_number": 8503,
+    "subject": "Putt in Paradise-elock Lynx",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-08-31T23:15:49+00:00",
+    "ticket_number": 8434,
+    "subject": "Mirrored closet door:GBB1269",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "j.rushton@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-08-31T23:15:49+00:00",
+    "ticket_number": 8431,
+    "subject": "Microwave:Aloha House:WO #41938277",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to j.friday@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "j.friday@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-08-31T23:15:49+00:00",
+    "ticket_number": 8361,
+    "subject": "Seabird Villa - Switching to annual",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-08-31 20:28:00 to 2026-09-01 20:28:00",
+    "from": "2026-08-31 20:28:00",
+    "to": "2026-09-01 20:28:00"
+  },
+  {
+    "ts": "2026-08-31T23:15:49+00:00",
+    "ticket_number": 8328,
+    "subject": "PCA for Beach Heron Due Date: 9/12/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-08-31 22:00:00 to 2026-09-02 22:00:00",
+    "from": "2026-08-31 22:00:00",
+    "to": "2026-09-02 22:00:00"
+  },
+  {
+    "ts": "2026-08-31T23:15:49+00:00",
+    "ticket_number": 8177,
+    "subject": "PCA for The Beach Fact Oar Due Date: 9/7/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-08-31 14:44:00 to 2026-09-02 14:44:00",
+    "from": "2026-08-31 14:44:00",
+    "to": "2026-09-02 14:44:00"
+  },
+  {
+    "ts": "2026-08-31T23:15:49+00:00",
+    "ticket_number": 8037,
+    "subject": "Qualify for ARDI?",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-08-29 22:00:00 to 2026-09-01 22:00:00",
+    "from": "2026-08-29 22:00:00",
+    "to": "2026-09-01 22:00:00"
+  },
+  {
+    "ts": "2026-08-31T23:15:49+00:00",
+    "ticket_number": 7955,
+    "subject": "PCA for Paradis Sur Mer Due Date: 9/1/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-08-31 20:39:00 to 2026-09-02 20:39:00",
+    "from": "2026-08-31 20:39:00",
+    "to": "2026-09-02 20:39:00"
+  },
+  {
+    "ts": "2026-08-31T23:15:49+00:00",
+    "ticket_number": 7603,
+    "subject": "PCA for A Shore Thing Due Date: 8/7/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-08-29 22:00:00 to 2026-09-02 22:00:00",
+    "from": "2026-08-29 22:00:00",
+    "to": "2026-09-02 22:00:00"
+  },
+  {
+    "ts": "2026-08-31T23:15:49+00:00",
+    "ticket_number": 7362,
+    "subject": "PCA for Family Tides Due Date: 7/31/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-08-29 20:35:00 to 2026-09-04 20:35:00",
+    "from": "2026-08-29 20:35:00",
+    "to": "2026-09-04 20:35:00"
+  },
+  {
+    "ts": "2026-08-31T23:15:49+00:00",
+    "ticket_number": 7361,
+    "subject": "PCA for Gulf & Bay Bayside - 1350 Due Date: 7/30/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-08-29 09:30:00 to 2026-09-02 09:30:00",
+    "from": "2026-08-29 09:30:00",
+    "to": "2026-09-02 09:30:00"
+  },
+  {
+    "ts": "2026-08-31T23:15:49+00:00",
+    "ticket_number": 7165,
+    "subject": "PCA for Gulf & Bay Bayside - 1346 Due Date: 7/24/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-08-29 10:30:00 to 2026-09-02 10:30:00",
+    "from": "2026-08-29 10:30:00",
+    "to": "2026-09-02 10:30:00"
+  },
+  {
+    "ts": "2026-08-31T23:15:49+00:00",
+    "ticket_number": 8128,
+    "subject": "Name: Jacobs Mary | Res:59802 | Property: Longboat Dream | Future Guest Request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-08-31T23:15:49+00:00",
+    "ticket_number": 7950,
+    "subject": "PCA for Turtle House Due Date: 8/31/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-08-31T19:10:35+00:00",
     "ticket_number": 8541,
     "subject": "Res #: 52252 | Pritchett Darin | Day Dreamer | Communal Pool Out of Service",
