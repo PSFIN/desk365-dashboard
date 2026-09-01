@@ -1,5 +1,30 @@
 [
   {
+    "ts": "2026-09-01T12:39:09+00:00",
+    "ticket_number": 8540,
+    "subject": "Sandalfoot Unit 1A2 Listing Desciption",
+    "type": "reassigned",
+    "detail": "Reassigned from b.meyer@choosegulfcoast.com to s.paulin@choosegulfcoast.com",
+    "from": "b.meyer@choosegulfcoast.com",
+    "to": "s.paulin@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-01T12:39:09+00:00",
+    "ticket_number": 8490,
+    "subject": "Putt in Paradise-OB picture",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-03 19:07:00 to 2026-09-04 19:07:00",
+    "from": "2026-09-03 19:07:00",
+    "to": "2026-09-04 19:07:00"
+  },
+  {
+    "ts": "2026-09-01T12:39:09+00:00",
+    "ticket_number": 8470,
+    "subject": "Sanibel Trip",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-01T01:55:51+00:00",
     "ticket_number": 8553,
     "subject": "KOBESKI JACKIE/ Sandalfoot 3B3/ Res #: 56328/Housekeeping Follow-Up \u2013 Missing Brown Leather Wallet",
