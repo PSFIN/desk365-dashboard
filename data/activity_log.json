@@ -1,5 +1,222 @@
 [
   {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 8584,
+    "subject": "Res# 56677: maintenance WO 41774855 Patching damaged door",
+    "type": "created",
+    "detail": "Created \u2014 assigned to p.yelenich@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 8583,
+    "subject": "Remove vacancy text",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 8581,
+    "subject": "Res. No. 56346 - Robert Ware  - Turtle House      Issue 1 of 2:    Master bathtub faucet is loose",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 8580,
+    "subject": "Turtle House res#62055 change rate",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 8579,
+    "subject": "rev rep",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.paulin@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 8578,
+    "subject": "Response needed: cancellation request for 62051 | Judy Breen",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 8577,
+    "subject": "Effect request for removal of BDC review:  Res. No. 60142 - Danielle Proffitt - Dreams of Paradise.",
+    "type": "created",
+    "detail": "Created \u2014 assigned to l.winter@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 8576,
+    "subject": "Name: Owen Anne | Res: 61829 | Property: Sandalfoot 4D3 | Guest Request | Future Guest Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to m.johnston@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 8575,
+    "subject": "The Duffers Retreat-PCA Deep clean",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 8574,
+    "subject": "Sunny Retreat-PCA deep clean",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 8465,
+    "subject": "Sunset Splash-lynx and pool serice",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-08-31 20:12:00 to 2026-09-04 20:12:00",
+    "from": "2026-08-31 20:12:00",
+    "to": "2026-09-04 20:12:00"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 8416,
+    "subject": "Johnson Chase/Res #: 55736/ Turtle House/Compensation Review Request",
+    "type": "reassigned",
+    "detail": "Reassigned from b.williams@choosegulfcoast.com to h.nomura@choosegulfcoast.com",
+    "from": "b.williams@choosegulfcoast.com",
+    "to": "h.nomura@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 8416,
+    "subject": "Johnson Chase/Res #: 55736/ Turtle House/Compensation Review Request",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-08-30 22:00:00 to 2026-09-02 22:00:00",
+    "from": "2026-08-30 22:00:00",
+    "to": "2026-09-02 22:00:00"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 8413,
+    "subject": "New Hire Platform Access - Matt Moritz",
+    "type": "created",
+    "detail": "Created \u2014 assigned to t.frost@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 8361,
+    "subject": "Seabird Villa - Switching to annual",
+    "type": "reassigned",
+    "detail": "Reassigned from j.rushton@choosegulfcoast.com to b.vandroff@choosegulfcoast.com",
+    "from": "j.rushton@choosegulfcoast.com",
+    "to": "b.vandroff@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 8361,
+    "subject": "Seabird Villa - Switching to annual",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-01 20:28:00 to 2026-09-03 20:28:00",
+    "from": "2026-09-01 20:28:00",
+    "to": "2026-09-03 20:28:00"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 8301,
+    "subject": "ADRI Signal Inn Unit 11",
+    "type": "reassigned",
+    "detail": "Reassigned from n.ventura@choosegulfcoast.com to a.ytac@choosegulfcoast.com",
+    "from": "n.ventura@choosegulfcoast.com",
+    "to": "a.ytac@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 8239,
+    "subject": "PCA for The Duffers Retreat Due Date: 9/2/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "s.soriafrausto@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 8572,
+    "subject": "Sunny Life-deep clean required from PCA",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 8570,
+    "subject": "Awake Zone-Deep clean from PCA",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 8558,
+    "subject": "Replace Rules and Regs on GBB website.",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 8548,
+    "subject": "Pollett Elizabeth/Harbour Happiness/ Res #: 59239/Maintenance & Management Ticket \u2013 Pool Safety Concern",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 8521,
+    "subject": "Dupuy Laura | Gulf & Bay Bayside - 1340 | Res #: 59076 | Feedback",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 8509,
+    "subject": "Dreams of Paradise-towels",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 8491,
+    "subject": "Property Management Inquiry",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 8176,
+    "subject": "PCA for Sunny Life Due Date: 9/6/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 7799,
+    "subject": "Tidewater Manor - Update listing",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 7605,
+    "subject": "PCA for Awake Zone Due Date: 8/13/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-01T20:00:08+00:00",
+    "ticket_number": 7162,
+    "subject": "PCA for The River\u2019s End Due Date: 7/22/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-01T17:05:22+00:00",
     "ticket_number": 8573,
     "subject": "Green View Getaway",
