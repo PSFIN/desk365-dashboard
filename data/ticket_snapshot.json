@@ -1,4 +1,18 @@
 {
+  "8589": {
+    "subject": "Brazerol Kathy/ Res #: 52247/Sandalfoot 5D1/Cancellation Request",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-04 22:00:00",
+    "priority": 1
+  },
+  "8588": {
+    "subject": "ippolito barbara/Colony Inn C-45/Res #: 51748/Cancellation Request",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-04 22:00:00",
+    "priority": 1
+  },
   "8587": {
     "subject": "C-02 and C-04 pictures",
     "assigned_to": "b.meyer@choosegulfcoast.com",
@@ -71,14 +85,14 @@
   },
   "8575": {
     "subject": "The Duffers Retreat-PCA Deep clean",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-04 17:24:03",
     "priority": 1
   },
   "8574": {
     "subject": "Sunny Retreat-PCA deep clean",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-04 17:18:40",
     "priority": 1
@@ -106,7 +120,7 @@
   },
   "8568": {
     "subject": "Admirals Watch required PCA deep celan",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-04 16:26:52",
     "priority": 1
@@ -120,7 +134,7 @@
   },
   "8566": {
     "subject": "The Rivers End-PCA deep clean",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-04 16:21:17",
     "priority": 1
@@ -202,13 +216,6 @@
     "due_date": "2026-09-03 20:50:37",
     "priority": 10
   },
-  "8546": {
-    "subject": "Res. No. 60111 - Michael Khalil  - Gulf & Bay 1260:     Issue: master bedroom needs a door lock",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-03 20:29:19",
-    "priority": 5
-  },
   "8545": {
     "subject": "DR-11 Form : Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
     "assigned_to": "l.brigida@choosegulfcoast.com",
@@ -251,27 +258,6 @@
     "due_date": "2026-09-03 17:39:23",
     "priority": 10
   },
-  "8539": {
-    "subject": "Res. No. 55853 - MJ Lynch  - Ocean Eyes:     Issue 2 of 2:  toilets fill up with hot water",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-03 17:20:09",
-    "priority": 5
-  },
-  "8538": {
-    "subject": "Sun Seeker-no cleaning required",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-03 17:18:02",
-    "priority": 1
-  },
-  "8537": {
-    "subject": "Res. No. 55853 - MJ Lynch  - Ocean Eyes:     Issue 1 of 2:  dryer - lint build-up in door",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-03 17:16:32",
-    "priority": 5
-  },
   "8536": {
     "subject": "Lynnbrook Chargeback | Res# 41378 | Hopper Kimberly | Unit: Sandalfoot 5B3 | CI: 09/24/2026 | CO: 10/04/2026",
     "assigned_to": "e.morales@choosegulfcoast.com",
@@ -302,7 +288,7 @@
   },
   "8532": {
     "subject": "Sweet pineapple-fire extinguisher",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-03 15:52:54",
     "priority": 1
@@ -316,7 +302,7 @@
   },
   "8530": {
     "subject": "Snow on the beach - inspection",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-03 14:54:02",
     "priority": 1
@@ -353,7 +339,7 @@
     "subject": "Guest Name: Mulroy Ana | Unit: Dreams Of Paradise | Pool Heat Request",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-02 22:00:00",
+    "due_date": "2027-02-11 23:00:00",
     "priority": 1
   },
   "8513": {
@@ -407,7 +393,7 @@
   },
   "8464": {
     "subject": "Precious Gem-PCA Deep clean",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-08-29 19:06:00",
     "priority": 10
@@ -458,7 +444,7 @@
     "subject": "Microwave:Aloha House:WO #41938277",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-01 22:00:00",
+    "due_date": "2026-09-02 22:00:00",
     "priority": 5
   },
   "8424": {
@@ -521,7 +507,7 @@
     "subject": "The Heartherwood Haven-deep clean PCA",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-08-31 22:00:00",
+    "due_date": "2026-12-31 23:00:00",
     "priority": 5
   },
   "8361": {
@@ -535,7 +521,7 @@
     "subject": "Southern Comfort-PCA cleaning request",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-08-31 18:18:00",
+    "due_date": "2026-11-27 19:18:00",
     "priority": 10
   },
   "8333": {
@@ -584,7 +570,7 @@
     "subject": "Avalon landscape",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-08-31 22:00:00",
+    "due_date": "2026-09-02 22:00:00",
     "priority": 1
   },
   "8312": {
@@ -645,7 +631,7 @@
   },
   "8239": {
     "subject": "PCA for The Duffers Retreat Due Date: 9/2/2026",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-12 16:11:00",
     "priority": 5
@@ -710,7 +696,7 @@
     "subject": "Coastal Oasis-WO",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-08-31 20:51:00",
+    "due_date": "2026-09-03 20:51:00",
     "priority": 10
   },
   "8037": {
@@ -724,7 +710,7 @@
     "subject": "Rising tides- pool deck, chairs, couch and window",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-08-31 19:46:00",
+    "due_date": "2026-09-02 19:46:00",
     "priority": 10
   },
   "7955": {
@@ -755,25 +741,11 @@
     "due_date": "2026-09-04 16:00:00",
     "priority": 5
   },
-  "7837": {
-    "subject": "Tidewater Manor - Cleaning",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-08-29 15:05:00",
-    "priority": 1
-  },
   "7833": {
     "subject": "GBB1275 - Cleaning",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-05 14:23:00",
-    "priority": 1
-  },
-  "7832": {
-    "subject": "Cranes Galore - Cleaning",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-08-31 14:21:00",
     "priority": 1
   },
   "7831": {
@@ -841,7 +813,7 @@
   },
   "7599": {
     "subject": "PCA for Admirals Watch Due Date:  8/6/2026",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-11 22:00:00",
     "priority": 5
@@ -904,9 +876,9 @@
   },
   "7360": {
     "subject": "PCA for Precious Gem Due Date: 7/29/2026",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-08-31 20:32:00",
+    "due_date": "2026-09-02 20:32:00",
     "priority": 5
   },
   "7346": {
@@ -953,9 +925,9 @@
   },
   "7013": {
     "subject": "PCA for La Vida Loca Due Date: July 7, 2026",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-08-31 22:00:00",
+    "due_date": "2026-09-04 22:00:00",
     "priority": 5
   },
   "6536": {

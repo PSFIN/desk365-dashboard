@@ -1,5 +1,241 @@
 [
   {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 8589,
+    "subject": "Brazerol Kathy/ Res #: 52247/Sandalfoot 5D1/Cancellation Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 8588,
+    "subject": "ippolito barbara/Colony Inn C-45/Res #: 51748/Cancellation Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 8575,
+    "subject": "The Duffers Retreat-PCA Deep clean",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 8574,
+    "subject": "Sunny Retreat-PCA deep clean",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 8568,
+    "subject": "Admirals Watch required PCA deep celan",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 8566,
+    "subject": "The Rivers End-PCA deep clean",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 8532,
+    "subject": "Sweet pineapple-fire extinguisher",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 8530,
+    "subject": "Snow on the beach - inspection",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "j.rushton@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 8515,
+    "subject": "Guest Name: Mulroy Ana | Unit: Dreams Of Paradise | Pool Heat Request",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-02 22:00:00 to 2027-02-11 23:00:00",
+    "from": "2026-09-02 22:00:00",
+    "to": "2027-02-11 23:00:00"
+  },
+  {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 8464,
+    "subject": "Precious Gem-PCA Deep clean",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 8431,
+    "subject": "Microwave:Aloha House:WO #41938277",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-01 22:00:00 to 2026-09-02 22:00:00",
+    "from": "2026-09-01 22:00:00",
+    "to": "2026-09-02 22:00:00"
+  },
+  {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 8365,
+    "subject": "The Heartherwood Haven-deep clean PCA",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-08-31 22:00:00 to 2026-12-31 23:00:00",
+    "from": "2026-08-31 22:00:00",
+    "to": "2026-12-31 23:00:00"
+  },
+  {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 8355,
+    "subject": "Southern Comfort-PCA cleaning request",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-08-31 18:18:00 to 2026-11-27 19:18:00",
+    "from": "2026-08-31 18:18:00",
+    "to": "2026-11-27 19:18:00"
+  },
+  {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 8322,
+    "subject": "Avalon landscape",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-08-31 22:00:00 to 2026-09-02 22:00:00",
+    "from": "2026-08-31 22:00:00",
+    "to": "2026-09-02 22:00:00"
+  },
+  {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 8239,
+    "subject": "PCA for The Duffers Retreat Due Date: 9/2/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "c.thayer@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 8094,
+    "subject": "Coastal Oasis-WO",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-08-31 20:51:00 to 2026-09-03 20:51:00",
+    "from": "2026-08-31 20:51:00",
+    "to": "2026-09-03 20:51:00"
+  },
+  {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 8007,
+    "subject": "Rising tides- pool deck, chairs, couch and window",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-08-31 19:46:00 to 2026-09-02 19:46:00",
+    "from": "2026-08-31 19:46:00",
+    "to": "2026-09-02 19:46:00"
+  },
+  {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 7599,
+    "subject": "PCA for Admirals Watch Due Date:  8/6/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 7360,
+    "subject": "PCA for Precious Gem Due Date: 7/29/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "c.thayer@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 7360,
+    "subject": "PCA for Precious Gem Due Date: 7/29/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-08-31 20:32:00 to 2026-09-02 20:32:00",
+    "from": "2026-08-31 20:32:00",
+    "to": "2026-09-02 20:32:00"
+  },
+  {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 7013,
+    "subject": "PCA for La Vida Loca Due Date: July 7, 2026",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "c.thayer@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 7013,
+    "subject": "PCA for La Vida Loca Due Date: July 7, 2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-08-31 22:00:00 to 2026-09-04 22:00:00",
+    "from": "2026-08-31 22:00:00",
+    "to": "2026-09-04 22:00:00"
+  },
+  {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 8546,
+    "subject": "Res. No. 60111 - Michael Khalil  - Gulf & Bay 1260:     Issue: master bedroom needs a door lock",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 8539,
+    "subject": "Res. No. 55853 - MJ Lynch  - Ocean Eyes:     Issue 2 of 2:  toilets fill up with hot water",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 8538,
+    "subject": "Sun Seeker-no cleaning required",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 8537,
+    "subject": "Res. No. 55853 - MJ Lynch  - Ocean Eyes:     Issue 1 of 2:  dryer - lint build-up in door",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 7837,
+    "subject": "Tidewater Manor - Cleaning",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-02T05:18:49+00:00",
+    "ticket_number": 7832,
+    "subject": "Cranes Galore - Cleaning",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-01T22:30:34+00:00",
     "ticket_number": 8587,
     "subject": "C-02 and C-04 pictures",
