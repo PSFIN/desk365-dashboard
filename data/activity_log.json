@@ -1,5 +1,168 @@
 [
   {
+    "ts": "2026-09-02T17:45:21+00:00",
+    "ticket_number": 8597,
+    "subject": "Update Photos GBB1328",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-02T17:45:21+00:00",
+    "ticket_number": 8596,
+    "subject": "Snaplee Photo _ VM",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-02T17:45:21+00:00",
+    "ticket_number": 8595,
+    "subject": "Tresalus Jorwina | Southern Exposure | Res #: 62207 | Post Arrival Call",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-02T17:45:21+00:00",
+    "ticket_number": 8594,
+    "subject": "Frishman Michael | Golfers Grove | Res #: 57362 | Post Call Arrival",
+    "type": "created",
+    "detail": "Created \u2014 assigned to a.maboloc@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-02T17:45:21+00:00",
+    "ticket_number": 8593,
+    "subject": "QC needed to close RR GC984 A",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-02T17:45:21+00:00",
+    "ticket_number": 8562,
+    "subject": "camera for signal from Red1",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-08 16:07:00 to 2026-09-15 16:07:00",
+    "from": "2026-09-08 16:07:00",
+    "to": "2026-09-15 16:07:00"
+  },
+  {
+    "ts": "2026-09-02T17:45:21+00:00",
+    "ticket_number": 8561,
+    "subject": "Altschuler Max/ A Shore Thing/Res #: 58976/Gate not open (Trash Collection)",
+    "type": "reassigned",
+    "detail": "Reassigned from v.consigna@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "v.consigna@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-02T17:45:21+00:00",
+    "ticket_number": 8530,
+    "subject": "Snow on the beach - inspection",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-03 14:54:02 to 2026-09-04 14:54:00",
+    "from": "2026-09-03 14:54:02",
+    "to": "2026-09-04 14:54:00"
+  },
+  {
+    "ts": "2026-09-02T17:45:21+00:00",
+    "ticket_number": 8516,
+    "subject": "Unit: Coral Paradise | Guest Name: Schwab Emily | Exterior Structure / Storm Damage",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-05 22:00:00 to 2026-09-04 22:00:00",
+    "from": "2026-09-05 22:00:00",
+    "to": "2026-09-04 22:00:00"
+  },
+  {
+    "ts": "2026-09-02T17:45:21+00:00",
+    "ticket_number": 8504,
+    "subject": "Bihday Deborah/Paraclete Paradise/Res #: 58054/ Pool Vendor \u2013 Return Visit Required",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to m.omasdang@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "m.omasdang@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-02T17:45:21+00:00",
+    "ticket_number": 8424,
+    "subject": "Appeal Airbnb review - My Great Escape Res No. 54079 - Nicole Figueroa",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-08-31 18:52:00 to 2026-09-04 18:52:00",
+    "from": "2026-08-31 18:52:00",
+    "to": "2026-09-04 18:52:00"
+  },
+  {
+    "ts": "2026-09-02T17:45:21+00:00",
+    "ticket_number": 8254,
+    "subject": "#60212 C06 Commission Adjustment",
+    "type": "created",
+    "detail": "Created \u2014 assigned to i.yates@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-02T17:45:21+00:00",
+    "ticket_number": 7397,
+    "subject": "Marriott Curation Rejected - Signal inn 03",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-01 15:28:00 to 2026-09-07 15:28:00",
+    "from": "2026-09-01 15:28:00",
+    "to": "2026-09-07 15:28:00"
+  },
+  {
+    "ts": "2026-09-02T17:45:21+00:00",
+    "ticket_number": 7396,
+    "subject": "Marriott Curation Rejected - Signal Inn 18",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-01 15:06:00 to 2026-09-07 15:06:00",
+    "from": "2026-09-01 15:06:00",
+    "to": "2026-09-07 15:06:00"
+  },
+  {
+    "ts": "2026-09-02T17:45:21+00:00",
+    "ticket_number": 8591,
+    "subject": "Southern Comfort-picture",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-02T17:45:21+00:00",
+    "ticket_number": 8590,
+    "subject": "Unit 4A1 Occupancy",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-02T17:45:21+00:00",
+    "ticket_number": 8587,
+    "subject": "C-02 and C-04 pictures",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-02T17:45:21+00:00",
+    "ticket_number": 8573,
+    "subject": "Green View Getaway",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-02T17:45:21+00:00",
+    "ticket_number": 8416,
+    "subject": "Johnson Chase/Res #: 55736/ Turtle House/Compensation Review Request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-02T17:45:21+00:00",
+    "ticket_number": 8301,
+    "subject": "ADRI Signal Inn Unit 11",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-02T17:45:21+00:00",
+    "ticket_number": 7811,
+    "subject": "Cranes Galore - New photos",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-02T13:59:14+00:00",
     "ticket_number": 8591,
     "subject": "Southern Comfort-picture",
