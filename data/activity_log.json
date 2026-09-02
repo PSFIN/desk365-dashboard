@@ -1,5 +1,142 @@
 [
   {
+    "ts": "2026-09-02T13:59:14+00:00",
+    "ticket_number": 8591,
+    "subject": "Southern Comfort-picture",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-02T13:59:14+00:00",
+    "ticket_number": 8590,
+    "subject": "Unit 4A1 Occupancy",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.paulin@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-02T13:59:14+00:00",
+    "ticket_number": 8575,
+    "subject": "The Duffers Retreat-PCA Deep clean",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "s.soriafrausto@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-02T13:59:14+00:00",
+    "ticket_number": 8568,
+    "subject": "Admirals Watch required PCA deep celan",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "s.soriafrausto@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-02T13:59:14+00:00",
+    "ticket_number": 8516,
+    "subject": "Unit: Coral Paradise | Guest Name: Schwab Emily | Exterior Structure / Storm Damage",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-02 22:00:00 to 2026-09-05 22:00:00",
+    "from": "2026-09-02 22:00:00",
+    "to": "2026-09-05 22:00:00"
+  },
+  {
+    "ts": "2026-09-02T13:59:14+00:00",
+    "ticket_number": 8464,
+    "subject": "Precious Gem-PCA Deep clean",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "s.soriafrausto@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-02T13:59:14+00:00",
+    "ticket_number": 8431,
+    "subject": "Microwave:Aloha House:WO #41938277",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-02 22:00:00 to 2026-09-04 22:00:00",
+    "from": "2026-09-02 22:00:00",
+    "to": "2026-09-04 22:00:00"
+  },
+  {
+    "ts": "2026-09-02T13:59:14+00:00",
+    "ticket_number": 8231,
+    "subject": "Res #: 59964| Unit: Gulf & Bay Bayside - 1318| Guest Name: Albert Silke | Mold Issue",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-08-31 18:00:00 to 2026-09-04 18:00:00",
+    "from": "2026-08-31 18:00:00",
+    "to": "2026-09-04 18:00:00"
+  },
+  {
+    "ts": "2026-09-02T13:59:14+00:00",
+    "ticket_number": 8181,
+    "subject": "PCA for Sunny Retreat Due Date: 9/9/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-02T13:59:14+00:00",
+    "ticket_number": 8094,
+    "subject": "Coastal Oasis-WO",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-03 20:51:00 to 2026-09-04 20:51:00",
+    "from": "2026-09-03 20:51:00",
+    "to": "2026-09-04 20:51:00"
+  },
+  {
+    "ts": "2026-09-02T13:59:14+00:00",
+    "ticket_number": 7599,
+    "subject": "PCA for Admirals Watch Due Date:  8/6/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "s.soriafrausto@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-02T13:59:14+00:00",
+    "ticket_number": 8589,
+    "subject": "Brazerol Kathy/ Res #: 52247/Sandalfoot 5D1/Cancellation Request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-02T13:59:14+00:00",
+    "ticket_number": 8574,
+    "subject": "Sunny Retreat-PCA deep clean",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-02T13:59:14+00:00",
+    "ticket_number": 8566,
+    "subject": "The Rivers End-PCA deep clean",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-02T13:59:14+00:00",
+    "ticket_number": 8239,
+    "subject": "PCA for The Duffers Retreat Due Date: 9/2/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-02T13:59:14+00:00",
+    "ticket_number": 7360,
+    "subject": "PCA for Precious Gem Due Date: 7/29/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-02T13:59:14+00:00",
+    "ticket_number": 7013,
+    "subject": "PCA for La Vida Loca Due Date: July 7, 2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-02T05:18:49+00:00",
     "ticket_number": 8589,
     "subject": "Brazerol Kathy/ Res #: 52247/Sandalfoot 5D1/Cancellation Request",
