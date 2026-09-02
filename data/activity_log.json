@@ -1,5 +1,158 @@
 [
   {
+    "ts": "2026-09-02T22:44:26+00:00",
+    "ticket_number": 8611,
+    "subject": "Unit: Bayside Paradise | Guest Name: Shaw Debbie | AC Air Filter Replacement / Stale Odor",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-02T22:44:26+00:00",
+    "ticket_number": 8610,
+    "subject": "The Duffers Retreat-PCA deep clean",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-02T22:44:26+00:00",
+    "ticket_number": 8609,
+    "subject": "Swast Jessica/ Sandalfoot 1A2/Res #: 56450",
+    "type": "created",
+    "detail": "Created \u2014 assigned to k.garcia@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-02T22:44:26+00:00",
+    "ticket_number": 8608,
+    "subject": "Wolk Kimberly | Ocean Eyes |  Res #: 58831 | AC error",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to m.eronico@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "m.eronico@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-02T22:44:26+00:00",
+    "ticket_number": 8608,
+    "subject": "Wolk Kimberly | Ocean Eyes |  Res #: 58831 | AC error",
+    "type": "priority_changed",
+    "detail": "Priority changed from 1 to 5",
+    "from": 1,
+    "to": 5
+  },
+  {
+    "ts": "2026-09-02T22:44:26+00:00",
+    "ticket_number": 8607,
+    "subject": "GBB office shelves",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to c.nutt@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "c.nutt@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-02T22:44:26+00:00",
+    "ticket_number": 8541,
+    "subject": "Res #: 52252 | Pritchett Darin | Day Dreamer | Communal Pool Out of Service",
+    "type": "reassigned",
+    "detail": "Reassigned from b.williams@choosegulfcoast.com to m.eronico@choosegulfcoast.com",
+    "from": "b.williams@choosegulfcoast.com",
+    "to": "m.eronico@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-02T22:44:26+00:00",
+    "ticket_number": 8533,
+    "subject": "Sweet Pineapple-Comp 75",
+    "type": "reassigned",
+    "detail": "Reassigned from m.johnston@choosegulfcoast.com to e.morales@choosegulfcoast.com",
+    "from": "m.johnston@choosegulfcoast.com",
+    "to": "e.morales@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-02T22:44:26+00:00",
+    "ticket_number": 8533,
+    "subject": "Sweet Pineapple-Comp 75",
+    "type": "priority_changed",
+    "detail": "Priority changed from 1 to 10",
+    "from": 1,
+    "to": 10
+  },
+  {
+    "ts": "2026-09-02T22:44:26+00:00",
+    "ticket_number": 8434,
+    "subject": "Mirrored closet door:GBB1269",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-02 22:00:00 to 2026-09-04 22:00:00",
+    "from": "2026-09-02 22:00:00",
+    "to": "2026-09-04 22:00:00"
+  },
+  {
+    "ts": "2026-09-02T22:44:26+00:00",
+    "ticket_number": 8410,
+    "subject": "YCBR Photo shoot",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-03 19:15:00 to 2026-09-04 19:15:00",
+    "from": "2026-09-03 19:15:00",
+    "to": "2026-09-04 19:15:00"
+  },
+  {
+    "ts": "2026-09-02T22:44:26+00:00",
+    "ticket_number": 7955,
+    "subject": "PCA for Paradis Sur Mer Due Date: 9/1/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-02 20:39:00 to 2026-09-04 20:39:00",
+    "from": "2026-09-02 20:39:00",
+    "to": "2026-09-04 20:39:00"
+  },
+  {
+    "ts": "2026-09-02T22:44:26+00:00",
+    "ticket_number": 7425,
+    "subject": "Marriott Curation Rejected - Gulf & Bay Bayside - 1318",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-02T22:44:26+00:00",
+    "ticket_number": 7361,
+    "subject": "PCA for Gulf & Bay Bayside - 1350 Due Date: 7/30/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-02 09:30:00 to 2026-09-04 09:30:00",
+    "from": "2026-09-02 09:30:00",
+    "to": "2026-09-04 09:30:00"
+  },
+  {
+    "ts": "2026-09-02T22:44:26+00:00",
+    "ticket_number": 8593,
+    "subject": "QC needed to close RR GC984 A",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-02T22:44:26+00:00",
+    "ticket_number": 8581,
+    "subject": "Res. No. 56346 - Robert Ware  - Turtle House      Issue 1 of 2:    Master bathtub faucet is loose",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-02T22:44:26+00:00",
+    "ticket_number": 8561,
+    "subject": "Altschuler Max/ A Shore Thing/Res #: 58976/Gate not open (Trash Collection)",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-02T22:44:26+00:00",
+    "ticket_number": 8328,
+    "subject": "PCA for Beach Heron Due Date: 9/12/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-02T22:44:26+00:00",
+    "ticket_number": 8231,
+    "subject": "Res #: 59964| Unit: Gulf & Bay Bayside - 1318| Guest Name: Albert Silke | Mold Issue",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-02T20:21:45+00:00",
     "ticket_number": 8608,
     "subject": "Wolk Kimberly | Ocean Eyes |  Res #: 58831 | AC error",
