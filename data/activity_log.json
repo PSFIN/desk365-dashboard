@@ -1,5 +1,122 @@
 [
   {
+    "ts": "2026-09-03T20:26:17+00:00",
+    "ticket_number": 8632,
+    "subject": "Res. No. 44009 - Kathleen Donnelly - Oakwater Escape  - star rating: 3",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.williams@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-03T20:26:17+00:00",
+    "ticket_number": 8631,
+    "subject": "Owner Statement - Kreter - C41",
+    "type": "created",
+    "detail": "Created \u2014 assigned to a.ytac@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-03T20:26:17+00:00",
+    "ticket_number": 8630,
+    "subject": "La Vida Loca-rates",
+    "type": "created",
+    "detail": "Created \u2014 assigned to a.guarin@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-03T20:26:17+00:00",
+    "ticket_number": 8621,
+    "subject": "PCA - Sunny Retreat",
+    "type": "reassigned",
+    "detail": "Reassigned from t.healy@choosegulfcoast.com to s.paulin@choosegulfcoast.com",
+    "from": "t.healy@choosegulfcoast.com",
+    "to": "s.paulin@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-03T20:26:17+00:00",
+    "ticket_number": 8620,
+    "subject": "PCA - La Vida Loca",
+    "type": "reassigned",
+    "detail": "Reassigned from t.healy@choosegulfcoast.com to s.paulin@choosegulfcoast.com",
+    "from": "t.healy@choosegulfcoast.com",
+    "to": "s.paulin@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-03T20:26:17+00:00",
+    "ticket_number": 8610,
+    "subject": "The Duffers Retreat-PCA deep clean",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-07 20:36:53 to 2026-09-30 20:36:00",
+    "from": "2026-09-07 20:36:53",
+    "to": "2026-09-30 20:36:00"
+  },
+  {
+    "ts": "2026-09-03T20:26:17+00:00",
+    "ticket_number": 8607,
+    "subject": "GBB office shelves",
+    "type": "reassigned",
+    "detail": "Reassigned from c.nutt@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "c.nutt@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-03T20:26:17+00:00",
+    "ticket_number": 8575,
+    "subject": "The Duffers Retreat-PCA Deep clean",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "s.soriafrausto@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-03T20:26:17+00:00",
+    "ticket_number": 8474,
+    "subject": "Unit: Dreams Of Paradise | Guest Name: Profitt Danielle | Guest Compensation / Pest & Maintenance Escalation",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.williams@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-03T20:26:17+00:00",
+    "ticket_number": 8424,
+    "subject": "Appeal Airbnb review - My Great Escape Res No. 54079 - Nicole Figueroa",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-04 18:52:00 to 2026-09-07 15:00:00",
+    "from": "2026-09-04 18:52:00",
+    "to": "2026-09-07 15:00:00"
+  },
+  {
+    "ts": "2026-09-03T20:26:17+00:00",
+    "ticket_number": 8615,
+    "subject": "Padilla Marie | Blue Dolphin | Res #: 60080 | ECI for tomorrow",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-03T20:26:17+00:00",
+    "ticket_number": 8583,
+    "subject": "Remove vacancy text",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-03T20:26:17+00:00",
+    "ticket_number": 8453,
+    "subject": "2D3 - owner, new photos request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-03T20:26:17+00:00",
+    "ticket_number": 8413,
+    "subject": "New Hire Platform Access - Matt Moritz",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-03T20:26:17+00:00",
+    "ticket_number": 7852,
+    "subject": "Business Cards",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-03T17:56:18+00:00",
     "ticket_number": 8629,
     "subject": "Update website taglines",

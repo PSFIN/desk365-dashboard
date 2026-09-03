@@ -1,4 +1,25 @@
 {
+  "8632": {
+    "subject": "Res. No. 44009 - Kathleen Donnelly - Oakwater Escape  - star rating: 3",
+    "assigned_to": "b.williams@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-08 20:09:36",
+    "priority": 5
+  },
+  "8631": {
+    "subject": "Owner Statement - Kreter - C41",
+    "assigned_to": "a.ytac@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-08 20:06:04",
+    "priority": 5
+  },
+  "8630": {
+    "subject": "La Vida Loca-rates",
+    "assigned_to": "a.guarin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-08 18:10:34",
+    "priority": 1
+  },
   "8629": {
     "subject": "Update website taglines",
     "assigned_to": "e.buchanan@choosegulfcoast.com",
@@ -50,14 +71,14 @@
   },
   "8621": {
     "subject": "PCA - Sunny Retreat",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-07 22:00:00",
     "priority": 1
   },
   "8620": {
     "subject": "PCA - La Vida Loca",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-07 22:00:00",
     "priority": 1
@@ -89,13 +110,6 @@
     "status": "Open",
     "due_date": "2026-09-07 22:00:00",
     "priority": 1
-  },
-  "8615": {
-    "subject": "Padilla Marie | Blue Dolphin | Res #: 60080 | ECI for tomorrow",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-07 22:00:00",
-    "priority": 5
   },
   "8614": {
     "subject": "Carr Debra/Awake Zone/ Res #: 61117/Door Code is not working",
@@ -129,7 +143,7 @@
     "subject": "The Duffers Retreat-PCA deep clean",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-07 20:36:53",
+    "due_date": "2026-09-30 20:36:00",
     "priority": 1
   },
   "8609": {
@@ -148,7 +162,7 @@
   },
   "8607": {
     "subject": "GBB office shelves",
-    "assigned_to": "c.nutt@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-04 16:15:49",
     "priority": 20
@@ -223,13 +237,6 @@
     "due_date": "2026-09-04 19:45:46",
     "priority": 10
   },
-  "8583": {
-    "subject": "Remove vacancy text",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-04 19:43:46",
-    "priority": 10
-  },
   "8580": {
     "subject": "Turtle House res#62055 change rate",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
@@ -260,7 +267,7 @@
   },
   "8575": {
     "subject": "The Duffers Retreat-PCA Deep clean",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-04 17:24:03",
     "priority": 1
@@ -475,6 +482,13 @@
     "due_date": "2026-09-04 18:34:00",
     "priority": 20
   },
+  "8474": {
+    "subject": "Unit: Dreams Of Paradise | Guest Name: Profitt Danielle | Guest Compensation / Pest & Maintenance Escalation",
+    "assigned_to": "b.williams@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-01 09:30:00",
+    "priority": 20
+  },
   "8464": {
     "subject": "Precious Gem-PCA Deep clean",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
@@ -488,13 +502,6 @@
     "status": "Open",
     "due_date": "2026-09-04 15:54:00",
     "priority": 10
-  },
-  "8453": {
-    "subject": "2D3 - owner, new photos request",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-08 18:00:00",
-    "priority": 20
   },
   "8444": {
     "subject": "PCA for Par Then Bar Due Date: 12/20/2026",
@@ -535,15 +542,8 @@
     "subject": "Appeal Airbnb review - My Great Escape Res No. 54079 - Nicole Figueroa",
     "assigned_to": "l.winter@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-04 18:52:00",
+    "due_date": "2026-09-07 15:00:00",
     "priority": 5
-  },
-  "8413": {
-    "subject": "New Hire Platform Access - Matt Moritz",
-    "assigned_to": "t.frost@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-08-28 19:54:00",
-    "priority": 10
   },
   "8410": {
     "subject": "YCBR Photo shoot",
@@ -760,13 +760,6 @@
     "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-11 18:57:00",
-    "priority": 5
-  },
-  "7852": {
-    "subject": "Business Cards",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-04 16:00:00",
     "priority": 5
   },
   "7833": {
