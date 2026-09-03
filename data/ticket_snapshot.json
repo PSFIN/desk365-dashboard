@@ -1,4 +1,46 @@
 {
+  "8629": {
+    "subject": "Update website taglines",
+    "assigned_to": "e.buchanan@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-08 17:48:38",
+    "priority": 5
+  },
+  "8628": {
+    "subject": "Update website team photos",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-08 17:39:34",
+    "priority": 10
+  },
+  "8626": {
+    "subject": "Sprinkler at 12 noon",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-08 16:17:58",
+    "priority": 1
+  },
+  "8625": {
+    "subject": "Amazon Package from unit G&BB - 1351 / Reservation #: 58830",
+    "assigned_to": "c.nutt@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-08 16:04:31",
+    "priority": 1
+  },
+  "8624": {
+    "subject": "Guest Name: Tresalus Jorwina |  Res #: 62207 | Unit: Southern Exposure | Stolen money",
+    "assigned_to": "l.susas@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-08 15:51:19",
+    "priority": 1
+  },
+  "8623": {
+    "subject": "Name: Cali Kathleen | Res: 58824 | Multiple issues",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-08 15:07:57",
+    "priority": 1
+  },
   "8622": {
     "subject": "Name: Dyer Justin | Res: 62240 | Credit to be charge to Colony Inn",
     "assigned_to": "a.ytac@choosegulfcoast.com",
@@ -57,14 +99,14 @@
   },
   "8614": {
     "subject": "Carr Debra/Awake Zone/ Res #: 61117/Door Code is not working",
-    "assigned_to": "a.maboloc@choosegulfcoast.com",
+    "assigned_to": "m.omasdang@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-07 22:00:00",
     "priority": 5
   },
   "8613": {
     "subject": "Jeffrey Mcdonalds/Realtor/Palm Meadow/ Approval Request \u2013 Temporary Dog Fence",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-07 22:00:00",
     "priority": 1
@@ -125,6 +167,13 @@
     "due_date": "2026-09-07 19:55:41",
     "priority": 1
   },
+  "8603": {
+    "subject": "Southern Exposure-Door",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-08 14:01:40",
+    "priority": 1
+  },
   "8602": {
     "subject": "Rental License Renewal Documents Needed \u2013 5D1",
     "assigned_to": "l.brigida@choosegulfcoast.com",
@@ -146,13 +195,6 @@
     "due_date": "2026-09-07 18:35:17",
     "priority": 1
   },
-  "8598": {
-    "subject": "Outstanding Work Order, Invoice or Pending Charges - Endless View | 17626 Gawthrop Drive",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-07 18:06:52",
-    "priority": 1
-  },
   "8597": {
     "subject": "Update Photos GBB1328",
     "assigned_to": "b.meyer@choosegulfcoast.com",
@@ -165,13 +207,6 @@
     "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-07 16:26:37",
-    "priority": 1
-  },
-  "8595": {
-    "subject": "Tresalus Jorwina | Southern Exposure | Res #: 62207 | Post Arrival Call",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-03 15:11:00",
     "priority": 1
   },
   "8586": {
@@ -213,7 +248,7 @@
     "subject": "Effect request for removal of BDC review:  Res. No. 60142 - Danielle Proffitt - Dreams of Paradise.",
     "assigned_to": "l.winter@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-04 18:18:14",
+    "due_date": "2026-09-07 15:00:00",
     "priority": 5
   },
   "8576": {
@@ -269,7 +304,7 @@
     "subject": "dog toy pricing for signal",
     "assigned_to": "e.buchanan@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-04 16:09:13",
+    "due_date": "2026-09-09 16:09:00",
     "priority": 5
   },
   "8562": {
@@ -304,14 +339,7 @@
     "subject": "DR-11 Form : Putt in Paradise -19116 SCALLOP LOOP, #202",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-03 22:00:00",
-    "priority": 10
-  },
-  "8549": {
-    "subject": "DR-1C Form : Putt in Paradise - 19116 SCALLOP LOOP, #202",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-03 22:00:00",
+    "due_date": "2026-09-08 16:00:00",
     "priority": 10
   },
   "8547": {
@@ -325,14 +353,7 @@
     "subject": "DR-11 Form : Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-03 20:27:00",
-    "priority": 10
-  },
-  "8544": {
-    "subject": "DR-1C Form : Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-03 20:21:52",
+    "due_date": "2026-09-08 16:00:00",
     "priority": 10
   },
   "8543": {
@@ -351,7 +372,7 @@
   },
   "8541": {
     "subject": "Res #: 52252 | Pritchett Darin | Day Dreamer | Communal Pool Out of Service",
-    "assigned_to": "m.eronico@choosegulfcoast.com",
+    "assigned_to": "b.williams@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-03 18:40:05",
     "priority": 1
@@ -367,14 +388,14 @@
     "subject": "Beach Heron - Update photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-04 16:06:00",
+    "due_date": "2026-09-07 16:06:00",
     "priority": 1
   },
   "8534": {
     "subject": "GBB1338 - New Photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-04 16:05:00",
+    "due_date": "2026-09-07 16:05:00",
     "priority": 1
   },
   "8533": {
@@ -383,13 +404,6 @@
     "status": "Open",
     "due_date": "2026-09-03 15:56:40",
     "priority": 10
-  },
-  "8532": {
-    "subject": "Sweet pineapple-fire extinguisher",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-03 15:52:54",
-    "priority": 1
   },
   "8530": {
     "subject": "Snow on the beach - inspection",
@@ -400,7 +414,7 @@
   },
   "8524": {
     "subject": "Shaw Debbie | Res #: 61513 | $100  coupon",
-    "assigned_to": "m.eronico@choosegulfcoast.com",
+    "assigned_to": "l.susas@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-02 22:00:00",
     "priority": 1
@@ -435,7 +449,7 @@
   },
   "8513": {
     "subject": "Altschuler Max/ A Shore Thing/Res #: 58976/Waterfall pool feature",
-    "assigned_to": "m.eronico@choosegulfcoast.com",
+    "assigned_to": "m.omasdang@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-02 22:00:00",
     "priority": 1
@@ -446,13 +460,6 @@
     "status": "Open",
     "due_date": "2026-09-21 22:00:00",
     "priority": 10
-  },
-  "8504": {
-    "subject": "Bihday Deborah/Paraclete Paradise/Res #: 58054/ Pool Vendor \u2013 Return Visit Required",
-    "assigned_to": "a.maboloc@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-01 22:00:00",
-    "priority": 1
   },
   "8499": {
     "subject": "Cedar Hammock Fire District Inspection - Multiple Units",
@@ -467,13 +474,6 @@
     "status": "Open",
     "due_date": "2026-09-04 18:34:00",
     "priority": 20
-  },
-  "8465": {
-    "subject": "Sunset Splash-lynx and pool serice",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-04 20:12:00",
-    "priority": 5
   },
   "8464": {
     "subject": "Precious Gem-PCA Deep clean",
@@ -556,14 +556,14 @@
     "subject": "DR-11 Form : Sun Seeker - 5544 Summit Pointe Cir",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-03 16:00:00",
+    "due_date": "2026-09-08 16:00:00",
     "priority": 10
   },
   "8372": {
     "subject": "DR-11 Forms : Multiple Property Units",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-03 16:00:00",
+    "due_date": "2026-09-08 16:00:00",
     "priority": 10
   },
   "8367": {
@@ -572,13 +572,6 @@
     "status": "Open",
     "due_date": "2026-09-15 14:27:00",
     "priority": 10
-  },
-  "8366": {
-    "subject": "Name: Pedersoli Caleb | Res: 51666 |  Cancelled 50% Retained - OTA",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-03 21:00:00",
-    "priority": 1
   },
   "8365": {
     "subject": "The Heartherwood Haven-deep clean PCA",
@@ -670,13 +663,6 @@
     "status": "Open",
     "due_date": "2026-08-28 14:40:00",
     "priority": 10
-  },
-  "8282": {
-    "subject": "Res. No. 38642- Amy Phuprasert  - property name - Gulf & Bay 1272:     Issue: 1 of 3:  Dirty Towel",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-03 19:16:00",
-    "priority": 5
   },
   "8255": {
     "subject": "Name: Hansen Heather | Res: 59828 | Property: Colony Inn - 50 | Cancelled 50% Retained - OTA",

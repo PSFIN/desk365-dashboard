@@ -1,5 +1,234 @@
 [
   {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8629,
+    "subject": "Update website taglines",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.buchanan@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8628,
+    "subject": "Update website team photos",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8626,
+    "subject": "Sprinkler at 12 noon",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8625,
+    "subject": "Amazon Package from unit G&BB - 1351 / Reservation #: 58830",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.nutt@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8624,
+    "subject": "Guest Name: Tresalus Jorwina |  Res #: 62207 | Unit: Southern Exposure | Stolen money",
+    "type": "created",
+    "detail": "Created \u2014 assigned to l.susas@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8623,
+    "subject": "Name: Cali Kathleen | Res: 58824 | Multiple issues",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8614,
+    "subject": "Carr Debra/Awake Zone/ Res #: 61117/Door Code is not working",
+    "type": "reassigned",
+    "detail": "Reassigned from a.maboloc@choosegulfcoast.com to m.omasdang@choosegulfcoast.com",
+    "from": "a.maboloc@choosegulfcoast.com",
+    "to": "m.omasdang@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8613,
+    "subject": "Jeffrey Mcdonalds/Realtor/Palm Meadow/ Approval Request \u2013 Temporary Dog Fence",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to h.nomura@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "h.nomura@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8603,
+    "subject": "Southern Exposure-Door",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8577,
+    "subject": "Effect request for removal of BDC review:  Res. No. 60142 - Danielle Proffitt - Dreams of Paradise.",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-04 18:18:14 to 2026-09-07 15:00:00",
+    "from": "2026-09-04 18:18:14",
+    "to": "2026-09-07 15:00:00"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8563,
+    "subject": "dog toy pricing for signal",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-04 16:09:13 to 2026-09-09 16:09:00",
+    "from": "2026-09-04 16:09:13",
+    "to": "2026-09-09 16:09:00"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8550,
+    "subject": "DR-11 Form : Putt in Paradise -19116 SCALLOP LOOP, #202",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-03 22:00:00 to 2026-09-08 16:00:00",
+    "from": "2026-09-03 22:00:00",
+    "to": "2026-09-08 16:00:00"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8545,
+    "subject": "DR-11 Form : Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-03 20:27:00 to 2026-09-08 16:00:00",
+    "from": "2026-09-03 20:27:00",
+    "to": "2026-09-08 16:00:00"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8541,
+    "subject": "Res #: 52252 | Pritchett Darin | Day Dreamer | Communal Pool Out of Service",
+    "type": "reassigned",
+    "detail": "Reassigned from m.eronico@choosegulfcoast.com to b.williams@choosegulfcoast.com",
+    "from": "m.eronico@choosegulfcoast.com",
+    "to": "b.williams@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8535,
+    "subject": "Beach Heron - Update photos",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-04 16:06:00 to 2026-09-07 16:06:00",
+    "from": "2026-09-04 16:06:00",
+    "to": "2026-09-07 16:06:00"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8534,
+    "subject": "GBB1338 - New Photos",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-04 16:05:00 to 2026-09-07 16:05:00",
+    "from": "2026-09-04 16:05:00",
+    "to": "2026-09-07 16:05:00"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8524,
+    "subject": "Shaw Debbie | Res #: 61513 | $100  coupon",
+    "type": "reassigned",
+    "detail": "Reassigned from m.eronico@choosegulfcoast.com to l.susas@choosegulfcoast.com",
+    "from": "m.eronico@choosegulfcoast.com",
+    "to": "l.susas@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8513,
+    "subject": "Altschuler Max/ A Shore Thing/Res #: 58976/Waterfall pool feature",
+    "type": "reassigned",
+    "detail": "Reassigned from m.eronico@choosegulfcoast.com to m.omasdang@choosegulfcoast.com",
+    "from": "m.eronico@choosegulfcoast.com",
+    "to": "m.omasdang@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8384,
+    "subject": "DR-11 Form : Sun Seeker - 5544 Summit Pointe Cir",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-03 16:00:00 to 2026-09-08 16:00:00",
+    "from": "2026-09-03 16:00:00",
+    "to": "2026-09-08 16:00:00"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8372,
+    "subject": "DR-11 Forms : Multiple Property Units",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-03 16:00:00 to 2026-09-08 16:00:00",
+    "from": "2026-09-03 16:00:00",
+    "to": "2026-09-08 16:00:00"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8598,
+    "subject": "Outstanding Work Order, Invoice or Pending Charges - Endless View | 17626 Gawthrop Drive",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8595,
+    "subject": "Tresalus Jorwina | Southern Exposure | Res #: 62207 | Post Arrival Call",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8549,
+    "subject": "DR-1C Form : Putt in Paradise - 19116 SCALLOP LOOP, #202",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8544,
+    "subject": "DR-1C Form : Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8532,
+    "subject": "Sweet pineapple-fire extinguisher",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8504,
+    "subject": "Bihday Deborah/Paraclete Paradise/Res #: 58054/ Pool Vendor \u2013 Return Visit Required",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8465,
+    "subject": "Sunset Splash-lynx and pool serice",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8366,
+    "subject": "Name: Pedersoli Caleb | Res: 51666 |  Cancelled 50% Retained - OTA",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-03T17:56:18+00:00",
+    "ticket_number": 8282,
+    "subject": "Res. No. 38642- Amy Phuprasert  - property name - Gulf & Bay 1272:     Issue: 1 of 3:  Dirty Towel",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-03T14:15:48+00:00",
     "ticket_number": 8622,
     "subject": "Name: Dyer Justin | Res: 62240 | Credit to be charge to Colony Inn",
