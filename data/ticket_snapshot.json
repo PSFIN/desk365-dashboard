@@ -318,7 +318,7 @@
     "subject": "Lynnbrook Chargeback | Res# 41378 | Hopper Kimberly | Unit: Sandalfoot 5B3 | CI: 09/24/2026 | CO: 10/04/2026",
     "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-02 16:14:00",
+    "due_date": "2026-09-03 16:14:00",
     "priority": 10
   },
   "8535": {
@@ -650,13 +650,6 @@
     "due_date": "2026-09-03 21:00:00",
     "priority": 1
   },
-  "8254": {
-    "subject": "#60212 C06 Commission Adjustment",
-    "assigned_to": "i.yates@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-08-14 20:50:00",
-    "priority": 20
-  },
   "8245": {
     "subject": "PCA for Tropical Gulf Retreat Due Date: 9/1/2026",
     "assigned_to": "t.healy@choosegulfcoast.com",
@@ -802,13 +795,6 @@
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-12-02 18:19:00",
-    "priority": 1
-  },
-  "7711": {
-    "subject": "Aging Summary GCM > VR",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-08-31 18:55:00",
     "priority": 1
   },
   "7617": {

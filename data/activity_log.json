@@ -1,5 +1,28 @@
 [
   {
+    "ts": "2026-09-03T09:59:12+00:00",
+    "ticket_number": 8536,
+    "subject": "Lynnbrook Chargeback | Res# 41378 | Hopper Kimberly | Unit: Sandalfoot 5B3 | CI: 09/24/2026 | CO: 10/04/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-02 16:14:00 to 2026-09-03 16:14:00",
+    "from": "2026-09-02 16:14:00",
+    "to": "2026-09-03 16:14:00"
+  },
+  {
+    "ts": "2026-09-03T09:59:12+00:00",
+    "ticket_number": 8254,
+    "subject": "#60212 C06 Commission Adjustment",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-03T09:59:12+00:00",
+    "ticket_number": 7711,
+    "subject": "Aging Summary GCM > VR",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-03T05:23:40+00:00",
     "ticket_number": 8614,
     "subject": "Carr Debra/Awake Zone/ Res #: 61117/Door Code is not working",
