@@ -1,7 +1,21 @@
 {
+  "8634": {
+    "subject": "Property Management Inquiry",
+    "assigned_to": "b.vandroff@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-08 21:07:32",
+    "priority": 1
+  },
+  "8633": {
+    "subject": "Southern Comfort- owner block",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-08 20:39:30",
+    "priority": 1
+  },
   "8632": {
     "subject": "Res. No. 44009 - Kathleen Donnelly - Oakwater Escape  - star rating: 3",
-    "assigned_to": "b.williams@choosegulfcoast.com",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-08 20:09:36",
     "priority": 5
@@ -79,13 +93,6 @@
   "8620": {
     "subject": "PCA - La Vida Loca",
     "assigned_to": "s.paulin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-07 22:00:00",
-    "priority": 1
-  },
-  "8619": {
-    "subject": "PCA - Florida Sanctuary",
-    "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-07 22:00:00",
     "priority": 1
@@ -332,28 +339,14 @@
     "subject": "Name: Rick Rath | Res: 60890 | Cancelled 50% Retained - OTA",
     "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-04 14:34:09",
+    "due_date": "2026-10-01 14:34:00",
     "priority": 1
-  },
-  "8551": {
-    "subject": "Add Property to Manatee Tourist Development Tax Umbrella : Putt in Paradise - 19116 SCALLOP LOOP, #202",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-03 22:00:00",
-    "priority": 10
   },
   "8550": {
     "subject": "DR-11 Form : Putt in Paradise -19116 SCALLOP LOOP, #202",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-08 16:00:00",
-    "priority": 10
-  },
-  "8547": {
-    "subject": "Add Property to Manatee Tourist Development Tax Umbrella - Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-03 20:50:37",
     "priority": 10
   },
   "8545": {
@@ -374,12 +367,12 @@
     "subject": "Fireside cottage-ARDI comforter",
     "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-03 19:28:18",
+    "due_date": "2026-09-11 19:28:00",
     "priority": 1
   },
   "8541": {
     "subject": "Res #: 52252 | Pritchett Darin | Day Dreamer | Communal Pool Out of Service",
-    "assigned_to": "b.williams@choosegulfcoast.com",
+    "assigned_to": "m.eronico@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-03 18:40:05",
     "priority": 1
@@ -388,7 +381,7 @@
     "subject": "Lynnbrook Chargeback | Res# 41378 | Hopper Kimberly | Unit: Sandalfoot 5B3 | CI: 09/24/2026 | CO: 10/04/2026",
     "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-03 16:14:00",
+    "due_date": "2026-09-11 16:14:00",
     "priority": 10
   },
   "8535": {
@@ -409,21 +402,14 @@
     "subject": "Sweet Pineapple-Comp 75",
     "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-03 15:56:40",
+    "due_date": "2026-09-11 15:56:00",
     "priority": 10
   },
   "8530": {
     "subject": "Snow on the beach - inspection",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-04 14:54:00",
-    "priority": 1
-  },
-  "8524": {
-    "subject": "Shaw Debbie | Res #: 61513 | $100  coupon",
-    "assigned_to": "l.susas@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-02 22:00:00",
     "priority": 1
   },
   "8523": {
@@ -437,7 +423,7 @@
     "subject": "Unit: Golden Beach #1 | Guest Name: Korpinen Terry | Pest Control & Safety Hazard (Ant Infestation)",
     "assigned_to": "j.banks@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-02 22:00:00",
+    "due_date": "2026-09-03 22:00:00",
     "priority": 1
   },
   "8516": {
@@ -484,7 +470,7 @@
   },
   "8474": {
     "subject": "Unit: Dreams Of Paradise | Guest Name: Profitt Danielle | Guest Compensation / Pest & Maintenance Escalation",
-    "assigned_to": "b.williams@choosegulfcoast.com",
+    "assigned_to": "l.winter@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-01 09:30:00",
     "priority": 20
@@ -757,7 +743,7 @@
   },
   "7949": {
     "subject": "PCA for Dreams Of Paradise Due Date: 8/26/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-11 18:57:00",
     "priority": 5
@@ -822,7 +808,7 @@
     "subject": "PCA for Longboat Oasis Due Date: 8/4/2026",
     "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-02 22:00:00",
+    "due_date": "2026-09-11 22:00:00",
     "priority": 5
   },
   "7425": {
@@ -918,7 +904,7 @@
   },
   "7015": {
     "subject": "PCA for Array Of Sunshine Due Date: July 8, 2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-08 22:00:00",
     "priority": 5

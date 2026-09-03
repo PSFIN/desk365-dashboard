@@ -1,5 +1,155 @@
 [
   {
+    "ts": "2026-09-03T22:42:30+00:00",
+    "ticket_number": 8634,
+    "subject": "Property Management Inquiry",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.vandroff@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-03T22:42:30+00:00",
+    "ticket_number": 8633,
+    "subject": "Southern Comfort- owner block",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-03T22:42:30+00:00",
+    "ticket_number": 8632,
+    "subject": "Res. No. 44009 - Kathleen Donnelly - Oakwater Escape  - star rating: 3",
+    "type": "reassigned",
+    "detail": "Reassigned from b.williams@choosegulfcoast.com to c.hernandez@choosegulfcoast.com",
+    "from": "b.williams@choosegulfcoast.com",
+    "to": "c.hernandez@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-03T22:42:30+00:00",
+    "ticket_number": 8557,
+    "subject": "Name: Rick Rath | Res: 60890 | Cancelled 50% Retained - OTA",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-04 14:34:09 to 2026-10-01 14:34:00",
+    "from": "2026-09-04 14:34:09",
+    "to": "2026-10-01 14:34:00"
+  },
+  {
+    "ts": "2026-09-03T22:42:30+00:00",
+    "ticket_number": 8542,
+    "subject": "Fireside cottage-ARDI comforter",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-03 19:28:18 to 2026-09-11 19:28:00",
+    "from": "2026-09-03 19:28:18",
+    "to": "2026-09-11 19:28:00"
+  },
+  {
+    "ts": "2026-09-03T22:42:30+00:00",
+    "ticket_number": 8541,
+    "subject": "Res #: 52252 | Pritchett Darin | Day Dreamer | Communal Pool Out of Service",
+    "type": "reassigned",
+    "detail": "Reassigned from b.williams@choosegulfcoast.com to m.eronico@choosegulfcoast.com",
+    "from": "b.williams@choosegulfcoast.com",
+    "to": "m.eronico@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-03T22:42:30+00:00",
+    "ticket_number": 8536,
+    "subject": "Lynnbrook Chargeback | Res# 41378 | Hopper Kimberly | Unit: Sandalfoot 5B3 | CI: 09/24/2026 | CO: 10/04/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-03 16:14:00 to 2026-09-11 16:14:00",
+    "from": "2026-09-03 16:14:00",
+    "to": "2026-09-11 16:14:00"
+  },
+  {
+    "ts": "2026-09-03T22:42:30+00:00",
+    "ticket_number": 8533,
+    "subject": "Sweet Pineapple-Comp 75",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-03 15:56:40 to 2026-09-11 15:56:00",
+    "from": "2026-09-03 15:56:40",
+    "to": "2026-09-11 15:56:00"
+  },
+  {
+    "ts": "2026-09-03T22:42:30+00:00",
+    "ticket_number": 8530,
+    "subject": "Snow on the beach - inspection",
+    "type": "reassigned",
+    "detail": "Reassigned from j.rushton@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
+    "from": "j.rushton@choosegulfcoast.com",
+    "to": "s.soriafrausto@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-03T22:42:30+00:00",
+    "ticket_number": 8517,
+    "subject": "Unit: Golden Beach #1 | Guest Name: Korpinen Terry | Pest Control & Safety Hazard (Ant Infestation)",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-02 22:00:00 to 2026-09-03 22:00:00",
+    "from": "2026-09-02 22:00:00",
+    "to": "2026-09-03 22:00:00"
+  },
+  {
+    "ts": "2026-09-03T22:42:30+00:00",
+    "ticket_number": 8474,
+    "subject": "Unit: Dreams Of Paradise | Guest Name: Profitt Danielle | Guest Compensation / Pest & Maintenance Escalation",
+    "type": "reassigned",
+    "detail": "Reassigned from b.williams@choosegulfcoast.com to l.winter@choosegulfcoast.com",
+    "from": "b.williams@choosegulfcoast.com",
+    "to": "l.winter@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-03T22:42:30+00:00",
+    "ticket_number": 7949,
+    "subject": "PCA for Dreams Of Paradise Due Date: 8/26/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from t.healy@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
+    "from": "t.healy@choosegulfcoast.com",
+    "to": "c.thayer@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-03T22:42:30+00:00",
+    "ticket_number": 7598,
+    "subject": "PCA for Longboat Oasis Due Date: 8/4/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-02 22:00:00 to 2026-09-11 22:00:00",
+    "from": "2026-09-02 22:00:00",
+    "to": "2026-09-11 22:00:00"
+  },
+  {
+    "ts": "2026-09-03T22:42:30+00:00",
+    "ticket_number": 7015,
+    "subject": "PCA for Array Of Sunshine Due Date: July 8, 2026",
+    "type": "reassigned",
+    "detail": "Reassigned from t.healy@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
+    "from": "t.healy@choosegulfcoast.com",
+    "to": "c.thayer@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-03T22:42:30+00:00",
+    "ticket_number": 8619,
+    "subject": "PCA - Florida Sanctuary",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-03T22:42:30+00:00",
+    "ticket_number": 8551,
+    "subject": "Add Property to Manatee Tourist Development Tax Umbrella : Putt in Paradise - 19116 SCALLOP LOOP, #202",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-03T22:42:30+00:00",
+    "ticket_number": 8547,
+    "subject": "Add Property to Manatee Tourist Development Tax Umbrella - Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-03T22:42:30+00:00",
+    "ticket_number": 8524,
+    "subject": "Shaw Debbie | Res #: 61513 | $100  coupon",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-03T20:26:17+00:00",
     "ticket_number": 8632,
     "subject": "Res. No. 44009 - Kathleen Donnelly - Oakwater Escape  - star rating: 3",
