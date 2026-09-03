@@ -1,5 +1,21 @@
 [
   {
+    "ts": "2026-09-03T05:23:40+00:00",
+    "ticket_number": 8614,
+    "subject": "Carr Debra/Awake Zone/ Res #: 61117/Door Code is not working",
+    "type": "created",
+    "detail": "Created \u2014 assigned to a.maboloc@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-03T05:23:40+00:00",
+    "ticket_number": 8608,
+    "subject": "Wolk Kimberly | Ocean Eyes |  Res #: 58831 | AC error",
+    "type": "reassigned",
+    "detail": "Reassigned from m.eronico@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "m.eronico@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
     "ts": "2026-09-03T00:53:42+00:00",
     "ticket_number": 8613,
     "subject": "Jeffrey Mcdonals/Realtor/Palm Meadow/ Approval Request \u2013 Temporary Dog Fence",
