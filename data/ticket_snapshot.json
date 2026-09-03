@@ -1,4 +1,60 @@
 {
+  "8622": {
+    "subject": "Name: Dyer Justin | Res: 62240 | Credit to be charge to Colony Inn",
+    "assigned_to": "a.ytac@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-07 22:00:00",
+    "priority": 1
+  },
+  "8621": {
+    "subject": "PCA - Sunny Retreat",
+    "assigned_to": "t.healy@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-07 22:00:00",
+    "priority": 1
+  },
+  "8620": {
+    "subject": "PCA - La Vida Loca",
+    "assigned_to": "t.healy@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-07 22:00:00",
+    "priority": 1
+  },
+  "8619": {
+    "subject": "PCA - Florida Sanctuary",
+    "assigned_to": "t.healy@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-07 22:00:00",
+    "priority": 1
+  },
+  "8618": {
+    "subject": "PCA - Fishtail",
+    "assigned_to": "t.healy@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-07 22:00:00",
+    "priority": 1
+  },
+  "8617": {
+    "subject": "PCA - Avalon (Vacant)",
+    "assigned_to": "t.healy@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-07 22:00:00",
+    "priority": 1
+  },
+  "8616": {
+    "subject": "Montalvan Amalia | Residences of Siesta Key | Res #: 53800 | Master Bathroom Sink Clogged and more soap",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-07 22:00:00",
+    "priority": 1
+  },
+  "8615": {
+    "subject": "Padilla Marie | Blue Dolphin | Res #: 60080 | ECI for tomorrow",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-07 22:00:00",
+    "priority": 5
+  },
   "8614": {
     "subject": "Carr Debra/Awake Zone/ Res #: 61117/Door Code is not working",
     "assigned_to": "a.maboloc@choosegulfcoast.com",
@@ -15,7 +71,7 @@
   },
   "8612": {
     "subject": "Cristobal Ricardo/Sunnyside Up/Res #: 49339/Mailbox access",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "m.omasdang@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-07 22:00:00",
     "priority": 1
@@ -67,13 +123,6 @@
     "assigned_to": "n.armstrong@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-07 19:55:41",
-    "priority": 1
-  },
-  "8603": {
-    "subject": "Southern Exposure-Door",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-07 19:14:35",
     "priority": 1
   },
   "8602": {
@@ -162,7 +211,7 @@
   },
   "8577": {
     "subject": "Effect request for removal of BDC review:  Res. No. 60142 - Danielle Proffitt - Dreams of Paradise.",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "l.winter@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-04 18:18:14",
     "priority": 5
@@ -176,7 +225,7 @@
   },
   "8575": {
     "subject": "The Duffers Retreat-PCA Deep clean",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-04 17:24:03",
     "priority": 1
@@ -197,7 +246,7 @@
   },
   "8568": {
     "subject": "Admirals Watch required PCA deep celan",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-04 16:26:52",
     "priority": 1
@@ -307,13 +356,6 @@
     "due_date": "2026-09-03 18:40:05",
     "priority": 1
   },
-  "8540": {
-    "subject": "Sandalfoot Unit 1A2 Listing Desciption",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-03 17:39:23",
-    "priority": 10
-  },
   "8536": {
     "subject": "Lynnbrook Chargeback | Res# 41378 | Hopper Kimberly | Unit: Sandalfoot 5B3 | CI: 09/24/2026 | CO: 10/04/2026",
     "assigned_to": "e.morales@choosegulfcoast.com",
@@ -348,13 +390,6 @@
     "status": "Open",
     "due_date": "2026-09-03 15:52:54",
     "priority": 1
-  },
-  "8531": {
-    "subject": "Department of Business and Professional Regulation (DBPR) License Review",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-03 15:20:46",
-    "priority": 10
   },
   "8530": {
     "subject": "Snow on the beach - inspection",
@@ -414,7 +449,7 @@
   },
   "8504": {
     "subject": "Bihday Deborah/Paraclete Paradise/Res #: 58054/ Pool Vendor \u2013 Return Visit Required",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "a.maboloc@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-01 22:00:00",
     "priority": 1
@@ -435,7 +470,7 @@
   },
   "8465": {
     "subject": "Sunset Splash-lynx and pool serice",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-04 20:12:00",
     "priority": 5
@@ -678,13 +713,6 @@
     "due_date": "2026-09-12 14:46:00",
     "priority": 5
   },
-  "8178": {
-    "subject": "PCA for Lake Daze Due Date: 9/8/2026",
-    "assigned_to": "m.johnston@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-05 14:45:00",
-    "priority": 5
-  },
   "8177": {
     "subject": "PCA for The Beach Fact Oar Due Date: 9/7/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
@@ -796,13 +824,6 @@
     "status": "Open",
     "due_date": "2026-12-02 18:19:00",
     "priority": 1
-  },
-  "7617": {
-    "subject": "Res. No. 54356 - Guest:  Rhonda Carr - Golden Beach Haven - star rating:  1     Issue:  property needs an update",
-    "assigned_to": "t.healy@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-08 16:04:00",
-    "priority": 5
   },
   "7603": {
     "subject": "PCA for A Shore Thing Due Date: 8/7/2026",
