@@ -1,10 +1,52 @@
 {
-  "8645": {
-    "subject": "Guest Name: Monson Nicole | Res #: 55719 | Unit: Admirals Watch | Cancellation request",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
+  "8655": {
+    "subject": "Sandalfoot Unit 5D2 / Offboarding owner balance",
+    "assigned_to": "a.ytac@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-09 15:12:35",
+    "due_date": "2026-09-09 19:38:51",
+    "priority": 10
+  },
+  "8654": {
+    "subject": "GBB1335 Statement Correction",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-09 19:32:16",
     "priority": 1
+  },
+  "8653": {
+    "subject": "GBB1315 Statement Correction",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-09 19:27:16",
+    "priority": 1
+  },
+  "8652": {
+    "subject": "GBB1241 Statement Correction",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-09 19:17:05",
+    "priority": 1
+  },
+  "8651": {
+    "subject": "GBB1241 ARDI",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-09 19:16:10",
+    "priority": 1
+  },
+  "8650": {
+    "subject": "GBB1206 Statement Correction",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-09 18:58:54",
+    "priority": 1
+  },
+  "8647": {
+    "subject": "Take down unit from rental pool",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-09 17:35:28",
+    "priority": 10
   },
   "8644": {
     "subject": "City of Sanibel Rental Use Regulations",
@@ -61,20 +103,6 @@
     "status": "Open",
     "due_date": "2026-09-08 20:09:36",
     "priority": 5
-  },
-  "8631": {
-    "subject": "Owner Statement - Kreter - C41",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-08 20:06:04",
-    "priority": 5
-  },
-  "8630": {
-    "subject": "La Vida Loca-rates",
-    "assigned_to": "a.guarin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-08 18:10:34",
-    "priority": 1
   },
   "8629": {
     "subject": "Update website taglines",
@@ -328,13 +356,6 @@
     "due_date": "2026-09-03 18:40:05",
     "priority": 1
   },
-  "8536": {
-    "subject": "Lynnbrook Chargeback | Res# 41378 | Hopper Kimberly | Unit: Sandalfoot 5B3 | CI: 09/24/2026 | CO: 10/04/2026",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-11 16:14:00",
-    "priority": 10
-  },
   "8535": {
     "subject": "Beach Heron - Update photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
@@ -351,7 +372,7 @@
   },
   "8530": {
     "subject": "Snow on the beach - inspection",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-04 14:54:00",
     "priority": 1
@@ -409,12 +430,12 @@
     "subject": "Unit: Dreams Of Paradise | Guest Name: Profitt Danielle | Guest Compensation / Pest & Maintenance Escalation",
     "assigned_to": "l.winter@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-01 09:30:00",
+    "due_date": "2026-09-07 09:30:00",
     "priority": 20
   },
   "8464": {
     "subject": "Precious Gem-PCA Deep clean",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-08-29 19:06:00",
     "priority": 10
@@ -559,26 +580,12 @@
     "due_date": "2026-09-12 20:16:00",
     "priority": 5
   },
-  "8310": {
-    "subject": "Sandalfoot Tent Card",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-04 18:13:00",
-    "priority": 10
-  },
   "8307": {
     "subject": "Leonard Robert | Unit: Links & Leisure | Res #: 52169 | Washer doesn't work",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-08-28 14:40:00",
     "priority": 10
-  },
-  "8255": {
-    "subject": "Name: Hansen Heather | Res: 59828 | Property: Colony Inn - 50 | Cancelled 50% Retained - OTA",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-03 21:00:00",
-    "priority": 1
   },
   "8245": {
     "subject": "PCA for Tropical Gulf Retreat Due Date: 9/1/2026",
@@ -715,7 +722,7 @@
   },
   "7599": {
     "subject": "PCA for Admirals Watch Due Date:  8/6/2026",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-11 22:00:00",
     "priority": 5

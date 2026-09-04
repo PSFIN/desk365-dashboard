@@ -1,5 +1,132 @@
 [
   {
+    "ts": "2026-09-04T19:45:06+00:00",
+    "ticket_number": 8655,
+    "subject": "Sandalfoot Unit 5D2 / Offboarding owner balance",
+    "type": "created",
+    "detail": "Created \u2014 assigned to a.ytac@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-04T19:45:06+00:00",
+    "ticket_number": 8654,
+    "subject": "GBB1335 Statement Correction",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-04T19:45:06+00:00",
+    "ticket_number": 8653,
+    "subject": "GBB1315 Statement Correction",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-04T19:45:06+00:00",
+    "ticket_number": 8652,
+    "subject": "GBB1241 Statement Correction",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-04T19:45:06+00:00",
+    "ticket_number": 8651,
+    "subject": "GBB1241 ARDI",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.thayer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-04T19:45:06+00:00",
+    "ticket_number": 8650,
+    "subject": "GBB1206 Statement Correction",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-04T19:45:06+00:00",
+    "ticket_number": 8647,
+    "subject": "Take down unit from rental pool",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.paulin@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-04T19:45:06+00:00",
+    "ticket_number": 8530,
+    "subject": "Snow on the beach - inspection",
+    "type": "reassigned",
+    "detail": "Reassigned from j.rushton@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
+    "from": "j.rushton@choosegulfcoast.com",
+    "to": "s.soriafrausto@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-04T19:45:06+00:00",
+    "ticket_number": 8474,
+    "subject": "Unit: Dreams Of Paradise | Guest Name: Profitt Danielle | Guest Compensation / Pest & Maintenance Escalation",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-01 09:30:00 to 2026-09-07 09:30:00",
+    "from": "2026-09-01 09:30:00",
+    "to": "2026-09-07 09:30:00"
+  },
+  {
+    "ts": "2026-09-04T19:45:06+00:00",
+    "ticket_number": 8464,
+    "subject": "Precious Gem-PCA Deep clean",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "s.soriafrausto@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-04T19:45:06+00:00",
+    "ticket_number": 7599,
+    "subject": "PCA for Admirals Watch Due Date:  8/6/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "s.soriafrausto@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-04T19:45:06+00:00",
+    "ticket_number": 8645,
+    "subject": "Guest Name: Monson Nicole | Res #: 55719 | Unit: Admirals Watch | Cancellation request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-04T19:45:06+00:00",
+    "ticket_number": 8631,
+    "subject": "Owner Statement - Kreter - C41",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-04T19:45:06+00:00",
+    "ticket_number": 8630,
+    "subject": "La Vida Loca-rates",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-04T19:45:06+00:00",
+    "ticket_number": 8536,
+    "subject": "Lynnbrook Chargeback | Res# 41378 | Hopper Kimberly | Unit: Sandalfoot 5B3 | CI: 09/24/2026 | CO: 10/04/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-04T19:45:06+00:00",
+    "ticket_number": 8310,
+    "subject": "Sandalfoot Tent Card",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-04T19:45:06+00:00",
+    "ticket_number": 8255,
+    "subject": "Name: Hansen Heather | Res: 59828 | Property: Colony Inn - 50 | Cancelled 50% Retained - OTA",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-04T17:18:38+00:00",
     "ticket_number": 8645,
     "subject": "Guest Name: Monson Nicole | Res #: 55719 | Unit: Admirals Watch | Cancellation request",
