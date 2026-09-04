@@ -1,5 +1,193 @@
 [
   {
+    "ts": "2026-09-04T13:54:17+00:00",
+    "ticket_number": 8641,
+    "subject": "Debbie Shaw | Bayside Paradise | Res #: 61941 | Pool Concern",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.williams@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-04T13:54:17+00:00",
+    "ticket_number": 8640,
+    "subject": "7th Heaven-on going services",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.thayer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-04T13:54:17+00:00",
+    "ticket_number": 8639,
+    "subject": "7th Heaven-bills",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-04T13:54:17+00:00",
+    "ticket_number": 8637,
+    "subject": "Res #: 40900|Unit: Blossom Retreat| Guest Name: Hamilton Thomas Tamara| Owner Booking | AC issue",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-04T13:54:17+00:00",
+    "ticket_number": 8617,
+    "subject": "PCA - Avalon (Vacant)",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-07 22:00:00 to 2026-09-26 22:00:00",
+    "from": "2026-09-07 22:00:00",
+    "to": "2026-09-26 22:00:00"
+  },
+  {
+    "ts": "2026-09-04T13:54:17+00:00",
+    "ticket_number": 8575,
+    "subject": "The Duffers Retreat-PCA Deep clean",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-04 17:24:03 to 2026-10-01 17:24:00",
+    "from": "2026-09-04 17:24:03",
+    "to": "2026-10-01 17:24:00"
+  },
+  {
+    "ts": "2026-09-04T13:54:17+00:00",
+    "ticket_number": 8568,
+    "subject": "Admirals Watch required PCA deep celan",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to z.adair@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "z.adair@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-04T13:54:17+00:00",
+    "ticket_number": 8530,
+    "subject": "Snow on the beach - inspection",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "j.rushton@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-04T13:54:17+00:00",
+    "ticket_number": 8464,
+    "subject": "Precious Gem-PCA Deep clean",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-04T13:54:17+00:00",
+    "ticket_number": 8329,
+    "subject": "PCA for Sunset On The Gulf Due Date: 9/12/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-05 22:00:00 to 2026-09-11 22:00:00",
+    "from": "2026-09-05 22:00:00",
+    "to": "2026-09-11 22:00:00"
+  },
+  {
+    "ts": "2026-09-04T13:54:17+00:00",
+    "ticket_number": 8312,
+    "subject": "PCA for Southern Exposure Due Date: 9/10/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from t.healy@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
+    "from": "t.healy@choosegulfcoast.com",
+    "to": "c.thayer@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-04T13:54:17+00:00",
+    "ticket_number": 8311,
+    "subject": "PCA for Sans Souci Due Date: 9/10/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-05 20:16:00 to 2026-09-12 20:16:00",
+    "from": "2026-09-05 20:16:00",
+    "to": "2026-09-12 20:16:00"
+  },
+  {
+    "ts": "2026-09-04T13:54:17+00:00",
+    "ticket_number": 8307,
+    "subject": "Leonard Robert | Unit: Links & Leisure | Res #: 52169 | Washer doesn't work",
+    "type": "reassigned",
+    "detail": "Reassigned from m.eronico@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
+    "from": "m.eronico@choosegulfcoast.com",
+    "to": "s.soriafrausto@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-04T13:54:17+00:00",
+    "ticket_number": 7599,
+    "subject": "PCA for Admirals Watch Due Date:  8/6/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-04T13:54:17+00:00",
+    "ticket_number": 8635,
+    "subject": "Res #: 40900 | Blossom Retreat | AC issue",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-04T13:54:17+00:00",
+    "ticket_number": 8633,
+    "subject": "Southern Comfort- owner block",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-04T13:54:17+00:00",
+    "ticket_number": 8624,
+    "subject": "Guest Name: Tresalus Jorwina |  Res #: 62207 | Unit: Southern Exposure | Stolen money",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-04T13:54:17+00:00",
+    "ticket_number": 8616,
+    "subject": "Montalvan Amalia | Residences of Siesta Key | Res #: 53800 | Master Bathroom Sink Clogged and more soap",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-04T13:54:17+00:00",
+    "ticket_number": 8614,
+    "subject": "Carr Debra/Awake Zone/ Res #: 61117/Door Code is not working",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-04T13:54:17+00:00",
+    "ticket_number": 8609,
+    "subject": "Swast Jessica/ Sandalfoot 1A2/Res #: 56450",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-04T13:54:17+00:00",
+    "ticket_number": 8606,
+    "subject": "Souther exposure-one time lynx code",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-04T13:54:17+00:00",
+    "ticket_number": 8603,
+    "subject": "Southern Exposure-Door",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-04T13:54:17+00:00",
+    "ticket_number": 8495,
+    "subject": "Post arrival call | Guest Name :Shaw Debbie | Res #: 61518 | Unit: Shaker Of Salt | Multiple Issues",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-04T13:54:17+00:00",
+    "ticket_number": 8361,
+    "subject": "Seabird Villa - Switching to annual",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-04T09:48:07+00:00",
     "ticket_number": 8618,
     "subject": "PCA - Fishtail",
