@@ -1,5 +1,21 @@
 [
   {
+    "ts": "2026-09-04T05:18:38+00:00",
+    "ticket_number": 8636,
+    "subject": "Res #: 59305| Unit: Sandalfoot 3C2| Guest Name: Patrice Schmidt | AC issue",
+    "type": "created",
+    "detail": "Created \u2014 assigned to k.garcia@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-04T05:18:38+00:00",
+    "ticket_number": 8541,
+    "subject": "Res #: 52252 | Pritchett Darin | Day Dreamer | Communal Pool Out of Service",
+    "type": "reassigned",
+    "detail": "Reassigned from m.eronico@choosegulfcoast.com to b.williams@choosegulfcoast.com",
+    "from": "m.eronico@choosegulfcoast.com",
+    "to": "b.williams@choosegulfcoast.com"
+  },
+  {
     "ts": "2026-09-04T00:35:53+00:00",
     "ticket_number": 8635,
     "subject": "Res #: 40900 | Blossom Retreat | AC issue",
