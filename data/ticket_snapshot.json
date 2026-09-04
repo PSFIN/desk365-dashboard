@@ -1,4 +1,11 @@
 {
+  "8635": {
+    "subject": "Res #: 40900 | Blossom Retreat | AC issue",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-08 22:00:00",
+    "priority": 1
+  },
   "8634": {
     "subject": "Property Management Inquiry",
     "assigned_to": "b.vandroff@choosegulfcoast.com",
@@ -299,13 +306,6 @@
     "status": "Open",
     "due_date": "2026-09-04 16:26:52",
     "priority": 1
-  },
-  "8567": {
-    "subject": "Rent rev",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-04 16:26:48",
-    "priority": 10
   },
   "8564": {
     "subject": "DR-1C Form : Splash Decision - 14881 Laguna Drive",
@@ -736,7 +736,7 @@
   },
   "7951": {
     "subject": "PCA for Villa In The Clouds Due Date: 8/31/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-12 19:00:00",
     "priority": 5

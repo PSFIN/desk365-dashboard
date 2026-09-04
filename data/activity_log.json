@@ -1,5 +1,28 @@
 [
   {
+    "ts": "2026-09-04T00:35:53+00:00",
+    "ticket_number": 8635,
+    "subject": "Res #: 40900 | Blossom Retreat | AC issue",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-04T00:35:53+00:00",
+    "ticket_number": 7951,
+    "subject": "PCA for Villa In The Clouds Due Date: 8/31/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from t.healy@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
+    "from": "t.healy@choosegulfcoast.com",
+    "to": "c.thayer@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-04T00:35:53+00:00",
+    "ticket_number": 8567,
+    "subject": "Rent rev",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-03T22:42:30+00:00",
     "ticket_number": 8634,
     "subject": "Property Management Inquiry",
