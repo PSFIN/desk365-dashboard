@@ -1,17 +1,31 @@
 {
+  "8645": {
+    "subject": "Guest Name: Monson Nicole | Res #: 55719 | Unit: Admirals Watch | Cancellation request",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-09 15:12:35",
+    "priority": 1
+  },
+  "8644": {
+    "subject": "City of Sanibel Rental Use Regulations",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-15 15:07:00",
+    "priority": 1
+  },
+  "8642": {
+    "subject": "#1206 AC 2nd floor leaking into ceiling",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-07 18:42:30",
+    "priority": 20
+  },
   "8641": {
     "subject": "Debbie Shaw | Bayside Paradise | Res #: 61941 | Pool Concern",
     "assigned_to": "b.williams@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-08 22:00:00",
     "priority": 1
-  },
-  "8640": {
-    "subject": "7th Heaven-on going services",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-08 22:00:00",
-    "priority": 10
   },
   "8639": {
     "subject": "7th Heaven-bills",
@@ -36,7 +50,7 @@
   },
   "8634": {
     "subject": "Property Management Inquiry",
-    "assigned_to": "b.vandroff@choosegulfcoast.com",
+    "assigned_to": "a.vetick@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-08 21:07:32",
     "priority": 1
@@ -132,13 +146,6 @@
     "due_date": "2026-09-26 22:00:00",
     "priority": 1
   },
-  "8613": {
-    "subject": "Jeffrey Mcdonalds/Realtor/Palm Meadow/ Approval Request \u2013 Temporary Dog Fence",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-07 22:00:00",
-    "priority": 1
-  },
   "8612": {
     "subject": "Cristobal Ricardo/Sunnyside Up/Res #: 49339/Mailbox access",
     "assigned_to": "m.omasdang@choosegulfcoast.com",
@@ -160,26 +167,12 @@
     "due_date": "2026-09-30 20:36:00",
     "priority": 1
   },
-  "8608": {
-    "subject": "Wolk Kimberly | Ocean Eyes |  Res #: 58831 | AC error",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-07 20:20:47",
-    "priority": 5
-  },
   "8607": {
     "subject": "GBB office shelves",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-04 16:15:49",
+    "due_date": "2026-09-08 16:15:00",
     "priority": 20
-  },
-  "8605": {
-    "subject": "John & Engrid Meng, Inc/Sandalfoot 5D1/OWNER/Email Update",
-    "assigned_to": "n.armstrong@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-07 19:55:41",
-    "priority": 1
   },
   "8602": {
     "subject": "Rental License Renewal Documents Needed \u2013 5D1",
@@ -195,13 +188,6 @@
     "due_date": "2026-09-16 18:40:00",
     "priority": 1
   },
-  "8600": {
-    "subject": "Little Bit of Heaven-rates",
-    "assigned_to": "a.guarin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-07 18:35:17",
-    "priority": 1
-  },
   "8597": {
     "subject": "Update Photos GBB1328",
     "assigned_to": "b.meyer@choosegulfcoast.com",
@@ -213,7 +199,7 @@
     "subject": "Snaplee Photo _ VM",
     "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-07 16:26:37",
+    "due_date": "2026-09-08 16:26:00",
     "priority": 1
   },
   "8586": {
@@ -241,7 +227,7 @@
     "subject": "rev rep",
     "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-04 19:09:12",
+    "due_date": "2026-09-04 21:00:00",
     "priority": 10
   },
   "8577": {
@@ -269,14 +255,7 @@
     "subject": "DR-11 Form :  Splash Decision - 14881 Laguna Drive",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-04 16:36:12",
-    "priority": 10
-  },
-  "8569": {
-    "subject": "Add Property to Lee Tourist Development Tax Umbrella : Splash Decision - 14881 Laguna Drive",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-04 16:33:11",
+    "due_date": "2026-09-09 16:00:00",
     "priority": 10
   },
   "8568": {
@@ -285,20 +264,6 @@
     "status": "Open",
     "due_date": "2026-09-04 16:26:52",
     "priority": 1
-  },
-  "8564": {
-    "subject": "DR-1C Form : Splash Decision - 14881 Laguna Drive",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-04 16:15:17",
-    "priority": 10
-  },
-  "8563": {
-    "subject": "dog toy pricing for signal",
-    "assigned_to": "e.buchanan@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-09 16:09:00",
-    "priority": 5
   },
   "8562": {
     "subject": "camera for signal from Red1",
@@ -333,6 +298,13 @@
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-08 16:00:00",
+    "priority": 10
+  },
+  "8544": {
+    "subject": "DR-1C Form : Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-04 20:23:51",
     "priority": 10
   },
   "8543": {
@@ -377,13 +349,6 @@
     "due_date": "2026-09-07 16:05:00",
     "priority": 1
   },
-  "8533": {
-    "subject": "Sweet Pineapple-Comp 75",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-11 15:56:00",
-    "priority": 10
-  },
   "8530": {
     "subject": "Snow on the beach - inspection",
     "assigned_to": "j.rushton@choosegulfcoast.com",
@@ -393,7 +358,7 @@
   },
   "8523": {
     "subject": "5B3 ARDI comforter cleaning",
-    "assigned_to": "n.armstrong@choosegulfcoast.com",
+    "assigned_to": "p.yelenich@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-02 22:00:00",
     "priority": 1
@@ -493,14 +458,7 @@
     "subject": "Microwave:Aloha House:WO #41938277",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-04 22:00:00",
-    "priority": 5
-  },
-  "8424": {
-    "subject": "Appeal Airbnb review - My Great Escape Res No. 54079 - Nicole Figueroa",
-    "assigned_to": "l.winter@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-07 15:00:00",
+    "due_date": "2026-09-05 22:00:00",
     "priority": 5
   },
   "8410": {
@@ -589,7 +547,7 @@
   },
   "8312": {
     "subject": "PCA for Southern Exposure Due Date: 9/10/2026",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-12 20:18:00",
     "priority": 5
@@ -635,13 +593,6 @@
     "status": "Open",
     "due_date": "2026-09-04 21:00:00",
     "priority": 10
-  },
-  "8181": {
-    "subject": "PCA for Sunny Retreat Due Date: 9/9/2026",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-10 14:48:00",
-    "priority": 5
   },
   "8179": {
     "subject": "PCA for Little Bit Of Heaven Due Date: 9/8/2026",
@@ -701,14 +652,14 @@
   },
   "7951": {
     "subject": "PCA for Villa In The Clouds Due Date: 8/31/2026",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-12 19:00:00",
     "priority": 5
   },
   "7949": {
     "subject": "PCA for Dreams Of Paradise Due Date: 8/26/2026",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-11 18:57:00",
     "priority": 5
@@ -869,7 +820,7 @@
   },
   "7015": {
     "subject": "PCA for Array Of Sunshine Due Date: July 8, 2026",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-08 22:00:00",
     "priority": 5
