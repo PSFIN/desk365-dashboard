@@ -1,10 +1,10 @@
 {
-  "8665": {
-    "subject": "Post Arrival - Carmona Newton - Unit Birdie - Res# 61948",
+  "8666": {
+    "subject": "HVAC Not Cooling \u2013 GBB 1260 \u2013 09/05 - Inspection",
     "assigned_to": "m.eronico@choosegulfcoast.com",
-    "status": "Pending",
+    "status": "Open",
     "due_date": "2026-09-09 22:00:00",
-    "priority": 5
+    "priority": 1
   },
   "8664": {
     "subject": "Guest Name: Wolk Kimberly | Res #: 58831 | Unit: Ocean Eyes | Requesting for assistance",
@@ -29,7 +29,7 @@
   },
   "8658": {
     "subject": "Unit: Breakers West B7 | Guest Name: Curran Gena | Musty Odor",
-    "assigned_to": "j.banks@choosegulfcoast.com",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-08 18:00:00",
     "priority": 20
@@ -46,13 +46,6 @@
     "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-09 20:13:47",
-    "priority": 1
-  },
-  "8654": {
-    "subject": "GBB1335 Statement Correction",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-09 19:32:16",
     "priority": 1
   },
   "8651": {
@@ -94,7 +87,7 @@
     "subject": "7th Heaven-bills",
     "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-08 22:00:00",
+    "due_date": "2026-09-17 22:00:00",
     "priority": 1
   },
   "8637": {
@@ -368,13 +361,6 @@
     "assigned_to": "n.armstrong@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-02 22:00:00",
-    "priority": 1
-  },
-  "8517": {
-    "subject": "Unit: Golden Beach #1 | Guest Name: Korpinen Terry | Pest Control & Safety Hazard (Ant Infestation)",
-    "assigned_to": "j.banks@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-03 22:00:00",
     "priority": 1
   },
   "8516": {

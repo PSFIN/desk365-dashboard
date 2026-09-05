@@ -1,5 +1,51 @@
 [
   {
+    "ts": "2026-09-05T18:42:44+00:00",
+    "ticket_number": 8666,
+    "subject": "HVAC Not Cooling \u2013 GBB 1260 \u2013 09/05 - Inspection",
+    "type": "created",
+    "detail": "Created \u2014 assigned to m.eronico@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-05T18:42:44+00:00",
+    "ticket_number": 8658,
+    "subject": "Unit: Breakers West B7 | Guest Name: Curran Gena | Musty Odor",
+    "type": "reassigned",
+    "detail": "Reassigned from j.banks@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
+    "from": "j.banks@choosegulfcoast.com",
+    "to": "s.soriafrausto@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-05T18:42:44+00:00",
+    "ticket_number": 8639,
+    "subject": "7th Heaven-bills",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-08 22:00:00 to 2026-09-17 22:00:00",
+    "from": "2026-09-08 22:00:00",
+    "to": "2026-09-17 22:00:00"
+  },
+  {
+    "ts": "2026-09-05T18:42:44+00:00",
+    "ticket_number": 8665,
+    "subject": "Post Arrival - Carmona Newton - Unit Birdie - Res# 61948",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Pending) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-05T18:42:44+00:00",
+    "ticket_number": 8654,
+    "subject": "GBB1335 Statement Correction",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-05T18:42:44+00:00",
+    "ticket_number": 8517,
+    "subject": "Unit: Golden Beach #1 | Guest Name: Korpinen Terry | Pest Control & Safety Hazard (Ant Infestation)",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-05T16:31:32+00:00",
     "ticket_number": 8665,
     "subject": "Post Arrival - Carmona Newton - Unit Birdie - Res# 61948",
