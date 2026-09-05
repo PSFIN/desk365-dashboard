@@ -1,7 +1,14 @@
 {
-  "8668": {
-    "subject": "Carr Debra | Res #: 61117 | Unit: Awake Zone | AC not working",
-    "assigned_to": "m.eronico@choosegulfcoast.com",
+  "8670": {
+    "subject": "Rodriguez Geraldine | Unit: Beach House Residences Unit 1 | Res #: 60982 | Parking and Pool Access Concern",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-09 22:00:00",
+    "priority": 1
+  },
+  "8669": {
+    "subject": "Bretherton Martin | Unit: Grand Getaway | Res #: 62468 | Cancellation Request",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-09 22:00:00",
     "priority": 1
