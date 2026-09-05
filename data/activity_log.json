@@ -1,5 +1,70 @@
 [
   {
+    "ts": "2026-09-05T16:31:32+00:00",
+    "ticket_number": 8665,
+    "subject": "Post Arrival - Carmona Newton - Unit Birdie - Res# 61948",
+    "type": "created",
+    "detail": "Created \u2014 assigned to m.eronico@choosegulfcoast.com, status Pending"
+  },
+  {
+    "ts": "2026-09-05T16:31:32+00:00",
+    "ticket_number": 8664,
+    "subject": "Guest Name: Wolk Kimberly | Res #: 58831 | Unit: Ocean Eyes | Requesting for assistance",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-05T16:31:32+00:00",
+    "ticket_number": 8663,
+    "subject": "SF beach equipment safety stock replenishment",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.thayer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-05T16:31:32+00:00",
+    "ticket_number": 8661,
+    "subject": "Post Arrival - Padilla Marie - Blue Dolphin - Res# 60080",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-05T16:31:32+00:00",
+    "ticket_number": 8612,
+    "subject": "Cristobal Ricardo/Sunnyside Up/Res #: 49339/Mailbox access",
+    "type": "reassigned",
+    "detail": "Reassigned from m.omasdang@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "m.omasdang@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-05T16:31:32+00:00",
+    "ticket_number": 8653,
+    "subject": "GBB1315 Statement Correction",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-05T16:31:32+00:00",
+    "ticket_number": 8652,
+    "subject": "GBB1241 Statement Correction",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-05T16:31:32+00:00",
+    "ticket_number": 8650,
+    "subject": "GBB1206 Statement Correction",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-05T16:31:32+00:00",
+    "ticket_number": 8625,
+    "subject": "Amazon Package from unit G&BB - 1351 / Reservation #: 58830",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-05T13:56:49+00:00",
     "ticket_number": 8523,
     "subject": "5B3 ARDI comforter cleaning",

@@ -1,4 +1,32 @@
 {
+  "8665": {
+    "subject": "Post Arrival - Carmona Newton - Unit Birdie - Res# 61948",
+    "assigned_to": "m.eronico@choosegulfcoast.com",
+    "status": "Pending",
+    "due_date": "2026-09-09 22:00:00",
+    "priority": 5
+  },
+  "8664": {
+    "subject": "Guest Name: Wolk Kimberly | Res #: 58831 | Unit: Ocean Eyes | Requesting for assistance",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-09 22:00:00",
+    "priority": 1
+  },
+  "8663": {
+    "subject": "SF beach equipment safety stock replenishment",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-09 22:00:00",
+    "priority": 1
+  },
+  "8661": {
+    "subject": "Post Arrival - Padilla Marie - Blue Dolphin - Res# 60080",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-09 22:00:00",
+    "priority": 1
+  },
   "8658": {
     "subject": "Unit: Breakers West B7 | Guest Name: Curran Gena | Musty Odor",
     "assigned_to": "j.banks@choosegulfcoast.com",
@@ -27,32 +55,11 @@
     "due_date": "2026-09-09 19:32:16",
     "priority": 1
   },
-  "8653": {
-    "subject": "GBB1315 Statement Correction",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-09 19:27:16",
-    "priority": 1
-  },
-  "8652": {
-    "subject": "GBB1241 Statement Correction",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-09 19:17:05",
-    "priority": 1
-  },
   "8651": {
     "subject": "GBB1241 ARDI",
     "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-09 19:16:10",
-    "priority": 1
-  },
-  "8650": {
-    "subject": "GBB1206 Statement Correction",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-09 18:58:54",
     "priority": 1
   },
   "8647": {
@@ -139,13 +146,6 @@
     "due_date": "2026-09-08 16:17:58",
     "priority": 1
   },
-  "8625": {
-    "subject": "Amazon Package from unit G&BB - 1351 / Reservation #: 58830",
-    "assigned_to": "c.nutt@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-08 16:04:31",
-    "priority": 1
-  },
   "8623": {
     "subject": "Name: Cali Kathleen | Res: 58824 | Multiple issues",
     "assigned_to": "n.ventura@choosegulfcoast.com",
@@ -183,7 +183,7 @@
   },
   "8612": {
     "subject": "Cristobal Ricardo/Sunnyside Up/Res #: 49339/Mailbox access",
-    "assigned_to": "m.omasdang@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-07 22:00:00",
     "priority": 1
