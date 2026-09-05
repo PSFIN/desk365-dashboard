@@ -1,5 +1,14 @@
 [
   {
+    "ts": "2026-09-05T13:56:49+00:00",
+    "ticket_number": 8523,
+    "subject": "5B3 ARDI comforter cleaning",
+    "type": "reassigned",
+    "detail": "Reassigned from p.yelenich@choosegulfcoast.com to n.armstrong@choosegulfcoast.com",
+    "from": "p.yelenich@choosegulfcoast.com",
+    "to": "n.armstrong@choosegulfcoast.com"
+  },
+  {
     "ts": "2026-09-05T07:01:37+00:00",
     "ticket_number": 8658,
     "subject": "Unit: Breakers West B7 | Guest Name: Curran Gena | Musty Odor",
