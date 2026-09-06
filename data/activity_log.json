@@ -1,5 +1,19 @@
 [
   {
+    "ts": "2026-09-06T00:27:24+00:00",
+    "ticket_number": 8673,
+    "subject": "No Hot Water | GBB 1240 | Res #: 55158 , Menard Chandra",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.nutt@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-06T00:27:24+00:00",
+    "ticket_number": 8672,
+    "subject": "Harrell Matthew | Unit: Sans Souci |  Res #: 62332 | AC is not working",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-09-05T22:32:49+00:00",
     "ticket_number": 8670,
     "subject": "Rodriguez Geraldine | Unit: Beach House Residences Unit 1 | Res #: 60982 | Parking and Pool Access Concern",
