@@ -1,5 +1,14 @@
 [
   {
+    "ts": "2026-09-06T13:00:25+00:00",
+    "ticket_number": 8672,
+    "subject": "Harrell Matthew | Unit: Sans Souci |  Res #: 62332 | AC is not working",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to m.eronico@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "m.eronico@choosegulfcoast.com"
+  },
+  {
     "ts": "2026-09-06T04:57:07+00:00",
     "ticket_number": 8675,
     "subject": "1200- shower/tub faucet control not coming out fully on HOT side",
