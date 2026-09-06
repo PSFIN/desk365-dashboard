@@ -1,11 +1,4 @@
 {
-  "8679": {
-    "subject": "Maxie Brandon | Unit: Southern Exposure |  Res #: 48659 | Compensation for Late Check In",
-    "assigned_to": "m.eronico@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-09 22:00:00",
-    "priority": 1
-  },
   "8678": {
     "subject": "Property Damage Report \u2013 Southern Exposure \u2013 Tresalus Jorwina Res #: 62194",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
@@ -37,13 +30,6 @@
   "8672": {
     "subject": "Harrell Matthew | Unit: Sans Souci |  Res #: 62332 | AC is not working",
     "assigned_to": "m.eronico@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-09 22:00:00",
-    "priority": 1
-  },
-  "8670": {
-    "subject": "Rodriguez Geraldine | Unit: Beach House Residences Unit 1 | Res #: 60982 | Parking and Pool Access Concern",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-09 22:00:00",
     "priority": 1
@@ -137,13 +123,6 @@
     "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-17 22:00:00",
-    "priority": 1
-  },
-  "8637": {
-    "subject": "Res #: 40900|Unit: Blossom Retreat| Guest Name: Hamilton Thomas Tamara| Owner Booking | AC issue",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-08 22:00:00",
     "priority": 1
   },
   "8636": {
@@ -428,7 +407,7 @@
   },
   "8513": {
     "subject": "Altschuler Max/ A Shore Thing/Res #: 58976/Waterfall pool feature",
-    "assigned_to": "m.omasdang@choosegulfcoast.com",
+    "assigned_to": "m.eronico@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-02 22:00:00",
     "priority": 1

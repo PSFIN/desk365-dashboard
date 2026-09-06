@@ -1,5 +1,35 @@
 [
   {
+    "ts": "2026-09-06T20:40:19+00:00",
+    "ticket_number": 8513,
+    "subject": "Altschuler Max/ A Shore Thing/Res #: 58976/Waterfall pool feature",
+    "type": "reassigned",
+    "detail": "Reassigned from m.omasdang@choosegulfcoast.com to m.eronico@choosegulfcoast.com",
+    "from": "m.omasdang@choosegulfcoast.com",
+    "to": "m.eronico@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-06T20:40:19+00:00",
+    "ticket_number": 8679,
+    "subject": "Maxie Brandon | Unit: Southern Exposure |  Res #: 48659 | Compensation for Late Check In",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-06T20:40:19+00:00",
+    "ticket_number": 8670,
+    "subject": "Rodriguez Geraldine | Unit: Beach House Residences Unit 1 | Res #: 60982 | Parking and Pool Access Concern",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-06T20:40:19+00:00",
+    "ticket_number": 8637,
+    "subject": "Res #: 40900|Unit: Blossom Retreat| Guest Name: Hamilton Thomas Tamara| Owner Booking | AC issue",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-06T18:28:21+00:00",
     "ticket_number": 8679,
     "subject": "Maxie Brandon | Unit: Southern Exposure |  Res #: 48659 | Compensation for Late Check In",
