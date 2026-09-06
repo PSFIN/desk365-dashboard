@@ -1,5 +1,26 @@
 [
   {
+    "ts": "2026-09-06T18:28:21+00:00",
+    "ticket_number": 8679,
+    "subject": "Maxie Brandon | Unit: Southern Exposure |  Res #: 48659 | Compensation for Late Check In",
+    "type": "created",
+    "detail": "Created \u2014 assigned to m.eronico@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-06T18:28:21+00:00",
+    "ticket_number": 8678,
+    "subject": "Property Damage Report \u2013 Southern Exposure \u2013 Tresalus Jorwina Res #: 62194",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-06T18:28:21+00:00",
+    "ticket_number": 8666,
+    "subject": "HVAC Not Cooling \u2013 GBB 1260 \u2013 09/05 - Inspection",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-06T16:22:08+00:00",
     "ticket_number": 8677,
     "subject": "Carmona Newton | Res #: 61948 | Birdie | Low temp for pool heating",
