@@ -1,5 +1,35 @@
 [
   {
+    "ts": "2026-09-06T04:57:07+00:00",
+    "ticket_number": 8675,
+    "subject": "1200- shower/tub faucet control not coming out fully on HOT side",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-06T04:57:07+00:00",
+    "ticket_number": 8674,
+    "subject": "AC not cooling properly and Front door knob coming off | Sandalfoot 4B2 | Hooke Meghan | Res #: 49162",
+    "type": "created",
+    "detail": "Created \u2014 assigned to p.yelenich@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-06T04:57:07+00:00",
+    "ticket_number": 8673,
+    "subject": "No Hot Water | GBB 1240 | Res #: 55158 , Menard Chandra",
+    "type": "reassigned",
+    "detail": "Reassigned from c.nutt@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
+    "from": "c.nutt@choosegulfcoast.com",
+    "to": "s.soriafrausto@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-06T04:57:07+00:00",
+    "ticket_number": 8641,
+    "subject": "Debbie Shaw | Bayside Paradise | Res #: 61941 | Pool Concern",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-06T00:27:24+00:00",
     "ticket_number": 8673,
     "subject": "No Hot Water | GBB 1240 | Res #: 55158 , Menard Chandra",

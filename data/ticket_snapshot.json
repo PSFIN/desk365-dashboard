@@ -1,7 +1,21 @@
 {
+  "8675": {
+    "subject": "1200- shower/tub faucet control not coming out fully on HOT side",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-09 22:00:00",
+    "priority": 10
+  },
+  "8674": {
+    "subject": "AC not cooling properly and Front door knob coming off | Sandalfoot 4B2 | Hooke Meghan | Res #: 49162",
+    "assigned_to": "p.yelenich@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-09 22:00:00",
+    "priority": 1
+  },
   "8673": {
     "subject": "No Hot Water | GBB 1240 | Res #: 55158 , Menard Chandra",
-    "assigned_to": "c.nutt@choosegulfcoast.com",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-09 22:00:00",
     "priority": 1
@@ -110,13 +124,6 @@
     "status": "Open",
     "due_date": "2026-09-07 18:42:30",
     "priority": 20
-  },
-  "8641": {
-    "subject": "Debbie Shaw | Bayside Paradise | Res #: 61941 | Pool Concern",
-    "assigned_to": "b.williams@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-08 22:00:00",
-    "priority": 1
   },
   "8639": {
     "subject": "7th Heaven-bills",
