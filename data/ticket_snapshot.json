@@ -1,4 +1,25 @@
 {
+  "8685": {
+    "subject": "Rodriguez Geraldine | Res #: 60982 | Beach House Residences Unit 1 | Feedback",
+    "assigned_to": "l.winter@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-10 17:26:41",
+    "priority": 1
+  },
+  "8684": {
+    "subject": "Name: Wilkes Minnie | Res: 53113 | Cancelled Funds Retained by GC",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-10 17:17:12",
+    "priority": 1
+  },
+  "8683": {
+    "subject": "Name: ippolito barbara | Res: 51748 |  Hold Distribution of Cancelled Reservation Funds",
+    "assigned_to": "a.ytac@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-10 17:06:20",
+    "priority": 1
+  },
   "8682": {
     "subject": "Res. No. 60053 - Hillary rose - Florida Dreams - Issue:  Property needs broom, bucket and mop",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
@@ -29,7 +50,7 @@
   },
   "8678": {
     "subject": "Property Damage Report \u2013 Southern Exposure \u2013 Tresalus Jorwina Res #: 62194",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-09 22:00:00",
     "priority": 1
@@ -43,7 +64,7 @@
   },
   "8672": {
     "subject": "Harrell Matthew | Unit: Sans Souci |  Res #: 62332 | AC is not working",
-    "assigned_to": "j.gordillo@choosegulfcoast.com",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-09 22:00:00",
     "priority": 1
@@ -435,7 +456,7 @@
   },
   "8443": {
     "subject": "PCA for Luna Sea Due Date: 9/17/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-08 22:00:00",
     "priority": 5
@@ -526,7 +547,7 @@
   },
   "8330": {
     "subject": "PCA for Golden Beach Haven Due Date: 9/14/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-17 22:00:00",
     "priority": 5
@@ -547,7 +568,7 @@
   },
   "8312": {
     "subject": "PCA for Southern Exposure Due Date: 9/10/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-12 20:18:00",
     "priority": 5
@@ -638,7 +659,7 @@
   },
   "7951": {
     "subject": "PCA for Villa In The Clouds Due Date: 8/31/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-12 19:00:00",
     "priority": 5
@@ -806,7 +827,7 @@
   },
   "7015": {
     "subject": "PCA for Array Of Sunshine Due Date: July 8, 2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-08 22:00:00",
     "priority": 5
