@@ -132,13 +132,6 @@
     "due_date": "2026-09-17 22:00:00",
     "priority": 1
   },
-  "8636": {
-    "subject": "Res #: 59305| Unit: Sandalfoot 3C2| Guest Name: Patrice Schmidt | AC issue",
-    "assigned_to": "k.garcia@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-08 22:00:00",
-    "priority": 1
-  },
   "8634": {
     "subject": "Property Management Inquiry",
     "assigned_to": "a.vetick@choosegulfcoast.com",
@@ -173,6 +166,13 @@
     "status": "Open",
     "due_date": "2026-09-08 16:17:58",
     "priority": 1
+  },
+  "8624": {
+    "subject": "Guest Name: Tresalus Jorwina |  Res #: 62207 | Unit: Southern Exposure | Stolen money",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-09 15:51:19",
+    "priority": 10
   },
   "8623": {
     "subject": "Name: Cali Kathleen | Res: 58824 | Multiple issues",

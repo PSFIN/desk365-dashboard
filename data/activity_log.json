@@ -1,5 +1,19 @@
 [
   {
+    "ts": "2026-09-07T00:34:37+00:00",
+    "ticket_number": 8624,
+    "subject": "Guest Name: Tresalus Jorwina |  Res #: 62207 | Unit: Southern Exposure | Stolen money",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-07T00:34:37+00:00",
+    "ticket_number": 8636,
+    "subject": "Res #: 59305| Unit: Sandalfoot 3C2| Guest Name: Patrice Schmidt | AC issue",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-06T22:36:35+00:00",
     "ticket_number": 8680,
     "subject": "Potential Scam Report \u2013 Speak Easy / 243 Lime Avenue",
