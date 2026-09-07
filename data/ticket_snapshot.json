@@ -1,4 +1,18 @@
 {
+  "8682": {
+    "subject": "Res. No. 60053 - Hillary rose - Florida Dreams - Issue:  Property needs broom, bucket and mop",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-10 16:22:10",
+    "priority": 5
+  },
+  "8681": {
+    "subject": "Res #: 62508 | Cancellation Request due to low rate",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-09 22:00:00",
+    "priority": 10
+  },
   "8680": {
     "subject": "Potential Scam Report \u2013 Speak Easy / 243 Lime Avenue",
     "assigned_to": "b.meyer@choosegulfcoast.com",
@@ -6,26 +20,19 @@
     "due_date": "2026-09-09 22:00:00",
     "priority": 1
   },
+  "8679": {
+    "subject": "Maxie Brandon | Unit: Southern Exposure |  Res #: 48659 | Compensation for Late Check In",
+    "assigned_to": "l.susas@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-09 22:00:00",
+    "priority": 1
+  },
   "8678": {
     "subject": "Property Damage Report \u2013 Southern Exposure \u2013 Tresalus Jorwina Res #: 62194",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-09 22:00:00",
     "priority": 1
-  },
-  "8677": {
-    "subject": "Carmona Newton | Res #: 61948 | Birdie | Low temp for pool heating",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-09 22:00:00",
-    "priority": 1
-  },
-  "8675": {
-    "subject": "1200- shower/tub faucet control not coming out fully on HOT side",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-09 22:00:00",
-    "priority": 10
   },
   "8674": {
     "subject": "AC not cooling properly and Front door knob coming off | Sandalfoot 4B2 | Hooke Meghan | Res #: 49162",
@@ -36,7 +43,7 @@
   },
   "8672": {
     "subject": "Harrell Matthew | Unit: Sans Souci |  Res #: 62332 | AC is not working",
-    "assigned_to": "m.eronico@choosegulfcoast.com",
+    "assigned_to": "j.gordillo@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-09 22:00:00",
     "priority": 1
@@ -44,20 +51,6 @@
   "8669": {
     "subject": "Bretherton Martin | Unit: Grand Getaway | Res #: 62468 | Cancellation Request",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-09 22:00:00",
-    "priority": 1
-  },
-  "8667": {
-    "subject": "Douglass Romy | Turtle House | Res #: 58384 | Hair Dryer Missing",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-09 22:00:00",
-    "priority": 1
-  },
-  "8664": {
-    "subject": "Guest Name: Wolk Kimberly | Res #: 58831 | Unit: Ocean Eyes | Requesting for assistance",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-09 22:00:00",
     "priority": 1
@@ -75,13 +68,6 @@
     "status": "Open",
     "due_date": "2026-09-09 22:00:00",
     "priority": 1
-  },
-  "8658": {
-    "subject": "Unit: Breakers West B7 | Guest Name: Curran Gena | Musty Odor",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-08 18:00:00",
-    "priority": 20
   },
   "8657": {
     "subject": "Golfside Escape-reshoot",
@@ -169,17 +155,10 @@
   },
   "8624": {
     "subject": "Guest Name: Tresalus Jorwina |  Res #: 62207 | Unit: Southern Exposure | Stolen money",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-09 15:51:19",
     "priority": 10
-  },
-  "8623": {
-    "subject": "Name: Cali Kathleen | Res: 58824 | Multiple issues",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-08 15:07:57",
-    "priority": 1
   },
   "8621": {
     "subject": "PCA - Sunny Retreat",
@@ -239,7 +218,7 @@
   },
   "8602": {
     "subject": "Rental License Renewal Documents Needed \u2013 5D1",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-07 19:07:49",
     "priority": 1
@@ -269,14 +248,7 @@
     "subject": "Boardwalk Shell station",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-04 20:41:29",
-    "priority": 1
-  },
-  "8580": {
-    "subject": "Turtle House res#62055 change rate",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-04 19:21:18",
+    "due_date": "2026-09-11 20:41:00",
     "priority": 1
   },
   "8577": {
@@ -759,14 +731,14 @@
     "subject": "Marriott Curation Rejected - Signal inn 03",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-07 15:28:00",
+    "due_date": "2026-09-11 15:28:00",
     "priority": 5
   },
   "7396": {
     "subject": "Marriott Curation Rejected - Signal Inn 18",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-07 15:06:00",
+    "due_date": "2026-09-11 15:06:00",
     "priority": 5
   },
   "7392": {
