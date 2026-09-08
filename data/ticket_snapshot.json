@@ -1,4 +1,11 @@
 {
+  "8696": {
+    "subject": "Susan Funk 1-star review",
+    "assigned_to": "d.husak@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-11 19:56:29",
+    "priority": 5
+  },
   "8694": {
     "subject": "Residences of Siesta Key - Owner charge",
     "assigned_to": "e.morales@choosegulfcoast.com",
@@ -83,13 +90,6 @@
     "due_date": "2026-09-09 22:00:00",
     "priority": 1
   },
-  "8674": {
-    "subject": "AC not cooling properly and Front door knob coming off | Sandalfoot 4B2 | Hooke Meghan | Res #: 49162",
-    "assigned_to": "a.dallman@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-09 22:00:00",
-    "priority": 1
-  },
   "8672": {
     "subject": "Harrell Matthew | Unit: Sans Souci |  Res #: 62332 | AC is not working",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
@@ -116,13 +116,6 @@
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-09 20:27:28",
-    "priority": 1
-  },
-  "8656": {
-    "subject": "YCBR Statement corrections",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-09 20:13:47",
     "priority": 1
   },
   "8651": {
@@ -295,7 +288,7 @@
   },
   "8568": {
     "subject": "Admirals Watch required PCA deep celan",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-04 16:26:52",
     "priority": 1
@@ -347,13 +340,6 @@
     "assigned_to": "b.williams@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-03 18:40:05",
-    "priority": 1
-  },
-  "8535": {
-    "subject": "Beach Heron - Update photos",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-07 16:06:00",
     "priority": 1
   },
   "8534": {
@@ -535,7 +521,7 @@
     "subject": "PCA for Southern Exposure Due Date: 9/10/2026",
     "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-12 20:18:00",
+    "due_date": "2026-09-25 20:18:00",
     "priority": 5
   },
   "8311": {

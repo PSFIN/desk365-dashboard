@@ -1,5 +1,51 @@
 [
   {
+    "ts": "2026-09-08T21:17:28+00:00",
+    "ticket_number": 8696,
+    "subject": "Susan Funk 1-star review",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.husak@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-08T21:17:28+00:00",
+    "ticket_number": 8568,
+    "subject": "Admirals Watch required PCA deep celan",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "s.soriafrausto@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-08T21:17:28+00:00",
+    "ticket_number": 8312,
+    "subject": "PCA for Southern Exposure Due Date: 9/10/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-12 20:18:00 to 2026-09-25 20:18:00",
+    "from": "2026-09-12 20:18:00",
+    "to": "2026-09-25 20:18:00"
+  },
+  {
+    "ts": "2026-09-08T21:17:28+00:00",
+    "ticket_number": 8674,
+    "subject": "AC not cooling properly and Front door knob coming off | Sandalfoot 4B2 | Hooke Meghan | Res #: 49162",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-08T21:17:28+00:00",
+    "ticket_number": 8656,
+    "subject": "YCBR Statement corrections",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-08T21:17:28+00:00",
+    "ticket_number": 8535,
+    "subject": "Beach Heron - Update photos",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-08T18:13:22+00:00",
     "ticket_number": 8694,
     "subject": "Residences of Siesta Key - Owner charge",
