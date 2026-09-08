@@ -1,4 +1,18 @@
 {
+  "8690": {
+    "subject": "Golfside Escape-cleaning",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-11 14:16:48",
+    "priority": 10
+  },
+  "8689": {
+    "subject": "GBB1200 - Relocations",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-10 22:00:00",
+    "priority": 1
+  },
   "8688": {
     "subject": "Res #: 58054| Unit: Paraclete Paradise| Guest Name: Bihday Deborah| LCO",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
@@ -85,7 +99,7 @@
   },
   "8672": {
     "subject": "Harrell Matthew | Unit: Sans Souci |  Res #: 62332 | AC is not working",
-    "assigned_to": "m.eronico@choosegulfcoast.com",
+    "assigned_to": "j.gordillo@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-09 22:00:00",
     "priority": 1
@@ -171,7 +185,7 @@
     "subject": "Update website taglines",
     "assigned_to": "e.buchanan@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-08 17:48:38",
+    "due_date": "2026-09-15 17:48:00",
     "priority": 5
   },
   "8628": {
@@ -197,14 +211,14 @@
   },
   "8621": {
     "subject": "PCA - Sunny Retreat",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-07 22:00:00",
     "priority": 1
   },
   "8620": {
     "subject": "PCA - La Vida Loca",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-07 22:00:00",
     "priority": 1
@@ -246,7 +260,7 @@
   },
   "8602": {
     "subject": "Rental License Renewal Documents Needed \u2013 5D1",
-    "assigned_to": "e.morales@choosegulfcoast.com",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-07 19:07:49",
     "priority": 1
@@ -281,7 +295,7 @@
   },
   "8577": {
     "subject": "Effect request for removal of BDC review:  Res. No. 60142 - Danielle Proffitt - Dreams of Paradise.",
-    "assigned_to": "l.winter@choosegulfcoast.com",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-09 15:00:00",
     "priority": 5
@@ -384,13 +398,6 @@
     "due_date": "2026-09-07 16:05:00",
     "priority": 1
   },
-  "8530": {
-    "subject": "Snow on the beach - inspection",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-04 14:54:00",
-    "priority": 1
-  },
   "8523": {
     "subject": "5B3 ARDI comforter cleaning",
     "assigned_to": "n.armstrong@choosegulfcoast.com",
@@ -414,7 +421,7 @@
   },
   "8513": {
     "subject": "Altschuler Max/ A Shore Thing/Res #: 58976/Waterfall pool feature",
-    "assigned_to": "m.eronico@choosegulfcoast.com",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-02 22:00:00",
     "priority": 1
@@ -435,9 +442,9 @@
   },
   "8474": {
     "subject": "Unit: Dreams Of Paradise | Guest Name: Profitt Danielle | Guest Compensation / Pest & Maintenance Escalation",
-    "assigned_to": "l.winter@choosegulfcoast.com",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-07 09:30:00",
+    "due_date": "2026-09-11 09:30:00",
     "priority": 20
   },
   "8464": {
@@ -479,7 +486,7 @@
     "subject": "Mirrored closet door:GBB1269",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-04 22:00:00",
+    "due_date": "2026-09-18 22:00:00",
     "priority": 5
   },
   "8431": {
@@ -500,7 +507,7 @@
     "subject": "DR-11 Form : Sun Seeker - 5544 Summit Pointe Cir",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-08 16:00:00",
+    "due_date": "2026-09-10 16:00:00",
     "priority": 10
   },
   "8372": {
@@ -563,7 +570,7 @@
     "subject": "PCA for Sunset On The Gulf Due Date: 9/12/2026",
     "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-11 22:00:00",
+    "due_date": "2026-09-18 22:00:00",
     "priority": 5
   },
   "8322": {
@@ -575,7 +582,7 @@
   },
   "8312": {
     "subject": "PCA for Southern Exposure Due Date: 9/10/2026",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-12 20:18:00",
     "priority": 5
@@ -650,13 +657,6 @@
     "due_date": "2026-09-02 19:46:00",
     "priority": 10
   },
-  "7955": {
-    "subject": "PCA for Paradis Sur Mer Due Date: 9/1/2026",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-04 20:39:00",
-    "priority": 5
-  },
   "7951": {
     "subject": "PCA for Villa In The Clouds Due Date: 8/31/2026",
     "assigned_to": "c.thayer@choosegulfcoast.com",
@@ -687,9 +687,9 @@
   },
   "7813": {
     "subject": "Expedia Group Health & Safety Case No: 148595466",
-    "assigned_to": "l.winter@choosegulfcoast.com",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-08 17:17:00",
+    "due_date": "2026-09-11 17:17:00",
     "priority": 20
   },
   "7810": {

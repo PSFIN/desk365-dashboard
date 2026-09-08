@@ -1,5 +1,168 @@
 [
   {
+    "ts": "2026-09-08T14:40:28+00:00",
+    "ticket_number": 8690,
+    "subject": "Golfside Escape-cleaning",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-08T14:40:28+00:00",
+    "ticket_number": 8689,
+    "subject": "GBB1200 - Relocations",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-08T14:40:28+00:00",
+    "ticket_number": 8672,
+    "subject": "Harrell Matthew | Unit: Sans Souci |  Res #: 62332 | AC is not working",
+    "type": "reassigned",
+    "detail": "Reassigned from m.eronico@choosegulfcoast.com to j.gordillo@choosegulfcoast.com",
+    "from": "m.eronico@choosegulfcoast.com",
+    "to": "j.gordillo@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-08T14:40:28+00:00",
+    "ticket_number": 8629,
+    "subject": "Update website taglines",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-08 17:48:38 to 2026-09-15 17:48:00",
+    "from": "2026-09-08 17:48:38",
+    "to": "2026-09-15 17:48:00"
+  },
+  {
+    "ts": "2026-09-08T14:40:28+00:00",
+    "ticket_number": 8621,
+    "subject": "PCA - Sunny Retreat",
+    "type": "reassigned",
+    "detail": "Reassigned from s.paulin@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "s.paulin@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-08T14:40:28+00:00",
+    "ticket_number": 8620,
+    "subject": "PCA - La Vida Loca",
+    "type": "reassigned",
+    "detail": "Reassigned from s.paulin@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "s.paulin@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-08T14:40:28+00:00",
+    "ticket_number": 8602,
+    "subject": "Rental License Renewal Documents Needed \u2013 5D1",
+    "type": "reassigned",
+    "detail": "Reassigned from e.morales@choosegulfcoast.com to l.brigida@choosegulfcoast.com",
+    "from": "e.morales@choosegulfcoast.com",
+    "to": "l.brigida@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-08T14:40:28+00:00",
+    "ticket_number": 8577,
+    "subject": "Effect request for removal of BDC review:  Res. No. 60142 - Danielle Proffitt - Dreams of Paradise.",
+    "type": "reassigned",
+    "detail": "Reassigned from l.winter@choosegulfcoast.com to c.hernandez@choosegulfcoast.com",
+    "from": "l.winter@choosegulfcoast.com",
+    "to": "c.hernandez@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-08T14:40:28+00:00",
+    "ticket_number": 8513,
+    "subject": "Altschuler Max/ A Shore Thing/Res #: 58976/Waterfall pool feature",
+    "type": "reassigned",
+    "detail": "Reassigned from m.eronico@choosegulfcoast.com to h.nomura@choosegulfcoast.com",
+    "from": "m.eronico@choosegulfcoast.com",
+    "to": "h.nomura@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-08T14:40:28+00:00",
+    "ticket_number": 8474,
+    "subject": "Unit: Dreams Of Paradise | Guest Name: Profitt Danielle | Guest Compensation / Pest & Maintenance Escalation",
+    "type": "reassigned",
+    "detail": "Reassigned from l.winter@choosegulfcoast.com to c.hernandez@choosegulfcoast.com",
+    "from": "l.winter@choosegulfcoast.com",
+    "to": "c.hernandez@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-08T14:40:28+00:00",
+    "ticket_number": 8474,
+    "subject": "Unit: Dreams Of Paradise | Guest Name: Profitt Danielle | Guest Compensation / Pest & Maintenance Escalation",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-07 09:30:00 to 2026-09-11 09:30:00",
+    "from": "2026-09-07 09:30:00",
+    "to": "2026-09-11 09:30:00"
+  },
+  {
+    "ts": "2026-09-08T14:40:28+00:00",
+    "ticket_number": 8434,
+    "subject": "Mirrored closet door:GBB1269",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-04 22:00:00 to 2026-09-18 22:00:00",
+    "from": "2026-09-04 22:00:00",
+    "to": "2026-09-18 22:00:00"
+  },
+  {
+    "ts": "2026-09-08T14:40:28+00:00",
+    "ticket_number": 8384,
+    "subject": "DR-11 Form : Sun Seeker - 5544 Summit Pointe Cir",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-08 16:00:00 to 2026-09-10 16:00:00",
+    "from": "2026-09-08 16:00:00",
+    "to": "2026-09-10 16:00:00"
+  },
+  {
+    "ts": "2026-09-08T14:40:28+00:00",
+    "ticket_number": 8329,
+    "subject": "PCA for Sunset On The Gulf Due Date: 9/12/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-11 22:00:00 to 2026-09-18 22:00:00",
+    "from": "2026-09-11 22:00:00",
+    "to": "2026-09-18 22:00:00"
+  },
+  {
+    "ts": "2026-09-08T14:40:28+00:00",
+    "ticket_number": 8312,
+    "subject": "PCA for Southern Exposure Due Date: 9/10/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from s.paulin@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "s.paulin@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-08T14:40:28+00:00",
+    "ticket_number": 7813,
+    "subject": "Expedia Group Health & Safety Case No: 148595466",
+    "type": "reassigned",
+    "detail": "Reassigned from l.winter@choosegulfcoast.com to c.hernandez@choosegulfcoast.com",
+    "from": "l.winter@choosegulfcoast.com",
+    "to": "c.hernandez@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-08T14:40:28+00:00",
+    "ticket_number": 7813,
+    "subject": "Expedia Group Health & Safety Case No: 148595466",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-08 17:17:00 to 2026-09-11 17:17:00",
+    "from": "2026-09-08 17:17:00",
+    "to": "2026-09-11 17:17:00"
+  },
+  {
+    "ts": "2026-09-08T14:40:28+00:00",
+    "ticket_number": 8530,
+    "subject": "Snow on the beach - inspection",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-08T14:40:28+00:00",
+    "ticket_number": 7955,
+    "subject": "PCA for Paradis Sur Mer Due Date: 9/1/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-08T10:22:59+00:00",
     "ticket_number": 8577,
     "subject": "Effect request for removal of BDC review:  Res. No. 60142 - Danielle Proffitt - Dreams of Paradise.",
