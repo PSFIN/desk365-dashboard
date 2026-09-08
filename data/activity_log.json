@@ -1,5 +1,110 @@
 [
   {
+    "ts": "2026-09-08T05:30:45+00:00",
+    "ticket_number": 8688,
+    "subject": "Res #: 58054| Unit: Paraclete Paradise| Guest Name: Bihday Deborah| LCO",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-08T05:30:45+00:00",
+    "ticket_number": 8687,
+    "subject": "Kedrych Alisa/Gulf & Bay Bayside - 1291/ Res #: 59049/AC Issues and Microwave",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-08T05:30:45+00:00",
+    "ticket_number": 8686,
+    "subject": "Makurat Jeannette/Colony Inn C-20/Res #: 56621/Cancellation Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-08T05:30:45+00:00",
+    "ticket_number": 8680,
+    "subject": "Potential Scam Report \u2013 Speak Easy / 243 Lime Avenue",
+    "type": "reassigned",
+    "detail": "Reassigned from b.meyer@choosegulfcoast.com to b.evans@choosegulfcoast.com",
+    "from": "b.meyer@choosegulfcoast.com",
+    "to": "b.evans@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-08T05:30:45+00:00",
+    "ticket_number": 8679,
+    "subject": "Maxie Brandon | Unit: Southern Exposure |  Res #: 48659 | Compensation for Late Check In",
+    "type": "reassigned",
+    "detail": "Reassigned from l.susas@choosegulfcoast.com to c.hernandez@choosegulfcoast.com",
+    "from": "l.susas@choosegulfcoast.com",
+    "to": "c.hernandez@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-08T05:30:45+00:00",
+    "ticket_number": 8678,
+    "subject": "Property Damage Report \u2013 Southern Exposure \u2013 Tresalus Jorwina Res #: 62194",
+    "type": "reassigned",
+    "detail": "Reassigned from c.thayer@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "c.thayer@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-08T05:30:45+00:00",
+    "ticket_number": 8672,
+    "subject": "Harrell Matthew | Unit: Sans Souci |  Res #: 62332 | AC is not working",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to m.eronico@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "m.eronico@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-08T05:30:45+00:00",
+    "ticket_number": 8632,
+    "subject": "Res. No. 44009 - Kathleen Donnelly - Oakwater Escape  - star rating: 3",
+    "type": "reassigned",
+    "detail": "Reassigned from c.hernandez@choosegulfcoast.com to b.williams@choosegulfcoast.com",
+    "from": "c.hernandez@choosegulfcoast.com",
+    "to": "b.williams@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-08T05:30:45+00:00",
+    "ticket_number": 8530,
+    "subject": "Snow on the beach - inspection",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "j.rushton@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-08T05:30:45+00:00",
+    "ticket_number": 8307,
+    "subject": "Leonard Robert | Unit: Links & Leisure | Res #: 52169 | Washer doesn't work",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-08T05:30:45+00:00",
+    "ticket_number": 8669,
+    "subject": "Bretherton Martin | Unit: Grand Getaway | Res #: 62468 | Cancellation Request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-08T05:30:45+00:00",
+    "ticket_number": 8612,
+    "subject": "Cristobal Ricardo/Sunnyside Up/Res #: 49339/Mailbox access",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-08T05:30:45+00:00",
+    "ticket_number": 8094,
+    "subject": "Coastal Oasis-WO",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-07T22:55:27+00:00",
     "ticket_number": 8685,
     "subject": "Rodriguez Geraldine | Res #: 60982 | Beach House Residences Unit 1 | Feedback",

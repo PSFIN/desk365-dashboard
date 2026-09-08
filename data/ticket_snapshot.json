@@ -1,4 +1,25 @@
 {
+  "8688": {
+    "subject": "Res #: 58054| Unit: Paraclete Paradise| Guest Name: Bihday Deborah| LCO",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-10 22:00:00",
+    "priority": 1
+  },
+  "8687": {
+    "subject": "Kedrych Alisa/Gulf & Bay Bayside - 1291/ Res #: 59049/AC Issues and Microwave",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-09 18:00:00",
+    "priority": 20
+  },
+  "8686": {
+    "subject": "Makurat Jeannette/Colony Inn C-20/Res #: 56621/Cancellation Request",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-10 22:00:00",
+    "priority": 1
+  },
   "8685": {
     "subject": "Rodriguez Geraldine | Res #: 60982 | Beach House Residences Unit 1 | Feedback",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
@@ -36,21 +57,21 @@
   },
   "8680": {
     "subject": "Potential Scam Report \u2013 Speak Easy / 243 Lime Avenue",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "assigned_to": "b.evans@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-09 22:00:00",
     "priority": 1
   },
   "8679": {
     "subject": "Maxie Brandon | Unit: Southern Exposure |  Res #: 48659 | Compensation for Late Check In",
-    "assigned_to": "l.susas@choosegulfcoast.com",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-09 22:00:00",
     "priority": 1
   },
   "8678": {
     "subject": "Property Damage Report \u2013 Southern Exposure \u2013 Tresalus Jorwina Res #: 62194",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-09 22:00:00",
     "priority": 1
@@ -64,14 +85,7 @@
   },
   "8672": {
     "subject": "Harrell Matthew | Unit: Sans Souci |  Res #: 62332 | AC is not working",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-09 22:00:00",
-    "priority": 1
-  },
-  "8669": {
-    "subject": "Bretherton Martin | Unit: Grand Getaway | Res #: 62468 | Cancellation Request",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "assigned_to": "m.eronico@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-09 22:00:00",
     "priority": 1
@@ -148,7 +162,7 @@
   },
   "8632": {
     "subject": "Res. No. 44009 - Kathleen Donnelly - Oakwater Escape  - star rating: 3",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "assigned_to": "b.williams@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-08 20:09:36",
     "priority": 5
@@ -207,13 +221,6 @@
     "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-26 22:00:00",
-    "priority": 1
-  },
-  "8612": {
-    "subject": "Cristobal Ricardo/Sunnyside Up/Res #: 49339/Mailbox access",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-07 22:00:00",
     "priority": 1
   },
   "8611": {
@@ -379,7 +386,7 @@
   },
   "8530": {
     "subject": "Snow on the beach - inspection",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-04 14:54:00",
     "priority": 1
@@ -582,7 +589,7 @@
   },
   "8307": {
     "subject": "Leonard Robert | Unit: Links & Leisure | Res #: 52169 | Washer doesn't work",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-08-28 14:40:00",
     "priority": 10
@@ -628,13 +635,6 @@
     "status": "Open",
     "due_date": "2026-11-09 23:00:00",
     "priority": 1
-  },
-  "8094": {
-    "subject": "Coastal Oasis-WO",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-04 20:51:00",
-    "priority": 10
   },
   "8037": {
     "subject": "Qualify for ARDI?",
