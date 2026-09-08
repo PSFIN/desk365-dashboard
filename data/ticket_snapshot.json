@@ -1,4 +1,18 @@
 {
+  "8694": {
+    "subject": "Residences of Siesta Key - Owner charge",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-11 14:53:35",
+    "priority": 1
+  },
+  "8693": {
+    "subject": "Birdie - Owner charge",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-11 14:52:30",
+    "priority": 1
+  },
   "8690": {
     "subject": "Golfside Escape-cleaning",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
@@ -13,26 +27,12 @@
     "due_date": "2026-09-10 22:00:00",
     "priority": 1
   },
-  "8688": {
-    "subject": "Res #: 58054| Unit: Paraclete Paradise| Guest Name: Bihday Deborah| LCO",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-10 22:00:00",
-    "priority": 1
-  },
   "8687": {
     "subject": "Kedrych Alisa/Gulf & Bay Bayside - 1291/ Res #: 59049/AC Issues and Microwave",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-09 18:00:00",
     "priority": 20
-  },
-  "8686": {
-    "subject": "Makurat Jeannette/Colony Inn C-20/Res #: 56621/Cancellation Request",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-10 22:00:00",
-    "priority": 1
   },
   "8685": {
     "subject": "Rodriguez Geraldine | Res #: 60982 | Beach House Residences Unit 1 | Feedback",
@@ -52,7 +52,7 @@
     "subject": "Name: ippolito barbara | Res: 51748 |  Hold Distribution of Cancelled Reservation Funds",
     "assigned_to": "a.ytac@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-10 17:06:20",
+    "due_date": "2026-09-30 17:06:00",
     "priority": 1
   },
   "8682": {
@@ -73,14 +73,7 @@
     "subject": "Potential Scam Report \u2013 Speak Easy / 243 Lime Avenue",
     "assigned_to": "b.evans@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-09 22:00:00",
-    "priority": 1
-  },
-  "8679": {
-    "subject": "Maxie Brandon | Unit: Southern Exposure |  Res #: 48659 | Compensation for Late Check In",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-09 22:00:00",
+    "due_date": "2026-09-10 22:00:00",
     "priority": 1
   },
   "8678": {
@@ -99,14 +92,14 @@
   },
   "8672": {
     "subject": "Harrell Matthew | Unit: Sans Souci |  Res #: 62332 | AC is not working",
-    "assigned_to": "j.gordillo@choosegulfcoast.com",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-09 22:00:00",
     "priority": 1
   },
   "8663": {
     "subject": "SF beach equipment safety stock replenishment",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "p.yelenich@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-09 22:00:00",
     "priority": 1
@@ -134,17 +127,10 @@
   },
   "8651": {
     "subject": "GBB1241 ARDI",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-09 19:16:10",
     "priority": 1
-  },
-  "8647": {
-    "subject": "Take down unit from rental pool",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-09 17:35:28",
-    "priority": 10
   },
   "8644": {
     "subject": "City of Sanibel Rental Use Regulations",
@@ -237,13 +223,6 @@
     "due_date": "2026-09-26 22:00:00",
     "priority": 1
   },
-  "8611": {
-    "subject": "Unit: Bayside Paradise | Guest Name: Shaw Debbie | AC Air Filter Replacement / Stale Odor",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-07 21:46:14",
-    "priority": 1
-  },
   "8610": {
     "subject": "The Duffers Retreat-PCA deep clean",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
@@ -253,7 +232,7 @@
   },
   "8607": {
     "subject": "GBB office shelves",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "c.nutt@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-08 16:15:00",
     "priority": 20
@@ -270,13 +249,6 @@
     "assigned_to": "l.costa@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-16 18:40:00",
-    "priority": 1
-  },
-  "8597": {
-    "subject": "Update Photos GBB1328",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-07 17:23:00",
     "priority": 1
   },
   "8596": {
@@ -339,7 +311,7 @@
     "subject": "Name: Towle Rebecca | Res: 57610 | Cancelled 50% Retained - OTA",
     "assigned_to": "a.ytac@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-08 15:00:00",
+    "due_date": "2026-09-10 15:00:00",
     "priority": 1
   },
   "8557": {
@@ -353,14 +325,14 @@
     "subject": "DR-11 Form : Putt in Paradise -19116 SCALLOP LOOP, #202",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-08 16:00:00",
+    "due_date": "2026-09-13 16:00:00",
     "priority": 10
   },
   "8545": {
     "subject": "DR-11 Form : Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-08 16:00:00",
+    "due_date": "2026-09-13 16:00:00",
     "priority": 10
   },
   "8544": {
@@ -369,13 +341,6 @@
     "status": "Open",
     "due_date": "2026-09-09 16:00:00",
     "priority": 10
-  },
-  "8543": {
-    "subject": "Name: John Solt  | Res: 54089 | HOA Membership Extension",
-    "assigned_to": "b.zeh@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-03 20:02:08",
-    "priority": 1
   },
   "8541": {
     "subject": "Res #: 52252 | Pritchett Darin | Day Dreamer | Communal Pool Out of Service",
@@ -419,13 +384,6 @@
     "due_date": "2027-02-11 23:00:00",
     "priority": 1
   },
-  "8513": {
-    "subject": "Altschuler Max/ A Shore Thing/Res #: 58976/Waterfall pool feature",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-02 22:00:00",
-    "priority": 1
-  },
   "8505": {
     "subject": "Create Dashboard for Work Order Performance",
     "assigned_to": "s.vengaloor@choosegulfcoast.com",
@@ -452,13 +410,6 @@
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-08-29 19:06:00",
-    "priority": 10
-  },
-  "8460": {
-    "subject": "Tee Time and Fore Seasons-Shoot",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-04 15:54:00",
     "priority": 10
   },
   "8444": {
@@ -514,7 +465,7 @@
     "subject": "DR-11 Forms : Multiple Property Units",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-08 16:00:00",
+    "due_date": "2026-09-13 16:00:00",
     "priority": 10
   },
   "8367": {
@@ -561,7 +512,7 @@
   },
   "8330": {
     "subject": "PCA for Golden Beach Haven Due Date: 9/14/2026",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-17 22:00:00",
     "priority": 5
@@ -570,7 +521,7 @@
     "subject": "PCA for Sunset On The Gulf Due Date: 9/12/2026",
     "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-18 22:00:00",
+    "due_date": "2026-11-14 23:00:00",
     "priority": 5
   },
   "8322": {
@@ -659,14 +610,14 @@
   },
   "7951": {
     "subject": "PCA for Villa In The Clouds Due Date: 8/31/2026",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-12 19:00:00",
     "priority": 5
   },
   "7949": {
     "subject": "PCA for Dreams Of Paradise Due Date: 8/26/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-11 18:57:00",
     "priority": 5
@@ -745,7 +696,7 @@
     "subject": "Marriott Curation Rejected - Signal Inn 02",
     "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-11 21:00:00",
+    "due_date": "2026-09-18 21:00:00",
     "priority": 5
   },
   "7397": {
@@ -766,7 +717,7 @@
     "subject": "Marriott Curation Rejected - Signal Inn 17",
     "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-11 21:00:00",
+    "due_date": "2026-09-18 21:00:00",
     "priority": 5
   },
   "7368": {
@@ -827,7 +778,7 @@
   },
   "7015": {
     "subject": "PCA for Array Of Sunshine Due Date: July 8, 2026",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-08 22:00:00",
     "priority": 5
