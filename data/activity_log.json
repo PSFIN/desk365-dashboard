@@ -1,5 +1,426 @@
 [
   {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8713,
+    "subject": "Gulf Horizon - Keypad batteries",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8709,
+    "subject": "Pier Pressure - Patio Furniture",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8708,
+    "subject": "Bayside Paradise-ARDI",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.thayer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8707,
+    "subject": "Rhodes Tracy | Heavenly Daze | Res #: 45497 | Property Viewing Req",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.husak@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8706,
+    "subject": "A Shore Thing - Deep clean",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8705,
+    "subject": "Sunset Splash-comp pool",
+    "type": "created",
+    "detail": "Created \u2014 assigned to m.johnston@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8704,
+    "subject": "copy of legacy contracts",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.vandroff@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8702,
+    "subject": "5 Star Review Feedback | Res #: 61153 | Villalba Randy | My Great Escape | 9/4/2026-9/7/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from b.williams@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "b.williams@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8701,
+    "subject": "Ksonshkevych Tetiana/Gulf & Bay Bayside - 1260/  Res #: 58424/Goodwill Gesture",
+    "type": "reassigned",
+    "detail": "Reassigned from c.nutt@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
+    "from": "c.nutt@choosegulfcoast.com",
+    "to": "j.rushton@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8687,
+    "subject": "Kedrych Alisa/Gulf & Bay Bayside - 1291/ Res #: 59049/AC Issues and Microwave",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-09 18:00:00 to 2026-09-11 18:00:00",
+    "from": "2026-09-09 18:00:00",
+    "to": "2026-09-11 18:00:00"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8678,
+    "subject": "Property Damage Report \u2013 Southern Exposure \u2013 Tresalus Jorwina Res #: 62194",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-09 22:00:00 to 2026-09-11 22:00:00",
+    "from": "2026-09-09 22:00:00",
+    "to": "2026-09-11 22:00:00"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8663,
+    "subject": "SF beach equipment safety stock replenishment",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-09 22:00:00 to 2026-09-11 22:00:00",
+    "from": "2026-09-09 22:00:00",
+    "to": "2026-09-11 22:00:00"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8657,
+    "subject": "Golfside Escape-reshoot",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-09 20:27:28 to 2026-11-22 21:27:00",
+    "from": "2026-09-09 20:27:28",
+    "to": "2026-11-22 21:27:00"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8651,
+    "subject": "GBB1241 ARDI",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-09 19:16:10 to 2026-10-01 19:16:00",
+    "from": "2026-09-09 19:16:10",
+    "to": "2026-10-01 19:16:00"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8634,
+    "subject": "Property Management Inquiry",
+    "type": "reassigned",
+    "detail": "Reassigned from a.vetick@choosegulfcoast.com to b.vandroff@choosegulfcoast.com",
+    "from": "a.vetick@choosegulfcoast.com",
+    "to": "b.vandroff@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8634,
+    "subject": "Property Management Inquiry",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-08 21:07:32 to 2026-09-14 21:07:00",
+    "from": "2026-09-08 21:07:32",
+    "to": "2026-09-14 21:07:00"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8632,
+    "subject": "Res. No. 44009 - Kathleen Donnelly - Oakwater Escape  - star rating: 3",
+    "type": "reassigned",
+    "detail": "Reassigned from b.williams@choosegulfcoast.com to m.eronico@choosegulfcoast.com",
+    "from": "b.williams@choosegulfcoast.com",
+    "to": "m.eronico@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8628,
+    "subject": "Update website team photos",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-08 17:39:34 to 2026-09-10 17:39:00",
+    "from": "2026-09-08 17:39:34",
+    "to": "2026-09-10 17:39:00"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8626,
+    "subject": "Sprinkler at 12 noon",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-08 16:17:58 to 2026-09-10 16:17:00",
+    "from": "2026-09-08 16:17:58",
+    "to": "2026-09-10 16:17:00"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8571,
+    "subject": "DR-11 Form :  Splash Decision - 14881 Laguna Drive",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-09 16:00:00 to 2026-10-01 16:00:00",
+    "from": "2026-09-09 16:00:00",
+    "to": "2026-10-01 16:00:00"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8568,
+    "subject": "Admirals Watch required PCA deep celan",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-04 16:26:52 to 2026-09-18 16:26:00",
+    "from": "2026-09-04 16:26:52",
+    "to": "2026-09-18 16:26:00"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8548,
+    "subject": "Pollett Elizabeth/Harbour Happiness/ Res #: 59239/Maintenance & Management Ticket \u2013 Pool Safety Concern",
+    "type": "created",
+    "detail": "Created \u2014 assigned to m.eronico@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8544,
+    "subject": "DR-1C Form : Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-09 16:00:00 to 2026-10-01 16:00:00",
+    "from": "2026-09-09 16:00:00",
+    "to": "2026-10-01 16:00:00"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8541,
+    "subject": "Res #: 52252 | Pritchett Darin | Day Dreamer | Communal Pool Out of Service",
+    "type": "reassigned",
+    "detail": "Reassigned from b.williams@choosegulfcoast.com to c.hernandez@choosegulfcoast.com",
+    "from": "b.williams@choosegulfcoast.com",
+    "to": "c.hernandez@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8534,
+    "subject": "GBB1338 - New Photos",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-07 16:05:00 to 2026-09-10 16:05:00",
+    "from": "2026-09-07 16:05:00",
+    "to": "2026-09-10 16:05:00"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8523,
+    "subject": "5B3 ARDI comforter cleaning",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-02 22:00:00 to 2026-09-16 22:00:00",
+    "from": "2026-09-02 22:00:00",
+    "to": "2026-09-16 22:00:00"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8464,
+    "subject": "Precious Gem-PCA Deep clean",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-08-29 19:06:00 to 2026-09-11 19:06:00",
+    "from": "2026-08-29 19:06:00",
+    "to": "2026-09-11 19:06:00"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8435,
+    "subject": "Williams Jamie | Res #: 57053 | Ocean Eyes | Celebration Requests",
+    "type": "reassigned",
+    "detail": "Reassigned from b.williams@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "b.williams@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8410,
+    "subject": "YCBR Photo shoot",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-04 19:15:00 to 2026-09-09 19:15:00",
+    "from": "2026-09-04 19:15:00",
+    "to": "2026-09-09 19:15:00"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8322,
+    "subject": "Avalon landscape",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8322,
+    "subject": "Avalon landscape",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-02 22:00:00 to 2026-09-10 22:00:00",
+    "from": "2026-09-02 22:00:00",
+    "to": "2026-09-10 22:00:00"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8157,
+    "subject": "At Risk Property- Florida Dreams",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "c.thayer@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8157,
+    "subject": "At Risk Property- Florida Dreams",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-08-14 21:13:00 to 2026-09-10 21:13:00",
+    "from": "2026-08-14 21:13:00",
+    "to": "2026-09-10 21:13:00"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8037,
+    "subject": "Qualify for ARDI?",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-03 22:00:00 to 2026-09-10 22:00:00",
+    "from": "2026-09-03 22:00:00",
+    "to": "2026-09-10 22:00:00"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 7603,
+    "subject": "PCA for A Shore Thing Due Date: 8/7/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-03 22:00:00 to 2026-09-11 22:00:00",
+    "from": "2026-09-03 22:00:00",
+    "to": "2026-09-11 22:00:00"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 7397,
+    "subject": "Marriott Curation Rejected - Signal inn 03",
+    "type": "reassigned",
+    "detail": "Reassigned from n.ventura@choosegulfcoast.com to c.hernandez@choosegulfcoast.com",
+    "from": "n.ventura@choosegulfcoast.com",
+    "to": "c.hernandez@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 7396,
+    "subject": "Marriott Curation Rejected - Signal Inn 18",
+    "type": "reassigned",
+    "detail": "Reassigned from n.ventura@choosegulfcoast.com to c.hernandez@choosegulfcoast.com",
+    "from": "n.ventura@choosegulfcoast.com",
+    "to": "c.hernandez@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 7362,
+    "subject": "PCA for Family Tides Due Date: 7/31/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-04 20:35:00 to 2026-09-09 20:35:00",
+    "from": "2026-09-04 20:35:00",
+    "to": "2026-09-09 20:35:00"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 7361,
+    "subject": "PCA for Gulf & Bay Bayside - 1350 Due Date: 7/30/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-04 09:30:00 to 2026-09-10 09:30:00",
+    "from": "2026-09-04 09:30:00",
+    "to": "2026-09-10 09:30:00"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 7165,
+    "subject": "PCA for Gulf & Bay Bayside - 1346 Due Date: 7/24/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-04 10:30:00 to 2026-09-10 00:30:00",
+    "from": "2026-09-04 10:30:00",
+    "to": "2026-09-10 00:30:00"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8699,
+    "subject": "Sosa Ariel M/Gulf & Bay Bayside - 1219/Res #: 61411/Welcome Packet",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8698,
+    "subject": "Bareishis Charles/ Res #: 62594/Colony Inn C-53/ Early Check-In Request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8697,
+    "subject": "Name: Cristobal Ricardo | Res: 49339 | HOA Membership Extension Request | Riverstrand",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8696,
+    "subject": "Susan Funk 1-star review",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8690,
+    "subject": "Golfside Escape-cleaning",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8681,
+    "subject": "Res #: 62508 | Cancellation Request due to low rate",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8642,
+    "subject": "#1206 AC 2nd floor leaking into ceiling",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8596,
+    "subject": "Snaplee Photo _ VM",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8559,
+    "subject": "Name: Towle Rebecca | Res: 57610 | Cancelled 50% Retained - OTA",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 8177,
+    "subject": "PCA for The Beach Fact Oar Due Date: 9/7/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-09T15:42:21+00:00",
+    "ticket_number": 7813,
+    "subject": "Expedia Group Health & Safety Case No: 148595466",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-09T06:15:13+00:00",
     "ticket_number": 8702,
     "subject": "5 Star Review Feedback | Res #: 61153 | Villalba Randy | My Great Escape | 9/4/2026-9/7/2026",
