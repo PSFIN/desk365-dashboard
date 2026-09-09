@@ -1,5 +1,119 @@
 [
   {
+    "ts": "2026-09-09T21:32:12+00:00",
+    "ticket_number": 8721,
+    "subject": "zGulf & Bay Bayside - 1341 Previous Owner | Owner Income Documentation Request for IRS",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-09T21:32:12+00:00",
+    "ticket_number": 8720,
+    "subject": "Enjoy Sarasota-cleaning",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-09T21:32:12+00:00",
+    "ticket_number": 8719,
+    "subject": "Grand Getaway- replacement",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-09T21:32:12+00:00",
+    "ticket_number": 8632,
+    "subject": "Res. No. 44009 - Kathleen Donnelly - Oakwater Escape  - star rating: 3",
+    "type": "reassigned",
+    "detail": "Reassigned from m.eronico@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
+    "from": "m.eronico@choosegulfcoast.com",
+    "to": "s.soriafrausto@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-09T21:32:12+00:00",
+    "ticket_number": 8607,
+    "subject": "GBB office shelves",
+    "type": "reassigned",
+    "detail": "Reassigned from c.nutt@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "c.nutt@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-09T21:32:12+00:00",
+    "ticket_number": 8607,
+    "subject": "GBB office shelves",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-08 16:15:00 to 2026-09-12 16:15:00",
+    "from": "2026-09-08 16:15:00",
+    "to": "2026-09-12 16:15:00"
+  },
+  {
+    "ts": "2026-09-09T21:32:12+00:00",
+    "ticket_number": 8330,
+    "subject": "PCA for Golden Beach Haven Due Date: 9/14/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from s.paulin@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
+    "from": "s.paulin@choosegulfcoast.com",
+    "to": "j.rushton@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-09T21:32:12+00:00",
+    "ticket_number": 8322,
+    "subject": "Avalon landscape",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-09T21:32:12+00:00",
+    "ticket_number": 8157,
+    "subject": "At Risk Property- Florida Dreams",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-09T21:32:12+00:00",
+    "ticket_number": 7951,
+    "subject": "PCA for Villa In The Clouds Due Date: 8/31/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from s.paulin@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
+    "from": "s.paulin@choosegulfcoast.com",
+    "to": "j.rushton@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-09T21:32:12+00:00",
+    "ticket_number": 7015,
+    "subject": "PCA for Array Of Sunshine Due Date: July 8, 2026",
+    "type": "reassigned",
+    "detail": "Reassigned from s.paulin@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "s.paulin@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-09T21:32:12+00:00",
+    "ticket_number": 8548,
+    "subject": "Pollett Elizabeth/Harbour Happiness/ Res #: 59239/Maintenance & Management Ticket \u2013 Pool Safety Concern",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-09T21:32:12+00:00",
+    "ticket_number": 8516,
+    "subject": "Unit: Coral Paradise | Guest Name: Schwab Emily | Exterior Structure / Storm Damage",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-09T21:32:12+00:00",
+    "ticket_number": 8307,
+    "subject": "Leonard Robert | Unit: Links & Leisure | Res #: 52169 | Washer doesn't work",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-09T18:58:44+00:00",
     "ticket_number": 8718,
     "subject": "o6ers-cover",

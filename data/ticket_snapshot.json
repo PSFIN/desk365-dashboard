@@ -1,4 +1,25 @@
 {
+  "8721": {
+    "subject": "zGulf & Bay Bayside - 1341 Previous Owner | Owner Income Documentation Request for IRS",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-14 20:54:19",
+    "priority": 1
+  },
+  "8720": {
+    "subject": "Enjoy Sarasota-cleaning",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-14 19:58:53",
+    "priority": 10
+  },
+  "8719": {
+    "subject": "Grand Getaway- replacement",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-14 19:35:34",
+    "priority": 10
+  },
   "8718": {
     "subject": "o6ers-cover",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
@@ -225,7 +246,7 @@
   },
   "8632": {
     "subject": "Res. No. 44009 - Kathleen Donnelly - Oakwater Escape  - star rating: 3",
-    "assigned_to": "m.eronico@choosegulfcoast.com",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-08 20:09:36",
     "priority": 5
@@ -295,9 +316,9 @@
   },
   "8607": {
     "subject": "GBB office shelves",
-    "assigned_to": "c.nutt@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-08 16:15:00",
+    "due_date": "2026-09-12 16:15:00",
     "priority": 20
   },
   "8602": {
@@ -377,13 +398,6 @@
     "due_date": "2026-09-13 16:00:00",
     "priority": 10
   },
-  "8548": {
-    "subject": "Pollett Elizabeth/Harbour Happiness/ Res #: 59239/Maintenance & Management Ticket \u2013 Pool Safety Concern",
-    "assigned_to": "z.adair@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-09 19:35:06",
-    "priority": 20
-  },
   "8545": {
     "subject": "DR-11 Form : Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
     "assigned_to": "l.brigida@choosegulfcoast.com",
@@ -410,13 +424,6 @@
     "assigned_to": "n.armstrong@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-16 22:00:00",
-    "priority": 1
-  },
-  "8516": {
-    "subject": "Unit: Coral Paradise | Guest Name: Schwab Emily | Exterior Structure / Storm Damage",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-04 22:00:00",
     "priority": 1
   },
   "8515": {
@@ -554,7 +561,7 @@
   },
   "8330": {
     "subject": "PCA for Golden Beach Haven Due Date: 9/14/2026",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-17 22:00:00",
     "priority": 5
@@ -568,7 +575,7 @@
   },
   "8322": {
     "subject": "Avalon landscape",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-10 22:00:00",
     "priority": 1
@@ -586,13 +593,6 @@
     "status": "Open",
     "due_date": "2026-09-12 20:16:00",
     "priority": 5
-  },
-  "8307": {
-    "subject": "Leonard Robert | Unit: Links & Leisure | Res #: 52169 | Washer doesn't work",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-08-28 14:40:00",
-    "priority": 10
   },
   "8245": {
     "subject": "PCA for Tropical Gulf Retreat Due Date: 9/1/2026",
@@ -617,7 +617,7 @@
   },
   "8157": {
     "subject": "At Risk Property- Florida Dreams",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-10 21:13:00",
     "priority": 10
@@ -645,7 +645,7 @@
   },
   "7951": {
     "subject": "PCA for Villa In The Clouds Due Date: 8/31/2026",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-12 19:00:00",
     "priority": 5
@@ -806,7 +806,7 @@
   },
   "7015": {
     "subject": "PCA for Array Of Sunshine Due Date: July 8, 2026",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-08 22:00:00",
     "priority": 5
