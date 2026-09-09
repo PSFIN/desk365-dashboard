@@ -1,4 +1,18 @@
 {
+  "8702": {
+    "subject": "5 Star Review Feedback | Res #: 61153 | Villalba Randy | My Great Escape | 9/4/2026-9/7/2026",
+    "assigned_to": "b.williams@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-11 22:00:00",
+    "priority": 1
+  },
+  "8701": {
+    "subject": "Ksonshkevych Tetiana/Gulf & Bay Bayside - 1260/  Res #: 58424/Goodwill Gesture",
+    "assigned_to": "c.nutt@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-11 22:00:00",
+    "priority": 1
+  },
   "8700": {
     "subject": "Bihday Deborah/ Paraclete Paradise/Res #: 58054/Floor",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
@@ -8,7 +22,7 @@
   },
   "8699": {
     "subject": "Sosa Ariel M/Gulf & Bay Bayside - 1219/Res #: 61411/Welcome Packet",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "c.nutt@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-11 22:00:00",
     "priority": 1
