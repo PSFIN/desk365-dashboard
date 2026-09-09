@@ -1,4 +1,39 @@
 {
+  "8718": {
+    "subject": "o6ers-cover",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-14 18:46:28",
+    "priority": 1
+  },
+  "8717": {
+    "subject": "Florida Fabulous-comp 790",
+    "assigned_to": "m.johnston@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-14 18:29:19",
+    "priority": 1
+  },
+  "8716": {
+    "subject": "Palm Meadow-owner visit",
+    "assigned_to": "a.guarin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-14 16:53:57",
+    "priority": 1
+  },
+  "8715": {
+    "subject": "YCA Booking #1908 Refund check # 7383",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-14 16:38:50",
+    "priority": 10
+  },
+  "8714": {
+    "subject": "Precious Gem-add pet friendly",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-14 16:22:59",
+    "priority": 1
+  },
   "8713": {
     "subject": "Gulf Horizon - Keypad batteries",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
@@ -15,14 +50,14 @@
   },
   "8708": {
     "subject": "Bayside Paradise-ARDI",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-14 14:19:36",
     "priority": 1
   },
   "8707": {
     "subject": "Rhodes Tracy | Heavenly Daze | Res #: 45497 | Property Viewing Req",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "i.yates@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-14 14:15:54",
     "priority": 1
@@ -40,13 +75,6 @@
     "status": "Open",
     "due_date": "2026-09-11 22:00:00",
     "priority": 1
-  },
-  "8704": {
-    "subject": "copy of legacy contracts",
-    "assigned_to": "b.vandroff@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-11 22:00:00",
-    "priority": 10
   },
   "8702": {
     "subject": "5 Star Review Feedback | Res #: 61153 | Villalba Randy | My Great Escape | 9/4/2026-9/7/2026",
@@ -190,7 +218,7 @@
   },
   "8634": {
     "subject": "Property Management Inquiry",
-    "assigned_to": "b.vandroff@choosegulfcoast.com",
+    "assigned_to": "a.vetick@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-14 21:07:00",
     "priority": 1
@@ -220,7 +248,7 @@
     "subject": "Sprinkler at 12 noon",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-10 16:17:00",
+    "due_date": "2026-09-14 16:17:00",
     "priority": 1
   },
   "8624": {
@@ -351,7 +379,7 @@
   },
   "8548": {
     "subject": "Pollett Elizabeth/Harbour Happiness/ Res #: 59239/Maintenance & Management Ticket \u2013 Pool Safety Concern",
-    "assigned_to": "m.eronico@choosegulfcoast.com",
+    "assigned_to": "z.adair@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-09 19:35:06",
     "priority": 20
@@ -375,13 +403,6 @@
     "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-03 18:40:05",
-    "priority": 1
-  },
-  "8534": {
-    "subject": "GBB1338 - New Photos",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-10 16:05:00",
     "priority": 1
   },
   "8523": {
@@ -442,7 +463,7 @@
   },
   "8443": {
     "subject": "PCA for Luna Sea Due Date: 9/17/2026",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-08 22:00:00",
     "priority": 5
@@ -547,7 +568,7 @@
   },
   "8322": {
     "subject": "Avalon landscape",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-10 22:00:00",
     "priority": 1
@@ -596,7 +617,7 @@
   },
   "8157": {
     "subject": "At Risk Property- Florida Dreams",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-10 21:13:00",
     "priority": 10
@@ -631,7 +652,7 @@
   },
   "7949": {
     "subject": "PCA for Dreams Of Paradise Due Date: 8/26/2026",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-11 18:57:00",
     "priority": 5
@@ -708,16 +729,16 @@
   },
   "7397": {
     "subject": "Marriott Curation Rejected - Signal inn 03",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-11 15:28:00",
     "priority": 5
   },
   "7396": {
     "subject": "Marriott Curation Rejected - Signal Inn 18",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-11 15:06:00",
+    "due_date": "2026-09-18 15:06:00",
     "priority": 5
   },
   "7392": {

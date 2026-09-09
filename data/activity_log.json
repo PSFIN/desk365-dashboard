@@ -1,5 +1,162 @@
 [
   {
+    "ts": "2026-09-09T18:58:44+00:00",
+    "ticket_number": 8718,
+    "subject": "o6ers-cover",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-09T18:58:44+00:00",
+    "ticket_number": 8717,
+    "subject": "Florida Fabulous-comp 790",
+    "type": "created",
+    "detail": "Created \u2014 assigned to m.johnston@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-09T18:58:44+00:00",
+    "ticket_number": 8716,
+    "subject": "Palm Meadow-owner visit",
+    "type": "created",
+    "detail": "Created \u2014 assigned to a.guarin@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-09T18:58:44+00:00",
+    "ticket_number": 8715,
+    "subject": "YCA Booking #1908 Refund check # 7383",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-09T18:58:44+00:00",
+    "ticket_number": 8714,
+    "subject": "Precious Gem-add pet friendly",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.paulin@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-09T18:58:44+00:00",
+    "ticket_number": 8708,
+    "subject": "Bayside Paradise-ARDI",
+    "type": "reassigned",
+    "detail": "Reassigned from c.thayer@choosegulfcoast.com to e.morales@choosegulfcoast.com",
+    "from": "c.thayer@choosegulfcoast.com",
+    "to": "e.morales@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-09T18:58:44+00:00",
+    "ticket_number": 8707,
+    "subject": "Rhodes Tracy | Heavenly Daze | Res #: 45497 | Property Viewing Req",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to i.yates@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "i.yates@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-09T18:58:44+00:00",
+    "ticket_number": 8634,
+    "subject": "Property Management Inquiry",
+    "type": "reassigned",
+    "detail": "Reassigned from b.vandroff@choosegulfcoast.com to a.vetick@choosegulfcoast.com",
+    "from": "b.vandroff@choosegulfcoast.com",
+    "to": "a.vetick@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-09T18:58:44+00:00",
+    "ticket_number": 8626,
+    "subject": "Sprinkler at 12 noon",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-10 16:17:00 to 2026-09-14 16:17:00",
+    "from": "2026-09-10 16:17:00",
+    "to": "2026-09-14 16:17:00"
+  },
+  {
+    "ts": "2026-09-09T18:58:44+00:00",
+    "ticket_number": 8548,
+    "subject": "Pollett Elizabeth/Harbour Happiness/ Res #: 59239/Maintenance & Management Ticket \u2013 Pool Safety Concern",
+    "type": "reassigned",
+    "detail": "Reassigned from m.eronico@choosegulfcoast.com to z.adair@choosegulfcoast.com",
+    "from": "m.eronico@choosegulfcoast.com",
+    "to": "z.adair@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-09T18:58:44+00:00",
+    "ticket_number": 8443,
+    "subject": "PCA for Luna Sea Due Date: 9/17/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from c.thayer@choosegulfcoast.com to t.healy@choosegulfcoast.com",
+    "from": "c.thayer@choosegulfcoast.com",
+    "to": "t.healy@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-09T18:58:44+00:00",
+    "ticket_number": 8322,
+    "subject": "Avalon landscape",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-09T18:58:44+00:00",
+    "ticket_number": 8157,
+    "subject": "At Risk Property- Florida Dreams",
+    "type": "reassigned",
+    "detail": "Reassigned from c.thayer@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "c.thayer@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-09T18:58:44+00:00",
+    "ticket_number": 7949,
+    "subject": "PCA for Dreams Of Paradise Due Date: 8/26/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from c.thayer@choosegulfcoast.com to t.healy@choosegulfcoast.com",
+    "from": "c.thayer@choosegulfcoast.com",
+    "to": "t.healy@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-09T18:58:44+00:00",
+    "ticket_number": 7397,
+    "subject": "Marriott Curation Rejected - Signal inn 03",
+    "type": "reassigned",
+    "detail": "Reassigned from c.hernandez@choosegulfcoast.com to n.ventura@choosegulfcoast.com",
+    "from": "c.hernandez@choosegulfcoast.com",
+    "to": "n.ventura@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-09T18:58:44+00:00",
+    "ticket_number": 7396,
+    "subject": "Marriott Curation Rejected - Signal Inn 18",
+    "type": "reassigned",
+    "detail": "Reassigned from c.hernandez@choosegulfcoast.com to s.paulin@choosegulfcoast.com",
+    "from": "c.hernandez@choosegulfcoast.com",
+    "to": "s.paulin@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-09T18:58:44+00:00",
+    "ticket_number": 7396,
+    "subject": "Marriott Curation Rejected - Signal Inn 18",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-11 15:06:00 to 2026-09-18 15:06:00",
+    "from": "2026-09-11 15:06:00",
+    "to": "2026-09-18 15:06:00"
+  },
+  {
+    "ts": "2026-09-09T18:58:44+00:00",
+    "ticket_number": 8704,
+    "subject": "copy of legacy contracts",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-09T18:58:44+00:00",
+    "ticket_number": 8534,
+    "subject": "GBB1338 - New Photos",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-09T15:42:21+00:00",
     "ticket_number": 8713,
     "subject": "Gulf Horizon - Keypad batteries",
