@@ -1,4 +1,25 @@
 {
+  "8738": {
+    "subject": "Name: Kathy & Tom Kuzma  | Res: 33981 | YCBR Deposit Refund Request",
+    "assigned_to": "k.fisher@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-15 21:31:47",
+    "priority": 1
+  },
+  "8737": {
+    "subject": "Carmona Newton | Unit: Birdie | Res #: 61948 | Multiple Issues",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-15 20:33:25",
+    "priority": 1
+  },
+  "8736": {
+    "subject": "5 Star Review Feedback | Res #: 58384 | Douglass Romy | Turtle House | 9/3/2026-9/7/2026",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-15 19:46:34",
+    "priority": 1
+  },
   "8735": {
     "subject": "Change Credit Card Information - Google Ad's",
     "assigned_to": "e.buchanan@choosegulfcoast.com",
@@ -34,13 +55,6 @@
     "due_date": "2026-09-15 15:48:13",
     "priority": 10
   },
-  "8730": {
-    "subject": "Wilson Danielle | Ocean Eyes | Res #: 55819 | Guest Bathroom Locked out",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-15 15:26:26",
-    "priority": 1
-  },
   "8729": {
     "subject": "City of Bradenton Vacation Rental License - Unincorporated Manatee County",
     "assigned_to": "l.brigida@choosegulfcoast.com",
@@ -71,7 +85,7 @@
   },
   "8725": {
     "subject": "Check Refund | Res #57666 | wagner Greg | Gulf & Bay Bayside - 1200",
-    "assigned_to": "k.zeh@choosegulfcoast.com",
+    "assigned_to": "k.fisher@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-14 22:00:00",
     "priority": 1
@@ -85,7 +99,7 @@
   },
   "8723": {
     "subject": "Shore Bet cleaning",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-14 22:00:00",
     "priority": 1
@@ -131,13 +145,6 @@
     "status": "Open",
     "due_date": "2026-09-14 16:53:57",
     "priority": 1
-  },
-  "8715": {
-    "subject": "YCA Booking #1908 Refund check # 7383",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-14 16:38:50",
-    "priority": 10
   },
   "8713": {
     "subject": "Gulf Horizon - Keypad batteries",
@@ -206,14 +213,14 @@
     "subject": "Kedrych Alisa/Gulf & Bay Bayside - 1291/ Res #: 59049/AC Issues and Microwave",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-11 18:00:00",
+    "due_date": "2026-09-12 18:00:00",
     "priority": 20
   },
   "8685": {
     "subject": "Rodriguez Geraldine | Res #: 60982 | Beach House Residences Unit 1 | Feedback",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-10 17:26:41",
+    "due_date": "2026-09-12 17:26:00",
     "priority": 1
   },
   "8684": {
@@ -330,14 +337,7 @@
   },
   "8621": {
     "subject": "PCA - Sunny Retreat",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-07 22:00:00",
-    "priority": 1
-  },
-  "8620": {
-    "subject": "PCA - La Vida Loca",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-07 22:00:00",
     "priority": 1
@@ -615,13 +615,6 @@
     "due_date": "2026-09-10 22:00:00",
     "priority": 1
   },
-  "8312": {
-    "subject": "PCA for Southern Exposure Due Date: 9/10/2026",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-25 20:18:00",
-    "priority": 5
-  },
   "8311": {
     "subject": "PCA for Sans Souci Due Date: 9/10/2026",
     "assigned_to": "t.healy@choosegulfcoast.com",
@@ -668,7 +661,7 @@
     "subject": "Rising tides- pool deck, chairs, couch and window",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-02 19:46:00",
+    "due_date": "2026-09-14 19:46:00",
     "priority": 10
   },
   "7951": {

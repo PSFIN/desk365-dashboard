@@ -1,5 +1,108 @@
 [
   {
+    "ts": "2026-09-10T21:43:50+00:00",
+    "ticket_number": 8738,
+    "subject": "Name: Kathy & Tom Kuzma  | Res: 33981 | YCBR Deposit Refund Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to k.fisher@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-10T21:43:50+00:00",
+    "ticket_number": 8737,
+    "subject": "Carmona Newton | Unit: Birdie | Res #: 61948 | Multiple Issues",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-10T21:43:50+00:00",
+    "ticket_number": 8736,
+    "subject": "5 Star Review Feedback | Res #: 58384 | Douglass Romy | Turtle House | 9/3/2026-9/7/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-10T21:43:50+00:00",
+    "ticket_number": 8725,
+    "subject": "Check Refund | Res #57666 | wagner Greg | Gulf & Bay Bayside - 1200",
+    "type": "reassigned",
+    "detail": "Reassigned from k.zeh@choosegulfcoast.com to k.fisher@choosegulfcoast.com",
+    "from": "k.zeh@choosegulfcoast.com",
+    "to": "k.fisher@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-10T21:43:50+00:00",
+    "ticket_number": 8723,
+    "subject": "Shore Bet cleaning",
+    "type": "reassigned",
+    "detail": "Reassigned from j.rushton@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
+    "from": "j.rushton@choosegulfcoast.com",
+    "to": "s.soriafrausto@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-10T21:43:50+00:00",
+    "ticket_number": 8687,
+    "subject": "Kedrych Alisa/Gulf & Bay Bayside - 1291/ Res #: 59049/AC Issues and Microwave",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-11 18:00:00 to 2026-09-12 18:00:00",
+    "from": "2026-09-11 18:00:00",
+    "to": "2026-09-12 18:00:00"
+  },
+  {
+    "ts": "2026-09-10T21:43:50+00:00",
+    "ticket_number": 8685,
+    "subject": "Rodriguez Geraldine | Res #: 60982 | Beach House Residences Unit 1 | Feedback",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-10 17:26:41 to 2026-09-12 17:26:00",
+    "from": "2026-09-10 17:26:41",
+    "to": "2026-09-12 17:26:00"
+  },
+  {
+    "ts": "2026-09-10T21:43:50+00:00",
+    "ticket_number": 8621,
+    "subject": "PCA - Sunny Retreat",
+    "type": "reassigned",
+    "detail": "Reassigned from c.thayer@choosegulfcoast.com to t.healy@choosegulfcoast.com",
+    "from": "c.thayer@choosegulfcoast.com",
+    "to": "t.healy@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-10T21:43:50+00:00",
+    "ticket_number": 8007,
+    "subject": "Rising tides- pool deck, chairs, couch and window",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-02 19:46:00 to 2026-09-14 19:46:00",
+    "from": "2026-09-02 19:46:00",
+    "to": "2026-09-14 19:46:00"
+  },
+  {
+    "ts": "2026-09-10T21:43:50+00:00",
+    "ticket_number": 8730,
+    "subject": "Wilson Danielle | Ocean Eyes | Res #: 55819 | Guest Bathroom Locked out",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-10T21:43:50+00:00",
+    "ticket_number": 8715,
+    "subject": "YCA Booking #1908 Refund check # 7383",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-10T21:43:50+00:00",
+    "ticket_number": 8620,
+    "subject": "PCA - La Vida Loca",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-10T21:43:50+00:00",
+    "ticket_number": 8312,
+    "subject": "PCA for Southern Exposure Due Date: 9/10/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-10T19:24:17+00:00",
     "ticket_number": 8735,
     "subject": "Change Credit Card Information - Google Ad's",
