@@ -1,5 +1,151 @@
 [
   {
+    "ts": "2026-09-10T16:34:48+00:00",
+    "ticket_number": 8731,
+    "subject": "Signal Inn Landscape lighting",
+    "type": "created",
+    "detail": "Created \u2014 assigned to l.costa@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-10T16:34:48+00:00",
+    "ticket_number": 8730,
+    "subject": "Wilson Danielle | Ocean Eyes | Res #: 55819 | Guest Bathroom Locked out",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-10T16:34:48+00:00",
+    "ticket_number": 8729,
+    "subject": "City of Bradenton Vacation Rental License - Unincorporated Manatee County",
+    "type": "created",
+    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-10T16:34:48+00:00",
+    "ticket_number": 8728,
+    "subject": "Sales & Tourist Tax Remittance - August 2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-10T16:34:48+00:00",
+    "ticket_number": 8727,
+    "subject": "zsunset Splash-owner payment",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-10T16:34:48+00:00",
+    "ticket_number": 8726,
+    "subject": "Master Bedroom Door Does Not Lock /Danielle Wilson/ Ocean Eyes",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-10T16:34:48+00:00",
+    "ticket_number": 8723,
+    "subject": "Shore Bet cleaning",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "j.rushton@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-10T16:34:48+00:00",
+    "ticket_number": 8715,
+    "subject": "YCA Booking #1908 Refund check # 7383",
+    "type": "reassigned",
+    "detail": "Reassigned from h.nomura@choosegulfcoast.com to a.ytac@choosegulfcoast.com",
+    "from": "h.nomura@choosegulfcoast.com",
+    "to": "a.ytac@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-10T16:34:48+00:00",
+    "ticket_number": 8706,
+    "subject": "A Shore Thing - Deep clean",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-14 14:08:51 to 2026-09-19 14:08:00",
+    "from": "2026-09-14 14:08:51",
+    "to": "2026-09-19 14:08:00"
+  },
+  {
+    "ts": "2026-09-10T16:34:48+00:00",
+    "ticket_number": 8705,
+    "subject": "Sunset Splash-comp pool",
+    "type": "reassigned",
+    "detail": "Reassigned from m.johnston@choosegulfcoast.com to e.morales@choosegulfcoast.com",
+    "from": "m.johnston@choosegulfcoast.com",
+    "to": "e.morales@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-10T16:34:48+00:00",
+    "ticket_number": 8705,
+    "subject": "Sunset Splash-comp pool",
+    "type": "priority_changed",
+    "detail": "Priority changed from 1 to 10",
+    "from": 1,
+    "to": 10
+  },
+  {
+    "ts": "2026-09-10T16:34:48+00:00",
+    "ticket_number": 8672,
+    "subject": "Harrell Matthew | Unit: Sans Souci |  Res #: 62332 | AC is not working",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to c.hernandez@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "c.hernandez@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-10T16:34:48+00:00",
+    "ticket_number": 8632,
+    "subject": "Res. No. 44009 - Kathleen Donnelly - Oakwater Escape  - star rating: 3",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-08 20:09:36 to 2026-09-11 20:09:00",
+    "from": "2026-09-08 20:09:36",
+    "to": "2026-09-11 20:09:00"
+  },
+  {
+    "ts": "2026-09-10T16:34:48+00:00",
+    "ticket_number": 8541,
+    "subject": "Res #: 52252 | Pritchett Darin | Day Dreamer | Communal Pool Out of Service",
+    "type": "reassigned",
+    "detail": "Reassigned from b.zeh@choosegulfcoast.com to c.hernandez@choosegulfcoast.com",
+    "from": "b.zeh@choosegulfcoast.com",
+    "to": "c.hernandez@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-10T16:34:48+00:00",
+    "ticket_number": 8410,
+    "subject": "YCBR Photo shoot",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-11 19:15:00 to 2026-09-30 19:15:00",
+    "from": "2026-09-11 19:15:00",
+    "to": "2026-09-30 19:15:00"
+  },
+  {
+    "ts": "2026-09-10T16:34:48+00:00",
+    "ticket_number": 8188,
+    "subject": "Casa de Suenos-guest smoking in property",
+    "type": "reassigned",
+    "detail": "Reassigned from h.nomura@choosegulfcoast.com to a.ytac@choosegulfcoast.com",
+    "from": "h.nomura@choosegulfcoast.com",
+    "to": "a.ytac@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-10T16:34:48+00:00",
+    "ticket_number": 8718,
+    "subject": "o6ers-cover",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-10T16:34:48+00:00",
+    "ticket_number": 8384,
+    "subject": "DR-11 Form : Sun Seeker - 5544 Summit Pointe Cir",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-10T12:19:23+00:00",
     "ticket_number": 8707,
     "subject": "Rhodes Tracy | Heavenly Daze | Res #: 45497 | Property Viewing Req",

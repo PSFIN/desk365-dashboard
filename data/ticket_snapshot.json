@@ -1,4 +1,46 @@
 {
+  "8731": {
+    "subject": "Signal Inn Landscape lighting",
+    "assigned_to": "l.costa@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-15 15:48:13",
+    "priority": 10
+  },
+  "8730": {
+    "subject": "Wilson Danielle | Ocean Eyes | Res #: 55819 | Guest Bathroom Locked out",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-15 15:26:26",
+    "priority": 1
+  },
+  "8729": {
+    "subject": "City of Bradenton Vacation Rental License - Unincorporated Manatee County",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-10 21:00:00",
+    "priority": 5
+  },
+  "8728": {
+    "subject": "Sales & Tourist Tax Remittance - August 2026",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-11 13:00:00",
+    "priority": 10
+  },
+  "8727": {
+    "subject": "zsunset Splash-owner payment",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-11 18:00:00",
+    "priority": 20
+  },
+  "8726": {
+    "subject": "Master Bedroom Door Does Not Lock /Danielle Wilson/ Ocean Eyes",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-14 22:00:00",
+    "priority": 1
+  },
   "8725": {
     "subject": "Check Refund | Res #57666 | wagner Greg | Gulf & Bay Bayside - 1200",
     "assigned_to": "k.zeh@choosegulfcoast.com",
@@ -15,7 +57,7 @@
   },
   "8723": {
     "subject": "Shore Bet cleaning",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-14 22:00:00",
     "priority": 1
@@ -48,13 +90,6 @@
     "due_date": "2026-09-14 19:35:34",
     "priority": 10
   },
-  "8718": {
-    "subject": "o6ers-cover",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-14 18:46:28",
-    "priority": 1
-  },
   "8717": {
     "subject": "Florida Fabulous-comp 790",
     "assigned_to": "m.johnston@choosegulfcoast.com",
@@ -71,7 +106,7 @@
   },
   "8715": {
     "subject": "YCA Booking #1908 Refund check # 7383",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "assigned_to": "a.ytac@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-14 16:38:50",
     "priority": 10
@@ -115,15 +150,15 @@
     "subject": "A Shore Thing - Deep clean",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-14 14:08:51",
+    "due_date": "2026-09-19 14:08:00",
     "priority": 1
   },
   "8705": {
     "subject": "Sunset Splash-comp pool",
-    "assigned_to": "m.johnston@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-11 22:00:00",
-    "priority": 1
+    "priority": 10
   },
   "8702": {
     "subject": "5 Star Review Feedback | Res #: 61153 | Villalba Randy | My Great Escape | 9/4/2026-9/7/2026",
@@ -218,7 +253,7 @@
   },
   "8672": {
     "subject": "Harrell Matthew | Unit: Sans Souci |  Res #: 62332 | AC is not working",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-10 22:00:00",
     "priority": 1
@@ -276,7 +311,7 @@
     "subject": "Res. No. 44009 - Kathleen Donnelly - Oakwater Escape  - star rating: 3",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-08 20:09:36",
+    "due_date": "2026-09-11 20:09:00",
     "priority": 5
   },
   "8629": {
@@ -442,7 +477,7 @@
   },
   "8541": {
     "subject": "Res #: 52252 | Pritchett Darin | Day Dreamer | Communal Pool Out of Service",
-    "assigned_to": "b.zeh@choosegulfcoast.com",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-11 18:40:00",
     "priority": 1
@@ -528,15 +563,8 @@
     "subject": "YCBR Photo shoot",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-11 19:15:00",
+    "due_date": "2026-09-30 19:15:00",
     "priority": 5
-  },
-  "8384": {
-    "subject": "DR-11 Form : Sun Seeker - 5544 Summit Pointe Cir",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-10 16:00:00",
-    "priority": 10
   },
   "8372": {
     "subject": "DR-11 Forms : Multiple Property Units",
@@ -631,7 +659,7 @@
   },
   "8188": {
     "subject": "Casa de Suenos-guest smoking in property",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "assigned_to": "a.ytac@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-11 21:00:00",
     "priority": 10
