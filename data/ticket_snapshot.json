@@ -1,4 +1,32 @@
 {
+  "8725": {
+    "subject": "Check Refund | Res #57666 | wagner Greg | Gulf & Bay Bayside - 1200",
+    "assigned_to": "k.zeh@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-14 22:00:00",
+    "priority": 1
+  },
+  "8724": {
+    "subject": "YCBR - Touch up cleans",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-14 22:00:00",
+    "priority": 1
+  },
+  "8723": {
+    "subject": "Shore Bet cleaning",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-14 22:00:00",
+    "priority": 1
+  },
+  "8722": {
+    "subject": "Coast is clear - cleaning",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-14 22:00:00",
+    "priority": 1
+  },
   "8721": {
     "subject": "zGulf & Bay Bayside - 1341 Previous Owner | Owner Income Documentation Request for IRS",
     "assigned_to": "e.morales@choosegulfcoast.com",
@@ -498,9 +526,9 @@
   },
   "8410": {
     "subject": "YCBR Photo shoot",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-09 19:15:00",
+    "due_date": "2026-09-11 19:15:00",
     "priority": 5
   },
   "8384": {
@@ -713,13 +741,6 @@
     "due_date": "2026-09-11 22:00:00",
     "priority": 5
   },
-  "7425": {
-    "subject": "Marriott Curation Rejected - Gulf & Bay Bayside - 1318",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-10 18:19:00",
-    "priority": 5
-  },
   "7405": {
     "subject": "Marriott Curation Rejected - Signal Inn 02",
     "assigned_to": "s.paulin@choosegulfcoast.com",
@@ -755,18 +776,11 @@
     "due_date": "2026-09-19 20:59:00",
     "priority": 5
   },
-  "7362": {
-    "subject": "PCA for Family Tides Due Date: 7/31/2026",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-09 20:35:00",
-    "priority": 5
-  },
   "7361": {
     "subject": "PCA for Gulf & Bay Bayside - 1350 Due Date: 7/30/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-10 09:30:00",
+    "due_date": "2026-09-10 17:00:00",
     "priority": 5
   },
   "7346": {
@@ -787,7 +801,7 @@
     "subject": "PCA for Gulf & Bay Bayside - 1346 Due Date: 7/24/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-10 00:30:00",
+    "due_date": "2026-09-11 00:30:00",
     "priority": 5
   },
   "7156": {

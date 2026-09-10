@@ -1,5 +1,83 @@
 [
   {
+    "ts": "2026-09-10T02:28:22+00:00",
+    "ticket_number": 8725,
+    "subject": "Check Refund | Res #57666 | wagner Greg | Gulf & Bay Bayside - 1200",
+    "type": "created",
+    "detail": "Created \u2014 assigned to k.zeh@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-10T02:28:22+00:00",
+    "ticket_number": 8724,
+    "subject": "YCBR - Touch up cleans",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-10T02:28:22+00:00",
+    "ticket_number": 8723,
+    "subject": "Shore Bet cleaning",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-10T02:28:22+00:00",
+    "ticket_number": 8722,
+    "subject": "Coast is clear - cleaning",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-10T02:28:22+00:00",
+    "ticket_number": 8410,
+    "subject": "YCBR Photo shoot",
+    "type": "reassigned",
+    "detail": "Reassigned from j.rushton@choosegulfcoast.com to b.meyer@choosegulfcoast.com",
+    "from": "j.rushton@choosegulfcoast.com",
+    "to": "b.meyer@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-10T02:28:22+00:00",
+    "ticket_number": 8410,
+    "subject": "YCBR Photo shoot",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-09 19:15:00 to 2026-09-11 19:15:00",
+    "from": "2026-09-09 19:15:00",
+    "to": "2026-09-11 19:15:00"
+  },
+  {
+    "ts": "2026-09-10T02:28:22+00:00",
+    "ticket_number": 7361,
+    "subject": "PCA for Gulf & Bay Bayside - 1350 Due Date: 7/30/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-10 09:30:00 to 2026-09-10 17:00:00",
+    "from": "2026-09-10 09:30:00",
+    "to": "2026-09-10 17:00:00"
+  },
+  {
+    "ts": "2026-09-10T02:28:22+00:00",
+    "ticket_number": 7165,
+    "subject": "PCA for Gulf & Bay Bayside - 1346 Due Date: 7/24/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-10 00:30:00 to 2026-09-11 00:30:00",
+    "from": "2026-09-10 00:30:00",
+    "to": "2026-09-11 00:30:00"
+  },
+  {
+    "ts": "2026-09-10T02:28:22+00:00",
+    "ticket_number": 7425,
+    "subject": "Marriott Curation Rejected - Gulf & Bay Bayside - 1318",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-10T02:28:22+00:00",
+    "ticket_number": 7362,
+    "subject": "PCA for Family Tides Due Date: 7/31/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-09T21:32:12+00:00",
     "ticket_number": 8721,
     "subject": "zGulf & Bay Bayside - 1341 Previous Owner | Owner Income Documentation Request for IRS",
