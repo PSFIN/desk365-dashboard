@@ -1,5 +1,213 @@
 [
   {
+    "ts": "2026-09-10T19:24:17+00:00",
+    "ticket_number": 8735,
+    "subject": "Change Credit Card Information - Google Ad's",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.buchanan@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-10T19:24:17+00:00",
+    "ticket_number": 8734,
+    "subject": "Southern Exposure-PCA deep clean",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-10T19:24:17+00:00",
+    "ticket_number": 8733,
+    "subject": "Array of Sunshine-deep clean per PCA",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-10T19:24:17+00:00",
+    "ticket_number": 8732,
+    "subject": "Grand Getaway- pool control",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-10T19:24:17+00:00",
+    "ticket_number": 8729,
+    "subject": "City of Bradenton Vacation Rental License - Unincorporated Manatee County",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-10 21:00:00 to 2026-09-15 21:00:00",
+    "from": "2026-09-10 21:00:00",
+    "to": "2026-09-15 21:00:00"
+  },
+  {
+    "ts": "2026-09-10T19:24:17+00:00",
+    "ticket_number": 8728,
+    "subject": "Sales & Tourist Tax Remittance - August 2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-11 13:00:00 to 2026-09-14 13:00:00",
+    "from": "2026-09-11 13:00:00",
+    "to": "2026-09-14 13:00:00"
+  },
+  {
+    "ts": "2026-09-10T19:24:17+00:00",
+    "ticket_number": 8727,
+    "subject": "zsunset Splash-owner payment",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-11 18:00:00 to 2026-10-01 18:00:00",
+    "from": "2026-09-11 18:00:00",
+    "to": "2026-10-01 18:00:00"
+  },
+  {
+    "ts": "2026-09-10T19:24:17+00:00",
+    "ticket_number": 8661,
+    "subject": "Post Arrival - Padilla Marie - Blue Dolphin - Res# 60080",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-09 22:00:00 to 2026-09-11 22:00:00",
+    "from": "2026-09-09 22:00:00",
+    "to": "2026-09-11 22:00:00"
+  },
+  {
+    "ts": "2026-09-10T19:24:17+00:00",
+    "ticket_number": 8621,
+    "subject": "PCA - Sunny Retreat",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "c.thayer@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-10T19:24:17+00:00",
+    "ticket_number": 8620,
+    "subject": "PCA - La Vida Loca",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "c.thayer@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-10T19:24:17+00:00",
+    "ticket_number": 8464,
+    "subject": "Precious Gem-PCA Deep clean",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-11 19:06:00 to 2026-09-16 19:06:00",
+    "from": "2026-09-11 19:06:00",
+    "to": "2026-09-16 19:06:00"
+  },
+  {
+    "ts": "2026-09-10T19:24:17+00:00",
+    "ticket_number": 8443,
+    "subject": "PCA for Luna Sea Due Date: 9/17/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from s.paulin@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
+    "from": "s.paulin@choosegulfcoast.com",
+    "to": "j.rushton@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-10T19:24:17+00:00",
+    "ticket_number": 8431,
+    "subject": "Microwave:Aloha House:WO #41938277",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-05 22:00:00 to 2026-09-12 22:00:00",
+    "from": "2026-09-05 22:00:00",
+    "to": "2026-09-12 22:00:00"
+  },
+  {
+    "ts": "2026-09-10T19:24:17+00:00",
+    "ticket_number": 8312,
+    "subject": "PCA for Southern Exposure Due Date: 9/10/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "c.thayer@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-10T19:24:17+00:00",
+    "ticket_number": 7599,
+    "subject": "PCA for Admirals Watch Due Date:  8/6/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-11 22:00:00 to 2026-10-12 22:00:00",
+    "from": "2026-09-11 22:00:00",
+    "to": "2026-10-12 22:00:00"
+  },
+  {
+    "ts": "2026-09-10T19:24:17+00:00",
+    "ticket_number": 7015,
+    "subject": "PCA for Array Of Sunshine Due Date: July 8, 2026",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "s.soriafrausto@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-10T19:24:17+00:00",
+    "ticket_number": 7015,
+    "subject": "PCA for Array Of Sunshine Due Date: July 8, 2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-08 22:00:00 to 2026-09-12 22:00:00",
+    "from": "2026-09-08 22:00:00",
+    "to": "2026-09-12 22:00:00"
+  },
+  {
+    "ts": "2026-09-10T19:24:17+00:00",
+    "ticket_number": 8714,
+    "subject": "Precious Gem-add pet friendly",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-10T19:24:17+00:00",
+    "ticket_number": 8707,
+    "subject": "Rhodes Tracy | Heavenly Daze | Res #: 45497 | Property Viewing Req",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-10T19:24:17+00:00",
+    "ticket_number": 8694,
+    "subject": "Residences of Siesta Key - Owner charge",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-10T19:24:17+00:00",
+    "ticket_number": 8689,
+    "subject": "GBB1200 - Relocations",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-10T19:24:17+00:00",
+    "ticket_number": 8682,
+    "subject": "Res. No. 60053 - Hillary rose - Florida Dreams - Issue:  Property needs broom, bucket and mop",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-10T19:24:17+00:00",
+    "ticket_number": 8672,
+    "subject": "Harrell Matthew | Unit: Sans Souci |  Res #: 62332 | AC is not working",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-10T19:24:17+00:00",
+    "ticket_number": 8610,
+    "subject": "The Duffers Retreat-PCA deep clean",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-10T19:24:17+00:00",
+    "ticket_number": 8188,
+    "subject": "Casa de Suenos-guest smoking in property",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-10T19:24:17+00:00",
+    "ticket_number": 7949,
+    "subject": "PCA for Dreams Of Paradise Due Date: 8/26/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-10T16:34:48+00:00",
     "ticket_number": 8731,
     "subject": "Signal Inn Landscape lighting",

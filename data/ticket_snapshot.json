@@ -1,4 +1,32 @@
 {
+  "8735": {
+    "subject": "Change Credit Card Information - Google Ad's",
+    "assigned_to": "e.buchanan@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-30 18:50:00",
+    "priority": 1
+  },
+  "8734": {
+    "subject": "Southern Exposure-PCA deep clean",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-15 17:43:38",
+    "priority": 1
+  },
+  "8733": {
+    "subject": "Array of Sunshine-deep clean per PCA",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-15 17:19:37",
+    "priority": 1
+  },
+  "8732": {
+    "subject": "Grand Getaway- pool control",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-15 17:09:58",
+    "priority": 1
+  },
   "8731": {
     "subject": "Signal Inn Landscape lighting",
     "assigned_to": "l.costa@choosegulfcoast.com",
@@ -17,21 +45,21 @@
     "subject": "City of Bradenton Vacation Rental License - Unincorporated Manatee County",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-10 21:00:00",
+    "due_date": "2026-09-15 21:00:00",
     "priority": 5
   },
   "8728": {
     "subject": "Sales & Tourist Tax Remittance - August 2026",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-11 13:00:00",
+    "due_date": "2026-09-14 13:00:00",
     "priority": 10
   },
   "8727": {
     "subject": "zsunset Splash-owner payment",
     "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-11 18:00:00",
+    "due_date": "2026-10-01 18:00:00",
     "priority": 20
   },
   "8726": {
@@ -111,13 +139,6 @@
     "due_date": "2026-09-14 16:38:50",
     "priority": 10
   },
-  "8714": {
-    "subject": "Precious Gem-add pet friendly",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-14 16:22:59",
-    "priority": 1
-  },
   "8713": {
     "subject": "Gulf Horizon - Keypad batteries",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
@@ -137,13 +158,6 @@
     "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-14 14:19:36",
-    "priority": 1
-  },
-  "8707": {
-    "subject": "Rhodes Tracy | Heavenly Daze | Res #: 45497 | Property Viewing Req",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-11 14:15:00",
     "priority": 1
   },
   "8706": {
@@ -181,25 +195,11 @@
     "due_date": "2026-09-11 22:00:00",
     "priority": 1
   },
-  "8694": {
-    "subject": "Residences of Siesta Key - Owner charge",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-11 14:53:35",
-    "priority": 1
-  },
   "8693": {
     "subject": "Birdie - Owner charge",
     "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-11 14:52:30",
-    "priority": 1
-  },
-  "8689": {
-    "subject": "GBB1200 - Relocations",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-10 22:00:00",
     "priority": 1
   },
   "8687": {
@@ -230,13 +230,6 @@
     "due_date": "2026-09-30 17:06:00",
     "priority": 1
   },
-  "8682": {
-    "subject": "Res. No. 60053 - Hillary rose - Florida Dreams - Issue:  Property needs broom, bucket and mop",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-10 16:22:10",
-    "priority": 5
-  },
   "8680": {
     "subject": "Potential Scam Report \u2013 Speak Easy / 243 Lime Avenue",
     "assigned_to": "b.evans@choosegulfcoast.com",
@@ -251,13 +244,6 @@
     "due_date": "2026-09-11 22:00:00",
     "priority": 1
   },
-  "8672": {
-    "subject": "Harrell Matthew | Unit: Sans Souci |  Res #: 62332 | AC is not working",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-10 22:00:00",
-    "priority": 1
-  },
   "8663": {
     "subject": "SF beach equipment safety stock replenishment",
     "assigned_to": "p.yelenich@choosegulfcoast.com",
@@ -269,7 +255,7 @@
     "subject": "Post Arrival - Padilla Marie - Blue Dolphin - Res# 60080",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-09 22:00:00",
+    "due_date": "2026-09-11 22:00:00",
     "priority": 1
   },
   "8657": {
@@ -344,14 +330,14 @@
   },
   "8621": {
     "subject": "PCA - Sunny Retreat",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-07 22:00:00",
     "priority": 1
   },
   "8620": {
     "subject": "PCA - La Vida Loca",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-07 22:00:00",
     "priority": 1
@@ -368,13 +354,6 @@
     "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-26 22:00:00",
-    "priority": 1
-  },
-  "8610": {
-    "subject": "The Duffers Retreat-PCA deep clean",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-30 20:36:00",
     "priority": 1
   },
   "8607": {
@@ -521,7 +500,7 @@
     "subject": "Precious Gem-PCA Deep clean",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-11 19:06:00",
+    "due_date": "2026-09-16 19:06:00",
     "priority": 10
   },
   "8444": {
@@ -533,7 +512,7 @@
   },
   "8443": {
     "subject": "PCA for Luna Sea Due Date: 9/17/2026",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-19 22:00:00",
     "priority": 5
@@ -556,7 +535,7 @@
     "subject": "Microwave:Aloha House:WO #41938277",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-05 22:00:00",
+    "due_date": "2026-09-12 22:00:00",
     "priority": 5
   },
   "8410": {
@@ -638,7 +617,7 @@
   },
   "8312": {
     "subject": "PCA for Southern Exposure Due Date: 9/10/2026",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-25 20:18:00",
     "priority": 5
@@ -656,13 +635,6 @@
     "status": "Open",
     "due_date": "2026-09-19 20:51:00",
     "priority": 5
-  },
-  "8188": {
-    "subject": "Casa de Suenos-guest smoking in property",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-11 21:00:00",
-    "priority": 10
   },
   "8179": {
     "subject": "PCA for Little Bit Of Heaven Due Date: 9/8/2026",
@@ -704,13 +676,6 @@
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-12 19:00:00",
-    "priority": 5
-  },
-  "7949": {
-    "subject": "PCA for Dreams Of Paradise Due Date: 8/26/2026",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-11 18:57:00",
     "priority": 5
   },
   "7833": {
@@ -759,7 +724,7 @@
     "subject": "PCA for Admirals Watch Due Date:  8/6/2026",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-11 22:00:00",
+    "due_date": "2026-10-12 22:00:00",
     "priority": 5
   },
   "7598": {
@@ -848,9 +813,9 @@
   },
   "7015": {
     "subject": "PCA for Array Of Sunshine Due Date: July 8, 2026",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-08 22:00:00",
+    "due_date": "2026-09-12 22:00:00",
     "priority": 5
   },
   "6536": {
