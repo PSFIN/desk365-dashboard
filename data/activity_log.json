@@ -1,5 +1,41 @@
 [
   {
+    "ts": "2026-09-11T12:16:43+00:00",
+    "ticket_number": 8736,
+    "subject": "5 Star Review Feedback | Res #: 58384 | Douglass Romy | Turtle House | 9/3/2026-9/7/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-11T12:16:43+00:00",
+    "ticket_number": 8701,
+    "subject": "Ksonshkevych Tetiana/Gulf & Bay Bayside - 1260/  Res #: 58424/Goodwill Gesture",
+    "type": "reassigned",
+    "detail": "Reassigned from c.nutt@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
+    "from": "c.nutt@choosegulfcoast.com",
+    "to": "j.rushton@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-11T12:16:43+00:00",
+    "ticket_number": 8693,
+    "subject": "Birdie - Owner charge",
+    "type": "reassigned",
+    "detail": "Reassigned from e.morales@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "e.morales@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-11T12:16:43+00:00",
+    "ticket_number": 8621,
+    "subject": "PCA - Sunny Retreat",
+    "type": "reassigned",
+    "detail": "Reassigned from s.paulin@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "s.paulin@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
     "ts": "2026-09-11T07:23:20+00:00",
     "ticket_number": 8740,
     "subject": "Pedraza Dax/Signal Inn - Unit 16/Res #: 60684/Wifi and exterior entrance light not working",
