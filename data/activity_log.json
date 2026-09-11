@@ -1,5 +1,39 @@
 [
   {
+    "ts": "2026-09-11T02:22:48+00:00",
+    "ticket_number": 8739,
+    "subject": "GBB1327 - Update photos",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-11T02:22:48+00:00",
+    "ticket_number": 8701,
+    "subject": "Ksonshkevych Tetiana/Gulf & Bay Bayside - 1260/  Res #: 58424/Goodwill Gesture",
+    "type": "reassigned",
+    "detail": "Reassigned from j.rushton@choosegulfcoast.com to c.nutt@choosegulfcoast.com",
+    "from": "j.rushton@choosegulfcoast.com",
+    "to": "c.nutt@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-11T02:22:48+00:00",
+    "ticket_number": 8037,
+    "subject": "Qualify for ARDI?",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-10 22:00:00 to 2026-09-11 22:00:00",
+    "from": "2026-09-10 22:00:00",
+    "to": "2026-09-11 22:00:00"
+  },
+  {
+    "ts": "2026-09-11T02:22:48+00:00",
+    "ticket_number": 7361,
+    "subject": "PCA for Gulf & Bay Bayside - 1350 Due Date: 7/30/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-10 17:00:00 to 2026-09-11 17:00:00",
+    "from": "2026-09-10 17:00:00",
+    "to": "2026-09-11 17:00:00"
+  },
+  {
     "ts": "2026-09-10T23:35:54+00:00",
     "ticket_number": 8731,
     "subject": "Signal Inn Landscape lighting",
