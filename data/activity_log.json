@@ -1,5 +1,35 @@
 [
   {
+    "ts": "2026-09-11T07:23:20+00:00",
+    "ticket_number": 8740,
+    "subject": "Pedraza Dax/Signal Inn - Unit 16/Res #: 60684/Wifi and exterior entrance light not working",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-11T07:23:20+00:00",
+    "ticket_number": 8621,
+    "subject": "PCA - Sunny Retreat",
+    "type": "reassigned",
+    "detail": "Reassigned from t.healy@choosegulfcoast.com to s.paulin@choosegulfcoast.com",
+    "from": "t.healy@choosegulfcoast.com",
+    "to": "s.paulin@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-11T07:23:20+00:00",
+    "ticket_number": 8721,
+    "subject": "zGulf & Bay Bayside - 1341 Previous Owner | Owner Income Documentation Request for IRS",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-11T07:23:20+00:00",
+    "ticket_number": 8684,
+    "subject": "Name: Wilkes Minnie | Res: 53113 | Cancelled Funds Retained by GC",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-11T02:22:48+00:00",
     "ticket_number": 8739,
     "subject": "GBB1327 - Update photos",

@@ -1,4 +1,11 @@
 {
+  "8740": {
+    "subject": "Pedraza Dax/Signal Inn - Unit 16/Res #: 60684/Wifi and exterior entrance light not working",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-15 22:00:00",
+    "priority": 1
+  },
   "8739": {
     "subject": "GBB1327 - Update photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
@@ -118,13 +125,6 @@
     "due_date": "2026-09-14 22:00:00",
     "priority": 1
   },
-  "8721": {
-    "subject": "zGulf & Bay Bayside - 1341 Previous Owner | Owner Income Documentation Request for IRS",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-14 20:54:19",
-    "priority": 1
-  },
   "8720": {
     "subject": "Enjoy Sarasota-cleaning",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
@@ -228,13 +228,6 @@
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-12 17:26:00",
-    "priority": 1
-  },
-  "8684": {
-    "subject": "Name: Wilkes Minnie | Res: 53113 | Cancelled Funds Retained by GC",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-10 17:17:12",
     "priority": 1
   },
   "8683": {
@@ -344,7 +337,7 @@
   },
   "8621": {
     "subject": "PCA - Sunny Retreat",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-07 22:00:00",
     "priority": 1
