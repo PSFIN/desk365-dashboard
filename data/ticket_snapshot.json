@@ -1,4 +1,46 @@
 {
+  "8762": {
+    "subject": "Beach Bum - Relocation",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-16 21:19:15",
+    "priority": 1
+  },
+  "8760": {
+    "subject": "GCAM-26004 Onsite Staffing Benefits",
+    "assigned_to": "e.buchanan@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-16 20:14:45",
+    "priority": 10
+  },
+  "8759": {
+    "subject": "4c2 replacement door handle",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-16 19:55:48",
+    "priority": 1
+  },
+  "8758": {
+    "subject": "Wilson Danielle | Unit: Ocean Eyes | Res #: 55819 | Multiple Issues",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-16 19:39:13",
+    "priority": 1
+  },
+  "8757": {
+    "subject": "#1230 broken box springs",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-16 19:29:19",
+    "priority": 10
+  },
+  "8756": {
+    "subject": "Wilson Danielle | Unit: Ocean Eyes | Res #: 55819 | Alarm Going Off",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-16 19:23:04",
+    "priority": 1
+  },
   "8755": {
     "subject": "Plotts Jim | Signal Inn 7 | Res #: 41598 | Cancellation",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
@@ -10,7 +52,7 @@
     "subject": "#1364 owner --reimburse",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-16 16:53:36",
+    "due_date": "2026-10-24 16:53:00",
     "priority": 10
   },
   "8753": {
@@ -167,13 +209,6 @@
     "due_date": "2026-10-01 18:00:00",
     "priority": 20
   },
-  "8726": {
-    "subject": "Master Bedroom Door Does Not Lock /Danielle Wilson/ Ocean Eyes",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-14 22:00:00",
-    "priority": 1
-  },
   "8724": {
     "subject": "YCBR - Touch up cleans",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
@@ -272,13 +307,6 @@
     "due_date": "2026-09-11 22:00:00",
     "priority": 1
   },
-  "8700": {
-    "subject": "Bihday Deborah/ Paraclete Paradise/Res #: 58054/Floor",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-11 22:00:00",
-    "priority": 1
-  },
   "8693": {
     "subject": "Birdie - Owner charge",
     "assigned_to": "j.rushton@choosegulfcoast.com",
@@ -323,13 +351,6 @@
   },
   "8678": {
     "subject": "Property Damage Report \u2013 Southern Exposure \u2013 Tresalus Jorwina Res #: 62194",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-11 22:00:00",
-    "priority": 1
-  },
-  "8661": {
-    "subject": "Post Arrival - Padilla Marie - Blue Dolphin - Res# 60080",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-11 22:00:00",

@@ -1,5 +1,77 @@
 [
   {
+    "ts": "2026-09-11T21:48:49+00:00",
+    "ticket_number": 8762,
+    "subject": "Beach Bum - Relocation",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-11T21:48:49+00:00",
+    "ticket_number": 8760,
+    "subject": "GCAM-26004 Onsite Staffing Benefits",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.buchanan@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-11T21:48:49+00:00",
+    "ticket_number": 8759,
+    "subject": "4c2 replacement door handle",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.thayer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-11T21:48:49+00:00",
+    "ticket_number": 8758,
+    "subject": "Wilson Danielle | Unit: Ocean Eyes | Res #: 55819 | Multiple Issues",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-11T21:48:49+00:00",
+    "ticket_number": 8757,
+    "subject": "#1230 broken box springs",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.thayer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-11T21:48:49+00:00",
+    "ticket_number": 8756,
+    "subject": "Wilson Danielle | Unit: Ocean Eyes | Res #: 55819 | Alarm Going Off",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-11T21:48:49+00:00",
+    "ticket_number": 8754,
+    "subject": "#1364 owner --reimburse",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-16 16:53:36 to 2026-10-24 16:53:00",
+    "from": "2026-09-16 16:53:36",
+    "to": "2026-10-24 16:53:00"
+  },
+  {
+    "ts": "2026-09-11T21:48:49+00:00",
+    "ticket_number": 8726,
+    "subject": "Master Bedroom Door Does Not Lock /Danielle Wilson/ Ocean Eyes",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-11T21:48:49+00:00",
+    "ticket_number": 8700,
+    "subject": "Bihday Deborah/ Paraclete Paradise/Res #: 58054/Floor",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-11T21:48:49+00:00",
+    "ticket_number": 8661,
+    "subject": "Post Arrival - Padilla Marie - Blue Dolphin - Res# 60080",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-11T19:22:54+00:00",
     "ticket_number": 8755,
     "subject": "Plotts Jim | Signal Inn 7 | Res #: 41598 | Cancellation",
