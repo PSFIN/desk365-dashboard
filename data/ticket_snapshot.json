@@ -1,4 +1,25 @@
 {
+  "8755": {
+    "subject": "Plotts Jim | Signal Inn 7 | Res #: 41598 | Cancellation",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-16 17:40:28",
+    "priority": 1
+  },
+  "8754": {
+    "subject": "#1364 owner --reimburse",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-16 16:53:36",
+    "priority": 10
+  },
+  "8753": {
+    "subject": "Rising tide-ardi comforter's",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-16 16:46:00",
+    "priority": 10
+  },
   "8752": {
     "subject": "Dreams of Paradise- lamps and tables",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
@@ -15,17 +36,10 @@
   },
   "8750": {
     "subject": "Outstanding Work Order, Invoice or Pending Charges - Sunset Splash | 7036 13th St E",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-16 16:22:04",
     "priority": 1
-  },
-  "8749": {
-    "subject": "Dreams of Paradise-pool",
-    "assigned_to": "d.husak@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-14 20:15:07",
-    "priority": 20
   },
   "8748": {
     "subject": "SI Piling project relocate guest",
@@ -237,6 +251,13 @@
     "due_date": "2026-09-19 14:08:00",
     "priority": 1
   },
+  "8705": {
+    "subject": "Sunset Splash-comp pool",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-01 22:00:00",
+    "priority": 10
+  },
   "8702": {
     "subject": "5 Star Review Feedback | Res #: 61153 | Villalba Randy | My Great Escape | 9/4/2026-9/7/2026",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
@@ -264,6 +285,13 @@
     "status": "Open",
     "due_date": "2026-09-11 14:52:30",
     "priority": 1
+  },
+  "8690": {
+    "subject": "Golfside Escape-cleaning",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-15 18:27:04",
+    "priority": 10
   },
   "8687": {
     "subject": "Kedrych Alisa/Gulf & Bay Bayside - 1291/ Res #: 59049/AC Issues and Microwave",
@@ -369,13 +397,6 @@
     "status": "Open",
     "due_date": "2026-09-18 15:51:00",
     "priority": 10
-  },
-  "8621": {
-    "subject": "PCA - Sunny Retreat",
-    "assigned_to": "d.husak@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-07 22:00:00",
-    "priority": 1
   },
   "8618": {
     "subject": "PCA - Fishtail",
@@ -668,7 +689,7 @@
     "subject": "At Risk Property- Florida Dreams",
     "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-10 21:13:00",
+    "due_date": "2026-10-16 21:13:00",
     "priority": 10
   },
   "8111": {

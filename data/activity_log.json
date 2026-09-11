@@ -1,5 +1,72 @@
 [
   {
+    "ts": "2026-09-11T19:22:54+00:00",
+    "ticket_number": 8755,
+    "subject": "Plotts Jim | Signal Inn 7 | Res #: 41598 | Cancellation",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-11T19:22:54+00:00",
+    "ticket_number": 8754,
+    "subject": "#1364 owner --reimburse",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-11T19:22:54+00:00",
+    "ticket_number": 8753,
+    "subject": "Rising tide-ardi comforter's",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.thayer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-11T19:22:54+00:00",
+    "ticket_number": 8750,
+    "subject": "Outstanding Work Order, Invoice or Pending Charges - Sunset Splash | 7036 13th St E",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to e.morales@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "e.morales@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-11T19:22:54+00:00",
+    "ticket_number": 8705,
+    "subject": "Sunset Splash-comp pool",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-11T19:22:54+00:00",
+    "ticket_number": 8690,
+    "subject": "Golfside Escape-cleaning",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-11T19:22:54+00:00",
+    "ticket_number": 8157,
+    "subject": "At Risk Property- Florida Dreams",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-10 21:13:00 to 2026-10-16 21:13:00",
+    "from": "2026-09-10 21:13:00",
+    "to": "2026-10-16 21:13:00"
+  },
+  {
+    "ts": "2026-09-11T19:22:54+00:00",
+    "ticket_number": 8749,
+    "subject": "Dreams of Paradise-pool",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-11T19:22:54+00:00",
+    "ticket_number": 8621,
+    "subject": "PCA - Sunny Retreat",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-11T16:39:06+00:00",
     "ticket_number": 8752,
     "subject": "Dreams of Paradise- lamps and tables",
