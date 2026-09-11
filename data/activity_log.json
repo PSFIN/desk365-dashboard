@@ -1,5 +1,185 @@
 [
   {
+    "ts": "2026-09-11T16:39:06+00:00",
+    "ticket_number": 8752,
+    "subject": "Dreams of Paradise- lamps and tables",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-11T16:39:06+00:00",
+    "ticket_number": 8751,
+    "subject": "Business License Renewal for Saldalfoot 4A2",
+    "type": "created",
+    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-11T16:39:06+00:00",
+    "ticket_number": 8750,
+    "subject": "Outstanding Work Order, Invoice or Pending Charges - Sunset Splash | 7036 13th St E",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-11T16:39:06+00:00",
+    "ticket_number": 8749,
+    "subject": "Dreams of Paradise-pool",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.husak@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-11T16:39:06+00:00",
+    "ticket_number": 8748,
+    "subject": "SI Piling project relocate guest",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-11T16:39:06+00:00",
+    "ticket_number": 8747,
+    "subject": "SI piling project relocate guest",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-11T16:39:06+00:00",
+    "ticket_number": 8746,
+    "subject": "Piling project relcoate guest",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-11T16:39:06+00:00",
+    "ticket_number": 8745,
+    "subject": "Piling project relocate guest",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-11T16:39:06+00:00",
+    "ticket_number": 8744,
+    "subject": "Piling project / Guest relocate",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-11T16:39:06+00:00",
+    "ticket_number": 8743,
+    "subject": "GCPM Invoice for WO #42159751",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-11T16:39:06+00:00",
+    "ticket_number": 8742,
+    "subject": "The Duffers Retreat- Reshoot Amenities LWN",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-11T16:39:06+00:00",
+    "ticket_number": 8693,
+    "subject": "Birdie - Owner charge",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "j.rushton@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-11T16:39:06+00:00",
+    "ticket_number": 8628,
+    "subject": "Update website team photos",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-10 17:39:00 to 2026-09-17 17:39:00",
+    "from": "2026-09-10 17:39:00",
+    "to": "2026-09-17 17:39:00"
+  },
+  {
+    "ts": "2026-09-11T16:39:06+00:00",
+    "ticket_number": 8576,
+    "subject": "Name: Owen Anne | Res: 61829 | Property: Sandalfoot 4D3 | Guest Request | Future Guest Request",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-04 17:28:57 to 2026-09-16 17:28:00",
+    "from": "2026-09-04 17:28:57",
+    "to": "2026-09-16 17:28:00"
+  },
+  {
+    "ts": "2026-09-11T16:39:06+00:00",
+    "ticket_number": 8523,
+    "subject": "5B3 ARDI comforter cleaning",
+    "type": "reassigned",
+    "detail": "Reassigned from n.armstrong@choosegulfcoast.com to a.dallman@choosegulfcoast.com",
+    "from": "n.armstrong@choosegulfcoast.com",
+    "to": "a.dallman@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-11T16:39:06+00:00",
+    "ticket_number": 8435,
+    "subject": "Williams Jamie | Res #: 57053 | Ocean Eyes | Celebration Requests",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "j.rushton@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-11T16:39:06+00:00",
+    "ticket_number": 8322,
+    "subject": "Avalon landscape",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-10 22:00:00 to 2026-10-15 22:00:00",
+    "from": "2026-09-10 22:00:00",
+    "to": "2026-10-15 22:00:00"
+  },
+  {
+    "ts": "2026-09-11T16:39:06+00:00",
+    "ticket_number": 8740,
+    "subject": "Pedraza Dax/Signal Inn - Unit 16/Res #: 60684/Wifi and exterior entrance light not working",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-11T16:39:06+00:00",
+    "ticket_number": 8738,
+    "subject": "Name: Kathy & Tom Kuzma  | Res: 33981 | YCBR Deposit Refund Request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-11T16:39:06+00:00",
+    "ticket_number": 8725,
+    "subject": "Check Refund | Res #57666 | wagner Greg | Gulf & Bay Bayside - 1200",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-11T16:39:06+00:00",
+    "ticket_number": 8705,
+    "subject": "Sunset Splash-comp pool",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-11T16:39:06+00:00",
+    "ticket_number": 8663,
+    "subject": "SF beach equipment safety stock replenishment",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-11T16:39:06+00:00",
+    "ticket_number": 8632,
+    "subject": "Res. No. 44009 - Kathleen Donnelly - Oakwater Escape  - star rating: 3",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-11T16:39:06+00:00",
+    "ticket_number": 8557,
+    "subject": "Name: Rick Rath | Res: 60890 | Cancelled 50% Retained - OTA",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-11T12:16:43+00:00",
     "ticket_number": 8736,
     "subject": "5 Star Review Feedback | Res #: 58384 | Douglass Romy | Turtle House | 9/3/2026-9/7/2026",
