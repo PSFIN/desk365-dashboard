@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-09-11T23:45:13+00:00",
+    "ticket_number": 8763,
+    "subject": "Name: JODOIN JENNIFER | Res: 56461 | Missing Payment",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-09-11T21:48:49+00:00",
     "ticket_number": 8762,
     "subject": "Beach Bum - Relocation",
