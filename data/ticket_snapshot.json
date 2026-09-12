@@ -1,7 +1,14 @@
 {
-  "8766": {
-    "subject": "Wise Kimberly | Res #: 62494 | Sandalfoot 3C2 | Modification",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
+  "8768": {
+    "subject": "McNeill Connie | Unit: Loggerhead Cay #183 | Res #: 56061 | Broken Fan",
+    "assigned_to": "j.banks@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-16 22:00:00",
+    "priority": 1
+  },
+  "8767": {
+    "subject": "Unit: Paraclete Paradise   | Guest Name: Bihday Deborah | Res #: 58054 | Lost & Found: Cord Left in Living Room",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-16 22:00:00",
     "priority": 1
@@ -57,7 +64,7 @@
   },
   "8755": {
     "subject": "Plotts Jim | Signal Inn 7 | Res #: 41598 | Cancellation",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-16 17:40:28",
     "priority": 1
@@ -92,14 +99,14 @@
   },
   "8748": {
     "subject": "SI Piling project relocate guest",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-16 15:36:39",
     "priority": 10
   },
   "8747": {
     "subject": "SI piling project relocate guest",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-16 15:35:10",
     "priority": 10
@@ -113,14 +120,14 @@
   },
   "8745": {
     "subject": "Piling project relocate guest",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-16 15:32:35",
     "priority": 10
   },
   "8744": {
     "subject": "Piling project / Guest relocate",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-16 15:28:02",
     "priority": 10
