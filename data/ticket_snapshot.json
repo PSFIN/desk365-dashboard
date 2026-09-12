@@ -41,13 +41,6 @@
     "due_date": "2026-09-16 19:29:19",
     "priority": 10
   },
-  "8756": {
-    "subject": "Wilson Danielle | Unit: Ocean Eyes | Res #: 55819 | Alarm Going Off",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-16 19:23:04",
-    "priority": 1
-  },
   "8755": {
     "subject": "Plotts Jim | Signal Inn 7 | Res #: 41598 | Cancellation",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
@@ -389,13 +382,6 @@
     "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-17 22:00:00",
-    "priority": 1
-  },
-  "8634": {
-    "subject": "Property Management Inquiry",
-    "assigned_to": "a.vetick@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-14 21:07:00",
     "priority": 1
   },
   "8629": {
