@@ -1,5 +1,21 @@
 [
   {
+    "ts": "2026-09-12T14:45:28+00:00",
+    "ticket_number": 8765,
+    "subject": "Post-Arrival Concerns: Coffee Machine Issue and Pool Cleanliness-Unit: Coastal Oasis",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.thayer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-12T14:45:28+00:00",
+    "ticket_number": 8716,
+    "subject": "Palm Meadow-owner visit",
+    "type": "reassigned",
+    "detail": "Reassigned from a.guarin@choosegulfcoast.com to s.paulin@choosegulfcoast.com",
+    "from": "a.guarin@choosegulfcoast.com",
+    "to": "s.paulin@choosegulfcoast.com"
+  },
+  {
     "ts": "2026-09-12T07:32:01+00:00",
     "ticket_number": 8764,
     "subject": "T-Wreckz Junk Removal llc - Open Invoices",

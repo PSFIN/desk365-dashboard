@@ -1,4 +1,11 @@
 {
+  "8765": {
+    "subject": "Post-Arrival Concerns: Coffee Machine Issue and Pool Cleanliness-Unit: Coastal Oasis",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-16 22:00:00",
+    "priority": 5
+  },
   "8764": {
     "subject": "T-Wreckz Junk Removal llc - Open Invoices",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
@@ -253,7 +260,7 @@
   },
   "8716": {
     "subject": "Palm Meadow-owner visit",
-    "assigned_to": "a.guarin@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-14 16:53:57",
     "priority": 1
