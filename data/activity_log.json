@@ -1,5 +1,39 @@
 [
   {
+    "ts": "2026-09-12T17:35:28+00:00",
+    "ticket_number": 8766,
+    "subject": "Wise Kimberly | Res #: 62494 | Sandalfoot 3C2 | Modification",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-12T17:35:28+00:00",
+    "ticket_number": 8765,
+    "subject": "Post-Arrival Concerns: Coffee Machine Issue and Pool Cleanliness-Unit: Coastal Oasis",
+    "type": "reassigned",
+    "detail": "Reassigned from c.thayer@choosegulfcoast.com to m.eronico@choosegulfcoast.com",
+    "from": "c.thayer@choosegulfcoast.com",
+    "to": "m.eronico@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-12T17:35:28+00:00",
+    "ticket_number": 8586,
+    "subject": "Boardwalk Shell station",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-11 20:41:00 to 2026-09-15 20:41:00",
+    "from": "2026-09-11 20:41:00",
+    "to": "2026-09-15 20:41:00"
+  },
+  {
+    "ts": "2026-09-12T17:35:28+00:00",
+    "ticket_number": 7397,
+    "subject": "Marriott Curation Rejected - Signal inn 03",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-11 15:28:00 to 2026-09-15 15:28:00",
+    "from": "2026-09-11 15:28:00",
+    "to": "2026-09-15 15:28:00"
+  },
+  {
     "ts": "2026-09-12T14:45:28+00:00",
     "ticket_number": 8765,
     "subject": "Post-Arrival Concerns: Coffee Machine Issue and Pool Cleanliness-Unit: Coastal Oasis",

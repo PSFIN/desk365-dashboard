@@ -1,7 +1,14 @@
 {
+  "8766": {
+    "subject": "Wise Kimberly | Res #: 62494 | Sandalfoot 3C2 | Modification",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-16 22:00:00",
+    "priority": 1
+  },
   "8765": {
     "subject": "Post-Arrival Concerns: Coffee Machine Issue and Pool Cleanliness-Unit: Coastal Oasis",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "m.eronico@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-16 22:00:00",
     "priority": 5
@@ -444,7 +451,7 @@
     "subject": "Boardwalk Shell station",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-11 20:41:00",
+    "due_date": "2026-09-15 20:41:00",
     "priority": 1
   },
   "8577": {
@@ -794,7 +801,7 @@
     "subject": "Marriott Curation Rejected - Signal inn 03",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-11 15:28:00",
+    "due_date": "2026-09-15 15:28:00",
     "priority": 5
   },
   "7396": {
