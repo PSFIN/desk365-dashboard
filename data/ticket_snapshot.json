@@ -272,13 +272,6 @@
     "due_date": "2026-09-14 18:29:19",
     "priority": 1
   },
-  "8716": {
-    "subject": "Palm Meadow-owner visit",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-14 16:53:57",
-    "priority": 1
-  },
   "8713": {
     "subject": "Gulf Horizon - Keypad batteries",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
@@ -316,7 +309,7 @@
   },
   "8701": {
     "subject": "Ksonshkevych Tetiana/Gulf & Bay Bayside - 1260/  Res #: 58424/Goodwill Gesture",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "c.nutt@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-11 22:00:00",
     "priority": 1
@@ -507,14 +500,14 @@
     "subject": "DR-11 Form : Putt in Paradise -19116 SCALLOP LOOP, #202",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-13 16:00:00",
+    "due_date": "2026-09-14 16:00:00",
     "priority": 10
   },
   "8545": {
     "subject": "DR-11 Form : Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-13 16:00:00",
+    "due_date": "2026-09-14 16:00:00",
     "priority": 10
   },
   "8544": {
@@ -619,7 +612,7 @@
     "subject": "DR-11 Forms : Multiple Property Units",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-13 16:00:00",
+    "due_date": "2026-09-14 16:00:00",
     "priority": 10
   },
   "8367": {

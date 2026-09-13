@@ -1,5 +1,48 @@
 [
   {
+    "ts": "2026-09-13T16:59:44+00:00",
+    "ticket_number": 8701,
+    "subject": "Ksonshkevych Tetiana/Gulf & Bay Bayside - 1260/  Res #: 58424/Goodwill Gesture",
+    "type": "reassigned",
+    "detail": "Reassigned from j.rushton@choosegulfcoast.com to c.nutt@choosegulfcoast.com",
+    "from": "j.rushton@choosegulfcoast.com",
+    "to": "c.nutt@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-13T16:59:44+00:00",
+    "ticket_number": 8550,
+    "subject": "DR-11 Form : Putt in Paradise -19116 SCALLOP LOOP, #202",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-13 16:00:00 to 2026-09-14 16:00:00",
+    "from": "2026-09-13 16:00:00",
+    "to": "2026-09-14 16:00:00"
+  },
+  {
+    "ts": "2026-09-13T16:59:44+00:00",
+    "ticket_number": 8545,
+    "subject": "DR-11 Form : Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-13 16:00:00 to 2026-09-14 16:00:00",
+    "from": "2026-09-13 16:00:00",
+    "to": "2026-09-14 16:00:00"
+  },
+  {
+    "ts": "2026-09-13T16:59:44+00:00",
+    "ticket_number": 8372,
+    "subject": "DR-11 Forms : Multiple Property Units",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-13 16:00:00 to 2026-09-14 16:00:00",
+    "from": "2026-09-13 16:00:00",
+    "to": "2026-09-14 16:00:00"
+  },
+  {
+    "ts": "2026-09-13T16:59:44+00:00",
+    "ticket_number": 8716,
+    "subject": "Palm Meadow-owner visit",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-12T23:50:30+00:00",
     "ticket_number": 8769,
     "subject": "Unit: Cyprina Beach #10 | Guest Name: Stewart Beth | Res #: 58736 | Active Water Leak from Ceiling Vent",
