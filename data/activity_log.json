@@ -1,5 +1,56 @@
 [
   {
+    "ts": "2026-09-14T22:53:18+00:00",
+    "ticket_number": 8791,
+    "subject": "Kanel Deborah | Unit: Sandalfoot 4C3 | Res #: 38851 | Water Heater Alarm Going Off",
+    "type": "created",
+    "detail": "Created \u2014 assigned to a.dallman@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-14T22:53:18+00:00",
+    "ticket_number": 8790,
+    "subject": "Marina Sunrise - Cleaning",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-14T22:53:18+00:00",
+    "ticket_number": 7323,
+    "subject": "Aloha House - Unit painting",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-14 22:00:00 to 2026-09-16 22:00:00",
+    "from": "2026-09-14 22:00:00",
+    "to": "2026-09-16 22:00:00"
+  },
+  {
+    "ts": "2026-09-14T22:53:18+00:00",
+    "ticket_number": 8778,
+    "subject": "SI Piling Project Guest relocate",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-14T22:53:18+00:00",
+    "ticket_number": 8762,
+    "subject": "Beach Bum - Relocation",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-14T22:53:18+00:00",
+    "ticket_number": 8748,
+    "subject": "SI Piling project relocate guest",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-14T22:53:18+00:00",
+    "ticket_number": 8747,
+    "subject": "SI piling project relocate guest",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-14T19:53:53+00:00",
     "ticket_number": 8789,
     "subject": "Have PMW create and Onsite Staffing & Employee Management webpage",
