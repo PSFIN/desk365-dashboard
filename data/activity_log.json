@@ -1,5 +1,214 @@
 [
   {
+    "ts": "2026-09-14T15:08:43+00:00",
+    "ticket_number": 8783,
+    "subject": "zFairway to Paradise -cancel booking Oct",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-14T15:08:43+00:00",
+    "ticket_number": 8782,
+    "subject": "zFairway to Paradise. cancel booking",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-14T15:08:43+00:00",
+    "ticket_number": 8781,
+    "subject": "Florida Oasis-pool leak",
+    "type": "created",
+    "detail": "Created \u2014 assigned to l.susas@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-14T15:08:43+00:00",
+    "ticket_number": 8780,
+    "subject": "GBB1327 - touchup clean",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-14T15:08:43+00:00",
+    "ticket_number": 8779,
+    "subject": "SI Piling project Guest relocate",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-14T15:08:43+00:00",
+    "ticket_number": 8778,
+    "subject": "SI Piling Project Guest relocate",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-14T15:08:43+00:00",
+    "ticket_number": 8777,
+    "subject": "A Shore Thing / City of Sarasota Cert Number VR22-00135",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-14T15:08:43+00:00",
+    "ticket_number": 8776,
+    "subject": "Harriman Kathleen | Colony Inn | Res #: 51031 - 51032 - 51031 | Remove last day each",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-14T15:08:43+00:00",
+    "ticket_number": 8763,
+    "subject": "Name: JODOIN JENNIFER | Res: 56461 | Missing Payment",
+    "type": "reassigned",
+    "detail": "Reassigned from k.zeh@choosegulfcoast.com to h.nomura@choosegulfcoast.com",
+    "from": "k.zeh@choosegulfcoast.com",
+    "to": "h.nomura@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-14T15:08:43+00:00",
+    "ticket_number": 8742,
+    "subject": "The Duffers Retreat- Reshoot Amenities LWN",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-16 14:29:04 to 2026-09-16 14:33:37",
+    "from": "2026-09-16 14:29:04",
+    "to": "2026-09-16 14:33:37"
+  },
+  {
+    "ts": "2026-09-14T15:08:43+00:00",
+    "ticket_number": 8728,
+    "subject": "Sales & Tourist Tax Remittance - August 2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-14 13:00:00 to 2026-09-15 13:00:00",
+    "from": "2026-09-14 13:00:00",
+    "to": "2026-09-15 13:00:00"
+  },
+  {
+    "ts": "2026-09-14T15:08:43+00:00",
+    "ticket_number": 8693,
+    "subject": "Birdie - Owner charge",
+    "type": "reassigned",
+    "detail": "Reassigned from j.rushton@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "j.rushton@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-14T15:08:43+00:00",
+    "ticket_number": 8693,
+    "subject": "Birdie - Owner charge",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-11 14:52:30 to 2026-09-14 14:52:00",
+    "from": "2026-09-11 14:52:30",
+    "to": "2026-09-14 14:52:00"
+  },
+  {
+    "ts": "2026-09-14T15:08:43+00:00",
+    "ticket_number": 8687,
+    "subject": "Kedrych Alisa/Gulf & Bay Bayside - 1291/ Res #: 59049/AC Issues and Microwave",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-12 18:00:00 to 2026-09-14 18:00:00",
+    "from": "2026-09-12 18:00:00",
+    "to": "2026-09-14 18:00:00"
+  },
+  {
+    "ts": "2026-09-14T15:08:43+00:00",
+    "ticket_number": 8678,
+    "subject": "Property Damage Report \u2013 Southern Exposure \u2013 Tresalus Jorwina Res #: 62194",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-11 22:00:00 to 2026-09-18 22:00:00",
+    "from": "2026-09-11 22:00:00",
+    "to": "2026-09-18 22:00:00"
+  },
+  {
+    "ts": "2026-09-14T15:08:43+00:00",
+    "ticket_number": 8626,
+    "subject": "Sprinkler at 12 noon",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-14 16:17:00 to 2026-09-16 16:17:00",
+    "from": "2026-09-14 16:17:00",
+    "to": "2026-09-16 16:17:00"
+  },
+  {
+    "ts": "2026-09-14T15:08:43+00:00",
+    "ticket_number": 8617,
+    "subject": "PCA - Avalon (Vacant)",
+    "type": "reassigned",
+    "detail": "Reassigned from s.paulin@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
+    "from": "s.paulin@choosegulfcoast.com",
+    "to": "c.thayer@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-14T15:08:43+00:00",
+    "ticket_number": 8607,
+    "subject": "GBB office shelves",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to c.nutt@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "c.nutt@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-14T15:08:43+00:00",
+    "ticket_number": 8732,
+    "subject": "Grand Getaway- pool control",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-14T15:08:43+00:00",
+    "ticket_number": 8727,
+    "subject": "zsunset Splash-owner payment",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-14T15:08:43+00:00",
+    "ticket_number": 8719,
+    "subject": "Grand Getaway- replacement",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-14T15:08:43+00:00",
+    "ticket_number": 8705,
+    "subject": "Sunset Splash-comp pool",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-14T15:08:43+00:00",
+    "ticket_number": 8702,
+    "subject": "5 Star Review Feedback | Res #: 61153 | Villalba Randy | My Great Escape | 9/4/2026-9/7/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-14T15:08:43+00:00",
+    "ticket_number": 8701,
+    "subject": "Ksonshkevych Tetiana/Gulf & Bay Bayside - 1260/  Res #: 58424/Goodwill Gesture",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-14T15:08:43+00:00",
+    "ticket_number": 8685,
+    "subject": "Rodriguez Geraldine | Res #: 60982 | Beach House Residences Unit 1 | Feedback",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-14T15:08:43+00:00",
+    "ticket_number": 8431,
+    "subject": "Microwave:Aloha House:WO #41938277",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-14T15:08:43+00:00",
+    "ticket_number": 8322,
+    "subject": "Avalon landscape",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-14T08:25:04+00:00",
     "ticket_number": 8775,
     "subject": "McArn Lynnzie/Coastal Oasis/Res #: 60184/Maintenance Concerns - Feedback",

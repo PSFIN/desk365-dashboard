@@ -1,4 +1,60 @@
 {
+  "8783": {
+    "subject": "zFairway to Paradise -cancel booking Oct",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-17 14:57:45",
+    "priority": 5
+  },
+  "8782": {
+    "subject": "zFairway to Paradise. cancel booking",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-15 18:56:03",
+    "priority": 20
+  },
+  "8781": {
+    "subject": "Florida Oasis-pool leak",
+    "assigned_to": "l.susas@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-15 18:40:23",
+    "priority": 20
+  },
+  "8780": {
+    "subject": "GBB1327 - touchup clean",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-17 14:12:45",
+    "priority": 1
+  },
+  "8779": {
+    "subject": "SI Piling project Guest relocate",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-16 22:00:00",
+    "priority": 10
+  },
+  "8778": {
+    "subject": "SI Piling Project Guest relocate",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-16 22:00:00",
+    "priority": 10
+  },
+  "8777": {
+    "subject": "A Shore Thing / City of Sarasota Cert Number VR22-00135",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-16 22:00:00",
+    "priority": 10
+  },
+  "8776": {
+    "subject": "Harriman Kathleen | Colony Inn | Res #: 51031 - 51032 - 51031 | Remove last day each",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-16 22:00:00",
+    "priority": 1
+  },
   "8775": {
     "subject": "McArn Lynnzie/Coastal Oasis/Res #: 60184/Maintenance Concerns - Feedback",
     "assigned_to": "m.eronico@choosegulfcoast.com",
@@ -36,7 +92,7 @@
   },
   "8763": {
     "subject": "Name: JODOIN JENNIFER | Res: 56461 | Missing Payment",
-    "assigned_to": "k.zeh@choosegulfcoast.com",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-16 21:49:34",
     "priority": 1
@@ -150,7 +206,7 @@
     "subject": "The Duffers Retreat- Reshoot Amenities LWN",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-16 14:29:04",
+    "due_date": "2026-09-16 14:33:37",
     "priority": 1
   },
   "8739": {
@@ -195,13 +251,6 @@
     "due_date": "2026-09-15 17:19:37",
     "priority": 1
   },
-  "8732": {
-    "subject": "Grand Getaway- pool control",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-15 17:09:58",
-    "priority": 1
-  },
   "8731": {
     "subject": "Signal Inn Landscape lighting",
     "assigned_to": "n.ventura@choosegulfcoast.com",
@@ -220,15 +269,8 @@
     "subject": "Sales & Tourist Tax Remittance - August 2026",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-14 13:00:00",
+    "due_date": "2026-09-15 13:00:00",
     "priority": 10
-  },
-  "8727": {
-    "subject": "zsunset Splash-owner payment",
-    "assigned_to": "k.zeh@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-14 18:00:00",
-    "priority": 20
   },
   "8724": {
     "subject": "YCBR - Touch up cleans",
@@ -256,13 +298,6 @@
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-14 19:58:53",
-    "priority": 10
-  },
-  "8719": {
-    "subject": "Grand Getaway- replacement",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-14 19:35:34",
     "priority": 10
   },
   "8717": {
@@ -293,32 +328,11 @@
     "due_date": "2026-09-19 14:08:00",
     "priority": 1
   },
-  "8705": {
-    "subject": "Sunset Splash-comp pool",
-    "assigned_to": "k.zeh@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-14 22:00:00",
-    "priority": 20
-  },
-  "8702": {
-    "subject": "5 Star Review Feedback | Res #: 61153 | Villalba Randy | My Great Escape | 9/4/2026-9/7/2026",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-11 22:00:00",
-    "priority": 1
-  },
-  "8701": {
-    "subject": "Ksonshkevych Tetiana/Gulf & Bay Bayside - 1260/  Res #: 58424/Goodwill Gesture",
-    "assigned_to": "c.nutt@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-11 22:00:00",
-    "priority": 1
-  },
   "8693": {
     "subject": "Birdie - Owner charge",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-11 14:52:30",
+    "due_date": "2026-09-14 14:52:00",
     "priority": 1
   },
   "8690": {
@@ -332,15 +346,8 @@
     "subject": "Kedrych Alisa/Gulf & Bay Bayside - 1291/ Res #: 59049/AC Issues and Microwave",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-12 18:00:00",
+    "due_date": "2026-09-14 18:00:00",
     "priority": 20
-  },
-  "8685": {
-    "subject": "Rodriguez Geraldine | Res #: 60982 | Beach House Residences Unit 1 | Feedback",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-12 17:26:00",
-    "priority": 1
   },
   "8683": {
     "subject": "Name: ippolito barbara | Res: 51748 |  Hold Distribution of Cancelled Reservation Funds",
@@ -360,7 +367,7 @@
     "subject": "Property Damage Report \u2013 Southern Exposure \u2013 Tresalus Jorwina Res #: 62194",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-11 22:00:00",
+    "due_date": "2026-09-18 22:00:00",
     "priority": 1
   },
   "8657": {
@@ -402,7 +409,7 @@
     "subject": "Sprinkler at 12 noon",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-14 16:17:00",
+    "due_date": "2026-09-16 16:17:00",
     "priority": 1
   },
   "8624": {
@@ -421,14 +428,14 @@
   },
   "8617": {
     "subject": "PCA - Avalon (Vacant)",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-26 22:00:00",
     "priority": 1
   },
   "8607": {
     "subject": "GBB office shelves",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "c.nutt@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-12 16:15:00",
     "priority": 20
@@ -594,13 +601,6 @@
     "due_date": "2026-09-18 22:00:00",
     "priority": 5
   },
-  "8431": {
-    "subject": "Microwave:Aloha House:WO #41938277",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-12 22:00:00",
-    "priority": 5
-  },
   "8410": {
     "subject": "YCBR Photo shoot",
     "assigned_to": "b.meyer@choosegulfcoast.com",
@@ -670,13 +670,6 @@
     "status": "Open",
     "due_date": "2026-11-14 23:00:00",
     "priority": 5
-  },
-  "8322": {
-    "subject": "Avalon landscape",
-    "assigned_to": "d.husak@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-15 22:00:00",
-    "priority": 1
   },
   "8311": {
     "subject": "PCA for Sans Souci Due Date: 9/10/2026",
