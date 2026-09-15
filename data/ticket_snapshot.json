@@ -1,4 +1,81 @@
 {
+  "8806": {
+    "subject": "Linda Bourgeois |  Res #: 63059 | Cancellation Request",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-18 18:25:30",
+    "priority": 1
+  },
+  "8805": {
+    "subject": "3 Star Review Feedback | Res #: 58164 | Texeira Mayra | Sandalfoot 3B2 | 9/4/2026-9/7/2026",
+    "assigned_to": "n.armstrong@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-18 18:24:30",
+    "priority": 1
+  },
+  "8804": {
+    "subject": "3 Star Review Feedback | Res #: 60080 | Padilla Marie | Blue Dolphin | 9/4/2026-9/7/2026",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-18 18:07:19",
+    "priority": 1
+  },
+  "8803": {
+    "subject": "2 Star Review Feedback | Res #: 60184 | McArn Lynnzie | Coastal Oasis | 9/4/2026-9/9/2026",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-18 17:53:53",
+    "priority": 1
+  },
+  "8802": {
+    "subject": "5 Star Review Feedback | Res #: 44775 | Courtney Brian | Breakers West C3 | 9/5/2026-9/11/2026",
+    "assigned_to": "l.costa@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-18 17:46:38",
+    "priority": 1
+  },
+  "8801": {
+    "subject": "5 Star Review Feedback | Res #: 58846 | Dilger Brandon | Signal Inn - Unit 03 | 9/7/2026-9/12/2026",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-18 17:40:25",
+    "priority": 1
+  },
+  "8800": {
+    "subject": "Pet Station",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-18 17:33:06",
+    "priority": 5
+  },
+  "8799": {
+    "subject": "5 Star Review Feedback | Perez Yolanda | Colony Inn C-06 | 9/4/2026-9/7/2026",
+    "assigned_to": "marcie@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-18 17:30:24",
+    "priority": 1
+  },
+  "8798": {
+    "subject": "Coast is Clear - Photos",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-18 16:58:48",
+    "priority": 1
+  },
+  "8797": {
+    "subject": "Shore Bet - Photos",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-18 16:51:19",
+    "priority": 1
+  },
+  "8796": {
+    "subject": "4 Star Review Feedback | Res #: 59961 | Hileman Sheila | Colony Inn C-18 | 8/31/2026-9/3/2026",
+    "assigned_to": "marcie@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-18 16:43:27",
+    "priority": 1
+  },
   "8795": {
     "subject": "5 Star Review Feedback | Res #48720 | Savitt Maria | Loggerhead Cay #183 | 9/5/2026-9/12/2026",
     "assigned_to": "l.costa@choosegulfcoast.com",
@@ -16,13 +93,6 @@
   "8793": {
     "subject": "Res #: 63056| Unit: Sandy Pointe| Guest Name: Snow Jackson | ECI inquiry",
     "assigned_to": "d.canada@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-17 22:00:00",
-    "priority": 1
-  },
-  "8792": {
-    "subject": "Truderung Rudolf/Sun Seeker/Res #: 62848/HOA Form",
-    "assigned_to": "b.zeh@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-17 22:00:00",
     "priority": 1
@@ -47,13 +117,6 @@
     "status": "Open",
     "due_date": "2026-09-20 18:37:00",
     "priority": 1
-  },
-  "8786": {
-    "subject": "Cash Flow Statement 2025 and 2026 / SF Unit 2D2",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-17 17:42:40",
-    "priority": 10
   },
   "8782": {
     "subject": "zFairway to Paradise. cancel booking",
@@ -227,7 +290,7 @@
     "subject": "Sales & Tourist Tax Remittance - August 2026",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-15 17:00:00",
+    "due_date": "2026-09-15 19:00:00",
     "priority": 20
   },
   "8717": {
@@ -470,9 +533,9 @@
   },
   "8410": {
     "subject": "YCBR Photo shoot",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-30 19:15:00",
+    "due_date": "2026-10-30 19:15:00",
     "priority": 5
   },
   "8372": {
@@ -486,7 +549,7 @@
     "subject": "Sarasota Tourist Development Tax Update : New Online Reporting Platform Coming in September",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-15 18:00:00",
+    "due_date": "2026-09-15 19:00:00",
     "priority": 10
   },
   "8365": {

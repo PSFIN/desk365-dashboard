@@ -1,5 +1,132 @@
 [
   {
+    "ts": "2026-09-15T19:45:49+00:00",
+    "ticket_number": 8806,
+    "subject": "Linda Bourgeois |  Res #: 63059 | Cancellation Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-15T19:45:49+00:00",
+    "ticket_number": 8805,
+    "subject": "3 Star Review Feedback | Res #: 58164 | Texeira Mayra | Sandalfoot 3B2 | 9/4/2026-9/7/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.armstrong@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-15T19:45:49+00:00",
+    "ticket_number": 8804,
+    "subject": "3 Star Review Feedback | Res #: 60080 | Padilla Marie | Blue Dolphin | 9/4/2026-9/7/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-15T19:45:49+00:00",
+    "ticket_number": 8803,
+    "subject": "2 Star Review Feedback | Res #: 60184 | McArn Lynnzie | Coastal Oasis | 9/4/2026-9/9/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-15T19:45:49+00:00",
+    "ticket_number": 8802,
+    "subject": "5 Star Review Feedback | Res #: 44775 | Courtney Brian | Breakers West C3 | 9/5/2026-9/11/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to l.costa@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-15T19:45:49+00:00",
+    "ticket_number": 8801,
+    "subject": "5 Star Review Feedback | Res #: 58846 | Dilger Brandon | Signal Inn - Unit 03 | 9/7/2026-9/12/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-15T19:45:49+00:00",
+    "ticket_number": 8800,
+    "subject": "Pet Station",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-15T19:45:49+00:00",
+    "ticket_number": 8799,
+    "subject": "5 Star Review Feedback | Perez Yolanda | Colony Inn C-06 | 9/4/2026-9/7/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to marcie@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-15T19:45:49+00:00",
+    "ticket_number": 8798,
+    "subject": "Coast is Clear - Photos",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-15T19:45:49+00:00",
+    "ticket_number": 8797,
+    "subject": "Shore Bet - Photos",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-15T19:45:49+00:00",
+    "ticket_number": 8796,
+    "subject": "4 Star Review Feedback | Res #: 59961 | Hileman Sheila | Colony Inn C-18 | 8/31/2026-9/3/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to marcie@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-15T19:45:49+00:00",
+    "ticket_number": 8728,
+    "subject": "Sales & Tourist Tax Remittance - August 2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-15 17:00:00 to 2026-09-15 19:00:00",
+    "from": "2026-09-15 17:00:00",
+    "to": "2026-09-15 19:00:00"
+  },
+  {
+    "ts": "2026-09-15T19:45:49+00:00",
+    "ticket_number": 8410,
+    "subject": "YCBR Photo shoot",
+    "type": "reassigned",
+    "detail": "Reassigned from b.meyer@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
+    "from": "b.meyer@choosegulfcoast.com",
+    "to": "j.rushton@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-15T19:45:49+00:00",
+    "ticket_number": 8410,
+    "subject": "YCBR Photo shoot",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-30 19:15:00 to 2026-10-30 19:15:00",
+    "from": "2026-09-30 19:15:00",
+    "to": "2026-10-30 19:15:00"
+  },
+  {
+    "ts": "2026-09-15T19:45:49+00:00",
+    "ticket_number": 8367,
+    "subject": "Sarasota Tourist Development Tax Update : New Online Reporting Platform Coming in September",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-15 18:00:00 to 2026-09-15 19:00:00",
+    "from": "2026-09-15 18:00:00",
+    "to": "2026-09-15 19:00:00"
+  },
+  {
+    "ts": "2026-09-15T19:45:49+00:00",
+    "ticket_number": 8792,
+    "subject": "Truderung Rudolf/Sun Seeker/Res #: 62848/HOA Form",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-15T19:45:49+00:00",
+    "ticket_number": 8786,
+    "subject": "Cash Flow Statement 2025 and 2026 / SF Unit 2D2",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-15T16:19:37+00:00",
     "ticket_number": 8795,
     "subject": "5 Star Review Feedback | Res #48720 | Savitt Maria | Loggerhead Cay #183 | 9/5/2026-9/12/2026",
@@ -7801,152 +7928,5 @@
     "subject": "rent rev",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-08-29T07:34:22+00:00",
-    "ticket_number": 8513,
-    "subject": "Altschuler Max/ A Shore Thing/Res #: 58976/Waterfall pool feature",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-08-29T07:34:22+00:00",
-    "ticket_number": 8037,
-    "subject": "Qualify for ARDI?",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-08-28 22:00:00 to 2026-08-29 22:00:00",
-    "from": "2026-08-28 22:00:00",
-    "to": "2026-08-29 22:00:00"
-  },
-  {
-    "ts": "2026-08-29T07:34:22+00:00",
-    "ticket_number": 7950,
-    "subject": "PCA for Turtle House Due Date: 8/31/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-08-28 18:58:00 to 2026-08-29 18:58:00",
-    "from": "2026-08-28 18:58:00",
-    "to": "2026-08-29 18:58:00"
-  },
-  {
-    "ts": "2026-08-29T07:34:22+00:00",
-    "ticket_number": 7362,
-    "subject": "PCA for Family Tides Due Date: 7/31/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-08-28 20:35:00 to 2026-08-29 20:35:00",
-    "from": "2026-08-28 20:35:00",
-    "to": "2026-08-29 20:35:00"
-  },
-  {
-    "ts": "2026-08-29T07:34:22+00:00",
-    "ticket_number": 7361,
-    "subject": "PCA for Gulf & Bay Bayside - 1350 Due Date: 7/30/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-08-28 09:30:00 to 2026-08-29 09:30:00",
-    "from": "2026-08-28 09:30:00",
-    "to": "2026-08-29 09:30:00"
-  },
-  {
-    "ts": "2026-08-29T07:34:22+00:00",
-    "ticket_number": 7165,
-    "subject": "PCA for Gulf & Bay Bayside - 1346 Due Date: 7/24/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-08-28 10:30:00 to 2026-08-29 10:30:00",
-    "from": "2026-08-28 10:30:00",
-    "to": "2026-08-29 10:30:00"
-  },
-  {
-    "ts": "2026-08-29T00:49:01+00:00",
-    "ticket_number": 8512,
-    "subject": "Price Analysis",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.paulin@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-08-29T00:49:01+00:00",
-    "ticket_number": 8511,
-    "subject": "rent rev",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.paulin@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-08-29T00:49:01+00:00",
-    "ticket_number": 8501,
-    "subject": "Res. No. 61513 - Debbie Shaw  - Shaker of Salt - \"Unauthorized Event\" notice from VRBO",
-    "type": "reassigned",
-    "detail": "Reassigned from b.williams@choosegulfcoast.com to l.winter@choosegulfcoast.com",
-    "from": "b.williams@choosegulfcoast.com",
-    "to": "l.winter@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-08-29T00:49:01+00:00",
-    "ticket_number": 8501,
-    "subject": "Res. No. 61513 - Debbie Shaw  - Shaker of Salt - \"Unauthorized Event\" notice from VRBO",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-01 17:07:53 to 2026-08-28 21:07:53",
-    "from": "2026-09-01 17:07:53",
-    "to": "2026-08-28 21:07:53"
-  },
-  {
-    "ts": "2026-08-29T00:49:01+00:00",
-    "ticket_number": 8501,
-    "subject": "Res. No. 61513 - Debbie Shaw  - Shaker of Salt - \"Unauthorized Event\" notice from VRBO",
-    "type": "priority_changed",
-    "detail": "Priority changed from 5 to 20",
-    "from": 5,
-    "to": 20
-  },
-  {
-    "ts": "2026-08-29T00:49:01+00:00",
-    "ticket_number": 8474,
-    "subject": "Unit: Dreams Of Paradise | Guest Name: Profitt Danielle | Guest Compensation / Pest & Maintenance Escalation",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-08-30 14:28:00 to 2026-08-31 14:28:00",
-    "from": "2026-08-30 14:28:00",
-    "to": "2026-08-31 14:28:00"
-  },
-  {
-    "ts": "2026-08-29T00:49:01+00:00",
-    "ticket_number": 8444,
-    "subject": "PCA for Par Then Bar Due Date: 12/20/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-28 20:09:00 to 2026-12-31 21:09:00",
-    "from": "2026-09-28 20:09:00",
-    "to": "2026-12-31 21:09:00"
-  },
-  {
-    "ts": "2026-08-29T00:49:01+00:00",
-    "ticket_number": 8310,
-    "subject": "Sandalfoot Tent Card",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-08-28 18:13:00 to 2026-09-04 18:13:00",
-    "from": "2026-08-28 18:13:00",
-    "to": "2026-09-04 18:13:00"
-  },
-  {
-    "ts": "2026-08-29T00:49:01+00:00",
-    "ticket_number": 8239,
-    "subject": "PCA for The Duffers Retreat Due Date: 9/2/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from t.healy@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
-    "from": "t.healy@choosegulfcoast.com",
-    "to": "c.thayer@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-08-29T00:49:01+00:00",
-    "ticket_number": 8181,
-    "subject": "PCA for Sunny Retreat Due Date: 9/9/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from t.healy@choosegulfcoast.com to s.paulin@choosegulfcoast.com",
-    "from": "t.healy@choosegulfcoast.com",
-    "to": "s.paulin@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-08-29T00:49:01+00:00",
-    "ticket_number": 8176,
-    "subject": "PCA for Sunny Life Due Date: 9/6/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from t.healy@choosegulfcoast.com to s.paulin@choosegulfcoast.com",
-    "from": "t.healy@choosegulfcoast.com",
-    "to": "s.paulin@choosegulfcoast.com"
   }
 ]
