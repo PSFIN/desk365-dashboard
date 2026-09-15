@@ -1,5 +1,115 @@
 [
   {
+    "ts": "2026-09-15T11:57:19+00:00",
+    "ticket_number": 8793,
+    "subject": "Res #: 63056| Unit: Sandy Pointe| Guest Name: Snow Jackson | ECI inquiry",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.canada@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-15T11:57:19+00:00",
+    "ticket_number": 8787,
+    "subject": "Dreams of Paradise-PCA deep clean",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-17 18:37:01 to 2026-09-20 18:37:00",
+    "from": "2026-09-17 18:37:01",
+    "to": "2026-09-20 18:37:00"
+  },
+  {
+    "ts": "2026-09-15T11:57:19+00:00",
+    "ticket_number": 8690,
+    "subject": "Golfside Escape-cleaning",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-15 18:27:04 to 2026-09-17 18:27:00",
+    "from": "2026-09-15 18:27:04",
+    "to": "2026-09-17 18:27:00"
+  },
+  {
+    "ts": "2026-09-15T11:57:19+00:00",
+    "ticket_number": 8618,
+    "subject": "PCA - Fishtail",
+    "type": "reassigned",
+    "detail": "Reassigned from t.healy@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
+    "from": "t.healy@choosegulfcoast.com",
+    "to": "s.soriafrausto@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-15T11:57:19+00:00",
+    "ticket_number": 8332,
+    "subject": "PCA for Charlotte's Dream Due Date: 9/15/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from t.healy@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
+    "from": "t.healy@choosegulfcoast.com",
+    "to": "s.soriafrausto@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-15T11:57:19+00:00",
+    "ticket_number": 8179,
+    "subject": "PCA for Little Bit Of Heaven Due Date: 9/8/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-19 14:46:00 to 2026-10-17 14:46:00",
+    "from": "2026-09-19 14:46:00",
+    "to": "2026-10-17 14:46:00"
+  },
+  {
+    "ts": "2026-09-15T11:57:19+00:00",
+    "ticket_number": 7598,
+    "subject": "PCA for Longboat Oasis Due Date: 8/4/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from t.healy@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
+    "from": "t.healy@choosegulfcoast.com",
+    "to": "s.soriafrausto@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-15T11:57:19+00:00",
+    "ticket_number": 8790,
+    "subject": "Marina Sunrise - Cleaning",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-15T11:57:19+00:00",
+    "ticket_number": 8724,
+    "subject": "YCBR - Touch up cleans",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-15T11:57:19+00:00",
+    "ticket_number": 8723,
+    "subject": "Shore Bet cleaning",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-15T11:57:19+00:00",
+    "ticket_number": 8722,
+    "subject": "Coast is clear - cleaning",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-15T11:57:19+00:00",
+    "ticket_number": 8720,
+    "subject": "Enjoy Sarasota-cleaning",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-15T11:57:19+00:00",
+    "ticket_number": 8713,
+    "subject": "Gulf Horizon - Keypad batteries",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-15T11:57:19+00:00",
+    "ticket_number": 8709,
+    "subject": "Pier Pressure - Patio Furniture",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-15T06:21:14+00:00",
     "ticket_number": 8792,
     "subject": "Truderung Rudolf/Sun Seeker/Res #: 62848/HOA Form",

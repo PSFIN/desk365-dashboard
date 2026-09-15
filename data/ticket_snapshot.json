@@ -1,4 +1,11 @@
 {
+  "8793": {
+    "subject": "Res #: 63056| Unit: Sandy Pointe| Guest Name: Snow Jackson | ECI inquiry",
+    "assigned_to": "d.canada@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-17 22:00:00",
+    "priority": 1
+  },
   "8792": {
     "subject": "Truderung Rudolf/Sun Seeker/Res #: 62848/HOA Form",
     "assigned_to": "b.zeh@choosegulfcoast.com",
@@ -11,13 +18,6 @@
     "assigned_to": "a.dallman@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-17 22:00:00",
-    "priority": 1
-  },
-  "8790": {
-    "subject": "Marina Sunrise - Cleaning",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-17 20:44:08",
     "priority": 1
   },
   "8789": {
@@ -38,7 +38,7 @@
     "subject": "Dreams of Paradise-PCA deep clean",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-17 18:37:01",
+    "due_date": "2026-09-20 18:37:00",
     "priority": 1
   },
   "8786": {
@@ -272,53 +272,11 @@
     "due_date": "2026-09-15 13:00:00",
     "priority": 10
   },
-  "8724": {
-    "subject": "YCBR - Touch up cleans",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-14 22:00:00",
-    "priority": 1
-  },
-  "8723": {
-    "subject": "Shore Bet cleaning",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-14 22:00:00",
-    "priority": 1
-  },
-  "8722": {
-    "subject": "Coast is clear - cleaning",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-14 22:00:00",
-    "priority": 1
-  },
-  "8720": {
-    "subject": "Enjoy Sarasota-cleaning",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-14 19:58:53",
-    "priority": 10
-  },
   "8717": {
     "subject": "Florida Fabulous-comp 790",
     "assigned_to": "m.johnston@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-14 18:29:19",
-    "priority": 1
-  },
-  "8713": {
-    "subject": "Gulf Horizon - Keypad batteries",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-14 15:19:00",
-    "priority": 1
-  },
-  "8709": {
-    "subject": "Pier Pressure - Patio Furniture",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-14 14:25:13",
     "priority": 1
   },
   "8706": {
@@ -339,7 +297,7 @@
     "subject": "Golfside Escape-cleaning",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-15 18:27:04",
+    "due_date": "2026-09-17 18:27:00",
     "priority": 10
   },
   "8687": {
@@ -414,7 +372,7 @@
   },
   "8618": {
     "subject": "PCA - Fishtail",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-26 22:00:00",
     "priority": 1
@@ -617,7 +575,7 @@
   },
   "8332": {
     "subject": "PCA for Charlotte's Dream Due Date: 9/15/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-26 22:00:00",
     "priority": 5
@@ -661,7 +619,7 @@
     "subject": "PCA for Little Bit Of Heaven Due Date: 9/8/2026",
     "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-19 14:46:00",
+    "due_date": "2026-10-17 14:46:00",
     "priority": 5
   },
   "8157": {
@@ -743,7 +701,7 @@
   },
   "7598": {
     "subject": "PCA for Longboat Oasis Due Date: 8/4/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-26 22:00:00",
     "priority": 5
