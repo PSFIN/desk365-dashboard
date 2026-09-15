@@ -1,4 +1,32 @@
 {
+  "8810": {
+    "subject": "Robin Marin/Coldwell Banker/ GBB 1200G",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-18 21:28:34",
+    "priority": 1
+  },
+  "8809": {
+    "subject": "Request: Tee Time & Fore Seasons in Calusa \u2013 October Rental with Pets",
+    "assigned_to": "d.husak@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-18 21:03:43",
+    "priority": 1
+  },
+  "8808": {
+    "subject": "Schaffer Nicole/ Colony Inn C-45/ Res #: 63086/ Risk for an unauthorized event",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-18 20:51:04",
+    "priority": 1
+  },
+  "8807": {
+    "subject": "Looking for A property Management/Owner",
+    "assigned_to": "b.vandroff@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-18 20:49:17",
+    "priority": 1
+  },
   "8806": {
     "subject": "Linda Bourgeois |  Res #: 63059 | Cancellation Request",
     "assigned_to": "h.nomura@choosegulfcoast.com",
@@ -160,13 +188,6 @@
     "due_date": "2026-09-16 22:00:00",
     "priority": 10
   },
-  "8768": {
-    "subject": "McNeill Connie | Unit: Loggerhead Cay #183 | Res #: 56061 | Broken Fan",
-    "assigned_to": "j.banks@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-16 22:00:00",
-    "priority": 1
-  },
   "8767": {
     "subject": "Unit: Paraclete Paradise   | Guest Name: Bihday Deborah | Res #: 58054 | Lost & Found: Cord Left in Living Room",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
@@ -283,15 +304,8 @@
     "subject": "City of Bradenton Vacation Rental License - Unincorporated Manatee County",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-15 21:00:00",
+    "due_date": "2026-09-20 21:00:00",
     "priority": 5
-  },
-  "8728": {
-    "subject": "Sales & Tourist Tax Remittance - August 2026",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-15 19:00:00",
-    "priority": 20
   },
   "8717": {
     "subject": "Florida Fabulous-comp 790",
@@ -543,13 +557,6 @@
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-18 16:00:00",
-    "priority": 10
-  },
-  "8367": {
-    "subject": "Sarasota Tourist Development Tax Update : New Online Reporting Platform Coming in September",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-15 19:00:00",
     "priority": 10
   },
   "8365": {

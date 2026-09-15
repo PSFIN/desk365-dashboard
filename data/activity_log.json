@@ -1,5 +1,63 @@
 [
   {
+    "ts": "2026-09-15T22:35:56+00:00",
+    "ticket_number": 8810,
+    "subject": "Robin Marin/Coldwell Banker/ GBB 1200G",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-15T22:35:56+00:00",
+    "ticket_number": 8809,
+    "subject": "Request: Tee Time & Fore Seasons in Calusa \u2013 October Rental with Pets",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.husak@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-15T22:35:56+00:00",
+    "ticket_number": 8808,
+    "subject": "Schaffer Nicole/ Colony Inn C-45/ Res #: 63086/ Risk for an unauthorized event",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-15T22:35:56+00:00",
+    "ticket_number": 8807,
+    "subject": "Looking for A property Management/Owner",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.vandroff@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-15T22:35:56+00:00",
+    "ticket_number": 8729,
+    "subject": "City of Bradenton Vacation Rental License - Unincorporated Manatee County",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-15 21:00:00 to 2026-09-20 21:00:00",
+    "from": "2026-09-15 21:00:00",
+    "to": "2026-09-20 21:00:00"
+  },
+  {
+    "ts": "2026-09-15T22:35:56+00:00",
+    "ticket_number": 8768,
+    "subject": "McNeill Connie | Unit: Loggerhead Cay #183 | Res #: 56061 | Broken Fan",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-15T22:35:56+00:00",
+    "ticket_number": 8728,
+    "subject": "Sales & Tourist Tax Remittance - August 2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-15T22:35:56+00:00",
+    "ticket_number": 8367,
+    "subject": "Sarasota Tourist Development Tax Update : New Online Reporting Platform Coming in September",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-15T19:45:49+00:00",
     "ticket_number": 8806,
     "subject": "Linda Bourgeois |  Res #: 63059 | Cancellation Request",
@@ -7862,71 +7920,5 @@
     "detail": "Reassigned from s.paulin@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
     "from": "s.paulin@choosegulfcoast.com",
     "to": "j.rushton@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-08-29T17:27:33+00:00",
-    "ticket_number": 8176,
-    "subject": "PCA for Sunny Life Due Date: 9/6/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from s.paulin@choosegulfcoast.com to d.husak@choosegulfcoast.com",
-    "from": "s.paulin@choosegulfcoast.com",
-    "to": "d.husak@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-08-29T17:27:33+00:00",
-    "ticket_number": 7955,
-    "subject": "PCA for Paradis Sur Mer Due Date: 9/1/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from s.paulin@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
-    "from": "s.paulin@choosegulfcoast.com",
-    "to": "j.rushton@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-08-29T17:27:33+00:00",
-    "ticket_number": 7605,
-    "subject": "PCA for Awake Zone Due Date: 8/13/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from s.paulin@choosegulfcoast.com to d.husak@choosegulfcoast.com",
-    "from": "s.paulin@choosegulfcoast.com",
-    "to": "d.husak@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-08-29T17:27:33+00:00",
-    "ticket_number": 7599,
-    "subject": "PCA for Admirals Watch Due Date:  8/6/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from s.paulin@choosegulfcoast.com to d.husak@choosegulfcoast.com",
-    "from": "s.paulin@choosegulfcoast.com",
-    "to": "d.husak@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-08-29T17:27:33+00:00",
-    "ticket_number": 7162,
-    "subject": "PCA for The River\u2019s End Due Date: 7/22/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from s.paulin@choosegulfcoast.com to d.husak@choosegulfcoast.com",
-    "from": "s.paulin@choosegulfcoast.com",
-    "to": "d.husak@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-08-29T17:27:33+00:00",
-    "ticket_number": 8512,
-    "subject": "Price Analysis",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-08-29T17:27:33+00:00",
-    "ticket_number": 8511,
-    "subject": "rent rev",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-08-29T17:27:33+00:00",
-    "ticket_number": 8500,
-    "subject": "rent rev",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
 ]
