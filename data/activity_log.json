@@ -1,5 +1,211 @@
 [
   {
+    "ts": "2026-09-15T16:19:37+00:00",
+    "ticket_number": 8795,
+    "subject": "5 Star Review Feedback | Res #48720 | Savitt Maria | Loggerhead Cay #183 | 9/5/2026-9/12/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to l.costa@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-15T16:19:37+00:00",
+    "ticket_number": 8794,
+    "subject": "Signal Inn Unit 03 / Owner booking credit",
+    "type": "created",
+    "detail": "Created \u2014 assigned to a.ytac@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-15T16:19:37+00:00",
+    "ticket_number": 8739,
+    "subject": "GBB1327 - Update photos",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-15 22:00:00 to 2026-09-18 22:00:00",
+    "from": "2026-09-15 22:00:00",
+    "to": "2026-09-18 22:00:00"
+  },
+  {
+    "ts": "2026-09-15T16:19:37+00:00",
+    "ticket_number": 8737,
+    "subject": "Carmona Newton | Unit: Birdie | Res #: 61948 | Multiple Issues",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "j.rushton@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-15T16:19:37+00:00",
+    "ticket_number": 8737,
+    "subject": "Carmona Newton | Unit: Birdie | Res #: 61948 | Multiple Issues",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-15 20:33:25 to 2026-09-16 20:33:00",
+    "from": "2026-09-15 20:33:25",
+    "to": "2026-09-16 20:33:00"
+  },
+  {
+    "ts": "2026-09-15T16:19:37+00:00",
+    "ticket_number": 8731,
+    "subject": "Signal Inn Landscape lighting",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-15 15:48:13 to 2026-09-17 17:00:00",
+    "from": "2026-09-15 15:48:13",
+    "to": "2026-09-17 17:00:00"
+  },
+  {
+    "ts": "2026-09-15T16:19:37+00:00",
+    "ticket_number": 8728,
+    "subject": "Sales & Tourist Tax Remittance - August 2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-15 13:00:00 to 2026-09-15 17:00:00",
+    "from": "2026-09-15 13:00:00",
+    "to": "2026-09-15 17:00:00"
+  },
+  {
+    "ts": "2026-09-15T16:19:37+00:00",
+    "ticket_number": 8728,
+    "subject": "Sales & Tourist Tax Remittance - August 2026",
+    "type": "priority_changed",
+    "detail": "Priority changed from 10 to 20",
+    "from": 10,
+    "to": 20
+  },
+  {
+    "ts": "2026-09-15T16:19:37+00:00",
+    "ticket_number": 8687,
+    "subject": "Kedrych Alisa/Gulf & Bay Bayside - 1291/ Res #: 59049/AC Issues and Microwave",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-14 18:00:00 to 2026-09-16 18:00:00",
+    "from": "2026-09-14 18:00:00",
+    "to": "2026-09-16 18:00:00"
+  },
+  {
+    "ts": "2026-09-15T16:19:37+00:00",
+    "ticket_number": 8617,
+    "subject": "PCA - Avalon (Vacant)",
+    "type": "reassigned",
+    "detail": "Reassigned from t.healy@choosegulfcoast.com to s.paulin@choosegulfcoast.com",
+    "from": "t.healy@choosegulfcoast.com",
+    "to": "s.paulin@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-15T16:19:37+00:00",
+    "ticket_number": 8435,
+    "subject": "Williams Jamie | Res #: 57053 | Ocean Eyes | Celebration Requests",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-14 22:00:00 to 2026-09-25 22:00:00",
+    "from": "2026-09-14 22:00:00",
+    "to": "2026-09-25 22:00:00"
+  },
+  {
+    "ts": "2026-09-15T16:19:37+00:00",
+    "ticket_number": 8367,
+    "subject": "Sarasota Tourist Development Tax Update : New Online Reporting Platform Coming in September",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-15 14:27:00 to 2026-09-15 18:00:00",
+    "from": "2026-09-15 14:27:00",
+    "to": "2026-09-15 18:00:00"
+  },
+  {
+    "ts": "2026-09-15T16:19:37+00:00",
+    "ticket_number": 8330,
+    "subject": "PCA for Golden Beach Haven Due Date: 9/14/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-17 22:00:00 to 2026-09-19 22:00:00",
+    "from": "2026-09-17 22:00:00",
+    "to": "2026-09-19 22:00:00"
+  },
+  {
+    "ts": "2026-09-15T16:19:37+00:00",
+    "ticket_number": 8007,
+    "subject": "Rising tides- pool deck, chairs, couch and window",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-15T16:19:37+00:00",
+    "ticket_number": 8791,
+    "subject": "Kanel Deborah | Unit: Sandalfoot 4C3 | Res #: 38851 | Water Heater Alarm Going Off",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-15T16:19:37+00:00",
+    "ticket_number": 8785,
+    "subject": "Plascino Linda | Glorious Golfers | Res #: 41825 | Multiple Concerns",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-15T16:19:37+00:00",
+    "ticket_number": 8784,
+    "subject": "Guest Name: Smith Kathryn | Res #: 62646 | Unit: Gulf & Bay Bayside - 1343 | Cancellation request.",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-15T16:19:37+00:00",
+    "ticket_number": 8781,
+    "subject": "Florida Oasis-pool leak",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-15T16:19:37+00:00",
+    "ticket_number": 8779,
+    "subject": "SI Piling project Guest relocate",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-15T16:19:37+00:00",
+    "ticket_number": 8758,
+    "subject": "Wilson Danielle | Unit: Ocean Eyes | Res #: 55819 | Multiple Issues",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-15T16:19:37+00:00",
+    "ticket_number": 8745,
+    "subject": "Piling project relocate guest",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-15T16:19:37+00:00",
+    "ticket_number": 8736,
+    "subject": "5 Star Review Feedback | Res #: 58384 | Douglass Romy | Turtle House | 9/3/2026-9/7/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-15T16:19:37+00:00",
+    "ticket_number": 8693,
+    "subject": "Birdie - Owner charge",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-15T16:19:37+00:00",
+    "ticket_number": 8680,
+    "subject": "Potential Scam Report \u2013 Speak Easy / 243 Lime Avenue",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-15T16:19:37+00:00",
+    "ticket_number": 8644,
+    "subject": "City of Sanibel Rental Use Regulations",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-15T16:19:37+00:00",
+    "ticket_number": 8333,
+    "subject": "PCA for Lido Del Mare Due Date: 8/25/ 2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-15T11:57:19+00:00",
     "ticket_number": 8793,
     "subject": "Res #: 63056| Unit: Sandy Pointe| Guest Name: Snow Jackson | ECI inquiry",
@@ -7742,107 +7948,5 @@
     "detail": "Reassigned from t.healy@choosegulfcoast.com to s.paulin@choosegulfcoast.com",
     "from": "t.healy@choosegulfcoast.com",
     "to": "s.paulin@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-08-29T00:49:01+00:00",
-    "ticket_number": 7852,
-    "subject": "Business Cards",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-08-28 16:00:00 to 2026-09-04 16:00:00",
-    "from": "2026-08-28 16:00:00",
-    "to": "2026-09-04 16:00:00"
-  },
-  {
-    "ts": "2026-08-29T00:49:01+00:00",
-    "ticket_number": 7162,
-    "subject": "PCA for The River\u2019s End Due Date: 7/22/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from t.healy@choosegulfcoast.com to s.paulin@choosegulfcoast.com",
-    "from": "t.healy@choosegulfcoast.com",
-    "to": "s.paulin@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-08-29T00:49:01+00:00",
-    "ticket_number": 8507,
-    "subject": "Shaw Debbie | Res #: 61518 | Unit: Shaker Of Salt | Property Change Request",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-08-29T00:49:01+00:00",
-    "ticket_number": 8487,
-    "subject": "Tee Time-New build",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-08-29T00:49:01+00:00",
-    "ticket_number": 8458,
-    "subject": "QC needed to close RR GC1647",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-08-29T00:49:01+00:00",
-    "ticket_number": 8455,
-    "subject": "DBPR License : Sun Seeker - 5544 Summit Pointe Cir",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-08-29T00:49:01+00:00",
-    "ticket_number": 8451,
-    "subject": "New Jot Form for All HOA docs required from Owner",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-08-29T00:49:01+00:00",
-    "ticket_number": 8416,
-    "subject": "Johnson Chase/Res #: 55736/ Turtle House/Compensation Review Request",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-08-29T00:49:01+00:00",
-    "ticket_number": 8282,
-    "subject": "Res. No. 38642- Amy Phuprasert  - property name - Gulf & Bay 1272:     Issue: 1 of 3:  Dirty Towel",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-08-29T00:49:01+00:00",
-    "ticket_number": 7910,
-    "subject": "Walsh Laura | Res #: 44722| Guest Request for Management Assistance \u2013 A/C Not Cooling",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-08-28T16:51:51+00:00",
-    "ticket_number": 8509,
-    "subject": "Dreams of Paradise-towels",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.williams@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-08-28T16:51:51+00:00",
-    "ticket_number": 7397,
-    "subject": "Marriott Curation Rejected - Signal inn 03",
-    "type": "created",
-    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-08-28T16:51:51+00:00",
-    "ticket_number": 8502,
-    "subject": "60 Day Payment Notices Issue",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-08-28T16:51:51+00:00",
-    "ticket_number": 8385,
-    "subject": "Add Property to Manatee Tourist Development Tax Umbrella - Sun Seeker - 5544 Summit Pointe Cir",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
 ]

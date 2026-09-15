@@ -1,4 +1,18 @@
 {
+  "8795": {
+    "subject": "5 Star Review Feedback | Res #48720 | Savitt Maria | Loggerhead Cay #183 | 9/5/2026-9/12/2026",
+    "assigned_to": "l.costa@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-18 16:04:07",
+    "priority": 1
+  },
+  "8794": {
+    "subject": "Signal Inn Unit 03 / Owner booking credit",
+    "assigned_to": "a.ytac@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-18 15:42:17",
+    "priority": 5
+  },
   "8793": {
     "subject": "Res #: 63056| Unit: Sandy Pointe| Guest Name: Snow Jackson | ECI inquiry",
     "assigned_to": "d.canada@choosegulfcoast.com",
@@ -9,13 +23,6 @@
   "8792": {
     "subject": "Truderung Rudolf/Sun Seeker/Res #: 62848/HOA Form",
     "assigned_to": "b.zeh@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-17 22:00:00",
-    "priority": 1
-  },
-  "8791": {
-    "subject": "Kanel Deborah | Unit: Sandalfoot 4C3 | Res #: 38851 | Water Heater Alarm Going Off",
-    "assigned_to": "a.dallman@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-17 22:00:00",
     "priority": 1
@@ -48,32 +55,11 @@
     "due_date": "2026-09-17 17:42:40",
     "priority": 10
   },
-  "8785": {
-    "subject": "Plascino Linda | Glorious Golfers | Res #: 41825 | Multiple Concerns",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-17 17:11:21",
-    "priority": 1
-  },
-  "8784": {
-    "subject": "Guest Name: Smith Kathryn | Res #: 62646 | Unit: Gulf & Bay Bayside - 1343 | Cancellation request.",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-17 15:32:20",
-    "priority": 1
-  },
   "8782": {
     "subject": "zFairway to Paradise. cancel booking",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-15 18:56:03",
-    "priority": 20
-  },
-  "8781": {
-    "subject": "Florida Oasis-pool leak",
-    "assigned_to": "l.susas@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-15 18:40:23",
     "priority": 20
   },
   "8780": {
@@ -82,13 +68,6 @@
     "status": "Open",
     "due_date": "2026-09-17 14:12:45",
     "priority": 1
-  },
-  "8779": {
-    "subject": "SI Piling project Guest relocate",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-16 22:00:00",
-    "priority": 10
   },
   "8777": {
     "subject": "A Shore Thing / City of Sarasota Cert Number VR22-00135",
@@ -153,13 +132,6 @@
     "due_date": "2026-09-16 19:55:48",
     "priority": 1
   },
-  "8758": {
-    "subject": "Wilson Danielle | Unit: Ocean Eyes | Res #: 55819 | Multiple Issues",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-16 19:39:13",
-    "priority": 1
-  },
   "8757": {
     "subject": "#1230 broken box springs",
     "assigned_to": "c.nutt@choosegulfcoast.com",
@@ -188,13 +160,6 @@
     "due_date": "2026-09-16 16:33:37",
     "priority": 1
   },
-  "8745": {
-    "subject": "Piling project relocate guest",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-16 15:32:35",
-    "priority": 10
-  },
   "8744": {
     "subject": "Piling project / Guest relocate",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
@@ -213,21 +178,14 @@
     "subject": "GBB1327 - Update photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-15 22:00:00",
+    "due_date": "2026-09-18 22:00:00",
     "priority": 1
   },
   "8737": {
     "subject": "Carmona Newton | Unit: Birdie | Res #: 61948 | Multiple Issues",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-15 20:33:25",
-    "priority": 1
-  },
-  "8736": {
-    "subject": "5 Star Review Feedback | Res #: 58384 | Douglass Romy | Turtle House | 9/3/2026-9/7/2026",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-15 19:46:34",
+    "due_date": "2026-09-16 20:33:00",
     "priority": 1
   },
   "8735": {
@@ -255,7 +213,7 @@
     "subject": "Signal Inn Landscape lighting",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-15 15:48:13",
+    "due_date": "2026-09-17 17:00:00",
     "priority": 10
   },
   "8729": {
@@ -269,8 +227,8 @@
     "subject": "Sales & Tourist Tax Remittance - August 2026",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-15 13:00:00",
-    "priority": 10
+    "due_date": "2026-09-15 17:00:00",
+    "priority": 20
   },
   "8717": {
     "subject": "Florida Fabulous-comp 790",
@@ -286,13 +244,6 @@
     "due_date": "2026-09-19 14:08:00",
     "priority": 1
   },
-  "8693": {
-    "subject": "Birdie - Owner charge",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-14 14:52:00",
-    "priority": 1
-  },
   "8690": {
     "subject": "Golfside Escape-cleaning",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
@@ -304,7 +255,7 @@
     "subject": "Kedrych Alisa/Gulf & Bay Bayside - 1291/ Res #: 59049/AC Issues and Microwave",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-14 18:00:00",
+    "due_date": "2026-09-16 18:00:00",
     "priority": 20
   },
   "8683": {
@@ -312,13 +263,6 @@
     "assigned_to": "a.ytac@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-30 17:06:00",
-    "priority": 1
-  },
-  "8680": {
-    "subject": "Potential Scam Report \u2013 Speak Easy / 243 Lime Avenue",
-    "assigned_to": "b.evans@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-10 22:00:00",
     "priority": 1
   },
   "8678": {
@@ -333,13 +277,6 @@
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-22 21:27:00",
-    "priority": 1
-  },
-  "8644": {
-    "subject": "City of Sanibel Rental Use Regulations",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-15 15:07:00",
     "priority": 1
   },
   "8639": {
@@ -379,7 +316,7 @@
   },
   "8617": {
     "subject": "PCA - Avalon (Vacant)",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-26 22:00:00",
     "priority": 1
@@ -521,7 +458,7 @@
     "subject": "Williams Jamie | Res #: 57053 | Ocean Eyes | Celebration Requests",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-14 22:00:00",
+    "due_date": "2026-09-25 22:00:00",
     "priority": 1
   },
   "8434": {
@@ -549,7 +486,7 @@
     "subject": "Sarasota Tourist Development Tax Update : New Online Reporting Platform Coming in September",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-15 14:27:00",
+    "due_date": "2026-09-15 18:00:00",
     "priority": 10
   },
   "8365": {
@@ -565,13 +502,6 @@
     "status": "Open",
     "due_date": "2026-11-27 19:18:00",
     "priority": 10
-  },
-  "8333": {
-    "subject": "PCA for Lido Del Mare Due Date: 8/25/ 2026",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-17 22:00:00",
-    "priority": 5
   },
   "8332": {
     "subject": "PCA for Charlotte's Dream Due Date: 9/15/2026",
@@ -591,7 +521,7 @@
     "subject": "PCA for Golden Beach Haven Due Date: 9/14/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-17 22:00:00",
+    "due_date": "2026-09-19 22:00:00",
     "priority": 5
   },
   "8329": {
@@ -645,7 +575,7 @@
   },
   "8007": {
     "subject": "Rising tides- pool deck, chairs, couch and window",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-14 19:46:00",
     "priority": 10
