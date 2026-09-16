@@ -1,5 +1,74 @@
 [
   {
+    "ts": "2026-09-16T21:58:19+00:00",
+    "ticket_number": 8831,
+    "subject": "LYNX Smart System / New owner and lead facing PDF",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-16T21:58:19+00:00",
+    "ticket_number": 8830,
+    "subject": "Pellito Laurie/Signal Inn - Unit 14/Signal Inn - Unit 14/Property Feedback",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-16T21:58:19+00:00",
+    "ticket_number": 8829,
+    "subject": "Be Still Beach Retreat-nightly min 167.00",
+    "type": "created",
+    "detail": "Created \u2014 assigned to a.guarin@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-16T21:58:19+00:00",
+    "ticket_number": 8823,
+    "subject": "Selecting Vendors issue",
+    "type": "reassigned",
+    "detail": "Reassigned from b.evans@choosegulfcoast.com to n.ventura@choosegulfcoast.com",
+    "from": "b.evans@choosegulfcoast.com",
+    "to": "n.ventura@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-16T21:58:19+00:00",
+    "ticket_number": 8744,
+    "subject": "Piling project / Guest relocate",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-16 15:28:02 to 2026-09-18 15:28:00",
+    "from": "2026-09-16 15:28:02",
+    "to": "2026-09-18 15:28:00"
+  },
+  {
+    "ts": "2026-09-16T21:58:19+00:00",
+    "ticket_number": 8628,
+    "subject": "Update website team photos",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-17 17:39:00 to 2026-10-06 17:39:00",
+    "from": "2026-09-17 17:39:00",
+    "to": "2026-10-06 17:39:00"
+  },
+  {
+    "ts": "2026-09-16T21:58:19+00:00",
+    "ticket_number": 8818,
+    "subject": "Name: Makurat Jeannette | Res: 56621 | Cancelled 50% Retained - Direct",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-16T21:58:19+00:00",
+    "ticket_number": 8806,
+    "subject": "Linda Bourgeois |  Res #: 63059 | Cancellation Request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-16T21:58:19+00:00",
+    "ticket_number": 8728,
+    "subject": "Sales & Tourist Tax Remittance - August 2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-16T18:59:31+00:00",
     "ticket_number": 8828,
     "subject": "New Employee -LindaJean - Platform Access",
@@ -7849,68 +7918,5 @@
     "subject": "Res #: 52252 | Pritchett Darin | Day Dreamer | Communal Pool Out of Service",
     "type": "created",
     "detail": "Created \u2014 assigned to b.williams@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-08-31T19:10:35+00:00",
-    "ticket_number": 8540,
-    "subject": "Sandalfoot Unit 1A2 Listing Desciption",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-08-31T19:10:35+00:00",
-    "ticket_number": 8539,
-    "subject": "Res. No. 55853 - MJ Lynch  - Ocean Eyes:     Issue 2 of 2:  toilets fill up with hot water",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-08-31T19:10:35+00:00",
-    "ticket_number": 8538,
-    "subject": "Sun Seeker-no cleaning required",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-08-31T19:10:35+00:00",
-    "ticket_number": 8537,
-    "subject": "Res. No. 55853 - MJ Lynch  - Ocean Eyes:     Issue 1 of 2:  dryer - lint build-up in door",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-08-31T19:10:35+00:00",
-    "ticket_number": 8536,
-    "subject": "Lynnbrook Chargeback | Res# 41378 | Hopper Kimberly | Unit: Sandalfoot 5B3 | CI: 09/24/2026 | CO: 10/04/2026",
-    "type": "created",
-    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-08-31T19:10:35+00:00",
-    "ticket_number": 8535,
-    "subject": "Beach Heron - Update photos",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-08-31T19:10:35+00:00",
-    "ticket_number": 8534,
-    "subject": "GBB1338 - New Photos",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-08-31T19:10:35+00:00",
-    "ticket_number": 8533,
-    "subject": "Sweet Pineapple-Comp 75",
-    "type": "created",
-    "detail": "Created \u2014 assigned to m.johnston@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-08-31T19:10:35+00:00",
-    "ticket_number": 8532,
-    "subject": "Sweet pineapple-fire extinguisher",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
   }
 ]

@@ -1,4 +1,25 @@
 {
+  "8831": {
+    "subject": "LYNX Smart System / New owner and lead facing PDF",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-21 21:15:07",
+    "priority": 5
+  },
+  "8830": {
+    "subject": "Pellito Laurie/Signal Inn - Unit 14/Signal Inn - Unit 14/Property Feedback",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-21 21:13:59",
+    "priority": 1
+  },
+  "8829": {
+    "subject": "Be Still Beach Retreat-nightly min 167.00",
+    "assigned_to": "a.guarin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-18 15:28:05",
+    "priority": 20
+  },
   "8828": {
     "subject": "New Employee -LindaJean - Platform Access",
     "assigned_to": "b.evans@choosegulfcoast.com",
@@ -29,7 +50,7 @@
   },
   "8823": {
     "subject": "Selecting Vendors issue",
-    "assigned_to": "b.evans@choosegulfcoast.com",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-21 15:47:34",
     "priority": 10
@@ -62,13 +83,6 @@
     "due_date": "2026-09-17 18:41:57",
     "priority": 20
   },
-  "8818": {
-    "subject": "Name: Makurat Jeannette | Res: 56621 | Cancelled 50% Retained - Direct",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-18 22:00:00",
-    "priority": 1
-  },
   "8812": {
     "subject": "Roberts Whitney/ Sandalfoot 1B2/Res #: 56074/Shower Door",
     "assigned_to": "k.garcia@choosegulfcoast.com",
@@ -81,13 +95,6 @@
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-18 21:28:34",
-    "priority": 1
-  },
-  "8806": {
-    "subject": "Linda Bourgeois |  Res #: 63059 | Cancellation Request",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-18 18:25:30",
     "priority": 1
   },
   "8805": {
@@ -269,7 +276,7 @@
     "subject": "Piling project / Guest relocate",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-16 15:28:02",
+    "due_date": "2026-09-18 15:28:00",
     "priority": 10
   },
   "8743": {
@@ -327,13 +334,6 @@
     "status": "Open",
     "due_date": "2026-09-20 21:00:00",
     "priority": 5
-  },
-  "8728": {
-    "subject": "Sales & Tourist Tax Remittance - August 2026",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-16 21:00:00",
-    "priority": 20
   },
   "8717": {
     "subject": "Florida Fabulous-comp 790",
@@ -395,7 +395,7 @@
     "subject": "Update website team photos",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-17 17:39:00",
+    "due_date": "2026-10-06 17:39:00",
     "priority": 10
   },
   "8624": {
