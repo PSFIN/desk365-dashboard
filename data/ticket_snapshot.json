@@ -1,4 +1,46 @@
 {
+  "8828": {
+    "subject": "New Employee -LindaJean - Platform Access",
+    "assigned_to": "b.evans@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-21 18:50:10",
+    "priority": 5
+  },
+  "8827": {
+    "subject": "rent rev",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-18 14:43:52",
+    "priority": 20
+  },
+  "8825": {
+    "subject": "Sliding door lock project",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-21 15:51:27",
+    "priority": 1
+  },
+  "8824": {
+    "subject": "Souther exposure-grill",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-21 15:50:37",
+    "priority": 5
+  },
+  "8823": {
+    "subject": "Selecting Vendors issue",
+    "assigned_to": "b.evans@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-21 15:47:34",
+    "priority": 10
+  },
+  "8822": {
+    "subject": "Board weekly e-mail",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-21 15:44:38",
+    "priority": 1
+  },
   "8821": {
     "subject": "Name: Reynolds Robert&Michelle | Res: 62230 | Cancelled 50% Retained - OTA",
     "assigned_to": "a.ytac@choosegulfcoast.com",
@@ -17,19 +59,12 @@
     "subject": "City of Bradenton VR License - A Wave from it All | 395 Aruba Circle, #203",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-21 14:41:57",
-    "priority": 10
+    "due_date": "2026-09-17 18:41:57",
+    "priority": 20
   },
   "8818": {
     "subject": "Name: Makurat Jeannette | Res: 56621 | Cancelled 50% Retained - Direct",
     "assigned_to": "a.ytac@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-18 22:00:00",
-    "priority": 1
-  },
-  "8813": {
-    "subject": "Carlin Brian/Luna Sea/Res #: 62942/Cancellation Request",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-18 22:00:00",
     "priority": 1
@@ -46,20 +81,6 @@
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-18 21:28:34",
-    "priority": 1
-  },
-  "8809": {
-    "subject": "Request: Tee Time & Fore Seasons in Calusa \u2013 October Rental with Pets",
-    "assigned_to": "d.husak@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-18 21:03:43",
-    "priority": 1
-  },
-  "8808": {
-    "subject": "Schaffer Nicole/ Colony Inn C-45/ Res #: 63086/ Risk for an unauthorized event",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-18 20:51:04",
     "priority": 1
   },
   "8806": {
@@ -97,13 +118,6 @@
     "due_date": "2026-09-18 17:46:38",
     "priority": 1
   },
-  "8801": {
-    "subject": "5 Star Review Feedback | Res #: 58846 | Dilger Brandon | Signal Inn - Unit 03 | 9/7/2026-9/12/2026",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-18 17:40:25",
-    "priority": 1
-  },
   "8800": {
     "subject": "Pet Station",
     "assigned_to": "n.ventura@choosegulfcoast.com",
@@ -122,14 +136,14 @@
     "subject": "Coast is Clear - Photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-18 16:58:48",
+    "due_date": "2026-09-21 16:58:00",
     "priority": 1
   },
   "8797": {
     "subject": "Shore Bet - Photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-18 16:51:19",
+    "due_date": "2026-09-21 16:51:00",
     "priority": 1
   },
   "8796": {
@@ -167,13 +181,6 @@
     "due_date": "2026-09-20 18:37:00",
     "priority": 1
   },
-  "8782": {
-    "subject": "zFairway to Paradise. cancel booking",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-16 18:56:00",
-    "priority": 20
-  },
   "8780": {
     "subject": "GBB1327 - touchup clean",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
@@ -192,7 +199,7 @@
     "subject": "Harriman Kathleen | Colony Inn | Res #: 51031 - 51032 - 51031 | Remove last day each",
     "assigned_to": "h.nomura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-16 22:00:00",
+    "due_date": "2026-09-17 22:00:00",
     "priority": 1
   },
   "8775": {
@@ -312,7 +319,7 @@
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-17 17:00:00",
-    "priority": 10
+    "priority": 5
   },
   "8729": {
     "subject": "City of Bradenton Vacation Rental License - Unincorporated Manatee County",
@@ -326,7 +333,7 @@
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-16 21:00:00",
-    "priority": 10
+    "priority": 20
   },
   "8717": {
     "subject": "Florida Fabulous-comp 790",
@@ -390,13 +397,6 @@
     "status": "Open",
     "due_date": "2026-09-17 17:39:00",
     "priority": 10
-  },
-  "8626": {
-    "subject": "Sprinkler at 12 noon",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-16 16:17:00",
-    "priority": 1
   },
   "8624": {
     "subject": "Guest Name: Tresalus Jorwina |  Res #: 62207 | Unit: Southern Exposure | Stolen money",
@@ -522,7 +522,7 @@
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-30 21:00:00",
-    "priority": 1
+    "priority": 10
   },
   "8464": {
     "subject": "Precious Gem-PCA Deep clean",
@@ -792,7 +792,7 @@
   },
   "7156": {
     "subject": "PCA for Don't Worry Beach Happy Due Date: 7/15/2026",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-26 22:00:00",
     "priority": 5
