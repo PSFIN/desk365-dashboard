@@ -1,5 +1,14 @@
 [
   {
+    "ts": "2026-09-16T10:36:11+00:00",
+    "ticket_number": 8782,
+    "subject": "zFairway to Paradise. cancel booking",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-15 18:56:03 to 2026-09-16 18:56:00",
+    "from": "2026-09-15 18:56:03",
+    "to": "2026-09-16 18:56:00"
+  },
+  {
     "ts": "2026-09-16T05:36:15+00:00",
     "ticket_number": 8813,
     "subject": "Carlin Brian/Luna Sea/Res #: 62942/Cancellation Request",
@@ -7903,14 +7912,5 @@
     "subject": "Rodriguez Sergio | zSunset Splash |  Res #: 59824 |  Lights not working in the Patio",
     "type": "created",
     "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-08-29T17:27:33+00:00",
-    "ticket_number": 8513,
-    "subject": "Altschuler Max/ A Shore Thing/Res #: 58976/Waterfall pool feature",
-    "type": "reassigned",
-    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to m.eronico@choosegulfcoast.com",
-    "from": "h.mcnamara@choosegulfcoast.com",
-    "to": "m.eronico@choosegulfcoast.com"
   }
 ]
