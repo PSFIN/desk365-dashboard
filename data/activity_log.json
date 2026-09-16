@@ -1,5 +1,33 @@
 [
   {
+    "ts": "2026-09-16T05:36:15+00:00",
+    "ticket_number": 8813,
+    "subject": "Carlin Brian/Luna Sea/Res #: 62942/Cancellation Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-16T05:36:15+00:00",
+    "ticket_number": 8812,
+    "subject": "Roberts Whitney/ Sandalfoot 1B2/Res #: 56074/Shower Door",
+    "type": "created",
+    "detail": "Created \u2014 assigned to k.garcia@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-16T05:36:15+00:00",
+    "ticket_number": 8811,
+    "subject": "Henefelt Niko/Sandalfoot 5A1/  Res #: 58707/Starter Pack - Bathroom",
+    "type": "created",
+    "detail": "Created \u2014 assigned to a.dallman@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-16T05:36:15+00:00",
+    "ticket_number": 8793,
+    "subject": "Res #: 63056| Unit: Sandy Pointe| Guest Name: Snow Jackson | ECI inquiry",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-15T22:35:56+00:00",
     "ticket_number": 8810,
     "subject": "Robin Marin/Coldwell Banker/ GBB 1200G",
@@ -7884,41 +7912,5 @@
     "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to m.eronico@choosegulfcoast.com",
     "from": "h.mcnamara@choosegulfcoast.com",
     "to": "m.eronico@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-08-29T17:27:33+00:00",
-    "ticket_number": 8333,
-    "subject": "PCA for Lido Del Mare Due Date: 8/25/ 2026",
-    "type": "reassigned",
-    "detail": "Reassigned from s.paulin@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
-    "from": "s.paulin@choosegulfcoast.com",
-    "to": "j.rushton@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-08-29T17:27:33+00:00",
-    "ticket_number": 8328,
-    "subject": "PCA for Beach Heron Due Date: 9/12/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from s.paulin@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
-    "from": "s.paulin@choosegulfcoast.com",
-    "to": "j.rushton@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-08-29T17:27:33+00:00",
-    "ticket_number": 8181,
-    "subject": "PCA for Sunny Retreat Due Date: 9/9/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from s.paulin@choosegulfcoast.com to d.husak@choosegulfcoast.com",
-    "from": "s.paulin@choosegulfcoast.com",
-    "to": "d.husak@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-08-29T17:27:33+00:00",
-    "ticket_number": 8177,
-    "subject": "PCA for The Beach Fact Oar Due Date: 9/7/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from s.paulin@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
-    "from": "s.paulin@choosegulfcoast.com",
-    "to": "j.rushton@choosegulfcoast.com"
   }
 ]
