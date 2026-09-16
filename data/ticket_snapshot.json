@@ -1,4 +1,32 @@
 {
+  "8821": {
+    "subject": "Name: Reynolds Robert&Michelle | Res: 62230 | Cancelled 50% Retained - OTA",
+    "assigned_to": "a.ytac@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-21 15:14:28",
+    "priority": 1
+  },
+  "8820": {
+    "subject": "City of Bradenton Local Business Tax Receipt (LBTR) - Sans Souci | 2806 Taunton Drive",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-21 15:14:10",
+    "priority": 5
+  },
+  "8819": {
+    "subject": "City of Bradenton VR License - A Wave from it All | 395 Aruba Circle, #203",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-21 14:41:57",
+    "priority": 10
+  },
+  "8818": {
+    "subject": "Name: Makurat Jeannette | Res: 56621 | Cancelled 50% Retained - Direct",
+    "assigned_to": "a.ytac@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-18 22:00:00",
+    "priority": 1
+  },
   "8813": {
     "subject": "Carlin Brian/Luna Sea/Res #: 62942/Cancellation Request",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
@@ -9,13 +37,6 @@
   "8812": {
     "subject": "Roberts Whitney/ Sandalfoot 1B2/Res #: 56074/Shower Door",
     "assigned_to": "k.garcia@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-18 22:00:00",
-    "priority": 1
-  },
-  "8811": {
-    "subject": "Henefelt Niko/Sandalfoot 5A1/  Res #: 58707/Starter Pack - Bathroom",
-    "assigned_to": "a.dallman@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-18 22:00:00",
     "priority": 1
@@ -39,13 +60,6 @@
     "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-18 20:51:04",
-    "priority": 1
-  },
-  "8807": {
-    "subject": "Looking for A property Management/Owner",
-    "assigned_to": "b.vandroff@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-18 20:49:17",
     "priority": 1
   },
   "8806": {
@@ -132,13 +146,6 @@
     "due_date": "2026-09-18 16:04:07",
     "priority": 1
   },
-  "8794": {
-    "subject": "Signal Inn Unit 03 / Owner booking credit",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-18 15:42:17",
-    "priority": 5
-  },
   "8789": {
     "subject": "Have PMW create and Onsite Staffing & Employee Management webpage",
     "assigned_to": "e.buchanan@choosegulfcoast.com",
@@ -150,7 +157,7 @@
     "subject": "Dreams of Paradise-AC filter",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-17 18:40:49",
+    "due_date": "2026-09-22 18:40:00",
     "priority": 1
   },
   "8787": {
@@ -176,7 +183,7 @@
   },
   "8777": {
     "subject": "A Shore Thing / City of Sarasota Cert Number VR22-00135",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-16 22:00:00",
     "priority": 10
@@ -216,13 +223,6 @@
     "due_date": "2026-09-16 22:00:00",
     "priority": 1
   },
-  "8760": {
-    "subject": "GCAM-26004 Onsite Staffing Benefits",
-    "assigned_to": "e.buchanan@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-16 20:14:45",
-    "priority": 10
-  },
   "8759": {
     "subject": "4c2 replacement door handle",
     "assigned_to": "p.yelenich@choosegulfcoast.com",
@@ -234,7 +234,7 @@
     "subject": "#1230 broken box springs",
     "assigned_to": "c.nutt@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-16 19:29:19",
+    "due_date": "2026-09-23 19:29:00",
     "priority": 10
   },
   "8754": {
@@ -283,7 +283,7 @@
     "subject": "Carmona Newton | Unit: Birdie | Res #: 61948 | Multiple Issues",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-16 20:33:00",
+    "due_date": "2026-09-18 20:33:00",
     "priority": 1
   },
   "8735": {
@@ -321,9 +321,16 @@
     "due_date": "2026-09-20 21:00:00",
     "priority": 5
   },
+  "8728": {
+    "subject": "Sales & Tourist Tax Remittance - August 2026",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-16 21:00:00",
+    "priority": 10
+  },
   "8717": {
     "subject": "Florida Fabulous-comp 790",
-    "assigned_to": "m.johnston@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-14 18:29:19",
     "priority": 1
@@ -395,7 +402,7 @@
     "subject": "Guest Name: Tresalus Jorwina |  Res #: 62207 | Unit: Southern Exposure | Stolen money",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-18 15:51:00",
+    "due_date": "2026-09-22 15:51:00",
     "priority": 10
   },
   "8618": {
@@ -412,18 +419,11 @@
     "due_date": "2026-09-26 22:00:00",
     "priority": 1
   },
-  "8607": {
-    "subject": "GBB office shelves",
-    "assigned_to": "c.nutt@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-12 16:15:00",
-    "priority": 20
-  },
   "8602": {
     "subject": "Rental License Renewal Documents Needed \u2013 5D1",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-07 19:07:49",
+    "due_date": "2026-09-20 19:07:00",
     "priority": 1
   },
   "8601": {
@@ -437,7 +437,7 @@
     "subject": "Boardwalk Shell station",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-15 20:41:00",
+    "due_date": "2026-09-18 20:41:00",
     "priority": 1
   },
   "8576": {
@@ -558,6 +558,13 @@
     "status": "Open",
     "due_date": "2026-09-18 22:00:00",
     "priority": 5
+  },
+  "8427": {
+    "subject": "Data Update on Certificate of Registration Tracker",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-18 15:34:00",
+    "priority": 10
   },
   "8410": {
     "subject": "YCBR Photo shoot",
@@ -729,9 +736,9 @@
   },
   "7397": {
     "subject": "Marriott Curation Rejected - Signal inn 03",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-15 15:28:00",
+    "due_date": "2026-09-25 15:28:00",
     "priority": 5
   },
   "7396": {
@@ -785,7 +792,7 @@
   },
   "7156": {
     "subject": "PCA for Don't Worry Beach Happy Due Date: 7/15/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-26 22:00:00",
     "priority": 5
