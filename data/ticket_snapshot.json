@@ -1,4 +1,32 @@
 {
+  "8836": {
+    "subject": "Fieside cottage-trash cans",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-22 15:02:51",
+    "priority": 1
+  },
+  "8835": {
+    "subject": "Beach House Residences - Parking",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-22 14:41:29",
+    "priority": 1
+  },
+  "8834": {
+    "subject": "Stamm Dawn | O6ers | Res #: 50543 | Cancellation Request",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-22 14:32:06",
+    "priority": 1
+  },
+  "8833": {
+    "subject": "Guest Name: Carmona Newton | Res #: 61948 | Unit: Birdie | Faucet issue",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-22 14:08:04",
+    "priority": 1
+  },
   "8832": {
     "subject": "Hickey Anthony/Gulf & Bay Bayside - 1391/ Res #: 62962/Ants Issue",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
@@ -181,13 +209,6 @@
     "due_date": "2026-09-28 19:16:00",
     "priority": 10
   },
-  "8788": {
-    "subject": "Dreams of Paradise-AC filter",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-22 18:40:00",
-    "priority": 1
-  },
   "8787": {
     "subject": "Dreams of Paradise-PCA deep clean",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
@@ -204,7 +225,7 @@
   },
   "8777": {
     "subject": "A Shore Thing / City of Sarasota Cert Number VR22-00135",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-16 22:00:00",
     "priority": 10
@@ -325,7 +346,7 @@
     "subject": "Signal Inn Landscape lighting",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-17 17:00:00",
+    "due_date": "2026-09-21 17:00:00",
     "priority": 5
   },
   "8729": {
@@ -360,7 +381,7 @@
     "subject": "Kedrych Alisa/Gulf & Bay Bayside - 1291/ Res #: 59049/AC Issues and Microwave",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-16 18:00:00",
+    "due_date": "2026-09-19 18:00:00",
     "priority": 20
   },
   "8683": {
@@ -472,7 +493,7 @@
     "subject": "camera for signal from Red1",
     "assigned_to": "e.buchanan@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-16 16:07:00",
+    "due_date": "2026-09-22 16:07:00",
     "priority": 5
   },
   "8550": {
@@ -766,7 +787,7 @@
     "subject": "PCA for Gulf & Bay Bayside - 1350 Due Date: 7/30/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-16 17:00:00",
+    "due_date": "2026-09-18 17:00:00",
     "priority": 5
   },
   "7346": {
@@ -780,7 +801,7 @@
     "subject": "Aloha House - Unit painting",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-16 22:00:00",
+    "due_date": "2026-09-18 22:00:00",
     "priority": 1
   },
   "7165": {

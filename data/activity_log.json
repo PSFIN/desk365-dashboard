@@ -1,5 +1,94 @@
 [
   {
+    "ts": "2026-09-17T15:07:47+00:00",
+    "ticket_number": 8836,
+    "subject": "Fieside cottage-trash cans",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-17T15:07:47+00:00",
+    "ticket_number": 8835,
+    "subject": "Beach House Residences - Parking",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-17T15:07:47+00:00",
+    "ticket_number": 8834,
+    "subject": "Stamm Dawn | O6ers | Res #: 50543 | Cancellation Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-17T15:07:47+00:00",
+    "ticket_number": 8833,
+    "subject": "Guest Name: Carmona Newton | Res #: 61948 | Unit: Birdie | Faucet issue",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-17T15:07:47+00:00",
+    "ticket_number": 8777,
+    "subject": "A Shore Thing / City of Sarasota Cert Number VR22-00135",
+    "type": "reassigned",
+    "detail": "Reassigned from j.rushton@choosegulfcoast.com to c.hernandez@choosegulfcoast.com",
+    "from": "j.rushton@choosegulfcoast.com",
+    "to": "c.hernandez@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-17T15:07:47+00:00",
+    "ticket_number": 8731,
+    "subject": "Signal Inn Landscape lighting",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-17 17:00:00 to 2026-09-21 17:00:00",
+    "from": "2026-09-17 17:00:00",
+    "to": "2026-09-21 17:00:00"
+  },
+  {
+    "ts": "2026-09-17T15:07:47+00:00",
+    "ticket_number": 8687,
+    "subject": "Kedrych Alisa/Gulf & Bay Bayside - 1291/ Res #: 59049/AC Issues and Microwave",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-16 18:00:00 to 2026-09-19 18:00:00",
+    "from": "2026-09-16 18:00:00",
+    "to": "2026-09-19 18:00:00"
+  },
+  {
+    "ts": "2026-09-17T15:07:47+00:00",
+    "ticket_number": 8562,
+    "subject": "camera for signal from Red1",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-16 16:07:00 to 2026-09-22 16:07:00",
+    "from": "2026-09-16 16:07:00",
+    "to": "2026-09-22 16:07:00"
+  },
+  {
+    "ts": "2026-09-17T15:07:47+00:00",
+    "ticket_number": 7361,
+    "subject": "PCA for Gulf & Bay Bayside - 1350 Due Date: 7/30/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-16 17:00:00 to 2026-09-18 17:00:00",
+    "from": "2026-09-16 17:00:00",
+    "to": "2026-09-18 17:00:00"
+  },
+  {
+    "ts": "2026-09-17T15:07:47+00:00",
+    "ticket_number": 7323,
+    "subject": "Aloha House - Unit painting",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-16 22:00:00 to 2026-09-18 22:00:00",
+    "from": "2026-09-16 22:00:00",
+    "to": "2026-09-18 22:00:00"
+  },
+  {
+    "ts": "2026-09-17T15:07:47+00:00",
+    "ticket_number": 8788,
+    "subject": "Dreams of Paradise-AC filter",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-17T05:04:36+00:00",
     "ticket_number": 8744,
     "subject": "Piling project / Guest relocate",
@@ -7821,102 +7910,5 @@
     "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
     "from": "h.mcnamara@choosegulfcoast.com",
     "to": "j.rushton@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-08-31T23:15:49+00:00",
-    "ticket_number": 8431,
-    "subject": "Microwave:Aloha House:WO #41938277",
-    "type": "reassigned",
-    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to j.friday@choosegulfcoast.com",
-    "from": "h.mcnamara@choosegulfcoast.com",
-    "to": "j.friday@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-08-31T23:15:49+00:00",
-    "ticket_number": 8361,
-    "subject": "Seabird Villa - Switching to annual",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-08-31 20:28:00 to 2026-09-01 20:28:00",
-    "from": "2026-08-31 20:28:00",
-    "to": "2026-09-01 20:28:00"
-  },
-  {
-    "ts": "2026-08-31T23:15:49+00:00",
-    "ticket_number": 8328,
-    "subject": "PCA for Beach Heron Due Date: 9/12/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-08-31 22:00:00 to 2026-09-02 22:00:00",
-    "from": "2026-08-31 22:00:00",
-    "to": "2026-09-02 22:00:00"
-  },
-  {
-    "ts": "2026-08-31T23:15:49+00:00",
-    "ticket_number": 8177,
-    "subject": "PCA for The Beach Fact Oar Due Date: 9/7/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-08-31 14:44:00 to 2026-09-02 14:44:00",
-    "from": "2026-08-31 14:44:00",
-    "to": "2026-09-02 14:44:00"
-  },
-  {
-    "ts": "2026-08-31T23:15:49+00:00",
-    "ticket_number": 8037,
-    "subject": "Qualify for ARDI?",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-08-29 22:00:00 to 2026-09-01 22:00:00",
-    "from": "2026-08-29 22:00:00",
-    "to": "2026-09-01 22:00:00"
-  },
-  {
-    "ts": "2026-08-31T23:15:49+00:00",
-    "ticket_number": 7955,
-    "subject": "PCA for Paradis Sur Mer Due Date: 9/1/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-08-31 20:39:00 to 2026-09-02 20:39:00",
-    "from": "2026-08-31 20:39:00",
-    "to": "2026-09-02 20:39:00"
-  },
-  {
-    "ts": "2026-08-31T23:15:49+00:00",
-    "ticket_number": 7603,
-    "subject": "PCA for A Shore Thing Due Date: 8/7/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-08-29 22:00:00 to 2026-09-02 22:00:00",
-    "from": "2026-08-29 22:00:00",
-    "to": "2026-09-02 22:00:00"
-  },
-  {
-    "ts": "2026-08-31T23:15:49+00:00",
-    "ticket_number": 7362,
-    "subject": "PCA for Family Tides Due Date: 7/31/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-08-29 20:35:00 to 2026-09-04 20:35:00",
-    "from": "2026-08-29 20:35:00",
-    "to": "2026-09-04 20:35:00"
-  },
-  {
-    "ts": "2026-08-31T23:15:49+00:00",
-    "ticket_number": 7361,
-    "subject": "PCA for Gulf & Bay Bayside - 1350 Due Date: 7/30/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-08-29 09:30:00 to 2026-09-02 09:30:00",
-    "from": "2026-08-29 09:30:00",
-    "to": "2026-09-02 09:30:00"
-  },
-  {
-    "ts": "2026-08-31T23:15:49+00:00",
-    "ticket_number": 7165,
-    "subject": "PCA for Gulf & Bay Bayside - 1346 Due Date: 7/24/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-08-29 10:30:00 to 2026-09-02 10:30:00",
-    "from": "2026-08-29 10:30:00",
-    "to": "2026-09-02 10:30:00"
-  },
-  {
-    "ts": "2026-08-31T23:15:49+00:00",
-    "ticket_number": 8128,
-    "subject": "Name: Jacobs Mary | Res:59802 | Property: Longboat Dream | Future Guest Request",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
 ]
