@@ -1,5 +1,109 @@
 [
   {
+    "ts": "2026-09-17T19:08:25+00:00",
+    "ticket_number": 8845,
+    "subject": "1385 replace coffee maker",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-17T19:08:25+00:00",
+    "ticket_number": 8844,
+    "subject": "Serenity Garden",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-17T19:08:25+00:00",
+    "ticket_number": 8843,
+    "subject": "Deactivating Property :  zSunset Splash",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-17T19:08:25+00:00",
+    "ticket_number": 8842,
+    "subject": "1219 cleaning issues",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-17T19:08:25+00:00",
+    "ticket_number": 8841,
+    "subject": "Post arrival Call | Guest Name: Berchtold Markus | Res #: 59930 | Unit: Flip Flop Retreat |",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-17T19:08:25+00:00",
+    "ticket_number": 8840,
+    "subject": "#1315 MA bath wall light repair",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-17T19:08:25+00:00",
+    "ticket_number": 8839,
+    "subject": "1391 sprinkler head gap",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.nutt@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-17T19:08:25+00:00",
+    "ticket_number": 8838,
+    "subject": "Sand Dune - Cleaning",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-17T19:08:25+00:00",
+    "ticket_number": 8837,
+    "subject": "Name: Maccari Nicolas | Res: 60718 | Reimbursement for the Wagon and Shipping Fee",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.nutt@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-17T19:08:25+00:00",
+    "ticket_number": 8819,
+    "subject": "City of Bradenton VR License - A Wave from it All | 395 Aruba Circle, #203",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-17 18:41:57 to 2026-09-24 18:41:00",
+    "from": "2026-09-17 18:41:57",
+    "to": "2026-09-24 18:41:00"
+  },
+  {
+    "ts": "2026-09-17T19:08:25+00:00",
+    "ticket_number": 8311,
+    "subject": "PCA for Sans Souci Due Date: 9/10/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-19 20:16:00 to 2026-09-30 20:16:00",
+    "from": "2026-09-19 20:16:00",
+    "to": "2026-09-30 20:16:00"
+  },
+  {
+    "ts": "2026-09-17T19:08:25+00:00",
+    "ticket_number": 7368,
+    "subject": "PCA for Paraclete Paradise Due Date:  8/3/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-19 20:59:00 to 2026-09-23 20:59:00",
+    "from": "2026-09-19 20:59:00",
+    "to": "2026-09-23 20:59:00"
+  },
+  {
+    "ts": "2026-09-17T19:08:25+00:00",
+    "ticket_number": 8835,
+    "subject": "Beach House Residences - Parking",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-17T19:08:25+00:00",
+    "ticket_number": 8829,
+    "subject": "Be Still Beach Retreat-nightly min 167.00",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-17T15:07:47+00:00",
     "ticket_number": 8836,
     "subject": "Fieside cottage-trash cans",
@@ -7804,111 +7908,5 @@
     "subject": "Cristobal Ricardo/Sunnyside Up/ Res #: 49339/Propert Feedback",
     "type": "created",
     "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-08-31T23:15:49+00:00",
-    "ticket_number": 8551,
-    "subject": "Add Property to Manatee Tourist Development Tax Umbrella : Putt in Paradise - 19116 SCALLOP LOOP, #202",
-    "type": "created",
-    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-08-31T23:15:49+00:00",
-    "ticket_number": 8550,
-    "subject": "DR-11 Form : Putt in Paradise -19116 SCALLOP LOOP, #202",
-    "type": "created",
-    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-08-31T23:15:49+00:00",
-    "ticket_number": 8549,
-    "subject": "DR-1C Form : Putt in Paradise - 19116 SCALLOP LOOP, #202",
-    "type": "created",
-    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-08-31T23:15:49+00:00",
-    "ticket_number": 8548,
-    "subject": "Pollett Elizabeth/Harbour Happiness/ Res #: 59239/Maintenance & Management Ticket \u2013 Pool Safety Concern",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-08-31T23:15:49+00:00",
-    "ticket_number": 8547,
-    "subject": "Add Property to Manatee Tourist Development Tax Umbrella - Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
-    "type": "created",
-    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-08-31T23:15:49+00:00",
-    "ticket_number": 8546,
-    "subject": "Res. No. 60111 - Michael Khalil  - Gulf & Bay 1260:     Issue: master bedroom needs a door lock",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-08-31T23:15:49+00:00",
-    "ticket_number": 8545,
-    "subject": "DR-11 Form : Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
-    "type": "created",
-    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-08-31T23:15:49+00:00",
-    "ticket_number": 8544,
-    "subject": "DR-1C Form : Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
-    "type": "created",
-    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-08-31T23:15:49+00:00",
-    "ticket_number": 8543,
-    "subject": "Name: John Solt  | Res: 54089 | HOA Membership Extension",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.zeh@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-08-31T23:15:49+00:00",
-    "ticket_number": 8542,
-    "subject": "Fireside cottage-ARDI comforter",
-    "type": "created",
-    "detail": "Created \u2014 assigned to c.thayer@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-08-31T23:15:49+00:00",
-    "ticket_number": 8529,
-    "subject": "GBB Key Packet Envelopes",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-01 18:00:00 to 2026-09-02 18:00:00",
-    "from": "2026-09-01 18:00:00",
-    "to": "2026-09-02 18:00:00"
-  },
-  {
-    "ts": "2026-08-31T23:15:49+00:00",
-    "ticket_number": 8504,
-    "subject": "Bihday Deborah/Paraclete Paradise/Res #: 58054/ Pool Vendor \u2013 Return Visit Required",
-    "type": "reassigned",
-    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to d.husak@choosegulfcoast.com",
-    "from": "h.mcnamara@choosegulfcoast.com",
-    "to": "d.husak@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-08-31T23:15:49+00:00",
-    "ticket_number": 8503,
-    "subject": "Putt in Paradise-elock Lynx",
-    "type": "reassigned",
-    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to d.husak@choosegulfcoast.com",
-    "from": "h.mcnamara@choosegulfcoast.com",
-    "to": "d.husak@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-08-31T23:15:49+00:00",
-    "ticket_number": 8434,
-    "subject": "Mirrored closet door:GBB1269",
-    "type": "reassigned",
-    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
-    "from": "h.mcnamara@choosegulfcoast.com",
-    "to": "j.rushton@choosegulfcoast.com"
   }
 ]

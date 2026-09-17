@@ -1,16 +1,72 @@
 {
+  "8845": {
+    "subject": "1385 replace coffee maker",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-22 18:50:54",
+    "priority": 5
+  },
+  "8844": {
+    "subject": "Serenity Garden",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-22 18:21:18",
+    "priority": 1
+  },
+  "8843": {
+    "subject": "Deactivating Property :  zSunset Splash",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-22 17:40:50",
+    "priority": 1
+  },
+  "8842": {
+    "subject": "1219 cleaning issues",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-22 17:13:26",
+    "priority": 5
+  },
+  "8841": {
+    "subject": "Post arrival Call | Guest Name: Berchtold Markus | Res #: 59930 | Unit: Flip Flop Retreat |",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-22 16:47:19",
+    "priority": 1
+  },
+  "8840": {
+    "subject": "#1315 MA bath wall light repair",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-22 16:21:25",
+    "priority": 10
+  },
+  "8839": {
+    "subject": "1391 sprinkler head gap",
+    "assigned_to": "c.nutt@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-22 16:11:26",
+    "priority": 10
+  },
+  "8838": {
+    "subject": "Sand Dune - Cleaning",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-22 15:58:41",
+    "priority": 1
+  },
+  "8837": {
+    "subject": "Name: Maccari Nicolas | Res: 60718 | Reimbursement for the Wagon and Shipping Fee",
+    "assigned_to": "c.nutt@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-22 15:44:40",
+    "priority": 1
+  },
   "8836": {
     "subject": "Fieside cottage-trash cans",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-22 15:02:51",
-    "priority": 1
-  },
-  "8835": {
-    "subject": "Beach House Residences - Parking",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-22 14:41:29",
     "priority": 1
   },
   "8834": {
@@ -47,13 +103,6 @@
     "status": "Open",
     "due_date": "2026-09-21 21:13:59",
     "priority": 1
-  },
-  "8829": {
-    "subject": "Be Still Beach Retreat-nightly min 167.00",
-    "assigned_to": "a.guarin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-18 15:28:05",
-    "priority": 20
   },
   "8828": {
     "subject": "New Employee -LindaJean - Platform Access",
@@ -115,7 +164,7 @@
     "subject": "City of Bradenton VR License - A Wave from it All | 395 Aruba Circle, #203",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-17 18:41:57",
+    "due_date": "2026-09-24 18:41:00",
     "priority": 20
   },
   "8812": {
@@ -647,7 +696,7 @@
     "subject": "PCA for Sans Souci Due Date: 9/10/2026",
     "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-19 20:16:00",
+    "due_date": "2026-09-30 20:16:00",
     "priority": 5
   },
   "8245": {
@@ -780,7 +829,7 @@
     "subject": "PCA for Paraclete Paradise Due Date:  8/3/2026",
     "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-19 20:59:00",
+    "due_date": "2026-09-23 20:59:00",
     "priority": 5
   },
   "7361": {
