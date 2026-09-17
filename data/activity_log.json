@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-09-17T00:10:55+00:00",
+    "ticket_number": 8832,
+    "subject": "Hickey Anthony/Gulf & Bay Bayside - 1391/ Res #: 62962/Ants Issue",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-09-16T21:58:19+00:00",
     "ticket_number": 8831,
     "subject": "LYNX Smart System / New owner and lead facing PDF",
@@ -7911,12 +7918,5 @@
     "subject": "PCA for Turtle House Due Date: 8/31/2026",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-08-31T19:10:35+00:00",
-    "ticket_number": 8541,
-    "subject": "Res #: 52252 | Pritchett Darin | Day Dreamer | Communal Pool Out of Service",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.williams@choosegulfcoast.com, status Open"
   }
 ]
