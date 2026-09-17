@@ -1,4 +1,25 @@
 {
+  "8850": {
+    "subject": "Keane Fergal/zBella Vita/Res #: 44004/Property Concern \u2013 Water & Hot Water Shut Off",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-22 21:22:49",
+    "priority": 1
+  },
+  "8849": {
+    "subject": "Vacation Rental Certificate of Registration -Inspection Checklist | The White Pearl | 1952 Morrill Street",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-22 21:18:28",
+    "priority": 1
+  },
+  "8848": {
+    "subject": "Wilson Danielle/Ocean Eyes/Res #: 55819/Left Item",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-22 20:32:56",
+    "priority": 1
+  },
   "8845": {
     "subject": "1385 replace coffee maker",
     "assigned_to": "e.morales@choosegulfcoast.com",
@@ -43,7 +64,7 @@
   },
   "8839": {
     "subject": "1391 sprinkler head gap",
-    "assigned_to": "c.nutt@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-22 16:11:26",
     "priority": 10
@@ -279,13 +300,6 @@
     "due_date": "2026-09-16 22:00:00",
     "priority": 10
   },
-  "8776": {
-    "subject": "Harriman Kathleen | Colony Inn | Res #: 51031 - 51032 - 51031 | Remove last day each",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-17 22:00:00",
-    "priority": 1
-  },
   "8775": {
     "subject": "McArn Lynnzie/Coastal Oasis/Res #: 60184/Maintenance Concerns - Feedback",
     "assigned_to": "m.eronico@choosegulfcoast.com",
@@ -311,7 +325,7 @@
     "subject": "T-Wreckz Junk Removal llc - Open Invoices",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-16 22:00:00",
+    "due_date": "2026-09-21 22:00:00",
     "priority": 1
   },
   "8759": {
@@ -701,7 +715,7 @@
   },
   "8245": {
     "subject": "PCA for Tropical Gulf Retreat Due Date: 9/1/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-19 20:51:00",
     "priority": 5
@@ -862,7 +876,7 @@
   },
   "7156": {
     "subject": "PCA for Don't Worry Beach Happy Due Date: 7/15/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-26 22:00:00",
     "priority": 5
