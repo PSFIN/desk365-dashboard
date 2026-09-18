@@ -1,4 +1,18 @@
 {
+  "8852": {
+    "subject": "rent rev",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-22 22:00:00",
+    "priority": 1
+  },
+  "8851": {
+    "subject": "Pier Pressure New VR",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-22 22:00:00",
+    "priority": 1
+  },
   "8850": {
     "subject": "Keane Fergal/zBella Vita/Res #: 44004/Property Concern \u2013 Water & Hot Water Shut Off",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
@@ -15,7 +29,7 @@
   },
   "8848": {
     "subject": "Wilson Danielle/Ocean Eyes/Res #: 55819/Left Item",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "m.omasdang@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-22 20:32:56",
     "priority": 1
@@ -41,13 +55,6 @@
     "due_date": "2026-09-22 17:40:50",
     "priority": 1
   },
-  "8842": {
-    "subject": "1219 cleaning issues",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-22 17:13:26",
-    "priority": 5
-  },
   "8841": {
     "subject": "Post arrival Call | Guest Name: Berchtold Markus | Res #: 59930 | Unit: Flip Flop Retreat |",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
@@ -68,13 +75,6 @@
     "status": "Open",
     "due_date": "2026-09-22 16:11:26",
     "priority": 10
-  },
-  "8838": {
-    "subject": "Sand Dune - Cleaning",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-22 15:58:41",
-    "priority": 1
   },
   "8837": {
     "subject": "Name: Maccari Nicolas | Res: 60718 | Reimbursement for the Wagon and Shipping Fee",
@@ -306,13 +306,6 @@
     "status": "Open",
     "due_date": "2026-09-16 22:00:00",
     "priority": 10
-  },
-  "8767": {
-    "subject": "Unit: Paraclete Paradise   | Guest Name: Bihday Deborah | Res #: 58054 | Lost & Found: Cord Left in Living Room",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-16 22:00:00",
-    "priority": 1
   },
   "8764": {
     "subject": "T-Wreckz Junk Removal llc - Open Invoices",
