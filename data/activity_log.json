@@ -1,5 +1,40 @@
 [
   {
+    "ts": "2026-09-18T22:42:40+00:00",
+    "ticket_number": 8867,
+    "subject": "City of Bradenton VR License - Villa In The Clouds | 1439 56th Street West",
+    "type": "created",
+    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-18T22:42:40+00:00",
+    "ticket_number": 8866,
+    "subject": "City of Bradenton VR License - Tropical Gulf Retreat | 4325 46th Avenue West, #203",
+    "type": "created",
+    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-18T22:42:40+00:00",
+    "ticket_number": 8864,
+    "subject": "Name: Pirro Adriane | Res: 63135 | Future Stay Credit",
+    "type": "created",
+    "detail": "Created \u2014 assigned to a.ytac@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-18T22:42:40+00:00",
+    "ticket_number": 8834,
+    "subject": "Stamm Dawn | O6ers | Res #: 50543 | Cancellation Request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-18T22:42:40+00:00",
+    "ticket_number": 8824,
+    "subject": "Souther exposure-grill",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-18T20:14:05+00:00",
     "ticket_number": 8863,
     "subject": "City of Bradenton VR License - Mangrove Escape | 971 Waterside Lane",
@@ -7859,40 +7894,5 @@
     "subject": "Admirals Watch required PCA deep celan",
     "type": "created",
     "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-01T17:05:22+00:00",
-    "ticket_number": 8567,
-    "subject": "Rent rev",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.paulin@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-01T17:05:22+00:00",
-    "ticket_number": 8566,
-    "subject": "The Rivers End-PCA deep clean",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-01T17:05:22+00:00",
-    "ticket_number": 8565,
-    "subject": "Name:  Hernandez Evelyn | Res: 59758 | Cancelled 100% Retained - Direct | Property: C-51",
-    "type": "created",
-    "detail": "Created \u2014 assigned to a.ytac@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-01T17:05:22+00:00",
-    "ticket_number": 8564,
-    "subject": "DR-1C Form : Splash Decision - 14881 Laguna Drive",
-    "type": "created",
-    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-01T17:05:22+00:00",
-    "ticket_number": 8563,
-    "subject": "dog toy pricing for signal",
-    "type": "created",
-    "detail": "Created \u2014 assigned to e.buchanan@choosegulfcoast.com, status Open"
   }
 ]

@@ -1,4 +1,25 @@
 {
+  "8867": {
+    "subject": "City of Bradenton VR License - Villa In The Clouds | 1439 56th Street West",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-22 17:50:16",
+    "priority": 20
+  },
+  "8866": {
+    "subject": "City of Bradenton VR License - Tropical Gulf Retreat | 4325 46th Avenue West, #203",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-22 17:42:45",
+    "priority": 20
+  },
+  "8864": {
+    "subject": "Name: Pirro Adriane | Res: 63135 | Future Stay Credit",
+    "assigned_to": "a.ytac@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-23 20:29:12",
+    "priority": 1
+  },
   "8863": {
     "subject": "City of Bradenton VR License - Mangrove Escape | 971 Waterside Lane",
     "assigned_to": "l.brigida@choosegulfcoast.com",
@@ -167,13 +188,6 @@
     "due_date": "2026-09-22 15:02:51",
     "priority": 1
   },
-  "8834": {
-    "subject": "Stamm Dawn | O6ers | Res #: 50543 | Cancellation Request",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-22 14:32:06",
-    "priority": 1
-  },
   "8833": {
     "subject": "Guest Name: Carmona Newton | Res #: 61948 | Unit: Birdie | Faucet issue",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
@@ -215,13 +229,6 @@
     "status": "Open",
     "due_date": "2026-09-21 15:51:27",
     "priority": 1
-  },
-  "8824": {
-    "subject": "Souther exposure-grill",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-21 15:50:37",
-    "priority": 5
   },
   "8823": {
     "subject": "Selecting Vendors issue",
