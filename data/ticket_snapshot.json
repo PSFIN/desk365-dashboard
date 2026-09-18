@@ -1,4 +1,39 @@
 {
+  "8857": {
+    "subject": "Add Property to Manatee Tourist Development Tax Umbrella : Tee Time - 19116 Scallop Loop, #105",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-23 17:29:46",
+    "priority": 10
+  },
+  "8856": {
+    "subject": "DR-11 Form : Tee Time | 19116 Scallop Loop, #105",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-23 17:14:01",
+    "priority": 10
+  },
+  "8855": {
+    "subject": "DR-1C Form : Tee Time | 19116 Scallop Loop, #105",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-23 17:10:34",
+    "priority": 10
+  },
+  "8854": {
+    "subject": "New Hire - Andr\u00e9s Alvarado. - Platform Access",
+    "assigned_to": "b.evans@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-23 16:36:15",
+    "priority": 5
+  },
+  "8853": {
+    "subject": "Outstanding Work Order, Invoice or Pending Charges - Gulf & Bay Bayside - 1200 | 1200 Siesta Bayside Drive",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-23 16:25:02",
+    "priority": 10
+  },
   "8852": {
     "subject": "rent rev",
     "assigned_to": "s.paulin@choosegulfcoast.com",
@@ -102,13 +137,6 @@
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-22 14:08:04",
-    "priority": 1
-  },
-  "8832": {
-    "subject": "Hickey Anthony/Gulf & Bay Bayside - 1391/ Res #: 62962/Ants Issue",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-21 22:00:00",
     "priority": 1
   },
   "8831": {
@@ -230,13 +258,6 @@
     "due_date": "2026-09-18 17:46:38",
     "priority": 1
   },
-  "8800": {
-    "subject": "Pet Station",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-18 17:33:06",
-    "priority": 5
-  },
   "8799": {
     "subject": "5 Star Review Feedback | Perez Yolanda | Colony Inn C-06 | 9/4/2026-9/7/2026",
     "assigned_to": "marcie@choosegulfcoast.com",
@@ -299,13 +320,6 @@
     "status": "Open",
     "due_date": "2026-09-16 22:00:00",
     "priority": 1
-  },
-  "8769": {
-    "subject": "Unit: Cyprina Beach #10 | Guest Name: Stewart Beth | Res #: 58736 | Active Water Leak from Ceiling Vent",
-    "assigned_to": "j.banks@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-16 22:00:00",
-    "priority": 10
   },
   "8764": {
     "subject": "T-Wreckz Junk Removal llc - Open Invoices",
@@ -444,7 +458,7 @@
     "subject": "Property Damage Report \u2013 Southern Exposure \u2013 Tresalus Jorwina Res #: 62194",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-18 22:00:00",
+    "due_date": "2026-09-25 22:00:00",
     "priority": 1
   },
   "8657": {
@@ -549,14 +563,14 @@
     "subject": "DR-11 Form : Putt in Paradise -19116 SCALLOP LOOP, #202",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-18 16:00:00",
+    "due_date": "2026-09-22 16:00:00",
     "priority": 10
   },
   "8545": {
     "subject": "DR-11 Form : Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-18 16:00:00",
+    "due_date": "2026-09-22 16:00:00",
     "priority": 10
   },
   "8544": {
@@ -633,7 +647,7 @@
     "subject": "Data Update on Certificate of Registration Tracker",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-18 15:34:00",
+    "due_date": "2026-09-21 15:34:00",
     "priority": 10
   },
   "8410": {
@@ -647,7 +661,7 @@
     "subject": "DR-11 Forms : Multiple Property Units",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-18 16:00:00",
+    "due_date": "2026-09-22 16:00:00",
     "priority": 10
   },
   "8365": {
