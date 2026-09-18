@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-09-18T00:33:14+00:00",
+    "ticket_number": 8777,
+    "subject": "A Shore Thing / City of Sarasota Cert Number VR22-00135",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-17T22:19:04+00:00",
     "ticket_number": 8850,
     "subject": "Keane Fergal/zBella Vita/Res #: 44004/Property Concern \u2013 Water & Hot Water Shut Off",
@@ -7903,13 +7910,6 @@
     "ts": "2026-09-01T17:05:22+00:00",
     "ticket_number": 8522,
     "subject": "Cristobal Ricardo | Res #: 49339 | Sunnyside Up | Roaches and Insects",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-01T17:05:22+00:00",
-    "ticket_number": 8501,
-    "subject": "Res. No. 61513 - Debbie Shaw  - Shaker of Salt - \"Unauthorized Event\" notice from VRBO",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
