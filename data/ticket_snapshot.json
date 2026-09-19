@@ -139,25 +139,11 @@
     "due_date": "2026-09-22 20:32:56",
     "priority": 1
   },
-  "8845": {
-    "subject": "1385 replace coffee maker",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-22 18:50:54",
-    "priority": 5
-  },
   "8844": {
     "subject": "Serenity Garden",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-22 18:21:18",
-    "priority": 1
-  },
-  "8843": {
-    "subject": "Deactivating Property :  zSunset Splash",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-22 17:40:50",
     "priority": 1
   },
   "8841": {
@@ -398,25 +384,11 @@
     "due_date": "2026-10-24 16:53:00",
     "priority": 10
   },
-  "8753": {
-    "subject": "Rising tide-ardi comforter's",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-16 16:46:00",
-    "priority": 10
-  },
   "8752": {
     "subject": "Dreams of Paradise- lamps and tables",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-16 16:33:37",
-    "priority": 1
-  },
-  "8743": {
-    "subject": "GCPM Invoice for WO #42159751",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-16 14:32:38",
     "priority": 1
   },
   "8739": {
@@ -470,9 +442,9 @@
   },
   "8717": {
     "subject": "Florida Fabulous-comp 790",
-    "assigned_to": "e.morales@choosegulfcoast.com",
+    "assigned_to": "m.johnston@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-14 18:29:19",
+    "due_date": "2026-09-21 18:29:00",
     "priority": 1
   },
   "8706": {
@@ -515,13 +487,6 @@
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-22 21:27:00",
-    "priority": 1
-  },
-  "8639": {
-    "subject": "7th Heaven-bills",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-17 22:00:00",
     "priority": 1
   },
   "8628": {

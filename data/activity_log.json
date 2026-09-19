@@ -1,5 +1,58 @@
 [
   {
+    "ts": "2026-09-19T09:39:03+00:00",
+    "ticket_number": 8717,
+    "subject": "Florida Fabulous-comp 790",
+    "type": "reassigned",
+    "detail": "Reassigned from e.morales@choosegulfcoast.com to m.johnston@choosegulfcoast.com",
+    "from": "e.morales@choosegulfcoast.com",
+    "to": "m.johnston@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-19T09:39:03+00:00",
+    "ticket_number": 8717,
+    "subject": "Florida Fabulous-comp 790",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-14 18:29:19 to 2026-09-21 18:29:00",
+    "from": "2026-09-14 18:29:19",
+    "to": "2026-09-21 18:29:00"
+  },
+  {
+    "ts": "2026-09-19T09:39:03+00:00",
+    "ticket_number": 8845,
+    "subject": "1385 replace coffee maker",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-19T09:39:03+00:00",
+    "ticket_number": 8843,
+    "subject": "Deactivating Property :  zSunset Splash",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-19T09:39:03+00:00",
+    "ticket_number": 8753,
+    "subject": "Rising tide-ardi comforter's",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-19T09:39:03+00:00",
+    "ticket_number": 8743,
+    "subject": "GCPM Invoice for WO #42159751",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-19T09:39:03+00:00",
+    "ticket_number": 8639,
+    "subject": "7th Heaven-bills",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-19T00:51:28+00:00",
     "ticket_number": 8868,
     "subject": "Boardwalk benches",
@@ -7847,54 +7900,5 @@
     "subject": "Property Management Inquiry",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-01T20:00:08+00:00",
-    "ticket_number": 8176,
-    "subject": "PCA for Sunny Life Due Date: 9/6/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-01T20:00:08+00:00",
-    "ticket_number": 7799,
-    "subject": "Tidewater Manor - Update listing",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-01T20:00:08+00:00",
-    "ticket_number": 7605,
-    "subject": "PCA for Awake Zone Due Date: 8/13/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-01T20:00:08+00:00",
-    "ticket_number": 7162,
-    "subject": "PCA for The River\u2019s End Due Date: 7/22/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-01T17:05:22+00:00",
-    "ticket_number": 8573,
-    "subject": "Green View Getaway",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-01T17:05:22+00:00",
-    "ticket_number": 8572,
-    "subject": "Sunny Life-deep clean required from PCA",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-01T17:05:22+00:00",
-    "ticket_number": 8571,
-    "subject": "DR-11 Form :  Splash Decision - 14881 Laguna Drive",
-    "type": "created",
-    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
   }
 ]
