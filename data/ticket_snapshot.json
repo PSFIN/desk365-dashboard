@@ -1,4 +1,18 @@
 {
+  "8871": {
+    "subject": "1373 linens charge to owner",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-23 22:00:00",
+    "priority": 10
+  },
+  "8870": {
+    "subject": "Caller Name: Janelle Martin | Property availability",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-23 22:00:00",
+    "priority": 1
+  },
   "8868": {
     "subject": "Boardwalk benches",
     "assigned_to": "n.ventura@choosegulfcoast.com",
@@ -92,7 +106,7 @@
   },
   "8854": {
     "subject": "New Hire - Andr\u00e9s Alvarado. - Platform Access",
-    "assigned_to": "b.evans@choosegulfcoast.com",
+    "assigned_to": "t.frost@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-23 16:36:15",
     "priority": 5
@@ -197,7 +211,7 @@
   },
   "8828": {
     "subject": "New Employee -LindaJean - Platform Access",
-    "assigned_to": "b.evans@choosegulfcoast.com",
+    "assigned_to": "t.frost@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-21 18:50:10",
     "priority": 5
@@ -358,7 +372,7 @@
   },
   "8759": {
     "subject": "4c2 replacement door handle",
-    "assigned_to": "p.yelenich@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-16 19:55:48",
     "priority": 1

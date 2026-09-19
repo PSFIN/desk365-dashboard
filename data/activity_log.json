@@ -1,5 +1,46 @@
 [
   {
+    "ts": "2026-09-19T16:57:39+00:00",
+    "ticket_number": 8871,
+    "subject": "1373 linens charge to owner",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-19T16:57:39+00:00",
+    "ticket_number": 8870,
+    "subject": "Caller Name: Janelle Martin | Property availability",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-19T16:57:39+00:00",
+    "ticket_number": 8854,
+    "subject": "New Hire - Andr\u00e9s Alvarado. - Platform Access",
+    "type": "reassigned",
+    "detail": "Reassigned from b.evans@choosegulfcoast.com to t.frost@choosegulfcoast.com",
+    "from": "b.evans@choosegulfcoast.com",
+    "to": "t.frost@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-19T16:57:39+00:00",
+    "ticket_number": 8828,
+    "subject": "New Employee -LindaJean - Platform Access",
+    "type": "reassigned",
+    "detail": "Reassigned from b.evans@choosegulfcoast.com to t.frost@choosegulfcoast.com",
+    "from": "b.evans@choosegulfcoast.com",
+    "to": "t.frost@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-19T16:57:39+00:00",
+    "ticket_number": 8759,
+    "subject": "4c2 replacement door handle",
+    "type": "reassigned",
+    "detail": "Reassigned from p.yelenich@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
+    "from": "p.yelenich@choosegulfcoast.com",
+    "to": "c.thayer@choosegulfcoast.com"
+  },
+  {
     "ts": "2026-09-19T13:37:43+00:00",
     "ticket_number": 8833,
     "subject": "Guest Name: Carmona Newton | Res #: 61948 | Unit: Birdie | Faucet issue",
@@ -7863,41 +7904,6 @@
     "ts": "2026-09-01T20:00:08+00:00",
     "ticket_number": 8572,
     "subject": "Sunny Life-deep clean required from PCA",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-01T20:00:08+00:00",
-    "ticket_number": 8570,
-    "subject": "Awake Zone-Deep clean from PCA",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-01T20:00:08+00:00",
-    "ticket_number": 8558,
-    "subject": "Replace Rules and Regs on GBB website.",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-01T20:00:08+00:00",
-    "ticket_number": 8548,
-    "subject": "Pollett Elizabeth/Harbour Happiness/ Res #: 59239/Maintenance & Management Ticket \u2013 Pool Safety Concern",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-01T20:00:08+00:00",
-    "ticket_number": 8521,
-    "subject": "Dupuy Laura | Gulf & Bay Bayside - 1340 | Res #: 59076 | Feedback",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-01T20:00:08+00:00",
-    "ticket_number": 8509,
-    "subject": "Dreams of Paradise-towels",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
