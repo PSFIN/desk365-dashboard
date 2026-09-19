@@ -1,4 +1,11 @@
 {
+  "8873": {
+    "subject": "Unit: Signal Inn - Unit 16 | Guest Name: Ellis Jonathan | Res #: 57554 |",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-23 22:00:00",
+    "priority": 1
+  },
   "8872": {
     "subject": "Merritt Ronald | Unit: zSerenity On Savona | Leaking Issue",
     "assigned_to": "l.susas@choosegulfcoast.com",
@@ -12,13 +19,6 @@
     "status": "Open",
     "due_date": "2026-09-23 22:00:00",
     "priority": 10
-  },
-  "8870": {
-    "subject": "Caller Name: Janelle Martin | Property availability",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-23 22:00:00",
-    "priority": 1
   },
   "8868": {
     "subject": "Boardwalk benches",
@@ -603,7 +603,7 @@
   },
   "8523": {
     "subject": "5B3 ARDI comforter cleaning",
-    "assigned_to": "a.dallman@choosegulfcoast.com",
+    "assigned_to": "z.adair@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-16 22:00:00",
     "priority": 1

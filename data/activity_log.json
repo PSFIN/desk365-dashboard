@@ -1,5 +1,28 @@
 [
   {
+    "ts": "2026-09-19T21:34:10+00:00",
+    "ticket_number": 8873,
+    "subject": "Unit: Signal Inn - Unit 16 | Guest Name: Ellis Jonathan | Res #: 57554 |",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-19T21:34:10+00:00",
+    "ticket_number": 8523,
+    "subject": "5B3 ARDI comforter cleaning",
+    "type": "reassigned",
+    "detail": "Reassigned from a.dallman@choosegulfcoast.com to z.adair@choosegulfcoast.com",
+    "from": "a.dallman@choosegulfcoast.com",
+    "to": "z.adair@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-19T21:34:10+00:00",
+    "ticket_number": 8870,
+    "subject": "Caller Name: Janelle Martin | Property availability",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-19T19:10:51+00:00",
     "ticket_number": 8872,
     "subject": "Merritt Ronald | Unit: zSerenity On Savona | Leaking Issue",
@@ -7877,32 +7900,5 @@
     "subject": "New Hire Platform Access - Matt Moritz",
     "type": "created",
     "detail": "Created \u2014 assigned to t.frost@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-01T20:00:08+00:00",
-    "ticket_number": 8361,
-    "subject": "Seabird Villa - Switching to annual",
-    "type": "reassigned",
-    "detail": "Reassigned from j.rushton@choosegulfcoast.com to b.vandroff@choosegulfcoast.com",
-    "from": "j.rushton@choosegulfcoast.com",
-    "to": "b.vandroff@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-01T20:00:08+00:00",
-    "ticket_number": 8361,
-    "subject": "Seabird Villa - Switching to annual",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-01 20:28:00 to 2026-09-03 20:28:00",
-    "from": "2026-09-01 20:28:00",
-    "to": "2026-09-03 20:28:00"
-  },
-  {
-    "ts": "2026-09-01T20:00:08+00:00",
-    "ticket_number": 8301,
-    "subject": "ADRI Signal Inn Unit 11",
-    "type": "reassigned",
-    "detail": "Reassigned from n.ventura@choosegulfcoast.com to a.ytac@choosegulfcoast.com",
-    "from": "n.ventura@choosegulfcoast.com",
-    "to": "a.ytac@choosegulfcoast.com"
   }
 ]
