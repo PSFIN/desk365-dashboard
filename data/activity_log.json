@@ -1,5 +1,19 @@
 [
   {
+    "ts": "2026-09-19T23:49:07+00:00",
+    "ticket_number": 8875,
+    "subject": "Unit: Bayside Paradise | Guest Name: Dougherty Renee | Res #: 63209 | Turn ON Pool Heat",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-19T23:49:07+00:00",
+    "ticket_number": 8874,
+    "subject": "Kiesewetter Robin | Unit: Sandalfoot 5A2 | Res #: 54701 | Thermostat is Blank",
+    "type": "created",
+    "detail": "Created \u2014 assigned to p.yelenich@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-09-19T21:34:10+00:00",
     "ticket_number": 8873,
     "subject": "Unit: Signal Inn - Unit 16 | Guest Name: Ellis Jonathan | Res #: 57554 |",
@@ -7884,21 +7898,5 @@
     "detail": "Reassigned from b.williams@choosegulfcoast.com to h.nomura@choosegulfcoast.com",
     "from": "b.williams@choosegulfcoast.com",
     "to": "h.nomura@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-01T20:00:08+00:00",
-    "ticket_number": 8416,
-    "subject": "Johnson Chase/Res #: 55736/ Turtle House/Compensation Review Request",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-08-30 22:00:00 to 2026-09-02 22:00:00",
-    "from": "2026-08-30 22:00:00",
-    "to": "2026-09-02 22:00:00"
-  },
-  {
-    "ts": "2026-09-01T20:00:08+00:00",
-    "ticket_number": 8413,
-    "subject": "New Hire Platform Access - Matt Moritz",
-    "type": "created",
-    "detail": "Created \u2014 assigned to t.frost@choosegulfcoast.com, status Open"
   }
 ]
