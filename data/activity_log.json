@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-09-19T13:37:43+00:00",
+    "ticket_number": 8833,
+    "subject": "Guest Name: Carmona Newton | Res #: 61948 | Unit: Birdie | Faucet issue",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-19T09:39:03+00:00",
     "ticket_number": 8717,
     "subject": "Florida Fabulous-comp 790",
@@ -7891,13 +7898,6 @@
     "ts": "2026-09-01T20:00:08+00:00",
     "ticket_number": 8509,
     "subject": "Dreams of Paradise-towels",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-01T20:00:08+00:00",
-    "ticket_number": 8491,
-    "subject": "Property Management Inquiry",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
