@@ -1,4 +1,11 @@
 {
+  "8868": {
+    "subject": "Boardwalk benches",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-23 22:00:00",
+    "priority": 1
+  },
   "8867": {
     "subject": "City of Bradenton VR License - Villa In The Clouds | 1439 56th Street West",
     "assigned_to": "l.brigida@choosegulfcoast.com",
@@ -302,7 +309,7 @@
   },
   "8802": {
     "subject": "5 Star Review Feedback | Res #: 44775 | Courtney Brian | Breakers West C3 | 9/5/2026-9/11/2026",
-    "assigned_to": "l.costa@choosegulfcoast.com",
+    "assigned_to": "j.banks@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-18 17:46:38",
     "priority": 1
@@ -333,13 +340,6 @@
     "assigned_to": "marcie@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-18 16:43:27",
-    "priority": 1
-  },
-  "8795": {
-    "subject": "5 Star Review Feedback | Res #48720 | Savitt Maria | Loggerhead Cay #183 | 9/5/2026-9/12/2026",
-    "assigned_to": "l.costa@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-18 16:04:07",
     "priority": 1
   },
   "8789": {

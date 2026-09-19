@@ -1,5 +1,28 @@
 [
   {
+    "ts": "2026-09-19T00:51:28+00:00",
+    "ticket_number": 8868,
+    "subject": "Boardwalk benches",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-19T00:51:28+00:00",
+    "ticket_number": 8802,
+    "subject": "5 Star Review Feedback | Res #: 44775 | Courtney Brian | Breakers West C3 | 9/5/2026-9/11/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from l.costa@choosegulfcoast.com to j.banks@choosegulfcoast.com",
+    "from": "l.costa@choosegulfcoast.com",
+    "to": "j.banks@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-19T00:51:28+00:00",
+    "ticket_number": 8795,
+    "subject": "5 Star Review Feedback | Res #48720 | Savitt Maria | Loggerhead Cay #183 | 9/5/2026-9/12/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-18T22:42:40+00:00",
     "ticket_number": 8867,
     "subject": "City of Bradenton VR License - Villa In The Clouds | 1439 56th Street West",
@@ -7873,26 +7896,5 @@
     "subject": "DR-11 Form :  Splash Decision - 14881 Laguna Drive",
     "type": "created",
     "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-01T17:05:22+00:00",
-    "ticket_number": 8570,
-    "subject": "Awake Zone-Deep clean from PCA",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-01T17:05:22+00:00",
-    "ticket_number": 8569,
-    "subject": "Add Property to Lee Tourist Development Tax Umbrella : Splash Decision - 14881 Laguna Drive",
-    "type": "created",
-    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-01T17:05:22+00:00",
-    "ticket_number": 8568,
-    "subject": "Admirals Watch required PCA deep celan",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
   }
 ]
