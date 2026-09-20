@@ -1,5 +1,35 @@
 [
   {
+    "ts": "2026-09-20T19:12:34+00:00",
+    "ticket_number": 8881,
+    "subject": "Garlitz Mary | Unit: Signal Inn - Unit 13 | Res #: 53283 | Feedback about Bed Bugs",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-20T19:12:34+00:00",
+    "ticket_number": 8850,
+    "subject": "Keane Fergal/zBella Vita/Res #: 44004/Property Concern \u2013 Water & Hot Water Shut Off",
+    "type": "reassigned",
+    "detail": "Reassigned from m.omasdang@choosegulfcoast.com to m.eronico@choosegulfcoast.com",
+    "from": "m.omasdang@choosegulfcoast.com",
+    "to": "m.eronico@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-20T19:12:34+00:00",
+    "ticket_number": 8874,
+    "subject": "Kiesewetter Robin | Unit: Sandalfoot 5A2 | Res #: 54701 | Thermostat is Blank",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-20T19:12:34+00:00",
+    "ticket_number": 8848,
+    "subject": "Wilson Danielle/Ocean Eyes/Res #: 55819/Left Item",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-20T16:54:35+00:00",
     "ticket_number": 8880,
     "subject": "Guest Name: Cottrell Richard | Res #: 42921 | Unit: Gulf & Bay Bayside - 1373 | Cancellation",
@@ -7882,41 +7912,5 @@
     "subject": "Mold at Once Upon A Tide",
     "type": "created",
     "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-01T22:30:34+00:00",
-    "ticket_number": 8562,
-    "subject": "camera for signal from Red1",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-04 16:07:05 to 2026-09-08 16:07:00",
-    "from": "2026-09-04 16:07:05",
-    "to": "2026-09-08 16:07:00"
-  },
-  {
-    "ts": "2026-09-01T22:30:34+00:00",
-    "ticket_number": 8561,
-    "subject": "Altschuler Max/ A Shore Thing/Res #: 58976/Gate not open (Trash Collection)",
-    "type": "reassigned",
-    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to v.consigna@choosegulfcoast.com",
-    "from": "h.mcnamara@choosegulfcoast.com",
-    "to": "v.consigna@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-01T22:30:34+00:00",
-    "ticket_number": 8503,
-    "subject": "Putt in Paradise-elock Lynx",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-01 20:26:43 to 2026-09-02 20:26:00",
-    "from": "2026-09-01 20:26:43",
-    "to": "2026-09-02 20:26:00"
-  },
-  {
-    "ts": "2026-09-01T22:30:34+00:00",
-    "ticket_number": 8495,
-    "subject": "Post arrival call | Guest Name :Shaw Debbie | Res #: 61518 | Unit: Shaker Of Salt | Multiple Issues",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-01 18:34:00 to 2026-09-04 18:34:00",
-    "from": "2026-09-01 18:34:00",
-    "to": "2026-09-04 18:34:00"
   }
 ]
