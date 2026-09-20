@@ -1,5 +1,93 @@
 [
   {
+    "ts": "2026-09-20T08:09:56+00:00",
+    "ticket_number": 8737,
+    "subject": "Carmona Newton | Unit: Birdie | Res #: 61948 | Multiple Issues",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-18 20:33:00 to 2026-09-23 20:33:00",
+    "from": "2026-09-18 20:33:00",
+    "to": "2026-09-23 20:33:00"
+  },
+  {
+    "ts": "2026-09-20T08:09:56+00:00",
+    "ticket_number": 8443,
+    "subject": "PCA for Luna Sea Due Date: 9/17/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-19 22:00:00 to 2026-09-23 22:00:00",
+    "from": "2026-09-19 22:00:00",
+    "to": "2026-09-23 22:00:00"
+  },
+  {
+    "ts": "2026-09-20T08:09:56+00:00",
+    "ticket_number": 8434,
+    "subject": "Mirrored closet door:GBB1269",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-18 22:00:00 to 2026-09-23 22:00:00",
+    "from": "2026-09-18 22:00:00",
+    "to": "2026-09-23 22:00:00"
+  },
+  {
+    "ts": "2026-09-20T08:09:56+00:00",
+    "ticket_number": 8330,
+    "subject": "PCA for Golden Beach Haven Due Date: 9/14/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-19 22:00:00 to 2026-09-23 22:00:00",
+    "from": "2026-09-19 22:00:00",
+    "to": "2026-09-23 22:00:00"
+  },
+  {
+    "ts": "2026-09-20T08:09:56+00:00",
+    "ticket_number": 8037,
+    "subject": "Qualify for ARDI?",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-21 22:00:00 to 2026-09-23 22:00:00",
+    "from": "2026-09-21 22:00:00",
+    "to": "2026-09-23 22:00:00"
+  },
+  {
+    "ts": "2026-09-20T08:09:56+00:00",
+    "ticket_number": 7603,
+    "subject": "PCA for A Shore Thing Due Date: 8/7/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-20 22:00:00 to 2026-09-23 22:00:00",
+    "from": "2026-09-20 22:00:00",
+    "to": "2026-09-23 22:00:00"
+  },
+  {
+    "ts": "2026-09-20T08:09:56+00:00",
+    "ticket_number": 7361,
+    "subject": "PCA for Gulf & Bay Bayside - 1350 Due Date: 7/30/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-18 17:00:00 to 2026-09-23 17:00:00",
+    "from": "2026-09-18 17:00:00",
+    "to": "2026-09-23 17:00:00"
+  },
+  {
+    "ts": "2026-09-20T08:09:56+00:00",
+    "ticket_number": 7323,
+    "subject": "Aloha House - Unit painting",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-18 22:00:00 to 2026-09-23 22:00:00",
+    "from": "2026-09-18 22:00:00",
+    "to": "2026-09-23 22:00:00"
+  },
+  {
+    "ts": "2026-09-20T08:09:56+00:00",
+    "ticket_number": 7165,
+    "subject": "PCA for Gulf & Bay Bayside - 1346 Due Date: 7/24/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-19 00:30:00 to 2026-09-24 00:30:00",
+    "from": "2026-09-19 00:30:00",
+    "to": "2026-09-24 00:30:00"
+  },
+  {
+    "ts": "2026-09-20T08:09:56+00:00",
+    "ticket_number": 8810,
+    "subject": "Robin Marin/Coldwell Banker/ GBB 1200G",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-19T23:49:07+00:00",
     "ticket_number": 8875,
     "subject": "Unit: Bayside Paradise | Guest Name: Dougherty Renee | Res #: 63209 | Turn ON Pool Heat",
@@ -7824,79 +7912,5 @@
     "subject": "Remove vacancy text",
     "type": "created",
     "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-01T20:00:08+00:00",
-    "ticket_number": 8581,
-    "subject": "Res. No. 56346 - Robert Ware  - Turtle House      Issue 1 of 2:    Master bathtub faucet is loose",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-01T20:00:08+00:00",
-    "ticket_number": 8580,
-    "subject": "Turtle House res#62055 change rate",
-    "type": "created",
-    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-01T20:00:08+00:00",
-    "ticket_number": 8579,
-    "subject": "rev rep",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.paulin@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-01T20:00:08+00:00",
-    "ticket_number": 8578,
-    "subject": "Response needed: cancellation request for 62051 | Judy Breen",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-01T20:00:08+00:00",
-    "ticket_number": 8577,
-    "subject": "Effect request for removal of BDC review:  Res. No. 60142 - Danielle Proffitt - Dreams of Paradise.",
-    "type": "created",
-    "detail": "Created \u2014 assigned to l.winter@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-01T20:00:08+00:00",
-    "ticket_number": 8576,
-    "subject": "Name: Owen Anne | Res: 61829 | Property: Sandalfoot 4D3 | Guest Request | Future Guest Request",
-    "type": "created",
-    "detail": "Created \u2014 assigned to m.johnston@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-01T20:00:08+00:00",
-    "ticket_number": 8575,
-    "subject": "The Duffers Retreat-PCA Deep clean",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-01T20:00:08+00:00",
-    "ticket_number": 8574,
-    "subject": "Sunny Retreat-PCA deep clean",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-01T20:00:08+00:00",
-    "ticket_number": 8465,
-    "subject": "Sunset Splash-lynx and pool serice",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-08-31 20:12:00 to 2026-09-04 20:12:00",
-    "from": "2026-08-31 20:12:00",
-    "to": "2026-09-04 20:12:00"
-  },
-  {
-    "ts": "2026-09-01T20:00:08+00:00",
-    "ticket_number": 8416,
-    "subject": "Johnson Chase/Res #: 55736/ Turtle House/Compensation Review Request",
-    "type": "reassigned",
-    "detail": "Reassigned from b.williams@choosegulfcoast.com to h.nomura@choosegulfcoast.com",
-    "from": "b.williams@choosegulfcoast.com",
-    "to": "h.nomura@choosegulfcoast.com"
   }
 ]
