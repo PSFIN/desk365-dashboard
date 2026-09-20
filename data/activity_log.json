@@ -1,5 +1,39 @@
 [
   {
+    "ts": "2026-09-20T23:45:40+00:00",
+    "ticket_number": 8331,
+    "subject": "PCA for Serenity Garden Due Date : 9/14/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from t.healy@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
+    "from": "t.healy@choosegulfcoast.com",
+    "to": "c.thayer@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-20T23:45:40+00:00",
+    "ticket_number": 8311,
+    "subject": "PCA for Sans Souci Due Date: 9/10/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from t.healy@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
+    "from": "t.healy@choosegulfcoast.com",
+    "to": "c.thayer@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-20T23:45:40+00:00",
+    "ticket_number": 7368,
+    "subject": "PCA for Paraclete Paradise Due Date:  8/3/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from t.healy@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
+    "from": "t.healy@choosegulfcoast.com",
+    "to": "c.thayer@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-20T23:45:40+00:00",
+    "ticket_number": 8880,
+    "subject": "Guest Name: Cottrell Richard | Res #: 42921 | Unit: Gulf & Bay Bayside - 1373 | Cancellation",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-20T21:43:39+00:00",
     "ticket_number": 8850,
     "subject": "Keane Fergal/zBella Vita/Res #: 44004/Property Concern \u2013 Water & Hot Water Shut Off",
@@ -7886,33 +7920,5 @@
     "subject": "Res. No. 55853 - MJ Lynch  - Ocean Eyes:     Issue 1 of 2:  dryer - lint build-up in door",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-02T05:18:49+00:00",
-    "ticket_number": 7837,
-    "subject": "Tidewater Manor - Cleaning",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-02T05:18:49+00:00",
-    "ticket_number": 7832,
-    "subject": "Cranes Galore - Cleaning",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-01T22:30:34+00:00",
-    "ticket_number": 8587,
-    "subject": "C-02 and C-04 pictures",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-01T22:30:34+00:00",
-    "ticket_number": 8586,
-    "subject": "Boardwalk Shell station",
-    "type": "created",
-    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
   }
 ]

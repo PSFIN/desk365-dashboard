@@ -6,13 +6,6 @@
     "due_date": "2026-09-23 22:00:00",
     "priority": 1
   },
-  "8880": {
-    "subject": "Guest Name: Cottrell Richard | Res #: 42921 | Unit: Gulf & Bay Bayside - 1373 | Cancellation",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-23 22:00:00",
-    "priority": 1
-  },
   "8879": {
     "subject": "Guest Name: Hoffman Victoria | Res #: 45881 | Unit: Signal Inn - Unit 08 | Cancellation",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
@@ -722,7 +715,7 @@
   },
   "8331": {
     "subject": "PCA for Serenity Garden Due Date : 9/14/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-25 22:00:00",
     "priority": 5
@@ -743,7 +736,7 @@
   },
   "8311": {
     "subject": "PCA for Sans Souci Due Date: 9/10/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-30 20:16:00",
     "priority": 5
@@ -876,7 +869,7 @@
   },
   "7368": {
     "subject": "PCA for Paraclete Paradise Due Date:  8/3/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-23 20:59:00",
     "priority": 5
