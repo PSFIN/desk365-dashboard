@@ -1,5 +1,14 @@
 [
   {
+    "ts": "2026-09-20T21:43:39+00:00",
+    "ticket_number": 8850,
+    "subject": "Keane Fergal/zBella Vita/Res #: 44004/Property Concern \u2013 Water & Hot Water Shut Off",
+    "type": "reassigned",
+    "detail": "Reassigned from m.eronico@choosegulfcoast.com to m.omasdang@choosegulfcoast.com",
+    "from": "m.eronico@choosegulfcoast.com",
+    "to": "m.omasdang@choosegulfcoast.com"
+  },
+  {
     "ts": "2026-09-20T19:12:34+00:00",
     "ticket_number": 8881,
     "subject": "Garlitz Mary | Unit: Signal Inn - Unit 13 | Res #: 53283 | Feedback about Bed Bugs",
@@ -7905,12 +7914,5 @@
     "subject": "Boardwalk Shell station",
     "type": "created",
     "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-01T22:30:34+00:00",
-    "ticket_number": 8585,
-    "subject": "Mold at Once Upon A Tide",
-    "type": "created",
-    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
   }
 ]
