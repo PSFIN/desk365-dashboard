@@ -1,5 +1,40 @@
 [
   {
+    "ts": "2026-09-21T02:42:18+00:00",
+    "ticket_number": 8886,
+    "subject": "4 Star Review Feedback | Res #61026 | Melissa Slaughter | Signal Inn - Unit 02 | 9/12/2026-9/18/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-21T02:42:18+00:00",
+    "ticket_number": 8885,
+    "subject": "5 Star Review Feedback | Res #53585 | Lawson Stephen & Catherine | Signal Inn - Unit 10 | 9/7/2026-9/14/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-21T02:42:18+00:00",
+    "ticket_number": 8884,
+    "subject": "4 Star Review Feedback | Res #62594 | Bareishis Charles | Colony Inn C-53 | 9/14/2026-9/17/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to marcie@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-21T02:42:18+00:00",
+    "ticket_number": 8883,
+    "subject": "4 Star Review Feedback | Res #59569 | Ann Wyckoff | Sandalfoot 1C2 | 9/13/2026-9/18/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.armstrong@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-21T02:42:18+00:00",
+    "ticket_number": 8882,
+    "subject": "5 Star Review Feedback | Res #61411 | Sosa Ariel M | Gulf & Bay Bayside - 1219 | 9/8/2026-9/15/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-09-20T23:45:40+00:00",
     "ticket_number": 8331,
     "subject": "PCA for Serenity Garden Due Date : 9/14/2026",
@@ -7883,42 +7918,5 @@
     "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
     "from": "s.soriafrausto@choosegulfcoast.com",
     "to": "c.thayer@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-02T05:18:49+00:00",
-    "ticket_number": 7013,
-    "subject": "PCA for La Vida Loca Due Date: July 7, 2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-08-31 22:00:00 to 2026-09-04 22:00:00",
-    "from": "2026-08-31 22:00:00",
-    "to": "2026-09-04 22:00:00"
-  },
-  {
-    "ts": "2026-09-02T05:18:49+00:00",
-    "ticket_number": 8546,
-    "subject": "Res. No. 60111 - Michael Khalil  - Gulf & Bay 1260:     Issue: master bedroom needs a door lock",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-02T05:18:49+00:00",
-    "ticket_number": 8539,
-    "subject": "Res. No. 55853 - MJ Lynch  - Ocean Eyes:     Issue 2 of 2:  toilets fill up with hot water",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-02T05:18:49+00:00",
-    "ticket_number": 8538,
-    "subject": "Sun Seeker-no cleaning required",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-02T05:18:49+00:00",
-    "ticket_number": 8537,
-    "subject": "Res. No. 55853 - MJ Lynch  - Ocean Eyes:     Issue 1 of 2:  dryer - lint build-up in door",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
 ]
