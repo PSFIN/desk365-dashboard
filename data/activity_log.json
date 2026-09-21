@@ -1,5 +1,40 @@
 [
   {
+    "ts": "2026-09-21T23:26:42+00:00",
+    "ticket_number": 8898,
+    "subject": "4 Star Review Feedback | Res #56546 | Schwab Emily | Coral Paradise | 7/27/2026-9/21/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-21T23:26:42+00:00",
+    "ticket_number": 8897,
+    "subject": "4 Star Review Feedback | Res #59091 | smithson Steven | Sandalfoot 4B1| 9/16/2026-9/20/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.armstrong@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-21T23:26:42+00:00",
+    "ticket_number": 8895,
+    "subject": "Vrbo is updating its Host Cancellations Policy effective October 15",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-21T23:26:42+00:00",
+    "ticket_number": 8851,
+    "subject": "Pier Pressure New VR",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-21T23:26:42+00:00",
+    "ticket_number": 8841,
+    "subject": "Post arrival Call | Guest Name: Berchtold Markus | Res #: 59930 | Unit: Flip Flop Retreat |",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-21T20:04:25+00:00",
     "ticket_number": 8896,
     "subject": "5 Star Review Feedback | Res #60903 | figueroa miguel | Colony Inn C-11 | 9/18/2026-9/20/2026",
@@ -7865,41 +7900,6 @@
     "ts": "2026-09-02T17:45:21+00:00",
     "ticket_number": 8591,
     "subject": "Southern Comfort-picture",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-02T17:45:21+00:00",
-    "ticket_number": 8590,
-    "subject": "Unit 4A1 Occupancy",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-02T17:45:21+00:00",
-    "ticket_number": 8587,
-    "subject": "C-02 and C-04 pictures",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-02T17:45:21+00:00",
-    "ticket_number": 8573,
-    "subject": "Green View Getaway",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-02T17:45:21+00:00",
-    "ticket_number": 8416,
-    "subject": "Johnson Chase/Res #: 55736/ Turtle House/Compensation Review Request",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-02T17:45:21+00:00",
-    "ticket_number": 8301,
-    "subject": "ADRI Signal Inn Unit 11",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
