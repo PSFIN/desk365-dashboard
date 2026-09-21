@@ -1,14 +1,14 @@
 {
+  "8888": {
+    "subject": "Tee time Fore Season-update to pet friendly",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-23 22:00:00",
+    "priority": 10
+  },
   "8887": {
     "subject": "Sautter Tiffany/Colony Inn C-04/ Res #: 62604/ AC not working",
     "assigned_to": "marcie@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-23 22:00:00",
-    "priority": 1
-  },
-  "8886": {
-    "subject": "4 Star Review Feedback | Res #61026 | Melissa Slaughter | Signal Inn - Unit 02 | 9/12/2026-9/18/2026",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-23 22:00:00",
     "priority": 1
@@ -41,13 +41,6 @@
     "due_date": "2026-09-23 22:00:00",
     "priority": 1
   },
-  "8881": {
-    "subject": "Garlitz Mary | Unit: Signal Inn - Unit 13 | Res #: 53283 | Feedback about Bed Bugs",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-23 22:00:00",
-    "priority": 1
-  },
   "8879": {
     "subject": "Guest Name: Hoffman Victoria | Res #: 45881 | Unit: Signal Inn - Unit 08 | Cancellation",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
@@ -64,7 +57,7 @@
   },
   "8877": {
     "subject": "Post Arrival - Unit: Array of Sunshine - Res #:  61359",
-    "assigned_to": "m.eronico@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-23 22:00:00",
     "priority": 1
@@ -123,13 +116,6 @@
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-22 16:02:54",
-    "priority": 20
-  },
-  "8862": {
-    "subject": "1272 MA Bath sink stopped up",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-22 16:00:46",
     "priority": 20
   },
   "8861": {
@@ -237,18 +223,11 @@
     "due_date": "2026-09-22 16:47:19",
     "priority": 1
   },
-  "8840": {
-    "subject": "#1315 MA bath wall light repair",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-22 16:21:25",
-    "priority": 10
-  },
   "8839": {
     "subject": "1391 sprinkler head gap",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-22 16:11:26",
+    "due_date": "2026-09-27 16:11:00",
     "priority": 10
   },
   "8837": {
@@ -276,7 +255,7 @@
     "subject": "Pellito Laurie/Signal Inn - Unit 14/Signal Inn - Unit 14/Property Feedback",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-21 21:13:59",
+    "due_date": "2026-09-30 21:13:00",
     "priority": 1
   },
   "8828": {
@@ -302,7 +281,7 @@
   },
   "8823": {
     "subject": "Selecting Vendors issue",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "assigned_to": "l.costa@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-21 15:47:34",
     "priority": 10
@@ -374,14 +353,14 @@
     "subject": "Coast is Clear - Photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-21 16:58:00",
+    "due_date": "2026-09-22 16:58:00",
     "priority": 1
   },
   "8797": {
     "subject": "Shore Bet - Photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-21 16:51:00",
+    "due_date": "2026-09-22 16:51:00",
     "priority": 1
   },
   "8796": {
@@ -451,7 +430,7 @@
     "subject": "GBB1327 - Update photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-18 22:00:00",
+    "due_date": "2026-09-22 22:00:00",
     "priority": 1
   },
   "8737": {
@@ -516,13 +495,6 @@
     "status": "Open",
     "due_date": "2026-09-17 18:27:00",
     "priority": 10
-  },
-  "8687": {
-    "subject": "Kedrych Alisa/Gulf & Bay Bayside - 1291/ Res #: 59049/AC Issues and Microwave",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-19 18:00:00",
-    "priority": 20
   },
   "8683": {
     "subject": "Name: ippolito barbara | Res: 51748 |  Hold Distribution of Cancelled Reservation Funds",
@@ -591,7 +563,7 @@
     "subject": "Boardwalk Shell station",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-18 20:41:00",
+    "due_date": "2026-09-25 20:41:00",
     "priority": 1
   },
   "8576": {
@@ -885,7 +857,7 @@
     "subject": "Marriott Curation Rejected - Signal Inn 02",
     "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-18 21:00:00",
+    "due_date": "2026-09-28 21:00:00",
     "priority": 5
   },
   "7397": {
@@ -899,14 +871,14 @@
     "subject": "Marriott Curation Rejected - Signal Inn 18",
     "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-18 15:06:00",
+    "due_date": "2026-09-28 15:06:00",
     "priority": 5
   },
   "7392": {
     "subject": "Marriott Curation Rejected - Signal Inn 17",
     "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-18 21:00:00",
+    "due_date": "2026-09-28 21:00:00",
     "priority": 5
   },
   "7368": {
