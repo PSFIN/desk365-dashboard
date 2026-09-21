@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-09-21T08:26:40+00:00",
+    "ticket_number": 8887,
+    "subject": "Sautter Tiffany/Colony Inn C-04/ Res #: 62604/ AC not working",
+    "type": "created",
+    "detail": "Created \u2014 assigned to marcie@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-09-21T02:42:18+00:00",
     "ticket_number": 8886,
     "subject": "4 Star Review Feedback | Res #61026 | Melissa Slaughter | Signal Inn - Unit 02 | 9/12/2026-9/18/2026",
@@ -7909,14 +7916,5 @@
     "detail": "Due date changed from 2026-08-31 20:32:00 to 2026-09-02 20:32:00",
     "from": "2026-08-31 20:32:00",
     "to": "2026-09-02 20:32:00"
-  },
-  {
-    "ts": "2026-09-02T05:18:49+00:00",
-    "ticket_number": 7013,
-    "subject": "PCA for La Vida Loca Due Date: July 7, 2026",
-    "type": "reassigned",
-    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
-    "from": "s.soriafrausto@choosegulfcoast.com",
-    "to": "c.thayer@choosegulfcoast.com"
   }
 ]
