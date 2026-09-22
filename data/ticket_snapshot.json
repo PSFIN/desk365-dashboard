@@ -1,4 +1,46 @@
 {
+  "8911": {
+    "subject": "Nuove commissioni Airbnb: tariffe senza perdere redditivit\u00e0/",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-25 19:52:00",
+    "priority": 1
+  },
+  "8910": {
+    "subject": "The Artisits Way- please make 2 keys",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-24 15:35:01",
+    "priority": 20
+  },
+  "8909": {
+    "subject": "The Artists Ways- owner block",
+    "assigned_to": "a.guarin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-24 15:33:15",
+    "priority": 20
+  },
+  "8907": {
+    "subject": "Blue Dolphin - ARDI comforter's",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-25 18:58:46",
+    "priority": 1
+  },
+  "8906": {
+    "subject": "Core Values Poster",
+    "assigned_to": "e.buchanan@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-06 18:45:00",
+    "priority": 5
+  },
+  "8905": {
+    "subject": "Be Still Beach Retreat- comforter ARDI",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-25 17:44:15",
+    "priority": 5
+  },
   "8904": {
     "subject": "Edgewater Bungalow- master bath ceiling fan cover",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
@@ -13,20 +55,6 @@
     "due_date": "2026-09-25 16:17:00",
     "priority": 1
   },
-  "8902": {
-    "subject": "Greve Priscilla |  Res #: 61555 |  Little Bit Of Heaven |  Water Pump Leaking",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-25 15:49:42",
-    "priority": 1
-  },
-  "8901": {
-    "subject": "Sufka Kelly | Beach House Residences 1 Res #: 61920 | ECI",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-25 15:01:04",
-    "priority": 1
-  },
   "8899": {
     "subject": "Pritchett Darin |  Day Dreamer | Res #: 52252 | Keurig not working",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
@@ -36,9 +64,9 @@
   },
   "8898": {
     "subject": "4 Star Review Feedback | Res #56546 | Schwab Emily | Coral Paradise | 7/27/2026-9/21/2026",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-24 20:28:20",
+    "due_date": "2026-10-09 20:28:00",
     "priority": 1
   },
   "8896": {
@@ -99,9 +127,9 @@
   },
   "8875": {
     "subject": "Unit: Bayside Paradise | Guest Name: Dougherty Renee | Res #: 63209 | Turn ON Pool Heat",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "v.consigna@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-23 22:00:00",
+    "due_date": "2027-02-09 23:00:00",
     "priority": 1
   },
   "8868": {
@@ -202,20 +230,6 @@
     "due_date": "2026-09-23 16:25:02",
     "priority": 10
   },
-  "8852": {
-    "subject": "rent rev",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-22 22:00:00",
-    "priority": 1
-  },
-  "8850": {
-    "subject": "Keane Fergal/zBella Vita/Res #: 44004/Property Concern \u2013 Water & Hot Water Shut Off",
-    "assigned_to": "m.omasdang@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-22 21:22:49",
-    "priority": 1
-  },
   "8849": {
     "subject": "Vacation Rental Certificate of Registration -Inspection Checklist | The White Pearl | 1952 Morrill Street",
     "assigned_to": "l.brigida@choosegulfcoast.com",
@@ -304,14 +318,7 @@
     "subject": "3 Star Review Feedback | Res #: 60080 | Padilla Marie | Blue Dolphin | 9/4/2026-9/7/2026",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-18 18:07:19",
-    "priority": 1
-  },
-  "8803": {
-    "subject": "2 Star Review Feedback | Res #: 60184 | McArn Lynnzie | Coastal Oasis | 9/4/2026-9/9/2026",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-18 17:53:53",
+    "due_date": "2026-09-23 18:07:00",
     "priority": 1
   },
   "8802": {
@@ -341,20 +348,6 @@
     "status": "Open",
     "due_date": "2026-09-28 19:16:00",
     "priority": 10
-  },
-  "8787": {
-    "subject": "Dreams of Paradise-PCA deep clean",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-20 18:37:00",
-    "priority": 1
-  },
-  "8780": {
-    "subject": "GBB1327 - touchup clean",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-17 14:12:45",
-    "priority": 1
   },
   "8764": {
     "subject": "T-Wreckz Junk Removal llc - Open Invoices",
@@ -391,32 +384,11 @@
     "due_date": "2026-09-16 16:33:37",
     "priority": 1
   },
-  "8739": {
-    "subject": "GBB1327 - Update photos",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-22 22:00:00",
-    "priority": 1
-  },
   "8737": {
     "subject": "Carmona Newton | Unit: Birdie | Res #: 61948 | Multiple Issues",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-23 20:33:00",
-    "priority": 1
-  },
-  "8734": {
-    "subject": "Southern Exposure-PCA deep clean",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-15 17:43:38",
-    "priority": 1
-  },
-  "8733": {
-    "subject": "Array of Sunshine-deep clean per PCA",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-15 17:19:37",
     "priority": 1
   },
   "8731": {
@@ -439,20 +411,6 @@
     "status": "Open",
     "due_date": "2026-09-21 18:29:00",
     "priority": 1
-  },
-  "8706": {
-    "subject": "A Shore Thing - Deep clean",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-19 14:08:00",
-    "priority": 1
-  },
-  "8690": {
-    "subject": "Golfside Escape-cleaning",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-17 18:27:00",
-    "priority": 10
   },
   "8683": {
     "subject": "Name: ippolito barbara | Res: 51748 |  Hold Distribution of Cancelled Reservation Funds",
@@ -493,7 +451,7 @@
     "subject": "PCA - Avalon (Vacant)",
     "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-26 22:00:00",
+    "due_date": "2026-10-16 22:00:00",
     "priority": 1
   },
   "8602": {
@@ -568,7 +526,7 @@
   },
   "8523": {
     "subject": "5B3 ARDI comforter cleaning",
-    "assigned_to": "z.adair@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-16 22:00:00",
     "priority": 1
@@ -703,7 +661,7 @@
     "subject": "PCA for Tropical Gulf Retreat Due Date: 9/1/2026",
     "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-19 20:51:00",
+    "due_date": "2026-10-16 20:51:00",
     "priority": 5
   },
   "8179": {
@@ -720,13 +678,6 @@
     "due_date": "2026-10-16 21:13:00",
     "priority": 10
   },
-  "8111": {
-    "subject": "Fraser Rachel/A Shore Thing/Res #: 46904/Pool heating Request",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-09 23:00:00",
-    "priority": 1
-  },
   "8037": {
     "subject": "Qualify for ARDI?",
     "assigned_to": "j.rushton@choosegulfcoast.com",
@@ -736,7 +687,7 @@
   },
   "8007": {
     "subject": "Rising tides- pool deck, chairs, couch and window",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-14 19:46:00",
     "priority": 10
@@ -829,7 +780,7 @@
     "subject": "PCA for Paraclete Paradise Due Date:  8/3/2026",
     "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-23 20:59:00",
+    "due_date": "2026-10-16 20:59:00",
     "priority": 5
   },
   "7361": {
