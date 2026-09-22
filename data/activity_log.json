@@ -1,5 +1,14 @@
 [
   {
+    "ts": "2026-09-22T01:43:03+00:00",
+    "ticket_number": 8678,
+    "subject": "Property Damage Report \u2013 Southern Exposure \u2013 Tresalus Jorwina Res #: 62194",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to c.hernandez@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "c.hernandez@choosegulfcoast.com"
+  },
+  {
     "ts": "2026-09-21T23:26:42+00:00",
     "ticket_number": 8898,
     "subject": "4 Star Review Feedback | Res #56546 | Schwab Emily | Coral Paradise | 7/27/2026-9/21/2026",
@@ -7895,12 +7904,5 @@
     "detail": "Due date changed from 2026-09-01 15:06:00 to 2026-09-07 15:06:00",
     "from": "2026-09-01 15:06:00",
     "to": "2026-09-07 15:06:00"
-  },
-  {
-    "ts": "2026-09-02T17:45:21+00:00",
-    "ticket_number": 8591,
-    "subject": "Southern Comfort-picture",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
 ]
