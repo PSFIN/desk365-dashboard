@@ -1,5 +1,14 @@
 [
   {
+    "ts": "2026-09-22T23:06:31+00:00",
+    "ticket_number": 8898,
+    "subject": "4 Star Review Feedback | Res #56546 | Schwab Emily | Coral Paradise | 7/27/2026-9/21/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
     "ts": "2026-09-22T20:23:36+00:00",
     "ticket_number": 8911,
     "subject": "Nuove commissioni Airbnb: tariffe senza perdere redditivit\u00e0/",
@@ -7875,14 +7884,5 @@
     "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to m.eronico@choosegulfcoast.com",
     "from": "h.mcnamara@choosegulfcoast.com",
     "to": "m.eronico@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-02T22:44:26+00:00",
-    "ticket_number": 8608,
-    "subject": "Wolk Kimberly | Ocean Eyes |  Res #: 58831 | AC error",
-    "type": "priority_changed",
-    "detail": "Priority changed from 1 to 5",
-    "from": 1,
-    "to": 5
   }
 ]
