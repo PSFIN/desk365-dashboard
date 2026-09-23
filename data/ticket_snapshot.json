@@ -1,4 +1,18 @@
 {
+  "8933": {
+    "subject": "Unit: Signal Inn - Unit 14 | Guest Name: Teague Chris | Res #: 63487 | Cancelation Request",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-28 22:00:00",
+    "priority": 1
+  },
+  "8932": {
+    "subject": "4 Star Review Feedback | Res #33168 | Krahl Elke | Bayside Paradise | 9/5/2026-9/19/2026",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-28 20:57:46",
+    "priority": 1
+  },
   "8931": {
     "subject": "SF Unit 4C1 Owner Von Eschen / Owner reservation Feb12-16",
     "assigned_to": "h.nomura@choosegulfcoast.com",
@@ -151,13 +165,6 @@
     "assigned_to": "a.ytac@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-25 16:17:00",
-    "priority": 1
-  },
-  "8899": {
-    "subject": "Pritchett Darin |  Day Dreamer | Res #: 52252 | Keurig not working",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-24 22:00:00",
     "priority": 1
   },
   "8898": {
@@ -325,14 +332,14 @@
     "subject": "rent rev",
     "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-18 14:43:52",
-    "priority": 20
+    "due_date": "2026-09-28 14:43:00",
+    "priority": 1
   },
   "8825": {
     "subject": "Sliding door lock project",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-23 15:51:00",
+    "due_date": "2026-09-30 15:51:00",
     "priority": 1
   },
   "8821": {
