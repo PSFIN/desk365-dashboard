@@ -1,4 +1,74 @@
 {
+  "8931": {
+    "subject": "SF Unit 4C1 Owner Von Eschen / Owner reservation Feb12-16",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-28 19:59:48",
+    "priority": 5
+  },
+  "8930": {
+    "subject": "5 Star Review Feedback | Res #59185 | Dick Christopher | Sandalfoot 3A2 | 8/12/2026-8/15/2026",
+    "assigned_to": "n.armstrong@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-28 19:29:40",
+    "priority": 1
+  },
+  "8929": {
+    "subject": "Captains Quarters - Lynx Lock",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-28 19:27:58",
+    "priority": 1
+  },
+  "8928": {
+    "subject": "Villa Milano Lynx Lock",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-28 19:26:58",
+    "priority": 1
+  },
+  "8927": {
+    "subject": "GBB1200 - Lynx Lock",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-28 19:24:13",
+    "priority": 1
+  },
+  "8926": {
+    "subject": "Beachbound Bliss - Lynx",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-28 19:23:20",
+    "priority": 1
+  },
+  "8925": {
+    "subject": "Beach Bum - Lynx lock",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-28 19:22:17",
+    "priority": 1
+  },
+  "8924": {
+    "subject": "2 Star Review Feedback | Res #61513 | Shaw Debbie | Shaker of Salt | 8/26/2026-8/31/2026",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-28 19:19:48",
+    "priority": 1
+  },
+  "8923": {
+    "subject": "Easy Does It-APP sign up for service",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-28 18:59:15",
+    "priority": 1
+  },
+  "8921": {
+    "subject": "Lynx locks-owners",
+    "assigned_to": "b.evans@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-28 18:17:08",
+    "priority": 1
+  },
   "8920": {
     "subject": "City of Bradenton VR License (2027 Renewal) - Sans Souci | 2806 Taunton Drive West",
     "assigned_to": "l.brigida@choosegulfcoast.com",
@@ -48,26 +118,12 @@
     "due_date": "2026-09-25 22:00:00",
     "priority": 10
   },
-  "8911": {
-    "subject": "Nuove commissioni Airbnb: tariffe senza perdere redditivit\u00e0/",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-25 19:52:00",
-    "priority": 1
-  },
   "8910": {
     "subject": "The Artisits Way- please make 2 keys",
     "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-24 15:35:01",
     "priority": 20
-  },
-  "8907": {
-    "subject": "Blue Dolphin - ARDI comforter's",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-25 18:58:46",
-    "priority": 1
   },
   "8906": {
     "subject": "Core Values Poster",
@@ -85,7 +141,7 @@
   },
   "8904": {
     "subject": "Edgewater Bungalow- master bath ceiling fan cover",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-25 17:12:12",
     "priority": 5
@@ -141,7 +197,7 @@
   },
   "8882": {
     "subject": "5 Star Review Feedback | Res #61411 | Sosa Ariel M | Gulf & Bay Bayside - 1219 | 9/8/2026-9/15/2026",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-23 22:00:00",
     "priority": 1
@@ -150,7 +206,7 @@
     "subject": "Boardwalk benches",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-23 22:00:00",
+    "due_date": "2026-10-05 22:00:00",
     "priority": 1
   },
   "8867": {
@@ -236,13 +292,6 @@
     "status": "Open",
     "due_date": "2026-09-23 16:25:02",
     "priority": 10
-  },
-  "8849": {
-    "subject": "Vacation Rental Certificate of Registration -Inspection Checklist | The White Pearl | 1952 Morrill Street",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-22 21:18:28",
-    "priority": 1
   },
   "8839": {
     "subject": "1391 sprinkler head gap",
@@ -330,7 +379,7 @@
   },
   "8754": {
     "subject": "#1364 owner --reimburse",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "c.nutt@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-24 16:53:00",
     "priority": 10
@@ -346,7 +395,7 @@
     "subject": "Carmona Newton | Unit: Birdie | Res #: 61948 | Multiple Issues",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-23 20:33:00",
+    "due_date": "2026-09-25 20:33:00",
     "priority": 1
   },
   "8729": {
@@ -368,13 +417,6 @@
     "assigned_to": "a.ytac@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-30 17:06:00",
-    "priority": 1
-  },
-  "8657": {
-    "subject": "Golfside Escape-reshoot",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-22 21:27:00",
     "priority": 1
   },
   "8628": {
@@ -475,9 +517,16 @@
     "due_date": "2026-10-01 16:00:00",
     "priority": 10
   },
+  "8531": {
+    "subject": "Department of Business and Professional Regulation (DBPR) License Review",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-28 20:14:00",
+    "priority": 10
+  },
   "8523": {
     "subject": "5B3 ARDI comforter cleaning",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "n.armstrong@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-16 22:00:00",
     "priority": 1
@@ -514,7 +563,7 @@
     "subject": "PCA for Luna Sea Due Date: 9/17/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-23 22:00:00",
+    "due_date": "2026-09-25 22:00:00",
     "priority": 5
   },
   "8435": {
@@ -523,13 +572,6 @@
     "status": "Open",
     "due_date": "2026-09-25 22:00:00",
     "priority": 1
-  },
-  "8434": {
-    "subject": "Mirrored closet door:GBB1269",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-23 22:00:00",
-    "priority": 5
   },
   "8427": {
     "subject": "Data Update on Certificate of Registration Tracker",
@@ -584,7 +626,7 @@
     "subject": "PCA for Golden Beach Haven Due Date: 9/14/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-23 22:00:00",
+    "due_date": "2026-09-25 22:00:00",
     "priority": 5
   },
   "8329": {
@@ -626,7 +668,7 @@
     "subject": "Qualify for ARDI?",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-23 22:00:00",
+    "due_date": "2026-09-28 22:00:00",
     "priority": 10
   },
   "8007": {
@@ -670,13 +712,6 @@
     "status": "Open",
     "due_date": "2026-12-02 18:19:00",
     "priority": 1
-  },
-  "7603": {
-    "subject": "PCA for A Shore Thing Due Date: 8/7/2026",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-23 22:00:00",
-    "priority": 5
   },
   "7599": {
     "subject": "PCA for Admirals Watch Due Date:  8/6/2026",
@@ -731,28 +766,28 @@
     "subject": "PCA for Gulf & Bay Bayside - 1350 Due Date: 7/30/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-23 17:00:00",
+    "due_date": "2026-09-25 17:00:00",
     "priority": 5
   },
   "7346": {
     "subject": "Marriott Curation Rejected - Tropical Escape",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-30 22:00:00",
+    "due_date": "2026-10-07 22:00:00",
     "priority": 5
   },
   "7323": {
     "subject": "Aloha House - Unit painting",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-23 22:00:00",
+    "due_date": "2026-09-24 22:00:00",
     "priority": 1
   },
   "7165": {
     "subject": "PCA for Gulf & Bay Bayside - 1346 Due Date: 7/24/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-24 00:30:00",
+    "due_date": "2026-09-26 00:30:00",
     "priority": 5
   },
   "7156": {
@@ -768,13 +803,6 @@
     "status": "Open",
     "due_date": "2027-06-01 22:00:00",
     "priority": 1
-  },
-  "7015": {
-    "subject": "PCA for Array Of Sunshine Due Date: July 8, 2026",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-12 22:00:00",
-    "priority": 5
   },
   "6536": {
     "subject": "Lee County upcoming sales tax changes",
