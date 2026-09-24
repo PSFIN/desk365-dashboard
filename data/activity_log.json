@@ -1,5 +1,21 @@
 [
   {
+    "ts": "2026-09-24T12:48:02+00:00",
+    "ticket_number": 8934,
+    "subject": "VRBO Health and Safety Investigation Email",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-24T12:48:02+00:00",
+    "ticket_number": 8915,
+    "subject": "Shell Yeah-comp 300.00 gold plan fees",
+    "type": "reassigned",
+    "detail": "Reassigned from m.johnston@choosegulfcoast.com to e.morales@choosegulfcoast.com",
+    "from": "m.johnston@choosegulfcoast.com",
+    "to": "e.morales@choosegulfcoast.com"
+  },
+  {
     "ts": "2026-09-24T01:33:35+00:00",
     "ticket_number": 8933,
     "subject": "Unit: Signal Inn - Unit 14 | Guest Name: Teague Chris | Res #: 63487 | Cancelation Request",
@@ -7878,19 +7894,5 @@
     "detail": "Reassigned from t.healy@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
     "from": "t.healy@choosegulfcoast.com",
     "to": "c.thayer@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-03T22:42:30+00:00",
-    "ticket_number": 8619,
-    "subject": "PCA - Florida Sanctuary",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-03T22:42:30+00:00",
-    "ticket_number": 8551,
-    "subject": "Add Property to Manatee Tourist Development Tax Umbrella : Putt in Paradise - 19116 SCALLOP LOOP, #202",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
 ]
