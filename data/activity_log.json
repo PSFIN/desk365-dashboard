@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-09-24T01:33:35+00:00",
+    "ticket_number": 8933,
+    "subject": "Unit: Signal Inn - Unit 14 | Guest Name: Teague Chris | Res #: 63487 | Cancelation Request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-23T23:24:00+00:00",
     "ticket_number": 8933,
     "subject": "Unit: Signal Inn - Unit 14 | Guest Name: Teague Chris | Res #: 63487 | Cancelation Request",
@@ -7883,13 +7890,6 @@
     "ts": "2026-09-03T22:42:30+00:00",
     "ticket_number": 8551,
     "subject": "Add Property to Manatee Tourist Development Tax Umbrella : Putt in Paradise - 19116 SCALLOP LOOP, #202",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-03T22:42:30+00:00",
-    "ticket_number": 8547,
-    "subject": "Add Property to Manatee Tourist Development Tax Umbrella - Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
