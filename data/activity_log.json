@@ -1,5 +1,69 @@
 [
   {
+    "ts": "2026-09-24T20:59:41+00:00",
+    "ticket_number": 8944,
+    "subject": "Pin High Tide-new OB",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-24T20:59:41+00:00",
+    "ticket_number": 8943,
+    "subject": "Pin High Tide-Ob Boarding pictures",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-24T20:59:41+00:00",
+    "ticket_number": 8942,
+    "subject": "Dreams of Paradise-Lamp and table",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-24T20:59:41+00:00",
+    "ticket_number": 8941,
+    "subject": "My Great Escape-Water restricted",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-24T20:59:41+00:00",
+    "ticket_number": 8934,
+    "subject": "VRBO Health and Safety Investigation Email",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to c.hernandez@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "c.hernandez@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-24T20:59:41+00:00",
+    "ticket_number": 8923,
+    "subject": "Easy Does It-APP sign up for service",
+    "type": "reassigned",
+    "detail": "Reassigned from c.thayer@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "c.thayer@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-24T20:59:41+00:00",
+    "ticket_number": 8894,
+    "subject": "Southern Exposure - ARDI guest damage",
+    "type": "reassigned",
+    "detail": "Reassigned from c.thayer@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "c.thayer@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-24T20:59:41+00:00",
+    "ticket_number": 7361,
+    "subject": "PCA for Gulf & Bay Bayside - 1350 Due Date: 7/30/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-25 17:00:00 to 2026-09-28 17:00:00",
+    "from": "2026-09-25 17:00:00",
+    "to": "2026-09-28 17:00:00"
+  },
+  {
     "ts": "2026-09-24T17:40:49+00:00",
     "ticket_number": 8939,
     "subject": "4 Star Review Feedback | Res #63355 | Oliver Sarah | Sandalfoot 3B2 | 9/19/2026-9/22/2026",
@@ -7824,63 +7888,5 @@
     "subject": "Montalvan Amalia | Residences of Siesta Key | Res #: 53800 | Master Bathroom Sink Clogged and more soap",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-04T13:54:17+00:00",
-    "ticket_number": 8614,
-    "subject": "Carr Debra/Awake Zone/ Res #: 61117/Door Code is not working",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-04T13:54:17+00:00",
-    "ticket_number": 8609,
-    "subject": "Swast Jessica/ Sandalfoot 1A2/Res #: 56450",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-04T13:54:17+00:00",
-    "ticket_number": 8606,
-    "subject": "Souther exposure-one time lynx code",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-04T13:54:17+00:00",
-    "ticket_number": 8603,
-    "subject": "Southern Exposure-Door",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-04T13:54:17+00:00",
-    "ticket_number": 8495,
-    "subject": "Post arrival call | Guest Name :Shaw Debbie | Res #: 61518 | Unit: Shaker Of Salt | Multiple Issues",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-04T13:54:17+00:00",
-    "ticket_number": 8361,
-    "subject": "Seabird Villa - Switching to annual",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-04T09:48:07+00:00",
-    "ticket_number": 8618,
-    "subject": "PCA - Fishtail",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-07 22:00:00 to 2026-09-26 22:00:00",
-    "from": "2026-09-07 22:00:00",
-    "to": "2026-09-26 22:00:00"
-  },
-  {
-    "ts": "2026-09-04T05:18:38+00:00",
-    "ticket_number": 8636,
-    "subject": "Res #: 59305| Unit: Sandalfoot 3C2| Guest Name: Patrice Schmidt | AC issue",
-    "type": "created",
-    "detail": "Created \u2014 assigned to k.garcia@choosegulfcoast.com, status Open"
   }
 ]
