@@ -1,5 +1,147 @@
 [
   {
+    "ts": "2026-09-24T17:40:49+00:00",
+    "ticket_number": 8939,
+    "subject": "4 Star Review Feedback | Res #63355 | Oliver Sarah | Sandalfoot 3B2 | 9/19/2026-9/22/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.armstrong@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-24T17:40:49+00:00",
+    "ticket_number": 8938,
+    "subject": "Price Projection",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.paulin@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-24T17:40:49+00:00",
+    "ticket_number": 8937,
+    "subject": "Guest Name: Wentz Alissa | Res #: 55285 | Unit: Beach House Residences Unit 1 | Handle not attached",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-24T17:40:49+00:00",
+    "ticket_number": 8936,
+    "subject": "GCAM website hours",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.buchanan@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-24T17:40:49+00:00",
+    "ticket_number": 8935,
+    "subject": "GCAM Letterhead",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.buchanan@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-24T17:40:49+00:00",
+    "ticket_number": 8934,
+    "subject": "VRBO Health and Safety Investigation Email",
+    "type": "reassigned",
+    "detail": "Reassigned from c.hernandez@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "c.hernandez@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-24T17:40:49+00:00",
+    "ticket_number": 8924,
+    "subject": "2 Star Review Feedback | Res #61513 | Shaw Debbie | Shaker of Salt | 8/26/2026-8/31/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-24T17:40:49+00:00",
+    "ticket_number": 8894,
+    "subject": "Southern Exposure - ARDI guest damage",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "c.thayer@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-24T17:40:49+00:00",
+    "ticket_number": 8752,
+    "subject": "Dreams of Paradise- lamps and tables",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-24T17:40:49+00:00",
+    "ticket_number": 8618,
+    "subject": "PCA - Fishtail",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-26 22:00:00 to 2026-09-30 22:00:00",
+    "from": "2026-09-26 22:00:00",
+    "to": "2026-09-30 22:00:00"
+  },
+  {
+    "ts": "2026-09-24T17:40:49+00:00",
+    "ticket_number": 8601,
+    "subject": "Vacation Rental Services Agreement : Lighthouse Point 223 - 200 Periwinkle Way Unit 223",
+    "type": "reassigned",
+    "detail": "Reassigned from i.yates@choosegulfcoast.com to l.costa@choosegulfcoast.com",
+    "from": "i.yates@choosegulfcoast.com",
+    "to": "l.costa@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-24T17:40:49+00:00",
+    "ticket_number": 8601,
+    "subject": "Vacation Rental Services Agreement : Lighthouse Point 223 - 200 Periwinkle Way Unit 223",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-16 18:40:00 to 2026-11-02 19:40:00",
+    "from": "2026-09-16 18:40:00",
+    "to": "2026-11-02 19:40:00"
+  },
+  {
+    "ts": "2026-09-24T17:40:49+00:00",
+    "ticket_number": 8562,
+    "subject": "camera for signal from Red1",
+    "type": "reassigned",
+    "detail": "Reassigned from e.buchanan@choosegulfcoast.com to n.ventura@choosegulfcoast.com",
+    "from": "e.buchanan@choosegulfcoast.com",
+    "to": "n.ventura@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-24T17:40:49+00:00",
+    "ticket_number": 8931,
+    "subject": "SF Unit 4C1 Owner Von Eschen / Owner reservation Feb12-16",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-24T17:40:49+00:00",
+    "ticket_number": 8910,
+    "subject": "The Artisits Way- please make 2 keys",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-24T17:40:49+00:00",
+    "ticket_number": 8903,
+    "subject": "Name: Tokioka Mariko | Res: 62227 | Compensation to Be Charged to Colony",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-24T17:40:49+00:00",
+    "ticket_number": 8864,
+    "subject": "Name: Pirro Adriane | Res: 63135 | Future Stay Credit",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-24T17:40:49+00:00",
+    "ticket_number": 8804,
+    "subject": "3 Star Review Feedback | Res #: 60080 | Padilla Marie | Blue Dolphin | 9/4/2026-9/7/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-24T12:48:02+00:00",
     "ticket_number": 8934,
     "subject": "VRBO Health and Safety Investigation Email",
@@ -7740,159 +7882,5 @@
     "subject": "Res #: 59305| Unit: Sandalfoot 3C2| Guest Name: Patrice Schmidt | AC issue",
     "type": "created",
     "detail": "Created \u2014 assigned to k.garcia@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-04T05:18:38+00:00",
-    "ticket_number": 8541,
-    "subject": "Res #: 52252 | Pritchett Darin | Day Dreamer | Communal Pool Out of Service",
-    "type": "reassigned",
-    "detail": "Reassigned from m.eronico@choosegulfcoast.com to b.williams@choosegulfcoast.com",
-    "from": "m.eronico@choosegulfcoast.com",
-    "to": "b.williams@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-04T00:35:53+00:00",
-    "ticket_number": 8635,
-    "subject": "Res #: 40900 | Blossom Retreat | AC issue",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-04T00:35:53+00:00",
-    "ticket_number": 7951,
-    "subject": "PCA for Villa In The Clouds Due Date: 8/31/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from t.healy@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
-    "from": "t.healy@choosegulfcoast.com",
-    "to": "c.thayer@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-04T00:35:53+00:00",
-    "ticket_number": 8567,
-    "subject": "Rent rev",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-03T22:42:30+00:00",
-    "ticket_number": 8634,
-    "subject": "Property Management Inquiry",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.vandroff@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-03T22:42:30+00:00",
-    "ticket_number": 8633,
-    "subject": "Southern Comfort- owner block",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-03T22:42:30+00:00",
-    "ticket_number": 8632,
-    "subject": "Res. No. 44009 - Kathleen Donnelly - Oakwater Escape  - star rating: 3",
-    "type": "reassigned",
-    "detail": "Reassigned from b.williams@choosegulfcoast.com to c.hernandez@choosegulfcoast.com",
-    "from": "b.williams@choosegulfcoast.com",
-    "to": "c.hernandez@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-03T22:42:30+00:00",
-    "ticket_number": 8557,
-    "subject": "Name: Rick Rath | Res: 60890 | Cancelled 50% Retained - OTA",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-04 14:34:09 to 2026-10-01 14:34:00",
-    "from": "2026-09-04 14:34:09",
-    "to": "2026-10-01 14:34:00"
-  },
-  {
-    "ts": "2026-09-03T22:42:30+00:00",
-    "ticket_number": 8542,
-    "subject": "Fireside cottage-ARDI comforter",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-03 19:28:18 to 2026-09-11 19:28:00",
-    "from": "2026-09-03 19:28:18",
-    "to": "2026-09-11 19:28:00"
-  },
-  {
-    "ts": "2026-09-03T22:42:30+00:00",
-    "ticket_number": 8541,
-    "subject": "Res #: 52252 | Pritchett Darin | Day Dreamer | Communal Pool Out of Service",
-    "type": "reassigned",
-    "detail": "Reassigned from b.williams@choosegulfcoast.com to m.eronico@choosegulfcoast.com",
-    "from": "b.williams@choosegulfcoast.com",
-    "to": "m.eronico@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-03T22:42:30+00:00",
-    "ticket_number": 8536,
-    "subject": "Lynnbrook Chargeback | Res# 41378 | Hopper Kimberly | Unit: Sandalfoot 5B3 | CI: 09/24/2026 | CO: 10/04/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-03 16:14:00 to 2026-09-11 16:14:00",
-    "from": "2026-09-03 16:14:00",
-    "to": "2026-09-11 16:14:00"
-  },
-  {
-    "ts": "2026-09-03T22:42:30+00:00",
-    "ticket_number": 8533,
-    "subject": "Sweet Pineapple-Comp 75",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-03 15:56:40 to 2026-09-11 15:56:00",
-    "from": "2026-09-03 15:56:40",
-    "to": "2026-09-11 15:56:00"
-  },
-  {
-    "ts": "2026-09-03T22:42:30+00:00",
-    "ticket_number": 8530,
-    "subject": "Snow on the beach - inspection",
-    "type": "reassigned",
-    "detail": "Reassigned from j.rushton@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
-    "from": "j.rushton@choosegulfcoast.com",
-    "to": "s.soriafrausto@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-03T22:42:30+00:00",
-    "ticket_number": 8517,
-    "subject": "Unit: Golden Beach #1 | Guest Name: Korpinen Terry | Pest Control & Safety Hazard (Ant Infestation)",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-02 22:00:00 to 2026-09-03 22:00:00",
-    "from": "2026-09-02 22:00:00",
-    "to": "2026-09-03 22:00:00"
-  },
-  {
-    "ts": "2026-09-03T22:42:30+00:00",
-    "ticket_number": 8474,
-    "subject": "Unit: Dreams Of Paradise | Guest Name: Profitt Danielle | Guest Compensation / Pest & Maintenance Escalation",
-    "type": "reassigned",
-    "detail": "Reassigned from b.williams@choosegulfcoast.com to l.winter@choosegulfcoast.com",
-    "from": "b.williams@choosegulfcoast.com",
-    "to": "l.winter@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-03T22:42:30+00:00",
-    "ticket_number": 7949,
-    "subject": "PCA for Dreams Of Paradise Due Date: 8/26/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from t.healy@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
-    "from": "t.healy@choosegulfcoast.com",
-    "to": "c.thayer@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-03T22:42:30+00:00",
-    "ticket_number": 7598,
-    "subject": "PCA for Longboat Oasis Due Date: 8/4/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-02 22:00:00 to 2026-09-11 22:00:00",
-    "from": "2026-09-02 22:00:00",
-    "to": "2026-09-11 22:00:00"
-  },
-  {
-    "ts": "2026-09-03T22:42:30+00:00",
-    "ticket_number": 7015,
-    "subject": "PCA for Array Of Sunshine Due Date: July 8, 2026",
-    "type": "reassigned",
-    "detail": "Reassigned from t.healy@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
-    "from": "t.healy@choosegulfcoast.com",
-    "to": "c.thayer@choosegulfcoast.com"
   }
 ]

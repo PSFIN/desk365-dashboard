@@ -1,7 +1,42 @@
 {
+  "8939": {
+    "subject": "4 Star Review Feedback | Res #63355 | Oliver Sarah | Sandalfoot 3B2 | 9/19/2026-9/22/2026",
+    "assigned_to": "n.armstrong@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-28 22:00:00",
+    "priority": 1
+  },
+  "8938": {
+    "subject": "Price Projection",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-28 22:00:00",
+    "priority": 5
+  },
+  "8937": {
+    "subject": "Guest Name: Wentz Alissa | Res #: 55285 | Unit: Beach House Residences Unit 1 | Handle not attached",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-28 22:00:00",
+    "priority": 1
+  },
+  "8936": {
+    "subject": "GCAM website hours",
+    "assigned_to": "e.buchanan@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-28 22:00:00",
+    "priority": 1
+  },
+  "8935": {
+    "subject": "GCAM Letterhead",
+    "assigned_to": "e.buchanan@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-28 22:00:00",
+    "priority": 1
+  },
   "8934": {
     "subject": "VRBO Health and Safety Investigation Email",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-28 22:00:00",
     "priority": 1
@@ -12,13 +47,6 @@
     "status": "Open",
     "due_date": "2026-09-28 20:57:46",
     "priority": 1
-  },
-  "8931": {
-    "subject": "SF Unit 4C1 Owner Von Eschen / Owner reservation Feb12-16",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-28 19:59:48",
-    "priority": 5
   },
   "8930": {
     "subject": "5 Star Review Feedback | Res #59185 | Dick Christopher | Sandalfoot 3A2 | 8/12/2026-8/15/2026",
@@ -64,7 +92,7 @@
   },
   "8924": {
     "subject": "2 Star Review Feedback | Res #61513 | Shaw Debbie | Shaker of Salt | 8/26/2026-8/31/2026",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-28 19:19:48",
     "priority": 1
@@ -132,13 +160,6 @@
     "due_date": "2026-09-25 22:00:00",
     "priority": 10
   },
-  "8910": {
-    "subject": "The Artisits Way- please make 2 keys",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-24 15:35:01",
-    "priority": 20
-  },
   "8906": {
     "subject": "Core Values Poster",
     "assigned_to": "e.buchanan@choosegulfcoast.com",
@@ -160,13 +181,6 @@
     "due_date": "2026-09-25 17:12:12",
     "priority": 5
   },
-  "8903": {
-    "subject": "Name: Tokioka Mariko | Res: 62227 | Compensation to Be Charged to Colony",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-25 16:17:00",
-    "priority": 1
-  },
   "8898": {
     "subject": "4 Star Review Feedback | Res #56546 | Schwab Emily | Coral Paradise | 7/27/2026-9/21/2026",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
@@ -176,7 +190,7 @@
   },
   "8894": {
     "subject": "Southern Exposure - ARDI guest damage",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-24 19:19:45",
     "priority": 10
@@ -229,13 +243,6 @@
     "status": "Open",
     "due_date": "2026-09-29 17:42:00",
     "priority": 20
-  },
-  "8864": {
-    "subject": "Name: Pirro Adriane | Res: 63135 | Future Stay Credit",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-23 20:29:12",
-    "priority": 1
   },
   "8863": {
     "subject": "City of Bradenton VR License - Mangrove Escape | 971 Waterside Lane",
@@ -363,13 +370,6 @@
     "due_date": "2026-09-24 18:41:00",
     "priority": 20
   },
-  "8804": {
-    "subject": "3 Star Review Feedback | Res #: 60080 | Padilla Marie | Blue Dolphin | 9/4/2026-9/7/2026",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-23 18:07:00",
-    "priority": 1
-  },
   "8764": {
     "subject": "T-Wreckz Junk Removal llc - Open Invoices",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
@@ -393,7 +393,7 @@
   },
   "8752": {
     "subject": "Dreams of Paradise- lamps and tables",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-16 16:33:37",
     "priority": 1
@@ -444,7 +444,7 @@
     "subject": "PCA - Fishtail",
     "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-26 22:00:00",
+    "due_date": "2026-09-30 22:00:00",
     "priority": 1
   },
   "8617": {
@@ -463,9 +463,9 @@
   },
   "8601": {
     "subject": "Vacation Rental Services Agreement : Lighthouse Point 223 - 200 Periwinkle Way Unit 223",
-    "assigned_to": "i.yates@choosegulfcoast.com",
+    "assigned_to": "l.costa@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-16 18:40:00",
+    "due_date": "2026-11-02 19:40:00",
     "priority": 1
   },
   "8586": {
@@ -498,7 +498,7 @@
   },
   "8562": {
     "subject": "camera for signal from Red1",
-    "assigned_to": "e.buchanan@choosegulfcoast.com",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-13 16:07:00",
     "priority": 5
