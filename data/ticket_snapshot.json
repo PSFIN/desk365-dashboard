@@ -1,4 +1,60 @@
 {
+  "8953": {
+    "subject": "Shore Bet Onboarding - HOA Rules For Guest Application Process",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-30 18:02:48",
+    "priority": 5
+  },
+  "8952": {
+    "subject": "Name: Talis Matt & Becky | Res: 61854 | Palm Whisper Cottage Water Shut Off",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-30 17:36:33",
+    "priority": 1
+  },
+  "8951": {
+    "subject": "Sanibel HOA Email",
+    "assigned_to": "b.evans@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-30 17:29:57",
+    "priority": 1
+  },
+  "8950": {
+    "subject": "Update Needed \u2013 Sanibel Shuffle Pet Policy",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-30 17:18:14",
+    "priority": 1
+  },
+  "8949": {
+    "subject": "west marcia | Unit: Colony Inn C-55 | Res #: 63679 | Reservation Change Request",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-30 16:41:16",
+    "priority": 1
+  },
+  "8948": {
+    "subject": "Property Unlistetd",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-30 15:21:43",
+    "priority": 1
+  },
+  "8947": {
+    "subject": "Cancellation for Res #: 63700: Oakwater Escape due to low YoY Rate",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-30 15:20:57",
+    "priority": 5
+  },
+  "8946": {
+    "subject": "Rent rev",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-30 15:20:05",
+    "priority": 10
+  },
   "8945": {
     "subject": "Add Final Due Date Information on the Agreement Document",
     "assigned_to": "b.evans@choosegulfcoast.com",
@@ -10,7 +66,7 @@
     "subject": "Pin High Tide-Ob Boarding pictures",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-29 20:32:38",
+    "due_date": "2026-10-01 20:32:00",
     "priority": 10
   },
   "8942": {
@@ -50,7 +106,7 @@
   },
   "8932": {
     "subject": "4 Star Review Feedback | Res #33168 | Krahl Elke | Bayside Paradise | 9/5/2026-9/19/2026",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-28 20:57:46",
     "priority": 1
@@ -97,25 +153,11 @@
     "due_date": "2026-09-28 19:22:17",
     "priority": 1
   },
-  "8924": {
-    "subject": "2 Star Review Feedback | Res #61513 | Shaw Debbie | Shaker of Salt | 8/26/2026-8/31/2026",
-    "assigned_to": "d.husak@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-28 19:19:48",
-    "priority": 1
-  },
   "8923": {
     "subject": "Easy Does It-APP sign up for service",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-28 18:59:15",
-    "priority": 1
-  },
-  "8921": {
-    "subject": "Lynx locks-owners",
-    "assigned_to": "b.evans@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-28 18:17:08",
     "priority": 1
   },
   "8920": {
@@ -197,17 +239,10 @@
   },
   "8894": {
     "subject": "Southern Exposure - ARDI guest damage",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "z.adair@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-24 19:19:45",
     "priority": 10
-  },
-  "8891": {
-    "subject": "Pacing report",
-    "assigned_to": "b.evans@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-24 18:29:48",
-    "priority": 1
   },
   "8885": {
     "subject": "5 Star Review Feedback | Res #53585 | Lawson Stephen & Catherine | Signal Inn - Unit 10 | 9/7/2026-9/14/2026",
@@ -397,13 +432,6 @@
     "status": "Open",
     "due_date": "2026-10-24 16:53:00",
     "priority": 10
-  },
-  "8752": {
-    "subject": "Dreams of Paradise- lamps and tables",
-    "assigned_to": "d.husak@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-16 16:33:37",
-    "priority": 1
   },
   "8737": {
     "subject": "Carmona Newton | Unit: Birdie | Res #: 61948 | Multiple Issues",
@@ -617,7 +645,7 @@
   },
   "8332": {
     "subject": "PCA for Charlotte's Dream Due Date: 9/15/2026",
-    "assigned_to": "b.evans@choosegulfcoast.com",
+    "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-26 22:00:00",
     "priority": 5
@@ -717,7 +745,7 @@
     "subject": "Longboat Dream - Update Listing",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-12-02 18:19:00",
+    "due_date": "2026-12-31 18:19:00",
     "priority": 1
   },
   "7599": {

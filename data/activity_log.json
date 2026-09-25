@@ -1,5 +1,143 @@
 [
   {
+    "ts": "2026-09-25T18:46:30+00:00",
+    "ticket_number": 8953,
+    "subject": "Shore Bet Onboarding - HOA Rules For Guest Application Process",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-25T18:46:30+00:00",
+    "ticket_number": 8952,
+    "subject": "Name: Talis Matt & Becky | Res: 61854 | Palm Whisper Cottage Water Shut Off",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-25T18:46:30+00:00",
+    "ticket_number": 8951,
+    "subject": "Sanibel HOA Email",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.evans@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-25T18:46:30+00:00",
+    "ticket_number": 8950,
+    "subject": "Update Needed \u2013 Sanibel Shuffle Pet Policy",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-25T18:46:30+00:00",
+    "ticket_number": 8949,
+    "subject": "west marcia | Unit: Colony Inn C-55 | Res #: 63679 | Reservation Change Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-25T18:46:30+00:00",
+    "ticket_number": 8948,
+    "subject": "Property Unlistetd",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.paulin@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-25T18:46:30+00:00",
+    "ticket_number": 8947,
+    "subject": "Cancellation for Res #: 63700: Oakwater Escape due to low YoY Rate",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-25T18:46:30+00:00",
+    "ticket_number": 8946,
+    "subject": "Rent rev",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.paulin@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-25T18:46:30+00:00",
+    "ticket_number": 8943,
+    "subject": "Pin High Tide-Ob Boarding pictures",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-29 20:32:38 to 2026-10-01 20:32:00",
+    "from": "2026-09-29 20:32:38",
+    "to": "2026-10-01 20:32:00"
+  },
+  {
+    "ts": "2026-09-25T18:46:30+00:00",
+    "ticket_number": 8932,
+    "subject": "4 Star Review Feedback | Res #33168 | Krahl Elke | Bayside Paradise | 9/5/2026-9/19/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-25T18:46:30+00:00",
+    "ticket_number": 8923,
+    "subject": "Easy Does It-APP sign up for service",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "c.thayer@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-25T18:46:30+00:00",
+    "ticket_number": 8894,
+    "subject": "Southern Exposure - ARDI guest damage",
+    "type": "reassigned",
+    "detail": "Reassigned from c.thayer@choosegulfcoast.com to z.adair@choosegulfcoast.com",
+    "from": "c.thayer@choosegulfcoast.com",
+    "to": "z.adair@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-25T18:46:30+00:00",
+    "ticket_number": 8332,
+    "subject": "PCA for Charlotte's Dream Due Date: 9/15/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from b.evans@choosegulfcoast.com to t.healy@choosegulfcoast.com",
+    "from": "b.evans@choosegulfcoast.com",
+    "to": "t.healy@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-25T18:46:30+00:00",
+    "ticket_number": 7797,
+    "subject": "Longboat Dream - Update Listing",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-12-02 18:19:00 to 2026-12-31 18:19:00",
+    "from": "2026-12-02 18:19:00",
+    "to": "2026-12-31 18:19:00"
+  },
+  {
+    "ts": "2026-09-25T18:46:30+00:00",
+    "ticket_number": 8924,
+    "subject": "2 Star Review Feedback | Res #61513 | Shaw Debbie | Shaker of Salt | 8/26/2026-8/31/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-25T18:46:30+00:00",
+    "ticket_number": 8921,
+    "subject": "Lynx locks-owners",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-25T18:46:30+00:00",
+    "ticket_number": 8891,
+    "subject": "Pacing report",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-25T18:46:30+00:00",
+    "ticket_number": 8752,
+    "subject": "Dreams of Paradise- lamps and tables",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-25T14:01:10+00:00",
     "ticket_number": 8942,
     "subject": "Dreams of Paradise-Lamp and table",
@@ -7754,151 +7892,5 @@
     "detail": "Reassigned from b.vandroff@choosegulfcoast.com to a.vetick@choosegulfcoast.com",
     "from": "b.vandroff@choosegulfcoast.com",
     "to": "a.vetick@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-04T17:18:38+00:00",
-    "ticket_number": 8607,
-    "subject": "GBB office shelves",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-04 16:15:49 to 2026-09-08 16:15:00",
-    "from": "2026-09-04 16:15:49",
-    "to": "2026-09-08 16:15:00"
-  },
-  {
-    "ts": "2026-09-04T17:18:38+00:00",
-    "ticket_number": 8596,
-    "subject": "Snaplee Photo _ VM",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-07 16:26:37 to 2026-09-08 16:26:00",
-    "from": "2026-09-07 16:26:37",
-    "to": "2026-09-08 16:26:00"
-  },
-  {
-    "ts": "2026-09-04T17:18:38+00:00",
-    "ticket_number": 8579,
-    "subject": "rev rep",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-04 19:09:12 to 2026-09-04 21:00:00",
-    "from": "2026-09-04 19:09:12",
-    "to": "2026-09-04 21:00:00"
-  },
-  {
-    "ts": "2026-09-04T17:18:38+00:00",
-    "ticket_number": 8571,
-    "subject": "DR-11 Form :  Splash Decision - 14881 Laguna Drive",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-04 16:36:12 to 2026-09-09 16:00:00",
-    "from": "2026-09-04 16:36:12",
-    "to": "2026-09-09 16:00:00"
-  },
-  {
-    "ts": "2026-09-04T17:18:38+00:00",
-    "ticket_number": 8544,
-    "subject": "DR-1C Form : Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
-    "type": "created",
-    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-04T17:18:38+00:00",
-    "ticket_number": 8523,
-    "subject": "5B3 ARDI comforter cleaning",
-    "type": "reassigned",
-    "detail": "Reassigned from n.armstrong@choosegulfcoast.com to p.yelenich@choosegulfcoast.com",
-    "from": "n.armstrong@choosegulfcoast.com",
-    "to": "p.yelenich@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-04T17:18:38+00:00",
-    "ticket_number": 8431,
-    "subject": "Microwave:Aloha House:WO #41938277",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-04 22:00:00 to 2026-09-05 22:00:00",
-    "from": "2026-09-04 22:00:00",
-    "to": "2026-09-05 22:00:00"
-  },
-  {
-    "ts": "2026-09-04T17:18:38+00:00",
-    "ticket_number": 8312,
-    "subject": "PCA for Southern Exposure Due Date: 9/10/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from c.thayer@choosegulfcoast.com to t.healy@choosegulfcoast.com",
-    "from": "c.thayer@choosegulfcoast.com",
-    "to": "t.healy@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-04T17:18:38+00:00",
-    "ticket_number": 7951,
-    "subject": "PCA for Villa In The Clouds Due Date: 8/31/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from c.thayer@choosegulfcoast.com to t.healy@choosegulfcoast.com",
-    "from": "c.thayer@choosegulfcoast.com",
-    "to": "t.healy@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-04T17:18:38+00:00",
-    "ticket_number": 7949,
-    "subject": "PCA for Dreams Of Paradise Due Date: 8/26/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from c.thayer@choosegulfcoast.com to t.healy@choosegulfcoast.com",
-    "from": "c.thayer@choosegulfcoast.com",
-    "to": "t.healy@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-04T17:18:38+00:00",
-    "ticket_number": 7015,
-    "subject": "PCA for Array Of Sunshine Due Date: July 8, 2026",
-    "type": "reassigned",
-    "detail": "Reassigned from c.thayer@choosegulfcoast.com to t.healy@choosegulfcoast.com",
-    "from": "c.thayer@choosegulfcoast.com",
-    "to": "t.healy@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-04T17:18:38+00:00",
-    "ticket_number": 8640,
-    "subject": "7th Heaven-on going services",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-04T17:18:38+00:00",
-    "ticket_number": 8613,
-    "subject": "Jeffrey Mcdonalds/Realtor/Palm Meadow/ Approval Request \u2013 Temporary Dog Fence",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-04T17:18:38+00:00",
-    "ticket_number": 8608,
-    "subject": "Wolk Kimberly | Ocean Eyes |  Res #: 58831 | AC error",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-04T17:18:38+00:00",
-    "ticket_number": 8605,
-    "subject": "John & Engrid Meng, Inc/Sandalfoot 5D1/OWNER/Email Update",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-04T17:18:38+00:00",
-    "ticket_number": 8600,
-    "subject": "Little Bit of Heaven-rates",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-04T17:18:38+00:00",
-    "ticket_number": 8569,
-    "subject": "Add Property to Lee Tourist Development Tax Umbrella : Splash Decision - 14881 Laguna Drive",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-04T17:18:38+00:00",
-    "ticket_number": 8564,
-    "subject": "DR-1C Form : Splash Decision - 14881 Laguna Drive",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
 ]
