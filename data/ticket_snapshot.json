@@ -1,4 +1,11 @@
 {
+  "8945": {
+    "subject": "Add Final Due Date Information on the Agreement Document",
+    "assigned_to": "b.evans@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-29 22:00:00",
+    "priority": 1
+  },
   "8944": {
     "subject": "Pin High Tide-new OB",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
@@ -58,13 +65,6 @@
   "8935": {
     "subject": "GCAM Letterhead",
     "assigned_to": "e.buchanan@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-28 22:00:00",
-    "priority": 1
-  },
-  "8934": {
-    "subject": "VRBO Health and Safety Investigation Email",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-28 22:00:00",
     "priority": 1

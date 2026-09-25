@@ -1,5 +1,19 @@
 [
   {
+    "ts": "2026-09-25T02:50:33+00:00",
+    "ticket_number": 8945,
+    "subject": "Add Final Due Date Information on the Agreement Document",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.evans@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-25T02:50:33+00:00",
+    "ticket_number": 8934,
+    "subject": "VRBO Health and Safety Investigation Email",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-24T20:59:41+00:00",
     "ticket_number": 8944,
     "subject": "Pin High Tide-new OB",
@@ -7872,20 +7886,6 @@
     "ts": "2026-09-04T13:54:17+00:00",
     "ticket_number": 8633,
     "subject": "Southern Comfort- owner block",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-04T13:54:17+00:00",
-    "ticket_number": 8624,
-    "subject": "Guest Name: Tresalus Jorwina |  Res #: 62207 | Unit: Southern Exposure | Stolen money",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-04T13:54:17+00:00",
-    "ticket_number": 8616,
-    "subject": "Montalvan Amalia | Residences of Siesta Key | Res #: 53800 | Master Bathroom Sink Clogged and more soap",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
