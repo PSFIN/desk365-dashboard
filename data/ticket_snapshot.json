@@ -1,4 +1,18 @@
 {
+  "8955": {
+    "subject": "Guest Name: Pepper Seth |   Res #: 59846 | Unit: Residences Of Siesta Key | TV Input/Cable Box Connection Issue",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-30 20:16:00",
+    "priority": 1
+  },
+  "8954": {
+    "subject": "Sandy Pointe- CC request for outstanding balance",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-30 18:56:08",
+    "priority": 5
+  },
   "8953": {
     "subject": "Shore Bet Onboarding - HOA Rules For Guest Application Process",
     "assigned_to": "j.rushton@choosegulfcoast.com",
@@ -18,13 +32,6 @@
     "assigned_to": "b.evans@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-30 17:29:57",
-    "priority": 1
-  },
-  "8950": {
-    "subject": "Update Needed \u2013 Sanibel Shuffle Pet Policy",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-30 17:18:14",
     "priority": 1
   },
   "8949": {
@@ -421,7 +428,7 @@
   },
   "8757": {
     "subject": "#1230 broken box springs",
-    "assigned_to": "c.nutt@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-23 19:29:00",
     "priority": 10

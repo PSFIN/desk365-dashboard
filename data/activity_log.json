@@ -1,5 +1,35 @@
 [
   {
+    "ts": "2026-09-25T21:54:55+00:00",
+    "ticket_number": 8955,
+    "subject": "Guest Name: Pepper Seth |   Res #: 59846 | Unit: Residences Of Siesta Key | TV Input/Cable Box Connection Issue",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-25T21:54:55+00:00",
+    "ticket_number": 8954,
+    "subject": "Sandy Pointe- CC request for outstanding balance",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-25T21:54:55+00:00",
+    "ticket_number": 8757,
+    "subject": "#1230 broken box springs",
+    "type": "reassigned",
+    "detail": "Reassigned from c.nutt@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
+    "from": "c.nutt@choosegulfcoast.com",
+    "to": "c.thayer@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-25T21:54:55+00:00",
+    "ticket_number": 8950,
+    "subject": "Update Needed \u2013 Sanibel Shuffle Pet Policy",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-25T18:46:30+00:00",
     "ticket_number": 8953,
     "subject": "Shore Bet Onboarding - HOA Rules For Guest Application Process",
@@ -7862,35 +7892,5 @@
     "subject": "Name: Hansen Heather | Res: 59828 | Property: Colony Inn - 50 | Cancelled 50% Retained - OTA",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-04T17:18:38+00:00",
-    "ticket_number": 8645,
-    "subject": "Guest Name: Monson Nicole | Res #: 55719 | Unit: Admirals Watch | Cancellation request",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-04T17:18:38+00:00",
-    "ticket_number": 8644,
-    "subject": "City of Sanibel Rental Use Regulations",
-    "type": "created",
-    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-04T17:18:38+00:00",
-    "ticket_number": 8642,
-    "subject": "#1206 AC 2nd floor leaking into ceiling",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-04T17:18:38+00:00",
-    "ticket_number": 8634,
-    "subject": "Property Management Inquiry",
-    "type": "reassigned",
-    "detail": "Reassigned from b.vandroff@choosegulfcoast.com to a.vetick@choosegulfcoast.com",
-    "from": "b.vandroff@choosegulfcoast.com",
-    "to": "a.vetick@choosegulfcoast.com"
   }
 ]
