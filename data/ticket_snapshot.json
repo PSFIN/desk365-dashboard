@@ -6,13 +6,6 @@
     "due_date": "2026-09-29 22:00:00",
     "priority": 1
   },
-  "8944": {
-    "subject": "Pin High Tide-new OB",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-29 20:41:00",
-    "priority": 10
-  },
   "8943": {
     "subject": "Pin High Tide-Ob Boarding pictures",
     "assigned_to": "b.meyer@choosegulfcoast.com",
@@ -24,7 +17,7 @@
     "subject": "Dreams of Paradise-Lamp and table",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-29 18:49:35",
+    "due_date": "2026-10-05 18:49:00",
     "priority": 10
   },
   "8941": {
@@ -55,23 +48,9 @@
     "due_date": "2026-09-28 22:00:00",
     "priority": 1
   },
-  "8936": {
-    "subject": "GCAM website hours",
-    "assigned_to": "e.buchanan@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-28 22:00:00",
-    "priority": 1
-  },
-  "8935": {
-    "subject": "GCAM Letterhead",
-    "assigned_to": "e.buchanan@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-28 22:00:00",
-    "priority": 1
-  },
   "8932": {
     "subject": "4 Star Review Feedback | Res #33168 | Krahl Elke | Bayside Paradise | 9/5/2026-9/19/2026",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-28 20:57:46",
     "priority": 1
@@ -85,28 +64,28 @@
   },
   "8929": {
     "subject": "Captains Quarters - Lynx Lock",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-28 19:27:58",
     "priority": 1
   },
   "8928": {
     "subject": "Villa Milano Lynx Lock",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-28 19:26:58",
     "priority": 1
   },
   "8927": {
     "subject": "GBB1200 - Lynx Lock",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-28 19:24:13",
     "priority": 1
   },
   "8926": {
     "subject": "Beachbound Bliss - Lynx",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-28 19:23:20",
     "priority": 1
@@ -197,7 +176,7 @@
   },
   "8905": {
     "subject": "Be Still Beach Retreat- comforter ARDI",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-25 17:44:15",
     "priority": 5
@@ -206,7 +185,7 @@
     "subject": "Edgewater Bungalow- master bath ceiling fan cover",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-25 17:12:12",
+    "due_date": "2026-09-26 17:12:00",
     "priority": 5
   },
   "8898": {
@@ -218,7 +197,7 @@
   },
   "8894": {
     "subject": "Southern Exposure - ARDI guest damage",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-24 19:19:45",
     "priority": 10
@@ -241,14 +220,14 @@
     "subject": "4 Star Review Feedback | Res #59569 | Ann Wyckoff | Sandalfoot 1C2 | 9/13/2026-9/18/2026",
     "assigned_to": "n.armstrong@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-24 22:00:00",
+    "due_date": "2026-10-02 22:00:00",
     "priority": 1
   },
   "8882": {
     "subject": "5 Star Review Feedback | Res #61411 | Sosa Ariel M | Gulf & Bay Bayside - 1219 | 9/8/2026-9/15/2026",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-23 22:00:00",
+    "due_date": "2026-09-25 22:00:00",
     "priority": 1
   },
   "8868": {
@@ -400,7 +379,7 @@
   },
   "8764": {
     "subject": "T-Wreckz Junk Removal llc - Open Invoices",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-21 22:00:00",
     "priority": 1
@@ -472,7 +451,7 @@
     "subject": "PCA - Fishtail",
     "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-30 22:00:00",
+    "due_date": "2026-10-09 22:00:00",
     "priority": 1
   },
   "8617": {
@@ -559,18 +538,11 @@
     "due_date": "2026-09-28 20:14:00",
     "priority": 10
   },
-  "8523": {
-    "subject": "5B3 ARDI comforter cleaning",
-    "assigned_to": "n.armstrong@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-16 22:00:00",
-    "priority": 1
-  },
   "8505": {
     "subject": "Create Dashboard for Work Order Performance",
     "assigned_to": "s.vengaloor@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-21 22:00:00",
+    "due_date": "2026-10-30 23:00:00",
     "priority": 10
   },
   "8499": {
@@ -645,7 +617,7 @@
   },
   "8332": {
     "subject": "PCA for Charlotte's Dream Due Date: 9/15/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "b.evans@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-26 22:00:00",
     "priority": 5
@@ -759,7 +731,7 @@
     "subject": "PCA for Longboat Oasis Due Date: 8/4/2026",
     "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-26 22:00:00",
+    "due_date": "2026-10-09 22:00:00",
     "priority": 5
   },
   "7405": {
