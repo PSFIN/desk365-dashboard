@@ -1,4 +1,11 @@
 {
+  "8961": {
+    "subject": "Southern Comfort Jan Guest Pet Request",
+    "assigned_to": "d.husak@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-30 22:00:00",
+    "priority": 1
+  },
   "8960": {
     "subject": "zSugar Beach - Minimum Escrow Balance",
     "assigned_to": "d.husak@choosegulfcoast.com",
@@ -53,13 +60,6 @@
     "assigned_to": "b.evans@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-30 17:29:57",
-    "priority": 1
-  },
-  "8949": {
-    "subject": "west marcia | Unit: Colony Inn C-55 | Res #: 63679 | Reservation Change Request",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-30 16:41:16",
     "priority": 1
   },
   "8948": {
@@ -388,7 +388,7 @@
     "subject": "Name: Maccari Nicolas | Res: 60718 | Reimbursement for the Wagon and Shipping Fee",
     "assigned_to": "h.nomura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-22 15:44:40",
+    "due_date": "2026-09-28 22:00:00",
     "priority": 1
   },
   "8836": {
@@ -440,13 +440,6 @@
     "due_date": "2026-09-24 18:41:00",
     "priority": 20
   },
-  "8764": {
-    "subject": "T-Wreckz Junk Removal llc - Open Invoices",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-28 22:00:00",
-    "priority": 1
-  },
   "8757": {
     "subject": "#1230 broken box springs",
     "assigned_to": "c.thayer@choosegulfcoast.com",
@@ -479,7 +472,7 @@
     "subject": "Florida Fabulous-comp 790",
     "assigned_to": "m.johnston@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-21 18:29:00",
+    "due_date": "2026-09-28 18:29:00",
     "priority": 1
   },
   "8683": {

@@ -1,5 +1,44 @@
 [
   {
+    "ts": "2026-09-26T21:20:51+00:00",
+    "ticket_number": 8961,
+    "subject": "Southern Comfort Jan Guest Pet Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.husak@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-26T21:20:51+00:00",
+    "ticket_number": 8837,
+    "subject": "Name: Maccari Nicolas | Res: 60718 | Reimbursement for the Wagon and Shipping Fee",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-22 15:44:40 to 2026-09-28 22:00:00",
+    "from": "2026-09-22 15:44:40",
+    "to": "2026-09-28 22:00:00"
+  },
+  {
+    "ts": "2026-09-26T21:20:51+00:00",
+    "ticket_number": 8717,
+    "subject": "Florida Fabulous-comp 790",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-21 18:29:00 to 2026-09-28 18:29:00",
+    "from": "2026-09-21 18:29:00",
+    "to": "2026-09-28 18:29:00"
+  },
+  {
+    "ts": "2026-09-26T21:20:51+00:00",
+    "ticket_number": 8949,
+    "subject": "west marcia | Unit: Colony Inn C-55 | Res #: 63679 | Reservation Change Request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-26T21:20:51+00:00",
+    "ticket_number": 8764,
+    "subject": "T-Wreckz Junk Removal llc - Open Invoices",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-26T18:12:02+00:00",
     "ticket_number": 8960,
     "subject": "zSugar Beach - Minimum Escrow Balance",
@@ -7855,44 +7894,5 @@
     "subject": "GBB1241 Statement Correction",
     "type": "created",
     "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-04T19:45:06+00:00",
-    "ticket_number": 8651,
-    "subject": "GBB1241 ARDI",
-    "type": "created",
-    "detail": "Created \u2014 assigned to c.thayer@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-04T19:45:06+00:00",
-    "ticket_number": 8650,
-    "subject": "GBB1206 Statement Correction",
-    "type": "created",
-    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-04T19:45:06+00:00",
-    "ticket_number": 8647,
-    "subject": "Take down unit from rental pool",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.paulin@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-04T19:45:06+00:00",
-    "ticket_number": 8530,
-    "subject": "Snow on the beach - inspection",
-    "type": "reassigned",
-    "detail": "Reassigned from j.rushton@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
-    "from": "j.rushton@choosegulfcoast.com",
-    "to": "s.soriafrausto@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-04T19:45:06+00:00",
-    "ticket_number": 8474,
-    "subject": "Unit: Dreams Of Paradise | Guest Name: Profitt Danielle | Guest Compensation / Pest & Maintenance Escalation",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-01 09:30:00 to 2026-09-07 09:30:00",
-    "from": "2026-09-01 09:30:00",
-    "to": "2026-09-07 09:30:00"
   }
 ]
