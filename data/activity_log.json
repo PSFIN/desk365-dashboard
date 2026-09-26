@@ -1,5 +1,26 @@
 [
   {
+    "ts": "2026-09-26T18:12:02+00:00",
+    "ticket_number": 8960,
+    "subject": "zSugar Beach - Minimum Escrow Balance",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.husak@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-26T18:12:02+00:00",
+    "ticket_number": 8959,
+    "subject": "PETSMART 0306 | Voicemails to my direct line",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.evans@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-26T18:12:02+00:00",
+    "ticket_number": 8954,
+    "subject": "Sandy Pointe- CC request for outstanding balance",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-26T14:37:20+00:00",
     "ticket_number": 8837,
     "subject": "Name: Maccari Nicolas | Res: 60718 | Reimbursement for the Wagon and Shipping Fee",
@@ -7873,30 +7894,5 @@
     "detail": "Due date changed from 2026-09-01 09:30:00 to 2026-09-07 09:30:00",
     "from": "2026-09-01 09:30:00",
     "to": "2026-09-07 09:30:00"
-  },
-  {
-    "ts": "2026-09-04T19:45:06+00:00",
-    "ticket_number": 8464,
-    "subject": "Precious Gem-PCA Deep clean",
-    "type": "reassigned",
-    "detail": "Reassigned from d.husak@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
-    "from": "d.husak@choosegulfcoast.com",
-    "to": "s.soriafrausto@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-04T19:45:06+00:00",
-    "ticket_number": 7599,
-    "subject": "PCA for Admirals Watch Due Date:  8/6/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from d.husak@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
-    "from": "d.husak@choosegulfcoast.com",
-    "to": "s.soriafrausto@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-04T19:45:06+00:00",
-    "ticket_number": 8645,
-    "subject": "Guest Name: Monson Nicole | Res #: 55719 | Unit: Admirals Watch | Cancellation request",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
 ]
