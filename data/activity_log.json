@@ -1,5 +1,19 @@
 [
   {
+    "ts": "2026-09-26T00:17:57+00:00",
+    "ticket_number": 8957,
+    "subject": "4 Star Review Feedback | Res #62594 | Bareishis Charles | Colony Inn C-53 | 9/14/2026-9/17/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to marcie@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-26T00:17:57+00:00",
+    "ticket_number": 8956,
+    "subject": "4 Star Review Feedback | Res #57554 | Ellis Jonathan | Signal Inn - Unit 16 | 9/16/2026-9/22/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-09-25T21:54:55+00:00",
     "ticket_number": 8955,
     "subject": "Guest Name: Pepper Seth |   Res #: 59846 | Unit: Residences Of Siesta Key | TV Input/Cable Box Connection Issue",
@@ -7876,20 +7890,6 @@
     "ts": "2026-09-04T19:45:06+00:00",
     "ticket_number": 8536,
     "subject": "Lynnbrook Chargeback | Res# 41378 | Hopper Kimberly | Unit: Sandalfoot 5B3 | CI: 09/24/2026 | CO: 10/04/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-04T19:45:06+00:00",
-    "ticket_number": 8310,
-    "subject": "Sandalfoot Tent Card",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-04T19:45:06+00:00",
-    "ticket_number": 8255,
-    "subject": "Name: Hansen Heather | Res: 59828 | Property: Colony Inn - 50 | Cancelled 50% Retained - OTA",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
