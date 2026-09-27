@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-09-27T14:29:44+00:00",
+    "ticket_number": 8955,
+    "subject": "Guest Name: Pepper Seth |   Res #: 59846 | Unit: Residences Of Siesta Key | TV Input/Cable Box Connection Issue",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-26T21:20:51+00:00",
     "ticket_number": 8961,
     "subject": "Southern Comfort Jan Guest Pet Request",
@@ -7885,13 +7892,6 @@
     "ts": "2026-09-04T19:45:06+00:00",
     "ticket_number": 8653,
     "subject": "GBB1315 Statement Correction",
-    "type": "created",
-    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-04T19:45:06+00:00",
-    "ticket_number": 8652,
-    "subject": "GBB1241 Statement Correction",
     "type": "created",
     "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
   }
