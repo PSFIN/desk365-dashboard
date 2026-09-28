@@ -1,4 +1,53 @@
 {
+  "8973": {
+    "subject": "Easy Does It-Pictures",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-01 19:44:18",
+    "priority": 1
+  },
+  "8972": {
+    "subject": "4 Star Review Feedback | Res #53347 | Grainger Ashley | Harbour Happiness | 9/14/2026-9/25/2026",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-01 18:13:18",
+    "priority": 1
+  },
+  "8971": {
+    "subject": "Name: Stanton Glenda | Res#: 58986 | Unit Name: Tropical Gulf Retreat | Low Water Flow & Stuck Handle",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-01 17:56:40",
+    "priority": 1
+  },
+  "8970": {
+    "subject": "4 Star Review Feedback | Res #61101 |  Gauvin-Bottorf Diane | Signal Inn - Unit 4 | 9/25/2026-9/28/2026",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-01 17:45:21",
+    "priority": 1
+  },
+  "8966": {
+    "subject": "Greve Priscilla | Little Bit of Heaven | Res #: 61555 | Toilet issue",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-01 14:37:02",
+    "priority": 1
+  },
+  "8965": {
+    "subject": "4 Star Review Feedback | Res #62969 | 62969 | Signal Inn - Unit 19 | 9/20/2026-9/25/2026",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-01 14:11:29",
+    "priority": 1
+  },
+  "8964": {
+    "subject": "5 Star Review Feedback | Res #49117 | Sena Renee | Loggerhead Cay #183 | 9/19/2026-9/26/2026",
+    "assigned_to": "l.costa@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-09-30 22:00:00",
+    "priority": 1
+  },
   "8963": {
     "subject": "Reshoot GBB1326",
     "assigned_to": "b.meyer@choosegulfcoast.com",
@@ -41,13 +90,6 @@
     "due_date": "2026-09-30 18:02:48",
     "priority": 5
   },
-  "8952": {
-    "subject": "Name: Talis Matt & Becky | Res: 61854 | Palm Whisper Cottage Water Shut Off",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-30 17:36:33",
-    "priority": 1
-  },
   "8951": {
     "subject": "Sanibel HOA Email",
     "assigned_to": "b.evans@choosegulfcoast.com",
@@ -55,25 +97,11 @@
     "due_date": "2026-09-30 17:29:57",
     "priority": 1
   },
-  "8948": {
-    "subject": "Property Unlistetd",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-30 15:21:43",
-    "priority": 1
-  },
   "8947": {
     "subject": "Cancellation for Res #: 63700: Oakwater Escape due to low YoY Rate",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-30 15:20:57",
-    "priority": 5
-  },
-  "8946": {
-    "subject": "Rent rev",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-30 15:20:05",
     "priority": 10
   },
   "8945": {
@@ -97,13 +125,6 @@
     "due_date": "2026-10-05 18:49:00",
     "priority": 10
   },
-  "8941": {
-    "subject": "My Great Escape-Water restricted",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-29 18:41:26",
-    "priority": 10
-  },
   "8939": {
     "subject": "4 Star Review Feedback | Res #63355 | Oliver Sarah | Sandalfoot 3B2 | 9/19/2026-9/22/2026",
     "assigned_to": "n.armstrong@choosegulfcoast.com",
@@ -111,23 +132,9 @@
     "due_date": "2026-09-28 22:00:00",
     "priority": 1
   },
-  "8938": {
-    "subject": "Price Projection",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-28 22:00:00",
-    "priority": 5
-  },
-  "8937": {
-    "subject": "Guest Name: Wentz Alissa | Res #: 55285 | Unit: Beach House Residences Unit 1 | Handle not attached",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-28 22:00:00",
-    "priority": 1
-  },
   "8932": {
     "subject": "4 Star Review Feedback | Res #33168 | Krahl Elke | Bayside Paradise | 9/5/2026-9/19/2026",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-28 20:57:46",
     "priority": 1
@@ -167,20 +174,6 @@
     "due_date": "2026-09-28 19:23:20",
     "priority": 1
   },
-  "8925": {
-    "subject": "Beach Bum - Lynx lock",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-28 19:22:17",
-    "priority": 1
-  },
-  "8923": {
-    "subject": "Easy Does It-APP sign up for service",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-28 18:59:15",
-    "priority": 1
-  },
   "8920": {
     "subject": "City of Bradenton VR License (2027 Renewal) - Sans Souci | 2806 Taunton Drive West",
     "assigned_to": "l.brigida@choosegulfcoast.com",
@@ -202,18 +195,11 @@
     "due_date": "2026-09-28 15:15:04",
     "priority": 1
   },
-  "8917": {
-    "subject": "New Hire - Email Signature - LindaJean Koeing",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-28 15:06:33",
-    "priority": 5
-  },
   "8916": {
     "subject": "New Hire - Email Signature - Andr\u00e9s Alvardo",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-28 15:03:27",
+    "due_date": "2026-09-30 15:03:00",
     "priority": 5
   },
   "8915": {
@@ -239,28 +225,14 @@
   },
   "8905": {
     "subject": "Be Still Beach Retreat- comforter ARDI",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-25 17:44:15",
     "priority": 5
   },
-  "8904": {
-    "subject": "Edgewater Bungalow- master bath ceiling fan cover",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-26 17:12:00",
-    "priority": 5
-  },
-  "8898": {
-    "subject": "4 Star Review Feedback | Res #56546 | Schwab Emily | Coral Paradise | 7/27/2026-9/21/2026",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-09 20:28:00",
-    "priority": 1
-  },
   "8894": {
     "subject": "Southern Exposure - ARDI guest damage",
-    "assigned_to": "z.adair@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-24 19:19:45",
     "priority": 10
@@ -277,13 +249,6 @@
     "assigned_to": "n.armstrong@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-02 22:00:00",
-    "priority": 1
-  },
-  "8882": {
-    "subject": "5 Star Review Feedback | Res #61411 | Sosa Ariel M | Gulf & Bay Bayside - 1219 | 9/8/2026-9/15/2026",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-25 22:00:00",
     "priority": 1
   },
   "8868": {
@@ -367,28 +332,14 @@
     "subject": "Outstanding Work Order, Invoice or Pending Charges - Gulf & Bay Bayside - 1200 | 1200 Siesta Bayside Drive",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-23 16:25:02",
-    "priority": 10
-  },
-  "8839": {
-    "subject": "1391 sprinkler head gap",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-27 16:11:00",
+    "due_date": "2026-10-02 16:25:00",
     "priority": 10
   },
   "8837": {
     "subject": "Name: Maccari Nicolas | Res: 60718 | Reimbursement for the Wagon and Shipping Fee",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-28 22:00:00",
-    "priority": 1
-  },
-  "8836": {
-    "subject": "Fieside cottage-trash cans",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-22 15:02:51",
+    "due_date": "2026-09-29 22:00:00",
     "priority": 1
   },
   "8830": {
@@ -400,7 +351,7 @@
   },
   "8827": {
     "subject": "rent rev",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "assigned_to": "b.vandroff@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-28 14:43:00",
     "priority": 1
@@ -435,7 +386,7 @@
   },
   "8757": {
     "subject": "#1230 broken box springs",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-23 19:29:00",
     "priority": 10
@@ -594,13 +545,6 @@
     "due_date": "2026-09-30 21:00:00",
     "priority": 10
   },
-  "8464": {
-    "subject": "Precious Gem-PCA Deep clean",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-16 19:06:00",
-    "priority": 10
-  },
   "8444": {
     "subject": "PCA for Par Then Bar Due Date: 12/20/2026",
     "assigned_to": "t.healy@choosegulfcoast.com",
@@ -659,9 +603,9 @@
   },
   "8332": {
     "subject": "PCA for Charlotte's Dream Due Date: 9/15/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-26 22:00:00",
+    "due_date": "2026-10-10 22:00:00",
     "priority": 5
   },
   "8331": {
@@ -722,7 +666,7 @@
   },
   "8007": {
     "subject": "Rising tides- pool deck, chairs, couch and window",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-14 19:46:00",
     "priority": 10
