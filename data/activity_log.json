@@ -1,5 +1,19 @@
 [
   {
+    "ts": "2026-09-28T12:33:18+00:00",
+    "ticket_number": 8963,
+    "subject": "Reshoot GBB1326",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-28T12:33:18+00:00",
+    "ticket_number": 8957,
+    "subject": "4 Star Review Feedback | Res #62594 | Bareishis Charles | Colony Inn C-53 | 9/14/2026-9/17/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-27T14:29:44+00:00",
     "ticket_number": 8955,
     "subject": "Guest Name: Pepper Seth |   Res #: 59846 | Unit: Residences Of Siesta Key | TV Input/Cable Box Connection Issue",
@@ -7880,19 +7894,5 @@
     "subject": "Sandalfoot Unit 5D2 / Offboarding owner balance",
     "type": "created",
     "detail": "Created \u2014 assigned to a.ytac@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-04T19:45:06+00:00",
-    "ticket_number": 8654,
-    "subject": "GBB1335 Statement Correction",
-    "type": "created",
-    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-04T19:45:06+00:00",
-    "ticket_number": 8653,
-    "subject": "GBB1315 Statement Correction",
-    "type": "created",
-    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
   }
 ]
