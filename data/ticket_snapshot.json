@@ -1,4 +1,39 @@
 {
+  "8993": {
+    "subject": "Moyer Gregory/Res #: 59315/Avalon/ Cancellation Request",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-02 21:05:43",
+    "priority": 1
+  },
+  "8992": {
+    "subject": "Price Projection",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-02 19:29:16",
+    "priority": 5
+  },
+  "8991": {
+    "subject": "Paraclete Paradise-PCA DC",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-02 18:35:28",
+    "priority": 1
+  },
+  "8990": {
+    "subject": "Tropical Gulf Retreat-PCA DC",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-02 18:30:31",
+    "priority": 1
+  },
+  "8989": {
+    "subject": "Avalon -PCA DC",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-02 18:23:11",
+    "priority": 1
+  },
   "8988": {
     "subject": "Smoke Detectors- Charlotte's Dream",
     "assigned_to": "d.husak@choosegulfcoast.com",
@@ -54,13 +89,6 @@
     "status": "Open",
     "due_date": "2026-10-02 14:09:33",
     "priority": 10
-  },
-  "8977": {
-    "subject": "Kimura Gene | Colony Inn |  Res #: 63840 | VRBO Email Cancellation",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-02 14:05:27",
-    "priority": 1
   },
   "8976": {
     "subject": "Valenzia Jane | O6ERS | Res #: 60705 | Toilet issue",
@@ -155,7 +183,7 @@
   },
   "8953": {
     "subject": "Shore Bet Onboarding - HOA Rules For Guest Application Process",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "b.zeh@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-30 18:02:48",
     "priority": 5
@@ -470,16 +498,9 @@
   },
   "8617": {
     "subject": "PCA - Avalon (Vacant)",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-16 22:00:00",
-    "priority": 1
-  },
-  "8602": {
-    "subject": "Rental License Renewal Documents Needed \u2013 5D1",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-23 19:07:00",
     "priority": 1
   },
   "8601": {
@@ -570,7 +591,7 @@
     "subject": "Williams Jamie | Res #: 57053 | Ocean Eyes | Celebration Requests",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-29 22:00:00",
+    "due_date": "2026-09-30 22:00:00",
     "priority": 1
   },
   "8410": {
@@ -608,13 +629,6 @@
     "due_date": "2026-10-10 22:00:00",
     "priority": 5
   },
-  "8331": {
-    "subject": "PCA for Serenity Garden Due Date : 9/14/2026",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-29 22:00:00",
-    "priority": 5
-  },
   "8329": {
     "subject": "PCA for Sunset On The Gulf Due Date: 9/12/2026",
     "assigned_to": "t.healy@choosegulfcoast.com",
@@ -624,7 +638,7 @@
   },
   "8245": {
     "subject": "PCA for Tropical Gulf Retreat Due Date: 9/1/2026",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-16 20:51:00",
     "priority": 5
@@ -736,7 +750,7 @@
   },
   "7368": {
     "subject": "PCA for Paraclete Paradise Due Date:  8/3/2026",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-16 20:59:00",
     "priority": 5
@@ -745,7 +759,7 @@
     "subject": "PCA for Gulf & Bay Bayside - 1350 Due Date: 7/30/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-29 17:00:00",
+    "due_date": "2026-10-01 17:00:00",
     "priority": 5
   },
   "7346": {
@@ -762,18 +776,11 @@
     "due_date": "2027-01-31 23:00:00",
     "priority": 1
   },
-  "7165": {
-    "subject": "PCA for Gulf & Bay Bayside - 1346 Due Date: 7/24/2026",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-30 00:30:00",
-    "priority": 5
-  },
   "7156": {
     "subject": "PCA for Don't Worry Beach Happy Due Date: 7/15/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-29 22:00:00",
+    "due_date": "2026-10-02 22:00:00",
     "priority": 5
   },
   "7027": {
