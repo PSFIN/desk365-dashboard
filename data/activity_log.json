@@ -1,5 +1,14 @@
 [
   {
+    "ts": "2026-09-29T05:57:10+00:00",
+    "ticket_number": 8624,
+    "subject": "Guest Name: Tresalus Jorwina |  Res #: 62207 | Unit: Southern Exposure | Stolen money",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-25 15:51:00 to 2026-09-30 15:51:00",
+    "from": "2026-09-25 15:51:00",
+    "to": "2026-09-30 15:51:00"
+  },
+  {
     "ts": "2026-09-29T00:08:12+00:00",
     "ticket_number": 8974,
     "subject": "Valenzia Jane | Unit: O6ERS | Res #: 60705 | Jacuzzi Turned On Request",
@@ -7911,13 +7920,6 @@
     "ts": "2026-09-07T16:34:34+00:00",
     "ticket_number": 8658,
     "subject": "Unit: Breakers West B7 | Guest Name: Curran Gena | Musty Odor",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-07T16:34:34+00:00",
-    "ticket_number": 8623,
-    "subject": "Name: Cali Kathleen | Res: 58824 | Multiple issues",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
