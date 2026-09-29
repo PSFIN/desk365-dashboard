@@ -15,7 +15,7 @@ require('http').createServer((req, res) => {
       let d = '';
       r.on('data', c => d += c);
       r.on('end', () => { res.writeHead(200,{'Content-Type':'application/json'}); res.end(d); });
-    });
+    }).on('error', e => { res.writeHead(500); res.end(JSON.stringify({error:e.message})); });
     return;
   }
 
@@ -36,6 +36,7 @@ require('http').createServer((req, res) => {
       hostname: 'web.streamlinevrs.com',
       path: '/api/json',
       method: 'POST',
+      timeout: 20000,
       headers: { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(payload) }
     };
 
@@ -44,7 +45,14 @@ require('http').createServer((req, res) => {
       pr.on('data', c => data += c);
       pr.on('end', () => { res.writeHead(200, {'Content-Type':'application/json'}); res.end(data); });
     });
-    preq.on('error', e => { res.writeHead(500); res.end(JSON.stringify({error: e.message})); });
+    preq.on('timeout', () => {
+      preq.destroy();
+      res.writeHead(504);
+      res.end(JSON.stringify({error:'Streamline API timed out'}));
+    });
+    preq.on('error', e => {
+      if (!res.headersSent) { res.writeHead(500); res.end(JSON.stringify({error: e.message})); }
+    });
     preq.write(payload);
     preq.end();
   });
