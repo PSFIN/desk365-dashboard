@@ -698,7 +698,7 @@ function renderTable() {
 
   document.getElementById('woBody').innerHTML = page.map(w => `
     <tr onclick="openModal('${w.wo}')">
-      <td class="wo-num"><a class="wo-link" href="https://admin.streamlinevrs.com/maintenance/view/${w.wo}" target="_blank" onclick="event.stopPropagation()">#${w.wo}<span class="wo-ext">↗</span></a></td>
+      <td class="wo-num"><a class="wo-link" href="https://admin.streamlinevrs.com/edit_maintenance.html?maintenance_id=${w.wo}&activetab=0&need_update_parent=1" target="_blank" onclick="event.stopPropagation()">#${w.wo}<span class="wo-ext">↗</span></a></td>
       <td class="wo-title" title="${(w.title||'').replace(/"/g,'&quot;')}">${w.title || '—'}</td>
       <td style="font-size:12px">${w.unit || '—'}</td>
       <td style="font-size:12px">${w.portfolio}</td>
@@ -718,7 +718,7 @@ function renderTable() {
 function openModal(wo) {
   const w = WO_DATA.find(x => String(x.wo) === String(wo));
   if (!w) return;
-  document.getElementById('modalTitle').innerHTML = `#${w.wo} — ${w.title || '(no title)'} <a href="https://admin.streamlinevrs.com/maintenance/view/${w.wo}" target="_blank" style="font-size:13px;color:#EA7A1E;text-decoration:none;font-weight:600;margin-left:8px" onclick="event.stopPropagation()">↗ Open in Streamline</a>`;
+  document.getElementById('modalTitle').innerHTML = `#${w.wo} — ${w.title || '(no title)'} <a href="https://admin.streamlinevrs.com/edit_maintenance.html?maintenance_id=${w.wo}&activetab=0&need_update_parent=1" target="_blank" style="font-size:13px;color:#EA7A1E;text-decoration:none;font-weight:600;margin-left:8px" onclick="event.stopPropagation()">↗ Open in Streamline</a>`;
   document.getElementById('modalBody').innerHTML = `
     <div class="modal-grid">
       <div class="modal-field"><label>Status</label><div class="val">${statusBadge(w.status)}</div></div>
