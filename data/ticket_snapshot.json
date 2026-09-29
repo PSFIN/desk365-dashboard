@@ -1,4 +1,11 @@
 {
+  "8974": {
+    "subject": "Valenzia Jane | Unit: O6ERS | Res #: 60705 | Jacuzzi Turned On Request",
+    "assigned_to": "d.husak@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-01 22:00:00",
+    "priority": 1
+  },
   "8973": {
     "subject": "Easy Does It-Pictures",
     "assigned_to": "b.meyer@choosegulfcoast.com",
@@ -150,28 +157,14 @@
     "subject": "Captains Quarters - Lynx Lock",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-28 19:27:58",
-    "priority": 1
-  },
-  "8928": {
-    "subject": "Villa Milano Lynx Lock",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-28 19:26:58",
+    "due_date": "2027-05-03 19:27:00",
     "priority": 1
   },
   "8927": {
     "subject": "GBB1200 - Lynx Lock",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-28 19:24:13",
-    "priority": 1
-  },
-  "8926": {
-    "subject": "Beachbound Bliss - Lynx",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-28 19:23:20",
     "priority": 1
   },
   "8920": {
@@ -318,14 +311,7 @@
     "subject": "DR-11 Form : Tee Time | 19116 Scallop Loop, #105",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-23 17:14:01",
-    "priority": 10
-  },
-  "8855": {
-    "subject": "DR-1C Form : Tee Time | 19116 Scallop Loop, #105",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-23 17:10:34",
+    "due_date": "2026-10-01 17:00:00",
     "priority": 10
   },
   "8853": {
@@ -402,15 +388,8 @@
     "subject": "Carmona Newton | Unit: Birdie | Res #: 61948 | Multiple Issues",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-25 20:33:00",
+    "due_date": "2026-09-29 20:33:00",
     "priority": 1
-  },
-  "8729": {
-    "subject": "City of Bradenton Vacation Rental License - Unincorporated Manatee County",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-21 15:30:00",
-    "priority": 5
   },
   "8717": {
     "subject": "Florida Fabulous-comp 790",
@@ -510,13 +489,6 @@
     "due_date": "2026-09-22 16:00:00",
     "priority": 10
   },
-  "8545": {
-    "subject": "DR-11 Form : Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-22 16:00:00",
-    "priority": 10
-  },
   "8544": {
     "subject": "DR-1C Form : Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
     "assigned_to": "l.brigida@choosegulfcoast.com",
@@ -528,7 +500,7 @@
     "subject": "Department of Business and Professional Regulation (DBPR) License Review",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-28 20:14:00",
+    "due_date": "2026-09-29 20:14:00",
     "priority": 10
   },
   "8505": {
@@ -552,18 +524,11 @@
     "due_date": "2026-12-31 21:09:00",
     "priority": 5
   },
-  "8443": {
-    "subject": "PCA for Luna Sea Due Date: 9/17/2026",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-25 22:00:00",
-    "priority": 5
-  },
   "8435": {
     "subject": "Williams Jamie | Res #: 57053 | Ocean Eyes | Celebration Requests",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-25 22:00:00",
+    "due_date": "2026-09-29 22:00:00",
     "priority": 1
   },
   "8427": {
@@ -612,14 +577,7 @@
     "subject": "PCA for Serenity Garden Due Date : 9/14/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-25 22:00:00",
-    "priority": 5
-  },
-  "8330": {
-    "subject": "PCA for Golden Beach Haven Due Date: 9/14/2026",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-25 22:00:00",
+    "due_date": "2026-09-29 22:00:00",
     "priority": 5
   },
   "8329": {
@@ -759,7 +717,7 @@
     "subject": "PCA for Gulf & Bay Bayside - 1350 Due Date: 7/30/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-28 17:00:00",
+    "due_date": "2026-09-29 17:00:00",
     "priority": 5
   },
   "7346": {
@@ -773,21 +731,21 @@
     "subject": "Aloha House - Unit painting",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-24 22:00:00",
+    "due_date": "2026-09-29 22:00:00",
     "priority": 1
   },
   "7165": {
     "subject": "PCA for Gulf & Bay Bayside - 1346 Due Date: 7/24/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-26 00:30:00",
+    "due_date": "2026-09-30 00:30:00",
     "priority": 5
   },
   "7156": {
     "subject": "PCA for Don't Worry Beach Happy Due Date: 7/15/2026",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-26 22:00:00",
+    "due_date": "2026-09-29 22:00:00",
     "priority": 5
   },
   "7027": {
