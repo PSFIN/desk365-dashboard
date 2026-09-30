@@ -1,4 +1,53 @@
 {
+  "9013": {
+    "subject": "Sandy Pointe - Lynx",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-05 17:46:52",
+    "priority": 1
+  },
+  "9012": {
+    "subject": "Gulf Standard - Photos",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-05 17:46:00",
+    "priority": 1
+  },
+  "9011": {
+    "subject": "Address | Work Order # | For Approval",
+    "assigned_to": "b.evans@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-05 17:32:11",
+    "priority": 5
+  },
+  "9004": {
+    "subject": "5 Star Review Feedback | Res #59332 | Torretto Jeff | Signal Inn - Unit 12 | 9/25/2026-9/29/2026",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-05 14:56:31",
+    "priority": 1
+  },
+  "9003": {
+    "subject": "4 Star Review Feedback | Res #63657 | Cobo Johana | Colony Inn C-04 | 9/24/2026-9/27/2026",
+    "assigned_to": "marcie@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-05 14:49:33",
+    "priority": 1
+  },
+  "9002": {
+    "subject": "New Hire - Platform Access - Melissa De Sales",
+    "assigned_to": "b.evans@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-05 14:47:15",
+    "priority": 10
+  },
+  "8999": {
+    "subject": "Name: Moyer Gregory | Res: 59315 | Cancelled Funds Retained by GC",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-05 14:16:02",
+    "priority": 1
+  },
   "8998": {
     "subject": "Easy Does It- elock",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
@@ -34,13 +83,6 @@
     "due_date": "2026-10-02 22:00:00",
     "priority": 1
   },
-  "8993": {
-    "subject": "Moyer Gregory/Res #: 59315/Avalon/ Cancellation Request",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-02 21:05:43",
-    "priority": 1
-  },
   "8992": {
     "subject": "Price Projection",
     "assigned_to": "s.paulin@choosegulfcoast.com",
@@ -71,9 +113,9 @@
   },
   "8988": {
     "subject": "Smoke Detectors- Charlotte's Dream",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-02 18:02:00",
+    "due_date": "2026-10-16 18:02:00",
     "priority": 5
   },
   "8987": {
@@ -118,6 +160,13 @@
     "due_date": "2026-10-01 22:00:00",
     "priority": 10
   },
+  "8974": {
+    "subject": "Valenzia Jane | Unit: O6ERS | Res #: 60705 | Jacuzzi Turned On Request",
+    "assigned_to": "m.eronico@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-02 18:42:47",
+    "priority": 1
+  },
   "8973": {
     "subject": "Easy Does It-Pictures",
     "assigned_to": "b.meyer@choosegulfcoast.com",
@@ -150,7 +199,7 @@
     "subject": "4 Star Review Feedback | Res #62969 | 62969 | Signal Inn - Unit 19 | 9/20/2026-9/25/2026",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-01 14:11:29",
+    "due_date": "2026-10-06 14:11:00",
     "priority": 1
   },
   "8964": {
@@ -185,7 +234,7 @@
     "subject": "4 Star Review Feedback | Res #57554 | Ellis Jonathan | Signal Inn - Unit 16 | 9/16/2026-9/22/2026",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-30 22:00:00",
+    "due_date": "2026-10-05 22:00:00",
     "priority": 1
   },
   "8953": {
@@ -318,7 +367,7 @@
     "subject": "5 Star Review Feedback | Res #53585 | Lawson Stephen & Catherine | Signal Inn - Unit 10 | 9/7/2026-9/14/2026",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-28 22:00:00",
+    "due_date": "2026-10-06 22:00:00",
     "priority": 1
   },
   "8883": {
@@ -381,14 +430,14 @@
     "subject": "DBPR License : Tee Time - 19116 Scallop Loop, #105",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-30 18:08:00",
+    "due_date": "2026-10-01 18:08:00",
     "priority": 10
   },
   "8857": {
     "subject": "Add Property to Manatee Tourist Development Tax Umbrella : Tee Time - 19116 Scallop Loop, #105",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-30 17:29:00",
+    "due_date": "2026-10-01 17:29:00",
     "priority": 10
   },
   "8856": {
@@ -400,7 +449,7 @@
   },
   "8853": {
     "subject": "Outstanding Work Order, Invoice or Pending Charges - Gulf & Bay Bayside - 1200 | 1200 Siesta Bayside Drive",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-02 16:25:00",
     "priority": 10
@@ -409,14 +458,14 @@
     "subject": "Pellito Laurie/Signal Inn - Unit 14/Signal Inn - Unit 14/Property Feedback",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-30 21:13:00",
+    "due_date": "2026-10-06 21:13:00",
     "priority": 1
   },
   "8825": {
     "subject": "Sliding door lock project",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-30 15:51:00",
+    "due_date": "2026-10-05 15:51:00",
     "priority": 1
   },
   "8821": {
@@ -430,7 +479,7 @@
     "subject": "City of Bradenton Local Business Tax Receipt (LBTR) - Sans Souci | 2806 Taunton Drive",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-30 15:14:00",
+    "due_date": "2026-09-30 21:00:00",
     "priority": 5
   },
   "8819": {
@@ -487,13 +536,6 @@
     "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-09 22:00:00",
-    "priority": 1
-  },
-  "8617": {
-    "subject": "PCA - Avalon (Vacant)",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-16 22:00:00",
     "priority": 1
   },
   "8601": {
@@ -556,7 +598,7 @@
     "subject": "Department of Business and Professional Regulation (DBPR) License Review",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-30 20:14:00",
+    "due_date": "2026-10-01 20:14:00",
     "priority": 10
   },
   "8505": {
@@ -617,7 +659,7 @@
   },
   "8332": {
     "subject": "PCA for Charlotte's Dream Due Date: 9/15/2026",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-10 22:00:00",
     "priority": 5
@@ -629,13 +671,6 @@
     "due_date": "2026-11-14 23:00:00",
     "priority": 5
   },
-  "8245": {
-    "subject": "PCA for Tropical Gulf Retreat Due Date: 9/1/2026",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-16 20:51:00",
-    "priority": 5
-  },
   "8179": {
     "subject": "PCA for Little Bit Of Heaven Due Date: 9/8/2026",
     "assigned_to": "t.healy@choosegulfcoast.com",
@@ -643,18 +678,11 @@
     "due_date": "2026-10-17 14:46:00",
     "priority": 5
   },
-  "8157": {
-    "subject": "At Risk Property- Florida Dreams",
-    "assigned_to": "d.husak@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-16 21:13:00",
-    "priority": 10
-  },
   "8037": {
     "subject": "Qualify for ARDI?",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-30 22:00:00",
+    "due_date": "2026-11-30 23:00:00",
     "priority": 10
   },
   "8007": {
@@ -687,9 +715,9 @@
   },
   "7800": {
     "subject": "Sunset Reflections - Update listing",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-01 17:22:00",
+    "due_date": "2026-10-30 17:22:00",
     "priority": 1
   },
   "7797": {
@@ -732,20 +760,6 @@
     "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-02 15:06:00",
-    "priority": 5
-  },
-  "7392": {
-    "subject": "Marriott Curation Rejected - Signal Inn 17",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-02 21:00:00",
-    "priority": 5
-  },
-  "7368": {
-    "subject": "PCA for Paraclete Paradise Due Date:  8/3/2026",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-16 20:59:00",
     "priority": 5
   },
   "7361": {
