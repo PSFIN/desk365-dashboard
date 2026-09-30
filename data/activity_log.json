@@ -1,5 +1,83 @@
 [
   {
+    "ts": "2026-09-30T23:21:39+00:00",
+    "ticket_number": 9016,
+    "subject": "Post Kathleen/Tropical Escape/ Res #: 35737/Cancellation Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-30T23:21:39+00:00",
+    "ticket_number": 9015,
+    "subject": "Guest compensation",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-30T23:21:39+00:00",
+    "ticket_number": 9014,
+    "subject": "Gulf Standard - Lynx",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-30T23:21:39+00:00",
+    "ticket_number": 8972,
+    "subject": "4 Star Review Feedback | Res #53347 | Grainger Ashley | Harbour Happiness | 9/14/2026-9/25/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-01 18:13:18 to 2026-10-02 18:13:00",
+    "from": "2026-10-01 18:13:18",
+    "to": "2026-10-02 18:13:00"
+  },
+  {
+    "ts": "2026-09-30T23:21:39+00:00",
+    "ticket_number": 8737,
+    "subject": "Carmona Newton | Unit: Birdie | Res #: 61948 | Multiple Issues",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-29 20:33:00 to 2026-10-02 20:33:00",
+    "from": "2026-09-29 20:33:00",
+    "to": "2026-10-02 20:33:00"
+  },
+  {
+    "ts": "2026-09-30T23:21:39+00:00",
+    "ticket_number": 8435,
+    "subject": "Williams Jamie | Res #: 57053 | Ocean Eyes | Celebration Requests",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-30 22:00:00 to 2026-10-05 22:00:00",
+    "from": "2026-09-30 22:00:00",
+    "to": "2026-10-05 22:00:00"
+  },
+  {
+    "ts": "2026-09-30T23:21:39+00:00",
+    "ticket_number": 8007,
+    "subject": "Rising tides- pool deck, chairs, couch and window",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-09-30T23:21:39+00:00",
+    "ticket_number": 8996,
+    "subject": "Name: Beachy Glen | Res: 62402 | Guest Feedback and Replacement request for the Cooking Pan",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-30T23:21:39+00:00",
+    "ticket_number": 8971,
+    "subject": "Name: Stanton Glenda | Res#: 58986 | Unit Name: Tropical Gulf Retreat | Low Water Flow & Stuck Handle",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-09-30T23:21:39+00:00",
+    "ticket_number": 8927,
+    "subject": "GBB1200 - Lynx Lock",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-09-30T19:32:00+00:00",
     "ticket_number": 9013,
     "subject": "Sandy Pointe - Lynx",
@@ -7834,93 +7912,5 @@
     "detail": "Due date changed from 2026-09-02 22:00:00 to 2026-09-10 22:00:00",
     "from": "2026-09-02 22:00:00",
     "to": "2026-09-10 22:00:00"
-  },
-  {
-    "ts": "2026-09-09T15:42:21+00:00",
-    "ticket_number": 8157,
-    "subject": "At Risk Property- Florida Dreams",
-    "type": "reassigned",
-    "detail": "Reassigned from d.husak@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
-    "from": "d.husak@choosegulfcoast.com",
-    "to": "c.thayer@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-09T15:42:21+00:00",
-    "ticket_number": 8157,
-    "subject": "At Risk Property- Florida Dreams",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-08-14 21:13:00 to 2026-09-10 21:13:00",
-    "from": "2026-08-14 21:13:00",
-    "to": "2026-09-10 21:13:00"
-  },
-  {
-    "ts": "2026-09-09T15:42:21+00:00",
-    "ticket_number": 8037,
-    "subject": "Qualify for ARDI?",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-03 22:00:00 to 2026-09-10 22:00:00",
-    "from": "2026-09-03 22:00:00",
-    "to": "2026-09-10 22:00:00"
-  },
-  {
-    "ts": "2026-09-09T15:42:21+00:00",
-    "ticket_number": 7603,
-    "subject": "PCA for A Shore Thing Due Date: 8/7/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-03 22:00:00 to 2026-09-11 22:00:00",
-    "from": "2026-09-03 22:00:00",
-    "to": "2026-09-11 22:00:00"
-  },
-  {
-    "ts": "2026-09-09T15:42:21+00:00",
-    "ticket_number": 7397,
-    "subject": "Marriott Curation Rejected - Signal inn 03",
-    "type": "reassigned",
-    "detail": "Reassigned from n.ventura@choosegulfcoast.com to c.hernandez@choosegulfcoast.com",
-    "from": "n.ventura@choosegulfcoast.com",
-    "to": "c.hernandez@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-09T15:42:21+00:00",
-    "ticket_number": 7396,
-    "subject": "Marriott Curation Rejected - Signal Inn 18",
-    "type": "reassigned",
-    "detail": "Reassigned from n.ventura@choosegulfcoast.com to c.hernandez@choosegulfcoast.com",
-    "from": "n.ventura@choosegulfcoast.com",
-    "to": "c.hernandez@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-09T15:42:21+00:00",
-    "ticket_number": 7362,
-    "subject": "PCA for Family Tides Due Date: 7/31/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-04 20:35:00 to 2026-09-09 20:35:00",
-    "from": "2026-09-04 20:35:00",
-    "to": "2026-09-09 20:35:00"
-  },
-  {
-    "ts": "2026-09-09T15:42:21+00:00",
-    "ticket_number": 7361,
-    "subject": "PCA for Gulf & Bay Bayside - 1350 Due Date: 7/30/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-04 09:30:00 to 2026-09-10 09:30:00",
-    "from": "2026-09-04 09:30:00",
-    "to": "2026-09-10 09:30:00"
-  },
-  {
-    "ts": "2026-09-09T15:42:21+00:00",
-    "ticket_number": 7165,
-    "subject": "PCA for Gulf & Bay Bayside - 1346 Due Date: 7/24/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-04 10:30:00 to 2026-09-10 00:30:00",
-    "from": "2026-09-04 10:30:00",
-    "to": "2026-09-10 00:30:00"
-  },
-  {
-    "ts": "2026-09-09T15:42:21+00:00",
-    "ticket_number": 8699,
-    "subject": "Sosa Ariel M/Gulf & Bay Bayside - 1219/Res #: 61411/Welcome Packet",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
 ]

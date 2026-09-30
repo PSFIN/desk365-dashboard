@@ -1,4 +1,25 @@
 {
+  "9016": {
+    "subject": "Post Kathleen/Tropical Escape/ Res #: 35737/Cancellation Request",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-05 21:04:49",
+    "priority": 1
+  },
+  "9015": {
+    "subject": "Guest compensation",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-05 20:48:20",
+    "priority": 5
+  },
+  "9014": {
+    "subject": "Gulf Standard - Lynx",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-05 20:31:04",
+    "priority": 1
+  },
   "9013": {
     "subject": "Sandy Pointe - Lynx",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
@@ -61,13 +82,6 @@
     "status": "Open",
     "due_date": "2026-10-02 22:00:00",
     "priority": 10
-  },
-  "8996": {
-    "subject": "Name: Beachy Glen | Res: 62402 | Guest Feedback and Replacement request for the Cooking Pan",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-02 22:00:00",
-    "priority": 1
   },
   "8995": {
     "subject": "Email Signature New Hire - Jasper Dela Fuente",
@@ -178,14 +192,7 @@
     "subject": "4 Star Review Feedback | Res #53347 | Grainger Ashley | Harbour Happiness | 9/14/2026-9/25/2026",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-01 18:13:18",
-    "priority": 1
-  },
-  "8971": {
-    "subject": "Name: Stanton Glenda | Res#: 58986 | Unit Name: Tropical Gulf Retreat | Low Water Flow & Stuck Handle",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-01 17:56:40",
+    "due_date": "2026-10-02 18:13:00",
     "priority": 1
   },
   "8970": {
@@ -305,13 +312,6 @@
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2027-05-03 19:27:00",
-    "priority": 1
-  },
-  "8927": {
-    "subject": "GBB1200 - Lynx Lock",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-30 19:24:00",
     "priority": 1
   },
   "8920": {
@@ -500,7 +500,7 @@
     "subject": "Carmona Newton | Unit: Birdie | Res #: 61948 | Multiple Issues",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-29 20:33:00",
+    "due_date": "2026-10-02 20:33:00",
     "priority": 1
   },
   "8717": {
@@ -626,7 +626,7 @@
     "subject": "Williams Jamie | Res #: 57053 | Ocean Eyes | Celebration Requests",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-30 22:00:00",
+    "due_date": "2026-10-05 22:00:00",
     "priority": 1
   },
   "8410": {
@@ -687,7 +687,7 @@
   },
   "8007": {
     "subject": "Rising tides- pool deck, chairs, couch and window",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-14 19:46:00",
     "priority": 10
