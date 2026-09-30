@@ -1,5 +1,21 @@
 [
   {
+    "ts": "2026-09-30T01:25:34+00:00",
+    "ticket_number": 8994,
+    "subject": "HADFIELD JOSEPH/Signal Inn - Unit 13/Res #: 57023/Fan in the family room",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-09-30T01:25:34+00:00",
+    "ticket_number": 8974,
+    "subject": "Valenzia Jane | Unit: O6ERS | Res #: 60705 | Jacuzzi Turned On Request",
+    "type": "reassigned",
+    "detail": "Reassigned from m.eronico@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "m.eronico@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
     "ts": "2026-09-29T22:28:14+00:00",
     "ticket_number": 8993,
     "subject": "Moyer Gregory/Res #: 59315/Avalon/ Cancellation Request",
@@ -7902,20 +7918,6 @@
     "ts": "2026-09-08T18:13:22+00:00",
     "ticket_number": 8679,
     "subject": "Maxie Brandon | Unit: Southern Exposure |  Res #: 48659 | Compensation for Late Check In",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-08T18:13:22+00:00",
-    "ticket_number": 8647,
-    "subject": "Take down unit from rental pool",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-08T18:13:22+00:00",
-    "ticket_number": 8611,
-    "subject": "Unit: Bayside Paradise | Guest Name: Shaw Debbie | AC Air Filter Replacement / Stale Odor",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
