@@ -1,4 +1,32 @@
 {
+  "8998": {
+    "subject": "Easy Does It- elock",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-02 22:00:00",
+    "priority": 1
+  },
+  "8997": {
+    "subject": "A Slice of Paradise/Pin High Tide-elock",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-02 22:00:00",
+    "priority": 10
+  },
+  "8996": {
+    "subject": "Name: Beachy Glen | Res: 62402 | Guest Feedback and Replacement request for the Cooking Pan",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-02 22:00:00",
+    "priority": 1
+  },
+  "8995": {
+    "subject": "Email Signature New Hire - Jasper Dela Fuente",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-02 22:00:00",
+    "priority": 10
+  },
   "8994": {
     "subject": "HADFIELD JOSEPH/Signal Inn - Unit 13/Res #: 57023/Fan in the family room",
     "assigned_to": "n.ventura@choosegulfcoast.com",
@@ -76,20 +104,6 @@
     "due_date": "2026-10-02 16:44:37",
     "priority": 10
   },
-  "8983": {
-    "subject": "4 Star Review Feedback | Res #63793 | Campain Sherry | Colony Inn C-12 | 9/26/2026-9/28/2026",
-    "assigned_to": "marcie@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-02 16:27:17",
-    "priority": 1
-  },
-  "8982": {
-    "subject": "5 Star Review Feedback | Res #56071 | Locke Julianna | Turtle House | 9/22/2026-9/28/2026",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-02 16:10:56",
-    "priority": 1
-  },
   "8978": {
     "subject": "Proof of business ownership",
     "assigned_to": "n.armstrong@choosegulfcoast.com",
@@ -97,26 +111,12 @@
     "due_date": "2026-10-02 14:09:33",
     "priority": 10
   },
-  "8976": {
-    "subject": "Valenzia Jane | O6ERS | Res #: 60705 | Toilet issue",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-01 22:00:00",
-    "priority": 1
-  },
   "8975": {
     "subject": "rent rev",
     "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-01 22:00:00",
     "priority": 10
-  },
-  "8974": {
-    "subject": "Valenzia Jane | Unit: O6ERS | Res #: 60705 | Jacuzzi Turned On Request",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-01 22:00:00",
-    "priority": 1
   },
   "8973": {
     "subject": "Easy Does It-Pictures",
@@ -262,7 +262,7 @@
     "subject": "GBB1200 - Lynx Lock",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-28 19:24:13",
+    "due_date": "2026-09-30 19:24:00",
     "priority": 1
   },
   "8920": {
@@ -314,13 +314,6 @@
     "due_date": "2026-09-30 17:44:00",
     "priority": 5
   },
-  "8894": {
-    "subject": "Southern Exposure - ARDI guest damage",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-30 19:19:00",
-    "priority": 10
-  },
   "8885": {
     "subject": "5 Star Review Feedback | Res #53585 | Lawson Stephen & Catherine | Signal Inn - Unit 10 | 9/7/2026-9/14/2026",
     "assigned_to": "n.ventura@choosegulfcoast.com",
@@ -367,21 +360,21 @@
     "subject": "City of Bradenton VR License - Florida Dreams | 4457 45th Avenue West, #110",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-30 15:55:00",
+    "due_date": "2026-10-02 15:55:00",
     "priority": 20
   },
   "8860": {
     "subject": "City of Bradenton VR License - Don't Worry Beach Happy | 502 Sanderling Circle",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-30 15:43:00",
+    "due_date": "2026-10-02 15:43:00",
     "priority": 20
   },
   "8859": {
     "subject": "City of Bradenton VR License - Blossom Retreat | 7333 Skybird Road",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-30 15:30:00",
+    "due_date": "2026-10-02 15:30:00",
     "priority": 20
   },
   "8858": {
@@ -446,13 +439,6 @@
     "status": "Open",
     "due_date": "2026-09-24 18:41:00",
     "priority": 20
-  },
-  "8757": {
-    "subject": "#1230 broken box springs",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-23 19:29:00",
-    "priority": 10
   },
   "8754": {
     "subject": "#1364 owner --reimburse",
@@ -521,7 +507,7 @@
     "subject": "Boardwalk Shell station",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-25 20:41:00",
+    "due_date": "2026-10-07 20:41:00",
     "priority": 1
   },
   "8575": {
