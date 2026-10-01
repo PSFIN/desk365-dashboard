@@ -1,5 +1,19 @@
 [
   {
+    "ts": "2026-10-01T02:15:46+00:00",
+    "ticket_number": 9019,
+    "subject": "Bosqui Frank/Villa Milano/Res #: 59277/Spa/Pool Control Complaints",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-01T02:15:46+00:00",
+    "ticket_number": 9017,
+    "subject": "BENNETT MARY/Sandalfoot 1D1/Res #: 57663/Feedback",
+    "type": "created",
+    "detail": "Created \u2014 assigned to k.garcia@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-09-30T23:21:39+00:00",
     "ticket_number": 9016,
     "subject": "Post Kathleen/Tropical Escape/ Res #: 35737/Cancellation Request",
@@ -7894,23 +7908,5 @@
     "detail": "Due date changed from 2026-09-04 19:15:00 to 2026-09-09 19:15:00",
     "from": "2026-09-04 19:15:00",
     "to": "2026-09-09 19:15:00"
-  },
-  {
-    "ts": "2026-09-09T15:42:21+00:00",
-    "ticket_number": 8322,
-    "subject": "Avalon landscape",
-    "type": "reassigned",
-    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to d.husak@choosegulfcoast.com",
-    "from": "h.mcnamara@choosegulfcoast.com",
-    "to": "d.husak@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-09T15:42:21+00:00",
-    "ticket_number": 8322,
-    "subject": "Avalon landscape",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-02 22:00:00 to 2026-09-10 22:00:00",
-    "from": "2026-09-02 22:00:00",
-    "to": "2026-09-10 22:00:00"
   }
 ]
