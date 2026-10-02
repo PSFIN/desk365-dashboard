@@ -1,9 +1,51 @@
 {
-  "9035": {
-    "subject": "Thompson Denise | Tidewater Manor | Res #: 56669 |",
+  "9043": {
+    "subject": "Add map showing distance to the beach - Tidewater manor",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-07 18:16:10",
+    "priority": 1
+  },
+  "9042": {
+    "subject": "Guest Name: Bosqui Frank | Res #: 59277 | Unit: Villa Milano",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-06 22:00:00",
+    "due_date": "2026-10-07 18:03:38",
+    "priority": 1
+  },
+  "9041": {
+    "subject": "New photos",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-07 17:55:00",
+    "priority": 1
+  },
+  "9040": {
+    "subject": "POST ARRIVAL CALL: Guest Name: Akers Gary | Res #: 54910 | Unit: Driftwood Dreams",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-07 17:18:02",
+    "priority": 1
+  },
+  "9039": {
+    "subject": "Sales & Tourist Tax Remittance - September 2026",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-07 16:56:57",
+    "priority": 10
+  },
+  "9037": {
+    "subject": "Name: Gedarevich David | Res: 63850 | HOA application Embassy Villas | Extension",
+    "assigned_to": "b.zeh@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-07 15:13:43",
+    "priority": 1
+  },
+  "9036": {
+    "subject": "Tedford Jim & Diane | YCBR 24B | Res #: 33956",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-07 14:26:28",
     "priority": 1
   },
   "9033": {
@@ -22,35 +64,28 @@
   },
   "9031": {
     "subject": "No photos uploaded to work order",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-06 20:36:06",
     "priority": 1
   },
   "9030": {
     "subject": "Fire Extinguisher for Villa Milano",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "j.mesasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-06 19:53:07",
     "priority": 1
   },
   "9029": {
     "subject": "Easy Does it-Fire extinguisher",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.mesasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-06 18:56:23",
     "priority": 5
   },
-  "9028": {
-    "subject": "5 Star Review Feedback | Res #59930 | Berchtold Markus | Flip Flop Retreat | 9/16/2026-9/30/2026",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-06 17:51:14",
-    "priority": 1
-  },
   "9027": {
     "subject": "The Sand Dune - Owner block",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "j.mesasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-06 17:16:51",
     "priority": 1
@@ -78,14 +113,14 @@
   },
   "9021": {
     "subject": "Shower Glass - Rental insurance claim",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "n.armstrong@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-05 22:00:00",
     "priority": 10
   },
   "9019": {
     "subject": "Bosqui Frank/Villa Milano/Res #: 59277/Spa/Pool Control Complaints",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-05 22:00:00",
     "priority": 1
@@ -148,7 +183,7 @@
   },
   "8998": {
     "subject": "Easy Does It- elock",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-02 22:00:00",
     "priority": 1
@@ -156,13 +191,6 @@
   "8997": {
     "subject": "A Slice of Paradise/Pin High Tide-elock",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-02 22:00:00",
-    "priority": 10
-  },
-  "8995": {
-    "subject": "Email Signature New Hire - Jasper Dela Fuente",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-02 22:00:00",
     "priority": 10
@@ -201,13 +229,6 @@
     "status": "Open",
     "due_date": "2026-10-02 18:23:11",
     "priority": 1
-  },
-  "8988": {
-    "subject": "Smoke Detectors- Charlotte's Dream",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-16 18:02:00",
-    "priority": 5
   },
   "8987": {
     "subject": "fireside cottage -owner min",
@@ -360,7 +381,7 @@
     "subject": "City of Sanibel - Business Tax Receipt (BTR) Renewal Due Sept. 30,2026",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-30 21:00:00",
+    "due_date": "2026-10-31 21:00:00",
     "priority": 10
   },
   "8906": {
@@ -472,7 +493,7 @@
     "subject": "City of Bradenton VR License - A Wave from it All | 395 Aruba Circle, #203",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-09-24 18:41:00",
+    "due_date": "2026-10-06 18:41:00",
     "priority": 20
   },
   "8754": {
@@ -512,7 +533,7 @@
   },
   "8618": {
     "subject": "PCA - Fishtail",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-09 22:00:00",
     "priority": 1
@@ -638,7 +659,7 @@
   },
   "8332": {
     "subject": "PCA for Charlotte's Dream Due Date: 9/15/2026",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-10 22:00:00",
     "priority": 5
@@ -780,7 +801,7 @@
     "subject": "Lee County Sales Tax Discretionary Expiration at 12/31/28",
     "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-01 16:22:00",
+    "due_date": "2026-10-07 16:22:00",
     "priority": 5
   }
 }

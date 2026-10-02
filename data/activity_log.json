@@ -1,5 +1,190 @@
 [
   {
+    "ts": "2026-10-02T19:03:18+00:00",
+    "ticket_number": 9043,
+    "subject": "Add map showing distance to the beach - Tidewater manor",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-02T19:03:18+00:00",
+    "ticket_number": 9042,
+    "subject": "Guest Name: Bosqui Frank | Res #: 59277 | Unit: Villa Milano",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-02T19:03:18+00:00",
+    "ticket_number": 9041,
+    "subject": "New photos",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-02T19:03:18+00:00",
+    "ticket_number": 9040,
+    "subject": "POST ARRIVAL CALL: Guest Name: Akers Gary | Res #: 54910 | Unit: Driftwood Dreams",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-02T19:03:18+00:00",
+    "ticket_number": 9039,
+    "subject": "Sales & Tourist Tax Remittance - September 2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-02T19:03:18+00:00",
+    "ticket_number": 9037,
+    "subject": "Name: Gedarevich David | Res: 63850 | HOA application Embassy Villas | Extension",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.zeh@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-02T19:03:18+00:00",
+    "ticket_number": 9036,
+    "subject": "Tedford Jim & Diane | YCBR 24B | Res #: 33956",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-02T19:03:18+00:00",
+    "ticket_number": 9031,
+    "subject": "No photos uploaded to work order",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-02T19:03:18+00:00",
+    "ticket_number": 9030,
+    "subject": "Fire Extinguisher for Villa Milano",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to j.mesasierra@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "j.mesasierra@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-02T19:03:18+00:00",
+    "ticket_number": 9029,
+    "subject": "Easy Does it-Fire extinguisher",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to j.mesasierra@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "j.mesasierra@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-02T19:03:18+00:00",
+    "ticket_number": 9027,
+    "subject": "The Sand Dune - Owner block",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to j.mesasierra@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "j.mesasierra@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-02T19:03:18+00:00",
+    "ticket_number": 9021,
+    "subject": "Shower Glass - Rental insurance claim",
+    "type": "reassigned",
+    "detail": "Reassigned from c.thayer@choosegulfcoast.com to n.armstrong@choosegulfcoast.com",
+    "from": "c.thayer@choosegulfcoast.com",
+    "to": "n.armstrong@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-02T19:03:18+00:00",
+    "ticket_number": 9019,
+    "subject": "Bosqui Frank/Villa Milano/Res #: 59277/Spa/Pool Control Complaints",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "s.soriafrausto@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-02T19:03:18+00:00",
+    "ticket_number": 8998,
+    "subject": "Easy Does It- elock",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-02T19:03:18+00:00",
+    "ticket_number": 8912,
+    "subject": "City of Sanibel - Business Tax Receipt (BTR) Renewal Due Sept. 30,2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-30 21:00:00 to 2026-10-31 21:00:00",
+    "from": "2026-09-30 21:00:00",
+    "to": "2026-10-31 21:00:00"
+  },
+  {
+    "ts": "2026-10-02T19:03:18+00:00",
+    "ticket_number": 8819,
+    "subject": "City of Bradenton VR License - A Wave from it All | 395 Aruba Circle, #203",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-24 18:41:00 to 2026-10-06 18:41:00",
+    "from": "2026-09-24 18:41:00",
+    "to": "2026-10-06 18:41:00"
+  },
+  {
+    "ts": "2026-10-02T19:03:18+00:00",
+    "ticket_number": 8618,
+    "subject": "PCA - Fishtail",
+    "type": "reassigned",
+    "detail": "Reassigned from c.thayer@choosegulfcoast.com to s.paulin@choosegulfcoast.com",
+    "from": "c.thayer@choosegulfcoast.com",
+    "to": "s.paulin@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-02T19:03:18+00:00",
+    "ticket_number": 8332,
+    "subject": "PCA for Charlotte's Dream Due Date: 9/15/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from c.thayer@choosegulfcoast.com to s.paulin@choosegulfcoast.com",
+    "from": "c.thayer@choosegulfcoast.com",
+    "to": "s.paulin@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-02T19:03:18+00:00",
+    "ticket_number": 6421,
+    "subject": "Lee County Sales Tax Discretionary Expiration at 12/31/28",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-01 16:22:00 to 2026-10-07 16:22:00",
+    "from": "2026-10-01 16:22:00",
+    "to": "2026-10-07 16:22:00"
+  },
+  {
+    "ts": "2026-10-02T19:03:18+00:00",
+    "ticket_number": 9035,
+    "subject": "Thompson Denise | Tidewater Manor | Res #: 56669 |",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-02T19:03:18+00:00",
+    "ticket_number": 9028,
+    "subject": "5 Star Review Feedback | Res #59930 | Berchtold Markus | Flip Flop Retreat | 9/16/2026-9/30/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-02T19:03:18+00:00",
+    "ticket_number": 8995,
+    "subject": "Email Signature New Hire - Jasper Dela Fuente",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-02T19:03:18+00:00",
+    "ticket_number": 8988,
+    "subject": "Smoke Detectors- Charlotte's Dream",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-02T13:58:58+00:00",
     "ticket_number": 9035,
     "subject": "Thompson Denise | Tidewater Manor | Res #: 56669 |",
@@ -7687,194 +7872,5 @@
     "detail": "Reassigned from c.hernandez@choosegulfcoast.com to b.zeh@choosegulfcoast.com",
     "from": "c.hernandez@choosegulfcoast.com",
     "to": "b.zeh@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-10T12:19:23+00:00",
-    "ticket_number": 8541,
-    "subject": "Res #: 52252 | Pritchett Darin | Day Dreamer | Communal Pool Out of Service",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-03 18:40:05 to 2026-09-11 18:40:00",
-    "from": "2026-09-03 18:40:05",
-    "to": "2026-09-11 18:40:00"
-  },
-  {
-    "ts": "2026-09-10T12:19:23+00:00",
-    "ticket_number": 8443,
-    "subject": "PCA for Luna Sea Due Date: 9/17/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from t.healy@choosegulfcoast.com to s.paulin@choosegulfcoast.com",
-    "from": "t.healy@choosegulfcoast.com",
-    "to": "s.paulin@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-10T12:19:23+00:00",
-    "ticket_number": 8443,
-    "subject": "PCA for Luna Sea Due Date: 9/17/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-08 22:00:00 to 2026-09-19 22:00:00",
-    "from": "2026-09-08 22:00:00",
-    "to": "2026-09-19 22:00:00"
-  },
-  {
-    "ts": "2026-09-10T12:19:23+00:00",
-    "ticket_number": 8311,
-    "subject": "PCA for Sans Souci Due Date: 9/10/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-12 20:16:00 to 2026-09-19 20:16:00",
-    "from": "2026-09-12 20:16:00",
-    "to": "2026-09-19 20:16:00"
-  },
-  {
-    "ts": "2026-09-10T12:19:23+00:00",
-    "ticket_number": 8245,
-    "subject": "PCA for Tropical Gulf Retreat Due Date: 9/1/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-11 20:51:00 to 2026-09-19 20:51:00",
-    "from": "2026-09-11 20:51:00",
-    "to": "2026-09-19 20:51:00"
-  },
-  {
-    "ts": "2026-09-10T12:19:23+00:00",
-    "ticket_number": 8179,
-    "subject": "PCA for Little Bit Of Heaven Due Date: 9/8/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-12 14:46:00 to 2026-09-19 14:46:00",
-    "from": "2026-09-12 14:46:00",
-    "to": "2026-09-19 14:46:00"
-  },
-  {
-    "ts": "2026-09-10T12:19:23+00:00",
-    "ticket_number": 7949,
-    "subject": "PCA for Dreams Of Paradise Due Date: 8/26/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from t.healy@choosegulfcoast.com to s.paulin@choosegulfcoast.com",
-    "from": "t.healy@choosegulfcoast.com",
-    "to": "s.paulin@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-10T12:19:23+00:00",
-    "ticket_number": 7598,
-    "subject": "PCA for Longboat Oasis Due Date: 8/4/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-11 22:00:00 to 2026-09-19 22:00:00",
-    "from": "2026-09-11 22:00:00",
-    "to": "2026-09-19 22:00:00"
-  },
-  {
-    "ts": "2026-09-10T02:28:22+00:00",
-    "ticket_number": 8725,
-    "subject": "Check Refund | Res #57666 | wagner Greg | Gulf & Bay Bayside - 1200",
-    "type": "created",
-    "detail": "Created \u2014 assigned to k.zeh@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-10T02:28:22+00:00",
-    "ticket_number": 8724,
-    "subject": "YCBR - Touch up cleans",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-10T02:28:22+00:00",
-    "ticket_number": 8723,
-    "subject": "Shore Bet cleaning",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-10T02:28:22+00:00",
-    "ticket_number": 8722,
-    "subject": "Coast is clear - cleaning",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-10T02:28:22+00:00",
-    "ticket_number": 8410,
-    "subject": "YCBR Photo shoot",
-    "type": "reassigned",
-    "detail": "Reassigned from j.rushton@choosegulfcoast.com to b.meyer@choosegulfcoast.com",
-    "from": "j.rushton@choosegulfcoast.com",
-    "to": "b.meyer@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-10T02:28:22+00:00",
-    "ticket_number": 8410,
-    "subject": "YCBR Photo shoot",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-09 19:15:00 to 2026-09-11 19:15:00",
-    "from": "2026-09-09 19:15:00",
-    "to": "2026-09-11 19:15:00"
-  },
-  {
-    "ts": "2026-09-10T02:28:22+00:00",
-    "ticket_number": 7361,
-    "subject": "PCA for Gulf & Bay Bayside - 1350 Due Date: 7/30/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-10 09:30:00 to 2026-09-10 17:00:00",
-    "from": "2026-09-10 09:30:00",
-    "to": "2026-09-10 17:00:00"
-  },
-  {
-    "ts": "2026-09-10T02:28:22+00:00",
-    "ticket_number": 7165,
-    "subject": "PCA for Gulf & Bay Bayside - 1346 Due Date: 7/24/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-10 00:30:00 to 2026-09-11 00:30:00",
-    "from": "2026-09-10 00:30:00",
-    "to": "2026-09-11 00:30:00"
-  },
-  {
-    "ts": "2026-09-10T02:28:22+00:00",
-    "ticket_number": 7425,
-    "subject": "Marriott Curation Rejected - Gulf & Bay Bayside - 1318",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-10T02:28:22+00:00",
-    "ticket_number": 7362,
-    "subject": "PCA for Family Tides Due Date: 7/31/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-09T21:32:12+00:00",
-    "ticket_number": 8721,
-    "subject": "zGulf & Bay Bayside - 1341 Previous Owner | Owner Income Documentation Request for IRS",
-    "type": "created",
-    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-09T21:32:12+00:00",
-    "ticket_number": 8720,
-    "subject": "Enjoy Sarasota-cleaning",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-09T21:32:12+00:00",
-    "ticket_number": 8719,
-    "subject": "Grand Getaway- replacement",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-09T21:32:12+00:00",
-    "ticket_number": 8632,
-    "subject": "Res. No. 44009 - Kathleen Donnelly - Oakwater Escape  - star rating: 3",
-    "type": "reassigned",
-    "detail": "Reassigned from m.eronico@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
-    "from": "m.eronico@choosegulfcoast.com",
-    "to": "s.soriafrausto@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-09T21:32:12+00:00",
-    "ticket_number": 8607,
-    "subject": "GBB office shelves",
-    "type": "reassigned",
-    "detail": "Reassigned from c.nutt@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
-    "from": "c.nutt@choosegulfcoast.com",
-    "to": "h.mcnamara@choosegulfcoast.com"
   }
 ]
