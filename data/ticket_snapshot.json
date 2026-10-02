@@ -1,4 +1,11 @@
 {
+  "9044": {
+    "subject": "#1339 Guest bath sink stopper",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-07 20:33:24",
+    "priority": 10
+  },
   "9043": {
     "subject": "Add map showing distance to the beach - Tidewater manor",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
@@ -62,13 +69,6 @@
     "due_date": "2026-10-06 20:51:49",
     "priority": 5
   },
-  "9031": {
-    "subject": "No photos uploaded to work order",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-06 20:36:06",
-    "priority": 1
-  },
   "9030": {
     "subject": "Fire Extinguisher for Villa Milano",
     "assigned_to": "j.mesasierra@choosegulfcoast.com",
@@ -120,16 +120,9 @@
   },
   "9019": {
     "subject": "Bosqui Frank/Villa Milano/Res #: 59277/Spa/Pool Control Complaints",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-05 22:00:00",
-    "priority": 1
-  },
-  "9016": {
-    "subject": "Post Kathleen/Tropical Escape/ Res #: 35737/Cancellation Request",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-05 21:04:49",
     "priority": 1
   },
   "9014": {
@@ -150,7 +143,7 @@
     "subject": "Gulf Standard - Photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-05 17:46:00",
+    "due_date": "2026-10-06 17:46:00",
     "priority": 1
   },
   "9011": {
@@ -187,13 +180,6 @@
     "status": "Open",
     "due_date": "2026-10-02 22:00:00",
     "priority": 1
-  },
-  "8997": {
-    "subject": "A Slice of Paradise/Pin High Tide-elock",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-02 22:00:00",
-    "priority": 10
   },
   "8994": {
     "subject": "HADFIELD JOSEPH/Signal Inn - Unit 13/Res #: 57023/Fan in the family room",
@@ -258,20 +244,6 @@
     "due_date": "2026-10-02 18:42:47",
     "priority": 1
   },
-  "8973": {
-    "subject": "Easy Does It-Pictures",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-05 19:44:00",
-    "priority": 1
-  },
-  "8972": {
-    "subject": "4 Star Review Feedback | Res #53347 | Grainger Ashley | Harbour Happiness | 9/14/2026-9/25/2026",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-02 18:13:00",
-    "priority": 1
-  },
   "8970": {
     "subject": "4 Star Review Feedback | Res #61101 |  Gauvin-Bottorf Diane | Signal Inn - Unit 4 | 9/25/2026-9/28/2026",
     "assigned_to": "n.ventura@choosegulfcoast.com",
@@ -284,13 +256,6 @@
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-06 14:11:00",
-    "priority": 1
-  },
-  "8964": {
-    "subject": "5 Star Review Feedback | Res #49117 | Sena Renee | Loggerhead Cay #183 | 9/19/2026-9/26/2026",
-    "assigned_to": "l.costa@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-30 22:00:00",
     "priority": 1
   },
   "8960": {
@@ -790,16 +755,9 @@
     "due_date": "2027-06-01 22:00:00",
     "priority": 1
   },
-  "6536": {
-    "subject": "Lee County upcoming sales tax changes",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-01 19:35:00",
-    "priority": 5
-  },
   "6421": {
     "subject": "Lee County Sales Tax Discretionary Expiration at 12/31/28",
-    "assigned_to": "e.morales@choosegulfcoast.com",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-07 16:22:00",
     "priority": 5

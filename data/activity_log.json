@@ -1,5 +1,88 @@
 [
   {
+    "ts": "2026-10-02T23:06:46+00:00",
+    "ticket_number": 9044,
+    "subject": "#1339 Guest bath sink stopper",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-02T23:06:46+00:00",
+    "ticket_number": 9019,
+    "subject": "Bosqui Frank/Villa Milano/Res #: 59277/Spa/Pool Control Complaints",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-02T23:06:46+00:00",
+    "ticket_number": 9012,
+    "subject": "Gulf Standard - Photos",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-05 17:46:00 to 2026-10-06 17:46:00",
+    "from": "2026-10-05 17:46:00",
+    "to": "2026-10-06 17:46:00"
+  },
+  {
+    "ts": "2026-10-02T23:06:46+00:00",
+    "ticket_number": 6421,
+    "subject": "Lee County Sales Tax Discretionary Expiration at 12/31/28",
+    "type": "reassigned",
+    "detail": "Reassigned from e.morales@choosegulfcoast.com to l.brigida@choosegulfcoast.com",
+    "from": "e.morales@choosegulfcoast.com",
+    "to": "l.brigida@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-02T23:06:46+00:00",
+    "ticket_number": 9031,
+    "subject": "No photos uploaded to work order",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-02T23:06:46+00:00",
+    "ticket_number": 9016,
+    "subject": "Post Kathleen/Tropical Escape/ Res #: 35737/Cancellation Request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-02T23:06:46+00:00",
+    "ticket_number": 8997,
+    "subject": "A Slice of Paradise/Pin High Tide-elock",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-02T23:06:46+00:00",
+    "ticket_number": 8973,
+    "subject": "Easy Does It-Pictures",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-02T23:06:46+00:00",
+    "ticket_number": 8972,
+    "subject": "4 Star Review Feedback | Res #53347 | Grainger Ashley | Harbour Happiness | 9/14/2026-9/25/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-02T23:06:46+00:00",
+    "ticket_number": 8964,
+    "subject": "5 Star Review Feedback | Res #49117 | Sena Renee | Loggerhead Cay #183 | 9/19/2026-9/26/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-02T23:06:46+00:00",
+    "ticket_number": 6536,
+    "subject": "Lee County upcoming sales tax changes",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-02T19:03:18+00:00",
     "ticket_number": 9043,
     "subject": "Add map showing distance to the beach - Tidewater manor",
@@ -7777,100 +7860,5 @@
     "detail": "Reassigned from b.zeh@choosegulfcoast.com to c.hernandez@choosegulfcoast.com",
     "from": "b.zeh@choosegulfcoast.com",
     "to": "c.hernandez@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-10T16:34:48+00:00",
-    "ticket_number": 8410,
-    "subject": "YCBR Photo shoot",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-11 19:15:00 to 2026-09-30 19:15:00",
-    "from": "2026-09-11 19:15:00",
-    "to": "2026-09-30 19:15:00"
-  },
-  {
-    "ts": "2026-09-10T16:34:48+00:00",
-    "ticket_number": 8188,
-    "subject": "Casa de Suenos-guest smoking in property",
-    "type": "reassigned",
-    "detail": "Reassigned from h.nomura@choosegulfcoast.com to a.ytac@choosegulfcoast.com",
-    "from": "h.nomura@choosegulfcoast.com",
-    "to": "a.ytac@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-10T16:34:48+00:00",
-    "ticket_number": 8718,
-    "subject": "o6ers-cover",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-10T16:34:48+00:00",
-    "ticket_number": 8384,
-    "subject": "DR-11 Form : Sun Seeker - 5544 Summit Pointe Cir",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-10T12:19:23+00:00",
-    "ticket_number": 8707,
-    "subject": "Rhodes Tracy | Heavenly Daze | Res #: 45497 | Property Viewing Req",
-    "type": "reassigned",
-    "detail": "Reassigned from i.yates@choosegulfcoast.com to c.hernandez@choosegulfcoast.com",
-    "from": "i.yates@choosegulfcoast.com",
-    "to": "c.hernandez@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-10T12:19:23+00:00",
-    "ticket_number": 8707,
-    "subject": "Rhodes Tracy | Heavenly Daze | Res #: 45497 | Property Viewing Req",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-14 14:15:54 to 2026-09-11 14:15:00",
-    "from": "2026-09-14 14:15:54",
-    "to": "2026-09-11 14:15:00"
-  },
-  {
-    "ts": "2026-09-10T12:19:23+00:00",
-    "ticket_number": 8672,
-    "subject": "Harrell Matthew | Unit: Sans Souci |  Res #: 62332 | AC is not working",
-    "type": "reassigned",
-    "detail": "Reassigned from c.hernandez@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
-    "from": "c.hernandez@choosegulfcoast.com",
-    "to": "s.soriafrausto@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-10T12:19:23+00:00",
-    "ticket_number": 8672,
-    "subject": "Harrell Matthew | Unit: Sans Souci |  Res #: 62332 | AC is not working",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-09 22:00:00 to 2026-09-10 22:00:00",
-    "from": "2026-09-09 22:00:00",
-    "to": "2026-09-10 22:00:00"
-  },
-  {
-    "ts": "2026-09-10T12:19:23+00:00",
-    "ticket_number": 8624,
-    "subject": "Guest Name: Tresalus Jorwina |  Res #: 62207 | Unit: Southern Exposure | Stolen money",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-09 15:51:19 to 2026-09-18 15:51:00",
-    "from": "2026-09-09 15:51:19",
-    "to": "2026-09-18 15:51:00"
-  },
-  {
-    "ts": "2026-09-10T12:19:23+00:00",
-    "ticket_number": 8577,
-    "subject": "Effect request for removal of BDC review:  Res. No. 60142 - Danielle Proffitt - Dreams of Paradise.",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-09 15:00:00 to 2026-09-11 15:00:00",
-    "from": "2026-09-09 15:00:00",
-    "to": "2026-09-11 15:00:00"
-  },
-  {
-    "ts": "2026-09-10T12:19:23+00:00",
-    "ticket_number": 8541,
-    "subject": "Res #: 52252 | Pritchett Darin | Day Dreamer | Communal Pool Out of Service",
-    "type": "reassigned",
-    "detail": "Reassigned from c.hernandez@choosegulfcoast.com to b.zeh@choosegulfcoast.com",
-    "from": "c.hernandez@choosegulfcoast.com",
-    "to": "b.zeh@choosegulfcoast.com"
   }
 ]
