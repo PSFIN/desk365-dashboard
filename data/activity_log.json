@@ -1,5 +1,37 @@
 [
   {
+    "ts": "2026-10-02T13:58:58+00:00",
+    "ticket_number": 9035,
+    "subject": "Thompson Denise | Tidewater Manor | Res #: 56669 |",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-02T13:58:58+00:00",
+    "ticket_number": 8618,
+    "subject": "PCA - Fishtail",
+    "type": "reassigned",
+    "detail": "Reassigned from t.healy@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
+    "from": "t.healy@choosegulfcoast.com",
+    "to": "c.thayer@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-02T13:58:58+00:00",
+    "ticket_number": 8332,
+    "subject": "PCA for Charlotte's Dream Due Date: 9/15/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from t.healy@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
+    "from": "t.healy@choosegulfcoast.com",
+    "to": "c.thayer@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-02T13:58:58+00:00",
+    "ticket_number": 8820,
+    "subject": "City of Bradenton Local Business Tax Receipt (LBTR) - Sans Souci | 2806 Taunton Drive",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-02T07:12:09+00:00",
     "ticket_number": 8960,
     "subject": "zSugar Beach - Minimum Escrow Balance",
@@ -7844,41 +7876,5 @@
     "detail": "Reassigned from c.nutt@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
     "from": "c.nutt@choosegulfcoast.com",
     "to": "h.mcnamara@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-09T21:32:12+00:00",
-    "ticket_number": 8607,
-    "subject": "GBB office shelves",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-08 16:15:00 to 2026-09-12 16:15:00",
-    "from": "2026-09-08 16:15:00",
-    "to": "2026-09-12 16:15:00"
-  },
-  {
-    "ts": "2026-09-09T21:32:12+00:00",
-    "ticket_number": 8330,
-    "subject": "PCA for Golden Beach Haven Due Date: 9/14/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from s.paulin@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
-    "from": "s.paulin@choosegulfcoast.com",
-    "to": "j.rushton@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-09T21:32:12+00:00",
-    "ticket_number": 8322,
-    "subject": "Avalon landscape",
-    "type": "reassigned",
-    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to d.husak@choosegulfcoast.com",
-    "from": "h.mcnamara@choosegulfcoast.com",
-    "to": "d.husak@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-09T21:32:12+00:00",
-    "ticket_number": 8157,
-    "subject": "At Risk Property- Florida Dreams",
-    "type": "reassigned",
-    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to d.husak@choosegulfcoast.com",
-    "from": "h.mcnamara@choosegulfcoast.com",
-    "to": "d.husak@choosegulfcoast.com"
   }
 ]

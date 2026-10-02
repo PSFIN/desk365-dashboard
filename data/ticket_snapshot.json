@@ -1,4 +1,11 @@
 {
+  "9035": {
+    "subject": "Thompson Denise | Tidewater Manor | Res #: 56669 |",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-06 22:00:00",
+    "priority": 1
+  },
   "9033": {
     "subject": "Harrington Richard P./OWNER/ O6ERS/Pool System \u2013 Owner Follow-Up",
     "assigned_to": "d.husak@choosegulfcoast.com",
@@ -461,13 +468,6 @@
     "due_date": "2026-10-02 18:00:00",
     "priority": 1
   },
-  "8820": {
-    "subject": "City of Bradenton Local Business Tax Receipt (LBTR) - Sans Souci | 2806 Taunton Drive",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-30 21:00:00",
-    "priority": 5
-  },
   "8819": {
     "subject": "City of Bradenton VR License - A Wave from it All | 395 Aruba Circle, #203",
     "assigned_to": "l.brigida@choosegulfcoast.com",
@@ -512,7 +512,7 @@
   },
   "8618": {
     "subject": "PCA - Fishtail",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-09 22:00:00",
     "priority": 1
@@ -638,7 +638,7 @@
   },
   "8332": {
     "subject": "PCA for Charlotte's Dream Due Date: 9/15/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-10 22:00:00",
     "priority": 5
