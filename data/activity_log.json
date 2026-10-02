@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-10-02T01:13:17+00:00",
+    "ticket_number": 9034,
+    "subject": "Savchenko Pavel/Gulf & Bay Bayside - 1373/Res #: 45840/ AC issue",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-10-01T21:31:08+00:00",
     "ticket_number": 9033,
     "subject": "Harrington Richard P./OWNER/ O6ERS/Pool System \u2013 Owner Follow-Up",
@@ -7873,13 +7880,6 @@
     "ts": "2026-09-09T21:32:12+00:00",
     "ticket_number": 8516,
     "subject": "Unit: Coral Paradise | Guest Name: Schwab Emily | Exterior Structure / Storm Damage",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-09T21:32:12+00:00",
-    "ticket_number": 8307,
-    "subject": "Leonard Robert | Unit: Links & Leisure | Res #: 52169 | Washer doesn't work",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
