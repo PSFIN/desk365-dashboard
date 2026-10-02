@@ -1,5 +1,35 @@
 [
   {
+    "ts": "2026-10-02T07:12:09+00:00",
+    "ticket_number": 8960,
+    "subject": "zSugar Beach - Minimum Escrow Balance",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-09-30 22:00:00 to 2026-10-05 22:00:00",
+    "from": "2026-09-30 22:00:00",
+    "to": "2026-10-05 22:00:00"
+  },
+  {
+    "ts": "2026-10-02T07:12:09+00:00",
+    "ticket_number": 9034,
+    "subject": "Savchenko Pavel/Gulf & Bay Bayside - 1373/Res #: 45840/ AC issue",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-02T07:12:09+00:00",
+    "ticket_number": 8999,
+    "subject": "Name: Moyer Gregory | Res: 59315 | Cancelled Funds Retained by GC",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-02T07:12:09+00:00",
+    "ticket_number": 8905,
+    "subject": "Be Still Beach Retreat- comforter ARDI",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-02T01:13:17+00:00",
     "ticket_number": 9034,
     "subject": "Savchenko Pavel/Gulf & Bay Bayside - 1373/Res #: 45840/ AC issue",
@@ -7850,37 +7880,5 @@
     "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to d.husak@choosegulfcoast.com",
     "from": "h.mcnamara@choosegulfcoast.com",
     "to": "d.husak@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-09T21:32:12+00:00",
-    "ticket_number": 7951,
-    "subject": "PCA for Villa In The Clouds Due Date: 8/31/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from s.paulin@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
-    "from": "s.paulin@choosegulfcoast.com",
-    "to": "j.rushton@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-09T21:32:12+00:00",
-    "ticket_number": 7015,
-    "subject": "PCA for Array Of Sunshine Due Date: July 8, 2026",
-    "type": "reassigned",
-    "detail": "Reassigned from s.paulin@choosegulfcoast.com to d.husak@choosegulfcoast.com",
-    "from": "s.paulin@choosegulfcoast.com",
-    "to": "d.husak@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-09T21:32:12+00:00",
-    "ticket_number": 8548,
-    "subject": "Pollett Elizabeth/Harbour Happiness/ Res #: 59239/Maintenance & Management Ticket \u2013 Pool Safety Concern",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-09T21:32:12+00:00",
-    "ticket_number": 8516,
-    "subject": "Unit: Coral Paradise | Guest Name: Schwab Emily | Exterior Structure / Storm Damage",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
 ]
