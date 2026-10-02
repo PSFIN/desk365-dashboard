@@ -178,8 +178,11 @@ def force_reinstall_bot(token, catalog_app_id, email):
 
 
 def in_send_window():
+    # Opens at 9:00 ET and stays open for SEND_WINDOW_MINUTES (default 30). The local
+    # launchd runner widens it so a run delayed by the Mac being asleep still sends.
     now_et = datetime.now(EASTERN)
-    return now_et.hour == 9 and now_et.minute < 30
+    minutes_since_9 = (now_et.hour - 9) * 60 + now_et.minute
+    return 0 <= minutes_since_9 < int(os.environ.get("SEND_WINDOW_MINUTES", "30"))
 
 
 def send_reminders(payload):
@@ -197,10 +200,11 @@ def send_reminders(payload):
         return json.loads(r.read())
 
 
-REQUIRED_SETUP_VARS = [
-    "GRAPH_TENANT_ID", "GRAPH_APP_ID", "GRAPH_APP_SECRET",
-    "TEAMS_APP_CATALOG_ID", "REMINDER_WEBHOOK_URL", "REMINDER_WEBHOOK_SECRET",
-]
+REQUIRED_SETUP_VARS = ["REMINDER_WEBHOOK_URL", "REMINDER_WEBHOOK_SECRET"]
+
+# Only needed to auto-install the bot for assignees who've never had it. Without these the
+# install step is skipped, and anyone not already onboarded shows as no_conversation_ref.
+GRAPH_VARS = ["GRAPH_TENANT_ID", "GRAPH_APP_ID", "GRAPH_APP_SECRET", "TEAMS_APP_CATALOG_ID"]
 
 
 def main():
@@ -245,24 +249,35 @@ def main():
         return
 
     if missing:
-        print("Stopping here — can't reach Graph or the bot webhook until the secrets above are set.")
+        print("Stopping here — can't reach the bot webhook until the secrets above are set.")
         return
 
-    print("Ensuring the reminder bot is installed for each assignee…")
-    token = get_graph_token()
-    catalog_app_id = os.environ["TEAMS_APP_CATALOG_ID"]
-    force_reinstall = {
-        e.strip().lower() for e in os.environ.get("FORCE_REINSTALL_EMAILS", "").split(",") if e.strip()
-    }
-    for email in grouped:
-        if email in force_reinstall:
-            ok, info = force_reinstall_bot(token, catalog_app_id, email)
-            info = f"reinstalled, {info}"
-        else:
-            ok, info = ensure_bot_installed(token, catalog_app_id, email)
-        print(f"  {email}: {'ok' if ok else 'FAILED'} ({info})")
-        if not ok:
-            print(f"::warning::Could not install reminder bot for {email}: {info}")
+    if os.environ.get("DRY_RUN", "false").lower() == "true":
+        print("DRY RUN — would send to:")
+        for email, tix in sorted(grouped.items()):
+            print(f"  {email}: {len(tix)} overdue ticket(s)")
+        print("Nothing was sent.")
+        return
+
+    if all(os.environ.get(v) for v in GRAPH_VARS):
+        print("Ensuring the reminder bot is installed for each assignee…")
+        token = get_graph_token()
+        catalog_app_id = os.environ["TEAMS_APP_CATALOG_ID"]
+        force_reinstall = {
+            e.strip().lower() for e in os.environ.get("FORCE_REINSTALL_EMAILS", "").split(",") if e.strip()
+        }
+        for email in grouped:
+            if email in force_reinstall:
+                ok, info = force_reinstall_bot(token, catalog_app_id, email)
+                info = f"reinstalled, {info}"
+            else:
+                ok, info = ensure_bot_installed(token, catalog_app_id, email)
+            print(f"  {email}: {'ok' if ok else 'FAILED'} ({info})")
+            if not ok:
+                print(f"::warning::Could not install reminder bot for {email}: {info}")
+    else:
+        print("Graph credentials not set — skipping auto-install. Anyone who hasn't already "
+              "installed the bot will show as no_conversation_ref below.")
 
     names = fetch_agent_names()
     payload = {

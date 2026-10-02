@@ -120,6 +120,30 @@ mini — not in `teams-bot/` here.** This repo (which syncs via iCloud Drive) is
 updated file to `~/desk365-bot-runtime/bot_service.py` and reload the `botservice` LaunchAgent
 (the tunnel doesn't need restarting for a code-only change).
 
+### 4a. The reminder schedule runs locally, not on GitHub
+
+The Mon/Wed/Fri 9am send is driven by `~/desk365-bot-runtime/run_reminders.sh` via the
+`com.desk365.reminders` LaunchAgent (reference copies in `launchd/`), which calls the bot on
+`localhost:3978` — no tunnel, no GitHub cron. GitHub's scheduler was firing 4–7 hours late
+(so the script's 9am-window check skipped every run) and the quick-tunnel URL it posted to kept
+rotating; running next to the bot removes both. `com.desk365.caffeinate` keeps the Mac from
+idle-sleeping, since a sleeping Mac stops both the bot and the schedule (launchd runs a missed
+9:00 job on wake, and the send window is widened to 3 hours to allow that).
+
+- Dry run (prints who'd be messaged, sends nothing): `DRY_RUN=true bash ~/desk365-bot-runtime/run_reminders.sh`
+- Send now by hand: `SEND_WINDOW_MINUTES=100000 bash ~/desk365-bot-runtime/run_reminders.sh`
+- Log: `~/Library/Logs/desk365-teams-bot/reminders.log`
+- The Cloudflare tunnel is now only needed for onboarding **new** people (Teams' install
+  confirmation reaches `/api/messages` through it) — not for sending to existing ones.
+- Auto-installing the bot for brand-new assignees needs the Graph credentials in `.env`
+  (`GRAPH_TENANT_ID`, `GRAPH_APP_ID`, `GRAPH_APP_SECRET`, `TEAMS_APP_CATALOG_ID`); without them
+  the install step is skipped and new people show as `no_conversation_ref`.
+- The GitHub workflow's schedule is commented out — keep exactly one scheduler active or
+  people get duplicate reminders. `workflow_dispatch` still works for manual runs.
+- **Moving to AWS later:** copy `~/desk365-bot-runtime/` to the instance, recreate the venv,
+  and swap the two LaunchAgents for systemd units (bot + a timer for `run_reminders.sh`).
+  A server with a public IP/domain also replaces the quick tunnel with a stable HTTPS endpoint.
+
 ### 4b. Later: moving to the Windows PC
 
 Same two pieces, same order: install Python 3.11+ and

@@ -1,12 +1,13 @@
 name: Send Overdue Ticket Reminders
 
 on:
-  schedule:
-    # Mon/Wed/Fri only (per Ian's call — daily was expected to get ignored like email).
-    # Runs at both 13:00 and 14:00 UTC so one of them lands at 9am ET year-round
-    # despite the US DST switch; the script checks the real America/New_York clock
-    # and skips the run that's outside the 9am window.
-    - cron: '0 13,14 * * 1,3,5'
+  # The Mon/Wed/Fri 9am schedule now runs locally via launchd (teams-bot/run_reminders.sh,
+  # com.desk365.reminders) — GitHub's cron was firing 4-7 hours late, so the script's 9am-window
+  # check skipped every run, and the quick-tunnel URL this workflow posts to kept rotating.
+  # Re-enable this (and keep exactly one scheduler active, or people get duplicate reminders):
+  #   schedule:
+  #     - cron: '0 13,14 * * 1,3,5'
+  # Manual runs below still work whenever the tunnel URL secret is current.
   workflow_dispatch:
     inputs:
       test_assignee_email:
