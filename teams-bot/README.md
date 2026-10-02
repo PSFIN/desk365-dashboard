@@ -135,6 +135,15 @@ idle-sleeping, since a sleeping Mac stops both the bot and the schedule (launchd
 - Log: `~/Library/Logs/desk365-teams-bot/reminders.log`
 - The Cloudflare tunnel is now only needed for onboarding **new** people (Teams' install
   confirmation reaches `/api/messages` through it) — not for sending to existing ones.
+- **The tunnel is a named Cloudflare tunnel with a permanent address**, replacing the free
+  quick tunnel (random URL that rotated on every restart, and stopped routing entirely on
+  2026-10-02): tunnel `desk365-bot` → `https://desk365-bot.psfinsolutions.com`, config in
+  `~/desk365-bot-runtime/cloudflared-config.yml`, run by the `com.desk365.cloudflaretunnel`
+  LaunchAgent. The Azure Bot messaging endpoint is
+  `https://desk365-bot.psfinsolutions.com/api/messages` and the `REMINDER_WEBHOOK_URL` secret is
+  `https://desk365-bot.psfinsolutions.com` — set once, nothing to update after restarts. It
+  lives on the same Cloudflare account as the separate `gulf-coast-dashboard` tunnel; the two are
+  independent (don't point `~/.cloudflared/config.yml` at this one).
 - Auto-installing the bot for brand-new assignees needs the Graph credentials in `.env`
   (`GRAPH_TENANT_ID`, `GRAPH_APP_ID`, `GRAPH_APP_SECRET`, `TEAMS_APP_CATALOG_ID`); without them
   the install step is skipped and new people show as `no_conversation_ref`.

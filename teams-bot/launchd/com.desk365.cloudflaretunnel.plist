@@ -8,8 +8,10 @@
     <array>
         <string>/opt/homebrew/bin/cloudflared</string>
         <string>tunnel</string>
-        <string>--url</string>
-        <string>http://localhost:3978</string>
+        <string>--config</string>
+        <string>/Users/shinodvengaloor/desk365-bot-runtime/cloudflared-config.yml</string>
+        <string>run</string>
+        <string>desk365-bot</string>
     </array>
     <key>RunAtLoad</key>
     <true/>
