@@ -1,5 +1,19 @@
 [
   {
+    "ts": "2026-10-03T20:25:53+00:00",
+    "ticket_number": 9051,
+    "subject": "sales call | Looking for  a property in lakewood ranch",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-03T20:25:53+00:00",
+    "ticket_number": 9050,
+    "subject": "Guest Name: Speer Gail | Res #: 63389 | Unit: Colony Inn C-14 | Change Unit request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-03T17:42:11+00:00",
     "ticket_number": 9050,
     "subject": "Guest Name: Speer Gail | Res #: 63389 | Unit: Colony Inn C-14 | Change Unit request",
@@ -7832,21 +7846,5 @@
     "subject": "zsunset Splash-owner payment",
     "type": "created",
     "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-10T16:34:48+00:00",
-    "ticket_number": 8726,
-    "subject": "Master Bedroom Door Does Not Lock /Danielle Wilson/ Ocean Eyes",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-10T16:34:48+00:00",
-    "ticket_number": 8723,
-    "subject": "Shore Bet cleaning",
-    "type": "reassigned",
-    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
-    "from": "s.soriafrausto@choosegulfcoast.com",
-    "to": "j.rushton@choosegulfcoast.com"
   }
 ]
