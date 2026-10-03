@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-10-03T23:13:38+00:00",
+    "ticket_number": 9052,
+    "subject": "Possible Lead | Diane Schroeder",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-10-03T20:25:53+00:00",
     "ticket_number": 9051,
     "subject": "sales call | Looking for  a property in lakewood ranch",
@@ -7839,12 +7846,5 @@
     "subject": "Sales & Tourist Tax Remittance - August 2026",
     "type": "created",
     "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-10T16:34:48+00:00",
-    "ticket_number": 8727,
-    "subject": "zsunset Splash-owner payment",
-    "type": "created",
-    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
   }
 ]
