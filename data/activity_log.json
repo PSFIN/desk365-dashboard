@@ -1,5 +1,56 @@
 [
   {
+    "ts": "2026-10-03T17:42:11+00:00",
+    "ticket_number": 9050,
+    "subject": "Guest Name: Speer Gail | Res #: 63389 | Unit: Colony Inn C-14 | Change Unit request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-03T17:42:11+00:00",
+    "ticket_number": 9049,
+    "subject": "Carmona Newton | Unit: Birdie | Res #: 61948 | Reimbursement for pool days",
+    "type": "created",
+    "detail": "Created \u2014 assigned to m.eronico@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-03T17:42:11+00:00",
+    "ticket_number": 9048,
+    "subject": "Change requested: Modify dates in ABB",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-03T17:42:11+00:00",
+    "ticket_number": 9047,
+    "subject": "Change requested: New dates, Oct 4 \u2013 23, 2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-03T17:42:11+00:00",
+    "ticket_number": 9046,
+    "subject": "1260 broken fridge shelf-ARDI?",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.thayer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-03T17:42:11+00:00",
+    "ticket_number": 9044,
+    "subject": "#1339 Guest bath sink stopper",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-07 20:33:24 to 2026-10-17 20:33:00",
+    "from": "2026-10-07 20:33:24",
+    "to": "2026-10-17 20:33:00"
+  },
+  {
+    "ts": "2026-10-03T17:42:11+00:00",
+    "ticket_number": 8737,
+    "subject": "Carmona Newton | Unit: Birdie | Res #: 61948 | Multiple Issues",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-02T23:06:46+00:00",
     "ticket_number": 9044,
     "subject": "#1339 Guest bath sink stopper",
@@ -7797,68 +7848,5 @@
     "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
     "from": "s.soriafrausto@choosegulfcoast.com",
     "to": "j.rushton@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-10T16:34:48+00:00",
-    "ticket_number": 8715,
-    "subject": "YCA Booking #1908 Refund check # 7383",
-    "type": "reassigned",
-    "detail": "Reassigned from h.nomura@choosegulfcoast.com to a.ytac@choosegulfcoast.com",
-    "from": "h.nomura@choosegulfcoast.com",
-    "to": "a.ytac@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-10T16:34:48+00:00",
-    "ticket_number": 8706,
-    "subject": "A Shore Thing - Deep clean",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-14 14:08:51 to 2026-09-19 14:08:00",
-    "from": "2026-09-14 14:08:51",
-    "to": "2026-09-19 14:08:00"
-  },
-  {
-    "ts": "2026-09-10T16:34:48+00:00",
-    "ticket_number": 8705,
-    "subject": "Sunset Splash-comp pool",
-    "type": "reassigned",
-    "detail": "Reassigned from m.johnston@choosegulfcoast.com to e.morales@choosegulfcoast.com",
-    "from": "m.johnston@choosegulfcoast.com",
-    "to": "e.morales@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-10T16:34:48+00:00",
-    "ticket_number": 8705,
-    "subject": "Sunset Splash-comp pool",
-    "type": "priority_changed",
-    "detail": "Priority changed from 1 to 10",
-    "from": 1,
-    "to": 10
-  },
-  {
-    "ts": "2026-09-10T16:34:48+00:00",
-    "ticket_number": 8672,
-    "subject": "Harrell Matthew | Unit: Sans Souci |  Res #: 62332 | AC is not working",
-    "type": "reassigned",
-    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to c.hernandez@choosegulfcoast.com",
-    "from": "s.soriafrausto@choosegulfcoast.com",
-    "to": "c.hernandez@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-10T16:34:48+00:00",
-    "ticket_number": 8632,
-    "subject": "Res. No. 44009 - Kathleen Donnelly - Oakwater Escape  - star rating: 3",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-08 20:09:36 to 2026-09-11 20:09:00",
-    "from": "2026-09-08 20:09:36",
-    "to": "2026-09-11 20:09:00"
-  },
-  {
-    "ts": "2026-09-10T16:34:48+00:00",
-    "ticket_number": 8541,
-    "subject": "Res #: 52252 | Pritchett Darin | Day Dreamer | Communal Pool Out of Service",
-    "type": "reassigned",
-    "detail": "Reassigned from b.zeh@choosegulfcoast.com to c.hernandez@choosegulfcoast.com",
-    "from": "b.zeh@choosegulfcoast.com",
-    "to": "c.hernandez@choosegulfcoast.com"
   }
 ]

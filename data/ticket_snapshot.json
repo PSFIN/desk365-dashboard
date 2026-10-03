@@ -1,9 +1,44 @@
 {
+  "9050": {
+    "subject": "Guest Name: Speer Gail | Res #: 63389 | Unit: Colony Inn C-14 | Change Unit request",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-07 22:00:00",
+    "priority": 1
+  },
+  "9049": {
+    "subject": "Carmona Newton | Unit: Birdie | Res #: 61948 | Reimbursement for pool days",
+    "assigned_to": "m.eronico@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-07 22:00:00",
+    "priority": 1
+  },
+  "9048": {
+    "subject": "Change requested: Modify dates in ABB",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-07 22:00:00",
+    "priority": 1
+  },
+  "9047": {
+    "subject": "Change requested: New dates, Oct 4 \u2013 23, 2026",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-07 22:00:00",
+    "priority": 1
+  },
+  "9046": {
+    "subject": "1260 broken fridge shelf-ARDI?",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-07 22:00:00",
+    "priority": 5
+  },
   "9044": {
     "subject": "#1339 Guest bath sink stopper",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-07 20:33:24",
+    "due_date": "2026-10-17 20:33:00",
     "priority": 10
   },
   "9043": {
@@ -467,13 +502,6 @@
     "status": "Open",
     "due_date": "2026-10-24 16:53:00",
     "priority": 10
-  },
-  "8737": {
-    "subject": "Carmona Newton | Unit: Birdie | Res #: 61948 | Multiple Issues",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-02 20:33:00",
-    "priority": 1
   },
   "8683": {
     "subject": "Name: ippolito barbara | Res: 51748 |  Hold Distribution of Cancelled Reservation Funds",
