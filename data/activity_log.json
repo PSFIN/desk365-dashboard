@@ -1,5 +1,30 @@
 [
   {
+    "ts": "2026-10-04T14:53:52+00:00",
+    "ticket_number": 9036,
+    "subject": "Tedford Jim & Diane | YCBR 24B | Res #: 33956",
+    "type": "reassigned",
+    "detail": "Reassigned from h.nomura@choosegulfcoast.com to c.hernandez@choosegulfcoast.com",
+    "from": "h.nomura@choosegulfcoast.com",
+    "to": "c.hernandez@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-04T14:53:52+00:00",
+    "ticket_number": 9036,
+    "subject": "Tedford Jim & Diane | YCBR 24B | Res #: 33956",
+    "type": "status_changed",
+    "detail": "Status changed from Open to Pending",
+    "from": "Open",
+    "to": "Pending"
+  },
+  {
+    "ts": "2026-10-04T14:53:52+00:00",
+    "ticket_number": 9047,
+    "subject": "Change requested: New dates, Oct 4 \u2013 23, 2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-04T09:11:42+00:00",
     "ticket_number": 9053,
     "subject": "Unit: GBB 1240 | Guest: Olha | Res #: 58850 | A/C and Fans not working, window blind broken",
@@ -7829,26 +7854,5 @@
     "subject": "The Duffers Retreat-PCA deep clean",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-10T19:24:17+00:00",
-    "ticket_number": 8188,
-    "subject": "Casa de Suenos-guest smoking in property",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-10T19:24:17+00:00",
-    "ticket_number": 7949,
-    "subject": "PCA for Dreams Of Paradise Due Date: 8/26/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-10T16:34:48+00:00",
-    "ticket_number": 8731,
-    "subject": "Signal Inn Landscape lighting",
-    "type": "created",
-    "detail": "Created \u2014 assigned to l.costa@choosegulfcoast.com, status Open"
   }
 ]

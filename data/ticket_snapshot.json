@@ -34,13 +34,6 @@
     "due_date": "2026-10-07 22:00:00",
     "priority": 1
   },
-  "9047": {
-    "subject": "Change requested: New dates, Oct 4 \u2013 23, 2026",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-07 22:00:00",
-    "priority": 1
-  },
   "9046": {
     "subject": "1260 broken fridge shelf-ARDI?",
     "assigned_to": "c.thayer@choosegulfcoast.com",
@@ -99,8 +92,8 @@
   },
   "9036": {
     "subject": "Tedford Jim & Diane | YCBR 24B | Res #: 33956",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Pending",
     "due_date": "2026-10-07 14:26:28",
     "priority": 1
   },
