@@ -1,4 +1,18 @@
 {
+  "9064": {
+    "subject": "Deactivating Property :  Royal Oasis",
+    "assigned_to": "a.guarin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-07 22:00:00",
+    "priority": 1
+  },
+  "9063": {
+    "subject": "Valenzia Jane/O6ERS/Res #: 60705/Late Check-out",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-07 22:00:00",
+    "priority": 5
+  },
   "9062": {
     "subject": "WO #42138313 Missing Invoice Number",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
@@ -484,7 +498,7 @@
   },
   "8857": {
     "subject": "Add Property to Manatee Tourist Development Tax Umbrella : Tee Time - 19116 Scallop Loop, #105",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-04 17:29:00",
     "priority": 10
@@ -561,7 +575,7 @@
   },
   "8618": {
     "subject": "PCA - Fishtail",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-09 22:00:00",
     "priority": 1
@@ -687,7 +701,7 @@
   },
   "8332": {
     "subject": "PCA for Charlotte's Dream Due Date: 9/15/2026",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-10 22:00:00",
     "priority": 5
@@ -764,7 +778,7 @@
   },
   "7405": {
     "subject": "Marriott Curation Rejected - Signal Inn 02",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "assigned_to": "i.yates@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-02 21:00:00",
     "priority": 5
@@ -773,14 +787,14 @@
     "subject": "Marriott Curation Rejected - Signal inn 03",
     "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-02 15:28:00",
+    "due_date": "2026-10-09 15:28:00",
     "priority": 5
   },
   "7396": {
     "subject": "Marriott Curation Rejected - Signal Inn 18",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-02 15:06:00",
+    "due_date": "2026-10-09 15:06:00",
     "priority": 5
   },
   "7361": {
