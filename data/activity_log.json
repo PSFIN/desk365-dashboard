@@ -1,5 +1,23 @@
 [
   {
+    "ts": "2026-10-04T09:11:42+00:00",
+    "ticket_number": 9053,
+    "subject": "Unit: GBB 1240 | Guest: Olha | Res #: 58850 | A/C and Fans not working, window blind broken",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-07 22:00:00 to 2026-10-06 18:00:00",
+    "from": "2026-10-07 22:00:00",
+    "to": "2026-10-06 18:00:00"
+  },
+  {
+    "ts": "2026-10-04T09:11:42+00:00",
+    "ticket_number": 9053,
+    "subject": "Unit: GBB 1240 | Guest: Olha | Res #: 58850 | A/C and Fans not working, window blind broken",
+    "type": "priority_changed",
+    "detail": "Priority changed from 1 to 20",
+    "from": 1,
+    "to": 20
+  },
+  {
     "ts": "2026-10-04T02:47:09+00:00",
     "ticket_number": 9053,
     "subject": "Unit: GBB 1240 | Guest: Olha | Res #: 58850 | A/C and Fans not working, window blind broken",
@@ -7832,19 +7850,5 @@
     "subject": "Signal Inn Landscape lighting",
     "type": "created",
     "detail": "Created \u2014 assigned to l.costa@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-10T16:34:48+00:00",
-    "ticket_number": 8730,
-    "subject": "Wilson Danielle | Ocean Eyes | Res #: 55819 | Guest Bathroom Locked out",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-10T16:34:48+00:00",
-    "ticket_number": 8729,
-    "subject": "City of Bradenton Vacation Rental License - Unincorporated Manatee County",
-    "type": "created",
-    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
   }
 ]
