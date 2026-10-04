@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-10-04T02:47:09+00:00",
+    "ticket_number": 9053,
+    "subject": "Unit: GBB 1240 | Guest: Olha | Res #: 58850 | A/C and Fans not working, window blind broken",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.nutt@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-10-03T23:13:38+00:00",
     "ticket_number": 9052,
     "subject": "Possible Lead | Diane Schroeder",
@@ -7837,13 +7844,6 @@
     "ts": "2026-09-10T16:34:48+00:00",
     "ticket_number": 8729,
     "subject": "City of Bradenton Vacation Rental License - Unincorporated Manatee County",
-    "type": "created",
-    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-10T16:34:48+00:00",
-    "ticket_number": 8728,
-    "subject": "Sales & Tourist Tax Remittance - August 2026",
     "type": "created",
     "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
   }
