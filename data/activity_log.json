@@ -1,5 +1,169 @@
 [
   {
+    "ts": "2026-10-05T14:08:37+00:00",
+    "ticket_number": 9075,
+    "subject": "GBB Walk Through Videos",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-05T14:08:37+00:00",
+    "ticket_number": 9074,
+    "subject": "Guest Name: Freidus Susan| Booking number:  6744639990 | Guest would like to cancel for free",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-05T14:08:37+00:00",
+    "ticket_number": 9071,
+    "subject": "Possible Guest/Cleo Brown/Pearl In The Rough/VRBO Guest Requests / Inquiries",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to m.omasdang@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "m.omasdang@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-05T14:08:37+00:00",
+    "ticket_number": 9067,
+    "subject": "Capozzolo Maria/Ocean Eyes/Res #: 57563/Electric Kettle Request",
+    "type": "reassigned",
+    "detail": "Reassigned from j.rushton@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "j.rushton@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-05T14:08:37+00:00",
+    "ticket_number": 9036,
+    "subject": "Tedford Jim & Diane | YCBR 24B | Res #: 33956",
+    "type": "status_changed",
+    "detail": "Status changed from Pending to Open",
+    "from": "Pending",
+    "to": "Open"
+  },
+  {
+    "ts": "2026-10-05T14:08:37+00:00",
+    "ticket_number": 9004,
+    "subject": "5 Star Review Feedback | Res #59332 | Torretto Jeff | Signal Inn - Unit 12 | 9/25/2026-9/29/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-05 14:56:31 to 2026-10-07 17:00:00",
+    "from": "2026-10-05 14:56:31",
+    "to": "2026-10-07 17:00:00"
+  },
+  {
+    "ts": "2026-10-05T14:08:37+00:00",
+    "ticket_number": 8998,
+    "subject": "Easy Does It- elock",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-05T14:08:37+00:00",
+    "ticket_number": 8985,
+    "subject": "3 Star Review Feedback | Res #58387 | Keen Melissa | Signal Inn - Unit 10 | 8/25/2026-9/1/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from n.ventura@choosegulfcoast.com to e.buchanan@choosegulfcoast.com",
+    "from": "n.ventura@choosegulfcoast.com",
+    "to": "e.buchanan@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-05T14:08:37+00:00",
+    "ticket_number": 8956,
+    "subject": "4 Star Review Feedback | Res #57554 | Ellis Jonathan | Signal Inn - Unit 16 | 9/16/2026-9/22/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-05 22:00:00 to 2026-10-06 22:00:00",
+    "from": "2026-10-05 22:00:00",
+    "to": "2026-10-06 22:00:00"
+  },
+  {
+    "ts": "2026-10-05T14:08:37+00:00",
+    "ticket_number": 8868,
+    "subject": "Boardwalk benches",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-05 22:00:00 to 2026-10-09 22:00:00",
+    "from": "2026-10-05 22:00:00",
+    "to": "2026-10-09 22:00:00"
+  },
+  {
+    "ts": "2026-10-05T14:08:37+00:00",
+    "ticket_number": 8825,
+    "subject": "Sliding door lock project",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-05 15:51:00 to 2026-10-08 15:51:00",
+    "from": "2026-10-05 15:51:00",
+    "to": "2026-10-08 15:51:00"
+  },
+  {
+    "ts": "2026-10-05T14:08:37+00:00",
+    "ticket_number": 7810,
+    "subject": "New photos GBB1275",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-05 20:09:00 to 2026-10-06 20:09:00",
+    "from": "2026-10-05 20:09:00",
+    "to": "2026-10-06 20:09:00"
+  },
+  {
+    "ts": "2026-10-05T14:08:37+00:00",
+    "ticket_number": 7405,
+    "subject": "Marriott Curation Rejected - Signal Inn 02",
+    "type": "reassigned",
+    "detail": "Reassigned from i.yates@choosegulfcoast.com to b.meyer@choosegulfcoast.com",
+    "from": "i.yates@choosegulfcoast.com",
+    "to": "b.meyer@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-05T14:08:37+00:00",
+    "ticket_number": 7405,
+    "subject": "Marriott Curation Rejected - Signal Inn 02",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-02 21:00:00 to 2026-10-09 21:00:00",
+    "from": "2026-10-02 21:00:00",
+    "to": "2026-10-09 21:00:00"
+  },
+  {
+    "ts": "2026-10-05T14:08:37+00:00",
+    "ticket_number": 9023,
+    "subject": "Test 1234",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-05T14:08:37+00:00",
+    "ticket_number": 8994,
+    "subject": "HADFIELD JOSEPH/Signal Inn - Unit 13/Res #: 57023/Fan in the family room",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-05T14:08:37+00:00",
+    "ticket_number": 8992,
+    "subject": "Price Projection",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-05T14:08:37+00:00",
+    "ticket_number": 8970,
+    "subject": "4 Star Review Feedback | Res #61101 |  Gauvin-Bottorf Diane | Signal Inn - Unit 4 | 9/25/2026-9/28/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-05T14:08:37+00:00",
+    "ticket_number": 8885,
+    "subject": "5 Star Review Feedback | Res #53585 | Lawson Stephen & Catherine | Signal Inn - Unit 10 | 9/7/2026-9/14/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-05T14:08:37+00:00",
+    "ticket_number": 8624,
+    "subject": "Guest Name: Tresalus Jorwina |  Res #: 62207 | Unit: Southern Exposure | Stolen money",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-05T05:59:33+00:00",
     "ticket_number": 9073,
     "subject": "5 Star Review Feedback | Res #54089 | Solt John | The Cortusa | 6/17/2026-10/2/2026",
@@ -7696,163 +7860,5 @@
     "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
     "from": "h.mcnamara@choosegulfcoast.com",
     "to": "j.rushton@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-11T16:39:06+00:00",
-    "ticket_number": 8322,
-    "subject": "Avalon landscape",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-10 22:00:00 to 2026-10-15 22:00:00",
-    "from": "2026-09-10 22:00:00",
-    "to": "2026-10-15 22:00:00"
-  },
-  {
-    "ts": "2026-09-11T16:39:06+00:00",
-    "ticket_number": 8740,
-    "subject": "Pedraza Dax/Signal Inn - Unit 16/Res #: 60684/Wifi and exterior entrance light not working",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-11T16:39:06+00:00",
-    "ticket_number": 8738,
-    "subject": "Name: Kathy & Tom Kuzma  | Res: 33981 | YCBR Deposit Refund Request",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-11T16:39:06+00:00",
-    "ticket_number": 8725,
-    "subject": "Check Refund | Res #57666 | wagner Greg | Gulf & Bay Bayside - 1200",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-11T16:39:06+00:00",
-    "ticket_number": 8705,
-    "subject": "Sunset Splash-comp pool",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-11T16:39:06+00:00",
-    "ticket_number": 8663,
-    "subject": "SF beach equipment safety stock replenishment",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-11T16:39:06+00:00",
-    "ticket_number": 8632,
-    "subject": "Res. No. 44009 - Kathleen Donnelly - Oakwater Escape  - star rating: 3",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-11T16:39:06+00:00",
-    "ticket_number": 8557,
-    "subject": "Name: Rick Rath | Res: 60890 | Cancelled 50% Retained - OTA",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-11T12:16:43+00:00",
-    "ticket_number": 8736,
-    "subject": "5 Star Review Feedback | Res #: 58384 | Douglass Romy | Turtle House | 9/3/2026-9/7/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
-    "from": "s.soriafrausto@choosegulfcoast.com",
-    "to": "h.mcnamara@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-11T12:16:43+00:00",
-    "ticket_number": 8701,
-    "subject": "Ksonshkevych Tetiana/Gulf & Bay Bayside - 1260/  Res #: 58424/Goodwill Gesture",
-    "type": "reassigned",
-    "detail": "Reassigned from c.nutt@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
-    "from": "c.nutt@choosegulfcoast.com",
-    "to": "j.rushton@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-11T12:16:43+00:00",
-    "ticket_number": 8693,
-    "subject": "Birdie - Owner charge",
-    "type": "reassigned",
-    "detail": "Reassigned from e.morales@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
-    "from": "e.morales@choosegulfcoast.com",
-    "to": "h.mcnamara@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-11T12:16:43+00:00",
-    "ticket_number": 8621,
-    "subject": "PCA - Sunny Retreat",
-    "type": "reassigned",
-    "detail": "Reassigned from s.paulin@choosegulfcoast.com to d.husak@choosegulfcoast.com",
-    "from": "s.paulin@choosegulfcoast.com",
-    "to": "d.husak@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-11T07:23:20+00:00",
-    "ticket_number": 8740,
-    "subject": "Pedraza Dax/Signal Inn - Unit 16/Res #: 60684/Wifi and exterior entrance light not working",
-    "type": "created",
-    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-11T07:23:20+00:00",
-    "ticket_number": 8621,
-    "subject": "PCA - Sunny Retreat",
-    "type": "reassigned",
-    "detail": "Reassigned from t.healy@choosegulfcoast.com to s.paulin@choosegulfcoast.com",
-    "from": "t.healy@choosegulfcoast.com",
-    "to": "s.paulin@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-11T07:23:20+00:00",
-    "ticket_number": 8721,
-    "subject": "zGulf & Bay Bayside - 1341 Previous Owner | Owner Income Documentation Request for IRS",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-11T07:23:20+00:00",
-    "ticket_number": 8684,
-    "subject": "Name: Wilkes Minnie | Res: 53113 | Cancelled Funds Retained by GC",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-11T02:22:48+00:00",
-    "ticket_number": 8739,
-    "subject": "GBB1327 - Update photos",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-11T02:22:48+00:00",
-    "ticket_number": 8701,
-    "subject": "Ksonshkevych Tetiana/Gulf & Bay Bayside - 1260/  Res #: 58424/Goodwill Gesture",
-    "type": "reassigned",
-    "detail": "Reassigned from j.rushton@choosegulfcoast.com to c.nutt@choosegulfcoast.com",
-    "from": "j.rushton@choosegulfcoast.com",
-    "to": "c.nutt@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-11T02:22:48+00:00",
-    "ticket_number": 8037,
-    "subject": "Qualify for ARDI?",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-10 22:00:00 to 2026-09-11 22:00:00",
-    "from": "2026-09-10 22:00:00",
-    "to": "2026-09-11 22:00:00"
-  },
-  {
-    "ts": "2026-09-11T02:22:48+00:00",
-    "ticket_number": 7361,
-    "subject": "PCA for Gulf & Bay Bayside - 1350 Due Date: 7/30/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-10 17:00:00 to 2026-09-11 17:00:00",
-    "from": "2026-09-10 17:00:00",
-    "to": "2026-09-11 17:00:00"
   }
 ]

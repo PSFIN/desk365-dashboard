@@ -1,4 +1,18 @@
 {
+  "9075": {
+    "subject": "GBB Walk Through Videos",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-07 22:00:00",
+    "priority": 1
+  },
+  "9074": {
+    "subject": "Guest Name: Freidus Susan| Booking number:  6744639990 | Guest would like to cancel for free",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-07 22:00:00",
+    "priority": 1
+  },
   "9073": {
     "subject": "5 Star Review Feedback | Res #54089 | Solt John | The Cortusa | 6/17/2026-10/2/2026",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
@@ -15,7 +29,7 @@
   },
   "9071": {
     "subject": "Possible Guest/Cleo Brown/Pearl In The Rough/VRBO Guest Requests / Inquiries",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "m.omasdang@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-07 22:00:00",
     "priority": 1
@@ -43,7 +57,7 @@
   },
   "9067": {
     "subject": "Capozzolo Maria/Ocean Eyes/Res #: 57563/Electric Kettle Request",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-07 22:00:00",
     "priority": 1
@@ -191,7 +205,7 @@
   "9036": {
     "subject": "Tedford Jim & Diane | YCBR 24B | Res #: 33956",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Pending",
+    "status": "Open",
     "due_date": "2026-10-07 14:26:28",
     "priority": 1
   },
@@ -235,13 +249,6 @@
     "assigned_to": "n.armstrong@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-06 16:47:38",
-    "priority": 1
-  },
-  "9023": {
-    "subject": "Test 1234",
-    "assigned_to": "b.evans@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-06 15:35:02",
     "priority": 1
   },
   "9022": {
@@ -297,7 +304,7 @@
     "subject": "5 Star Review Feedback | Res #59332 | Torretto Jeff | Signal Inn - Unit 12 | 9/25/2026-9/29/2026",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-05 14:56:31",
+    "due_date": "2026-10-07 17:00:00",
     "priority": 1
   },
   "9003": {
@@ -316,24 +323,10 @@
   },
   "8998": {
     "subject": "Easy Does It- elock",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-02 22:00:00",
     "priority": 1
-  },
-  "8994": {
-    "subject": "HADFIELD JOSEPH/Signal Inn - Unit 13/Res #: 57023/Fan in the family room",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-02 22:00:00",
-    "priority": 1
-  },
-  "8992": {
-    "subject": "Price Projection",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-02 19:29:16",
-    "priority": 5
   },
   "8991": {
     "subject": "Paraclete Paradise-PCA DC",
@@ -358,7 +351,7 @@
   },
   "8985": {
     "subject": "3 Star Review Feedback | Res #58387 | Keen Melissa | Signal Inn - Unit 10 | 8/25/2026-9/1/2026",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "assigned_to": "e.buchanan@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-02 16:45:07",
     "priority": 1
@@ -375,13 +368,6 @@
     "assigned_to": "m.eronico@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-02 18:42:47",
-    "priority": 1
-  },
-  "8970": {
-    "subject": "4 Star Review Feedback | Res #61101 |  Gauvin-Bottorf Diane | Signal Inn - Unit 4 | 9/25/2026-9/28/2026",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-01 17:45:21",
     "priority": 1
   },
   "8965": {
@@ -409,7 +395,7 @@
     "subject": "4 Star Review Feedback | Res #57554 | Ellis Jonathan | Signal Inn - Unit 16 | 9/16/2026-9/22/2026",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-05 22:00:00",
+    "due_date": "2026-10-06 22:00:00",
     "priority": 1
   },
   "8951": {
@@ -489,18 +475,11 @@
     "due_date": "2026-10-06 18:45:00",
     "priority": 5
   },
-  "8885": {
-    "subject": "5 Star Review Feedback | Res #53585 | Lawson Stephen & Catherine | Signal Inn - Unit 10 | 9/7/2026-9/14/2026",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-06 22:00:00",
-    "priority": 1
-  },
   "8868": {
     "subject": "Boardwalk benches",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-05 22:00:00",
+    "due_date": "2026-10-09 22:00:00",
     "priority": 1
   },
   "8867": {
@@ -577,7 +556,7 @@
     "subject": "Sliding door lock project",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-05 15:51:00",
+    "due_date": "2026-10-08 15:51:00",
     "priority": 1
   },
   "8821": {
@@ -620,13 +599,6 @@
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-06 17:39:00",
-    "priority": 10
-  },
-  "8624": {
-    "subject": "Guest Name: Tresalus Jorwina |  Res #: 62207 | Unit: Southern Exposure | Stolen money",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-07 15:51:00",
     "priority": 10
   },
   "8618": {
@@ -801,7 +773,7 @@
     "subject": "New photos GBB1275",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-05 20:09:00",
+    "due_date": "2026-10-06 20:09:00",
     "priority": 1
   },
   "7800": {
@@ -834,9 +806,9 @@
   },
   "7405": {
     "subject": "Marriott Curation Rejected - Signal Inn 02",
-    "assigned_to": "i.yates@choosegulfcoast.com",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-02 21:00:00",
+    "due_date": "2026-10-09 21:00:00",
     "priority": 5
   },
   "7397": {
