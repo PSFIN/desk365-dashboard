@@ -1,5 +1,19 @@
 [
   {
+    "ts": "2026-10-05T00:21:28+00:00",
+    "ticket_number": 9065,
+    "subject": "Mielenz Laurel/Waterfront Dreamin/Res #: 53170/AC issue",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-05T00:21:28+00:00",
+    "ticket_number": 9056,
+    "subject": "\"Post Arrival - Unit: A Shore Thing - Res #:  56578",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-10-04T21:48:51+00:00",
     "ticket_number": 9064,
     "subject": "Deactivating Property :  Royal Oasis",
@@ -7850,20 +7864,6 @@
     "ts": "2026-09-10T21:43:50+00:00",
     "ticket_number": 8730,
     "subject": "Wilson Danielle | Ocean Eyes | Res #: 55819 | Guest Bathroom Locked out",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-10T21:43:50+00:00",
-    "ticket_number": 8715,
-    "subject": "YCA Booking #1908 Refund check # 7383",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-10T21:43:50+00:00",
-    "ticket_number": 8620,
-    "subject": "PCA - La Vida Loca",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }

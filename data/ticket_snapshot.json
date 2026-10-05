@@ -1,4 +1,11 @@
 {
+  "9065": {
+    "subject": "Mielenz Laurel/Waterfront Dreamin/Res #: 53170/AC issue",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-07 22:00:00",
+    "priority": 1
+  },
   "9064": {
     "subject": "Deactivating Property :  Royal Oasis",
     "assigned_to": "a.guarin@choosegulfcoast.com",
@@ -33,6 +40,13 @@
     "status": "Open",
     "due_date": "2026-10-07 22:00:00",
     "priority": 1
+  },
+  "9056": {
+    "subject": "\"Post Arrival - Unit: A Shore Thing - Res #:  56578",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-07 22:00:00",
+    "priority": 5
   },
   "9053": {
     "subject": "Unit: GBB 1240 | Guest: Olha | Res #: 58850 | A/C and Fans not working, window blind broken",
