@@ -1,5 +1,84 @@
 [
   {
+    "ts": "2026-10-05T05:59:33+00:00",
+    "ticket_number": 9073,
+    "subject": "5 Star Review Feedback | Res #54089 | Solt John | The Cortusa | 6/17/2026-10/2/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-05T05:59:33+00:00",
+    "ticket_number": 9072,
+    "subject": "3 Star Review Feedback | Res #54612 | Patterson Robert | Golden Beach #1 | 9/26/2026-10/3/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to l.costa@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-05T05:59:33+00:00",
+    "ticket_number": 9071,
+    "subject": "Possible Guest/Cleo Brown/Pearl In The Rough/VRBO Guest Requests / Inquiries",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.husak@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-05T05:59:33+00:00",
+    "ticket_number": 9070,
+    "subject": "5 Star Review Feedback | Res #61908 | Hulchuk Olha | Beach House Residences Unit 1 | 9/28/2026-10/2/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-05T05:59:33+00:00",
+    "ticket_number": 9069,
+    "subject": "Schulte Kristina/Gulf & Bay Bayside - 1269/ Res #: 36955/ Cancellation Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-05T05:59:33+00:00",
+    "ticket_number": 9068,
+    "subject": "Capozzolo Maria/Ocean Eyes/Res #: 57563/Balcony Roller Curtain Not Working Properly",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-05T05:59:33+00:00",
+    "ticket_number": 9067,
+    "subject": "Capozzolo Maria/Ocean Eyes/Res #: 57563/Electric Kettle Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-05T05:59:33+00:00",
+    "ticket_number": 9066,
+    "subject": "Mielenz Laurel/Waterfront Dreamin/Ceiling Fan not working",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-05T05:59:33+00:00",
+    "ticket_number": 8624,
+    "subject": "Guest Name: Tresalus Jorwina |  Res #: 62207 | Unit: Southern Exposure | Stolen money",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-05 15:51:00 to 2026-10-07 15:51:00",
+    "from": "2026-10-05 15:51:00",
+    "to": "2026-10-07 15:51:00"
+  },
+  {
+    "ts": "2026-10-05T05:59:33+00:00",
+    "ticket_number": 9065,
+    "subject": "Mielenz Laurel/Waterfront Dreamin/Res #: 53170/AC issue",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-05T05:59:33+00:00",
+    "ticket_number": 8987,
+    "subject": "fireside cottage -owner min",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-05T00:21:28+00:00",
     "ticket_number": 9065,
     "subject": "Mielenz Laurel/Waterfront Dreamin/Res #: 53170/AC issue",
@@ -7775,96 +7854,5 @@
     "detail": "Due date changed from 2026-09-10 17:00:00 to 2026-09-11 17:00:00",
     "from": "2026-09-10 17:00:00",
     "to": "2026-09-11 17:00:00"
-  },
-  {
-    "ts": "2026-09-10T23:35:54+00:00",
-    "ticket_number": 8731,
-    "subject": "Signal Inn Landscape lighting",
-    "type": "reassigned",
-    "detail": "Reassigned from l.costa@choosegulfcoast.com to n.ventura@choosegulfcoast.com",
-    "from": "l.costa@choosegulfcoast.com",
-    "to": "n.ventura@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-10T21:43:50+00:00",
-    "ticket_number": 8738,
-    "subject": "Name: Kathy & Tom Kuzma  | Res: 33981 | YCBR Deposit Refund Request",
-    "type": "created",
-    "detail": "Created \u2014 assigned to k.fisher@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-10T21:43:50+00:00",
-    "ticket_number": 8737,
-    "subject": "Carmona Newton | Unit: Birdie | Res #: 61948 | Multiple Issues",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-10T21:43:50+00:00",
-    "ticket_number": 8736,
-    "subject": "5 Star Review Feedback | Res #: 58384 | Douglass Romy | Turtle House | 9/3/2026-9/7/2026",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-10T21:43:50+00:00",
-    "ticket_number": 8725,
-    "subject": "Check Refund | Res #57666 | wagner Greg | Gulf & Bay Bayside - 1200",
-    "type": "reassigned",
-    "detail": "Reassigned from k.zeh@choosegulfcoast.com to k.fisher@choosegulfcoast.com",
-    "from": "k.zeh@choosegulfcoast.com",
-    "to": "k.fisher@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-10T21:43:50+00:00",
-    "ticket_number": 8723,
-    "subject": "Shore Bet cleaning",
-    "type": "reassigned",
-    "detail": "Reassigned from j.rushton@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
-    "from": "j.rushton@choosegulfcoast.com",
-    "to": "s.soriafrausto@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-10T21:43:50+00:00",
-    "ticket_number": 8687,
-    "subject": "Kedrych Alisa/Gulf & Bay Bayside - 1291/ Res #: 59049/AC Issues and Microwave",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-11 18:00:00 to 2026-09-12 18:00:00",
-    "from": "2026-09-11 18:00:00",
-    "to": "2026-09-12 18:00:00"
-  },
-  {
-    "ts": "2026-09-10T21:43:50+00:00",
-    "ticket_number": 8685,
-    "subject": "Rodriguez Geraldine | Res #: 60982 | Beach House Residences Unit 1 | Feedback",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-10 17:26:41 to 2026-09-12 17:26:00",
-    "from": "2026-09-10 17:26:41",
-    "to": "2026-09-12 17:26:00"
-  },
-  {
-    "ts": "2026-09-10T21:43:50+00:00",
-    "ticket_number": 8621,
-    "subject": "PCA - Sunny Retreat",
-    "type": "reassigned",
-    "detail": "Reassigned from c.thayer@choosegulfcoast.com to t.healy@choosegulfcoast.com",
-    "from": "c.thayer@choosegulfcoast.com",
-    "to": "t.healy@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-10T21:43:50+00:00",
-    "ticket_number": 8007,
-    "subject": "Rising tides- pool deck, chairs, couch and window",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-02 19:46:00 to 2026-09-14 19:46:00",
-    "from": "2026-09-02 19:46:00",
-    "to": "2026-09-14 19:46:00"
-  },
-  {
-    "ts": "2026-09-10T21:43:50+00:00",
-    "ticket_number": 8730,
-    "subject": "Wilson Danielle | Ocean Eyes | Res #: 55819 | Guest Bathroom Locked out",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
 ]
