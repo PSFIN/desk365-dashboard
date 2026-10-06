@@ -1,4 +1,88 @@
 {
+  "9112": {
+    "subject": "Chaplin Astgik | Unit: Gulf & Bay Bayside - 1358 |  Res #: 46700 | Clogged Guest Bathroom",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-09 15:27:46",
+    "priority": 1
+  },
+  "9111": {
+    "subject": "Colony Inn Unit Descriptions",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-09 14:39:03",
+    "priority": 1
+  },
+  "9110": {
+    "subject": "City of Sarasota VR License - Beautiful Bayou | 2124 North Tamiami Trail",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-09 14:33:06",
+    "priority": 10
+  },
+  "9109": {
+    "subject": "City of Sarasota VR License - Admirals Watch | 1703 North Tamiami Trail, B503",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-09 14:05:07",
+    "priority": 10
+  },
+  "9106": {
+    "subject": "Sandpebble 1D Description",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-09 14:00:52",
+    "priority": 1
+  },
+  "9104": {
+    "subject": "Longboat Oasis - Statement correction",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-08 22:00:00",
+    "priority": 1
+  },
+  "9103": {
+    "subject": "Tropical Escape - New photos",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-08 22:00:00",
+    "priority": 1
+  },
+  "9101": {
+    "subject": "Ocean Eyes - Celebration",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-08 22:00:00",
+    "priority": 1
+  },
+  "9098": {
+    "subject": "wall mounted hose holder",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-08 22:00:00",
+    "priority": 1
+  },
+  "9097": {
+    "subject": "Tee Time and fore Season- 2nd code",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-08 22:00:00",
+    "priority": 10
+  },
+  "9096": {
+    "subject": "Res #: 53462| Unit: Signal Inn - Unit 17| Guest Name: Savage Lisa| shower handle is loose",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-08 22:00:00",
+    "priority": 1
+  },
+  "9095": {
+    "subject": "Request for cancellation due to low rate: A Shore Thing Res #: 64168",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-08 22:00:00",
+    "priority": 10
+  },
   "9094": {
     "subject": "Crocker Julie/ Colony Inn C-13/ Res #: 63210/Maintenance \u2013 Bed/Bedroom",
     "assigned_to": "marcie@choosegulfcoast.com",
@@ -55,13 +139,6 @@
     "due_date": "2026-10-12 17:30:00",
     "priority": 5
   },
-  "9084": {
-    "subject": "GBB 1291 | Missing Fire Extinguisher",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-08 17:30:12",
-    "priority": 1
-  },
   "9083": {
     "subject": "Glen McGlinchey",
     "assigned_to": "b.evans@choosegulfcoast.com",
@@ -99,9 +176,9 @@
   },
   "9078": {
     "subject": "Grand Getaway- install pool lights.",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-08 15:20:56",
+    "due_date": "2026-10-07 16:00:00",
     "priority": 1
   },
   "9077": {
@@ -141,7 +218,7 @@
   },
   "9071": {
     "subject": "Possible Guest/Cleo Brown/Pearl In The Rough/VRBO Guest Requests / Inquiries",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "m.omasdang@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-08 16:21:07",
     "priority": 1
@@ -157,7 +234,7 @@
     "subject": "Capozzolo Maria/Ocean Eyes/Res #: 57563/Balcony Roller Curtain Not Working Properly",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-07 22:00:00",
+    "due_date": "2026-10-10 22:00:00",
     "priority": 1
   },
   "9067": {
@@ -171,7 +248,7 @@
     "subject": "Mielenz Laurel/Waterfront Dreamin/Ceiling Fan not working",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-07 22:00:00",
+    "due_date": "2026-10-08 22:00:00",
     "priority": 1
   },
   "9064": {
@@ -183,14 +260,14 @@
   },
   "9062": {
     "subject": "WO #42138313 Missing Invoice Number",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-07 22:00:00",
     "priority": 1
   },
   "9061": {
     "subject": "Missing Invoice Number - Manny's Pools LLC",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-07 22:00:00",
     "priority": 1
@@ -225,7 +302,7 @@
   },
   "9044": {
     "subject": "#1339 Guest bath sink stopper",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "c.nutt@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-17 20:33:00",
     "priority": 10
@@ -265,23 +342,16 @@
     "due_date": "2026-10-07 15:13:43",
     "priority": 1
   },
-  "9033": {
-    "subject": "Harrington Richard P./OWNER/ O6ERS/Pool System \u2013 Owner Follow-Up",
-    "assigned_to": "d.husak@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-06 21:15:34",
-    "priority": 1
-  },
   "9032": {
     "subject": "Business Cards - Nik Ventura",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-06 20:51:49",
+    "due_date": "2026-10-09 20:51:00",
     "priority": 5
   },
   "9030": {
     "subject": "Fire Extinguisher for Villa Milano",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-06 19:53:07",
     "priority": 1
@@ -318,7 +388,7 @@
     "subject": "Bosqui Frank/Villa Milano/Res #: 59277/Spa/Pool Control Complaints",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-05 22:00:00",
+    "due_date": "2026-10-09 22:00:00",
     "priority": 1
   },
   "9014": {
@@ -382,13 +452,6 @@
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-02 18:23:11",
-    "priority": 1
-  },
-  "8985": {
-    "subject": "3 Star Review Feedback | Res #58387 | Keen Melissa | Signal Inn - Unit 10 | 8/25/2026-9/1/2026",
-    "assigned_to": "e.buchanan@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-02 16:45:07",
     "priority": 1
   },
   "8978": {
@@ -507,7 +570,7 @@
     "subject": "Core Values Poster",
     "assigned_to": "e.buchanan@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-06 18:45:00",
+    "due_date": "2026-10-09 18:45:00",
     "priority": 5
   },
   "8868": {
@@ -542,21 +605,21 @@
     "subject": "City of Bradenton VR License - Florida Dreams | 4457 45th Avenue West, #110",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-06 15:55:00",
+    "due_date": "2026-10-09 15:55:00",
     "priority": 20
   },
   "8860": {
     "subject": "City of Bradenton VR License - Don't Worry Beach Happy | 502 Sanderling Circle",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-06 15:43:00",
+    "due_date": "2026-10-09 15:43:00",
     "priority": 20
   },
   "8859": {
     "subject": "City of Bradenton VR License - Blossom Retreat | 7333 Skybird Road",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-06 15:30:00",
+    "due_date": "2026-10-09 15:30:00",
     "priority": 20
   },
   "8857": {
@@ -713,13 +776,6 @@
     "due_date": "2026-12-31 21:09:00",
     "priority": 5
   },
-  "8435": {
-    "subject": "Williams Jamie | Res #: 57053 | Ocean Eyes | Celebration Requests",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-05 22:00:00",
-    "priority": 1
-  },
   "8410": {
     "subject": "YCBR Photo shoot",
     "assigned_to": "j.rushton@choosegulfcoast.com",
@@ -857,7 +913,7 @@
     "subject": "Marriott Curation Rejected - Tropical Escape",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-07 22:00:00",
+    "due_date": "2026-10-12 22:00:00",
     "priority": 5
   },
   "7323": {
@@ -869,9 +925,9 @@
   },
   "7156": {
     "subject": "PCA for Don't Worry Beach Happy Due Date: 7/15/2026",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "t.healy@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-02 22:00:00",
+    "due_date": "2026-10-12 22:00:00",
     "priority": 5
   },
   "7027": {
