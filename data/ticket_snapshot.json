@@ -132,6 +132,13 @@
     "due_date": "2026-10-07 22:00:00",
     "priority": 1
   },
+  "9071": {
+    "subject": "Possible Guest/Cleo Brown/Pearl In The Rough/VRBO Guest Requests / Inquiries",
+    "assigned_to": "d.husak@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-08 16:21:07",
+    "priority": 1
+  },
   "9070": {
     "subject": "5 Star Review Feedback | Res #61908 | Hulchuk Olha | Beach House Residences Unit 1 | 9/28/2026-10/2/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
@@ -215,13 +222,6 @@
     "status": "Open",
     "due_date": "2026-10-17 20:33:00",
     "priority": 10
-  },
-  "9043": {
-    "subject": "Add map showing distance to the beach - Tidewater manor",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-07 18:16:10",
-    "priority": 1
   },
   "9042": {
     "subject": "Guest Name: Bosqui Frank | Res #: 59277 | Unit: Villa Milano",
@@ -619,7 +619,7 @@
     "subject": "Update website team photos",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-06 17:39:00",
+    "due_date": "2026-10-09 17:39:00",
     "priority": 10
   },
   "8618": {

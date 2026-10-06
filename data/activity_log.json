@@ -1,5 +1,28 @@
 [
   {
+    "ts": "2026-10-06T02:00:08+00:00",
+    "ticket_number": 9071,
+    "subject": "Possible Guest/Cleo Brown/Pearl In The Rough/VRBO Guest Requests / Inquiries",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.husak@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-06T02:00:08+00:00",
+    "ticket_number": 8628,
+    "subject": "Update website team photos",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-06 17:39:00 to 2026-10-09 17:39:00",
+    "from": "2026-10-06 17:39:00",
+    "to": "2026-10-09 17:39:00"
+  },
+  {
+    "ts": "2026-10-06T02:00:08+00:00",
+    "ticket_number": 9043,
+    "subject": "Add map showing distance to the beach - Tidewater manor",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-05T21:32:39+00:00",
     "ticket_number": 9093,
     "subject": "Kilthau Gerald & Jean/Palm Meadow/Res #: 62255/Electronic Door Lock / Wi-Fi Connectivity",
@@ -7845,30 +7868,5 @@
     "subject": "Post-Arrival Concerns: Coffee Machine Issue and Pool Cleanliness-Unit: Coastal Oasis",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-12T17:35:28+00:00",
-    "ticket_number": 8766,
-    "subject": "Wise Kimberly | Res #: 62494 | Sandalfoot 3C2 | Modification",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-12T17:35:28+00:00",
-    "ticket_number": 8765,
-    "subject": "Post-Arrival Concerns: Coffee Machine Issue and Pool Cleanliness-Unit: Coastal Oasis",
-    "type": "reassigned",
-    "detail": "Reassigned from c.thayer@choosegulfcoast.com to m.eronico@choosegulfcoast.com",
-    "from": "c.thayer@choosegulfcoast.com",
-    "to": "m.eronico@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-12T17:35:28+00:00",
-    "ticket_number": 8586,
-    "subject": "Boardwalk Shell station",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-11 20:41:00 to 2026-09-15 20:41:00",
-    "from": "2026-09-11 20:41:00",
-    "to": "2026-09-15 20:41:00"
   }
 ]
