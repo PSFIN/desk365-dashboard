@@ -1,24 +1,31 @@
 {
+  "9126": {
+    "subject": "GBB1371 - Statement correction",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-09 22:00:00",
+    "priority": 1
+  },
+  "9125": {
+    "subject": "Gedarevich David/Lido Del Mare/Res #: 63850/Back door Lock Issue",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-09 22:00:00",
+    "priority": 10
+  },
+  "9124": {
+    "subject": "Business card for Sandra Soria Frausto",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-08 17:18:00",
+    "priority": 20
+  },
   "9123": {
     "subject": "Jorge Varon | Beach Bungalow | Security Deposit",
     "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-09 20:39:33",
     "priority": 1
-  },
-  "9122": {
-    "subject": "Signal Inn Unit 14 / Statement Correction",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-09 20:39:27",
-    "priority": 10
-  },
-  "9121": {
-    "subject": "Signal Inn Unit 10 / Statement Correction",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-09 20:36:17",
-    "priority": 10
   },
   "9120": {
     "subject": "GBB - 1328 | Carpet stain",
@@ -300,13 +307,6 @@
     "due_date": "2026-10-10 22:00:00",
     "priority": 1
   },
-  "9067": {
-    "subject": "Capozzolo Maria/Ocean Eyes/Res #: 57563/Electric Kettle Request",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-07 22:00:00",
-    "priority": 1
-  },
   "9066": {
     "subject": "Mielenz Laurel/Waterfront Dreamin/Ceiling Fan not working",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
@@ -339,7 +339,7 @@
     "subject": "Unit: GBB 1240 | Guest: Olha | Res #: 58850 | A/C and Fans not working, window blind broken",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-06 18:00:00",
+    "due_date": "2026-10-07 18:00:00",
     "priority": 20
   },
   "9049": {
@@ -433,13 +433,6 @@
     "due_date": "2026-10-08 20:31:00",
     "priority": 1
   },
-  "9013": {
-    "subject": "Sandy Pointe - Lynx",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-06 17:46:00",
-    "priority": 1
-  },
   "9004": {
     "subject": "5 Star Review Feedback | Res #59332 | Torretto Jeff | Signal Inn - Unit 12 | 9/25/2026-9/29/2026",
     "assigned_to": "n.ventura@choosegulfcoast.com",
@@ -500,7 +493,7 @@
     "subject": "zSugar Beach - Minimum Escrow Balance",
     "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-05 22:00:00",
+    "due_date": "2026-10-09 22:00:00",
     "priority": 1
   },
   "8959": {
@@ -530,13 +523,6 @@
     "status": "Open",
     "due_date": "2026-09-29 22:00:00",
     "priority": 1
-  },
-  "8942": {
-    "subject": "Dreams of Paradise-Lamp and table",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-06 18:49:00",
-    "priority": 10
   },
   "8939": {
     "subject": "4 Star Review Feedback | Res #63355 | Oliver Sarah | Sandalfoot 3B2 | 9/19/2026-9/22/2026",
@@ -668,7 +654,7 @@
     "subject": "City of Bradenton VR License - A Wave from it All | 395 Aruba Circle, #203",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-06 21:00:00",
+    "due_date": "2026-10-12 21:00:00",
     "priority": 20
   },
   "8754": {
