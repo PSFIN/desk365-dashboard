@@ -1,5 +1,99 @@
 [
   {
+    "ts": "2026-10-07T23:57:35+00:00",
+    "ticket_number": 9152,
+    "subject": "Bourgeois Yvon/The Cortusa/Res #: 32428/Fridge Filter Replacement",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-07T23:57:35+00:00",
+    "ticket_number": 9140,
+    "subject": "Tochinskiy Daniel | Enjoy Sarasota | Res #: 61561 | Washer Issue",
+    "type": "reassigned",
+    "detail": "Reassigned from a.maboloc@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "a.maboloc@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-07T23:57:35+00:00",
+    "ticket_number": 9130,
+    "subject": "West James | Southern Comfort | Res #: 33775 | Pool Heat On",
+    "type": "reassigned",
+    "detail": "Reassigned from j.messasierra@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "j.messasierra@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-07T23:57:35+00:00",
+    "ticket_number": 9070,
+    "subject": "5 Star Review Feedback | Res #61908 | Hulchuk Olha | Beach House Residences Unit 1 | 9/28/2026-10/2/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from j.messasierra@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
+    "from": "j.messasierra@choosegulfcoast.com",
+    "to": "j.rushton@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-07T23:57:35+00:00",
+    "ticket_number": 9042,
+    "subject": "Guest Name: Bosqui Frank | Res #: 59277 | Unit: Villa Milano",
+    "type": "reassigned",
+    "detail": "Reassigned from j.messasierra@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "j.messasierra@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-07T23:57:35+00:00",
+    "ticket_number": 8856,
+    "subject": "DR-11 Form : Tee Time | 19116 Scallop Loop, #105",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-07 21:00:00 to 2026-10-12 21:00:00",
+    "from": "2026-10-07 21:00:00",
+    "to": "2026-10-12 21:00:00"
+  },
+  {
+    "ts": "2026-10-07T23:57:35+00:00",
+    "ticket_number": 9131,
+    "subject": "Tropical Escape - Cancel owner clean",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-07T23:57:35+00:00",
+    "ticket_number": 9040,
+    "subject": "POST ARRIVAL CALL: Guest Name: Akers Gary | Res #: 54910 | Unit: Driftwood Dreams",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-07T23:57:35+00:00",
+    "ticket_number": 9029,
+    "subject": "Easy Does it-Fire extinguisher",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-07T23:57:35+00:00",
+    "ticket_number": 8857,
+    "subject": "Add Property to Manatee Tourist Development Tax Umbrella : Tee Time - 19116 Scallop Loop, #105",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-07T23:57:35+00:00",
+    "ticket_number": 8728,
+    "subject": "Sales & Tourist Tax Remittance - August 2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-07T23:57:35+00:00",
+    "ticket_number": 8628,
+    "subject": "Update website team photos",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-07T19:40:03+00:00",
     "ticket_number": 9151,
     "subject": "Tropical Escape - Cleaning",
@@ -7764,91 +7858,5 @@
     "subject": "Henefelt Niko/Sandalfoot 5A1/  Res #: 58707/Starter Pack - Bathroom",
     "type": "created",
     "detail": "Created \u2014 assigned to a.dallman@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-16T05:36:15+00:00",
-    "ticket_number": 8793,
-    "subject": "Res #: 63056| Unit: Sandy Pointe| Guest Name: Snow Jackson | ECI inquiry",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-15T22:35:56+00:00",
-    "ticket_number": 8810,
-    "subject": "Robin Marin/Coldwell Banker/ GBB 1200G",
-    "type": "created",
-    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-15T22:35:56+00:00",
-    "ticket_number": 8809,
-    "subject": "Request: Tee Time & Fore Seasons in Calusa \u2013 October Rental with Pets",
-    "type": "created",
-    "detail": "Created \u2014 assigned to d.husak@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-15T22:35:56+00:00",
-    "ticket_number": 8808,
-    "subject": "Schaffer Nicole/ Colony Inn C-45/ Res #: 63086/ Risk for an unauthorized event",
-    "type": "created",
-    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-15T22:35:56+00:00",
-    "ticket_number": 8807,
-    "subject": "Looking for A property Management/Owner",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.vandroff@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-15T22:35:56+00:00",
-    "ticket_number": 8729,
-    "subject": "City of Bradenton Vacation Rental License - Unincorporated Manatee County",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-15 21:00:00 to 2026-09-20 21:00:00",
-    "from": "2026-09-15 21:00:00",
-    "to": "2026-09-20 21:00:00"
-  },
-  {
-    "ts": "2026-09-15T22:35:56+00:00",
-    "ticket_number": 8768,
-    "subject": "McNeill Connie | Unit: Loggerhead Cay #183 | Res #: 56061 | Broken Fan",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-15T22:35:56+00:00",
-    "ticket_number": 8728,
-    "subject": "Sales & Tourist Tax Remittance - August 2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-15T22:35:56+00:00",
-    "ticket_number": 8367,
-    "subject": "Sarasota Tourist Development Tax Update : New Online Reporting Platform Coming in September",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-15T19:45:49+00:00",
-    "ticket_number": 8806,
-    "subject": "Linda Bourgeois |  Res #: 63059 | Cancellation Request",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-15T19:45:49+00:00",
-    "ticket_number": 8805,
-    "subject": "3 Star Review Feedback | Res #: 58164 | Texeira Mayra | Sandalfoot 3B2 | 9/4/2026-9/7/2026",
-    "type": "created",
-    "detail": "Created \u2014 assigned to n.armstrong@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-15T19:45:49+00:00",
-    "ticket_number": 8804,
-    "subject": "3 Star Review Feedback | Res #: 60080 | Padilla Marie | Blue Dolphin | 9/4/2026-9/7/2026",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
   }
 ]

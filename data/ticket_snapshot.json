@@ -1,4 +1,11 @@
 {
+  "9152": {
+    "subject": "Bourgeois Yvon/The Cortusa/Res #: 32428/Fridge Filter Replacement",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-12 20:33:45",
+    "priority": 1
+  },
   "9151": {
     "subject": "Tropical Escape - Cleaning",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
@@ -71,7 +78,7 @@
   },
   "9140": {
     "subject": "Tochinskiy Daniel | Enjoy Sarasota | Res #: 61561 | Washer Issue",
-    "assigned_to": "a.maboloc@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-12 14:54:45",
     "priority": 1
@@ -125,16 +132,9 @@
     "due_date": "2026-10-12 14:14:15",
     "priority": 1
   },
-  "9131": {
-    "subject": "Tropical Escape - Cancel owner clean",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-09 22:00:00",
-    "priority": 1
-  },
   "9130": {
     "subject": "West James | Southern Comfort | Res #: 33775 | Pool Heat On",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-09 22:00:00",
     "priority": 1
@@ -365,7 +365,7 @@
   },
   "9070": {
     "subject": "5 Star Review Feedback | Res #61908 | Hulchuk Olha | Beach House Residences Unit 1 | 9/28/2026-10/2/2026",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-12 22:00:00",
     "priority": 1
@@ -407,7 +407,7 @@
   },
   "9042": {
     "subject": "Guest Name: Bosqui Frank | Res #: 59277 | Unit: Villa Milano",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-07 18:03:38",
     "priority": 1
@@ -419,26 +419,12 @@
     "due_date": "2026-10-08 17:55:00",
     "priority": 1
   },
-  "9040": {
-    "subject": "POST ARRIVAL CALL: Guest Name: Akers Gary | Res #: 54910 | Unit: Driftwood Dreams",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-08 17:18:00",
-    "priority": 1
-  },
   "9039": {
     "subject": "Sales & Tourist Tax Remittance - September 2026",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-12 16:56:00",
     "priority": 10
-  },
-  "9029": {
-    "subject": "Easy Does it-Fire extinguisher",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-06 18:56:23",
-    "priority": 5
   },
   "9026": {
     "subject": "4 Star Review Feedback | Res #56449 | Blumenthal Edwin | Sandalfoot 1B1 | 9/12/2026-9/22/2026",
@@ -622,18 +608,11 @@
     "due_date": "2026-10-09 15:30:00",
     "priority": 20
   },
-  "8857": {
-    "subject": "Add Property to Manatee Tourist Development Tax Umbrella : Tee Time - 19116 Scallop Loop, #105",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-07 21:00:00",
-    "priority": 10
-  },
   "8856": {
     "subject": "DR-11 Form : Tee Time | 19116 Scallop Loop, #105",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-07 21:00:00",
+    "due_date": "2026-10-12 21:00:00",
     "priority": 10
   },
   "8830": {
@@ -664,26 +643,12 @@
     "due_date": "2026-10-24 16:53:00",
     "priority": 10
   },
-  "8728": {
-    "subject": "Sales & Tourist Tax Remittance - August 2026",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-07 21:00:00",
-    "priority": 1
-  },
   "8683": {
     "subject": "Name: ippolito barbara | Res: 51748 |  Hold Distribution of Cancelled Reservation Funds",
     "assigned_to": "a.ytac@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-30 17:06:00",
     "priority": 1
-  },
-  "8628": {
-    "subject": "Update website team photos",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-09 17:39:00",
-    "priority": 10
   },
   "8618": {
     "subject": "PCA - Fishtail",
