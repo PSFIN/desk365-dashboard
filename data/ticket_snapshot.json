@@ -1,4 +1,18 @@
 {
+  "9130": {
+    "subject": "West James | Southern Comfort | Res #: 33775 | Pool Heat On",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-09 22:00:00",
+    "priority": 1
+  },
+  "9129": {
+    "subject": "Family Tides - Temp Lynx code",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-09 22:00:00",
+    "priority": 1
+  },
   "9126": {
     "subject": "GBB1371 - Statement correction",
     "assigned_to": "e.morales@choosegulfcoast.com",
@@ -48,16 +62,9 @@
     "due_date": "2026-10-09 19:10:56",
     "priority": 10
   },
-  "9116": {
-    "subject": "Charlottes Dream-owner coming in early",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-09 19:01:19",
-    "priority": 10
-  },
   "9115": {
     "subject": "Outstanding Work Order, Invoice or Pending Charges - zBeach Bungalow | 646 E Bird Bay Dr",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-09 17:34:20",
     "priority": 1
@@ -131,13 +138,6 @@
     "status": "Open",
     "due_date": "2026-10-08 22:00:00",
     "priority": 1
-  },
-  "9097": {
-    "subject": "Tee Time and fore Season- 2nd code",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-08 22:00:00",
-    "priority": 10
   },
   "9096": {
     "subject": "Res #: 53462| Unit: Signal Inn - Unit 17| Guest Name: Savage Lisa| shower handle is loose",
@@ -330,7 +330,7 @@
   },
   "9060": {
     "subject": "WO #41832271 Missing Invoice Number",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-07 22:00:00",
     "priority": 1
@@ -365,7 +365,7 @@
   },
   "9042": {
     "subject": "Guest Name: Bosqui Frank | Res #: 59277 | Unit: Villa Milano",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-07 18:03:38",
     "priority": 1
@@ -381,7 +381,7 @@
     "subject": "POST ARRIVAL CALL: Guest Name: Akers Gary | Res #: 54910 | Unit: Driftwood Dreams",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-07 17:18:02",
+    "due_date": "2026-10-08 17:18:00",
     "priority": 1
   },
   "9039": {
@@ -451,7 +451,7 @@
     "subject": "Easy Does It- elock",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-02 22:00:00",
+    "due_date": "2026-10-09 22:00:00",
     "priority": 1
   },
   "8991": {
@@ -482,13 +482,6 @@
     "due_date": "2026-10-02 14:09:33",
     "priority": 10
   },
-  "8965": {
-    "subject": "4 Star Review Feedback | Res #62969 | 62969 | Signal Inn - Unit 19 | 9/20/2026-9/25/2026",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-06 14:11:00",
-    "priority": 1
-  },
   "8960": {
     "subject": "zSugar Beach - Minimum Escrow Balance",
     "assigned_to": "e.morales@choosegulfcoast.com",
@@ -501,13 +494,6 @@
     "assigned_to": "b.evans@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-30 22:00:00",
-    "priority": 1
-  },
-  "8956": {
-    "subject": "4 Star Review Feedback | Res #57554 | Ellis Jonathan | Signal Inn - Unit 16 | 9/16/2026-9/22/2026",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-06 22:00:00",
     "priority": 1
   },
   "8951": {
@@ -640,7 +626,7 @@
     "subject": "Pellito Laurie/Signal Inn - Unit 14/Signal Inn - Unit 14/Property Feedback",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-06 21:13:00",
+    "due_date": "2026-10-09 21:13:00",
     "priority": 1
   },
   "8825": {
@@ -703,7 +689,7 @@
     "subject": "Boardwalk Shell station",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-07 20:41:00",
+    "due_date": "2026-10-10 20:41:00",
     "priority": 1
   },
   "8575": {
@@ -883,7 +869,7 @@
   },
   "7396": {
     "subject": "Marriott Curation Rejected - Signal Inn 18",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-09 15:06:00",
     "priority": 5
