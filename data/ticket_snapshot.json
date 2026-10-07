@@ -1,7 +1,140 @@
 {
+  "9151": {
+    "subject": "Tropical Escape - Cleaning",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-12 19:32:35",
+    "priority": 1
+  },
+  "9150": {
+    "subject": "Cart abandonment email automation",
+    "assigned_to": "e.buchanan@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-12 18:49:15",
+    "priority": 5
+  },
+  "9149": {
+    "subject": "Name: Perez Gilberto | Res: 64154 | Property: Colony Inn C-06 | Cancelled 50% Retained - OTA",
+    "assigned_to": "a.ytac@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-12 16:23:58",
+    "priority": 1
+  },
+  "9148": {
+    "subject": "Lido Del Mare - Info sheet",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-12 15:48:02",
+    "priority": 1
+  },
+  "9147": {
+    "subject": "Longboat Dream - Info sheet",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-12 15:47:19",
+    "priority": 1
+  },
+  "9146": {
+    "subject": "Longboat Oasis - Info sheet",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-12 15:46:04",
+    "priority": 1
+  },
+  "9145": {
+    "subject": "GBB1328 - Deep clean",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-12 15:43:51",
+    "priority": 1
+  },
+  "9144": {
+    "subject": "GBB1350 - Deep clean",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-12 15:43:22",
+    "priority": 1
+  },
+  "9142": {
+    "subject": "OffBoard - William Wright",
+    "assigned_to": "b.evans@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-08 19:24:52",
+    "priority": 20
+  },
+  "9141": {
+    "subject": "New Hire - Christopher Zepeda",
+    "assigned_to": "b.evans@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-12 15:22:19",
+    "priority": 5
+  },
+  "9140": {
+    "subject": "Tochinskiy Daniel | Enjoy Sarasota | Res #: 61561 | Washer Issue",
+    "assigned_to": "a.maboloc@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-12 14:54:45",
+    "priority": 1
+  },
+  "9139": {
+    "subject": "Seaduced - Info sheet",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-12 14:21:43",
+    "priority": 1
+  },
+  "9138": {
+    "subject": "Gulf Horizon - Info sheet",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-12 14:21:11",
+    "priority": 1
+  },
+  "9137": {
+    "subject": "Beach House Residences - Info sheet",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-12 14:20:22",
+    "priority": 1
+  },
+  "9136": {
+    "subject": "Sunset Reflections - Info Sheet",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-12 14:19:24",
+    "priority": 1
+  },
+  "9135": {
+    "subject": "Birdie - Info sheet",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-12 14:17:28",
+    "priority": 1
+  },
+  "9134": {
+    "subject": "Residences of Siesta Key - Info Sheet",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-12 14:16:31",
+    "priority": 1
+  },
+  "9133": {
+    "subject": "Ocean Eyes Info sheet",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-12 14:14:15",
+    "priority": 1
+  },
+  "9131": {
+    "subject": "Tropical Escape - Cancel owner clean",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-09 22:00:00",
+    "priority": 1
+  },
   "9130": {
     "subject": "West James | Southern Comfort | Res #: 33775 | Pool Heat On",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-09 22:00:00",
     "priority": 1
@@ -13,26 +146,12 @@
     "due_date": "2026-10-09 22:00:00",
     "priority": 1
   },
-  "9126": {
-    "subject": "GBB1371 - Statement correction",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-09 22:00:00",
-    "priority": 1
-  },
   "9125": {
     "subject": "Gedarevich David/Lido Del Mare/Res #: 63850/Back door Lock Issue",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-09 22:00:00",
     "priority": 10
-  },
-  "9124": {
-    "subject": "Business card for Sandra Soria Frausto",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-08 17:18:00",
-    "priority": 20
   },
   "9123": {
     "subject": "Jorge Varon | Beach Bungalow | Security Deposit",
@@ -45,7 +164,7 @@
     "subject": "GBB - 1328 | Carpet stain",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-09 20:00:57",
+    "due_date": "2026-10-16 20:00:00",
     "priority": 1
   },
   "9119": {
@@ -54,20 +173,6 @@
     "status": "Open",
     "due_date": "2026-10-08 15:35:04",
     "priority": 20
-  },
-  "9118": {
-    "subject": "rent rev",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-09 19:10:56",
-    "priority": 10
-  },
-  "9115": {
-    "subject": "Outstanding Work Order, Invoice or Pending Charges - zBeach Bungalow | 646 E Bird Bay Dr",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-09 17:34:20",
-    "priority": 1
   },
   "9114": {
     "subject": "Name: Freidus Susan | Res: 54145 | Cancelled 50% Retained - OTA",
@@ -111,13 +216,6 @@
     "due_date": "2026-10-09 14:05:07",
     "priority": 10
   },
-  "9104": {
-    "subject": "Longboat Oasis - Statement correction",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-08 22:00:00",
-    "priority": 1
-  },
   "9103": {
     "subject": "Tropical Escape - New photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
@@ -128,13 +226,6 @@
   "9101": {
     "subject": "Ocean Eyes - Celebration",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-08 22:00:00",
-    "priority": 1
-  },
-  "9098": {
-    "subject": "wall mounted hose holder",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-08 22:00:00",
     "priority": 1
@@ -152,13 +243,6 @@
     "status": "Open",
     "due_date": "2026-10-08 22:00:00",
     "priority": 10
-  },
-  "9094": {
-    "subject": "Crocker Julie/ Colony Inn C-13/ Res #: 63210/Maintenance \u2013 Bed/Bedroom",
-    "assigned_to": "marcie@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-08 22:00:00",
-    "priority": 1
   },
   "9093": {
     "subject": "Kilthau Gerald & Jean/Palm Meadow/Res #: 62255/Electronic Door Lock / Wi-Fi Connectivity",
@@ -208,20 +292,6 @@
     "status": "Open",
     "due_date": "2026-10-12 17:30:00",
     "priority": 5
-  },
-  "9083": {
-    "subject": "Glen McGlinchey",
-    "assigned_to": "b.evans@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-08 17:29:24",
-    "priority": 10
-  },
-  "9082": {
-    "subject": "NPG Commission Charge Res #64082 Sandalfoot 4B1",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-08 17:29:05",
-    "priority": 10
   },
   "9081": {
     "subject": "Bellevue | Missing Fire Extinguisher",
@@ -295,9 +365,9 @@
   },
   "9070": {
     "subject": "5 Star Review Feedback | Res #61908 | Hulchuk Olha | Beach House Residences Unit 1 | 9/28/2026-10/2/2026",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-07 22:00:00",
+    "due_date": "2026-10-12 22:00:00",
     "priority": 1
   },
   "9068": {
@@ -314,20 +384,6 @@
     "due_date": "2026-10-08 22:00:00",
     "priority": 1
   },
-  "9062": {
-    "subject": "WO #42138313 Missing Invoice Number",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-07 22:00:00",
-    "priority": 1
-  },
-  "9061": {
-    "subject": "Missing Invoice Number - Manny's Pools LLC",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-07 22:00:00",
-    "priority": 1
-  },
   "9060": {
     "subject": "WO #41832271 Missing Invoice Number",
     "assigned_to": "e.morales@choosegulfcoast.com",
@@ -339,29 +395,15 @@
     "subject": "Unit: GBB 1240 | Guest: Olha | Res #: 58850 | A/C and Fans not working, window blind broken",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-07 18:00:00",
+    "due_date": "2026-10-10 18:00:00",
     "priority": 20
-  },
-  "9049": {
-    "subject": "Carmona Newton | Unit: Birdie | Res #: 61948 | Reimbursement for pool days",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-07 22:00:00",
-    "priority": 1
   },
   "9046": {
     "subject": "1260 broken fridge shelf-ARDI?",
     "assigned_to": "c.nutt@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-07 22:00:00",
+    "due_date": "2026-10-14 22:00:00",
     "priority": 5
-  },
-  "9044": {
-    "subject": "#1339 Guest bath sink stopper",
-    "assigned_to": "c.nutt@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-17 20:33:00",
-    "priority": 10
   },
   "9042": {
     "subject": "Guest Name: Bosqui Frank | Res #: 59277 | Unit: Villa Milano",
@@ -372,14 +414,14 @@
   },
   "9041": {
     "subject": "New photos",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "assigned_to": "n.armstrong@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-08 17:55:00",
     "priority": 1
   },
   "9040": {
     "subject": "POST ARRIVAL CALL: Guest Name: Akers Gary | Res #: 54910 | Unit: Driftwood Dreams",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-08 17:18:00",
     "priority": 1
@@ -405,16 +447,9 @@
     "due_date": "2026-10-06 16:47:38",
     "priority": 1
   },
-  "9022": {
-    "subject": "Name: Rios Michele | Res: 62197 | Compensation",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-06 15:00:28",
-    "priority": 1
-  },
   "9021": {
     "subject": "Shower Glass - Rental insurance claim",
-    "assigned_to": "n.armstrong@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-05 22:00:00",
     "priority": 10
@@ -439,13 +474,6 @@
     "status": "Open",
     "due_date": "2026-10-07 17:00:00",
     "priority": 1
-  },
-  "9002": {
-    "subject": "New Hire - Platform Access - Melissa De Sales",
-    "assigned_to": "b.evans@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-05 14:47:15",
-    "priority": 10
   },
   "8998": {
     "subject": "Easy Does It- elock",
@@ -489,26 +517,12 @@
     "due_date": "2026-10-09 22:00:00",
     "priority": 1
   },
-  "8959": {
-    "subject": "PETSMART 0306 | Voicemails to my direct line",
-    "assigned_to": "b.evans@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-30 22:00:00",
-    "priority": 1
-  },
   "8951": {
     "subject": "Sanibel HOA Email",
     "assigned_to": "b.evans@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-09-30 17:29:57",
     "priority": 5
-  },
-  "8945": {
-    "subject": "Add Final Due Date Information on the Agreement Document",
-    "assigned_to": "b.evans@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-29 22:00:00",
-    "priority": 1
   },
   "8939": {
     "subject": "4 Star Review Feedback | Res #63355 | Oliver Sarah | Sandalfoot 3B2 | 9/19/2026-9/22/2026",
@@ -816,13 +830,6 @@
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-01 14:20:00",
-    "priority": 1
-  },
-  "7810": {
-    "subject": "New photos GBB1275",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-08 20:09:00",
     "priority": 1
   },
   "7800": {
