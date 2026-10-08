@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-10-08T04:45:19+00:00",
+    "ticket_number": 9153,
+    "subject": "Southern Exposure/Back door unlocked",
+    "type": "created",
+    "detail": "Created \u2014 assigned to m.eronico@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-10-07T23:57:35+00:00",
     "ticket_number": 9152,
     "subject": "Bourgeois Yvon/The Cortusa/Res #: 32428/Fridge Filter Replacement",
@@ -7851,12 +7858,5 @@
     "subject": "Roberts Whitney/ Sandalfoot 1B2/Res #: 56074/Shower Door",
     "type": "created",
     "detail": "Created \u2014 assigned to k.garcia@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-16T05:36:15+00:00",
-    "ticket_number": 8811,
-    "subject": "Henefelt Niko/Sandalfoot 5A1/  Res #: 58707/Starter Pack - Bathroom",
-    "type": "created",
-    "detail": "Created \u2014 assigned to a.dallman@choosegulfcoast.com, status Open"
   }
 ]
