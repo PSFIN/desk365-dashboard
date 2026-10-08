@@ -1,10 +1,31 @@
 {
-  "9161": {
-    "subject": "Property Management Inquiry",
-    "assigned_to": "b.vandroff@choosegulfcoast.com",
+  "9165": {
+    "subject": "Request for P&L Statements | Sandalfoot 4B2 | Brian Schneider",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-13 18:09:12",
+    "due_date": "2026-10-13 21:56:39",
     "priority": 1
+  },
+  "9164": {
+    "subject": "Merrikin Richard/O6ERS/Res #: 62688/ Cancellation Request",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-13 21:37:31",
+    "priority": 1
+  },
+  "9163": {
+    "subject": "Take Photos New AR GC1899",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-14 20:59:00",
+    "priority": 1
+  },
+  "9162": {
+    "subject": "Sun Seeker-owner min",
+    "assigned_to": "a.guarin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-13 19:47:21",
+    "priority": 10
   },
   "9160": {
     "subject": "Guest name: MELASECCA NUNEZ PATRICIA | Res #: 57445 | Unit: Turtle House | Multiple issues",
@@ -26,27 +47,6 @@
     "status": "Open",
     "due_date": "2026-10-13 16:08:19",
     "priority": 10
-  },
-  "9157": {
-    "subject": "Legacy Rock from 3rd QTR L10 Sales",
-    "assigned_to": "b.evans@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-13 14:51:16",
-    "priority": 10
-  },
-  "9156": {
-    "subject": "Legacy Rock from 3rd QTR Sales Meeting - Island Vacations Revenue Report",
-    "assigned_to": "b.evans@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-13 14:49:50",
-    "priority": 10
-  },
-  "9155": {
-    "subject": "Template Creation / GBB Linen Program",
-    "assigned_to": "b.evans@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-12 22:00:00",
-    "priority": 1
   },
   "9153": {
     "subject": "Southern Exposure/Back door unlocked",
@@ -188,6 +188,13 @@
     "due_date": "2026-10-08 15:35:04",
     "priority": 20
   },
+  "9118": {
+    "subject": "rent rev",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-13 15:29:06",
+    "priority": 10
+  },
   "9114": {
     "subject": "Name: Freidus Susan | Res: 54145 | Cancelled 50% Retained - OTA",
     "assigned_to": "a.ytac@choosegulfcoast.com",
@@ -313,13 +320,6 @@
     "status": "Open",
     "due_date": "2026-10-08 17:01:18",
     "priority": 1
-  },
-  "9079": {
-    "subject": "Grand getaway- lock on pool controls outside",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-08 15:23:35",
-    "priority": 10
   },
   "9078": {
     "subject": "Grand Getaway- install pool lights.",
@@ -710,12 +710,12 @@
     "subject": "Cedar Hammock Fire District Inspection - Multiple Units",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-08 21:00:00",
+    "due_date": "2026-10-09 21:00:00",
     "priority": 10
   },
   "8444": {
     "subject": "PCA for Par Then Bar Due Date: 12/20/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "z.adair@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-12-31 21:09:00",
     "priority": 5
@@ -757,14 +757,14 @@
   },
   "8329": {
     "subject": "PCA for Sunset On The Gulf Due Date: 9/12/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "z.adair@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-14 23:00:00",
     "priority": 5
   },
   "8179": {
     "subject": "PCA for Little Bit Of Heaven Due Date: 9/8/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "z.adair@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-17 14:46:00",
     "priority": 5
@@ -792,7 +792,7 @@
   },
   "7598": {
     "subject": "PCA for Longboat Oasis Due Date: 8/4/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "z.adair@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-07 23:00:00",
     "priority": 5

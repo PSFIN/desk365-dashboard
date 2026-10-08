@@ -1,5 +1,120 @@
 [
   {
+    "ts": "2026-10-08T23:29:00+00:00",
+    "ticket_number": 9165,
+    "subject": "Request for P&L Statements | Sandalfoot 4B2 | Brian Schneider",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-08T23:29:00+00:00",
+    "ticket_number": 9164,
+    "subject": "Merrikin Richard/O6ERS/Res #: 62688/ Cancellation Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-08T23:29:00+00:00",
+    "ticket_number": 9163,
+    "subject": "Take Photos New AR GC1899",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-08T23:29:00+00:00",
+    "ticket_number": 9162,
+    "subject": "Sun Seeker-owner min",
+    "type": "created",
+    "detail": "Created \u2014 assigned to a.guarin@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-08T23:29:00+00:00",
+    "ticket_number": 9118,
+    "subject": "rent rev",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.paulin@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-08T23:29:00+00:00",
+    "ticket_number": 8499,
+    "subject": "Cedar Hammock Fire District Inspection - Multiple Units",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-08 21:00:00 to 2026-10-09 21:00:00",
+    "from": "2026-10-08 21:00:00",
+    "to": "2026-10-09 21:00:00"
+  },
+  {
+    "ts": "2026-10-08T23:29:00+00:00",
+    "ticket_number": 8444,
+    "subject": "PCA for Par Then Bar Due Date: 12/20/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from t.healy@choosegulfcoast.com to z.adair@choosegulfcoast.com",
+    "from": "t.healy@choosegulfcoast.com",
+    "to": "z.adair@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-08T23:29:00+00:00",
+    "ticket_number": 8329,
+    "subject": "PCA for Sunset On The Gulf Due Date: 9/12/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from t.healy@choosegulfcoast.com to z.adair@choosegulfcoast.com",
+    "from": "t.healy@choosegulfcoast.com",
+    "to": "z.adair@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-08T23:29:00+00:00",
+    "ticket_number": 8179,
+    "subject": "PCA for Little Bit Of Heaven Due Date: 9/8/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from t.healy@choosegulfcoast.com to z.adair@choosegulfcoast.com",
+    "from": "t.healy@choosegulfcoast.com",
+    "to": "z.adair@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-08T23:29:00+00:00",
+    "ticket_number": 7598,
+    "subject": "PCA for Longboat Oasis Due Date: 8/4/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from t.healy@choosegulfcoast.com to z.adair@choosegulfcoast.com",
+    "from": "t.healy@choosegulfcoast.com",
+    "to": "z.adair@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-08T23:29:00+00:00",
+    "ticket_number": 9161,
+    "subject": "Property Management Inquiry",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-08T23:29:00+00:00",
+    "ticket_number": 9157,
+    "subject": "Legacy Rock from 3rd QTR L10 Sales",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-08T23:29:00+00:00",
+    "ticket_number": 9156,
+    "subject": "Legacy Rock from 3rd QTR Sales Meeting - Island Vacations Revenue Report",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-08T23:29:00+00:00",
+    "ticket_number": 9155,
+    "subject": "Template Creation / GBB Linen Program",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-08T23:29:00+00:00",
+    "ticket_number": 9079,
+    "subject": "Grand getaway- lock on pool controls outside",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-08T18:15:39+00:00",
     "ticket_number": 9161,
     "subject": "Property Management Inquiry",
@@ -7749,116 +7864,5 @@
     "subject": "Piling project / Guest relocate",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-17T00:10:55+00:00",
-    "ticket_number": 8832,
-    "subject": "Hickey Anthony/Gulf & Bay Bayside - 1391/ Res #: 62962/Ants Issue",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-16T21:58:19+00:00",
-    "ticket_number": 8831,
-    "subject": "LYNX Smart System / New owner and lead facing PDF",
-    "type": "created",
-    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-16T21:58:19+00:00",
-    "ticket_number": 8830,
-    "subject": "Pellito Laurie/Signal Inn - Unit 14/Signal Inn - Unit 14/Property Feedback",
-    "type": "created",
-    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-16T21:58:19+00:00",
-    "ticket_number": 8829,
-    "subject": "Be Still Beach Retreat-nightly min 167.00",
-    "type": "created",
-    "detail": "Created \u2014 assigned to a.guarin@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-16T21:58:19+00:00",
-    "ticket_number": 8823,
-    "subject": "Selecting Vendors issue",
-    "type": "reassigned",
-    "detail": "Reassigned from b.evans@choosegulfcoast.com to n.ventura@choosegulfcoast.com",
-    "from": "b.evans@choosegulfcoast.com",
-    "to": "n.ventura@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-16T21:58:19+00:00",
-    "ticket_number": 8744,
-    "subject": "Piling project / Guest relocate",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-16 15:28:02 to 2026-09-18 15:28:00",
-    "from": "2026-09-16 15:28:02",
-    "to": "2026-09-18 15:28:00"
-  },
-  {
-    "ts": "2026-09-16T21:58:19+00:00",
-    "ticket_number": 8628,
-    "subject": "Update website team photos",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-17 17:39:00 to 2026-10-06 17:39:00",
-    "from": "2026-09-17 17:39:00",
-    "to": "2026-10-06 17:39:00"
-  },
-  {
-    "ts": "2026-09-16T21:58:19+00:00",
-    "ticket_number": 8818,
-    "subject": "Name: Makurat Jeannette | Res: 56621 | Cancelled 50% Retained - Direct",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-16T21:58:19+00:00",
-    "ticket_number": 8806,
-    "subject": "Linda Bourgeois |  Res #: 63059 | Cancellation Request",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-16T21:58:19+00:00",
-    "ticket_number": 8728,
-    "subject": "Sales & Tourist Tax Remittance - August 2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-16T18:59:31+00:00",
-    "ticket_number": 8828,
-    "subject": "New Employee -LindaJean - Platform Access",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.evans@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-16T18:59:31+00:00",
-    "ticket_number": 8827,
-    "subject": "rent rev",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.paulin@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-16T18:59:31+00:00",
-    "ticket_number": 8825,
-    "subject": "Sliding door lock project",
-    "type": "created",
-    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-16T18:59:31+00:00",
-    "ticket_number": 8824,
-    "subject": "Souther exposure-grill",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-16T18:59:31+00:00",
-    "ticket_number": 8823,
-    "subject": "Selecting Vendors issue",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.evans@choosegulfcoast.com, status Open"
   }
 ]
