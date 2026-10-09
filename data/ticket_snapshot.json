@@ -1,7 +1,49 @@
 {
+  "9173": {
+    "subject": "Bourgeois Yvon | The Cortusa |  Res: 32428 | Light not working in the stairs building",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-14 17:11:17",
+    "priority": 1
+  },
+  "9172": {
+    "subject": "5 Star Review Feedback | Res #: 64334 | Best Irene | Colony Inn C-05 | 10/06/26-10/08/26",
+    "assigned_to": "marcie@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-14 16:45:53",
+    "priority": 1
+  },
+  "9171": {
+    "subject": "Name: Krumm Marissa | Res#: 58705 | Unit Name: Gulf & Bay Bayside - 1260 | Multiple Issues",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-14 14:55:54",
+    "priority": 1
+  },
+  "9170": {
+    "subject": "5 Star Review Feedback | Res #: 60438 | Gibson Traci | Colony Inn C-41 | 10/05/2026-10/09/2026",
+    "assigned_to": "marcie@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-14 14:21:45",
+    "priority": 1
+  },
+  "9168": {
+    "subject": "5 Star Review Feedback | Res #: 64025 | Lombardi Gabriel | Colony Inn C-46 | 10/06/2026-10/08/2026",
+    "assigned_to": "b.evans@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-13 22:00:00",
+    "priority": 1
+  },
+  "9167": {
+    "subject": "Low Lynx Locks",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-13 22:00:00",
+    "priority": 5
+  },
   "9166": {
     "subject": "Krumm Marissa/Gulf & Bay Bayside - 1260/Res #: 58705/Broken Refrigerator Door Shelf",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "m.omasdang@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-13 22:00:00",
     "priority": 1
@@ -11,13 +53,6 @@
     "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-13 21:56:39",
-    "priority": 1
-  },
-  "9164": {
-    "subject": "Merrikin Richard/O6ERS/Res #: 62688/ Cancellation Request",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-13 21:37:31",
     "priority": 1
   },
   "9163": {
@@ -38,7 +73,7 @@
     "subject": "Guest name: MELASECCA NUNEZ PATRICIA | Res #: 57445 | Unit: Turtle House | Multiple issues",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-13 16:48:21",
+    "due_date": "2026-10-10 22:00:00",
     "priority": 1
   },
   "9159": {
@@ -52,15 +87,8 @@
     "subject": "Guest Name: Kilthau Gerald & Jean | Res #: 62255 | Unit: Palm Meadow | Multiple Issues",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-13 16:08:19",
-    "priority": 10
-  },
-  "9153": {
-    "subject": "Southern Exposure/Back door unlocked",
-    "assigned_to": "a.maboloc@choosegulfcoast.com",
-    "status": "Open",
     "due_date": "2026-10-12 22:00:00",
-    "priority": 1
+    "priority": 10
   },
   "9152": {
     "subject": "Bourgeois Yvon/The Cortusa/Res #: 32428/Fridge Filter Replacement",
@@ -162,17 +190,10 @@
   },
   "9130": {
     "subject": "West James | Southern Comfort | Res #: 33775 | Pool Heat On",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-09 22:00:00",
     "priority": 1
-  },
-  "9125": {
-    "subject": "Gedarevich David/Lido Del Mare/Res #: 63850/Back door Lock Issue",
-    "assigned_to": "l.susas@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-09 22:00:00",
-    "priority": 10
   },
   "9123": {
     "subject": "Jorge Varon | Beach Bungalow | Security Deposit",
@@ -216,13 +237,6 @@
     "due_date": "2026-10-09 15:40:59",
     "priority": 1
   },
-  "9112": {
-    "subject": "Chaplin Astgik | Unit: Gulf & Bay Bayside - 1358 |  Res #: 46700 | Clogged Guest Bathroom",
-    "assigned_to": "j.delafuente@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-09 15:27:46",
-    "priority": 1
-  },
   "9111": {
     "subject": "Colony Inn Unit Descriptions",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
@@ -234,14 +248,14 @@
     "subject": "City of Sarasota VR License - Beautiful Bayou | 2124 North Tamiami Trail",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-09 14:33:06",
+    "due_date": "2026-10-09 19:33:00",
     "priority": 10
   },
   "9109": {
     "subject": "City of Sarasota VR License - Admirals Watch | 1703 North Tamiami Trail, B503",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-09 14:05:07",
+    "due_date": "2026-10-09 19:05:00",
     "priority": 10
   },
   "9103": {
@@ -276,7 +290,7 @@
     "subject": "Kilthau Gerald & Jean/Palm Meadow/Res #: 62255/Electronic Door Lock / Wi-Fi Connectivity",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-08 21:23:19",
+    "due_date": "2026-10-10 21:23:00",
     "priority": 1
   },
   "9091": {
@@ -307,13 +321,6 @@
     "due_date": "2026-10-08 17:34:30",
     "priority": 1
   },
-  "9085": {
-    "subject": "phone number",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-12 17:30:00",
-    "priority": 5
-  },
   "9081": {
     "subject": "Bellevue | Missing Fire Extinguisher",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
@@ -328,18 +335,18 @@
     "due_date": "2026-10-08 17:01:18",
     "priority": 1
   },
-  "9078": {
-    "subject": "Grand Getaway- install pool lights.",
-    "assigned_to": "j.delafuente@choosegulfcoast.com",
+  "9079": {
+    "subject": "Grand getaway- lock on pool controls outside",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-09 16:00:00",
-    "priority": 1
+    "due_date": "2026-10-08 15:23:35",
+    "priority": 10
   },
   "9077": {
     "subject": "Unit: Grand Gateaway | Pool Control is not working",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-08 14:56:53",
+    "due_date": "2026-10-12 14:56:00",
     "priority": 5
   },
   "9076": {
@@ -365,7 +372,7 @@
   },
   "9071": {
     "subject": "Possible Guest/Cleo Brown/Pearl In The Rough/VRBO Guest Requests / Inquiries",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-09 16:21:00",
     "priority": 1
@@ -388,7 +395,7 @@
     "subject": "Mielenz Laurel/Waterfront Dreamin/Ceiling Fan not working",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-08 22:00:00",
+    "due_date": "2026-10-12 22:00:00",
     "priority": 1
   },
   "9060": {
@@ -411,13 +418,6 @@
     "status": "Open",
     "due_date": "2026-10-14 22:00:00",
     "priority": 5
-  },
-  "9042": {
-    "subject": "Guest Name: Bosqui Frank | Res #: 59277 | Unit: Villa Milano",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-07 18:03:38",
-    "priority": 1
   },
   "9041": {
     "subject": "New photos",
@@ -451,14 +451,14 @@
     "subject": "Bosqui Frank/Villa Milano/Res #: 59277/Spa/Pool Control Complaints",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-09 22:00:00",
+    "due_date": "2026-10-10 22:00:00",
     "priority": 1
   },
   "9014": {
     "subject": "Gulf Standard - Lynx",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-08 20:31:00",
+    "due_date": "2026-10-12 20:31:00",
     "priority": 1
   },
   "9004": {
@@ -472,7 +472,7 @@
     "subject": "Easy Does It- elock",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-09 22:00:00",
+    "due_date": "2026-10-12 22:00:00",
     "priority": 1
   },
   "8991": {
@@ -591,21 +591,21 @@
     "subject": "City of Bradenton VR License - Florida Dreams | 4457 45th Avenue West, #110",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-09 15:55:00",
+    "due_date": "2026-10-10 15:55:00",
     "priority": 20
   },
   "8860": {
     "subject": "City of Bradenton VR License - Don't Worry Beach Happy | 502 Sanderling Circle",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-09 15:43:00",
+    "due_date": "2026-10-10 15:43:00",
     "priority": 20
   },
   "8859": {
     "subject": "City of Bradenton VR License - Blossom Retreat | 7333 Skybird Road",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-09 15:30:00",
+    "due_date": "2026-10-10 15:30:00",
     "priority": 20
   },
   "8856": {
