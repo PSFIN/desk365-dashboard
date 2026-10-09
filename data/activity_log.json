@@ -1,5 +1,21 @@
 [
   {
+    "ts": "2026-10-09T10:46:50+00:00",
+    "ticket_number": 9166,
+    "subject": "Krumm Marissa/Gulf & Bay Bayside - 1260/Res #: 58705/Broken Refrigerator Door Shelf",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-09T10:46:50+00:00",
+    "ticket_number": 9125,
+    "subject": "Gedarevich David/Lido Del Mare/Res #: 63850/Back door Lock Issue",
+    "type": "reassigned",
+    "detail": "Reassigned from j.rushton@choosegulfcoast.com to l.susas@choosegulfcoast.com",
+    "from": "j.rushton@choosegulfcoast.com",
+    "to": "l.susas@choosegulfcoast.com"
+  },
+  {
     "ts": "2026-10-09T03:02:05+00:00",
     "ticket_number": 9153,
     "subject": "Southern Exposure/Back door unlocked",
@@ -7850,23 +7866,5 @@
     "detail": "Due date changed from 2026-09-16 16:07:00 to 2026-09-22 16:07:00",
     "from": "2026-09-16 16:07:00",
     "to": "2026-09-22 16:07:00"
-  },
-  {
-    "ts": "2026-09-17T15:07:47+00:00",
-    "ticket_number": 7361,
-    "subject": "PCA for Gulf & Bay Bayside - 1350 Due Date: 7/30/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-16 17:00:00 to 2026-09-18 17:00:00",
-    "from": "2026-09-16 17:00:00",
-    "to": "2026-09-18 17:00:00"
-  },
-  {
-    "ts": "2026-09-17T15:07:47+00:00",
-    "ticket_number": 7323,
-    "subject": "Aloha House - Unit painting",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-16 22:00:00 to 2026-09-18 22:00:00",
-    "from": "2026-09-16 22:00:00",
-    "to": "2026-09-18 22:00:00"
   }
 ]
