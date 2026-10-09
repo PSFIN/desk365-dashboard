@@ -1,5 +1,23 @@
 [
   {
+    "ts": "2026-10-09T03:02:05+00:00",
+    "ticket_number": 9153,
+    "subject": "Southern Exposure/Back door unlocked",
+    "type": "reassigned",
+    "detail": "Reassigned from m.eronico@choosegulfcoast.com to a.maboloc@choosegulfcoast.com",
+    "from": "m.eronico@choosegulfcoast.com",
+    "to": "a.maboloc@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-09T03:02:05+00:00",
+    "ticket_number": 7156,
+    "subject": "PCA for Don't Worry Beach Happy Due Date: 7/15/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-12 22:00:00 to 2026-10-24 22:00:00",
+    "from": "2026-10-12 22:00:00",
+    "to": "2026-10-24 22:00:00"
+  },
+  {
     "ts": "2026-10-08T23:29:00+00:00",
     "ticket_number": 9165,
     "subject": "Request for P&L Statements | Sandalfoot 4B2 | Brian Schneider",
@@ -7850,19 +7868,5 @@
     "detail": "Due date changed from 2026-09-16 22:00:00 to 2026-09-18 22:00:00",
     "from": "2026-09-16 22:00:00",
     "to": "2026-09-18 22:00:00"
-  },
-  {
-    "ts": "2026-09-17T15:07:47+00:00",
-    "ticket_number": 8788,
-    "subject": "Dreams of Paradise-AC filter",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-17T05:04:36+00:00",
-    "ticket_number": 8744,
-    "subject": "Piling project / Guest relocate",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
 ]
