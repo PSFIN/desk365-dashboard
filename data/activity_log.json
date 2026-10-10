@@ -1,5 +1,41 @@
 [
   {
+    "ts": "2026-10-10T07:26:11+00:00",
+    "ticket_number": 9113,
+    "subject": "Name: Anstruther Susan | Res: 63854 | Cancelled 50% Retained - OTA",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-09 15:40:59 to 2026-10-20 15:40:00",
+    "from": "2026-10-09 15:40:59",
+    "to": "2026-10-20 15:40:00"
+  },
+  {
+    "ts": "2026-10-10T07:26:11+00:00",
+    "ticket_number": 9089,
+    "subject": "Name: Schulte Kristina | Res: 36955 | Refund Check Request",
+    "type": "reassigned",
+    "detail": "Reassigned from e.morales@choosegulfcoast.com to k.fisher@choosegulfcoast.com",
+    "from": "e.morales@choosegulfcoast.com",
+    "to": "k.fisher@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-10T07:26:11+00:00",
+    "ticket_number": 9089,
+    "subject": "Name: Schulte Kristina | Res: 36955 | Refund Check Request",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-08 18:19:40 to 2026-10-12 18:19:00",
+    "from": "2026-10-08 18:19:40",
+    "to": "2026-10-12 18:19:00"
+  },
+  {
+    "ts": "2026-10-10T07:26:11+00:00",
+    "ticket_number": 8960,
+    "subject": "zSugar Beach - Minimum Escrow Balance",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-09 22:00:00 to 2026-10-12 22:00:00",
+    "from": "2026-10-09 22:00:00",
+    "to": "2026-10-12 22:00:00"
+  },
+  {
     "ts": "2026-10-10T01:25:22+00:00",
     "ticket_number": 9183,
     "subject": "Eisenbrei Richard | Unit: Signal Inn - Unit 07 | Res #: 64516 | Cancellation Request",
@@ -7846,34 +7882,6 @@
     "ts": "2026-09-18T22:42:40+00:00",
     "ticket_number": 8866,
     "subject": "City of Bradenton VR License - Tropical Gulf Retreat | 4325 46th Avenue West, #203",
-    "type": "created",
-    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-18T22:42:40+00:00",
-    "ticket_number": 8864,
-    "subject": "Name: Pirro Adriane | Res: 63135 | Future Stay Credit",
-    "type": "created",
-    "detail": "Created \u2014 assigned to a.ytac@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-18T22:42:40+00:00",
-    "ticket_number": 8834,
-    "subject": "Stamm Dawn | O6ers | Res #: 50543 | Cancellation Request",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-18T22:42:40+00:00",
-    "ticket_number": 8824,
-    "subject": "Souther exposure-grill",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-18T20:14:05+00:00",
-    "ticket_number": 8863,
-    "subject": "City of Bradenton VR License - Mangrove Escape | 971 Waterside Lane",
     "type": "created",
     "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
   }
