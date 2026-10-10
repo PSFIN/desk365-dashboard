@@ -1,16 +1,30 @@
 {
+  "9188": {
+    "subject": "A Shore Thing | Owner Approval Request",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-14 22:00:00",
+    "priority": 1
+  },
+  "9187": {
+    "subject": "Florida Sanctuary | Fix pool filter",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-12 22:00:00",
+    "priority": 1
+  },
   "9186": {
     "subject": "Gulf Horizon | Bathroom toilet issue",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-14 22:00:00",
+    "due_date": "2026-10-13 22:00:00",
     "priority": 1
   },
   "9185": {
     "subject": "Reitz Alexander |  Res #: 58854 | Dreams of Paradise | AC issue",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-14 22:00:00",
+    "due_date": "2026-10-11 22:00:00",
     "priority": 5
   },
   "9184": {
@@ -80,7 +94,7 @@
     "subject": "Bourgeois Yvon | The Cortusa |  Res: 32428 | Light not working in the stairs building",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-10 17:11:00",
+    "due_date": "2026-10-12 17:11:00",
     "priority": 1
   },
   "9171": {
@@ -314,13 +328,6 @@
     "due_date": "2026-10-13 22:00:00",
     "priority": 1
   },
-  "9096": {
-    "subject": "Res #: 53462| Unit: Signal Inn - Unit 17| Guest Name: Savage Lisa| shower handle is loose",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-08 22:00:00",
-    "priority": 1
-  },
   "9095": {
     "subject": "Request for cancellation due to low rate: A Shore Thing Res #: 64168",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
@@ -479,7 +486,7 @@
     "subject": "5 Star Review Feedback | Res #59332 | Torretto Jeff | Signal Inn - Unit 12 | 9/25/2026-9/29/2026",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-07 17:00:00",
+    "due_date": "2026-10-19 17:00:00",
     "priority": 1
   },
   "8989": {
@@ -619,14 +626,14 @@
     "subject": "Pellito Laurie/Signal Inn - Unit 14/Signal Inn - Unit 14/Property Feedback",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-09 21:13:00",
+    "due_date": "2026-10-12 21:13:00",
     "priority": 1
   },
   "8825": {
     "subject": "Sliding door lock project",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-08 15:51:00",
+    "due_date": "2026-10-12 15:51:00",
     "priority": 1
   },
   "8819": {

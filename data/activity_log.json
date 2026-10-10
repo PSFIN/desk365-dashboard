@@ -1,5 +1,80 @@
 [
   {
+    "ts": "2026-10-10T21:54:08+00:00",
+    "ticket_number": 9188,
+    "subject": "A Shore Thing | Owner Approval Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-10T21:54:08+00:00",
+    "ticket_number": 9187,
+    "subject": "Florida Sanctuary | Fix pool filter",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.delafuente@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-10T21:54:08+00:00",
+    "ticket_number": 9186,
+    "subject": "Gulf Horizon | Bathroom toilet issue",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-14 22:00:00 to 2026-10-13 22:00:00",
+    "from": "2026-10-14 22:00:00",
+    "to": "2026-10-13 22:00:00"
+  },
+  {
+    "ts": "2026-10-10T21:54:08+00:00",
+    "ticket_number": 9185,
+    "subject": "Reitz Alexander |  Res #: 58854 | Dreams of Paradise | AC issue",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-14 22:00:00 to 2026-10-11 22:00:00",
+    "from": "2026-10-14 22:00:00",
+    "to": "2026-10-11 22:00:00"
+  },
+  {
+    "ts": "2026-10-10T21:54:08+00:00",
+    "ticket_number": 9173,
+    "subject": "Bourgeois Yvon | The Cortusa |  Res: 32428 | Light not working in the stairs building",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-10 17:11:00 to 2026-10-12 17:11:00",
+    "from": "2026-10-10 17:11:00",
+    "to": "2026-10-12 17:11:00"
+  },
+  {
+    "ts": "2026-10-10T21:54:08+00:00",
+    "ticket_number": 9004,
+    "subject": "5 Star Review Feedback | Res #59332 | Torretto Jeff | Signal Inn - Unit 12 | 9/25/2026-9/29/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-07 17:00:00 to 2026-10-19 17:00:00",
+    "from": "2026-10-07 17:00:00",
+    "to": "2026-10-19 17:00:00"
+  },
+  {
+    "ts": "2026-10-10T21:54:08+00:00",
+    "ticket_number": 8830,
+    "subject": "Pellito Laurie/Signal Inn - Unit 14/Signal Inn - Unit 14/Property Feedback",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-09 21:13:00 to 2026-10-12 21:13:00",
+    "from": "2026-10-09 21:13:00",
+    "to": "2026-10-12 21:13:00"
+  },
+  {
+    "ts": "2026-10-10T21:54:08+00:00",
+    "ticket_number": 8825,
+    "subject": "Sliding door lock project",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-08 15:51:00 to 2026-10-12 15:51:00",
+    "from": "2026-10-08 15:51:00",
+    "to": "2026-10-12 15:51:00"
+  },
+  {
+    "ts": "2026-10-10T21:54:08+00:00",
+    "ticket_number": 9096,
+    "subject": "Res #: 53462| Unit: Signal Inn - Unit 17| Guest Name: Savage Lisa| shower handle is loose",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-10T18:08:33+00:00",
     "ticket_number": 9186,
     "subject": "Gulf Horizon | Bathroom toilet issue",
@@ -7817,78 +7892,5 @@
     "subject": "Caller Name: Janelle Martin | Property availability",
     "type": "created",
     "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-19T16:57:39+00:00",
-    "ticket_number": 8854,
-    "subject": "New Hire - Andr\u00e9s Alvarado. - Platform Access",
-    "type": "reassigned",
-    "detail": "Reassigned from b.evans@choosegulfcoast.com to t.frost@choosegulfcoast.com",
-    "from": "b.evans@choosegulfcoast.com",
-    "to": "t.frost@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-19T16:57:39+00:00",
-    "ticket_number": 8828,
-    "subject": "New Employee -LindaJean - Platform Access",
-    "type": "reassigned",
-    "detail": "Reassigned from b.evans@choosegulfcoast.com to t.frost@choosegulfcoast.com",
-    "from": "b.evans@choosegulfcoast.com",
-    "to": "t.frost@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-19T16:57:39+00:00",
-    "ticket_number": 8759,
-    "subject": "4c2 replacement door handle",
-    "type": "reassigned",
-    "detail": "Reassigned from p.yelenich@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
-    "from": "p.yelenich@choosegulfcoast.com",
-    "to": "c.thayer@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-19T13:37:43+00:00",
-    "ticket_number": 8833,
-    "subject": "Guest Name: Carmona Newton | Res #: 61948 | Unit: Birdie | Faucet issue",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-19T09:39:03+00:00",
-    "ticket_number": 8717,
-    "subject": "Florida Fabulous-comp 790",
-    "type": "reassigned",
-    "detail": "Reassigned from e.morales@choosegulfcoast.com to m.johnston@choosegulfcoast.com",
-    "from": "e.morales@choosegulfcoast.com",
-    "to": "m.johnston@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-19T09:39:03+00:00",
-    "ticket_number": 8717,
-    "subject": "Florida Fabulous-comp 790",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-14 18:29:19 to 2026-09-21 18:29:00",
-    "from": "2026-09-14 18:29:19",
-    "to": "2026-09-21 18:29:00"
-  },
-  {
-    "ts": "2026-09-19T09:39:03+00:00",
-    "ticket_number": 8845,
-    "subject": "1385 replace coffee maker",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-19T09:39:03+00:00",
-    "ticket_number": 8843,
-    "subject": "Deactivating Property :  zSunset Splash",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-19T09:39:03+00:00",
-    "ticket_number": 8753,
-    "subject": "Rising tide-ardi comforter's",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
 ]
