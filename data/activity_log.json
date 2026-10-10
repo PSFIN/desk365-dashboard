@@ -1,5 +1,55 @@
 [
   {
+    "ts": "2026-10-10T13:54:43+00:00",
+    "ticket_number": 9185,
+    "subject": "Reitz Alexander |  Res #: 58854 | Dreams of Paradise | AC issue",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.delafuente@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-10T13:54:43+00:00",
+    "ticket_number": 9184,
+    "subject": "Kenney Patrick |   Res#: 60210 | Signal Inn - Unit 16 | Damaged Window Shade",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-10T13:54:43+00:00",
+    "ticket_number": 8861,
+    "subject": "City of Bradenton VR License - Florida Dreams | 4457 45th Avenue West, #110",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-10 15:55:00 to 2026-10-12 15:55:00",
+    "from": "2026-10-10 15:55:00",
+    "to": "2026-10-12 15:55:00"
+  },
+  {
+    "ts": "2026-10-10T13:54:43+00:00",
+    "ticket_number": 8860,
+    "subject": "City of Bradenton VR License - Don't Worry Beach Happy | 502 Sanderling Circle",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-10 15:43:00 to 2026-10-12 15:43:00",
+    "from": "2026-10-10 15:43:00",
+    "to": "2026-10-12 15:43:00"
+  },
+  {
+    "ts": "2026-10-10T13:54:43+00:00",
+    "ticket_number": 8859,
+    "subject": "City of Bradenton VR License - Blossom Retreat | 7333 Skybird Road",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-10 15:30:00 to 2026-10-12 15:30:00",
+    "from": "2026-10-10 15:30:00",
+    "to": "2026-10-12 15:30:00"
+  },
+  {
+    "ts": "2026-10-10T13:54:43+00:00",
+    "ticket_number": 8499,
+    "subject": "Cedar Hammock Fire District Inspection - Multiple Units",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-09 21:00:00 to 2026-10-12 21:00:00",
+    "from": "2026-10-09 21:00:00",
+    "to": "2026-10-12 21:00:00"
+  },
+  {
     "ts": "2026-10-10T07:26:11+00:00",
     "ticket_number": 9113,
     "subject": "Name: Anstruther Susan | Res: 63854 | Cancelled 50% Retained - OTA",
@@ -7840,49 +7890,5 @@
     "subject": "GCPM Invoice for WO #42159751",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-19T09:39:03+00:00",
-    "ticket_number": 8639,
-    "subject": "7th Heaven-bills",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-19T00:51:28+00:00",
-    "ticket_number": 8868,
-    "subject": "Boardwalk benches",
-    "type": "created",
-    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-19T00:51:28+00:00",
-    "ticket_number": 8802,
-    "subject": "5 Star Review Feedback | Res #: 44775 | Courtney Brian | Breakers West C3 | 9/5/2026-9/11/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from l.costa@choosegulfcoast.com to j.banks@choosegulfcoast.com",
-    "from": "l.costa@choosegulfcoast.com",
-    "to": "j.banks@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-19T00:51:28+00:00",
-    "ticket_number": 8795,
-    "subject": "5 Star Review Feedback | Res #48720 | Savitt Maria | Loggerhead Cay #183 | 9/5/2026-9/12/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-18T22:42:40+00:00",
-    "ticket_number": 8867,
-    "subject": "City of Bradenton VR License - Villa In The Clouds | 1439 56th Street West",
-    "type": "created",
-    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-18T22:42:40+00:00",
-    "ticket_number": 8866,
-    "subject": "City of Bradenton VR License - Tropical Gulf Retreat | 4325 46th Avenue West, #203",
-    "type": "created",
-    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
   }
 ]

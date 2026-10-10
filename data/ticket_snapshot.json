@@ -1,4 +1,18 @@
 {
+  "9185": {
+    "subject": "Reitz Alexander |  Res #: 58854 | Dreams of Paradise | AC issue",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-14 22:00:00",
+    "priority": 5
+  },
+  "9184": {
+    "subject": "Kenney Patrick |   Res#: 60210 | Signal Inn - Unit 16 | Damaged Window Shade",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-14 22:00:00",
+    "priority": 1
+  },
   "9183": {
     "subject": "Eisenbrei Richard | Unit: Signal Inn - Unit 07 | Res #: 64516 | Cancellation Request",
     "assigned_to": "h.nomura@choosegulfcoast.com",
@@ -570,21 +584,21 @@
     "subject": "City of Bradenton VR License - Florida Dreams | 4457 45th Avenue West, #110",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-10 15:55:00",
+    "due_date": "2026-10-12 15:55:00",
     "priority": 20
   },
   "8860": {
     "subject": "City of Bradenton VR License - Don't Worry Beach Happy | 502 Sanderling Circle",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-10 15:43:00",
+    "due_date": "2026-10-12 15:43:00",
     "priority": 20
   },
   "8859": {
     "subject": "City of Bradenton VR License - Blossom Retreat | 7333 Skybird Road",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-10 15:30:00",
+    "due_date": "2026-10-12 15:30:00",
     "priority": 20
   },
   "8856": {
@@ -696,7 +710,7 @@
     "subject": "Cedar Hammock Fire District Inspection - Multiple Units",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-09 21:00:00",
+    "due_date": "2026-10-12 21:00:00",
     "priority": 10
   },
   "8444": {
