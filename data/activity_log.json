@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-10-10T18:08:33+00:00",
+    "ticket_number": 9186,
+    "subject": "Gulf Horizon | Bathroom toilet issue",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.delafuente@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-10-10T13:54:43+00:00",
     "ticket_number": 9185,
     "subject": "Reitz Alexander |  Res #: 58854 | Dreams of Paradise | AC issue",
@@ -7881,13 +7888,6 @@
     "ts": "2026-09-19T09:39:03+00:00",
     "ticket_number": 8753,
     "subject": "Rising tide-ardi comforter's",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-19T09:39:03+00:00",
-    "ticket_number": 8743,
-    "subject": "GCPM Invoice for WO #42159751",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
