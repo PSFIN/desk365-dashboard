@@ -1,5 +1,19 @@
 [
   {
+    "ts": "2026-10-11T00:36:35+00:00",
+    "ticket_number": 9190,
+    "subject": "Hershey joyce | Unit: Colony Inn C-56 | Res #: 64632 | Cancellation or Change date Requet",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-11T00:36:35+00:00",
+    "ticket_number": 9189,
+    "subject": "Christensen Elizabeth | Unit: Signal Inn - Unit 16 | Res #: 62125 | AC not working",
+    "type": "created",
+    "detail": "Created \u2014 assigned to m.mccartney@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-10-10T21:54:08+00:00",
     "ticket_number": 9188,
     "subject": "A Shore Thing | Owner Approval Request",
@@ -7878,19 +7892,5 @@
     "subject": "McArn Lynnzie/Coastal Oasis/Res #: 60184/Maintenance Concerns - Feedback",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-19T16:57:39+00:00",
-    "ticket_number": 8871,
-    "subject": "1373 linens charge to owner",
-    "type": "created",
-    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-19T16:57:39+00:00",
-    "ticket_number": 8870,
-    "subject": "Caller Name: Janelle Martin | Property availability",
-    "type": "created",
-    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
   }
 ]
