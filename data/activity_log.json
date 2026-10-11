@@ -1,5 +1,26 @@
 [
   {
+    "ts": "2026-10-11T06:42:11+00:00",
+    "ticket_number": 9191,
+    "subject": "Cousin Dalton/Signal Inn - Unit 09/Res #: 64517/ Pet Fee Refund",
+    "type": "created",
+    "detail": "Created \u2014 assigned to m.eronico@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-11T06:42:11+00:00",
+    "ticket_number": 9189,
+    "subject": "Christensen Elizabeth | Unit: Signal Inn - Unit 16 | Res #: 62125 | AC not working",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-11T06:42:11+00:00",
+    "ticket_number": 9166,
+    "subject": "Krumm Marissa/Gulf & Bay Bayside - 1260/Res #: 58705/Broken Refrigerator Door Shelf",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-11T00:36:35+00:00",
     "ticket_number": 9190,
     "subject": "Hershey joyce | Unit: Colony Inn C-56 | Res #: 64632 | Cancellation or Change date Requet",
@@ -7871,26 +7892,5 @@
     "detail": "Reassigned from a.dallman@choosegulfcoast.com to z.adair@choosegulfcoast.com",
     "from": "a.dallman@choosegulfcoast.com",
     "to": "z.adair@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-19T21:34:10+00:00",
-    "ticket_number": 8870,
-    "subject": "Caller Name: Janelle Martin | Property availability",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-19T19:10:51+00:00",
-    "ticket_number": 8872,
-    "subject": "Merritt Ronald | Unit: zSerenity On Savona | Leaking Issue",
-    "type": "created",
-    "detail": "Created \u2014 assigned to l.susas@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-19T19:10:51+00:00",
-    "ticket_number": 8775,
-    "subject": "McArn Lynnzie/Coastal Oasis/Res #: 60184/Maintenance Concerns - Feedback",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
 ]
