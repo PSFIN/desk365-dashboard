@@ -1,5 +1,21 @@
 [
   {
+    "ts": "2026-10-11T13:41:56+00:00",
+    "ticket_number": 9114,
+    "subject": "Name: Freidus Susan | Res: 54145 | Cancelled 50% Retained - OTA",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-09 17:25:34 to 2026-11-04 22:00:00",
+    "from": "2026-10-09 17:25:34",
+    "to": "2026-11-04 22:00:00"
+  },
+  {
+    "ts": "2026-10-11T13:41:56+00:00",
+    "ticket_number": 9185,
+    "subject": "Reitz Alexander |  Res #: 58854 | Dreams of Paradise | AC issue",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-11T06:42:11+00:00",
     "ticket_number": 9191,
     "subject": "Cousin Dalton/Signal Inn - Unit 09/Res #: 64517/ Pet Fee Refund",
@@ -7876,21 +7892,5 @@
     "subject": "Kiesewetter Robin | Unit: Sandalfoot 5A2 | Res #: 54701 | Thermostat is Blank",
     "type": "created",
     "detail": "Created \u2014 assigned to p.yelenich@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-19T21:34:10+00:00",
-    "ticket_number": 8873,
-    "subject": "Unit: Signal Inn - Unit 16 | Guest Name: Ellis Jonathan | Res #: 57554 |",
-    "type": "created",
-    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-19T21:34:10+00:00",
-    "ticket_number": 8523,
-    "subject": "5B3 ARDI comforter cleaning",
-    "type": "reassigned",
-    "detail": "Reassigned from a.dallman@choosegulfcoast.com to z.adair@choosegulfcoast.com",
-    "from": "a.dallman@choosegulfcoast.com",
-    "to": "z.adair@choosegulfcoast.com"
   }
 ]
