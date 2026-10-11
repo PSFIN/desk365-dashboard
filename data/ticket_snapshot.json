@@ -1,4 +1,11 @@
 {
+  "9192": {
+    "subject": "Pfeifer Chris |  Colony Inn C14 | Res #: 62211 | Cancellation",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-14 22:00:00",
+    "priority": 1
+  },
   "9191": {
     "subject": "Cousin Dalton/Signal Inn - Unit 09/Res #: 64517/ Pet Fee Refund",
     "assigned_to": "m.eronico@choosegulfcoast.com",
@@ -145,13 +152,6 @@
     "status": "Open",
     "due_date": "2026-10-13 19:47:21",
     "priority": 10
-  },
-  "9160": {
-    "subject": "Guest name: MELASECCA NUNEZ PATRICIA | Res #: 57445 | Unit: Turtle House | Multiple issues",
-    "assigned_to": "j.delafuente@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-10 22:00:00",
-    "priority": 1
   },
   "9159": {
     "subject": "4 Star Review Feedback | Res #: 54994 | Kaake Ashley | Breakers West B7 | 10/01/2026-10/05/2026",
@@ -400,7 +400,7 @@
   },
   "9071": {
     "subject": "Possible Guest/Cleo Brown/Pearl In The Rough/VRBO Guest Requests / Inquiries",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-09 16:21:00",
     "priority": 1

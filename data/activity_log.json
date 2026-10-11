@@ -1,5 +1,28 @@
 [
   {
+    "ts": "2026-10-11T18:33:48+00:00",
+    "ticket_number": 9192,
+    "subject": "Pfeifer Chris |  Colony Inn C14 | Res #: 62211 | Cancellation",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-11T18:33:48+00:00",
+    "ticket_number": 9071,
+    "subject": "Possible Guest/Cleo Brown/Pearl In The Rough/VRBO Guest Requests / Inquiries",
+    "type": "reassigned",
+    "detail": "Reassigned from j.messasierra@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "j.messasierra@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-11T18:33:48+00:00",
+    "ticket_number": 9160,
+    "subject": "Guest name: MELASECCA NUNEZ PATRICIA | Res #: 57445 | Unit: Turtle House | Multiple issues",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-11T13:41:56+00:00",
     "ticket_number": 9114,
     "subject": "Name: Freidus Susan | Res: 54145 | Cancelled 50% Retained - OTA",
@@ -7871,26 +7894,5 @@
     "detail": "Due date changed from 2026-09-19 00:30:00 to 2026-09-24 00:30:00",
     "from": "2026-09-19 00:30:00",
     "to": "2026-09-24 00:30:00"
-  },
-  {
-    "ts": "2026-09-20T08:09:56+00:00",
-    "ticket_number": 8810,
-    "subject": "Robin Marin/Coldwell Banker/ GBB 1200G",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-19T23:49:07+00:00",
-    "ticket_number": 8875,
-    "subject": "Unit: Bayside Paradise | Guest Name: Dougherty Renee | Res #: 63209 | Turn ON Pool Heat",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-19T23:49:07+00:00",
-    "ticket_number": 8874,
-    "subject": "Kiesewetter Robin | Unit: Sandalfoot 5A2 | Res #: 54701 | Thermostat is Blank",
-    "type": "created",
-    "detail": "Created \u2014 assigned to p.yelenich@choosegulfcoast.com, status Open"
   }
 ]
