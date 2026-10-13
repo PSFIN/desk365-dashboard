@@ -1,4 +1,67 @@
 {
+  "9246": {
+    "subject": "Property Management Inq and Sale",
+    "assigned_to": "a.vetick@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-16 14:54:20",
+    "priority": 1
+  },
+  "9245": {
+    "subject": "Brown Cleo | Res #: 64268 | Pearl in the Rough | Smoke Detector",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-16 14:39:30",
+    "priority": 1
+  },
+  "9244": {
+    "subject": "4 Star Review Feedback | Res #: 54548 | Stacy Crouse | Sandalfoot 1D1 | 10/09/2026 - 10/12/2026",
+    "assigned_to": "n.armstrong@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-16 14:31:33",
+    "priority": 1
+  },
+  "9242": {
+    "subject": "Calusa Units",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-16 14:17:52",
+    "priority": 5
+  },
+  "9240": {
+    "subject": "Brown Cleo | Res #: 64268 | Pearl in the Rough | Hairs and Scrubs",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-16 14:12:20",
+    "priority": 1
+  },
+  "9239": {
+    "subject": "Brown Cleo | Res #: 64268 | Pearl in the Rough | Sliding Wardrobe Damage",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-16 14:09:23",
+    "priority": 1
+  },
+  "9237": {
+    "subject": "Ward Douglas | Res #: 62041 | Grand Getaway | Plumbing Issue in Master Bathroom",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-15 22:00:00",
+    "priority": 1
+  },
+  "9236": {
+    "subject": "Outstanding Work Order, Invoice or Pending Charges - Approach Shot | 444 Cerromar Road",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-15 22:00:00",
+    "priority": 1
+  },
+  "9235": {
+    "subject": "Avalon-PCA DC",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-15 22:00:00",
+    "priority": 10
+  },
   "9234": {
     "subject": "Cancel Res #: 49287 | Unit: The River\u2019s End | Guest Name: Scearcy Diane",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
@@ -167,13 +230,6 @@
     "due_date": "2026-10-15 14:22:37",
     "priority": 5
   },
-  "9207": {
-    "subject": "5 Star Review Feedback | Res #: 60059 | Loretta Messinger | Colony Inn C-07 | 10/04/2026 - 10/09/2026",
-    "assigned_to": "marcie@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-15 14:21:13",
-    "priority": 1
-  },
   "9205": {
     "subject": "5 Star Review Feedback | Res #: 60172 | Paige Litterer | Sandalfoot 5C2 | 10/06/2026 - 10/10/2026",
     "assigned_to": "n.armstrong@choosegulfcoast.com",
@@ -197,7 +253,7 @@
   },
   "9201": {
     "subject": "Nicodemus Kathy | Ocean Eyes |  Res #: 57164 | Blinds stuck",
-    "assigned_to": "a.maboloc@choosegulfcoast.com",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-14 22:00:00",
     "priority": 1
@@ -218,7 +274,7 @@
   },
   "9194": {
     "subject": "Little Bit Of Heaven | Listing Description Update",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "j.gordillo@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-14 22:00:00",
     "priority": 1
@@ -255,7 +311,7 @@
     "subject": "Kenney Patrick |   Res#: 60210 | Signal Inn - Unit 16 | Damaged Window Shade",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-14 22:00:00",
+    "due_date": "2026-10-16 22:00:00",
     "priority": 1
   },
   "9181": {
@@ -498,7 +554,7 @@
   },
   "9080": {
     "subject": "Golfers Grove | Fire Extinguisher",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-08 17:01:18",
     "priority": 1
@@ -650,13 +706,6 @@
     "due_date": "2026-12-01 18:16:00",
     "priority": 10
   },
-  "8918": {
-    "subject": "Name: Hoffman Victoria | Res: 45881 | Cancelled 100% Retained - Direct",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-14 15:15:00",
-    "priority": 1
-  },
   "8912": {
     "subject": "City of Sanibel - Business Tax Receipt (BTR) Renewal Due Sept. 30,2026",
     "assigned_to": "l.brigida@choosegulfcoast.com",
@@ -738,7 +787,7 @@
     "subject": "Sliding door lock project",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-12 15:51:00",
+    "due_date": "2026-10-16 15:51:00",
     "priority": 1
   },
   "8819": {
@@ -773,7 +822,7 @@
     "subject": "Boardwalk Shell station",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-10 20:41:00",
+    "due_date": "2026-10-14 20:41:00",
     "priority": 1
   },
   "8575": {

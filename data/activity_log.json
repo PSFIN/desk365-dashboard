@@ -1,5 +1,136 @@
 [
   {
+    "ts": "2026-10-13T15:10:39+00:00",
+    "ticket_number": 9246,
+    "subject": "Property Management Inq and Sale",
+    "type": "created",
+    "detail": "Created \u2014 assigned to a.vetick@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-13T15:10:39+00:00",
+    "ticket_number": 9245,
+    "subject": "Brown Cleo | Res #: 64268 | Pearl in the Rough | Smoke Detector",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-13T15:10:39+00:00",
+    "ticket_number": 9244,
+    "subject": "4 Star Review Feedback | Res #: 54548 | Stacy Crouse | Sandalfoot 1D1 | 10/09/2026 - 10/12/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.armstrong@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-13T15:10:39+00:00",
+    "ticket_number": 9242,
+    "subject": "Calusa Units",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-13T15:10:39+00:00",
+    "ticket_number": 9240,
+    "subject": "Brown Cleo | Res #: 64268 | Pearl in the Rough | Hairs and Scrubs",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-13T15:10:39+00:00",
+    "ticket_number": 9239,
+    "subject": "Brown Cleo | Res #: 64268 | Pearl in the Rough | Sliding Wardrobe Damage",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-13T15:10:39+00:00",
+    "ticket_number": 9237,
+    "subject": "Ward Douglas | Res #: 62041 | Grand Getaway | Plumbing Issue in Master Bathroom",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-13T15:10:39+00:00",
+    "ticket_number": 9236,
+    "subject": "Outstanding Work Order, Invoice or Pending Charges - Approach Shot | 444 Cerromar Road",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.delafuente@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-13T15:10:39+00:00",
+    "ticket_number": 9235,
+    "subject": "Avalon-PCA DC",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-13T15:10:39+00:00",
+    "ticket_number": 9201,
+    "subject": "Nicodemus Kathy | Ocean Eyes |  Res #: 57164 | Blinds stuck",
+    "type": "reassigned",
+    "detail": "Reassigned from a.maboloc@choosegulfcoast.com to j.delafuente@choosegulfcoast.com",
+    "from": "a.maboloc@choosegulfcoast.com",
+    "to": "j.delafuente@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-13T15:10:39+00:00",
+    "ticket_number": 9194,
+    "subject": "Little Bit Of Heaven | Listing Description Update",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to j.gordillo@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "j.gordillo@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-13T15:10:39+00:00",
+    "ticket_number": 9184,
+    "subject": "Kenney Patrick |   Res#: 60210 | Signal Inn - Unit 16 | Damaged Window Shade",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-14 22:00:00 to 2026-10-16 22:00:00",
+    "from": "2026-10-14 22:00:00",
+    "to": "2026-10-16 22:00:00"
+  },
+  {
+    "ts": "2026-10-13T15:10:39+00:00",
+    "ticket_number": 9080,
+    "subject": "Golfers Grove | Fire Extinguisher",
+    "type": "reassigned",
+    "detail": "Reassigned from j.messasierra@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "j.messasierra@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-13T15:10:39+00:00",
+    "ticket_number": 8825,
+    "subject": "Sliding door lock project",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-12 15:51:00 to 2026-10-16 15:51:00",
+    "from": "2026-10-12 15:51:00",
+    "to": "2026-10-16 15:51:00"
+  },
+  {
+    "ts": "2026-10-13T15:10:39+00:00",
+    "ticket_number": 8586,
+    "subject": "Boardwalk Shell station",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-10 20:41:00 to 2026-10-14 20:41:00",
+    "from": "2026-10-10 20:41:00",
+    "to": "2026-10-14 20:41:00"
+  },
+  {
+    "ts": "2026-10-13T15:10:39+00:00",
+    "ticket_number": 9207,
+    "subject": "5 Star Review Feedback | Res #: 60059 | Loretta Messinger | Colony Inn C-07 | 10/04/2026 - 10/09/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-13T15:10:39+00:00",
+    "ticket_number": 8918,
+    "subject": "Name: Hoffman Victoria | Res: 45881 | Cancelled 100% Retained - Direct",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-13T07:15:39+00:00",
     "ticket_number": 9234,
     "subject": "Cancel Res #: 49287 | Unit: The River\u2019s End | Guest Name: Scearcy Diane",
@@ -7763,124 +7894,5 @@
     "detail": "Due date changed from 2026-09-23 20:59:00 to 2026-10-16 20:59:00",
     "from": "2026-09-23 20:59:00",
     "to": "2026-10-16 20:59:00"
-  },
-  {
-    "ts": "2026-09-22T20:23:36+00:00",
-    "ticket_number": 8902,
-    "subject": "Greve Priscilla |  Res #: 61555 |  Little Bit Of Heaven |  Water Pump Leaking",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-22T20:23:36+00:00",
-    "ticket_number": 8901,
-    "subject": "Sufka Kelly | Beach House Residences 1 Res #: 61920 | ECI",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-22T20:23:36+00:00",
-    "ticket_number": 8852,
-    "subject": "rent rev",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-22T20:23:36+00:00",
-    "ticket_number": 8850,
-    "subject": "Keane Fergal/zBella Vita/Res #: 44004/Property Concern \u2013 Water & Hot Water Shut Off",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-22T20:23:36+00:00",
-    "ticket_number": 8803,
-    "subject": "2 Star Review Feedback | Res #: 60184 | McArn Lynnzie | Coastal Oasis | 9/4/2026-9/9/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-22T20:23:36+00:00",
-    "ticket_number": 8787,
-    "subject": "Dreams of Paradise-PCA deep clean",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-22T20:23:36+00:00",
-    "ticket_number": 8780,
-    "subject": "GBB1327 - touchup clean",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-22T20:23:36+00:00",
-    "ticket_number": 8739,
-    "subject": "GBB1327 - Update photos",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-22T20:23:36+00:00",
-    "ticket_number": 8734,
-    "subject": "Southern Exposure-PCA deep clean",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-22T20:23:36+00:00",
-    "ticket_number": 8733,
-    "subject": "Array of Sunshine-deep clean per PCA",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-22T20:23:36+00:00",
-    "ticket_number": 8706,
-    "subject": "A Shore Thing - Deep clean",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-22T20:23:36+00:00",
-    "ticket_number": 8690,
-    "subject": "Golfside Escape-cleaning",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-22T20:23:36+00:00",
-    "ticket_number": 8111,
-    "subject": "Fraser Rachel/A Shore Thing/Res #: 46904/Pool heating Request",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-22T17:28:15+00:00",
-    "ticket_number": 8904,
-    "subject": "Edgewater Bungalow- master bath ceiling fan cover",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-22T17:28:15+00:00",
-    "ticket_number": 8903,
-    "subject": "Name: Tokioka Mariko | Res: 62227 | Compensation to Be Charged to Colony",
-    "type": "created",
-    "detail": "Created \u2014 assigned to a.ytac@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-22T17:28:15+00:00",
-    "ticket_number": 8902,
-    "subject": "Greve Priscilla |  Res #: 61555 |  Little Bit Of Heaven |  Water Pump Leaking",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-22T17:28:15+00:00",
-    "ticket_number": 8901,
-    "subject": "Sufka Kelly | Beach House Residences 1 Res #: 61920 | ECI",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
   }
 ]
