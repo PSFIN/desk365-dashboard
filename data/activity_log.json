@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-10-13T07:15:39+00:00",
+    "ticket_number": 9234,
+    "subject": "Cancel Res #: 49287 | Unit: The River\u2019s End | Guest Name: Scearcy Diane",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-10-13T00:53:48+00:00",
     "ticket_number": 9233,
     "subject": "GBB1275 - Remove from Linen Program",
@@ -7875,12 +7882,5 @@
     "subject": "Sufka Kelly | Beach House Residences 1 Res #: 61920 | ECI",
     "type": "created",
     "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-22T17:28:15+00:00",
-    "ticket_number": 8899,
-    "subject": "Pritchett Darin |  Day Dreamer | Res #: 52252 | Keurig not working",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
   }
 ]
