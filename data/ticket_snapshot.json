@@ -1,4 +1,32 @@
 {
+  "9275": {
+    "subject": "Game On-Pictures",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-19 19:11:40",
+    "priority": 10
+  },
+  "9274": {
+    "subject": "Rent Rev",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-19 16:39:58",
+    "priority": 10
+  },
+  "9273": {
+    "subject": "Vehicle wrap quotes",
+    "assigned_to": "e.buchanan@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-19 15:40:19",
+    "priority": 10
+  },
+  "9272": {
+    "subject": "Awake Zone-Pool screen tears",
+    "assigned_to": "d.husak@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-19 15:23:57",
+    "priority": 5
+  },
   "9268": {
     "subject": "Signal Marketing Plan",
     "assigned_to": "e.buchanan@choosegulfcoast.com",
@@ -83,16 +111,9 @@
     "due_date": "2026-10-16 19:42:21",
     "priority": 1
   },
-  "9256": {
-    "subject": "GC1910 - Remove the furniture",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-16 19:05:35",
-    "priority": 1
-  },
   "9255": {
     "subject": "Paraclete Paradise-weeds, tree triming",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-16 18:53:58",
     "priority": 10
@@ -132,27 +153,6 @@
     "due_date": "2026-10-16 15:48:00",
     "priority": 1
   },
-  "9246": {
-    "subject": "Property Management Inq and Sale",
-    "assigned_to": "a.vetick@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-16 14:54:20",
-    "priority": 1
-  },
-  "9245": {
-    "subject": "Brown Cleo | Res #: 64268 | Pearl in the Rough | Smoke Detector",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-16 14:39:30",
-    "priority": 1
-  },
-  "9244": {
-    "subject": "4 Star Review Feedback | Res #: 54548 | Stacy Crouse | Sandalfoot 1D1 | 10/09/2026 - 10/12/2026",
-    "assigned_to": "n.armstrong@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-16 14:31:33",
-    "priority": 1
-  },
   "9242": {
     "subject": "Calusa Units",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
@@ -190,7 +190,7 @@
   },
   "9234": {
     "subject": "Cancel Res #: 49287 | Unit: The River\u2019s End | Guest Name: Scearcy Diane",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-15 22:00:00",
     "priority": 1
@@ -211,7 +211,7 @@
   },
   "9229": {
     "subject": "Beach House Residences Unit 1 | Listing Description",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-15 16:24:41",
     "priority": 1
@@ -349,13 +349,6 @@
     "due_date": "2026-10-15 14:22:37",
     "priority": 5
   },
-  "9205": {
-    "subject": "5 Star Review Feedback | Res #: 60172 | Paige Litterer | Sandalfoot 5C2 | 10/06/2026 - 10/10/2026",
-    "assigned_to": "n.armstrong@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-15 14:07:15",
-    "priority": 1
-  },
   "9203": {
     "subject": "5 Star Review Feedback | Res #: 63822 | Kim Lambert | Sandalfoot 3C1 | 10/06/2026 - 10/10/2026",
     "assigned_to": "b.evans@choosegulfcoast.com",
@@ -387,13 +380,6 @@
   "9194": {
     "subject": "Little Bit Of Heaven | Listing Description Update",
     "assigned_to": "j.gordillo@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-14 22:00:00",
-    "priority": 1
-  },
-  "9191": {
-    "subject": "Cousin Dalton/Signal Inn - Unit 09/Res #: 64517/ Pet Fee Refund",
-    "assigned_to": "m.mccartney@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-14 22:00:00",
     "priority": 1
@@ -566,25 +552,18 @@
     "due_date": "2026-10-20 15:40:00",
     "priority": 1
   },
-  "9111": {
-    "subject": "Colony Inn Unit Descriptions",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-14 14:39:00",
-    "priority": 1
-  },
   "9110": {
     "subject": "City of Sarasota VR License - Beautiful Bayou | 2124 North Tamiami Trail",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-14 19:33:00",
+    "due_date": "2026-10-15 19:33:00",
     "priority": 10
   },
   "9109": {
     "subject": "City of Sarasota VR License - Admirals Watch | 1703 North Tamiami Trail, B503",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-14 19:05:00",
+    "due_date": "2026-10-15 19:05:00",
     "priority": 10
   },
   "9103": {
@@ -661,15 +640,8 @@
     "subject": "Sales & Tourist Tax Remittance - September 2026",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-13 21:00:00",
+    "due_date": "2026-10-15 21:00:00",
     "priority": 10
-  },
-  "9026": {
-    "subject": "4 Star Review Feedback | Res #56449 | Blumenthal Edwin | Sandalfoot 1B1 | 9/12/2026-9/22/2026",
-    "assigned_to": "n.armstrong@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-06 16:47:38",
-    "priority": 1
   },
   "9021": {
     "subject": "Shower Glass - Rental insurance claim",
@@ -766,21 +738,21 @@
     "subject": "City of Bradenton VR License - Villa In The Clouds | 1439 56th Street West",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-14 17:50:00",
+    "due_date": "2026-10-15 17:50:00",
     "priority": 20
   },
   "8866": {
     "subject": "City of Bradenton VR License - Tropical Gulf Retreat | 4325 46th Avenue West, #203",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-14 17:42:00",
+    "due_date": "2026-10-15 17:42:00",
     "priority": 20
   },
   "8863": {
     "subject": "City of Bradenton VR License - Mangrove Escape | 971 Waterside Lane",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-14 18:00:00",
+    "due_date": "2026-10-15 18:00:00",
     "priority": 20
   },
   "8861": {
@@ -871,7 +843,7 @@
     "subject": "DR-11 Form :  Splash Decision - 14881 Laguna Drive",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-14 18:00:00",
+    "due_date": "2026-10-15 18:00:00",
     "priority": 10
   },
   "8568": {
@@ -892,7 +864,7 @@
     "subject": "DR-11 Form : Putt in Paradise -19116 SCALLOP LOOP, #202",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-14 18:00:00",
+    "due_date": "2026-10-15 18:00:00",
     "priority": 10
   },
   "8505": {
@@ -906,7 +878,7 @@
     "subject": "Cedar Hammock Fire District Inspection - Multiple Units",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-14 21:00:00",
+    "due_date": "2026-10-15 21:00:00",
     "priority": 10
   },
   "8444": {
@@ -927,7 +899,7 @@
     "subject": "DR-11 Forms : Multiple Property Units",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-14 18:00:00",
+    "due_date": "2026-10-15 18:00:00",
     "priority": 10
   },
   "8365": {
