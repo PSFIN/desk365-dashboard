@@ -1,4 +1,39 @@
 {
+  "9280": {
+    "subject": "5 Star Review Feedback | Res #: 60311 | Elizabeth Pacheco | Coastal Oasis | 10/08/2026 - 10/13/2026",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-19 22:00:00",
+    "priority": 1
+  },
+  "9279": {
+    "subject": "PATEL DIPA/Beach House Residences Unit 1/Res #: 51678/ Multiple Issues",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-19 21:39:53",
+    "priority": 1
+  },
+  "9278": {
+    "subject": "review payment pages for each website",
+    "assigned_to": "e.buchanan@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-19 20:30:59",
+    "priority": 10
+  },
+  "9277": {
+    "subject": "06ers-no cleaning owner block",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-19 20:03:40",
+    "priority": 1
+  },
+  "9276": {
+    "subject": "Blossom Retreat-owner block",
+    "assigned_to": "a.guarin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-19 19:59:19",
+    "priority": 1
+  },
   "9275": {
     "subject": "Game On-Pictures",
     "assigned_to": "b.meyer@choosegulfcoast.com",
@@ -19,13 +54,6 @@
     "status": "Open",
     "due_date": "2026-10-19 15:40:19",
     "priority": 10
-  },
-  "9272": {
-    "subject": "Awake Zone-Pool screen tears",
-    "assigned_to": "d.husak@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-19 15:23:57",
-    "priority": 5
   },
   "9268": {
     "subject": "Signal Marketing Plan",
@@ -113,7 +141,7 @@
   },
   "9255": {
     "subject": "Paraclete Paradise-weeds, tree triming",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-16 18:53:58",
     "priority": 10
@@ -167,13 +195,6 @@
     "due_date": "2026-10-16 14:12:20",
     "priority": 1
   },
-  "9239": {
-    "subject": "Brown Cleo | Res #: 64268 | Pearl in the Rough | Sliding Wardrobe Damage",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-16 14:09:23",
-    "priority": 1
-  },
   "9237": {
     "subject": "Ward Douglas | Res #: 62041 | Grand Getaway | Plumbing Issue in Master Bathroom",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
@@ -201,13 +222,6 @@
     "status": "Open",
     "due_date": "2026-10-15 20:19:16",
     "priority": 1
-  },
-  "9231": {
-    "subject": "Fishtail-home check",
-    "assigned_to": "d.husak@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-15 17:20:15",
-    "priority": 10
   },
   "9229": {
     "subject": "Beach House Residences Unit 1 | Listing Description",
@@ -599,13 +613,6 @@
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-30 22:00:00",
-    "priority": 1
-  },
-  "9071": {
-    "subject": "Possible Guest/Cleo Brown/Pearl In The Rough/VRBO Guest Requests / Inquiries",
-    "assigned_to": "m.omasdang@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-09 16:21:00",
     "priority": 1
   },
   "9070": {

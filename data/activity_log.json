@@ -1,5 +1,77 @@
 [
   {
+    "ts": "2026-10-14T22:54:37+00:00",
+    "ticket_number": 9280,
+    "subject": "5 Star Review Feedback | Res #: 60311 | Elizabeth Pacheco | Coastal Oasis | 10/08/2026 - 10/13/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-14T22:54:37+00:00",
+    "ticket_number": 9279,
+    "subject": "PATEL DIPA/Beach House Residences Unit 1/Res #: 51678/ Multiple Issues",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-14T22:54:37+00:00",
+    "ticket_number": 9278,
+    "subject": "review payment pages for each website",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.buchanan@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-14T22:54:37+00:00",
+    "ticket_number": 9277,
+    "subject": "06ers-no cleaning owner block",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-14T22:54:37+00:00",
+    "ticket_number": 9276,
+    "subject": "Blossom Retreat-owner block",
+    "type": "created",
+    "detail": "Created \u2014 assigned to a.guarin@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-14T22:54:37+00:00",
+    "ticket_number": 9255,
+    "subject": "Paraclete Paradise-weeds, tree triming",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-14T22:54:37+00:00",
+    "ticket_number": 9272,
+    "subject": "Awake Zone-Pool screen tears",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-14T22:54:37+00:00",
+    "ticket_number": 9239,
+    "subject": "Brown Cleo | Res #: 64268 | Pearl in the Rough | Sliding Wardrobe Damage",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-14T22:54:37+00:00",
+    "ticket_number": 9231,
+    "subject": "Fishtail-home check",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-14T22:54:37+00:00",
+    "ticket_number": 9071,
+    "subject": "Possible Guest/Cleo Brown/Pearl In The Rough/VRBO Guest Requests / Inquiries",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-14T19:32:34+00:00",
     "ticket_number": 9275,
     "subject": "Game On-Pictures",
@@ -7802,75 +7874,5 @@
     "subject": "Pritchett Darin |  Day Dreamer | Res #: 52252 | Keurig not working",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-23T20:55:48+00:00",
-    "ticket_number": 8931,
-    "subject": "SF Unit 4C1 Owner Von Eschen / Owner reservation Feb12-16",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-23T20:55:48+00:00",
-    "ticket_number": 8930,
-    "subject": "5 Star Review Feedback | Res #59185 | Dick Christopher | Sandalfoot 3A2 | 8/12/2026-8/15/2026",
-    "type": "created",
-    "detail": "Created \u2014 assigned to n.armstrong@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-23T20:55:48+00:00",
-    "ticket_number": 8929,
-    "subject": "Captains Quarters - Lynx Lock",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-23T20:55:48+00:00",
-    "ticket_number": 8928,
-    "subject": "Villa Milano Lynx Lock",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-23T20:55:48+00:00",
-    "ticket_number": 8927,
-    "subject": "GBB1200 - Lynx Lock",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-23T20:55:48+00:00",
-    "ticket_number": 8926,
-    "subject": "Beachbound Bliss - Lynx",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-23T20:55:48+00:00",
-    "ticket_number": 8925,
-    "subject": "Beach Bum - Lynx lock",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-23T20:55:48+00:00",
-    "ticket_number": 8924,
-    "subject": "2 Star Review Feedback | Res #61513 | Shaw Debbie | Shaker of Salt | 8/26/2026-8/31/2026",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-23T20:55:48+00:00",
-    "ticket_number": 8923,
-    "subject": "Easy Does It-APP sign up for service",
-    "type": "created",
-    "detail": "Created \u2014 assigned to c.thayer@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-23T20:55:48+00:00",
-    "ticket_number": 8921,
-    "subject": "Lynx locks-owners",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.evans@choosegulfcoast.com, status Open"
   }
 ]
