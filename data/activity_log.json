@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-10-15T01:09:21+00:00",
+    "ticket_number": 9281,
+    "subject": "3 Star Review Feedback | Res #: 60538 | Hargreaves Virginia | Colony Inn C-55 | 10/11/2026 - 10/12/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to marcie@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-10-14T22:54:37+00:00",
     "ticket_number": 9280,
     "subject": "5 Star Review Feedback | Res #: 60311 | Elizabeth Pacheco | Coastal Oasis | 10/08/2026 - 10/13/2026",
@@ -7867,12 +7874,5 @@
     "detail": "Due date changed from 2026-09-23 15:51:00 to 2026-09-30 15:51:00",
     "from": "2026-09-23 15:51:00",
     "to": "2026-09-30 15:51:00"
-  },
-  {
-    "ts": "2026-09-23T23:24:00+00:00",
-    "ticket_number": 8899,
-    "subject": "Pritchett Darin |  Day Dreamer | Res #: 52252 | Keurig not working",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
 ]
