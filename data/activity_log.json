@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-10-16T00:55:16+00:00",
+    "ticket_number": 9296,
+    "subject": "Res #: 59197 | Unit: Gulf & Bay Bayside - 1204 | Pepper Yolanda | Door Lock Code Not Working",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.nutt@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-10-15T22:53:05+00:00",
     "ticket_number": 9295,
     "subject": "PATEL DIPA/Beach House Residences Unit 1/Res #: 51678/Late Check-out Request",
@@ -7889,12 +7896,5 @@
     "subject": "Guest Name: Pepper Seth |   Res #: 59846 | Unit: Residences Of Siesta Key | TV Input/Cable Box Connection Issue",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-26T21:20:51+00:00",
-    "ticket_number": 8961,
-    "subject": "Southern Comfort Jan Guest Pet Request",
-    "type": "created",
-    "detail": "Created \u2014 assigned to d.husak@choosegulfcoast.com, status Open"
   }
 ]
