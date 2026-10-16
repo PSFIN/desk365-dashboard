@@ -1,5 +1,77 @@
 [
   {
+    "ts": "2026-10-16T14:41:25+00:00",
+    "ticket_number": 9301,
+    "subject": "Resort Marketing Materials",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.buchanan@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-16T14:41:25+00:00",
+    "ticket_number": 9300,
+    "subject": "Resort Email Footers",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-16T14:41:25+00:00",
+    "ticket_number": 9299,
+    "subject": "Name: Lindenberg Jay | Res: 50193 | Cancelled 100% Retained - Direct",
+    "type": "created",
+    "detail": "Created \u2014 assigned to a.ytac@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-16T14:41:25+00:00",
+    "ticket_number": 9298,
+    "subject": "Cancellation Request for: Res #: 65003 in Signal Inn Unit 18 due to low rate",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-16T14:41:25+00:00",
+    "ticket_number": 9297,
+    "subject": "Heavenly Daze-install faucet",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-16T14:41:25+00:00",
+    "ticket_number": 9203,
+    "subject": "5 Star Review Feedback | Res #: 63822 | Kim Lambert | Sandalfoot 3C1 | 10/06/2026 - 10/10/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from n.armstrong@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
+    "from": "n.armstrong@choosegulfcoast.com",
+    "to": "s.soriafrausto@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-16T14:41:25+00:00",
+    "ticket_number": 9290,
+    "subject": "Hibiscus Haven- extend owner block",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-16T14:41:25+00:00",
+    "ticket_number": 9276,
+    "subject": "Blossom Retreat-owner block",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-16T14:41:25+00:00",
+    "ticket_number": 9263,
+    "subject": "o6ers-block",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-16T14:41:25+00:00",
+    "ticket_number": 8978,
+    "subject": "Proof of business ownership",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-16T09:59:56+00:00",
     "ticket_number": 9194,
     "subject": "Little Bit Of Heaven | Listing Description Update",
@@ -7824,76 +7896,6 @@
     "ts": "2026-09-28T19:55:59+00:00",
     "ticket_number": 8925,
     "subject": "Beach Bum - Lynx lock",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-28T19:55:59+00:00",
-    "ticket_number": 8923,
-    "subject": "Easy Does It-APP sign up for service",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-28T19:55:59+00:00",
-    "ticket_number": 8917,
-    "subject": "New Hire - Email Signature - LindaJean Koeing",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-28T19:55:59+00:00",
-    "ticket_number": 8904,
-    "subject": "Edgewater Bungalow- master bath ceiling fan cover",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-28T19:55:59+00:00",
-    "ticket_number": 8898,
-    "subject": "4 Star Review Feedback | Res #56546 | Schwab Emily | Coral Paradise | 7/27/2026-9/21/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-28T19:55:59+00:00",
-    "ticket_number": 8882,
-    "subject": "5 Star Review Feedback | Res #61411 | Sosa Ariel M | Gulf & Bay Bayside - 1219 | 9/8/2026-9/15/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-28T19:55:59+00:00",
-    "ticket_number": 8839,
-    "subject": "1391 sprinkler head gap",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-28T19:55:59+00:00",
-    "ticket_number": 8836,
-    "subject": "Fieside cottage-trash cans",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-28T19:55:59+00:00",
-    "ticket_number": 8464,
-    "subject": "Precious Gem-PCA Deep clean",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-28T12:33:18+00:00",
-    "ticket_number": 8963,
-    "subject": "Reshoot GBB1326",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-28T12:33:18+00:00",
-    "ticket_number": 8957,
-    "subject": "4 Star Review Feedback | Res #62594 | Bareishis Charles | Colony Inn C-53 | 9/14/2026-9/17/2026",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }

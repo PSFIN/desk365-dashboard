@@ -1,4 +1,39 @@
 {
+  "9301": {
+    "subject": "Resort Marketing Materials",
+    "assigned_to": "e.buchanan@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-21 14:31:41",
+    "priority": 1
+  },
+  "9300": {
+    "subject": "Resort Email Footers",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-21 14:22:46",
+    "priority": 1
+  },
+  "9299": {
+    "subject": "Name: Lindenberg Jay | Res: 50193 | Cancelled 100% Retained - Direct",
+    "assigned_to": "a.ytac@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-20 22:00:00",
+    "priority": 1
+  },
+  "9298": {
+    "subject": "Cancellation Request for: Res #: 65003 in Signal Inn Unit 18 due to low rate",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-16 22:00:00",
+    "priority": 10
+  },
+  "9297": {
+    "subject": "Heavenly Daze-install faucet",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-20 22:00:00",
+    "priority": 10
+  },
   "9296": {
     "subject": "Res #: 59197 | Unit: Gulf & Bay Bayside - 1204 | Pepper Yolanda | Door Lock Code Not Working",
     "assigned_to": "c.nutt@choosegulfcoast.com",
@@ -39,13 +74,6 @@
     "assigned_to": "h.nomura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-20 19:21:26",
-    "priority": 1
-  },
-  "9290": {
-    "subject": "Hibiscus Haven- extend owner block",
-    "assigned_to": "a.guarin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-20 18:02:42",
     "priority": 1
   },
   "9289": {
@@ -111,13 +139,6 @@
     "due_date": "2026-10-19 20:03:40",
     "priority": 1
   },
-  "9276": {
-    "subject": "Blossom Retreat-owner block",
-    "assigned_to": "a.guarin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-19 19:59:19",
-    "priority": 1
-  },
   "9275": {
     "subject": "Game On-Pictures",
     "assigned_to": "b.meyer@choosegulfcoast.com",
@@ -165,13 +186,6 @@
     "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-16 20:45:12",
-    "priority": 10
-  },
-  "9263": {
-    "subject": "o6ers-block",
-    "assigned_to": "a.guarin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-16 20:21:15",
     "priority": 10
   },
   "9262": {
@@ -386,7 +400,7 @@
   },
   "9203": {
     "subject": "5 Star Review Feedback | Res #: 63822 | Kim Lambert | Sandalfoot 3C1 | 10/06/2026 - 10/10/2026",
-    "assigned_to": "n.armstrong@choosegulfcoast.com",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-14 22:00:00",
     "priority": 1
@@ -628,13 +642,6 @@
     "status": "Open",
     "due_date": "2026-10-19 17:00:00",
     "priority": 1
-  },
-  "8978": {
-    "subject": "Proof of business ownership",
-    "assigned_to": "n.armstrong@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-02 14:09:33",
-    "priority": 10
   },
   "8960": {
     "subject": "zSugar Beach - Minimum Escrow Balance",
