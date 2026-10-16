@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-10-16T09:59:56+00:00",
+    "ticket_number": 9194,
+    "subject": "Little Bit Of Heaven | Listing Description Update",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-16T00:55:16+00:00",
     "ticket_number": 9296,
     "subject": "Res #: 59197 | Unit: Gulf & Bay Bayside - 1204 | Pepper Yolanda | Door Lock Code Not Working",
@@ -7887,13 +7894,6 @@
     "ts": "2026-09-28T12:33:18+00:00",
     "ticket_number": 8957,
     "subject": "4 Star Review Feedback | Res #62594 | Bareishis Charles | Colony Inn C-53 | 9/14/2026-9/17/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-27T14:29:44+00:00",
-    "ticket_number": 8955,
-    "subject": "Guest Name: Pepper Seth |   Res #: 59846 | Unit: Residences Of Siesta Key | TV Input/Cable Box Connection Issue",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
