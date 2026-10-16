@@ -1,4 +1,25 @@
 {
+  "9304": {
+    "subject": "4 Star Review Feedback | Res #: 57066 | Haywood Roger | Sandalfoot 5B2 | 10/11/2026 - 10/14/2026",
+    "assigned_to": "n.armstrong@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-21 15:21:28",
+    "priority": 1
+  },
+  "9303": {
+    "subject": "Avalon-old fridge pick up quote",
+    "assigned_to": "d.husak@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-21 15:10:41",
+    "priority": 10
+  },
+  "9302": {
+    "subject": "5 Star Review Feedback | Res #: 43586 | Douglas Simpson | Signal Inn - Unit 04 | 10/12/2026 - 10/15/2026",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-21 14:42:28",
+    "priority": 1
+  },
   "9301": {
     "subject": "Resort Marketing Materials",
     "assigned_to": "e.buchanan@choosegulfcoast.com",
@@ -29,7 +50,7 @@
   },
   "9297": {
     "subject": "Heavenly Daze-install faucet",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-20 22:00:00",
     "priority": 10
@@ -53,13 +74,6 @@
     "assigned_to": "m.eronico@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-20 20:26:10",
-    "priority": 1
-  },
-  "9293": {
-    "subject": "Abdelahad Kathy/The Nest/Res #: 63558/Beach Chairs and Umbrella for March 2027 Guest",
-    "assigned_to": "d.husak@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-20 19:55:40",
     "priority": 1
   },
   "9292": {
@@ -95,13 +109,6 @@
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-20 17:44:41",
-    "priority": 1
-  },
-  "9285": {
-    "subject": "Rothrock Lindsey | Ocean Eyes | Res #: 60090 | Toilet Issue",
-    "assigned_to": "j.delafuente@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-16 22:00:00",
     "priority": 1
   },
   "9284": {
@@ -143,14 +150,7 @@
     "subject": "Game On-Pictures",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-19 19:11:40",
-    "priority": 10
-  },
-  "9274": {
-    "subject": "Rent Rev",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-19 16:39:58",
+    "due_date": "2026-10-20 19:11:00",
     "priority": 10
   },
   "9273": {
@@ -181,13 +181,6 @@
     "due_date": "2026-10-16 22:00:00",
     "priority": 1
   },
-  "9264": {
-    "subject": "Rent Rev",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-16 20:45:12",
-    "priority": 10
-  },
   "9262": {
     "subject": "The Boat House-No smoke detectors",
     "assigned_to": "d.husak@choosegulfcoast.com",
@@ -199,7 +192,7 @@
     "subject": "Name: Pfeifer Chris | Res: 62211 | Property: C-14 | Cancelled 100% Retained - Direct",
     "assigned_to": "a.ytac@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-16 20:02:18",
+    "due_date": "2026-11-04 22:00:00",
     "priority": 1
   },
   "9260": {
@@ -225,9 +218,9 @@
   },
   "9257": {
     "subject": "Amenities on SL pushed to Airbnb",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-16 19:42:21",
+    "due_date": "2026-10-17 19:42:00",
     "priority": 1
   },
   "9255": {
@@ -248,7 +241,7 @@
     "subject": "Beyond the Green-New ob need pictures",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-16 18:14:00",
+    "due_date": "2026-10-20 18:14:00",
     "priority": 10
   },
   "9250": {
@@ -419,13 +412,6 @@
     "due_date": "2026-10-16 22:00:00",
     "priority": 1
   },
-  "9200": {
-    "subject": "4 Star Review Feedback | Res #: 60105 | John Kovach | Signal Inn - Unit 10 | 10/03/2026 - 10/09/2026",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-14 22:00:00",
-    "priority": 1
-  },
   "9188": {
     "subject": "A Shore Thing | Owner Approval Request",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
@@ -559,13 +545,6 @@
     "due_date": "2026-10-16 19:05:00",
     "priority": 10
   },
-  "9103": {
-    "subject": "Tropical Escape - New photos",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-16 22:00:00",
-    "priority": 1
-  },
   "9095": {
     "subject": "Request for cancellation due to low rate: A Shore Thing Res #: 64168",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
@@ -626,7 +605,7 @@
     "subject": "Sales & Tourist Tax Remittance - September 2026",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-16 14:00:00",
+    "due_date": "2026-10-16 19:00:00",
     "priority": 10
   },
   "9021": {
@@ -703,42 +682,42 @@
     "subject": "City of Bradenton VR License - Villa In The Clouds | 1439 56th Street West",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-16 17:50:00",
+    "due_date": "2026-10-19 17:50:00",
     "priority": 20
   },
   "8866": {
     "subject": "City of Bradenton VR License - Tropical Gulf Retreat | 4325 46th Avenue West, #203",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-16 17:42:00",
+    "due_date": "2026-10-19 17:42:00",
     "priority": 20
   },
   "8863": {
     "subject": "City of Bradenton VR License - Mangrove Escape | 971 Waterside Lane",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-16 18:00:00",
+    "due_date": "2026-10-19 18:00:00",
     "priority": 20
   },
   "8861": {
     "subject": "City of Bradenton VR License - Florida Dreams | 4457 45th Avenue West, #110",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-16 15:58:00",
+    "due_date": "2026-10-19 15:58:00",
     "priority": 20
   },
   "8860": {
     "subject": "City of Bradenton VR License - Don't Worry Beach Happy | 502 Sanderling Circle",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-16 15:55:00",
+    "due_date": "2026-10-19 15:55:00",
     "priority": 20
   },
   "8859": {
     "subject": "City of Bradenton VR License - Blossom Retreat | 7333 Skybird Road",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-16 15:55:00",
+    "due_date": "2026-10-19 15:55:00",
     "priority": 20
   },
   "8856": {
@@ -752,21 +731,21 @@
     "subject": "Pellito Laurie/Signal Inn - Unit 14/Signal Inn - Unit 14/Property Feedback",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-12 21:13:00",
+    "due_date": "2026-10-21 21:13:00",
     "priority": 1
   },
   "8825": {
     "subject": "Sliding door lock project",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-16 15:51:00",
+    "due_date": "2026-10-30 15:51:00",
     "priority": 1
   },
   "8819": {
     "subject": "City of Bradenton VR License - A Wave from it All | 395 Aruba Circle, #203",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-15 21:00:00",
+    "due_date": "2026-10-19 21:00:00",
     "priority": 20
   },
   "8754": {
@@ -794,7 +773,7 @@
     "subject": "Boardwalk Shell station",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-14 20:41:00",
+    "due_date": "2026-10-17 20:41:00",
     "priority": 1
   },
   "8575": {
@@ -815,7 +794,7 @@
     "subject": "camera for signal from Red1",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-13 16:07:00",
+    "due_date": "2026-10-20 16:07:00",
     "priority": 5
   },
   "8550": {
@@ -911,7 +890,7 @@
   },
   "7797": {
     "subject": "Longboat Dream - Update Listing",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-12-31 18:19:00",
     "priority": 1
@@ -927,21 +906,21 @@
     "subject": "Marriott Curation Rejected - Signal Inn 02",
     "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-16 21:00:00",
+    "due_date": "2026-10-23 21:00:00",
     "priority": 5
   },
   "7397": {
     "subject": "Marriott Curation Rejected - Signal inn 03",
     "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-16 15:28:00",
+    "due_date": "2026-10-23 15:28:00",
     "priority": 5
   },
   "7396": {
     "subject": "Marriott Curation Rejected - Signal Inn 18",
     "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-16 15:06:00",
+    "due_date": "2026-10-23 15:06:00",
     "priority": 5
   },
   "7361": {
