@@ -1,5 +1,86 @@
 [
   {
+    "ts": "2026-10-16T21:51:22+00:00",
+    "ticket_number": 9303,
+    "subject": "Avalon-old fridge pick up quote",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to j.delafuente@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "j.delafuente@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-16T21:51:22+00:00",
+    "ticket_number": 9303,
+    "subject": "Avalon-old fridge pick up quote",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-21 15:10:41 to 2026-10-17 18:00:00",
+    "from": "2026-10-21 15:10:41",
+    "to": "2026-10-17 18:00:00"
+  },
+  {
+    "ts": "2026-10-16T21:51:22+00:00",
+    "ticket_number": 9289,
+    "subject": "GBB1332 - Photos",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-20 17:52:28 to 2026-10-22 17:52:00",
+    "from": "2026-10-20 17:52:28",
+    "to": "2026-10-22 17:52:00"
+  },
+  {
+    "ts": "2026-10-16T21:51:22+00:00",
+    "ticket_number": 9262,
+    "subject": "The Boat House-No smoke detectors",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-16T21:51:22+00:00",
+    "ticket_number": 9257,
+    "subject": "Amenities on SL pushed to Airbnb",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-17 19:42:00 to 2026-10-24 19:42:00",
+    "from": "2026-10-17 19:42:00",
+    "to": "2026-10-24 19:42:00"
+  },
+  {
+    "ts": "2026-10-16T21:51:22+00:00",
+    "ticket_number": 9188,
+    "subject": "A Shore Thing | Owner Approval Request",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-16 22:00:00 to 2026-10-17 22:00:00",
+    "from": "2026-10-16 22:00:00",
+    "to": "2026-10-17 22:00:00"
+  },
+  {
+    "ts": "2026-10-16T21:51:22+00:00",
+    "ticket_number": 9110,
+    "subject": "City of Sarasota VR License - Beautiful Bayou | 2124 North Tamiami Trail",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-16 19:33:00 to 2026-10-19 19:33:00",
+    "from": "2026-10-16 19:33:00",
+    "to": "2026-10-19 19:33:00"
+  },
+  {
+    "ts": "2026-10-16T21:51:22+00:00",
+    "ticket_number": 9109,
+    "subject": "City of Sarasota VR License - Admirals Watch | 1703 North Tamiami Trail, B503",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-16 19:05:00 to 2026-10-19 19:05:00",
+    "from": "2026-10-16 19:05:00",
+    "to": "2026-10-19 19:05:00"
+  },
+  {
+    "ts": "2026-10-16T21:51:22+00:00",
+    "ticket_number": 9039,
+    "subject": "Sales & Tourist Tax Remittance - September 2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-16 19:00:00 to 2026-10-16 21:00:00",
+    "from": "2026-10-16 19:00:00",
+    "to": "2026-10-16 21:00:00"
+  },
+  {
     "ts": "2026-10-16T18:33:01+00:00",
     "ticket_number": 9304,
     "subject": "4 Star Review Feedback | Res #: 57066 | Haywood Roger | Sandalfoot 5B2 | 10/11/2026 - 10/14/2026",
@@ -7841,80 +7922,5 @@
     "detail": "Due date changed from 2026-09-25 22:00:00 to 2026-09-29 22:00:00",
     "from": "2026-09-25 22:00:00",
     "to": "2026-09-29 22:00:00"
-  },
-  {
-    "ts": "2026-09-29T00:08:12+00:00",
-    "ticket_number": 8331,
-    "subject": "PCA for Serenity Garden Due Date : 9/14/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-25 22:00:00 to 2026-09-29 22:00:00",
-    "from": "2026-09-25 22:00:00",
-    "to": "2026-09-29 22:00:00"
-  },
-  {
-    "ts": "2026-09-29T00:08:12+00:00",
-    "ticket_number": 7361,
-    "subject": "PCA for Gulf & Bay Bayside - 1350 Due Date: 7/30/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-28 17:00:00 to 2026-09-29 17:00:00",
-    "from": "2026-09-28 17:00:00",
-    "to": "2026-09-29 17:00:00"
-  },
-  {
-    "ts": "2026-09-29T00:08:12+00:00",
-    "ticket_number": 7323,
-    "subject": "Aloha House - Unit painting",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-24 22:00:00 to 2026-09-29 22:00:00",
-    "from": "2026-09-24 22:00:00",
-    "to": "2026-09-29 22:00:00"
-  },
-  {
-    "ts": "2026-09-29T00:08:12+00:00",
-    "ticket_number": 7165,
-    "subject": "PCA for Gulf & Bay Bayside - 1346 Due Date: 7/24/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-26 00:30:00 to 2026-09-30 00:30:00",
-    "from": "2026-09-26 00:30:00",
-    "to": "2026-09-30 00:30:00"
-  },
-  {
-    "ts": "2026-09-29T00:08:12+00:00",
-    "ticket_number": 7156,
-    "subject": "PCA for Don't Worry Beach Happy Due Date: 7/15/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from j.rushton@choosegulfcoast.com to t.healy@choosegulfcoast.com",
-    "from": "j.rushton@choosegulfcoast.com",
-    "to": "t.healy@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-29T00:08:12+00:00",
-    "ticket_number": 7156,
-    "subject": "PCA for Don't Worry Beach Happy Due Date: 7/15/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-26 22:00:00 to 2026-09-29 22:00:00",
-    "from": "2026-09-26 22:00:00",
-    "to": "2026-09-29 22:00:00"
-  },
-  {
-    "ts": "2026-09-29T00:08:12+00:00",
-    "ticket_number": 8928,
-    "subject": "Villa Milano Lynx Lock",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-29T00:08:12+00:00",
-    "ticket_number": 8926,
-    "subject": "Beachbound Bliss - Lynx",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-29T00:08:12+00:00",
-    "ticket_number": 8855,
-    "subject": "DR-1C Form : Tee Time | 19116 Scallop Loop, #105",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
 ]
