@@ -1,5 +1,30 @@
 [
   {
+    "ts": "2026-10-17T16:03:43+00:00",
+    "ticket_number": 9294,
+    "subject": "wright sara/Dreams Of Paradise/ Res #: 55639/Compensation Request",
+    "type": "reassigned",
+    "detail": "Reassigned from m.eronico@choosegulfcoast.com to m.omasdang@choosegulfcoast.com",
+    "from": "m.eronico@choosegulfcoast.com",
+    "to": "m.omasdang@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-17T16:03:43+00:00",
+    "ticket_number": 9184,
+    "subject": "Kenney Patrick |   Res#: 60210 | Signal Inn - Unit 16 | Damaged Window Shade",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-16 22:00:00 to 2026-10-21 22:00:00",
+    "from": "2026-10-16 22:00:00",
+    "to": "2026-10-21 22:00:00"
+  },
+  {
+    "ts": "2026-10-17T16:03:43+00:00",
+    "ticket_number": 9295,
+    "subject": "PATEL DIPA/Beach House Residences Unit 1/Res #: 51678/Late Check-out Request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-17T00:05:02+00:00",
     "ticket_number": 8499,
     "subject": "Cedar Hammock Fire District Inspection - Multiple Units",
@@ -7895,32 +7920,5 @@
     "detail": "Reassigned from j.rushton@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
     "from": "j.rushton@choosegulfcoast.com",
     "to": "h.mcnamara@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-29T00:08:12+00:00",
-    "ticket_number": 8856,
-    "subject": "DR-11 Form : Tee Time | 19116 Scallop Loop, #105",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-23 17:14:01 to 2026-10-01 17:00:00",
-    "from": "2026-09-23 17:14:01",
-    "to": "2026-10-01 17:00:00"
-  },
-  {
-    "ts": "2026-09-29T00:08:12+00:00",
-    "ticket_number": 8737,
-    "subject": "Carmona Newton | Unit: Birdie | Res #: 61948 | Multiple Issues",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-25 20:33:00 to 2026-09-29 20:33:00",
-    "from": "2026-09-25 20:33:00",
-    "to": "2026-09-29 20:33:00"
-  },
-  {
-    "ts": "2026-09-29T00:08:12+00:00",
-    "ticket_number": 8531,
-    "subject": "Department of Business and Professional Regulation (DBPR) License Review",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-28 20:14:00 to 2026-09-29 20:14:00",
-    "from": "2026-09-28 20:14:00",
-    "to": "2026-09-29 20:14:00"
   }
 ]
