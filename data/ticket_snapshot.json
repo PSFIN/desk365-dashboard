@@ -1,17 +1,17 @@
 {
+  "9306": {
+    "subject": "GBB 1274 | Wicker furniture",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-21 22:00:00",
+    "priority": 1
+  },
   "9304": {
     "subject": "4 Star Review Feedback | Res #: 57066 | Haywood Roger | Sandalfoot 5B2 | 10/11/2026 - 10/14/2026",
     "assigned_to": "n.armstrong@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-21 15:21:28",
     "priority": 1
-  },
-  "9303": {
-    "subject": "Avalon-old fridge pick up quote",
-    "assigned_to": "j.delafuente@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-17 18:00:00",
-    "priority": 10
   },
   "9302": {
     "subject": "5 Star Review Feedback | Res #: 43586 | Douglas Simpson | Signal Inn - Unit 04 | 10/12/2026 - 10/15/2026",
@@ -409,7 +409,7 @@
     "subject": "A Shore Thing | Owner Approval Request",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-17 22:00:00",
+    "due_date": "2026-10-19 22:00:00",
     "priority": 1
   },
   "9184": {

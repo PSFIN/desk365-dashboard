@@ -1,5 +1,28 @@
 [
   {
+    "ts": "2026-10-17T18:39:43+00:00",
+    "ticket_number": 9306,
+    "subject": "GBB 1274 | Wicker furniture",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-17T18:39:43+00:00",
+    "ticket_number": 9188,
+    "subject": "A Shore Thing | Owner Approval Request",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-17 22:00:00 to 2026-10-19 22:00:00",
+    "from": "2026-10-17 22:00:00",
+    "to": "2026-10-19 22:00:00"
+  },
+  {
+    "ts": "2026-10-17T18:39:43+00:00",
+    "ticket_number": 9303,
+    "subject": "Avalon-old fridge pick up quote",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-17T16:03:43+00:00",
     "ticket_number": 9294,
     "subject": "wright sara/Dreams Of Paradise/ Res #: 55639/Compensation Request",
@@ -7895,30 +7918,5 @@
     "detail": "Due date changed from 2026-09-25 15:51:00 to 2026-09-30 15:51:00",
     "from": "2026-09-25 15:51:00",
     "to": "2026-09-30 15:51:00"
-  },
-  {
-    "ts": "2026-09-29T00:08:12+00:00",
-    "ticket_number": 8974,
-    "subject": "Valenzia Jane | Unit: O6ERS | Res #: 60705 | Jacuzzi Turned On Request",
-    "type": "created",
-    "detail": "Created \u2014 assigned to d.husak@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-29T00:08:12+00:00",
-    "ticket_number": 8929,
-    "subject": "Captains Quarters - Lynx Lock",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-28 19:27:58 to 2027-05-03 19:27:00",
-    "from": "2026-09-28 19:27:58",
-    "to": "2027-05-03 19:27:00"
-  },
-  {
-    "ts": "2026-09-29T00:08:12+00:00",
-    "ticket_number": 8927,
-    "subject": "GBB1200 - Lynx Lock",
-    "type": "reassigned",
-    "detail": "Reassigned from j.rushton@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
-    "from": "j.rushton@choosegulfcoast.com",
-    "to": "h.mcnamara@choosegulfcoast.com"
   }
 ]
