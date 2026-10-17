@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-10-17T23:16:00+00:00",
+    "ticket_number": 9307,
+    "subject": "Barry Nial |  Res #: 63513 | Returning Guest | Gulf & Bay Bayside - 1373",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-10-17T18:39:43+00:00",
     "ticket_number": 9306,
     "subject": "GBB 1274 | Wicker furniture",
@@ -7909,14 +7916,5 @@
     "subject": "PCA for Sans Souci Due Date: 9/10/2026",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-29T05:57:10+00:00",
-    "ticket_number": 8624,
-    "subject": "Guest Name: Tresalus Jorwina |  Res #: 62207 | Unit: Southern Exposure | Stolen money",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-25 15:51:00 to 2026-09-30 15:51:00",
-    "from": "2026-09-25 15:51:00",
-    "to": "2026-09-30 15:51:00"
   }
 ]
