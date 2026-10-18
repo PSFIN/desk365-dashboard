@@ -1,5 +1,21 @@
 [
   {
+    "ts": "2026-10-18T14:45:12+00:00",
+    "ticket_number": 9201,
+    "subject": "Nicodemus Kathy | Ocean Eyes |  Res #: 57164 | Blinds stuck",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-16 22:00:00 to 2026-10-19 22:00:00",
+    "from": "2026-10-16 22:00:00",
+    "to": "2026-10-19 22:00:00"
+  },
+  {
+    "ts": "2026-10-18T14:45:12+00:00",
+    "ticket_number": 9294,
+    "subject": "wright sara/Dreams Of Paradise/ Res #: 55639/Compensation Request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-18T06:13:54+00:00",
     "ticket_number": 9309,
     "subject": "Request for Access to Email Accounts in SL",
@@ -7900,20 +7916,6 @@
     "ts": "2026-09-29T18:10:36+00:00",
     "ticket_number": 8916,
     "subject": "New Hire - Email Signature - Andr\u00e9s Alvardo",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-29T18:10:36+00:00",
-    "ticket_number": 8837,
-    "subject": "Name: Maccari Nicolas | Res: 60718 | Reimbursement for the Wagon and Shipping Fee",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-29T18:10:36+00:00",
-    "ticket_number": 8827,
-    "subject": "rent rev",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
