@@ -1,5 +1,19 @@
 [
   {
+    "ts": "2026-10-18T06:13:54+00:00",
+    "ticket_number": 9309,
+    "subject": "Request for Access to Email Accounts in SL",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.evans@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-18T06:13:54+00:00",
+    "ticket_number": 9308,
+    "subject": "Brown Cleo | Res #: 64268 | Pearl in the Rough | Multiple Issues",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-10-17T23:16:00+00:00",
     "ticket_number": 9307,
     "subject": "Barry Nial |  Res #: 63513 | Returning Guest | Gulf & Bay Bayside - 1373",
@@ -7900,20 +7914,6 @@
     "ts": "2026-09-29T18:10:36+00:00",
     "ticket_number": 8827,
     "subject": "rent rev",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-29T18:10:36+00:00",
-    "ticket_number": 8427,
-    "subject": "Data Update on Certificate of Registration Tracker",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-29T18:10:36+00:00",
-    "ticket_number": 8311,
-    "subject": "PCA for Sans Souci Due Date: 9/10/2026",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
