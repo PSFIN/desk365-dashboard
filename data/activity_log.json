@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-10-18T22:09:36+00:00",
+    "ticket_number": 9310,
+    "subject": "Coastal Oasis | Cracked kitchen floor",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.husak@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-10-18T19:55:29+00:00",
     "ticket_number": 9296,
     "subject": "Res #: 59197 | Unit: Gulf & Bay Bayside - 1204 | Pepper Yolanda | Door Lock Code Not Working",
@@ -7909,14 +7916,5 @@
     "detail": "Due date changed from 2026-09-25 15:28:00 to 2026-10-02 15:28:00",
     "from": "2026-09-25 15:28:00",
     "to": "2026-10-02 15:28:00"
-  },
-  {
-    "ts": "2026-09-29T18:10:36+00:00",
-    "ticket_number": 7396,
-    "subject": "Marriott Curation Rejected - Signal Inn 18",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-28 15:06:00 to 2026-10-02 15:06:00",
-    "from": "2026-09-28 15:06:00",
-    "to": "2026-10-02 15:06:00"
   }
 ]
