@@ -78,7 +78,7 @@
   },
   "9296": {
     "subject": "Res #: 59197 | Unit: Gulf & Bay Bayside - 1204 | Pepper Yolanda | Door Lock Code Not Working",
-    "assigned_to": "c.nutt@choosegulfcoast.com",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-19 18:00:00",
     "priority": 20
@@ -166,13 +166,6 @@
     "status": "Open",
     "due_date": "2026-10-19 15:40:19",
     "priority": 10
-  },
-  "9267": {
-    "subject": "Longboat Dream Balance",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-16 22:00:00",
-    "priority": 1
   },
   "9266": {
     "subject": "GBB1365 Balance",
@@ -419,13 +412,6 @@
     "due_date": "2026-10-19 22:00:00",
     "priority": 1
   },
-  "9188": {
-    "subject": "A Shore Thing | Owner Approval Request",
-    "assigned_to": "j.delafuente@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-19 22:00:00",
-    "priority": 1
-  },
   "9184": {
     "subject": "Kenney Patrick |   Res#: 60210 | Signal Inn - Unit 16 | Damaged Window Shade",
     "assigned_to": "n.ventura@choosegulfcoast.com",
@@ -587,13 +573,6 @@
     "due_date": "2026-10-16 22:00:00",
     "priority": 1
   },
-  "9060": {
-    "subject": "WO #41832271 Missing Invoice Number",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-16 22:00:00",
-    "priority": 1
-  },
   "9046": {
     "subject": "1260 broken fridge shelf-ARDI?",
     "assigned_to": "c.nutt@choosegulfcoast.com",
@@ -633,7 +612,7 @@
     "subject": "zSugar Beach - Minimum Escrow Balance",
     "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-14 22:00:00",
+    "due_date": "2026-10-19 22:00:00",
     "priority": 1
   },
   "8951": {
