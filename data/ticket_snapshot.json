@@ -1,21 +1,56 @@
 {
+  "9317": {
+    "subject": "3 Star Review Feedback | Res #: 44196 | Kenney Steven | Gulf & Bay Bayside - 1368 | 10/10/2026 - 10/17/2026",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-22 17:15:43",
+    "priority": 1
+  },
+  "9316": {
+    "subject": "4 Star Review Feedback | Res #: 63422 | Shawn O'Kert | Colony Inn C-51 | 10/10/2026 - 10/15/2026",
+    "assigned_to": "marcie@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-22 16:50:23",
+    "priority": 1
+  },
+  "9315": {
+    "subject": "5 Star Review Feedback | Res #: 64418 | Berthiaume Dan | Sandalfoot 1B2 | 10/12/2026 - 10/17/2026",
+    "assigned_to": "n.armstrong@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-22 16:16:18",
+    "priority": 1
+  },
+  "9314": {
+    "subject": "Rental Projection",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-22 15:51:09",
+    "priority": 10
+  },
+  "9313": {
+    "subject": "My Great Escape",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-22 14:58:34",
+    "priority": 10
+  },
+  "9312": {
+    "subject": "Colony unit photos",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-22 14:06:14",
+    "priority": 5
+  },
   "9311": {
     "subject": "White Pearl City Inspection",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-20 18:00:00",
     "priority": 20
   },
   "9310": {
     "subject": "Coastal Oasis | Cracked kitchen floor",
-    "assigned_to": "d.husak@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-21 22:00:00",
-    "priority": 1
-  },
-  "9309": {
-    "subject": "Request for Access to Email Accounts in SL",
-    "assigned_to": "b.evans@choosegulfcoast.com",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-21 22:00:00",
     "priority": 1
@@ -55,13 +90,6 @@
     "due_date": "2026-10-21 14:42:28",
     "priority": 1
   },
-  "9301": {
-    "subject": "Resort Marketing Materials",
-    "assigned_to": "e.buchanan@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-21 14:31:41",
-    "priority": 1
-  },
   "9300": {
     "subject": "Resort Email Footers",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
@@ -85,7 +113,7 @@
   },
   "9297": {
     "subject": "Heavenly Daze-install faucet",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-20 22:00:00",
     "priority": 10
@@ -127,7 +155,7 @@
   },
   "9287": {
     "subject": "Avalon-change pool lock to digital combo",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-20 17:44:41",
     "priority": 1
@@ -137,27 +165,6 @@
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-19 22:00:00",
-    "priority": 1
-  },
-  "9283": {
-    "subject": "Name: Reber Paul & Renee | Res: 64639 | NPG Commission Charge",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-19 22:00:00",
-    "priority": 1
-  },
-  "9282": {
-    "subject": "Name: Reber Paul & Renee | Res: 64640 | NPG Commission Charge",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-19 22:00:00",
-    "priority": 1
-  },
-  "9279": {
-    "subject": "PATEL DIPA/Beach House Residences Unit 1/Res #: 51678/ Multiple Issues",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-19 21:39:53",
     "priority": 1
   },
   "9277": {
@@ -178,7 +185,7 @@
     "subject": "Vehicle wrap quotes",
     "assigned_to": "e.buchanan@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-19 15:40:19",
+    "due_date": "2026-10-26 15:40:00",
     "priority": 10
   },
   "9266": {
@@ -197,9 +204,9 @@
   },
   "9262": {
     "subject": "The Boat House-No smoke detectors",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-16 20:09:23",
+    "due_date": "2026-10-20 20:09:00",
     "priority": 10
   },
   "9261": {
@@ -269,7 +276,7 @@
     "subject": "Name: Lawrence Brian | Res: 31718 | Owner Commission Request",
     "assigned_to": "a.ytac@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-16 15:48:00",
+    "due_date": "2026-10-21 15:48:00",
     "priority": 1
   },
   "9237": {
@@ -281,7 +288,7 @@
   },
   "9228": {
     "subject": "PCA - Tropic Treasure",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-15 15:51:13",
     "priority": 1
@@ -309,7 +316,7 @@
   },
   "9223": {
     "subject": "PCA - LuvLax",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-16 15:46:00",
     "priority": 1
@@ -351,7 +358,7 @@
   },
   "9217": {
     "subject": "PCA - Breeze By The Sea",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-16 15:43:00",
     "priority": 1
@@ -365,7 +372,7 @@
   },
   "9215": {
     "subject": "PCA - Bali Poolside",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-16 15:41:00",
     "priority": 1
@@ -451,7 +458,7 @@
     "subject": "Cart abandonment email automation",
     "assigned_to": "e.buchanan@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-19 18:49:00",
+    "due_date": "2026-10-26 18:49:00",
     "priority": 5
   },
   "9149": {
@@ -601,13 +608,6 @@
     "due_date": "2026-10-08 17:55:00",
     "priority": 1
   },
-  "9039": {
-    "subject": "Sales & Tourist Tax Remittance - September 2026",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-16 21:00:00",
-    "priority": 10
-  },
   "9021": {
     "subject": "Shower Glass - Rental insurance claim",
     "assigned_to": "n.armstrong@choosegulfcoast.com",
@@ -636,13 +636,6 @@
     "due_date": "2026-09-30 17:29:57",
     "priority": 10
   },
-  "8939": {
-    "subject": "4 Star Review Feedback | Res #63355 | Oliver Sarah | Sandalfoot 3B2 | 9/19/2026-9/22/2026",
-    "assigned_to": "n.armstrong@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-09-28 22:00:00",
-    "priority": 1
-  },
   "8929": {
     "subject": "Captains Quarters - Lynx Lock",
     "assigned_to": "j.rushton@choosegulfcoast.com",
@@ -664,13 +657,6 @@
     "due_date": "2026-10-31 21:00:00",
     "priority": 10
   },
-  "8906": {
-    "subject": "Core Values Poster",
-    "assigned_to": "e.buchanan@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-16 18:45:00",
-    "priority": 5
-  },
   "8868": {
     "subject": "Boardwalk benches",
     "assigned_to": "n.ventura@choosegulfcoast.com",
@@ -678,46 +664,32 @@
     "due_date": "2026-10-09 22:00:00",
     "priority": 1
   },
-  "8867": {
-    "subject": "City of Bradenton VR License - Villa In The Clouds | 1439 56th Street West",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-19 17:50:00",
-    "priority": 20
-  },
   "8866": {
     "subject": "City of Bradenton VR License - Tropical Gulf Retreat | 4325 46th Avenue West, #203",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-19 17:42:00",
-    "priority": 20
-  },
-  "8863": {
-    "subject": "City of Bradenton VR License - Mangrove Escape | 971 Waterside Lane",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-19 18:00:00",
+    "due_date": "2026-10-20 17:42:00",
     "priority": 20
   },
   "8861": {
     "subject": "City of Bradenton VR License - Florida Dreams | 4457 45th Avenue West, #110",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-19 15:58:00",
+    "due_date": "2026-10-20 15:58:00",
     "priority": 20
   },
   "8860": {
     "subject": "City of Bradenton VR License - Don't Worry Beach Happy | 502 Sanderling Circle",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-19 15:55:00",
+    "due_date": "2026-10-21 15:55:00",
     "priority": 20
   },
   "8859": {
     "subject": "City of Bradenton VR License - Blossom Retreat | 7333 Skybird Road",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-19 15:55:00",
+    "due_date": "2026-10-21 15:55:00",
     "priority": 20
   },
   "8856": {
@@ -902,20 +874,6 @@
     "due_date": "2026-11-07 23:00:00",
     "priority": 5
   },
-  "7405": {
-    "subject": "Marriott Curation Rejected - Signal Inn 02",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-23 21:00:00",
-    "priority": 5
-  },
-  "7397": {
-    "subject": "Marriott Curation Rejected - Signal inn 03",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-23 15:28:00",
-    "priority": 5
-  },
   "7396": {
     "subject": "Marriott Curation Rejected - Signal Inn 18",
     "assigned_to": "s.paulin@choosegulfcoast.com",
@@ -928,13 +886,6 @@
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-23 17:00:00",
-    "priority": 5
-  },
-  "7346": {
-    "subject": "Marriott Curation Rejected - Tropical Escape",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-23 22:00:00",
     "priority": 5
   },
   "7323": {
