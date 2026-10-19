@@ -1,5 +1,106 @@
 [
   {
+    "ts": "2026-10-19T21:54:19+00:00",
+    "ticket_number": 9321,
+    "subject": "Hibiscus Haven-Block",
+    "type": "created",
+    "detail": "Created \u2014 assigned to a.guarin@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-19T21:54:19+00:00",
+    "ticket_number": 9320,
+    "subject": "4 Star Review Feedback | Res #: 64694 | Moore Nicholas | Sandalfoot 1A3 | 10/14/2026 - 10/18/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.armstrong@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-19T21:54:19+00:00",
+    "ticket_number": 9319,
+    "subject": "5 Star Review Feedback | Res #: 60210 | Kenney Patrick | Signal Inn - Unit 06 | 10/9/2026 - 10/16/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-19T21:54:19+00:00",
+    "ticket_number": 9318,
+    "subject": "GBB1318 Fan in master",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-19T21:54:19+00:00",
+    "ticket_number": 9310,
+    "subject": "Coastal Oasis | Cracked kitchen floor",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-21 22:00:00 to 2026-10-22 22:00:00",
+    "from": "2026-10-21 22:00:00",
+    "to": "2026-10-22 22:00:00"
+  },
+  {
+    "ts": "2026-10-19T21:54:19+00:00",
+    "ticket_number": 9260,
+    "subject": "Email Signature",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-19 19:43:00 to 2026-10-23 19:43:00",
+    "from": "2026-10-19 19:43:00",
+    "to": "2026-10-23 19:43:00"
+  },
+  {
+    "ts": "2026-10-19T21:54:19+00:00",
+    "ticket_number": 9215,
+    "subject": "PCA - Bali Poolside",
+    "type": "reassigned",
+    "detail": "Reassigned from c.thayer@choosegulfcoast.com to j.messasierra@choosegulfcoast.com",
+    "from": "c.thayer@choosegulfcoast.com",
+    "to": "j.messasierra@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-19T21:54:19+00:00",
+    "ticket_number": 9110,
+    "subject": "City of Sarasota VR License - Beautiful Bayou | 2124 North Tamiami Trail",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-19 19:33:00 to 2026-10-27 19:33:00",
+    "from": "2026-10-19 19:33:00",
+    "to": "2026-10-27 19:33:00"
+  },
+  {
+    "ts": "2026-10-19T21:54:19+00:00",
+    "ticket_number": 9109,
+    "subject": "City of Sarasota VR License - Admirals Watch | 1703 North Tamiami Trail, B503",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-19 19:05:00 to 2026-10-27 19:05:00",
+    "from": "2026-10-19 19:05:00",
+    "to": "2026-10-27 19:05:00"
+  },
+  {
+    "ts": "2026-10-19T21:54:19+00:00",
+    "ticket_number": 8427,
+    "subject": "Data Update on Certificate of Registration Tracker",
+    "type": "created",
+    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-19T21:54:19+00:00",
+    "ticket_number": 9313,
+    "subject": "My Great Escape",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-19T21:54:19+00:00",
+    "ticket_number": 9297,
+    "subject": "Heavenly Daze-install faucet",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-19T21:54:19+00:00",
+    "ticket_number": 8819,
+    "subject": "City of Bradenton VR License - A Wave from it All | 395 Aruba Circle, #203",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-19T17:37:33+00:00",
     "ticket_number": 9317,
     "subject": "3 Star Review Feedback | Res #: 44196 | Kenney Steven | Gulf & Bay Bayside - 1368 | 10/10/2026 - 10/17/2026",
@@ -7793,112 +7894,5 @@
     "subject": "Paraclete Paradise-PCA DC",
     "type": "created",
     "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-29T22:28:14+00:00",
-    "ticket_number": 8990,
-    "subject": "Tropical Gulf Retreat-PCA DC",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-29T22:28:14+00:00",
-    "ticket_number": 8989,
-    "subject": "Avalon -PCA DC",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-29T22:28:14+00:00",
-    "ticket_number": 8953,
-    "subject": "Shore Bet Onboarding - HOA Rules For Guest Application Process",
-    "type": "reassigned",
-    "detail": "Reassigned from j.rushton@choosegulfcoast.com to b.zeh@choosegulfcoast.com",
-    "from": "j.rushton@choosegulfcoast.com",
-    "to": "b.zeh@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-29T22:28:14+00:00",
-    "ticket_number": 8617,
-    "subject": "PCA - Avalon (Vacant)",
-    "type": "reassigned",
-    "detail": "Reassigned from d.husak@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
-    "from": "d.husak@choosegulfcoast.com",
-    "to": "c.thayer@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-29T22:28:14+00:00",
-    "ticket_number": 8435,
-    "subject": "Williams Jamie | Res #: 57053 | Ocean Eyes | Celebration Requests",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-29 22:00:00 to 2026-09-30 22:00:00",
-    "from": "2026-09-29 22:00:00",
-    "to": "2026-09-30 22:00:00"
-  },
-  {
-    "ts": "2026-09-29T22:28:14+00:00",
-    "ticket_number": 8245,
-    "subject": "PCA for Tropical Gulf Retreat Due Date: 9/1/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from d.husak@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
-    "from": "d.husak@choosegulfcoast.com",
-    "to": "c.thayer@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-29T22:28:14+00:00",
-    "ticket_number": 7368,
-    "subject": "PCA for Paraclete Paradise Due Date:  8/3/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from d.husak@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
-    "from": "d.husak@choosegulfcoast.com",
-    "to": "c.thayer@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-29T22:28:14+00:00",
-    "ticket_number": 7361,
-    "subject": "PCA for Gulf & Bay Bayside - 1350 Due Date: 7/30/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-29 17:00:00 to 2026-10-01 17:00:00",
-    "from": "2026-09-29 17:00:00",
-    "to": "2026-10-01 17:00:00"
-  },
-  {
-    "ts": "2026-09-29T22:28:14+00:00",
-    "ticket_number": 7156,
-    "subject": "PCA for Don't Worry Beach Happy Due Date: 7/15/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from t.healy@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
-    "from": "t.healy@choosegulfcoast.com",
-    "to": "j.rushton@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-29T22:28:14+00:00",
-    "ticket_number": 7156,
-    "subject": "PCA for Don't Worry Beach Happy Due Date: 7/15/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-29 22:00:00 to 2026-10-02 22:00:00",
-    "from": "2026-09-29 22:00:00",
-    "to": "2026-10-02 22:00:00"
-  },
-  {
-    "ts": "2026-09-29T22:28:14+00:00",
-    "ticket_number": 8977,
-    "subject": "Kimura Gene | Colony Inn |  Res #: 63840 | VRBO Email Cancellation",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-29T22:28:14+00:00",
-    "ticket_number": 8602,
-    "subject": "Rental License Renewal Documents Needed \u2013 5D1",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-29T22:28:14+00:00",
-    "ticket_number": 8331,
-    "subject": "PCA for Serenity Garden Due Date : 9/14/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
 ]

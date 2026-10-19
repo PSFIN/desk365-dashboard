@@ -1,4 +1,32 @@
 {
+  "9321": {
+    "subject": "Hibiscus Haven-Block",
+    "assigned_to": "a.guarin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-22 20:51:08",
+    "priority": 10
+  },
+  "9320": {
+    "subject": "4 Star Review Feedback | Res #: 64694 | Moore Nicholas | Sandalfoot 1A3 | 10/14/2026 - 10/18/2026",
+    "assigned_to": "n.armstrong@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-22 20:36:54",
+    "priority": 1
+  },
+  "9319": {
+    "subject": "5 Star Review Feedback | Res #: 60210 | Kenney Patrick | Signal Inn - Unit 06 | 10/9/2026 - 10/16/2026",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-22 20:17:34",
+    "priority": 1
+  },
+  "9318": {
+    "subject": "GBB1318 Fan in master",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-22 19:32:00",
+    "priority": 1
+  },
   "9317": {
     "subject": "3 Star Review Feedback | Res #: 44196 | Kenney Steven | Gulf & Bay Bayside - 1368 | 10/10/2026 - 10/17/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
@@ -27,13 +55,6 @@
     "due_date": "2026-10-22 15:51:09",
     "priority": 10
   },
-  "9313": {
-    "subject": "My Great Escape",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-22 14:58:34",
-    "priority": 10
-  },
   "9312": {
     "subject": "Colony unit photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
@@ -52,7 +73,7 @@
     "subject": "Coastal Oasis | Cracked kitchen floor",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-21 22:00:00",
+    "due_date": "2026-10-22 22:00:00",
     "priority": 1
   },
   "9308": {
@@ -109,13 +130,6 @@
     "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-16 22:00:00",
-    "priority": 10
-  },
-  "9297": {
-    "subject": "Heavenly Daze-install faucet",
-    "assigned_to": "j.delafuente@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-20 22:00:00",
     "priority": 10
   },
   "9296": {
@@ -220,7 +234,7 @@
     "subject": "Email Signature",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-19 19:43:00",
+    "due_date": "2026-10-23 19:43:00",
     "priority": 5
   },
   "9259": {
@@ -372,7 +386,7 @@
   },
   "9215": {
     "subject": "PCA - Bali Poolside",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-16 15:41:00",
     "priority": 1
@@ -549,14 +563,14 @@
     "subject": "City of Sarasota VR License - Beautiful Bayou | 2124 North Tamiami Trail",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-19 19:33:00",
+    "due_date": "2026-10-27 19:33:00",
     "priority": 10
   },
   "9109": {
     "subject": "City of Sarasota VR License - Admirals Watch | 1703 North Tamiami Trail, B503",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-19 19:05:00",
+    "due_date": "2026-10-27 19:05:00",
     "priority": 10
   },
   "9095": {
@@ -713,13 +727,6 @@
     "due_date": "2026-10-30 15:51:00",
     "priority": 1
   },
-  "8819": {
-    "subject": "City of Bradenton VR License - A Wave from it All | 395 Aruba Circle, #203",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-19 21:00:00",
-    "priority": 20
-  },
   "8754": {
     "subject": "#1364 owner --reimburse",
     "assigned_to": "c.nutt@choosegulfcoast.com",
@@ -796,6 +803,13 @@
     "status": "Open",
     "due_date": "2026-12-31 21:09:00",
     "priority": 5
+  },
+  "8427": {
+    "subject": "Data Update on Certificate of Registration Tracker",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-22 21:00:00",
+    "priority": 10
   },
   "8410": {
     "subject": "YCBR Photo shoot",
