@@ -1,4 +1,18 @@
 {
+  "9323": {
+    "subject": "5 Star Review Feedback | Res #: 51536 | Maddox Dennis | Signal Inn - Unit 07 | 10/11/2026 - 10/16/2026",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-22 22:00:00",
+    "priority": 1
+  },
+  "9322": {
+    "subject": "1 Star Review Feedback | Res #: 53101 | Snyder Daniel | Compass Point #163 | 10/10/2026 - 10/17/2026",
+    "assigned_to": "l.costa@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-22 22:00:00",
+    "priority": 1
+  },
   "9321": {
     "subject": "Hibiscus Haven-Block",
     "assigned_to": "a.guarin@choosegulfcoast.com",
@@ -83,13 +97,6 @@
     "due_date": "2026-10-21 22:00:00",
     "priority": 10
   },
-  "9307": {
-    "subject": "Barry Nial |  Res #: 63513 | Returning Guest | Gulf & Bay Bayside - 1373",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-21 22:00:00",
-    "priority": 1
-  },
   "9306": {
     "subject": "GBB 1274 | Wicker furniture",
     "assigned_to": "j.rushton@choosegulfcoast.com",
@@ -129,7 +136,7 @@
     "subject": "Cancellation Request for: Res #: 65003 in Signal Inn Unit 18 due to low rate",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-16 22:00:00",
+    "due_date": "2026-10-23 22:00:00",
     "priority": 10
   },
   "9296": {
@@ -444,7 +451,7 @@
     "subject": "Nicodemus Kathy | Ocean Eyes |  Res #: 57164 | Blinds stuck",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-19 22:00:00",
+    "due_date": "2026-10-22 22:00:00",
     "priority": 1
   },
   "9184": {

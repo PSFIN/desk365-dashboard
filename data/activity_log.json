@@ -1,5 +1,44 @@
 [
   {
+    "ts": "2026-10-20T00:51:18+00:00",
+    "ticket_number": 9323,
+    "subject": "5 Star Review Feedback | Res #: 51536 | Maddox Dennis | Signal Inn - Unit 07 | 10/11/2026 - 10/16/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-20T00:51:18+00:00",
+    "ticket_number": 9322,
+    "subject": "1 Star Review Feedback | Res #: 53101 | Snyder Daniel | Compass Point #163 | 10/10/2026 - 10/17/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to l.costa@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-20T00:51:18+00:00",
+    "ticket_number": 9298,
+    "subject": "Cancellation Request for: Res #: 65003 in Signal Inn Unit 18 due to low rate",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-16 22:00:00 to 2026-10-23 22:00:00",
+    "from": "2026-10-16 22:00:00",
+    "to": "2026-10-23 22:00:00"
+  },
+  {
+    "ts": "2026-10-20T00:51:18+00:00",
+    "ticket_number": 9201,
+    "subject": "Nicodemus Kathy | Ocean Eyes |  Res #: 57164 | Blinds stuck",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-19 22:00:00 to 2026-10-22 22:00:00",
+    "from": "2026-10-19 22:00:00",
+    "to": "2026-10-22 22:00:00"
+  },
+  {
+    "ts": "2026-10-20T00:51:18+00:00",
+    "ticket_number": 9307,
+    "subject": "Barry Nial |  Res #: 63513 | Returning Guest | Gulf & Bay Bayside - 1373",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-19T21:54:19+00:00",
     "ticket_number": 9321,
     "subject": "Hibiscus Haven-Block",
@@ -7857,42 +7896,5 @@
     "subject": "#1230 broken box springs",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-09-30T01:25:34+00:00",
-    "ticket_number": 8994,
-    "subject": "HADFIELD JOSEPH/Signal Inn - Unit 13/Res #: 57023/Fan in the family room",
-    "type": "created",
-    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-30T01:25:34+00:00",
-    "ticket_number": 8974,
-    "subject": "Valenzia Jane | Unit: O6ERS | Res #: 60705 | Jacuzzi Turned On Request",
-    "type": "reassigned",
-    "detail": "Reassigned from m.eronico@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
-    "from": "m.eronico@choosegulfcoast.com",
-    "to": "h.mcnamara@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-09-29T22:28:14+00:00",
-    "ticket_number": 8993,
-    "subject": "Moyer Gregory/Res #: 59315/Avalon/ Cancellation Request",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-29T22:28:14+00:00",
-    "ticket_number": 8992,
-    "subject": "Price Projection",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.paulin@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-29T22:28:14+00:00",
-    "ticket_number": 8991,
-    "subject": "Paraclete Paradise-PCA DC",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
   }
 ]
