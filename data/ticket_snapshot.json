@@ -1,4 +1,81 @@
 {
+  "9339": {
+    "subject": "SeaDuce",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-23 19:22:42",
+    "priority": 1
+  },
+  "9338": {
+    "subject": "Game On-install lynx lock",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-23 19:12:18",
+    "priority": 10
+  },
+  "9337": {
+    "subject": "Beyond the Green-install lynx",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-23 19:09:43",
+    "priority": 10
+  },
+  "9336": {
+    "subject": "Cranes Galore \u2013 Owner Contribution (Check Payment)",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-28 18:54:00",
+    "priority": 1
+  },
+  "9335": {
+    "subject": "Name: Arnieri Nancy | Res: 44142 | Cancelled Deposit Retained - Direct",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-23 18:16:10",
+    "priority": 1
+  },
+  "9334": {
+    "subject": "Lamcha Sharon |  Signal Inn - Unit 10 | Res #: 54572 | Keurig request",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-23 17:52:37",
+    "priority": 1
+  },
+  "9333": {
+    "subject": "Southern Comfort-shorter file time",
+    "assigned_to": "a.guarin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-23 17:38:51",
+    "priority": 10
+  },
+  "9332": {
+    "subject": "My Great Escape Bats",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-23 17:17:46",
+    "priority": 10
+  },
+  "9331": {
+    "subject": "Refund adjustment - 1D1",
+    "assigned_to": "a.ytac@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-23 16:54:59",
+    "priority": 1
+  },
+  "9330": {
+    "subject": "Add photos of the ground to the Colony Units.",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-27 16:39:00",
+    "priority": 1
+  },
+  "9329": {
+    "subject": "Shaker of Salt pool lock cover",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-23 15:55:44",
+    "priority": 1
+  },
   "9328": {
     "subject": "Charlottes Dream-DC",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
@@ -43,17 +120,10 @@
   },
   "9321": {
     "subject": "Hibiscus Haven-Block",
-    "assigned_to": "a.guarin@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-22 20:51:08",
     "priority": 10
-  },
-  "9320": {
-    "subject": "4 Star Review Feedback | Res #: 64694 | Moore Nicholas | Sandalfoot 1A3 | 10/14/2026 - 10/18/2026",
-    "assigned_to": "n.armstrong@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-22 20:36:54",
-    "priority": 1
   },
   "9318": {
     "subject": "GBB1318 Fan in master",
@@ -99,7 +169,7 @@
   },
   "9311": {
     "subject": "White Pearl City Inspection",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-20 18:00:00",
     "priority": 20
@@ -150,7 +220,7 @@
     "subject": "Name: Lindenberg Jay | Res: 50193 | Cancelled 100% Retained - Direct",
     "assigned_to": "a.ytac@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-20 22:00:00",
+    "due_date": "2026-11-04 22:30:00",
     "priority": 1
   },
   "9298": {
@@ -213,7 +283,7 @@
     "subject": "Game On-Pictures",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-20 19:11:00",
+    "due_date": "2026-10-23 19:11:00",
     "priority": 10
   },
   "9273": {
@@ -276,14 +346,14 @@
     "subject": "Calusa-Club house",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-21 18:15:00",
+    "due_date": "2026-10-23 18:15:00",
     "priority": 10
   },
   "9251": {
     "subject": "Beyond the Green-New ob need pictures",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-20 18:14:00",
+    "due_date": "2026-10-23 18:14:00",
     "priority": 10
   },
   "9250": {
@@ -379,7 +449,7 @@
   },
   "9217": {
     "subject": "PCA - Breeze By The Sea",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-16 15:43:00",
     "priority": 1
@@ -429,13 +499,6 @@
   "9203": {
     "subject": "5 Star Review Feedback | Res #: 63822 | Kim Lambert | Sandalfoot 3C1 | 10/06/2026 - 10/10/2026",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-14 22:00:00",
-    "priority": 1
-  },
-  "9202": {
-    "subject": "5 Star Review Feedback | Res #: 63822 | Kim Lambert | Sandalfoot 3C1 | 10/06/2026 - 10/10/2026",
-    "assigned_to": "n.armstrong@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-14 22:00:00",
     "priority": 1
@@ -570,7 +633,7 @@
     "subject": "Request for cancellation due to low rate: A Shore Thing Res #: 64168",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-16 22:00:00",
+    "due_date": "2026-10-23 22:00:00",
     "priority": 10
   },
   "9077": {
@@ -727,13 +790,6 @@
     "due_date": "2026-10-30 17:06:00",
     "priority": 1
   },
-  "8618": {
-    "subject": "PCA - Fishtail",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-30 22:00:00",
-    "priority": 1
-  },
   "8575": {
     "subject": "The Duffers Retreat-PCA Deep clean",
     "assigned_to": "d.husak@choosegulfcoast.com",
@@ -745,7 +801,7 @@
     "subject": "DR-11 Form :  Splash Decision - 14881 Laguna Drive",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-20 18:00:00",
+    "due_date": "2026-10-20 21:00:00",
     "priority": 10
   },
   "8562": {
@@ -759,7 +815,7 @@
     "subject": "DR-11 Form : Putt in Paradise -19116 SCALLOP LOOP, #202",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-20 18:00:00",
+    "due_date": "2026-10-20 21:00:00",
     "priority": 10
   },
   "8505": {
@@ -801,7 +857,7 @@
     "subject": "DR-11 Forms : Multiple Property Units",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-20 18:00:00",
+    "due_date": "2026-10-20 21:00:00",
     "priority": 10
   },
   "8365": {
@@ -817,13 +873,6 @@
     "status": "Open",
     "due_date": "2026-11-27 19:18:00",
     "priority": 10
-  },
-  "8332": {
-    "subject": "PCA for Charlotte's Dream Due Date: 9/15/2026",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-30 22:00:00",
-    "priority": 5
   },
   "8329": {
     "subject": "PCA for Sunset On The Gulf Due Date: 9/12/2026",
