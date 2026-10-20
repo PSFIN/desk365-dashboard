@@ -1,5 +1,114 @@
 [
   {
+    "ts": "2026-10-20T22:51:55+00:00",
+    "ticket_number": 9341,
+    "subject": "Newsletter / Owner Account Balance & Carrying Charge Policy",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-20T22:51:55+00:00",
+    "ticket_number": 9340,
+    "subject": "TEST Property",
+    "type": "created",
+    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-20T22:51:55+00:00",
+    "ticket_number": 9321,
+    "subject": "Hibiscus Haven-Block",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to a.guarin@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "a.guarin@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-20T22:51:55+00:00",
+    "ticket_number": 9311,
+    "subject": "White Pearl City Inspection",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "j.rushton@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-20T22:51:55+00:00",
+    "ticket_number": 9300,
+    "subject": "Resort Email Footers",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-21 14:22:46 to 2026-10-23 14:22:00",
+    "from": "2026-10-21 14:22:46",
+    "to": "2026-10-23 14:22:00"
+  },
+  {
+    "ts": "2026-10-20T22:51:55+00:00",
+    "ticket_number": 9255,
+    "subject": "Paraclete Paradise-weeds, tree triming",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-19 18:53:00 to 2026-10-22 18:53:00",
+    "from": "2026-10-19 18:53:00",
+    "to": "2026-10-22 18:53:00"
+  },
+  {
+    "ts": "2026-10-20T22:51:55+00:00",
+    "ticket_number": 8856,
+    "subject": "DR-11 Form : Tee Time | 19116 Scallop Loop, #105",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-20 21:00:00 to 2026-10-21 21:00:00",
+    "from": "2026-10-20 21:00:00",
+    "to": "2026-10-21 21:00:00"
+  },
+  {
+    "ts": "2026-10-20T22:51:55+00:00",
+    "ticket_number": 8571,
+    "subject": "DR-11 Form :  Splash Decision - 14881 Laguna Drive",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-20 21:00:00 to 2026-10-21 21:00:00",
+    "from": "2026-10-20 21:00:00",
+    "to": "2026-10-21 21:00:00"
+  },
+  {
+    "ts": "2026-10-20T22:51:55+00:00",
+    "ticket_number": 8550,
+    "subject": "DR-11 Form : Putt in Paradise -19116 SCALLOP LOOP, #202",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-20 21:00:00 to 2026-10-21 21:00:00",
+    "from": "2026-10-20 21:00:00",
+    "to": "2026-10-21 21:00:00"
+  },
+  {
+    "ts": "2026-10-20T22:51:55+00:00",
+    "ticket_number": 8499,
+    "subject": "Cedar Hammock Fire District Inspection - Multiple Units",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-20 21:00:00 to 2026-10-21 21:00:00",
+    "from": "2026-10-20 21:00:00",
+    "to": "2026-10-21 21:00:00"
+  },
+  {
+    "ts": "2026-10-20T22:51:55+00:00",
+    "ticket_number": 8372,
+    "subject": "DR-11 Forms : Multiple Property Units",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-20 21:00:00 to 2026-10-21 21:00:00",
+    "from": "2026-10-20 21:00:00",
+    "to": "2026-10-21 21:00:00"
+  },
+  {
+    "ts": "2026-10-20T22:51:55+00:00",
+    "ticket_number": 9332,
+    "subject": "My Great Escape Bats",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-20T22:51:55+00:00",
+    "ticket_number": 9327,
+    "subject": "Brown Christine | Signal Inn 8 | Res #: 59313 | Cancellation",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-20T19:46:24+00:00",
     "ticket_number": 9339,
     "subject": "SeaDuce",
@@ -7797,104 +7906,5 @@
     "subject": "BENNETT MARY/Sandalfoot 1D1/Res #: 57663/Feedback",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-01T16:36:01+00:00",
-    "ticket_number": 9015,
-    "subject": "Guest compensation",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-01T16:36:01+00:00",
-    "ticket_number": 8986,
-    "subject": "5 Star Review Feedback | Res #62046 | Sullivan Amy | Sandalfoot 5B1 | 9/25/2026-9/29/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-01T16:36:01+00:00",
-    "ticket_number": 8953,
-    "subject": "Shore Bet Onboarding - HOA Rules For Guest Application Process",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-01T16:36:01+00:00",
-    "ticket_number": 8947,
-    "subject": "Cancellation for Res #: 63700: Oakwater Escape due to low YoY Rate",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-01T02:15:46+00:00",
-    "ticket_number": 9019,
-    "subject": "Bosqui Frank/Villa Milano/Res #: 59277/Spa/Pool Control Complaints",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-01T02:15:46+00:00",
-    "ticket_number": 9017,
-    "subject": "BENNETT MARY/Sandalfoot 1D1/Res #: 57663/Feedback",
-    "type": "created",
-    "detail": "Created \u2014 assigned to k.garcia@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-30T23:21:39+00:00",
-    "ticket_number": 9016,
-    "subject": "Post Kathleen/Tropical Escape/ Res #: 35737/Cancellation Request",
-    "type": "created",
-    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-30T23:21:39+00:00",
-    "ticket_number": 9015,
-    "subject": "Guest compensation",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-30T23:21:39+00:00",
-    "ticket_number": 9014,
-    "subject": "Gulf Standard - Lynx",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-09-30T23:21:39+00:00",
-    "ticket_number": 8972,
-    "subject": "4 Star Review Feedback | Res #53347 | Grainger Ashley | Harbour Happiness | 9/14/2026-9/25/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-01 18:13:18 to 2026-10-02 18:13:00",
-    "from": "2026-10-01 18:13:18",
-    "to": "2026-10-02 18:13:00"
-  },
-  {
-    "ts": "2026-09-30T23:21:39+00:00",
-    "ticket_number": 8737,
-    "subject": "Carmona Newton | Unit: Birdie | Res #: 61948 | Multiple Issues",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-29 20:33:00 to 2026-10-02 20:33:00",
-    "from": "2026-09-29 20:33:00",
-    "to": "2026-10-02 20:33:00"
-  },
-  {
-    "ts": "2026-09-30T23:21:39+00:00",
-    "ticket_number": 8435,
-    "subject": "Williams Jamie | Res #: 57053 | Ocean Eyes | Celebration Requests",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-30 22:00:00 to 2026-10-05 22:00:00",
-    "from": "2026-09-30 22:00:00",
-    "to": "2026-10-05 22:00:00"
-  },
-  {
-    "ts": "2026-09-30T23:21:39+00:00",
-    "ticket_number": 8007,
-    "subject": "Rising tides- pool deck, chairs, couch and window",
-    "type": "reassigned",
-    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to d.husak@choosegulfcoast.com",
-    "from": "h.mcnamara@choosegulfcoast.com",
-    "to": "d.husak@choosegulfcoast.com"
   }
 ]

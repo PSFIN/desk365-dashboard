@@ -1,4 +1,18 @@
 {
+  "9341": {
+    "subject": "Newsletter / Owner Account Balance & Carrying Charge Policy",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-23 20:38:28",
+    "priority": 5
+  },
+  "9340": {
+    "subject": "TEST Property",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-23 20:29:37",
+    "priority": 1
+  },
   "9339": {
     "subject": "SeaDuce",
     "assigned_to": "j.rushton@choosegulfcoast.com",
@@ -48,13 +62,6 @@
     "due_date": "2026-10-23 17:38:51",
     "priority": 10
   },
-  "9332": {
-    "subject": "My Great Escape Bats",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-23 17:17:46",
-    "priority": 10
-  },
   "9331": {
     "subject": "Refund adjustment - 1D1",
     "assigned_to": "a.ytac@choosegulfcoast.com",
@@ -81,13 +88,6 @@
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-23 14:19:50",
-    "priority": 1
-  },
-  "9327": {
-    "subject": "Brown Christine | Signal Inn 8 | Res #: 59313 | Cancellation",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-22 22:00:00",
     "priority": 1
   },
   "9325": {
@@ -120,7 +120,7 @@
   },
   "9321": {
     "subject": "Hibiscus Haven-Block",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "a.guarin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-22 20:51:08",
     "priority": 10
@@ -169,7 +169,7 @@
   },
   "9311": {
     "subject": "White Pearl City Inspection",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-20 18:00:00",
     "priority": 20
@@ -213,7 +213,7 @@
     "subject": "Resort Email Footers",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-21 14:22:46",
+    "due_date": "2026-10-23 14:22:00",
     "priority": 1
   },
   "9299": {
@@ -339,7 +339,7 @@
     "subject": "Paraclete Paradise-weeds, tree triming",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-19 18:53:00",
+    "due_date": "2026-10-22 18:53:00",
     "priority": 10
   },
   "9252": {
@@ -759,7 +759,7 @@
     "subject": "DR-11 Form : Tee Time | 19116 Scallop Loop, #105",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-20 21:00:00",
+    "due_date": "2026-10-21 21:00:00",
     "priority": 10
   },
   "8830": {
@@ -801,7 +801,7 @@
     "subject": "DR-11 Form :  Splash Decision - 14881 Laguna Drive",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-20 21:00:00",
+    "due_date": "2026-10-21 21:00:00",
     "priority": 10
   },
   "8562": {
@@ -815,7 +815,7 @@
     "subject": "DR-11 Form : Putt in Paradise -19116 SCALLOP LOOP, #202",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-20 21:00:00",
+    "due_date": "2026-10-21 21:00:00",
     "priority": 10
   },
   "8505": {
@@ -829,7 +829,7 @@
     "subject": "Cedar Hammock Fire District Inspection - Multiple Units",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-20 21:00:00",
+    "due_date": "2026-10-21 21:00:00",
     "priority": 10
   },
   "8444": {
@@ -857,7 +857,7 @@
     "subject": "DR-11 Forms : Multiple Property Units",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-20 21:00:00",
+    "due_date": "2026-10-21 21:00:00",
     "priority": 10
   },
   "8365": {
