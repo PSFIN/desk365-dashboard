@@ -1,4 +1,32 @@
 {
+  "9328": {
+    "subject": "Charlottes Dream-DC",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-23 14:19:50",
+    "priority": 1
+  },
+  "9327": {
+    "subject": "Brown Christine | Signal Inn 8 | Res #: 59313 | Cancellation",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-22 22:00:00",
+    "priority": 1
+  },
+  "9325": {
+    "subject": "Owner facing newsletter / Professional Linen Program",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-22 22:00:00",
+    "priority": 5
+  },
+  "9324": {
+    "subject": "Newsletter to owner / Municipal License and Registration Renewal Administration Fee",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-22 22:00:00",
+    "priority": 5
+  },
   "9323": {
     "subject": "5 Star Review Feedback | Res #: 51536 | Maddox Dennis | Signal Inn - Unit 07 | 10/11/2026 - 10/16/2026",
     "assigned_to": "n.ventura@choosegulfcoast.com",
@@ -25,13 +53,6 @@
     "assigned_to": "n.armstrong@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-22 20:36:54",
-    "priority": 1
-  },
-  "9319": {
-    "subject": "5 Star Review Feedback | Res #: 60210 | Kenney Patrick | Signal Inn - Unit 06 | 10/9/2026 - 10/16/2026",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-22 20:17:34",
     "priority": 1
   },
   "9318": {
@@ -157,7 +178,7 @@
     "subject": "Sandy Pointe Damage Claim | Generali claim number 26182219-01",
     "assigned_to": "h.nomura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-20 19:21:26",
+    "due_date": "2026-10-30 22:00:00",
     "priority": 1
   },
   "9289": {
@@ -181,13 +202,6 @@
     "due_date": "2026-10-20 17:44:41",
     "priority": 1
   },
-  "9284": {
-    "subject": "1 Star Review Feedback | Res #: 58458 | Blackburn Kathleen | Signal Inn - Unit 19 | 10/9/2026 - 10/12/2026",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-19 22:00:00",
-    "priority": 1
-  },
   "9277": {
     "subject": "06ers-no cleaning owner block",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
@@ -208,20 +222,6 @@
     "status": "Open",
     "due_date": "2026-10-26 15:40:00",
     "priority": 10
-  },
-  "9266": {
-    "subject": "GBB1365 Balance",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-16 22:00:00",
-    "priority": 1
-  },
-  "9265": {
-    "subject": "GBB1350 Balance",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-16 22:00:00",
-    "priority": 1
   },
   "9262": {
     "subject": "The Boat House-No smoke detectors",
@@ -372,7 +372,7 @@
   },
   "9218": {
     "subject": "PCA - Casa de Suenos",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-01 15:43:00",
     "priority": 1
@@ -411,13 +411,6 @@
     "status": "Open",
     "due_date": "2026-10-23 14:56:00",
     "priority": 10
-  },
-  "9211": {
-    "subject": "5 Star Review Feedback | Res #: 60705 | Jane Valenzia | O6ERS | 09/26/2026 - 10/05/2026",
-    "assigned_to": "d.husak@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-30 14:37:00",
-    "priority": 1
   },
   "9210": {
     "subject": "2 Star Review Feedback | Res #: 49339 | Ricardo Cristobal | Sunnyside Up | 06/19/2026 - 10/10/2026",
@@ -559,13 +552,6 @@
     "due_date": "2026-11-04 22:00:00",
     "priority": 1
   },
-  "9113": {
-    "subject": "Name: Anstruther Susan | Res: 63854 | Cancelled 50% Retained - OTA",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-20 15:40:00",
-    "priority": 1
-  },
   "9110": {
     "subject": "City of Sarasota VR License - Beautiful Bayou | 2124 North Tamiami Trail",
     "assigned_to": "l.brigida@choosegulfcoast.com",
@@ -598,7 +584,7 @@
     "subject": "Grill",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-08 14:52:39",
+    "due_date": "2026-10-27 14:52:00",
     "priority": 5
   },
   "9075": {
@@ -636,18 +622,11 @@
     "due_date": "2026-10-05 22:00:00",
     "priority": 10
   },
-  "9004": {
-    "subject": "5 Star Review Feedback | Res #59332 | Torretto Jeff | Signal Inn - Unit 12 | 9/25/2026-9/29/2026",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-19 17:00:00",
-    "priority": 1
-  },
   "8960": {
     "subject": "zSugar Beach - Minimum Escrow Balance",
     "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-19 22:00:00",
+    "due_date": "2026-10-20 22:00:00",
     "priority": 1
   },
   "8951": {
@@ -682,21 +661,21 @@
     "subject": "Boardwalk benches",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-09 22:00:00",
+    "due_date": "2026-10-27 22:00:00",
     "priority": 1
   },
   "8866": {
     "subject": "City of Bradenton VR License - Tropical Gulf Retreat | 4325 46th Avenue West, #203",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-20 17:42:00",
+    "due_date": "2026-10-21 17:42:00",
     "priority": 20
   },
   "8861": {
     "subject": "City of Bradenton VR License - Florida Dreams | 4457 45th Avenue West, #110",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-20 15:58:00",
+    "due_date": "2026-10-21 15:58:00",
     "priority": 20
   },
   "8860": {
@@ -750,16 +729,9 @@
   },
   "8618": {
     "subject": "PCA - Fishtail",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-30 22:00:00",
-    "priority": 1
-  },
-  "8586": {
-    "subject": "Boardwalk Shell station",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-17 20:41:00",
     "priority": 1
   },
   "8575": {
@@ -780,7 +752,7 @@
     "subject": "camera for signal from Red1",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-20 16:07:00",
+    "due_date": "2026-10-27 16:07:00",
     "priority": 5
   },
   "8550": {
@@ -848,7 +820,7 @@
   },
   "8332": {
     "subject": "PCA for Charlotte's Dream Due Date: 9/15/2026",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-30 22:00:00",
     "priority": 5
