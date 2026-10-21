@@ -1,5 +1,141 @@
 [
   {
+    "ts": "2026-10-21T17:28:42+00:00",
+    "ticket_number": 9353,
+    "subject": "Oak Water Escape-Desc pool heat",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-21T17:28:42+00:00",
+    "ticket_number": 9351,
+    "subject": "Guest Mail & Package Delivery Notification \u2013 Ronald Slurkanich",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-21T17:28:42+00:00",
+    "ticket_number": 9348,
+    "subject": "Sea ya - New photos",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-21T17:28:42+00:00",
+    "ticket_number": 9347,
+    "subject": "Gavalier Joe | Res #: 53427 | Fairways to Coastline | Cancellation Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-21T17:28:42+00:00",
+    "ticket_number": 9328,
+    "subject": "Charlottes Dream-DC",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to j.messasierra@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "j.messasierra@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-21T17:28:42+00:00",
+    "ticket_number": 8866,
+    "subject": "City of Bradenton VR License - Tropical Gulf Retreat | 4325 46th Avenue West, #203",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-21 17:42:00 to 2026-10-22 17:42:00",
+    "from": "2026-10-21 17:42:00",
+    "to": "2026-10-22 17:42:00"
+  },
+  {
+    "ts": "2026-10-21T17:28:42+00:00",
+    "ticket_number": 8861,
+    "subject": "City of Bradenton VR License - Florida Dreams | 4457 45th Avenue West, #110",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-21 15:58:00 to 2026-10-22 15:58:00",
+    "from": "2026-10-21 15:58:00",
+    "to": "2026-10-22 15:58:00"
+  },
+  {
+    "ts": "2026-10-21T17:28:42+00:00",
+    "ticket_number": 8860,
+    "subject": "City of Bradenton VR License - Don't Worry Beach Happy | 502 Sanderling Circle",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-21 15:55:00 to 2026-10-22 15:55:00",
+    "from": "2026-10-21 15:55:00",
+    "to": "2026-10-22 15:55:00"
+  },
+  {
+    "ts": "2026-10-21T17:28:42+00:00",
+    "ticket_number": 8859,
+    "subject": "City of Bradenton VR License - Blossom Retreat | 7333 Skybird Road",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-21 15:55:00 to 2026-10-22 15:55:00",
+    "from": "2026-10-21 15:55:00",
+    "to": "2026-10-22 15:55:00"
+  },
+  {
+    "ts": "2026-10-21T17:28:42+00:00",
+    "ticket_number": 9345,
+    "subject": "NPG GBB1346 '#65041",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-21T17:28:42+00:00",
+    "ticket_number": 9343,
+    "subject": "slurkanich ronald/Green View Getaway/Res #: 57048/ Mailbox Access",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-21T17:28:42+00:00",
+    "ticket_number": 9342,
+    "subject": "Kain Emily/Sandalfoot 3C2/Res #: 65240/ Cancellation Request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-21T17:28:42+00:00",
+    "ticket_number": 9335,
+    "subject": "Name: Arnieri Nancy | Res: 44142 | Cancelled Deposit Retained - Direct",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-21T17:28:42+00:00",
+    "ticket_number": 9330,
+    "subject": "Add photos of the ground to the Colony Units.",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-21T17:28:42+00:00",
+    "ticket_number": 9316,
+    "subject": "4 Star Review Feedback | Res #: 63422 | Shawn O'Kert | Colony Inn C-51 | 10/10/2026 - 10/15/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-21T17:28:42+00:00",
+    "ticket_number": 9298,
+    "subject": "Cancellation Request for: Res #: 65003 in Signal Inn Unit 18 due to low rate",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-21T17:28:42+00:00",
+    "ticket_number": 9287,
+    "subject": "Avalon-change pool lock to digital combo",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-21T17:28:42+00:00",
+    "ticket_number": 9237,
+    "subject": "Ward Douglas | Res #: 62041 | Grand Getaway | Plumbing Issue in Master Bathroom",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-21T12:08:20+00:00",
     "ticket_number": 9345,
     "subject": "NPG GBB1346 '#65041",
@@ -7760,143 +7896,5 @@
     "subject": "rent rev",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-01T21:31:08+00:00",
-    "ticket_number": 8963,
-    "subject": "Reshoot GBB1326",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-01T21:31:08+00:00",
-    "ticket_number": 8943,
-    "subject": "Pin High Tide-Ob Boarding pictures",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-01T21:31:08+00:00",
-    "ticket_number": 8930,
-    "subject": "5 Star Review Feedback | Res #59185 | Dick Christopher | Sandalfoot 3A2 | 8/12/2026-8/15/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-01T21:31:08+00:00",
-    "ticket_number": 8915,
-    "subject": "Shell Yeah-comp 300.00 gold plan fees",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-01T21:31:08+00:00",
-    "ticket_number": 8883,
-    "subject": "4 Star Review Feedback | Res #59569 | Ann Wyckoff | Sandalfoot 1C2 | 9/13/2026-9/18/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-01T21:31:08+00:00",
-    "ticket_number": 8853,
-    "subject": "Outstanding Work Order, Invoice or Pending Charges - Gulf & Bay Bayside - 1200 | 1200 Siesta Bayside Drive",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-01T21:31:08+00:00",
-    "ticket_number": 8717,
-    "subject": "Florida Fabulous-comp 790",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-01T21:31:08+00:00",
-    "ticket_number": 8007,
-    "subject": "Rising tides- pool deck, chairs, couch and window",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-01T16:36:01+00:00",
-    "ticket_number": 9025,
-    "subject": "Name: Meland Kathie And Sam | Res: 64020 | Adjustment to GC commission",
-    "type": "created",
-    "detail": "Created \u2014 assigned to a.ytac@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-01T16:36:01+00:00",
-    "ticket_number": 9023,
-    "subject": "Test 1234",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.evans@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-01T16:36:01+00:00",
-    "ticket_number": 9022,
-    "subject": "Name: Rios Michele | Res: 62197 | Compensation",
-    "type": "created",
-    "detail": "Created \u2014 assigned to a.ytac@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-01T16:36:01+00:00",
-    "ticket_number": 9021,
-    "subject": "Shower Glass - Rental insurance claim",
-    "type": "created",
-    "detail": "Created \u2014 assigned to c.thayer@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-01T16:36:01+00:00",
-    "ticket_number": 8951,
-    "subject": "Sanibel HOA Email",
-    "type": "priority_changed",
-    "detail": "Priority changed from 1 to 5",
-    "from": 1,
-    "to": 5
-  },
-  {
-    "ts": "2026-10-01T16:36:01+00:00",
-    "ticket_number": 8915,
-    "subject": "Shell Yeah-comp 300.00 gold plan fees",
-    "type": "reassigned",
-    "detail": "Reassigned from m.johnston@choosegulfcoast.com to e.morales@choosegulfcoast.com",
-    "from": "m.johnston@choosegulfcoast.com",
-    "to": "e.morales@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-01T16:36:01+00:00",
-    "ticket_number": 8863,
-    "subject": "City of Bradenton VR License - Mangrove Escape | 971 Waterside Lane",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-01 16:02:00 to 2026-10-04 16:02:00",
-    "from": "2026-10-01 16:02:00",
-    "to": "2026-10-04 16:02:00"
-  },
-  {
-    "ts": "2026-10-01T16:36:01+00:00",
-    "ticket_number": 8717,
-    "subject": "Florida Fabulous-comp 790",
-    "type": "reassigned",
-    "detail": "Reassigned from m.johnston@choosegulfcoast.com to e.morales@choosegulfcoast.com",
-    "from": "m.johnston@choosegulfcoast.com",
-    "to": "e.morales@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-01T16:36:01+00:00",
-    "ticket_number": 8683,
-    "subject": "Name: ippolito barbara | Res: 51748 |  Hold Distribution of Cancelled Reservation Funds",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-30 17:06:00 to 2026-10-30 17:06:00",
-    "from": "2026-09-30 17:06:00",
-    "to": "2026-10-30 17:06:00"
-  },
-  {
-    "ts": "2026-10-01T16:36:01+00:00",
-    "ticket_number": 8624,
-    "subject": "Guest Name: Tresalus Jorwina |  Res #: 62207 | Unit: Southern Exposure | Stolen money",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-30 15:51:00 to 2026-10-05 15:51:00",
-    "from": "2026-09-30 15:51:00",
-    "to": "2026-10-05 15:51:00"
   }
 ]

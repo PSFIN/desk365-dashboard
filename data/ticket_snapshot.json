@@ -1,28 +1,35 @@
 {
-  "9345": {
-    "subject": "NPG GBB1346 '#65041",
-    "assigned_to": "e.morales@choosegulfcoast.com",
+  "9353": {
+    "subject": "Oak Water Escape-Desc pool heat",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-22 18:00:00",
-    "priority": 20
+    "due_date": "2026-10-26 16:54:08",
+    "priority": 10
+  },
+  "9351": {
+    "subject": "Guest Mail & Package Delivery Notification \u2013 Ronald Slurkanich",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-26 15:37:15",
+    "priority": 1
+  },
+  "9348": {
+    "subject": "Sea ya - New photos",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-26 14:25:29",
+    "priority": 1
+  },
+  "9347": {
+    "subject": "Gavalier Joe | Res #: 53427 | Fairways to Coastline | Cancellation Request",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-23 22:00:00",
+    "priority": 1
   },
   "9344": {
     "subject": "Old Photo negatives",
     "assigned_to": "n.ventura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-23 22:00:00",
-    "priority": 1
-  },
-  "9343": {
-    "subject": "slurkanich ronald/Green View Getaway/Res #: 57048/ Mailbox Access",
-    "assigned_to": "d.husak@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-23 22:00:00",
-    "priority": 1
-  },
-  "9342": {
-    "subject": "Kain Emily/Sandalfoot 3C2/Res #: 65240/ Cancellation Request",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-23 22:00:00",
     "priority": 1
@@ -69,13 +76,6 @@
     "due_date": "2026-10-28 18:54:00",
     "priority": 1
   },
-  "9335": {
-    "subject": "Name: Arnieri Nancy | Res: 44142 | Cancelled Deposit Retained - Direct",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-23 18:16:10",
-    "priority": 1
-  },
   "9334": {
     "subject": "Lamcha Sharon |  Signal Inn - Unit 10 | Res #: 54572 | Keurig request",
     "assigned_to": "n.ventura@choosegulfcoast.com",
@@ -97,13 +97,6 @@
     "due_date": "2026-10-23 16:54:59",
     "priority": 1
   },
-  "9330": {
-    "subject": "Add photos of the ground to the Colony Units.",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-27 16:39:00",
-    "priority": 1
-  },
   "9329": {
     "subject": "Shaker of Salt pool lock cover",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
@@ -113,7 +106,7 @@
   },
   "9328": {
     "subject": "Charlottes Dream-DC",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-23 14:19:50",
     "priority": 1
@@ -165,13 +158,6 @@
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-22 17:15:43",
-    "priority": 1
-  },
-  "9316": {
-    "subject": "4 Star Review Feedback | Res #: 63422 | Shawn O'Kert | Colony Inn C-51 | 10/10/2026 - 10/15/2026",
-    "assigned_to": "marcie@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-22 16:50:23",
     "priority": 1
   },
   "9315": {
@@ -251,13 +237,6 @@
     "due_date": "2026-11-04 22:30:00",
     "priority": 1
   },
-  "9298": {
-    "subject": "Cancellation Request for: Res #: 65003 in Signal Inn Unit 18 due to low rate",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-23 22:00:00",
-    "priority": 10
-  },
   "9296": {
     "subject": "Res #: 59197 | Unit: Gulf & Bay Bayside - 1204 | Pepper Yolanda | Door Lock Code Not Working",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
@@ -292,13 +271,6 @@
     "status": "Open",
     "due_date": "2026-10-20 17:47:24",
     "priority": 5
-  },
-  "9287": {
-    "subject": "Avalon-change pool lock to digital combo",
-    "assigned_to": "j.delafuente@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-20 17:44:41",
-    "priority": 1
   },
   "9277": {
     "subject": "06ers-no cleaning owner block",
@@ -396,13 +368,6 @@
     "assigned_to": "a.ytac@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-21 15:48:00",
-    "priority": 1
-  },
-  "9237": {
-    "subject": "Ward Douglas | Res #: 62041 | Grand Getaway | Plumbing Issue in Master Bathroom",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-20 22:00:00",
     "priority": 1
   },
   "9228": {
@@ -752,28 +717,28 @@
     "subject": "City of Bradenton VR License - Tropical Gulf Retreat | 4325 46th Avenue West, #203",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-21 17:42:00",
+    "due_date": "2026-10-22 17:42:00",
     "priority": 20
   },
   "8861": {
     "subject": "City of Bradenton VR License - Florida Dreams | 4457 45th Avenue West, #110",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-21 15:58:00",
+    "due_date": "2026-10-22 15:58:00",
     "priority": 20
   },
   "8860": {
     "subject": "City of Bradenton VR License - Don't Worry Beach Happy | 502 Sanderling Circle",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-21 15:55:00",
+    "due_date": "2026-10-22 15:55:00",
     "priority": 20
   },
   "8859": {
     "subject": "City of Bradenton VR License - Blossom Retreat | 7333 Skybird Road",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-21 15:55:00",
+    "due_date": "2026-10-22 15:55:00",
     "priority": 20
   },
   "8856": {
