@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-10-21T01:10:22+00:00",
+    "ticket_number": 9342,
+    "subject": "Kain Emily/Sandalfoot 3C2/Res #: 65240/ Cancellation Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-10-20T22:51:55+00:00",
     "ticket_number": 9341,
     "subject": "Newsletter / Owner Account Balance & Carrying Charge Policy",
@@ -7899,12 +7906,5 @@
     "detail": "Due date changed from 2026-10-01 16:00:00 to 2026-10-04 16:00:00",
     "from": "2026-10-01 16:00:00",
     "to": "2026-10-04 16:00:00"
-  },
-  {
-    "ts": "2026-10-01T16:36:01+00:00",
-    "ticket_number": 9017,
-    "subject": "BENNETT MARY/Sandalfoot 1D1/Res #: 57663/Feedback",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
 ]
