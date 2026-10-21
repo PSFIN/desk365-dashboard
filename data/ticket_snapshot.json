@@ -1,10 +1,80 @@
 {
-  "9353": {
-    "subject": "Oak Water Escape-Desc pool heat",
+  "9364": {
+    "subject": "Emailing inspection reports to Owner (Signal Inn Unit #5) - Owner receives an error message and unable to open the PDF",
+    "assigned_to": "b.evans@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-26 19:24:38",
+    "priority": 10
+  },
+  "9363": {
+    "subject": "Approach shot - Lynx lock",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-26 18:48:11",
+    "priority": 1
+  },
+  "9362": {
+    "subject": "Manatee/ Sarasota pool report",
+    "assigned_to": "d.canada@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-26 18:35:34",
+    "priority": 1
+  },
+  "9361": {
+    "subject": "Buy Pressure washer",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-26 18:26:30",
+    "priority": 1
+  },
+  "9360": {
+    "subject": "5 Star Review Feedback | Res #: 53263 | Hoyland Erika | Golden Beach #1 | 10/10/2026 - 10/17/2026",
+    "assigned_to": "l.costa@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-26 18:23:30",
+    "priority": 1
+  },
+  "9359": {
+    "subject": "Par than Bar-cleaning",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-26 18:17:29",
+    "priority": 1
+  },
+  "9358": {
+    "subject": "Raymonds Retreat - Lynx lock",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-26 17:59:42",
+    "priority": 1
+  },
+  "9357": {
+    "subject": "GBB1332 - Lynx lock",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-26 17:59:00",
+    "priority": 1
+  },
+  "9356": {
+    "subject": "Sea Ya - Description update",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-26 16:54:08",
-    "priority": 10
+    "due_date": "2026-10-26 17:57:39",
+    "priority": 1
+  },
+  "9355": {
+    "subject": "Smoke Detectors- Blue Dolphin",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-26 17:56:23",
+    "priority": 1
+  },
+  "9354": {
+    "subject": "Raymonds Retreat - Photos",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-26 17:55:28",
+    "priority": 1
   },
   "9351": {
     "subject": "Guest Mail & Package Delivery Notification \u2013 Ronald Slurkanich",
@@ -17,14 +87,7 @@
     "subject": "Sea ya - New photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-26 14:25:29",
-    "priority": 1
-  },
-  "9347": {
-    "subject": "Gavalier Joe | Res #: 53427 | Fairways to Coastline | Cancellation Request",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-23 22:00:00",
+    "due_date": "2026-10-26 14:25:00",
     "priority": 1
   },
   "9344": {
@@ -46,13 +109,6 @@
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-23 20:29:37",
-    "priority": 1
-  },
-  "9339": {
-    "subject": "SeaDuce",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-23 19:22:42",
     "priority": 1
   },
   "9338": {
@@ -92,7 +148,7 @@
   },
   "9331": {
     "subject": "Refund adjustment - 1D1",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
+    "assigned_to": "n.armstrong@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-23 16:54:59",
     "priority": 1
@@ -148,16 +204,9 @@
   },
   "9318": {
     "subject": "GBB1318 Fan in master",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-22 19:32:00",
-    "priority": 1
-  },
-  "9317": {
-    "subject": "3 Star Review Feedback | Res #: 44196 | Kenney Steven | Gulf & Bay Bayside - 1368 | 10/10/2026 - 10/17/2026",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-22 17:15:43",
     "priority": 1
   },
   "9315": {
@@ -181,13 +230,6 @@
     "due_date": "2026-10-22 14:06:14",
     "priority": 5
   },
-  "9311": {
-    "subject": "White Pearl City Inspection",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-20 18:00:00",
-    "priority": 20
-  },
   "9310": {
     "subject": "Coastal Oasis | Cracked kitchen floor",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
@@ -195,16 +237,9 @@
     "due_date": "2026-10-22 22:00:00",
     "priority": 1
   },
-  "9308": {
-    "subject": "Brown Cleo | Res #: 64268 | Pearl in the Rough | Multiple Issues",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-21 22:00:00",
-    "priority": 10
-  },
   "9306": {
     "subject": "GBB 1274 | Wicker furniture",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-21 22:00:00",
     "priority": 1
@@ -248,7 +283,7 @@
     "subject": "Owner Concern Regarding Property Manager Responsiveness",
     "assigned_to": "m.johnston@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-20 19:50:26",
+    "due_date": "2026-10-21 19:50:00",
     "priority": 10
   },
   "9291": {
@@ -363,13 +398,6 @@
     "due_date": "2026-10-16 16:48:26",
     "priority": 1
   },
-  "9248": {
-    "subject": "Name: Lawrence Brian | Res: 31718 | Owner Commission Request",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-21 15:48:00",
-    "priority": 1
-  },
   "9228": {
     "subject": "PCA - Tropic Treasure",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
@@ -400,7 +428,7 @@
   },
   "9223": {
     "subject": "PCA - LuvLax",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-16 15:46:00",
     "priority": 1
@@ -687,7 +715,7 @@
   },
   "8929": {
     "subject": "Captains Quarters - Lynx Lock",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2027-05-03 19:27:00",
     "priority": 1
@@ -907,13 +935,6 @@
     "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-23 15:06:00",
-    "priority": 5
-  },
-  "7361": {
-    "subject": "PCA for Gulf & Bay Bayside - 1350 Due Date: 7/30/2026",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-23 17:00:00",
     "priority": 5
   },
   "7323": {
