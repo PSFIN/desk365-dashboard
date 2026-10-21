@@ -1,5 +1,50 @@
 [
   {
+    "ts": "2026-10-21T23:50:56+00:00",
+    "ticket_number": 8856,
+    "subject": "DR-11 Form : Tee Time | 19116 Scallop Loop, #105",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-21 21:00:00 to 2026-10-22 21:00:00",
+    "from": "2026-10-21 21:00:00",
+    "to": "2026-10-22 21:00:00"
+  },
+  {
+    "ts": "2026-10-21T23:50:56+00:00",
+    "ticket_number": 8571,
+    "subject": "DR-11 Form :  Splash Decision - 14881 Laguna Drive",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-21 21:00:00 to 2026-10-22 21:00:00",
+    "from": "2026-10-21 21:00:00",
+    "to": "2026-10-22 21:00:00"
+  },
+  {
+    "ts": "2026-10-21T23:50:56+00:00",
+    "ticket_number": 8550,
+    "subject": "DR-11 Form : Putt in Paradise -19116 SCALLOP LOOP, #202",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-21 21:00:00 to 2026-10-22 21:00:00",
+    "from": "2026-10-21 21:00:00",
+    "to": "2026-10-22 21:00:00"
+  },
+  {
+    "ts": "2026-10-21T23:50:56+00:00",
+    "ticket_number": 8499,
+    "subject": "Cedar Hammock Fire District Inspection - Multiple Units",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-21 21:00:00 to 2026-10-22 21:00:00",
+    "from": "2026-10-21 21:00:00",
+    "to": "2026-10-22 21:00:00"
+  },
+  {
+    "ts": "2026-10-21T23:50:56+00:00",
+    "ticket_number": 8372,
+    "subject": "DR-11 Forms : Multiple Property Units",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-21 21:00:00 to 2026-10-22 21:00:00",
+    "from": "2026-10-21 21:00:00",
+    "to": "2026-10-22 21:00:00"
+  },
+  {
     "ts": "2026-10-21T20:49:00+00:00",
     "ticket_number": 9364,
     "subject": "Emailing inspection reports to Owner (Signal Inn Unit #5) - Owner receives an error message and unable to open the PDF",
@@ -7851,44 +7896,5 @@
     "subject": "5 Star Review Feedback | Res #59930 | Berchtold Markus | Flip Flop Retreat | 9/16/2026-9/30/2026",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-02T19:03:18+00:00",
-    "ticket_number": 8995,
-    "subject": "Email Signature New Hire - Jasper Dela Fuente",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-02T19:03:18+00:00",
-    "ticket_number": 8988,
-    "subject": "Smoke Detectors- Charlotte's Dream",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-02T13:58:58+00:00",
-    "ticket_number": 9035,
-    "subject": "Thompson Denise | Tidewater Manor | Res #: 56669 |",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-02T13:58:58+00:00",
-    "ticket_number": 8618,
-    "subject": "PCA - Fishtail",
-    "type": "reassigned",
-    "detail": "Reassigned from t.healy@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
-    "from": "t.healy@choosegulfcoast.com",
-    "to": "c.thayer@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-02T13:58:58+00:00",
-    "ticket_number": 8332,
-    "subject": "PCA for Charlotte's Dream Due Date: 9/15/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from t.healy@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
-    "from": "t.healy@choosegulfcoast.com",
-    "to": "c.thayer@choosegulfcoast.com"
   }
 ]
