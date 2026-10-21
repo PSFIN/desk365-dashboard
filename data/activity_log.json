@@ -1,5 +1,21 @@
 [
   {
+    "ts": "2026-10-21T12:08:20+00:00",
+    "ticket_number": 9345,
+    "subject": "NPG GBB1346 '#65041",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-21T12:08:20+00:00",
+    "ticket_number": 9321,
+    "subject": "Hibiscus Haven-Block",
+    "type": "reassigned",
+    "detail": "Reassigned from a.guarin@choosegulfcoast.com to s.paulin@choosegulfcoast.com",
+    "from": "a.guarin@choosegulfcoast.com",
+    "to": "s.paulin@choosegulfcoast.com"
+  },
+  {
     "ts": "2026-10-21T06:14:22+00:00",
     "ticket_number": 9344,
     "subject": "Old Photo negatives",
@@ -7882,23 +7898,5 @@
     "detail": "Due date changed from 2026-09-30 15:51:00 to 2026-10-05 15:51:00",
     "from": "2026-09-30 15:51:00",
     "to": "2026-10-05 15:51:00"
-  },
-  {
-    "ts": "2026-10-01T16:36:01+00:00",
-    "ticket_number": 8571,
-    "subject": "DR-11 Form :  Splash Decision - 14881 Laguna Drive",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-01 16:00:00 to 2026-10-04 16:00:00",
-    "from": "2026-10-01 16:00:00",
-    "to": "2026-10-04 16:00:00"
-  },
-  {
-    "ts": "2026-10-01T16:36:01+00:00",
-    "ticket_number": 8550,
-    "subject": "DR-11 Form : Putt in Paradise -19116 SCALLOP LOOP, #202",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-01 16:00:00 to 2026-10-04 16:00:00",
-    "from": "2026-10-01 16:00:00",
-    "to": "2026-10-04 16:00:00"
   }
 ]

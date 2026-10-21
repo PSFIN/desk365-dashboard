@@ -1,4 +1,11 @@
 {
+  "9345": {
+    "subject": "NPG GBB1346 '#65041",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-22 18:00:00",
+    "priority": 20
+  },
   "9344": {
     "subject": "Old Photo negatives",
     "assigned_to": "n.ventura@choosegulfcoast.com",
@@ -141,7 +148,7 @@
   },
   "9321": {
     "subject": "Hibiscus Haven-Block",
-    "assigned_to": "a.guarin@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-22 20:51:08",
     "priority": 10
