@@ -1,4 +1,18 @@
 {
+  "9344": {
+    "subject": "Old Photo negatives",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-23 22:00:00",
+    "priority": 1
+  },
+  "9343": {
+    "subject": "slurkanich ronald/Green View Getaway/Res #: 57048/ Mailbox Access",
+    "assigned_to": "d.husak@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-23 22:00:00",
+    "priority": 1
+  },
   "9342": {
     "subject": "Kain Emily/Sandalfoot 3C2/Res #: 65240/ Cancellation Request",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
@@ -634,13 +648,6 @@
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-27 19:05:00",
-    "priority": 10
-  },
-  "9095": {
-    "subject": "Request for cancellation due to low rate: A Shore Thing Res #: 64168",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-23 22:00:00",
     "priority": 10
   },
   "9077": {

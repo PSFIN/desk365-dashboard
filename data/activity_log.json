@@ -1,5 +1,26 @@
 [
   {
+    "ts": "2026-10-21T06:14:22+00:00",
+    "ticket_number": 9344,
+    "subject": "Old Photo negatives",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-21T06:14:22+00:00",
+    "ticket_number": 9343,
+    "subject": "slurkanich ronald/Green View Getaway/Res #: 57048/ Mailbox Access",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.husak@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-21T06:14:22+00:00",
+    "ticket_number": 9095,
+    "subject": "Request for cancellation due to low rate: A Shore Thing Res #: 64168",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-21T01:10:22+00:00",
     "ticket_number": 9342,
     "subject": "Kain Emily/Sandalfoot 3C2/Res #: 65240/ Cancellation Request",
@@ -7875,33 +7896,6 @@
     "ts": "2026-10-01T16:36:01+00:00",
     "ticket_number": 8550,
     "subject": "DR-11 Form : Putt in Paradise -19116 SCALLOP LOOP, #202",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-01 16:00:00 to 2026-10-04 16:00:00",
-    "from": "2026-10-01 16:00:00",
-    "to": "2026-10-04 16:00:00"
-  },
-  {
-    "ts": "2026-10-01T16:36:01+00:00",
-    "ticket_number": 8544,
-    "subject": "DR-1C Form : Pier Pressure - 4234 Gulf Of Mexico Dr Unit Q1",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-01 16:00:00 to 2026-10-04 16:00:00",
-    "from": "2026-10-01 16:00:00",
-    "to": "2026-10-04 16:00:00"
-  },
-  {
-    "ts": "2026-10-01T16:36:01+00:00",
-    "ticket_number": 8499,
-    "subject": "Cedar Hammock Fire District Inspection - Multiple Units",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-30 21:00:00 to 2026-10-05 21:00:00",
-    "from": "2026-09-30 21:00:00",
-    "to": "2026-10-05 21:00:00"
-  },
-  {
-    "ts": "2026-10-01T16:36:01+00:00",
-    "ticket_number": 8372,
-    "subject": "DR-11 Forms : Multiple Property Units",
     "type": "due_date_changed",
     "detail": "Due date changed from 2026-10-01 16:00:00 to 2026-10-04 16:00:00",
     "from": "2026-10-01 16:00:00",
