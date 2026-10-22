@@ -1,5 +1,197 @@
 [
   {
+    "ts": "2026-10-22T18:21:10+00:00",
+    "ticket_number": 9377,
+    "subject": "Cutter Brian | Bali Poolside | Res #: 60129 | Prop visit",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-22T18:21:10+00:00",
+    "ticket_number": 9376,
+    "subject": "Listing and Amenity changes / SF 5A3 & 5B1",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-22T18:21:10+00:00",
+    "ticket_number": 9375,
+    "subject": "Flip Flop Retreat | Wi-Fi Network Information",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.delafuente@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-22T18:21:10+00:00",
+    "ticket_number": 9374,
+    "subject": "Res #65280 NPG Charge Owner Commission",
+    "type": "created",
+    "detail": "Created \u2014 assigned to a.ytac@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-22T18:21:10+00:00",
+    "ticket_number": 9373,
+    "subject": "Name: Gavalier Joe | Res: 53427 | Cancelled Deposit Retained - Direct | Property: Fairways to Coastline",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-22T18:21:10+00:00",
+    "ticket_number": 9372,
+    "subject": "3 Star Review Feedback | Res #: 60939 | James Robinson | Sandalfoot 1D2 | 10/17/2026 - 10/21/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.armstrong@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-22T18:21:10+00:00",
+    "ticket_number": 9371,
+    "subject": "4 Star Review Feedback | Res #: 61122 | Tim Hauer | Sandalfoot 4A3 | 10/6/2026 - 10/14/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.armstrong@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-22T18:21:10+00:00",
+    "ticket_number": 9369,
+    "subject": "The white pearl - toilet",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to j.delafuente@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "j.delafuente@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-22T18:21:10+00:00",
+    "ticket_number": 9369,
+    "subject": "The white pearl - toilet",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-26 22:00:00 to 2026-10-24 22:00:00",
+    "from": "2026-10-26 22:00:00",
+    "to": "2026-10-24 22:00:00"
+  },
+  {
+    "ts": "2026-10-22T18:21:10+00:00",
+    "ticket_number": 9368,
+    "subject": "Flip Flop Retreat - excessive cleaning charge 10-22-26",
+    "type": "reassigned",
+    "detail": "Reassigned from j.messasierra@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
+    "from": "j.messasierra@choosegulfcoast.com",
+    "to": "s.soriafrausto@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-22T18:21:10+00:00",
+    "ticket_number": 9363,
+    "subject": "Approach shot - Lynx lock",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to j.delafuente@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "j.delafuente@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-22T18:21:10+00:00",
+    "ticket_number": 9357,
+    "subject": "GBB1332 - Lynx lock",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "j.rushton@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-22T18:21:10+00:00",
+    "ticket_number": 9355,
+    "subject": "Smoke Detectors- Blue Dolphin",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to j.delafuente@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "j.delafuente@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-22T18:21:10+00:00",
+    "ticket_number": 9318,
+    "subject": "GBB1318 Fan in master",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to j.delafuente@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "j.delafuente@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-22T18:21:10+00:00",
+    "ticket_number": 9314,
+    "subject": "Rental Projection",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-22 15:51:09 to 2026-10-22 21:00:00",
+    "from": "2026-10-22 15:51:09",
+    "to": "2026-10-22 21:00:00"
+  },
+  {
+    "ts": "2026-10-22T18:21:10+00:00",
+    "ticket_number": 9310,
+    "subject": "Coastal Oasis | Cracked kitchen floor",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-22 22:00:00 to 2026-10-23 22:00:00",
+    "from": "2026-10-22 22:00:00",
+    "to": "2026-10-23 22:00:00"
+  },
+  {
+    "ts": "2026-10-22T18:21:10+00:00",
+    "ticket_number": 9223,
+    "subject": "PCA - LuvLax",
+    "type": "reassigned",
+    "detail": "Reassigned from j.messasierra@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "j.messasierra@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-22T18:21:10+00:00",
+    "ticket_number": 9217,
+    "subject": "PCA - Breeze By The Sea",
+    "type": "reassigned",
+    "detail": "Reassigned from s.paulin@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
+    "from": "s.paulin@choosegulfcoast.com",
+    "to": "j.rushton@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-22T18:21:10+00:00",
+    "ticket_number": 9215,
+    "subject": "PCA - Bali Poolside",
+    "type": "reassigned",
+    "detail": "Reassigned from s.paulin@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "s.paulin@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-22T18:21:10+00:00",
+    "ticket_number": 5394,
+    "subject": "FLorida Sanctuary/ Heat pump for pool",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-22T18:21:10+00:00",
+    "ticket_number": 5300,
+    "subject": "Guest Name: Simmons Julie I Unit: Coastal Oasis I Res #: 40541 I Pool Dirty",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-22T18:21:10+00:00",
+    "ticket_number": 9321,
+    "subject": "Hibiscus Haven-Block",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-22T18:21:10+00:00",
+    "ticket_number": 9300,
+    "subject": "Resort Email Footers",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-22T18:21:10+00:00",
+    "ticket_number": 9296,
+    "subject": "Res #: 59197 | Unit: Gulf & Bay Bayside - 1204 | Pepper Yolanda | Door Lock Code Not Working",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-22T13:58:00+00:00",
     "ticket_number": 9369,
     "subject": "The white pearl - toilet",
@@ -7716,181 +7908,5 @@
     "subject": "Possible Lead | Diane Schroeder",
     "type": "created",
     "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-03T20:25:53+00:00",
-    "ticket_number": 9051,
-    "subject": "sales call | Looking for  a property in lakewood ranch",
-    "type": "created",
-    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-03T20:25:53+00:00",
-    "ticket_number": 9050,
-    "subject": "Guest Name: Speer Gail | Res #: 63389 | Unit: Colony Inn C-14 | Change Unit request",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-03T17:42:11+00:00",
-    "ticket_number": 9050,
-    "subject": "Guest Name: Speer Gail | Res #: 63389 | Unit: Colony Inn C-14 | Change Unit request",
-    "type": "created",
-    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-03T17:42:11+00:00",
-    "ticket_number": 9049,
-    "subject": "Carmona Newton | Unit: Birdie | Res #: 61948 | Reimbursement for pool days",
-    "type": "created",
-    "detail": "Created \u2014 assigned to m.eronico@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-03T17:42:11+00:00",
-    "ticket_number": 9048,
-    "subject": "Change requested: Modify dates in ABB",
-    "type": "created",
-    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-03T17:42:11+00:00",
-    "ticket_number": 9047,
-    "subject": "Change requested: New dates, Oct 4 \u2013 23, 2026",
-    "type": "created",
-    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-03T17:42:11+00:00",
-    "ticket_number": 9046,
-    "subject": "1260 broken fridge shelf-ARDI?",
-    "type": "created",
-    "detail": "Created \u2014 assigned to c.thayer@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-03T17:42:11+00:00",
-    "ticket_number": 9044,
-    "subject": "#1339 Guest bath sink stopper",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-07 20:33:24 to 2026-10-17 20:33:00",
-    "from": "2026-10-07 20:33:24",
-    "to": "2026-10-17 20:33:00"
-  },
-  {
-    "ts": "2026-10-03T17:42:11+00:00",
-    "ticket_number": 8737,
-    "subject": "Carmona Newton | Unit: Birdie | Res #: 61948 | Multiple Issues",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-02T23:06:46+00:00",
-    "ticket_number": 9044,
-    "subject": "#1339 Guest bath sink stopper",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-02T23:06:46+00:00",
-    "ticket_number": 9019,
-    "subject": "Bosqui Frank/Villa Milano/Res #: 59277/Spa/Pool Control Complaints",
-    "type": "reassigned",
-    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
-    "from": "s.soriafrausto@choosegulfcoast.com",
-    "to": "h.mcnamara@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-02T23:06:46+00:00",
-    "ticket_number": 9012,
-    "subject": "Gulf Standard - Photos",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-05 17:46:00 to 2026-10-06 17:46:00",
-    "from": "2026-10-05 17:46:00",
-    "to": "2026-10-06 17:46:00"
-  },
-  {
-    "ts": "2026-10-02T23:06:46+00:00",
-    "ticket_number": 6421,
-    "subject": "Lee County Sales Tax Discretionary Expiration at 12/31/28",
-    "type": "reassigned",
-    "detail": "Reassigned from e.morales@choosegulfcoast.com to l.brigida@choosegulfcoast.com",
-    "from": "e.morales@choosegulfcoast.com",
-    "to": "l.brigida@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-02T23:06:46+00:00",
-    "ticket_number": 9031,
-    "subject": "No photos uploaded to work order",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-02T23:06:46+00:00",
-    "ticket_number": 9016,
-    "subject": "Post Kathleen/Tropical Escape/ Res #: 35737/Cancellation Request",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-02T23:06:46+00:00",
-    "ticket_number": 8997,
-    "subject": "A Slice of Paradise/Pin High Tide-elock",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-02T23:06:46+00:00",
-    "ticket_number": 8973,
-    "subject": "Easy Does It-Pictures",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-02T23:06:46+00:00",
-    "ticket_number": 8972,
-    "subject": "4 Star Review Feedback | Res #53347 | Grainger Ashley | Harbour Happiness | 9/14/2026-9/25/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-02T23:06:46+00:00",
-    "ticket_number": 8964,
-    "subject": "5 Star Review Feedback | Res #49117 | Sena Renee | Loggerhead Cay #183 | 9/19/2026-9/26/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-02T23:06:46+00:00",
-    "ticket_number": 6536,
-    "subject": "Lee County upcoming sales tax changes",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-02T19:03:18+00:00",
-    "ticket_number": 9043,
-    "subject": "Add map showing distance to the beach - Tidewater manor",
-    "type": "created",
-    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-02T19:03:18+00:00",
-    "ticket_number": 9042,
-    "subject": "Guest Name: Bosqui Frank | Res #: 59277 | Unit: Villa Milano",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-02T19:03:18+00:00",
-    "ticket_number": 9041,
-    "subject": "New photos",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-02T19:03:18+00:00",
-    "ticket_number": 9040,
-    "subject": "POST ARRIVAL CALL: Guest Name: Akers Gary | Res #: 54910 | Unit: Driftwood Dreams",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
   }
 ]

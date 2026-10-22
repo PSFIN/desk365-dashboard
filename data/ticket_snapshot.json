@@ -1,14 +1,63 @@
 {
+  "9377": {
+    "subject": "Cutter Brian | Bali Poolside | Res #: 60129 | Prop visit",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-27 18:10:20",
+    "priority": 1
+  },
+  "9376": {
+    "subject": "Listing and Amenity changes / SF 5A3 & 5B1",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-27 17:17:23",
+    "priority": 10
+  },
+  "9375": {
+    "subject": "Flip Flop Retreat | Wi-Fi Network Information",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-27 16:12:24",
+    "priority": 1
+  },
+  "9374": {
+    "subject": "Res #65280 NPG Charge Owner Commission",
+    "assigned_to": "a.ytac@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-23 20:10:48",
+    "priority": 20
+  },
+  "9373": {
+    "subject": "Name: Gavalier Joe | Res: 53427 | Cancelled Deposit Retained - Direct | Property: Fairways to Coastline",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-27 15:26:42",
+    "priority": 1
+  },
+  "9372": {
+    "subject": "3 Star Review Feedback | Res #: 60939 | James Robinson | Sandalfoot 1D2 | 10/17/2026 - 10/21/2026",
+    "assigned_to": "n.armstrong@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-27 14:37:29",
+    "priority": 1
+  },
+  "9371": {
+    "subject": "4 Star Review Feedback | Res #: 61122 | Tim Hauer | Sandalfoot 4A3 | 10/6/2026 - 10/14/2026",
+    "assigned_to": "n.armstrong@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-27 14:31:43",
+    "priority": 1
+  },
   "9369": {
     "subject": "The white pearl - toilet",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-26 22:00:00",
+    "due_date": "2026-10-24 22:00:00",
     "priority": 1
   },
   "9368": {
     "subject": "Flip Flop Retreat - excessive cleaning charge 10-22-26",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-26 22:00:00",
     "priority": 5
@@ -43,7 +92,7 @@
   },
   "9363": {
     "subject": "Approach shot - Lynx lock",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-26 18:48:11",
     "priority": 1
@@ -85,7 +134,7 @@
   },
   "9357": {
     "subject": "GBB1332 - Lynx lock",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-26 17:59:00",
     "priority": 1
@@ -99,7 +148,7 @@
   },
   "9355": {
     "subject": "Smoke Detectors- Blue Dolphin",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-26 17:56:23",
     "priority": 1
@@ -230,16 +279,9 @@
     "due_date": "2026-10-22 22:00:00",
     "priority": 1
   },
-  "9321": {
-    "subject": "Hibiscus Haven-Block",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-22 20:51:08",
-    "priority": 10
-  },
   "9318": {
     "subject": "GBB1318 Fan in master",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-22 19:32:00",
     "priority": 1
@@ -255,7 +297,7 @@
     "subject": "Rental Projection",
     "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-22 15:51:09",
+    "due_date": "2026-10-22 21:00:00",
     "priority": 10
   },
   "9312": {
@@ -269,7 +311,7 @@
     "subject": "Coastal Oasis | Cracked kitchen floor",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-22 22:00:00",
+    "due_date": "2026-10-23 22:00:00",
     "priority": 1
   },
   "9306": {
@@ -293,26 +335,12 @@
     "due_date": "2026-10-21 14:42:28",
     "priority": 1
   },
-  "9300": {
-    "subject": "Resort Email Footers",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-23 14:22:00",
-    "priority": 1
-  },
   "9299": {
     "subject": "Name: Lindenberg Jay | Res: 50193 | Cancelled 100% Retained - Direct",
     "assigned_to": "a.ytac@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-04 22:30:00",
     "priority": 1
-  },
-  "9296": {
-    "subject": "Res #: 59197 | Unit: Gulf & Bay Bayside - 1204 | Pepper Yolanda | Door Lock Code Not Working",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-19 18:00:00",
-    "priority": 20
   },
   "9291": {
     "subject": "Sandy Pointe Damage Claim | Generali claim number 26182219-01",
@@ -456,7 +484,7 @@
   },
   "9223": {
     "subject": "PCA - LuvLax",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-16 15:46:00",
     "priority": 1
@@ -498,7 +526,7 @@
   },
   "9217": {
     "subject": "PCA - Breeze By The Sea",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-16 15:43:00",
     "priority": 1
@@ -512,7 +540,7 @@
   },
   "9215": {
     "subject": "PCA - Bali Poolside",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-16 15:41:00",
     "priority": 1
@@ -977,6 +1005,20 @@
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2027-06-01 22:00:00",
+    "priority": 1
+  },
+  "5394": {
+    "subject": "FLorida Sanctuary/ Heat pump for pool",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": null,
+    "priority": 10
+  },
+  "5300": {
+    "subject": "Guest Name: Simmons Julie I Unit: Coastal Oasis I Res #: 40541 I Pool Dirty",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": null,
     "priority": 1
   }
 }
