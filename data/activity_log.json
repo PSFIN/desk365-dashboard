@@ -1,5 +1,19 @@
 [
   {
+    "ts": "2026-10-22T02:46:06+00:00",
+    "ticket_number": 9366,
+    "subject": "Vrbo -  Your property may be at risk for an unauthorized event",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-22T02:46:06+00:00",
+    "ticket_number": 9365,
+    "subject": "Athey Ramona/Sandalfoot 3B2/Res #: 65319/Cancelation Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-10-21T23:50:56+00:00",
     "ticket_number": 8856,
     "subject": "DR-11 Form : Tee Time | 19116 Scallop Loop, #105",
@@ -7882,19 +7896,5 @@
     "detail": "Due date changed from 2026-10-01 16:22:00 to 2026-10-07 16:22:00",
     "from": "2026-10-01 16:22:00",
     "to": "2026-10-07 16:22:00"
-  },
-  {
-    "ts": "2026-10-02T19:03:18+00:00",
-    "ticket_number": 9035,
-    "subject": "Thompson Denise | Tidewater Manor | Res #: 56669 |",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-02T19:03:18+00:00",
-    "ticket_number": 9028,
-    "subject": "5 Star Review Feedback | Res #59930 | Berchtold Markus | Flip Flop Retreat | 9/16/2026-9/30/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
 ]
