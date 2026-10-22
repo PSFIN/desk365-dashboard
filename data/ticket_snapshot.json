@@ -1,4 +1,25 @@
 {
+  "9369": {
+    "subject": "The white pearl - toilet",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-26 22:00:00",
+    "priority": 1
+  },
+  "9368": {
+    "subject": "Flip Flop Retreat - excessive cleaning charge 10-22-26",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-26 22:00:00",
+    "priority": 5
+  },
+  "9367": {
+    "subject": "Name: Lugiano John | Res: 39692 | Cancelled Deposit Retained - Direct",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-26 22:00:00",
+    "priority": 1
+  },
   "9366": {
     "subject": "Vrbo -  Your property may be at risk for an unauthorized event",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
@@ -241,7 +262,7 @@
     "subject": "Colony unit photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-22 14:06:14",
+    "due_date": "2026-10-31 14:06:00",
     "priority": 5
   },
   "9310": {
@@ -255,7 +276,7 @@
     "subject": "GBB 1274 | Wicker furniture",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-21 22:00:00",
+    "due_date": "2026-10-22 22:00:00",
     "priority": 1
   },
   "9304": {
@@ -293,13 +314,6 @@
     "due_date": "2026-10-19 18:00:00",
     "priority": 20
   },
-  "9292": {
-    "subject": "Owner Concern Regarding Property Manager Responsiveness",
-    "assigned_to": "m.johnston@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-21 19:50:00",
-    "priority": 10
-  },
   "9291": {
     "subject": "Sandy Pointe Damage Claim | Generali claim number 26182219-01",
     "assigned_to": "h.nomura@choosegulfcoast.com",
@@ -311,7 +325,7 @@
     "subject": "GBB1332 - Photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-22 17:52:00",
+    "due_date": "2026-10-23 17:52:00",
     "priority": 1
   },
   "9288": {
@@ -484,7 +498,7 @@
   },
   "9217": {
     "subject": "PCA - Breeze By The Sea",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-16 15:43:00",
     "priority": 1
@@ -498,7 +512,7 @@
   },
   "9215": {
     "subject": "PCA - Bali Poolside",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-16 15:41:00",
     "priority": 1
@@ -526,7 +540,7 @@
   },
   "9208": {
     "subject": "GC393 - owner concession of $100 / credit check",
-    "assigned_to": "m.johnston@choosegulfcoast.com",
+    "assigned_to": "b.santos@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-15 14:22:37",
     "priority": 5
@@ -717,7 +731,7 @@
     "subject": "zSugar Beach - Minimum Escrow Balance",
     "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-20 22:00:00",
+    "due_date": "2026-10-22 22:00:00",
     "priority": 1
   },
   "8951": {
@@ -759,28 +773,21 @@
     "subject": "City of Bradenton VR License - Tropical Gulf Retreat | 4325 46th Avenue West, #203",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-22 17:42:00",
+    "due_date": "2026-10-23 17:42:00",
     "priority": 20
   },
   "8861": {
     "subject": "City of Bradenton VR License - Florida Dreams | 4457 45th Avenue West, #110",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-22 15:58:00",
+    "due_date": "2026-10-23 15:58:00",
     "priority": 20
   },
   "8860": {
     "subject": "City of Bradenton VR License - Don't Worry Beach Happy | 502 Sanderling Circle",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-22 15:55:00",
-    "priority": 20
-  },
-  "8859": {
-    "subject": "City of Bradenton VR License - Blossom Retreat | 7333 Skybird Road",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-22 15:55:00",
+    "due_date": "2026-10-26 15:55:00",
     "priority": 20
   },
   "8856": {
