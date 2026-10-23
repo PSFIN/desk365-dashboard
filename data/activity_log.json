@@ -1,5 +1,124 @@
 [
   {
+    "ts": "2026-10-23T15:17:47+00:00",
+    "ticket_number": 9387,
+    "subject": "Smoke Detectors- Florida Dreams",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.husak@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-23T15:17:47+00:00",
+    "ticket_number": 9386,
+    "subject": "Guest Name: Logan Cheryl | Res #: 47155 | Unit: Par Then Bar | Cancellation request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-23T15:17:47+00:00",
+    "ticket_number": 9385,
+    "subject": "Charlotte Dream- no cleanning",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.messasierra@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-23T15:17:47+00:00",
+    "ticket_number": 9384,
+    "subject": "5 Star Review Feedback | Res #: 58843 | Kiehlmann Lara | Dreams Of Paradise | 10/18/2026 - 10/22/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to j.delafuente@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "j.delafuente@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-23T15:17:47+00:00",
+    "ticket_number": 9381,
+    "subject": "Past Due Invoices- not in SL",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "c.thayer@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-23T15:17:47+00:00",
+    "ticket_number": 9378,
+    "subject": "Res #: 53170 | Unit: Waterfront Dreamin | Guest Name: Mielenz Laurel | POOL HEAT ON Request",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to j.messasierra@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "j.messasierra@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-23T15:17:47+00:00",
+    "ticket_number": 9310,
+    "subject": "Coastal Oasis | Cracked kitchen floor",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to j.delafuente@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "j.delafuente@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-23T15:17:47+00:00",
+    "ticket_number": 9250,
+    "subject": "1260 - Guest compensation",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to h.nomura@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "h.nomura@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-23T15:17:47+00:00",
+    "ticket_number": 9145,
+    "subject": "GBB1328 - Deep clean",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-12 15:43:51 to 2026-10-25 15:43:00",
+    "from": "2026-10-12 15:43:51",
+    "to": "2026-10-25 15:43:00"
+  },
+  {
+    "ts": "2026-10-23T15:17:47+00:00",
+    "ticket_number": 7396,
+    "subject": "Marriott Curation Rejected - Signal Inn 18",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-23 15:06:00 to 2026-10-30 15:06:00",
+    "from": "2026-10-23 15:06:00",
+    "to": "2026-10-30 15:06:00"
+  },
+  {
+    "ts": "2026-10-23T15:17:47+00:00",
+    "ticket_number": 9383,
+    "subject": "5 Star Review Feedback | Res #: 64051 | Siders Vickie | Colony Inn C-45| 10/15/2026 - 10/18/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-23T15:17:47+00:00",
+    "ticket_number": 9328,
+    "subject": "Charlottes Dream-DC",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-23T15:17:47+00:00",
+    "ticket_number": 9314,
+    "subject": "Rental Projection",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-23T15:17:47+00:00",
+    "ticket_number": 9277,
+    "subject": "06ers-no cleaning owner block",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-23T15:17:47+00:00",
+    "ticket_number": 9275,
+    "subject": "Game On-Pictures",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-23T05:08:13+00:00",
     "ticket_number": 9377,
     "subject": "Cutter Brian | Bali Poolside | Res #: 60129 | Prop visit",
@@ -7795,134 +7914,5 @@
     "subject": "GBB Walk Through Videos",
     "type": "created",
     "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-05T14:08:37+00:00",
-    "ticket_number": 9074,
-    "subject": "Guest Name: Freidus Susan| Booking number:  6744639990 | Guest would like to cancel for free",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-05T14:08:37+00:00",
-    "ticket_number": 9071,
-    "subject": "Possible Guest/Cleo Brown/Pearl In The Rough/VRBO Guest Requests / Inquiries",
-    "type": "reassigned",
-    "detail": "Reassigned from d.husak@choosegulfcoast.com to m.omasdang@choosegulfcoast.com",
-    "from": "d.husak@choosegulfcoast.com",
-    "to": "m.omasdang@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-05T14:08:37+00:00",
-    "ticket_number": 9067,
-    "subject": "Capozzolo Maria/Ocean Eyes/Res #: 57563/Electric Kettle Request",
-    "type": "reassigned",
-    "detail": "Reassigned from j.rushton@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
-    "from": "j.rushton@choosegulfcoast.com",
-    "to": "h.mcnamara@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-05T14:08:37+00:00",
-    "ticket_number": 9036,
-    "subject": "Tedford Jim & Diane | YCBR 24B | Res #: 33956",
-    "type": "status_changed",
-    "detail": "Status changed from Pending to Open",
-    "from": "Pending",
-    "to": "Open"
-  },
-  {
-    "ts": "2026-10-05T14:08:37+00:00",
-    "ticket_number": 9004,
-    "subject": "5 Star Review Feedback | Res #59332 | Torretto Jeff | Signal Inn - Unit 12 | 9/25/2026-9/29/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-05 14:56:31 to 2026-10-07 17:00:00",
-    "from": "2026-10-05 14:56:31",
-    "to": "2026-10-07 17:00:00"
-  },
-  {
-    "ts": "2026-10-05T14:08:37+00:00",
-    "ticket_number": 8998,
-    "subject": "Easy Does It- elock",
-    "type": "reassigned",
-    "detail": "Reassigned from d.husak@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
-    "from": "d.husak@choosegulfcoast.com",
-    "to": "h.mcnamara@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-05T14:08:37+00:00",
-    "ticket_number": 8985,
-    "subject": "3 Star Review Feedback | Res #58387 | Keen Melissa | Signal Inn - Unit 10 | 8/25/2026-9/1/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from n.ventura@choosegulfcoast.com to e.buchanan@choosegulfcoast.com",
-    "from": "n.ventura@choosegulfcoast.com",
-    "to": "e.buchanan@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-05T14:08:37+00:00",
-    "ticket_number": 8956,
-    "subject": "4 Star Review Feedback | Res #57554 | Ellis Jonathan | Signal Inn - Unit 16 | 9/16/2026-9/22/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-05 22:00:00 to 2026-10-06 22:00:00",
-    "from": "2026-10-05 22:00:00",
-    "to": "2026-10-06 22:00:00"
-  },
-  {
-    "ts": "2026-10-05T14:08:37+00:00",
-    "ticket_number": 8868,
-    "subject": "Boardwalk benches",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-05 22:00:00 to 2026-10-09 22:00:00",
-    "from": "2026-10-05 22:00:00",
-    "to": "2026-10-09 22:00:00"
-  },
-  {
-    "ts": "2026-10-05T14:08:37+00:00",
-    "ticket_number": 8825,
-    "subject": "Sliding door lock project",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-05 15:51:00 to 2026-10-08 15:51:00",
-    "from": "2026-10-05 15:51:00",
-    "to": "2026-10-08 15:51:00"
-  },
-  {
-    "ts": "2026-10-05T14:08:37+00:00",
-    "ticket_number": 7810,
-    "subject": "New photos GBB1275",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-05 20:09:00 to 2026-10-06 20:09:00",
-    "from": "2026-10-05 20:09:00",
-    "to": "2026-10-06 20:09:00"
-  },
-  {
-    "ts": "2026-10-05T14:08:37+00:00",
-    "ticket_number": 7405,
-    "subject": "Marriott Curation Rejected - Signal Inn 02",
-    "type": "reassigned",
-    "detail": "Reassigned from i.yates@choosegulfcoast.com to b.meyer@choosegulfcoast.com",
-    "from": "i.yates@choosegulfcoast.com",
-    "to": "b.meyer@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-05T14:08:37+00:00",
-    "ticket_number": 7405,
-    "subject": "Marriott Curation Rejected - Signal Inn 02",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-02 21:00:00 to 2026-10-09 21:00:00",
-    "from": "2026-10-02 21:00:00",
-    "to": "2026-10-09 21:00:00"
-  },
-  {
-    "ts": "2026-10-05T14:08:37+00:00",
-    "ticket_number": 9023,
-    "subject": "Test 1234",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-05T14:08:37+00:00",
-    "ticket_number": 8994,
-    "subject": "HADFIELD JOSEPH/Signal Inn - Unit 13/Res #: 57023/Fan in the family room",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
 ]

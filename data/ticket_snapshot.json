@@ -1,14 +1,28 @@
 {
-  "9384": {
-    "subject": "5 Star Review Feedback | Res #: 58843 | Kiehlmann Lara | Dreams Of Paradise | 10/18/2026 - 10/22/2026",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+  "9387": {
+    "subject": "Smoke Detectors- Florida Dreams",
+    "assigned_to": "d.husak@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-28 15:15:56",
+    "priority": 1
+  },
+  "9386": {
+    "subject": "Guest Name: Logan Cheryl | Res #: 47155 | Unit: Par Then Bar | Cancellation request",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-28 14:43:55",
+    "priority": 1
+  },
+  "9385": {
+    "subject": "Charlotte Dream- no cleanning",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-27 22:00:00",
     "priority": 1
   },
-  "9383": {
-    "subject": "5 Star Review Feedback | Res #: 64051 | Siders Vickie | Colony Inn C-45| 10/15/2026 - 10/18/2026",
-    "assigned_to": "marcie@choosegulfcoast.com",
+  "9384": {
+    "subject": "5 Star Review Feedback | Res #: 58843 | Kiehlmann Lara | Dreams Of Paradise | 10/18/2026 - 10/22/2026",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-27 22:00:00",
     "priority": 1
@@ -22,7 +36,7 @@
   },
   "9381": {
     "subject": "Past Due Invoices- not in SL",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-27 20:18:50",
     "priority": 5
@@ -43,7 +57,7 @@
   },
   "9378": {
     "subject": "Res #: 53170 | Unit: Waterfront Dreamin | Guest Name: Mielenz Laurel | POOL HEAT ON Request",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-27 19:13:55",
     "priority": 10
@@ -251,13 +265,6 @@
     "due_date": "2026-10-23 16:54:59",
     "priority": 1
   },
-  "9328": {
-    "subject": "Charlottes Dream-DC",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-22 15:19:00",
-    "priority": 1
-  },
   "9325": {
     "subject": "Owner facing newsletter / Professional Linen Program",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
@@ -300,13 +307,6 @@
     "due_date": "2026-10-22 16:16:18",
     "priority": 1
   },
-  "9314": {
-    "subject": "Rental Projection",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-22 21:00:00",
-    "priority": 10
-  },
   "9312": {
     "subject": "Colony unit photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
@@ -316,7 +316,7 @@
   },
   "9310": {
     "subject": "Coastal Oasis | Cracked kitchen floor",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-23 22:00:00",
     "priority": 1
@@ -369,20 +369,6 @@
     "status": "Open",
     "due_date": "2026-10-20 17:47:24",
     "priority": 5
-  },
-  "9277": {
-    "subject": "06ers-no cleaning owner block",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-19 20:03:40",
-    "priority": 1
-  },
-  "9275": {
-    "subject": "Game On-Pictures",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-23 19:11:00",
-    "priority": 10
   },
   "9273": {
     "subject": "Vehicle wrap quotes",
@@ -442,7 +428,7 @@
   },
   "9250": {
     "subject": "1260 - Guest compensation",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-16 16:48:26",
     "priority": 1
@@ -640,7 +626,7 @@
     "subject": "GBB1328 - Deep clean",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-12 15:43:51",
+    "due_date": "2026-10-25 15:43:00",
     "priority": 1
   },
   "9144": {
@@ -962,7 +948,7 @@
     "subject": "Marriott Curation Rejected - Signal Inn 18",
     "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-23 15:06:00",
+    "due_date": "2026-10-30 15:06:00",
     "priority": 5
   },
   "7323": {
