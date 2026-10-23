@@ -1,7 +1,28 @@
 {
+  "9390": {
+    "subject": "Name:Osborne Kathleen E | Res: 61430 | Cancelled 50% Retained - OTA",
+    "assigned_to": "a.ytac@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-28 18:20:27",
+    "priority": 1
+  },
+  "9389": {
+    "subject": "Pineapple Way | Game table issue",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-28 16:56:13",
+    "priority": 1
+  },
+  "9388": {
+    "subject": "4 Star Review Feedback | Res #: 61352 | Albrecht Jennifer | Sandalfoot 5B2 | 10/19/2026 - 10/22/2026",
+    "assigned_to": "n.armstrong@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-28 16:08:14",
+    "priority": 1
+  },
   "9387": {
     "subject": "Smoke Detectors- Florida Dreams",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-28 15:15:56",
     "priority": 1
@@ -22,7 +43,7 @@
   },
   "9384": {
     "subject": "5 Star Review Feedback | Res #: 58843 | Kiehlmann Lara | Dreams Of Paradise | 10/18/2026 - 10/22/2026",
-    "assigned_to": "j.delafuente@choosegulfcoast.com",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-27 22:00:00",
     "priority": 1
@@ -36,7 +57,7 @@
   },
   "9381": {
     "subject": "Past Due Invoices- not in SL",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-27 20:18:50",
     "priority": 5
@@ -61,20 +82,6 @@
     "status": "Open",
     "due_date": "2026-10-27 19:13:55",
     "priority": 10
-  },
-  "9376": {
-    "subject": "Listing and Amenity changes / SF 5A3 & 5B1",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-27 17:17:23",
-    "priority": 10
-  },
-  "9374": {
-    "subject": "Res #65280 NPG Charge Owner Commission",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-23 20:10:48",
-    "priority": 20
   },
   "9373": {
     "subject": "Name: Gavalier Joe | Res: 53427 | Cancelled Deposit Retained - Direct | Property: Fairways to Coastline",
@@ -185,7 +192,7 @@
     "subject": "Raymonds Retreat - Photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-26 17:55:28",
+    "due_date": "2026-11-02 18:55:00",
     "priority": 1
   },
   "9351": {
@@ -199,7 +206,7 @@
     "subject": "Sea ya - New photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-26 14:25:00",
+    "due_date": "2026-10-27 14:25:00",
     "priority": 1
   },
   "9344": {
@@ -316,7 +323,7 @@
   },
   "9310": {
     "subject": "Coastal Oasis | Cracked kitchen floor",
-    "assigned_to": "j.delafuente@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-23 22:00:00",
     "priority": 1
@@ -325,7 +332,7 @@
     "subject": "GBB 1274 | Wicker furniture",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-23 22:00:00",
+    "due_date": "2026-10-24 22:00:00",
     "priority": 1
   },
   "9304": {
@@ -356,13 +363,6 @@
     "due_date": "2026-10-30 22:00:00",
     "priority": 1
   },
-  "9289": {
-    "subject": "GBB1332 - Photos",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-23 17:52:00",
-    "priority": 1
-  },
   "9288": {
     "subject": "Avalon-change owner code",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
@@ -375,13 +375,6 @@
     "assigned_to": "e.buchanan@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-26 15:40:00",
-    "priority": 10
-  },
-  "9262": {
-    "subject": "The Boat House-No smoke detectors",
-    "assigned_to": "j.delafuente@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-23 20:09:00",
     "priority": 10
   },
   "9261": {
@@ -412,26 +405,12 @@
     "due_date": "2026-10-23 19:42:00",
     "priority": 1
   },
-  "9257": {
-    "subject": "Amenities on SL pushed to Airbnb",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-24 19:42:00",
-    "priority": 1
-  },
   "9255": {
     "subject": "Paraclete Paradise-weeds, tree triming",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-22 18:53:00",
     "priority": 10
-  },
-  "9250": {
-    "subject": "1260 - Guest compensation",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-16 16:48:26",
-    "priority": 1
   },
   "9228": {
     "subject": "PCA - Tropic Treasure",
@@ -533,9 +512,9 @@
   },
   "9213": {
     "subject": "Sunnyside Up-carpet quote",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-23 14:56:00",
+    "due_date": "2026-11-06 15:56:00",
     "priority": 10
   },
   "9210": {
@@ -557,13 +536,6 @@
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-14 22:00:00",
-    "priority": 1
-  },
-  "9201": {
-    "subject": "Nicodemus Kathy | Ocean Eyes |  Res #: 57164 | Blinds stuck",
-    "assigned_to": "j.delafuente@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-22 22:00:00",
     "priority": 1
   },
   "9184": {
@@ -766,14 +738,14 @@
     "subject": "City of Bradenton VR License - Tropical Gulf Retreat | 4325 46th Avenue West, #203",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-23 17:42:00",
+    "due_date": "2026-10-28 17:42:00",
     "priority": 20
   },
   "8861": {
     "subject": "City of Bradenton VR License - Florida Dreams | 4457 45th Avenue West, #110",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-23 15:58:00",
+    "due_date": "2026-10-27 15:58:00",
     "priority": 20
   },
   "8860": {
@@ -866,13 +838,6 @@
     "status": "Open",
     "due_date": "2026-12-01 21:09:00",
     "priority": 5
-  },
-  "8427": {
-    "subject": "Data Update on Certificate of Registration Tracker",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-22 21:00:00",
-    "priority": 10
   },
   "8410": {
     "subject": "YCBR Photo shoot",
