@@ -1,5 +1,26 @@
 [
   {
+    "ts": "2026-10-23T05:08:13+00:00",
+    "ticket_number": 9377,
+    "subject": "Cutter Brian | Bali Poolside | Res #: 60129 | Prop visit",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-23T05:08:13+00:00",
+    "ticket_number": 9366,
+    "subject": "Vrbo -  Your property may be at risk for an unauthorized event",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-23T05:08:13+00:00",
+    "ticket_number": 9365,
+    "subject": "Athey Ramona/Sandalfoot 3B2/Res #: 65319/Cancelation Request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-23T00:18:16+00:00",
     "ticket_number": 9384,
     "subject": "5 Star Review Feedback | Res #: 58843 | Kiehlmann Lara | Dreams Of Paradise | 10/18/2026 - 10/22/2026",
@@ -7901,27 +7922,6 @@
     "ts": "2026-10-05T14:08:37+00:00",
     "ticket_number": 8994,
     "subject": "HADFIELD JOSEPH/Signal Inn - Unit 13/Res #: 57023/Fan in the family room",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-05T14:08:37+00:00",
-    "ticket_number": 8992,
-    "subject": "Price Projection",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-05T14:08:37+00:00",
-    "ticket_number": 8970,
-    "subject": "4 Star Review Feedback | Res #61101 |  Gauvin-Bottorf Diane | Signal Inn - Unit 4 | 9/25/2026-9/28/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-05T14:08:37+00:00",
-    "ticket_number": 8885,
-    "subject": "5 Star Review Feedback | Res #53585 | Lawson Stephen & Catherine | Signal Inn - Unit 10 | 9/7/2026-9/14/2026",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
