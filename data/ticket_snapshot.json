@@ -1,4 +1,25 @@
 {
+  "9384": {
+    "subject": "5 Star Review Feedback | Res #: 58843 | Kiehlmann Lara | Dreams Of Paradise | 10/18/2026 - 10/22/2026",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-27 22:00:00",
+    "priority": 1
+  },
+  "9383": {
+    "subject": "5 Star Review Feedback | Res #: 64051 | Siders Vickie | Colony Inn C-45| 10/15/2026 - 10/18/2026",
+    "assigned_to": "marcie@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-27 22:00:00",
+    "priority": 1
+  },
+  "9382": {
+    "subject": "Conway Nicola/Gulf & Bay Bayside - 1391/Res #: 39119/Cleaning Refund Request",
+    "assigned_to": "m.eronico@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-27 22:00:00",
+    "priority": 1
+  },
   "9381": {
     "subject": "Past Due Invoices- not in SL",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
@@ -160,13 +181,6 @@
     "due_date": "2026-10-26 17:59:00",
     "priority": 1
   },
-  "9356": {
-    "subject": "Sea Ya - Description update",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-26 17:57:39",
-    "priority": 1
-  },
   "9355": {
     "subject": "Smoke Detectors- Blue Dolphin",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
@@ -323,7 +337,7 @@
   },
   "9310": {
     "subject": "Coastal Oasis | Cracked kitchen floor",
-    "assigned_to": "j.delafuente@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-23 22:00:00",
     "priority": 1
@@ -332,7 +346,7 @@
     "subject": "GBB 1274 | Wicker furniture",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-22 22:00:00",
+    "due_date": "2026-10-23 22:00:00",
     "priority": 1
   },
   "9304": {
@@ -402,7 +416,7 @@
     "subject": "The Boat House-No smoke detectors",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-20 20:09:00",
+    "due_date": "2026-10-23 20:09:00",
     "priority": 10
   },
   "9261": {

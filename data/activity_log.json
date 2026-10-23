@@ -1,5 +1,60 @@
 [
   {
+    "ts": "2026-10-23T00:18:16+00:00",
+    "ticket_number": 9384,
+    "subject": "5 Star Review Feedback | Res #: 58843 | Kiehlmann Lara | Dreams Of Paradise | 10/18/2026 - 10/22/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-23T00:18:16+00:00",
+    "ticket_number": 9383,
+    "subject": "5 Star Review Feedback | Res #: 64051 | Siders Vickie | Colony Inn C-45| 10/15/2026 - 10/18/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to marcie@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-23T00:18:16+00:00",
+    "ticket_number": 9382,
+    "subject": "Conway Nicola/Gulf & Bay Bayside - 1391/Res #: 39119/Cleaning Refund Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to m.eronico@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-23T00:18:16+00:00",
+    "ticket_number": 9310,
+    "subject": "Coastal Oasis | Cracked kitchen floor",
+    "type": "reassigned",
+    "detail": "Reassigned from j.delafuente@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "j.delafuente@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-23T00:18:16+00:00",
+    "ticket_number": 9306,
+    "subject": "GBB 1274 | Wicker furniture",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-22 22:00:00 to 2026-10-23 22:00:00",
+    "from": "2026-10-22 22:00:00",
+    "to": "2026-10-23 22:00:00"
+  },
+  {
+    "ts": "2026-10-23T00:18:16+00:00",
+    "ticket_number": 9262,
+    "subject": "The Boat House-No smoke detectors",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-20 20:09:00 to 2026-10-23 20:09:00",
+    "from": "2026-10-20 20:09:00",
+    "to": "2026-10-23 20:09:00"
+  },
+  {
+    "ts": "2026-10-23T00:18:16+00:00",
+    "ticket_number": 9356,
+    "subject": "Sea Ya - Description update",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-22T21:48:37+00:00",
     "ticket_number": 9381,
     "subject": "Past Due Invoices- not in SL",
@@ -7869,54 +7924,5 @@
     "subject": "5 Star Review Feedback | Res #53585 | Lawson Stephen & Catherine | Signal Inn - Unit 10 | 9/7/2026-9/14/2026",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-05T14:08:37+00:00",
-    "ticket_number": 8624,
-    "subject": "Guest Name: Tresalus Jorwina |  Res #: 62207 | Unit: Southern Exposure | Stolen money",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-05T05:59:33+00:00",
-    "ticket_number": 9073,
-    "subject": "5 Star Review Feedback | Res #54089 | Solt John | The Cortusa | 6/17/2026-10/2/2026",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-05T05:59:33+00:00",
-    "ticket_number": 9072,
-    "subject": "3 Star Review Feedback | Res #54612 | Patterson Robert | Golden Beach #1 | 9/26/2026-10/3/2026",
-    "type": "created",
-    "detail": "Created \u2014 assigned to l.costa@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-05T05:59:33+00:00",
-    "ticket_number": 9071,
-    "subject": "Possible Guest/Cleo Brown/Pearl In The Rough/VRBO Guest Requests / Inquiries",
-    "type": "created",
-    "detail": "Created \u2014 assigned to d.husak@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-05T05:59:33+00:00",
-    "ticket_number": 9070,
-    "subject": "5 Star Review Feedback | Res #61908 | Hulchuk Olha | Beach House Residences Unit 1 | 9/28/2026-10/2/2026",
-    "type": "created",
-    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-05T05:59:33+00:00",
-    "ticket_number": 9069,
-    "subject": "Schulte Kristina/Gulf & Bay Bayside - 1269/ Res #: 36955/ Cancellation Request",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-05T05:59:33+00:00",
-    "ticket_number": 9068,
-    "subject": "Capozzolo Maria/Ocean Eyes/Res #: 57563/Balcony Roller Curtain Not Working Properly",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
   }
 ]
