@@ -1,5 +1,28 @@
 [
   {
+    "ts": "2026-10-24T22:09:53+00:00",
+    "ticket_number": 9369,
+    "subject": "The white pearl - toilet",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-24 22:00:00 to 2026-10-26 22:00:00",
+    "from": "2026-10-24 22:00:00",
+    "to": "2026-10-26 22:00:00"
+  },
+  {
+    "ts": "2026-10-24T22:09:53+00:00",
+    "ticket_number": 9391,
+    "subject": "Cancel Res #: 64996 | Unit: Gulf & Bay Bayside - 1373 | Guest Name: Liedke Roe",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-24T22:09:53+00:00",
+    "ticket_number": 9386,
+    "subject": "Guest Name: Logan Cheryl | Res #: 47155 | Unit: Par Then Bar | Cancellation request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-24T19:37:17+00:00",
     "ticket_number": 9338,
     "subject": "Game On-install lynx lock",
@@ -7891,26 +7914,5 @@
     "subject": "Glen McGlinchey",
     "type": "created",
     "detail": "Created \u2014 assigned to b.evans@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-05T21:32:39+00:00",
-    "ticket_number": 9082,
-    "subject": "NPG Commission Charge Res #64082 Sandalfoot 4B1",
-    "type": "created",
-    "detail": "Created \u2014 assigned to a.ytac@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-05T21:32:39+00:00",
-    "ticket_number": 9081,
-    "subject": "Bellevue | Missing Fire Extinguisher",
-    "type": "created",
-    "detail": "Created \u2014 assigned to j.messasierra@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-05T21:32:39+00:00",
-    "ticket_number": 9080,
-    "subject": "Golfers Grove | Fire Extinguisher",
-    "type": "created",
-    "detail": "Created \u2014 assigned to j.messasierra@choosegulfcoast.com, status Open"
   }
 ]
