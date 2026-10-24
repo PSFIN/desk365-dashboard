@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-10-24T00:56:03+00:00",
+    "ticket_number": 9391,
+    "subject": "Cancel Res #: 64996 | Unit: Gulf & Bay Bayside - 1373 | Guest Name: Liedke Roe",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-10-23T22:27:27+00:00",
     "ticket_number": 9318,
     "subject": "GBB1318 Fan in master",
@@ -7901,14 +7908,5 @@
     "detail": "Due date changed from 2026-10-06 17:46:00 to 2026-10-07 17:46:00",
     "from": "2026-10-06 17:46:00",
     "to": "2026-10-07 17:46:00"
-  },
-  {
-    "ts": "2026-10-05T21:32:39+00:00",
-    "ticket_number": 8998,
-    "subject": "Easy Does It- elock",
-    "type": "reassigned",
-    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
-    "from": "h.mcnamara@choosegulfcoast.com",
-    "to": "c.thayer@choosegulfcoast.com"
   }
 ]
