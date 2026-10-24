@@ -1,5 +1,32 @@
 [
   {
+    "ts": "2026-10-24T13:45:48+00:00",
+    "ticket_number": 9392,
+    "subject": "Unit: Aloha House | Guest Name: Parker Karen | Res #: 62860 | Cancelation Request",
+    "type": "reassigned",
+    "detail": "Reassigned from c.hernandez@choosegulfcoast.com to h.nomura@choosegulfcoast.com",
+    "from": "c.hernandez@choosegulfcoast.com",
+    "to": "h.nomura@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-24T13:45:48+00:00",
+    "ticket_number": 9391,
+    "subject": "Cancel Res #: 64996 | Unit: Gulf & Bay Bayside - 1373 | Guest Name: Liedke Roe",
+    "type": "reassigned",
+    "detail": "Reassigned from c.hernandez@choosegulfcoast.com to h.nomura@choosegulfcoast.com",
+    "from": "c.hernandez@choosegulfcoast.com",
+    "to": "h.nomura@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-24T13:45:48+00:00",
+    "ticket_number": 9382,
+    "subject": "Conway Nicola/Gulf & Bay Bayside - 1391/Res #: 39119/Cleaning Refund Request",
+    "type": "reassigned",
+    "detail": "Reassigned from m.eronico@choosegulfcoast.com to m.omasdang@choosegulfcoast.com",
+    "from": "m.eronico@choosegulfcoast.com",
+    "to": "m.omasdang@choosegulfcoast.com"
+  },
+  {
     "ts": "2026-10-24T05:19:25+00:00",
     "ticket_number": 9392,
     "subject": "Unit: Aloha House | Guest Name: Parker Karen | Res #: 62860 | Cancelation Request",
@@ -7879,32 +7906,5 @@
     "detail": "Reassigned from j.mesasierra@choosegulfcoast.com to j.messasierra@choosegulfcoast.com",
     "from": "j.mesasierra@choosegulfcoast.com",
     "to": "j.messasierra@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-05T21:32:39+00:00",
-    "ticket_number": 9029,
-    "subject": "Easy Does it-Fire extinguisher",
-    "type": "reassigned",
-    "detail": "Reassigned from j.mesasierra@choosegulfcoast.com to j.messasierra@choosegulfcoast.com",
-    "from": "j.mesasierra@choosegulfcoast.com",
-    "to": "j.messasierra@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-05T21:32:39+00:00",
-    "ticket_number": 9014,
-    "subject": "Gulf Standard - Lynx",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-05 20:31:04 to 2026-10-08 20:31:00",
-    "from": "2026-10-05 20:31:04",
-    "to": "2026-10-08 20:31:00"
-  },
-  {
-    "ts": "2026-10-05T21:32:39+00:00",
-    "ticket_number": 9013,
-    "subject": "Sandy Pointe - Lynx",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-05 17:46:52 to 2026-10-06 17:46:00",
-    "from": "2026-10-05 17:46:52",
-    "to": "2026-10-06 17:46:00"
   }
 ]

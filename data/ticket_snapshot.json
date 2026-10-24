@@ -1,14 +1,14 @@
 {
   "9392": {
     "subject": "Unit: Aloha House | Guest Name: Parker Karen | Res #: 62860 | Cancelation Request",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-28 22:00:00",
     "priority": 1
   },
   "9391": {
     "subject": "Cancel Res #: 64996 | Unit: Gulf & Bay Bayside - 1373 | Guest Name: Liedke Roe",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-28 22:00:00",
     "priority": 1
@@ -50,7 +50,7 @@
   },
   "9382": {
     "subject": "Conway Nicola/Gulf & Bay Bayside - 1391/Res #: 39119/Cleaning Refund Request",
-    "assigned_to": "m.eronico@choosegulfcoast.com",
+    "assigned_to": "m.omasdang@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-27 22:00:00",
     "priority": 1
@@ -511,7 +511,7 @@
     "priority": 1
   },
   "9184": {
-    "subject": "Kenney Patrick |   Res#: 60210 | Signal Inn - Unit 16 | Damaged Window Shade",
+    "subject": "Kenney Patrick |   Res#: 60210 | Signal Inn - Unit 06 | Damaged Window Shade",
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-21 22:00:00",
