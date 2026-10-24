@@ -1,5 +1,21 @@
 [
   {
+    "ts": "2026-10-24T17:08:13+00:00",
+    "ticket_number": 9310,
+    "subject": "Coastal Oasis | Cracked kitchen floor",
+    "type": "reassigned",
+    "detail": "Reassigned from j.messasierra@choosegulfcoast.com to j.delafuente@choosegulfcoast.com",
+    "from": "j.messasierra@choosegulfcoast.com",
+    "to": "j.delafuente@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-24T17:08:13+00:00",
+    "ticket_number": 9130,
+    "subject": "West James | Southern Comfort | Res #: 33775 | Pool Heat On",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-24T13:45:48+00:00",
     "ticket_number": 9392,
     "subject": "Unit: Aloha House | Guest Name: Parker Karen | Res #: 62860 | Cancelation Request",
@@ -7888,23 +7904,5 @@
     "subject": "Grill",
     "type": "created",
     "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-05T21:32:39+00:00",
-    "ticket_number": 9046,
-    "subject": "1260 broken fridge shelf-ARDI?",
-    "type": "reassigned",
-    "detail": "Reassigned from c.thayer@choosegulfcoast.com to c.nutt@choosegulfcoast.com",
-    "from": "c.thayer@choosegulfcoast.com",
-    "to": "c.nutt@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-05T21:32:39+00:00",
-    "ticket_number": 9030,
-    "subject": "Fire Extinguisher for Villa Milano",
-    "type": "reassigned",
-    "detail": "Reassigned from j.mesasierra@choosegulfcoast.com to j.messasierra@choosegulfcoast.com",
-    "from": "j.mesasierra@choosegulfcoast.com",
-    "to": "j.messasierra@choosegulfcoast.com"
   }
 ]
