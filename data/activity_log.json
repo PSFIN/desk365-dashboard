@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-10-25T14:08:34+00:00",
+    "ticket_number": 9382,
+    "subject": "Conway Nicola/Gulf & Bay Bayside - 1391/Res #: 39119/Cleaning Refund Request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-24T22:09:53+00:00",
     "ticket_number": 9369,
     "subject": "The white pearl - toilet",
@@ -7907,12 +7914,5 @@
     "subject": "GBB 1291 | Missing Fire Extinguisher",
     "type": "created",
     "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-05T21:32:39+00:00",
-    "ticket_number": 9083,
-    "subject": "Glen McGlinchey",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.evans@choosegulfcoast.com, status Open"
   }
 ]
