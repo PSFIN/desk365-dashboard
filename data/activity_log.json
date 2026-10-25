@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-10-25T17:44:24+00:00",
+    "ticket_number": 9393,
+    "subject": "Guest Name: Greenly Robert |  Res #: 65479 | Unit: Sandalfoot 1C2 | Request for removal",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-10-25T14:08:34+00:00",
     "ticket_number": 9382,
     "subject": "Conway Nicola/Gulf & Bay Bayside - 1391/Res #: 39119/Cleaning Refund Request",
@@ -7907,12 +7914,5 @@
     "subject": "phone number",
     "type": "created",
     "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-05T21:32:39+00:00",
-    "ticket_number": 9084,
-    "subject": "GBB 1291 | Missing Fire Extinguisher",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
   }
 ]
