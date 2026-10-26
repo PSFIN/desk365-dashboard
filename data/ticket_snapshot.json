@@ -1,10 +1,45 @@
 {
-  "9394": {
-    "subject": "5 Star Review Feedback | Res #: 59956 | Loftus Bill | Colony Inn C-10 | 10/17/2026 - 10/24/2026",
-    "assigned_to": "marcie@choosegulfcoast.com",
+  "9403": {
+    "subject": "Sun Seeker | Guest requests",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-28 22:00:00",
+    "due_date": "2026-10-29 18:40:50",
     "priority": 1
+  },
+  "9402": {
+    "subject": "Malinowski Robert | Turtle House | Res #: 54453 | Cancellation",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-29 18:17:16",
+    "priority": 1
+  },
+  "9401": {
+    "subject": "5 Star Review Feedback | Res #: 58847 | Hess Diane | Sandalfoot 1D1 | 10/17/2026 - 10/24/2026",
+    "assigned_to": "n.armstrong@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-29 17:42:34",
+    "priority": 1
+  },
+  "9399": {
+    "subject": "Lynx Lock tab-work order dashboard",
+    "assigned_to": "b.evans@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-29 15:50:53",
+    "priority": 10
+  },
+  "9398": {
+    "subject": "The Cortusa | Mid-stay Cleaning Request",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-29 14:51:55",
+    "priority": 1
+  },
+  "9396": {
+    "subject": "GBB Amenities Update.",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-09 23:00:00",
+    "priority": 5
   },
   "9393": {
     "subject": "Guest Name: Greenly Robert |  Res #: 65479 | Unit: Sandalfoot 1C2 | Request for removal",
@@ -76,13 +111,6 @@
     "due_date": "2026-10-27 14:31:43",
     "priority": 1
   },
-  "9369": {
-    "subject": "The white pearl - toilet",
-    "assigned_to": "j.delafuente@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-26 22:00:00",
-    "priority": 1
-  },
   "9368": {
     "subject": "Flip Flop Retreat - excessive cleaning charge 10-22-26",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
@@ -108,7 +136,7 @@
     "subject": "Approach shot - Lynx lock",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-26 18:48:11",
+    "due_date": "2026-10-30 18:48:00",
     "priority": 1
   },
   "9362": {
@@ -141,23 +169,16 @@
   },
   "9358": {
     "subject": "Raymonds Retreat - Lynx lock",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-26 17:59:42",
     "priority": 1
   },
   "9357": {
     "subject": "GBB1332 - Lynx lock",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-26 17:59:00",
-    "priority": 1
-  },
-  "9355": {
-    "subject": "Smoke Detectors- Blue Dolphin",
-    "assigned_to": "j.delafuente@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-26 17:56:23",
     "priority": 1
   },
   "9354": {
@@ -199,22 +220,8 @@
     "subject": "TEST Property",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-23 20:29:37",
+    "due_date": "2027-01-30 20:29:00",
     "priority": 1
-  },
-  "9338": {
-    "subject": "Game On-install lynx lock",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-24 23:00:00",
-    "priority": 10
-  },
-  "9337": {
-    "subject": "Beyond the Green-install lynx",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-24 23:00:00",
-    "priority": 10
   },
   "9336": {
     "subject": "Cranes Galore \u2013 Owner Contribution (Check Payment)",
@@ -269,7 +276,7 @@
     "subject": "GBB1318 Fan in master",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-26 22:00:00",
+    "due_date": "2026-10-29 22:00:00",
     "priority": 1
   },
   "9315": {
@@ -332,7 +339,7 @@
     "subject": "Vehicle wrap quotes",
     "assigned_to": "e.buchanan@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-26 15:40:00",
+    "due_date": "2026-11-02 16:40:00",
     "priority": 10
   },
   "9261": {
@@ -365,7 +372,7 @@
   },
   "9228": {
     "subject": "PCA - Tropic Treasure",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-15 15:51:13",
     "priority": 1
@@ -503,13 +510,6 @@
     "due_date": "2026-10-14 18:02:58",
     "priority": 10
   },
-  "9150": {
-    "subject": "Cart abandonment email automation",
-    "assigned_to": "e.buchanan@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-26 18:49:00",
-    "priority": 5
-  },
   "9149": {
     "subject": "Name: Perez Gilberto | Res: 64154 | Property: Colony Inn C-06 | Cancelled 50% Retained - OTA",
     "assigned_to": "a.ytac@choosegulfcoast.com",
@@ -535,7 +535,7 @@
     "subject": "Longboat Oasis - Info sheet",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-12 15:46:04",
+    "due_date": "2026-10-29 15:46:00",
     "priority": 1
   },
   "9145": {
@@ -792,14 +792,14 @@
   },
   "8365": {
     "subject": "The Heartherwood Haven-deep clean PCA",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-12-31 23:00:00",
     "priority": 5
   },
   "8355": {
     "subject": "Southern Comfort-PCA cleaning request",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-27 19:18:00",
     "priority": 10
@@ -841,7 +841,7 @@
   },
   "7598": {
     "subject": "PCA for Longboat Oasis Due Date: 8/4/2026",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-07 23:00:00",
     "priority": 5
