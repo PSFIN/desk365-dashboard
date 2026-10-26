@@ -1,5 +1,70 @@
 [
   {
+    "ts": "2026-10-26T22:58:17+00:00",
+    "ticket_number": 9407,
+    "subject": "BLAIR Robert | Res #: 65425 | Cancellation Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-26T22:58:17+00:00",
+    "ticket_number": 9406,
+    "subject": "Keys Please - Photos",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-26T22:58:17+00:00",
+    "ticket_number": 9405,
+    "subject": "#62794 NPG Charge Owner Commission",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-26T22:58:17+00:00",
+    "ticket_number": 9404,
+    "subject": "rent rev",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.paulin@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-26T22:58:17+00:00",
+    "ticket_number": 9348,
+    "subject": "Sea ya - New photos",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-27 14:25:00 to 2026-10-28 14:25:00",
+    "from": "2026-10-27 14:25:00",
+    "to": "2026-10-28 14:25:00"
+  },
+  {
+    "ts": "2026-10-26T22:58:17+00:00",
+    "ticket_number": 9393,
+    "subject": "Guest Name: Greenly Robert |  Res #: 65479 | Unit: Sandalfoot 1C2 | Request for removal",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-26T22:58:17+00:00",
+    "ticket_number": 9371,
+    "subject": "4 Star Review Feedback | Res #: 61122 | Tim Hauer | Sandalfoot 4A3 | 10/6/2026 - 10/14/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-26T22:58:17+00:00",
+    "ticket_number": 9331,
+    "subject": "Refund adjustment - 1D1",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-26T22:58:17+00:00",
+    "ticket_number": 9021,
+    "subject": "Shower Glass - Rental insurance claim",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-26T18:45:21+00:00",
     "ticket_number": 9403,
     "subject": "Sun Seeker | Guest requests",
@@ -7837,78 +7902,5 @@
     "subject": "Ocean Eyes - Celebration",
     "type": "created",
     "detail": "Created \u2014 assigned to j.messasierra@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-06T15:36:53+00:00",
-    "ticket_number": 9098,
-    "subject": "wall mounted hose holder",
-    "type": "created",
-    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-06T15:36:53+00:00",
-    "ticket_number": 9097,
-    "subject": "Tee Time and fore Season- 2nd code",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-06T15:36:53+00:00",
-    "ticket_number": 9096,
-    "subject": "Res #: 53462| Unit: Signal Inn - Unit 17| Guest Name: Savage Lisa| shower handle is loose",
-    "type": "created",
-    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-06T15:36:53+00:00",
-    "ticket_number": 9095,
-    "subject": "Request for cancellation due to low rate: A Shore Thing Res #: 64168",
-    "type": "created",
-    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-06T15:36:53+00:00",
-    "ticket_number": 9078,
-    "subject": "Grand Getaway- install pool lights.",
-    "type": "reassigned",
-    "detail": "Reassigned from d.husak@choosegulfcoast.com to j.delafuente@choosegulfcoast.com",
-    "from": "d.husak@choosegulfcoast.com",
-    "to": "j.delafuente@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-06T15:36:53+00:00",
-    "ticket_number": 9078,
-    "subject": "Grand Getaway- install pool lights.",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-08 15:20:56 to 2026-10-07 16:00:00",
-    "from": "2026-10-08 15:20:56",
-    "to": "2026-10-07 16:00:00"
-  },
-  {
-    "ts": "2026-10-06T15:36:53+00:00",
-    "ticket_number": 9071,
-    "subject": "Possible Guest/Cleo Brown/Pearl In The Rough/VRBO Guest Requests / Inquiries",
-    "type": "reassigned",
-    "detail": "Reassigned from d.husak@choosegulfcoast.com to m.omasdang@choosegulfcoast.com",
-    "from": "d.husak@choosegulfcoast.com",
-    "to": "m.omasdang@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-06T15:36:53+00:00",
-    "ticket_number": 9068,
-    "subject": "Capozzolo Maria/Ocean Eyes/Res #: 57563/Balcony Roller Curtain Not Working Properly",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-07 22:00:00 to 2026-10-10 22:00:00",
-    "from": "2026-10-07 22:00:00",
-    "to": "2026-10-10 22:00:00"
-  },
-  {
-    "ts": "2026-10-06T15:36:53+00:00",
-    "ticket_number": 9066,
-    "subject": "Mielenz Laurel/Waterfront Dreamin/Ceiling Fan not working",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-07 22:00:00 to 2026-10-08 22:00:00",
-    "from": "2026-10-07 22:00:00",
-    "to": "2026-10-08 22:00:00"
   }
 ]

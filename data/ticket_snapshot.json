@@ -1,4 +1,32 @@
 {
+  "9407": {
+    "subject": "BLAIR Robert | Res #: 65425 | Cancellation Request",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-29 20:41:15",
+    "priority": 1
+  },
+  "9406": {
+    "subject": "Keys Please - Photos",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-29 19:54:54",
+    "priority": 1
+  },
+  "9405": {
+    "subject": "#62794 NPG Charge Owner Commission",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-28 15:50:08",
+    "priority": 20
+  },
+  "9404": {
+    "subject": "rent rev",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-28 15:30:04",
+    "priority": 20
+  },
   "9403": {
     "subject": "Sun Seeker | Guest requests",
     "assigned_to": "d.husak@choosegulfcoast.com",
@@ -40,13 +68,6 @@
     "status": "Open",
     "due_date": "2026-11-09 23:00:00",
     "priority": 5
-  },
-  "9393": {
-    "subject": "Guest Name: Greenly Robert |  Res #: 65479 | Unit: Sandalfoot 1C2 | Request for removal",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-28 22:00:00",
-    "priority": 1
   },
   "9390": {
     "subject": "Name:Osborne Kathleen E | Res: 61430 | Cancelled 50% Retained - OTA",
@@ -102,13 +123,6 @@
     "assigned_to": "n.armstrong@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-27 14:37:29",
-    "priority": 1
-  },
-  "9371": {
-    "subject": "4 Star Review Feedback | Res #: 61122 | Tim Hauer | Sandalfoot 4A3 | 10/6/2026 - 10/14/2026",
-    "assigned_to": "n.armstrong@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-27 14:31:43",
     "priority": 1
   },
   "9368": {
@@ -199,7 +213,7 @@
     "subject": "Sea ya - New photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-27 14:25:00",
+    "due_date": "2026-10-28 14:25:00",
     "priority": 1
   },
   "9344": {
@@ -235,13 +249,6 @@
     "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-23 17:52:37",
-    "priority": 1
-  },
-  "9331": {
-    "subject": "Refund adjustment - 1D1",
-    "assigned_to": "n.armstrong@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-23 16:54:59",
     "priority": 1
   },
   "9325": {
@@ -621,13 +628,6 @@
     "status": "Open",
     "due_date": "2026-10-08 17:55:00",
     "priority": 1
-  },
-  "9021": {
-    "subject": "Shower Glass - Rental insurance claim",
-    "assigned_to": "n.armstrong@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-05 22:00:00",
-    "priority": 10
   },
   "8960": {
     "subject": "zSugar Beach - Minimum Escrow Balance",
