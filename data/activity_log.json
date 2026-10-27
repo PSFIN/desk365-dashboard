@@ -1,5 +1,187 @@
 [
   {
+    "ts": "2026-10-27T18:49:34+00:00",
+    "ticket_number": 9418,
+    "subject": "Email Signatures -Lisa, Josh, Christina, Chris",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-27T18:49:34+00:00",
+    "ticket_number": 9417,
+    "subject": "Website Team Pages",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-27T18:49:34+00:00",
+    "ticket_number": 9416,
+    "subject": "Fireside Cottage \u2013 Verify Lynx Lock and Guest Key Access",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-27T18:49:34+00:00",
+    "ticket_number": 9415,
+    "subject": "Name: Malinowski Robert | Res: 54453 | Refund Check Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to k.fisher@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-27T18:49:34+00:00",
+    "ticket_number": 9414,
+    "subject": "Onboarding inventory Sheet for VR owners",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-27T18:49:34+00:00",
+    "ticket_number": 9413,
+    "subject": "Update Team Member List in Streamline (SL)",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.evans@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-27T18:49:34+00:00",
+    "ticket_number": 9412,
+    "subject": "Deactivating Property : zSugar Beach",
+    "type": "created",
+    "detail": "Created \u2014 assigned to a.guarin@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-27T18:49:34+00:00",
+    "ticket_number": 9406,
+    "subject": "Keys Please - Photos",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-29 19:54:54 to 2026-11-06 20:54:00",
+    "from": "2026-10-29 19:54:54",
+    "to": "2026-11-06 20:54:00"
+  },
+  {
+    "ts": "2026-10-27T18:49:34+00:00",
+    "ticket_number": 9384,
+    "subject": "5 Star Review Feedback | Res #: 58843 | Kiehlmann Lara | Dreams Of Paradise | 10/18/2026 - 10/22/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-27T18:49:34+00:00",
+    "ticket_number": 9351,
+    "subject": "Guest Mail & Package Delivery Notification \u2013 Ronald Slurkanich",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-26 15:37:15 to 2026-12-02 16:37:00",
+    "from": "2026-10-26 15:37:15",
+    "to": "2026-12-02 16:37:00"
+  },
+  {
+    "ts": "2026-10-27T18:49:34+00:00",
+    "ticket_number": 9175,
+    "subject": "admirals watch-cleaning",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-14 18:02:58 to 2026-11-18 19:02:00",
+    "from": "2026-10-14 18:02:58",
+    "to": "2026-11-18 19:02:00"
+  },
+  {
+    "ts": "2026-10-27T18:49:34+00:00",
+    "ticket_number": 8861,
+    "subject": "City of Bradenton VR License - Florida Dreams | 4457 45th Avenue West, #110",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-27 15:58:00 to 2026-10-30 15:58:00",
+    "from": "2026-10-27 15:58:00",
+    "to": "2026-10-30 15:58:00"
+  },
+  {
+    "ts": "2026-10-27T18:49:34+00:00",
+    "ticket_number": 8860,
+    "subject": "City of Bradenton VR License - Don't Worry Beach Happy | 502 Sanderling Circle",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-26 15:55:00 to 2026-10-30 15:55:00",
+    "from": "2026-10-26 15:55:00",
+    "to": "2026-10-30 15:55:00"
+  },
+  {
+    "ts": "2026-10-27T18:49:34+00:00",
+    "ticket_number": 8499,
+    "subject": "Cedar Hammock Fire District Inspection - Multiple Units",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-26 21:00:00 to 2026-10-29 21:00:00",
+    "from": "2026-10-26 21:00:00",
+    "to": "2026-10-29 21:00:00"
+  },
+  {
+    "ts": "2026-10-27T18:49:34+00:00",
+    "ticket_number": 9407,
+    "subject": "BLAIR Robert | Res #: 65425 | Cancellation Request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-27T18:49:34+00:00",
+    "ticket_number": 9405,
+    "subject": "#62794 NPG Charge Owner Commission",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-27T18:49:34+00:00",
+    "ticket_number": 9404,
+    "subject": "rent rev",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-27T18:49:34+00:00",
+    "ticket_number": 9402,
+    "subject": "Malinowski Robert | Turtle House | Res #: 54453 | Cancellation",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-27T18:49:34+00:00",
+    "ticket_number": 9373,
+    "subject": "Name: Gavalier Joe | Res: 53427 | Cancelled Deposit Retained - Direct | Property: Fairways to Coastline",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-27T18:49:34+00:00",
+    "ticket_number": 9367,
+    "subject": "Name: Lugiano John | Res: 39692 | Cancelled Deposit Retained - Direct",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-27T18:49:34+00:00",
+    "ticket_number": 9181,
+    "subject": "Longboat Dream Relocation for Dec Guest",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-27T18:49:34+00:00",
+    "ticket_number": 9109,
+    "subject": "City of Sarasota VR License - Admirals Watch | 1703 North Tamiami Trail, B503",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-27T18:49:34+00:00",
+    "ticket_number": 8960,
+    "subject": "zSugar Beach - Minimum Escrow Balance",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-27T18:49:34+00:00",
+    "ticket_number": 7800,
+    "subject": "Sunset Reflections - Update listing",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-26T22:58:17+00:00",
     "ticket_number": 9407,
     "subject": "BLAIR Robert | Res #: 65425 | Cancellation Request",
@@ -7724,183 +7906,5 @@
     "detail": "Due date changed from 2026-10-06 18:41:00 to 2026-10-06 21:00:00",
     "from": "2026-10-06 18:41:00",
     "to": "2026-10-06 21:00:00"
-  },
-  {
-    "ts": "2026-10-06T20:42:29+00:00",
-    "ticket_number": 8618,
-    "subject": "PCA - Fishtail",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-09 22:00:00 to 2026-10-30 22:00:00",
-    "from": "2026-10-09 22:00:00",
-    "to": "2026-10-30 22:00:00"
-  },
-  {
-    "ts": "2026-10-06T20:42:29+00:00",
-    "ticket_number": 8332,
-    "subject": "PCA for Charlotte's Dream Due Date: 9/15/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-10 22:00:00 to 2026-10-30 22:00:00",
-    "from": "2026-10-10 22:00:00",
-    "to": "2026-10-30 22:00:00"
-  },
-  {
-    "ts": "2026-10-06T20:42:29+00:00",
-    "ticket_number": 7810,
-    "subject": "New photos GBB1275",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-07 20:09:00 to 2026-10-08 20:09:00",
-    "from": "2026-10-07 20:09:00",
-    "to": "2026-10-08 20:09:00"
-  },
-  {
-    "ts": "2026-10-06T20:42:29+00:00",
-    "ticket_number": 7405,
-    "subject": "Marriott Curation Rejected - Signal Inn 02",
-    "type": "reassigned",
-    "detail": "Reassigned from b.meyer@choosegulfcoast.com to s.paulin@choosegulfcoast.com",
-    "from": "b.meyer@choosegulfcoast.com",
-    "to": "s.paulin@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-06T20:42:29+00:00",
-    "ticket_number": 7396,
-    "subject": "Marriott Curation Rejected - Signal Inn 18",
-    "type": "reassigned",
-    "detail": "Reassigned from b.meyer@choosegulfcoast.com to n.ventura@choosegulfcoast.com",
-    "from": "b.meyer@choosegulfcoast.com",
-    "to": "n.ventura@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-06T20:42:29+00:00",
-    "ticket_number": 9106,
-    "subject": "Sandpebble 1D Description",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-06T20:42:29+00:00",
-    "ticket_number": 9064,
-    "subject": "Deactivating Property :  Royal Oasis",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-06T20:42:29+00:00",
-    "ticket_number": 9037,
-    "subject": "Name: Gedarevich David | Res: 63850 | HOA application Embassy Villas | Extension",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-06T20:42:29+00:00",
-    "ticket_number": 9032,
-    "subject": "Business Cards - Nik Ventura",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-06T20:42:29+00:00",
-    "ticket_number": 9030,
-    "subject": "Fire Extinguisher for Villa Milano",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-06T20:42:29+00:00",
-    "ticket_number": 9012,
-    "subject": "Gulf Standard - Photos",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-06T20:42:29+00:00",
-    "ticket_number": 8974,
-    "subject": "Valenzia Jane | Unit: O6ERS | Res #: 60705 | Jacuzzi Turned On Request",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-06T20:42:29+00:00",
-    "ticket_number": 8919,
-    "subject": "1C3 photo and bed size change",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-06T20:42:29+00:00",
-    "ticket_number": 8821,
-    "subject": "Name: Reynolds Robert&Michelle | Res: 62230 | Cancelled 50% Retained - OTA",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-06T20:42:29+00:00",
-    "ticket_number": 8531,
-    "subject": "Department of Business and Professional Regulation (DBPR) License Review",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-06T20:42:29+00:00",
-    "ticket_number": 6421,
-    "subject": "Lee County Sales Tax Discretionary Expiration at 12/31/28",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-06T15:36:53+00:00",
-    "ticket_number": 9112,
-    "subject": "Chaplin Astgik | Unit: Gulf & Bay Bayside - 1358 |  Res #: 46700 | Clogged Guest Bathroom",
-    "type": "created",
-    "detail": "Created \u2014 assigned to j.delafuente@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-06T15:36:53+00:00",
-    "ticket_number": 9111,
-    "subject": "Colony Inn Unit Descriptions",
-    "type": "created",
-    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-06T15:36:53+00:00",
-    "ticket_number": 9110,
-    "subject": "City of Sarasota VR License - Beautiful Bayou | 2124 North Tamiami Trail",
-    "type": "created",
-    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-06T15:36:53+00:00",
-    "ticket_number": 9109,
-    "subject": "City of Sarasota VR License - Admirals Watch | 1703 North Tamiami Trail, B503",
-    "type": "created",
-    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-06T15:36:53+00:00",
-    "ticket_number": 9106,
-    "subject": "Sandpebble 1D Description",
-    "type": "created",
-    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-06T15:36:53+00:00",
-    "ticket_number": 9104,
-    "subject": "Longboat Oasis - Statement correction",
-    "type": "created",
-    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-06T15:36:53+00:00",
-    "ticket_number": 9103,
-    "subject": "Tropical Escape - New photos",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-06T15:36:53+00:00",
-    "ticket_number": 9101,
-    "subject": "Ocean Eyes - Celebration",
-    "type": "created",
-    "detail": "Created \u2014 assigned to j.messasierra@choosegulfcoast.com, status Open"
   }
 ]

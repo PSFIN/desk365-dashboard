@@ -1,44 +1,65 @@
 {
-  "9407": {
-    "subject": "BLAIR Robert | Res #: 65425 | Cancellation Request",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
+  "9418": {
+    "subject": "Email Signatures -Lisa, Josh, Christina, Chris",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-29 20:41:15",
+    "due_date": "2026-10-30 18:38:10",
+    "priority": 10
+  },
+  "9417": {
+    "subject": "Website Team Pages",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-10 18:08:00",
+    "priority": 5
+  },
+  "9416": {
+    "subject": "Fireside Cottage \u2013 Verify Lynx Lock and Guest Key Access",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-30 16:14:42",
+    "priority": 10
+  },
+  "9415": {
+    "subject": "Name: Malinowski Robert | Res: 54453 | Refund Check Request",
+    "assigned_to": "k.fisher@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-30 16:00:42",
+    "priority": 1
+  },
+  "9414": {
+    "subject": "Onboarding inventory Sheet for VR owners",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-30 15:49:49",
+    "priority": 5
+  },
+  "9413": {
+    "subject": "Update Team Member List in Streamline (SL)",
+    "assigned_to": "b.evans@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-30 15:49:34",
+    "priority": 10
+  },
+  "9412": {
+    "subject": "Deactivating Property : zSugar Beach",
+    "assigned_to": "a.guarin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-10-30 15:41:17",
     "priority": 1
   },
   "9406": {
     "subject": "Keys Please - Photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-29 19:54:54",
+    "due_date": "2026-11-06 20:54:00",
     "priority": 1
-  },
-  "9405": {
-    "subject": "#62794 NPG Charge Owner Commission",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-28 15:50:08",
-    "priority": 20
-  },
-  "9404": {
-    "subject": "rent rev",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-28 15:30:04",
-    "priority": 20
   },
   "9403": {
     "subject": "Sun Seeker | Guest requests",
     "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-29 18:40:50",
-    "priority": 1
-  },
-  "9402": {
-    "subject": "Malinowski Robert | Turtle House | Res #: 54453 | Cancellation",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-29 18:17:16",
     "priority": 1
   },
   "9401": {
@@ -92,7 +113,7 @@
   },
   "9384": {
     "subject": "5 Star Review Feedback | Res #: 58843 | Kiehlmann Lara | Dreams Of Paradise | 10/18/2026 - 10/22/2026",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-27 22:00:00",
     "priority": 1
@@ -111,13 +132,6 @@
     "due_date": "2026-10-27 19:44:00",
     "priority": 1
   },
-  "9373": {
-    "subject": "Name: Gavalier Joe | Res: 53427 | Cancelled Deposit Retained - Direct | Property: Fairways to Coastline",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-27 15:26:42",
-    "priority": 1
-  },
   "9372": {
     "subject": "3 Star Review Feedback | Res #: 60939 | James Robinson | Sandalfoot 1D2 | 10/17/2026 - 10/21/2026",
     "assigned_to": "n.armstrong@choosegulfcoast.com",
@@ -131,13 +145,6 @@
     "status": "Open",
     "due_date": "2026-10-26 22:00:00",
     "priority": 5
-  },
-  "9367": {
-    "subject": "Name: Lugiano John | Res: 39692 | Cancelled Deposit Retained - Direct",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-26 22:00:00",
-    "priority": 1
   },
   "9364": {
     "subject": "Emailing inspection reports to Owner (Signal Inn Unit #5) - Owner receives an error message and unable to open the PDF",
@@ -206,7 +213,7 @@
     "subject": "Guest Mail & Package Delivery Notification \u2013 Ronald Slurkanich",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-26 15:37:15",
+    "due_date": "2026-12-02 16:37:00",
     "priority": 1
   },
   "9348": {
@@ -503,18 +510,11 @@
     "due_date": "2026-10-21 22:00:00",
     "priority": 1
   },
-  "9181": {
-    "subject": "Longboat Dream Relocation for Dec Guest",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-16 21:19:00",
-    "priority": 1
-  },
   "9175": {
     "subject": "admirals watch-cleaning",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-14 18:02:58",
+    "due_date": "2026-11-18 19:02:00",
     "priority": 10
   },
   "9149": {
@@ -594,13 +594,6 @@
     "due_date": "2026-10-27 19:33:00",
     "priority": 10
   },
-  "9109": {
-    "subject": "City of Sarasota VR License - Admirals Watch | 1703 North Tamiami Trail, B503",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-27 19:05:00",
-    "priority": 10
-  },
   "9076": {
     "subject": "Grill",
     "assigned_to": "n.ventura@choosegulfcoast.com",
@@ -627,13 +620,6 @@
     "assigned_to": "n.armstrong@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-08 17:55:00",
-    "priority": 1
-  },
-  "8960": {
-    "subject": "zSugar Beach - Minimum Escrow Balance",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-26 22:00:00",
     "priority": 1
   },
   "8951": {
@@ -682,14 +668,14 @@
     "subject": "City of Bradenton VR License - Florida Dreams | 4457 45th Avenue West, #110",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-27 15:58:00",
+    "due_date": "2026-10-30 15:58:00",
     "priority": 20
   },
   "8860": {
     "subject": "City of Bradenton VR License - Don't Worry Beach Happy | 502 Sanderling Circle",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-26 15:55:00",
+    "due_date": "2026-10-30 15:55:00",
     "priority": 20
   },
   "8856": {
@@ -766,7 +752,7 @@
     "subject": "Cedar Hammock Fire District Inspection - Multiple Units",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-26 21:00:00",
+    "due_date": "2026-10-29 21:00:00",
     "priority": 10
   },
   "8444": {
@@ -824,13 +810,6 @@
     "status": "Open",
     "due_date": "2026-11-30 23:00:00",
     "priority": 10
-  },
-  "7800": {
-    "subject": "Sunset Reflections - Update listing",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-30 17:22:00",
-    "priority": 1
   },
   "7797": {
     "subject": "Longboat Dream - Update Listing",
