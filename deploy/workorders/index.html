@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gulf Coast — Work Order Performance</title>
+<link rel="icon" type="image/jpeg" href="logo.jpeg">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Inter', 'Segoe UI', Arial, sans-serif; background: #f0f2f5; color: #1a1a2e; }
+
+  header {
+    background: linear-gradient(135deg, #003158 0%, #024F8D 100%);
+    color: white; padding: 18px 32px;
+    display: flex; align-items: center; justify-content: space-between;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    flex-wrap: wrap; gap: 12px;
+  }
+  header h1 { font-size: 20px; font-weight: 600; }
+  header p  { font-size: 12px; opacity: 0.75; margin-top: 3px; }
+  .header-left { display: flex; align-items: center; gap: 14px; }
+  .header-right { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .last-updated { font-size: 12px; background: rgba(255,255,255,0.15); padding: 6px 14px; border-radius: 20px; white-space: nowrap; }
+  .last-updated span { font-weight: 600; }
+  #backBtn {
+    background: rgba(255,255,255,0.15); color: white; border: 1px solid rgba(255,255,255,0.3);
+    padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600;
+    cursor: pointer; white-space: nowrap; transition: background 0.2s; text-decoration: none; display: inline-block;
+  }
+  #backBtn:hover { background: rgba(255,255,255,0.25); }
+
+  .status-bar { background: #fff3cd; border-left: 4px solid #f39c12; padding: 10px 24px; font-size: 13px; color: #856404; }
+
+  .container { max-width: 1400px; margin: 0 auto; padding: 24px; }
+
+  .kpi-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 16px; margin-bottom: 24px; }
+  .kpi-card {
+    background: white; border-radius: 10px; padding: 20px 22px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08); border-top: 4px solid #024F8D;
+    cursor: pointer; transition: transform 0.15s, box-shadow 0.15s; position: relative;
+  }
+  .kpi-card:hover { transform: translateY(-3px); box-shadow: 0 6px 18px rgba(0,0,0,0.12); }
+  .kpi-card.active { box-shadow: 0 0 0 3px #024F8D, 0 4px 12px rgba(0,0,0,0.1); }
+  .kpi-card.blue   { border-top-color: #024F8D; }
+  .kpi-card.teal   { border-top-color: #16a085; }
+  .kpi-card.teal .value { color: #16a085; }
+  .kpi-card.teal.active { box-shadow: 0 0 0 3px #16a085, 0 4px 12px rgba(0,0,0,0.1); }
+  .kpi-card.orange { border-top-color: #f39c12; }
+  .kpi-card.orange .value { color: #f39c12; }
+  .kpi-card.orange.active { box-shadow: 0 0 0 3px #f39c12, 0 4px 12px rgba(0,0,0,0.1); }
+  .kpi-card.red    { border-top-color: #e74c3c; }
+  .kpi-card.red .value { color: #e74c3c; }
+  .kpi-card.red.active { box-shadow: 0 0 0 3px #e74c3c, 0 4px 12px rgba(0,0,0,0.1); }
+  .kpi-card.purple { border-top-color: #8e44ad; }
+  .kpi-card.purple .value { color: #8e44ad; }
+  .kpi-card.purple.active { box-shadow: 0 0 0 3px #8e44ad, 0 4px 12px rgba(0,0,0,0.1); }
+  .kpi-card .label { font-size: 11px; font-weight: 700; color: #7f8c8d; text-transform: uppercase; letter-spacing: 0.8px; }
+  .kpi-card .value { font-size: 40px; font-weight: 700; margin: 6px 0 4px; line-height: 1; color: #024F8D; }
+  .kpi-card .sub { font-size: 12px; color: #95a5a6; }
+  .kpi-card .click-hint { font-size: 10px; color: #bdc3c7; margin-top: 6px; }
+
+  .chart-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+  .chart-card { background: white; border-radius: 10px; padding: 20px 24px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); margin-bottom: 16px; }
+  .chart-card h3 { font-size: 11px; font-weight: 700; color: #5d6d7e; text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 4px; }
+  .chart-card .chart-hint { font-size: 10px; color: #bdc3c7; margin-bottom: 12px; }
+  .chart-card canvas { max-height: 280px; cursor: pointer; }
+
+  .note-card {
+    background: #e7f0f8; border: 1px solid #b8d4ea; border-radius: 8px;
+    padding: 12px 18px; font-size: 12.5px; color: #024F8D; margin-bottom: 24px;
+  }
+
+  .filter-banner {
+    display: none; background: #e8f0f8; border: 1px solid #024F8D;
+    border-radius: 8px; padding: 10px 18px; margin-bottom: 16px;
+    font-size: 13px; color: #1a3a5c; align-items: center; gap: 12px;
+  }
+  .filter-banner.show { display: flex; }
+  .filter-banner strong { font-weight: 700; }
+  .filter-banner button {
+    margin-left: auto; background: none; border: 1px solid #024F8D;
+    color: #2e6da4; padding: 4px 12px; border-radius: 12px; font-size: 12px;
+    cursor: pointer; white-space: nowrap;
+  }
+  .filter-banner button:hover { background: #024F8D; color: white; }
+
+  .ticket-panel { background: white; border-radius: 10px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); overflow: hidden; }
+  .ticket-panel-header {
+    padding: 16px 24px; border-bottom: 1px solid #f0f2f5;
+    display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;
+  }
+  .ticket-panel-header h3 { font-size: 13px; font-weight: 700; color: #1a1a2e; }
+  .ticket-panel-header span { font-size: 12px; color: #7f8c8d; }
+  .ticket-search { padding: 8px 12px; border: 1px solid #dde1e7; border-radius: 6px; font-size: 12px; width: 240px; outline: none; }
+  .ticket-search:focus { border-color: #2e6da4; }
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  thead th {
+    padding: 10px 14px; text-align: left; font-size: 11px; font-weight: 700;
+    color: #7f8c8d; text-transform: uppercase; letter-spacing: 0.6px;
+    border-bottom: 2px solid #f0f2f5; background: #fafbfc; white-space: nowrap;
+    cursor: pointer; user-select: none;
+  }
+  thead th:hover { color: #024F8D; }
+  thead th .sort-icon { margin-left: 4px; opacity: 0.4; }
+  thead th.sorted .sort-icon { opacity: 1; color: #024F8D; }
+  tbody tr { border-bottom: 1px solid #f5f6f8; transition: background 0.1s; cursor: pointer; }
+  tbody tr:hover { background: #f8fafc; }
+  tbody td { padding: 10px 14px; vertical-align: middle; }
+  .wo-num { font-weight: 700; color: #024F8D; font-size: 12px; }
+  .wo-title { max-width: 260px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 12px; }
+  .badge { display: inline-block; padding: 2px 9px; border-radius: 10px; font-size: 11px; font-weight: 600; white-space: nowrap; }
+  .badge-active  { background: #d5f5e3; color: #1e8449; }
+  .badge-pending { background: #fff3cd; color: #856404; }
+  .badge-closing { background: #eaf0fb; color: #2471a3; }
+  .badge-vendor  { background: #fbe9d8; color: #a2650a; }
+  .badge-novendor{ background: #f4f4f4; color: #95a5a6; }
+
+  .pager { display: flex; align-items: center; gap: 8px; padding: 12px 24px; border-top: 1px solid #f0f2f5; font-size: 12px; color: #7f8c8d; flex-wrap: wrap; }
+  .pager button { background: white; border: 1px solid #dde1e7; padding: 5px 12px; border-radius: 5px; font-size: 12px; cursor: pointer; }
+  .pager button:hover:not(:disabled) { background: #f0f4f8; border-color: #2e6da4; color: #2e6da4; }
+  .pager button:disabled { opacity: 0.4; cursor: not-allowed; }
+  .pager .page-info { margin: 0 8px; }
+
+  .modal-backdrop { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.45); z-index: 1000; }
+  .modal-backdrop.show { display: flex; align-items: center; justify-content: center; padding: 20px; }
+  .modal { background: white; border-radius: 12px; max-width: 640px; width: 100%; max-height: 85vh; overflow-y: auto; box-shadow: 0 20px 60px rgba(0,0,0,0.25); }
+  .modal-header { padding: 20px 24px 16px; border-bottom: 1px solid #f0f2f5; display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; position: sticky; top: 0; background: white; }
+  .modal-header h2 { font-size: 15px; font-weight: 700; line-height: 1.4; }
+  .modal-close { background: none; border: none; font-size: 20px; cursor: pointer; color: #7f8c8d; padding: 0 4px; flex-shrink: 0; }
+  .modal-body { padding: 20px 24px; }
+  .modal-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 20px; }
+  .modal-field label { font-size: 10px; font-weight: 700; color: #95a5a6; text-transform: uppercase; letter-spacing: 0.6px; display: block; margin-bottom: 3px; }
+  .modal-field .val { font-size: 13px; color: #1a1a2e; }
+
+  footer { text-align: center; padding: 24px; font-size: 12px; color: #95a5a6; }
+
+  @media (max-width: 1100px) {
+    .kpi-row { grid-template-columns: repeat(2, 1fr); }
+    .chart-grid-2 { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 560px) {
+    .kpi-row { grid-template-columns: 1fr; }
+    .ticket-search { width: 100%; }
+    .modal-grid { grid-template-columns: 1fr; }
+  }
+
+  /* Loading overlay */
+  #loadingOverlay {
+    display: none;
+    position: fixed; inset: 0; z-index: 2000;
+    background: rgba(0,49,88,0.55);
+    backdrop-filter: blur(3px);
+    align-items: center; justify-content: center; flex-direction: column; gap: 18px;
+  }
+  #loadingOverlay.show { display: flex; }
+  .spinner {
+    width: 52px; height: 52px;
+    border: 5px solid rgba(255,255,255,0.25);
+    border-top-color: #EA7A1E;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .spinner-label { color: #fff; font-size: 15px; font-weight: 600; letter-spacing: 0.5px; }
+  /* Tabs */
+  .tab-bar { display: flex; gap: 6px; margin-bottom: 20px; border-bottom: 2px solid #dde1e7; }
+  .tab-btn {
+    background: none; border: none; padding: 10px 20px; font-size: 14px; font-weight: 600;
+    color: #7f8c8d; cursor: pointer; border-bottom: 3px solid transparent; margin-bottom: -2px;
+    font-family: inherit; transition: color 0.15s;
+  }
+  .tab-btn:hover { color: #024F8D; }
+  .tab-btn.active { color: #024F8D; border-bottom-color: #EA7A1E; }
+  .tab-btn .tab-count { font-size: 11px; background: #e8f0f8; color: #024F8D; border-radius: 10px; padding: 1px 8px; margin-left: 6px; }
+  .tab-btn.active .tab-count { background: #fbe9d8; color: #a2650a; }
+  /* WO link */
+  .wo-link { color: #024F8D; text-decoration: none; font-weight: 700; }
+  .wo-link:hover { text-decoration: underline; }
+  .wo-ext { font-size: 11px; margin-left: 4px; opacity: 0.6; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <img src="logo.jpeg" alt="Gulf Coast Property Management" style="height:44px;width:auto;border-radius:4px;flex-shrink:0">
+    <div>
+      <h1>Work Order Performance</h1>
+      <p>Live from Streamline &nbsp;·&nbsp; Click any card or chart to filter</p>
+    </div>
+  </div>
+  <div class="header-right">
+    <div class="last-updated" id="lastUpdated">Last synced: <span id="lastSyncedTime">—</span></div>
+    <button id="refreshBtn" onclick="loadFromAPI()" style="margin-left:10px;padding:6px 14px;background:#EA7A1E;color:#fff;border:none;border-radius:6px;font-size:12px;font-weight:700;cursor:pointer;letter-spacing:0.5px;">⟳ Refresh</button>
+    <a href="https://desk365.choosegulfcoast.com/" id="backBtn">← Ticket Dashboard</a>
+  </div>
+</header>
+
+<div class="status-bar" id="statusBar" style="display:none"></div>
+
+<div id="loadingOverlay">
+  <div class="spinner"></div>
+  <div class="spinner-label">Loading from Streamline…</div>
+</div>
+<div class="container">
+
+  <div id="apiStatusNote" class="note-card" style="display:none"></div>
+
+  <div class="tab-bar">
+    <button class="tab-btn active" id="tabBtnAll" onclick="switchTab('all')">All Work Orders</button>
+    <button class="tab-btn" id="tabBtnLynx" onclick="switchTab('lynx')">🔑 Lynx Locks<span class="tab-count" id="lynxTabCount">0</span></button>
+  </div>
+
+  <div id="paneAll">
+  <!-- KPI Cards -->
+  <div class="kpi-row">
+    <div class="kpi-card blue" onclick="clearFilter()" id="kpiCardTotal">
+      <div class="label">Total Work Orders</div>
+      <div class="value" id="kpiTotal">—</div>
+      <div class="sub">In this snapshot</div>
+      <div class="click-hint">▶ Click to clear filter</div>
+    </div>
+    <div class="kpi-card teal" onclick="filterBy('status','Active')" id="kpiCardActive">
+      <div class="label">Active</div>
+      <div class="value" id="kpiActive">—</div>
+      <div class="sub">Being worked</div>
+      <div class="click-hint">▶ Click to filter</div>
+    </div>
+    <div class="kpi-card orange" onclick="filterBy('status','Pending')" id="kpiCardPending">
+      <div class="label">Pending</div>
+      <div class="value" id="kpiPending">—</div>
+      <div class="sub">Awaiting action</div>
+      <div class="click-hint">▶ Click to filter</div>
+    </div>
+    <div class="kpi-card purple" onclick="filterBy('status','Pending Final Closing')" id="kpiCardClosing">
+      <div class="label">Pending Final Closing</div>
+      <div class="value" id="kpiClosing">—</div>
+      <div class="sub">Wrapping up</div>
+      <div class="click-hint">▶ Click to filter</div>
+    </div>
+    <div class="kpi-card red" onclick="filterByNoVendor()" id="kpiCardNoVendor">
+      <div class="label">No Vendor Assigned</div>
+      <div class="value" id="kpiNoVendor">—</div>
+      <div class="sub">Not yet dispatched</div>
+      <div class="click-hint">▶ Click to filter</div>
+    </div>
+    <div class="kpi-card red" onclick="filterByPastTarget()" id="kpiCardPastTarget">
+      <div class="label">Past Target Date</div>
+      <div class="value" id="kpiPastTarget">—</div>
+      <div class="sub" id="kpiPastTargetSub">of those with a target set</div>
+      <div class="click-hint">▶ Click to filter</div>
+    </div>
+    <div class="kpi-card orange" onclick="filterByNoTarget()" id="kpiCardNoTarget">
+      <div class="label">No Target Date Set</div>
+      <div class="value" id="kpiNoTarget">—</div>
+      <div class="sub">No expected completion</div>
+      <div class="click-hint">▶ Click to filter</div>
+    </div>
+  </div>
+
+  <!-- By Portfolio + Age -->
+  <div class="chart-grid-2">
+    <div class="chart-card">
+      <h3>Work Orders by Portfolio</h3>
+      <div class="chart-hint">Click a bar to filter</div>
+      <canvas id="portfolioChart"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>Aging vs Status</h3>
+      <div class="chart-hint">Open work orders only, days since creation &nbsp;·&nbsp; click a segment to filter</div>
+      <canvas id="ageChart"></canvas>
+    </div>
+  </div>
+
+  <!-- Glidepath to close -->
+  <div class="chart-card">
+    <h3>Glidepath to Close</h3>
+    <div class="chart-hint">Open work orders with an Expected Completion date set &nbsp;·&nbsp; click a bar to filter</div>
+    <canvas id="glidepathChart" style="max-height:260px"></canvas>
+  </div>
+
+  <!-- By Vendor -->
+  <div class="chart-card">
+    <h3>Work Orders by Vendor</h3>
+    <div class="chart-hint">Excludes work orders with no vendor assigned yet &nbsp;·&nbsp; Gulf Coast Maintenance highlighted &nbsp;·&nbsp; click a bar to filter</div>
+    <canvas id="vendorChart" style="max-height:340px"></canvas>
+  </div>
+
+  <!-- Active filter banner -->
+  <div class="filter-banner" id="filterBanner">
+    <span id="filterLabel">Showing: all work orders</span>
+    <button onclick="clearFilter()">✕ Clear filter</button>
+  </div>
+
+  <!-- Work order table -->
+  <div class="ticket-panel">
+    <div class="ticket-panel-header">
+      <div>
+        <h3 id="tableTitle">All Work Orders</h3>
+        <span id="tableCount"></span>
+      </div>
+      <input class="ticket-search" id="woSearch" type="text" placeholder="Search WO #, unit, title, vendor..." oninput="applySearch()">
+    </div>
+    <div class="table-wrap">
+      <table id="woTable">
+        <thead>
+          <tr>
+            <th onclick="sortTable('wo')">WO # <span class="sort-icon">↕</span></th>
+            <th onclick="sortTable('title')">Title <span class="sort-icon">↕</span></th>
+            <th onclick="sortTable('unit')">Unit <span class="sort-icon">↕</span></th>
+            <th onclick="sortTable('portfolio')">Portfolio <span class="sort-icon">↕</span></th>
+            <th onclick="sortTable('status')">Status <span class="sort-icon">↕</span></th>
+            <th onclick="sortTable('vendor')">Vendor <span class="sort-icon">↕</span></th>
+            <th onclick="sortTable('priority')">Priority <span class="sort-icon">↕</span></th>
+            <th onclick="sortTable('age')">Age (days) <span class="sort-icon">↕</span></th>
+          </tr>
+        </thead>
+        <tbody id="woBody"></tbody>
+      </table>
+    </div>
+    <div class="pager" id="pager">
+      <button id="prevBtn" onclick="changePage(-1)">← Prev</button>
+      <span class="page-info" id="pageInfo"></span>
+      <button id="nextBtn" onclick="changePage(1)">Next →</button>
+      <span id="totalInfo" style="margin-left:8px;"></span>
+    </div>
+  </div>
+  </div><!-- /paneAll -->
+
+  <!-- Lynx Locks tab -->
+  <div id="paneLynx" style="display:none">
+    <div class="note-card">Work orders whose title mentions a <strong>Lynx</strong> lock (install, offline, jammed, removal, etc.). Click a WO # to open it in Streamline, or click a row to see its details.</div>
+    <div class="kpi-row" id="lynxKpis"></div>
+    <div class="ticket-panel">
+      <div class="ticket-panel-header">
+        <div>
+          <h3 id="lynxTableTitle">Lynx Lock Work Orders</h3>
+          <span id="lynxTableCount"></span>
+        </div>
+        <input class="ticket-search" id="lynxSearch" type="text" placeholder="Search WO #, unit, title, vendor..." oninput="renderLynx()">
+      </div>
+      <div class="table-wrap">
+        <table id="lynxTable">
+          <thead>
+            <tr>
+              <th onclick="sortLynx('wo')">WO # <span class="sort-icon">↕</span></th>
+              <th onclick="sortLynx('title')">Title <span class="sort-icon">↕</span></th>
+              <th onclick="sortLynx('unit')">Unit <span class="sort-icon">↕</span></th>
+              <th onclick="sortLynx('portfolio')">Portfolio <span class="sort-icon">↕</span></th>
+              <th onclick="sortLynx('status')">Status <span class="sort-icon">↕</span></th>
+              <th onclick="sortLynx('vendor')">Vendor <span class="sort-icon">↕</span></th>
+              <th onclick="sortLynx('priority')">Priority <span class="sort-icon">↕</span></th>
+              <th onclick="sortLynx('age')">Age (days) <span class="sort-icon">↕</span></th>
+            </tr>
+          </thead>
+          <tbody id="lynxBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Work order detail modal -->
+<div class="modal-backdrop" id="modalBackdrop" onclick="closeModal(event)">
+  <div class="modal" id="modalBox">
+    <div class="modal-header">
+      <h2 id="modalTitle"></h2>
+      <button class="modal-close" onclick="closeModalDirect()">✕</button>
+    </div>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<footer>Gulf Coast Property Management &nbsp;|&nbsp; Work Order Performance — Snapshot v1 &nbsp;|&nbsp; <a href="https://github.com/PSFIN/desk365-dashboard" target="_blank" style="color:#aaa">GitHub</a></footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0"></script>
+<script>
+const PALETTE = ['#024F8D','#e74c3c','#27ae60','#f39c12','#8e44ad','#16a085','#d35400','#2980b9','#c0392b','#1abc9c'];
+const GC_MAINT_COLOR = '#EA7A1E';
+
+let WO_DATA = [];
+
+const AGING_BUCKETS = [
+  { label: '0–3 days',   min: 0,  max: 3,        color: '#27ae60' },
+  { label: '4–7 days',   min: 4,  max: 7,        color: '#f1c40f' },
+  { label: '8–14 days',  min: 8,  max: 14,       color: '#f39c12' },
+  { label: '15–30 days', min: 15, max: 30,       color: '#e67e22' },
+  { label: '31–60 days', min: 31, max: 60,       color: '#e74c3c' },
+  { label: '60+ days',   min: 61, max: Infinity, color: '#7b241c' },
+];
+function bucketOf(d) { return AGING_BUCKETS.findIndex(b => d >= b.min && d <= b.max); }
+
+function parseWODate(s) {
+  if (!s) return null;
+  const m = String(s).trim().match(/^(\d{2})\/(\d{2})\/(\d{2})\s+(\d{1,2}):(\d{2})\s*([ap]m)$/i);
+  if (!m) return null;
+  let [, mo, da, yr, hh, mi, ap] = m;
+  hh = parseInt(hh, 10);
+  if (ap.toLowerCase() === 'pm' && hh !== 12) hh += 12;
+  if (ap.toLowerCase() === 'am' && hh === 12) hh = 0;
+  return new Date(2000 + parseInt(yr, 10), parseInt(mo, 10) - 1, parseInt(da, 10), hh, parseInt(mi, 10));
+}
+
+WO_DATA.forEach(w => {
+  w._created = parseWODate(w.created);
+  w._closed = parseWODate(w.closed);
+});
+
+let filteredWOs = [...WO_DATA];
+let searchedWOs = [...WO_DATA];
+let activeFilter = null;
+let currentPage = 1;
+const PAGE_SIZE = 50;
+let sortKey = 'age';
+let sortDir = -1;
+let charts = {};
+
+function statusBadge(s) {
+  if (s === 'Active') return `<span class="badge badge-active">Active</span>`;
+  if (s === 'Pending Final Closing') return `<span class="badge badge-closing">Pending Final Closing</span>`;
+  return `<span class="badge badge-pending">${s}</span>`;
+}
+function vendorBadge(v) {
+  return v ? `<span class="badge badge-vendor">${v}</span>` : `<span class="badge badge-novendor">No vendor</span>`;
+}
+
+function init() {
+  const maxCreated = WO_DATA.reduce((max, w) => (w._created && (!max || w._created > max)) ? w._created : max, null);
+  if (maxCreated) {
+    document.getElementById('lastUpdated').innerHTML = `Data through: <span>${maxCreated.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})}</span>`;
+  }
+
+  document.getElementById('kpiTotal').textContent = WO_DATA.length.toLocaleString();
+  document.getElementById('kpiActive').textContent = WO_DATA.filter(w => w.status === 'Active').length.toLocaleString();
+  document.getElementById('kpiPending').textContent = WO_DATA.filter(w => w.status === 'Pending').length.toLocaleString();
+  document.getElementById('kpiClosing').textContent = WO_DATA.filter(w => w.status === 'Pending Final Closing').length.toLocaleString();
+  document.getElementById('kpiNoVendor').textContent = WO_DATA.filter(w => !w.vendor).length.toLocaleString();
+
+  const today0 = new Date(); today0.setHours(0,0,0,0);
+  const withTarget = WO_DATA.filter(w => !w.closed && w.expected);
+  const pastTarget = withTarget.filter(w => {
+    const due = parseWODate(w.expected + ' 12:00 pm');
+    return due && due < today0;
+  });
+  document.getElementById('kpiPastTarget').textContent = pastTarget.length.toLocaleString();
+  document.getElementById('kpiPastTargetSub').textContent = `of ${withTarget.length} with a target set`;
+
+  const noTarget = WO_DATA.filter(w => !w.closed && !w.expected);
+  document.getElementById('kpiNoTarget').textContent = noTarget.length.toLocaleString();
+
+  renderCharts(WO_DATA);
+  renderTable();
+}
+
+function renderCharts(data) {
+  // By portfolio
+  const portCounts = {};
+  data.forEach(w => { portCounts[w.portfolio] = (portCounts[w.portfolio] || 0) + 1; });
+  const portEntries = Object.entries(portCounts).sort((a,b) => b[1]-a[1]);
+  makeBarChart('portfolioChart', portEntries.map(e=>e[0]), portEntries.map(e=>e[1]), 'y',
+    (label) => filterBy('portfolio', label));
+
+  // Aging vs status (stacked) — open work orders only
+  const STATUS_LIST = ['Active', 'Pending', 'Pending Final Closing'];
+  const STATUS_COLOR = { 'Active': '#16a085', 'Pending': '#f39c12', 'Pending Final Closing': '#8e44ad' };
+  const openWOs = data.filter(w => !w.closed);
+  const ageStatusCounts = STATUS_LIST.map(() => AGING_BUCKETS.map(() => 0));
+  openWOs.forEach(w => {
+    if (w.age === null) return;
+    const bi = bucketOf(w.age);
+    const si = STATUS_LIST.indexOf(w.status);
+    if (bi !== -1 && si !== -1) ageStatusCounts[si][bi]++;
+  });
+  if (charts['ageChart']) charts['ageChart'].destroy();
+  const ageCtx = document.getElementById('ageChart').getContext('2d');
+  charts['ageChart'] = new Chart(ageCtx, {
+    type: 'bar', plugins: [ChartDataLabels],
+    data: {
+      labels: AGING_BUCKETS.map(b=>b.label),
+      datasets: STATUS_LIST.map((s, si) => ({
+        label: s, data: ageStatusCounts[si], backgroundColor: STATUS_COLOR[s], borderRadius: 4, borderWidth: 0
+      }))
+    },
+    options: {
+      responsive: true, maintainAspectRatio: true,
+      onClick: (evt, els) => { if (els.length) filterByAgeStatus(els[0].index, STATUS_LIST[els[0].datasetIndex]); },
+      plugins: {
+        legend: { display: true, position: 'top', labels: { font: { size: 10 }, usePointStyle: true } },
+        tooltip: { callbacks: { label: c => ` ${c.dataset.label}: ${c.parsed.y} work order(s)` } },
+        datalabels: {
+          display: ctx => ctx.datasetIndex === STATUS_LIST.length - 1,
+          formatter: (v, ctx) => {
+            const total = STATUS_LIST.reduce((s, _, si) => s + ageStatusCounts[si][ctx.dataIndex], 0);
+            return total || '';
+          },
+          anchor: 'end', align: 'top', color: '#1a1a2e', font: { weight: '700', size: 10 }
+        }
+      },
+      scales: { x: { stacked: true, grid: { display: false }, ticks: { font: { size: 10 } } }, y: { stacked: true, beginAtZero: true, grid: { color: '#f5f5f5' }, ticks: { font: { size: 10 } } } },
+      layout: { padding: { top: 20 } }
+    }
+  });
+
+  // Glidepath to close — open work orders with an Expected Completion date
+  const withTarget = openWOs.filter(w => w.expected && parseWODate(w.expected + ' 12:00 pm'));
+  const today = new Date(); today.setHours(0,0,0,0);
+  const weekMap = {};
+  withTarget.forEach(w => {
+    const due = parseWODate(w.expected + ' 12:00 pm');
+    if (due < today) return; // already past target — excluded from the forward-looking weeks below
+    const day = due.getDay();
+    const diff = due.getDate() - day + (day === 0 ? -6 : 1);
+    const mon = new Date(due); mon.setDate(diff); mon.setHours(0,0,0,0);
+    const key = mon.toISOString().slice(0,10);
+    weekMap[key] = (weekMap[key] || 0) + 1;
+  });
+  const weeks = [];
+  const tmp = new Date(today);
+  const day0 = tmp.getDay();
+  tmp.setDate(tmp.getDate() - day0 + (day0 === 0 ? -6 : 1));
+  for (let i = 0; i < 10; i++) {
+    const key = tmp.toISOString().slice(0,10);
+    weeks.push({ key, label: tmp.toLocaleDateString('en-US', { month:'short', day:'numeric' }), count: weekMap[key] || 0 });
+    tmp.setDate(tmp.getDate() + 7);
+  }
+  if (charts['glidepathChart']) charts['glidepathChart'].destroy();
+  const glideCtx = document.getElementById('glidepathChart').getContext('2d');
+  charts['glidepathChart'] = new Chart(glideCtx, {
+    type: 'bar', plugins: [ChartDataLabels],
+    data: { labels: weeks.map(w=>w.label), datasets: [{ label: 'Targeted to close', data: weeks.map(w=>w.count), backgroundColor: weeks.map((_,i) => i === 0 ? '#e74c3c' : '#024F8D'), borderRadius: 6, borderWidth: 0 }] },
+    options: {
+      responsive: true, maintainAspectRatio: true,
+      onClick: (evt, els) => { if (els.length) filterByGlidepathWeek(weeks[els[0].index]); },
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => ` ${c.parsed.y} work order(s) targeted this week` } },
+        datalabels: { anchor:'end', align:'top', color:'#1a1a2e', font:{weight:'700',size:10}, formatter: v => v || '' } },
+      scales: { y: { beginAtZero: true, grid: { color: '#f5f5f5' }, ticks: { font: { size: 10 } } }, x: { grid: { display: false }, ticks: { font: { size: 10 }, maxRotation: 30 } } },
+      layout: { padding: { top: 20 } }
+    }
+  });
+  if (!withTarget.length) {
+    document.getElementById('glidepathChart').parentElement.insertAdjacentHTML('beforeend',
+      '<div style="text-align:center;color:#95a5a6;font-size:12px;padding:12px">No open work orders currently have an Expected Completion date set.</div>');
+  }
+
+  // By vendor (excluding no-vendor), top 12
+  const vendCounts = {};
+  data.forEach(w => { if (w.vendor) vendCounts[w.vendor] = (vendCounts[w.vendor] || 0) + 1; });
+  const vendEntries = Object.entries(vendCounts).sort((a,b) => b[1]-a[1]).slice(0, 12);
+  if (charts['vendorChart']) charts['vendorChart'].destroy();
+  const vendCtx = document.getElementById('vendorChart').getContext('2d');
+  charts['vendorChart'] = new Chart(vendCtx, {
+    type: 'bar', plugins: [ChartDataLabels],
+    data: {
+      labels: vendEntries.map(e=>e[0]),
+      datasets: [{ data: vendEntries.map(e=>e[1]),
+        backgroundColor: vendEntries.map(e => e[0] === 'Gulf Coast Maintenance' ? GC_MAINT_COLOR : '#024F8D'),
+        borderRadius: 6, borderWidth: 0 }]
+    },
+    options: {
+      indexAxis: 'y', responsive: true, maintainAspectRatio: true,
+      onClick: (evt, els) => { if (els.length) filterBy('vendor', vendEntries[els[0].index][0]); },
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => ` ${c.parsed.x} work order(s)` } },
+        datalabels: { anchor:'end', align:'right', color:'#1a1a2e', font:{weight:'700',size:10}, formatter: v => v || '' } },
+      scales: { x: { beginAtZero: true, grid: { color: '#f5f5f5' }, ticks: { font: { size: 10 } } }, y: { grid: { display: false }, ticks: { font: { size: 10 } } } },
+      layout: { padding: { right: 36 } }
+    }
+  });
+}
+
+function makeBarChart(id, labels, data, indexAxis, clickFn) {
+  if (charts[id]) charts[id].destroy();
+  const ctx = document.getElementById(id).getContext('2d');
+  const isH = indexAxis === 'y';
+  charts[id] = new Chart(ctx, {
+    type: 'bar', plugins: [ChartDataLabels],
+    data: { labels, datasets: [{ data, backgroundColor: PALETTE, borderRadius: 6, borderWidth: 0 }] },
+    options: {
+      indexAxis, responsive: true, maintainAspectRatio: true,
+      onClick: (evt, els) => { if (els.length && clickFn) clickFn(labels[els[0].index]); },
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => ` ${isH ? c.parsed.x : c.parsed.y} work order(s)` } },
+        datalabels: { anchor:'end', align: isH ? 'right' : 'top', color:'#1a1a2e', font:{weight:'700',size:10}, formatter: v => v || '' } },
+      scales: isH
+        ? { x: { beginAtZero: true, grid: { color: '#f5f5f5' }, ticks: { font: { size: 10 } } }, y: { grid: { display: false }, ticks: { font: { size: 10 } } } }
+        : { y: { beginAtZero: true, grid: { color: '#f5f5f5' }, ticks: { font: { size: 10 } } }, x: { grid: { display: false }, ticks: { font: { size: 10 } } } },
+      layout: { padding: isH ? { right: 36 } : { top: 20 } }
+    }
+  });
+}
+
+// ─── Filter logic ──────────────────────────────────────────────────
+function filterBy(key, value) {
+  activeFilter = { key, value, label: value };
+  document.getElementById('filterLabel').innerHTML = `Showing: <strong>${value}</strong>`;
+  document.getElementById('filterBanner').classList.add('show');
+  document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
+  if (key === 'status') {
+    const map = { 'Active':'kpiCardActive', 'Pending':'kpiCardPending', 'Pending Final Closing':'kpiCardClosing' };
+    if (map[value]) document.getElementById(map[value]).classList.add('active');
+  }
+  filteredWOs = WO_DATA.filter(w => w[key] === value);
+  document.getElementById('woSearch').value = '';
+  searchedWOs = [...filteredWOs];
+  currentPage = 1;
+  renderTable();
+  scrollToTable();
+}
+
+function filterByNoVendor() {
+  activeFilter = { key: '_novendor', value: true, label: 'No vendor assigned' };
+  document.getElementById('filterLabel').innerHTML = `Showing: <strong>No vendor assigned</strong>`;
+  document.getElementById('filterBanner').classList.add('show');
+  document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
+  document.getElementById('kpiCardNoVendor').classList.add('active');
+  filteredWOs = WO_DATA.filter(w => !w.vendor);
+  document.getElementById('woSearch').value = '';
+  searchedWOs = [...filteredWOs];
+  currentPage = 1;
+  renderTable();
+  scrollToTable();
+}
+
+function filterByNoTarget() {
+  activeFilter = { key: '_notarget', value: true, label: 'No target date set' };
+  document.getElementById('filterLabel').innerHTML = `Showing: work orders with <strong>no target date set</strong>`;
+  document.getElementById('filterBanner').classList.add('show');
+  document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
+  document.getElementById('kpiCardNoTarget').classList.add('active');
+  filteredWOs = WO_DATA.filter(w => !w.closed && !w.expected);
+  document.getElementById('woSearch').value = '';
+  searchedWOs = [...filteredWOs];
+  currentPage = 1;
+  renderTable();
+  scrollToTable();
+}
+
+function filterByPastTarget() {
+  activeFilter = { key: '_pasttarget', value: true, label: 'Past target date' };
+  document.getElementById('filterLabel').innerHTML = `Showing: work orders <strong>past their target date</strong>`;
+  document.getElementById('filterBanner').classList.add('show');
+  document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
+  document.getElementById('kpiCardPastTarget').classList.add('active');
+  const today0 = new Date(); today0.setHours(0,0,0,0);
+  filteredWOs = WO_DATA.filter(w => {
+    if (w.closed || !w.expected) return false;
+    const due = parseWODate(w.expected + ' 12:00 pm');
+    return due && due < today0;
+  });
+  document.getElementById('woSearch').value = '';
+  searchedWOs = [...filteredWOs];
+  currentPage = 1;
+  renderTable();
+  scrollToTable();
+}
+
+function filterByAgeStatus(idx, status) {
+  const b = AGING_BUCKETS[idx];
+  activeFilter = { key: '_age_status', value: idx, label: `${status} — Age: ${b.label}` };
+  document.getElementById('filterLabel').innerHTML = `Showing: <strong>${status}</strong> work orders aged <strong>${b.label}</strong>`;
+  document.getElementById('filterBanner').classList.add('show');
+  document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
+  filteredWOs = WO_DATA.filter(w => !w.closed && w.status === status && w.age !== null && w.age >= b.min && w.age <= b.max);
+  document.getElementById('woSearch').value = '';
+  searchedWOs = [...filteredWOs];
+  currentPage = 1;
+  renderTable();
+  scrollToTable();
+}
+
+function filterByGlidepathWeek(week) {
+  const weekStart = new Date(week.key + 'T00:00:00');
+  const weekEnd = new Date(weekStart); weekEnd.setDate(weekEnd.getDate() + 7);
+  activeFilter = { key: '_glidepath_week', value: week.key, label: `Targeted to close week of ${week.label}` };
+  document.getElementById('filterLabel').innerHTML = `Showing: work orders <strong>targeted to close the week of ${week.label}</strong>`;
+  document.getElementById('filterBanner').classList.add('show');
+  document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
+  filteredWOs = WO_DATA.filter(w => {
+    if (w.closed || !w.expected) return false;
+    const due = parseWODate(w.expected + ' 12:00 pm');
+    return due && due >= weekStart && due < weekEnd;
+  });
+  document.getElementById('woSearch').value = '';
+  searchedWOs = [...filteredWOs];
+  currentPage = 1;
+  renderTable();
+  scrollToTable();
+}
+
+function clearFilter() {
+  activeFilter = null;
+  document.getElementById('filterBanner').classList.remove('show');
+  document.querySelectorAll('.kpi-card').forEach(el => el.classList.remove('active'));
+  filteredWOs = [...WO_DATA];
+  document.getElementById('woSearch').value = '';
+  searchedWOs = [...filteredWOs];
+  currentPage = 1;
+  renderTable();
+}
+
+function scrollToTable() {
+  document.getElementById('filterBanner').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function applySearch() {
+  const q = document.getElementById('woSearch').value.toLowerCase().trim();
+  if (!q) { searchedWOs = [...filteredWOs]; }
+  else {
+    searchedWOs = filteredWOs.filter(w =>
+      String(w.wo).includes(q) ||
+      (w.unit||'').toLowerCase().includes(q) ||
+      (w.title||'').toLowerCase().includes(q) ||
+      (w.vendor||'').toLowerCase().includes(q) ||
+      (w.portfolio||'').toLowerCase().includes(q)
+    );
+  }
+  currentPage = 1;
+  renderTable();
+}
+
+function sortTable(key) {
+  if (sortKey === key) sortDir *= -1; else { sortKey = key; sortDir = 1; }
+  document.querySelectorAll('#woTable thead th').forEach(th => th.classList.remove('sorted'));
+  const idx = ['wo','title','unit','portfolio','status','vendor','priority','age'].indexOf(key);
+  if (idx >= 0) document.querySelectorAll('#woTable thead th')[idx].classList.add('sorted');
+  renderTable();
+}
+
+function changePage(dir) { currentPage += dir; renderTable(); }
+
+function woRowHTML(w) {
+  return `
+    <tr onclick="openModal('${w.wo}')">
+      <td class="wo-num"><a class="wo-link" href="https://admin.streamlinevrs.com/edit_maintenance.html?maintenance_id=${w.wo}&activetab=0&need_update_parent=1" target="_blank" onclick="event.stopPropagation()">#${w.wo}<span class="wo-ext">↗</span></a></td>
+      <td class="wo-title" title="${(w.title||'').replace(/"/g,'&quot;')}">${w.title || '—'}</td>
+      <td style="font-size:12px">${w.unit || '—'}</td>
+      <td style="font-size:12px">${w.portfolio}</td>
+      <td>${statusBadge(w.status)}</td>
+      <td>${vendorBadge(w.vendor)}</td>
+      <td style="font-size:12px">${w.priority || '—'}</td>
+      <td style="font-size:12px;font-weight:700;color:${w.age >= 60 ? '#e74c3c' : w.age >= 30 ? '#e67e22' : '#7f8c8d'}">${w.age ?? '—'}</td>
+    </tr>`;
+}
+
+function renderTable() {
+  const sorted = [...searchedWOs].sort((a,b) => {
+    let av = a[sortKey], bv = b[sortKey];
+    if (av == null) av = ''; if (bv == null) bv = '';
+    if (typeof av === 'number') return sortDir * (av - bv);
+    return sortDir * String(av).localeCompare(String(bv));
+  });
+  const total = sorted.length;
+  const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+  currentPage = Math.min(currentPage, totalPages);
+  const start = (currentPage - 1) * PAGE_SIZE;
+  const page = sorted.slice(start, start + PAGE_SIZE);
+
+  const filterDesc = activeFilter ? activeFilter.label : 'All';
+  document.getElementById('tableTitle').textContent = `${filterDesc} Work Orders`;
+  document.getElementById('tableCount').textContent = `${total.toLocaleString()} work order${total !== 1 ? 's' : ''}`;
+
+  document.getElementById('woBody').innerHTML = page.map(woRowHTML).join('');
+
+  document.getElementById('pageInfo').textContent = `Page ${currentPage} of ${totalPages}`;
+  document.getElementById('totalInfo').textContent = `${total.toLocaleString()} total`;
+  document.getElementById('prevBtn').disabled = currentPage <= 1;
+  document.getElementById('nextBtn').disabled = currentPage >= totalPages;
+}
+
+// ─── Lynx Locks tab ────────────────────────────────────────────────
+const isLynx = w => /lynx|linx|lynk/i.test(w.title || '');
+let lynxSortKey = 'age';
+let lynxSortDir = -1;
+let lynxStatusFilter = null;
+
+function switchTab(tab) {
+  const lynx = tab === 'lynx';
+  document.getElementById('paneAll').style.display = lynx ? 'none' : '';
+  document.getElementById('paneLynx').style.display = lynx ? '' : 'none';
+  document.getElementById('tabBtnAll').classList.toggle('active', !lynx);
+  document.getElementById('tabBtnLynx').classList.toggle('active', lynx);
+  if (lynx) renderLynx();
+  else Object.values(charts).forEach(c => c && c.resize && c.resize());
+}
+
+function filterLynxStatus(status) {
+  lynxStatusFilter = (lynxStatusFilter === status) ? null : status;
+  renderLynx();
+}
+
+function sortLynx(key) {
+  if (lynxSortKey === key) lynxSortDir *= -1; else { lynxSortKey = key; lynxSortDir = 1; }
+  const idx = ['wo','title','unit','portfolio','status','vendor','priority','age'].indexOf(key);
+  document.querySelectorAll('#lynxTable thead th').forEach((th, i) => th.classList.toggle('sorted', i === idx));
+  renderLynx();
+}
+
+function renderLynx() {
+  const all = WO_DATA.filter(isLynx);
+  document.getElementById('lynxTabCount').textContent = all.length;
+
+  const kpi = (label, cls, status, count, sub) => `
+    <div class="kpi-card ${cls}${lynxStatusFilter === status ? ' active' : ''}" onclick="filterLynxStatus(${status === null ? 'null' : `'${status}'`})">
+      <div class="label">${label}</div>
+      <div class="value">${count}</div>
+      <div class="sub">${sub}</div>
+      <div class="click-hint">▶ Click to filter</div>
+    </div>`;
+  document.getElementById('lynxKpis').innerHTML =
+    kpi('Total Lynx Lock WOs', 'blue', null, all.length, 'Click to clear filter') +
+    kpi('Active', 'teal', 'Active', all.filter(w => w.status === 'Active').length, 'Being worked') +
+    kpi('Pending', 'orange', 'Pending', all.filter(w => w.status === 'Pending').length, 'Awaiting action') +
+    kpi('Pending Final Closing', 'purple', 'Pending Final Closing', all.filter(w => w.status === 'Pending Final Closing').length, 'Wrapping up') +
+    kpi('No Vendor Assigned', 'red', '__novendor', all.filter(w => !w.vendor).length, 'Not yet dispatched');
+
+  const q = (document.getElementById('lynxSearch').value || '').toLowerCase().trim();
+  let rows = all.filter(w =>
+    !lynxStatusFilter ||
+    (lynxStatusFilter === '__novendor' ? !w.vendor : w.status === lynxStatusFilter));
+  if (q) rows = rows.filter(w =>
+    String(w.wo).includes(q) || (w.unit||'').toLowerCase().includes(q) ||
+    (w.title||'').toLowerCase().includes(q) || (w.vendor||'').toLowerCase().includes(q) ||
+    (w.portfolio||'').toLowerCase().includes(q));
+
+  rows.sort((a, b) => {
+    let av = a[lynxSortKey], bv = b[lynxSortKey];
+    if (av == null) av = ''; if (bv == null) bv = '';
+    if (typeof av === 'number' && typeof bv === 'number') return lynxSortDir * (av - bv);
+    return lynxSortDir * String(av).localeCompare(String(bv), undefined, { numeric: true });
+  });
+
+  const filterDesc = lynxStatusFilter === '__novendor' ? 'No Vendor' : (lynxStatusFilter || 'All');
+  document.getElementById('lynxTableTitle').textContent = `${filterDesc} Lynx Lock Work Orders`;
+  document.getElementById('lynxTableCount').textContent = `${rows.length.toLocaleString()} work order${rows.length !== 1 ? 's' : ''}`;
+  document.getElementById('lynxBody').innerHTML = rows.length ? rows.map(woRowHTML).join('') :
+    `<tr><td colspan="8" style="text-align:center;color:#95a5a6;padding:28px">No Lynx lock work orders match.</td></tr>`;
+}
+
+// ─── Modal ─────────────────────────────────────────────────────────
+function openModal(wo) {
+  const w = WO_DATA.find(x => String(x.wo) === String(wo));
+  if (!w) return;
+  document.getElementById('modalTitle').innerHTML = `#${w.wo} — ${w.title || '(no title)'} <a href="https://admin.streamlinevrs.com/edit_maintenance.html?maintenance_id=${w.wo}&activetab=0&need_update_parent=1" target="_blank" style="font-size:13px;color:#EA7A1E;text-decoration:none;font-weight:600;margin-left:8px" onclick="event.stopPropagation()">↗ Open in Streamline</a>`;
+  document.getElementById('modalBody').innerHTML = `
+    <div class="modal-grid">
+      <div class="modal-field"><label>Status</label><div class="val">${statusBadge(w.status)}</div></div>
+      <div class="modal-field"><label>Unit Status</label><div class="val">${w.unitStatus || '—'}</div></div>
+      <div class="modal-field"><label>Unit</label><div class="val">${w.unit || '—'}</div></div>
+      <div class="modal-field"><label>Portfolio</label><div class="val">${w.portfolio}</div></div>
+      <div class="modal-field"><label>Vendor</label><div class="val">${w.vendor || '— not assigned —'}</div></div>
+      <div class="modal-field"><label>Priority</label><div class="val">${w.priority || '—'}</div></div>
+      <div class="modal-field"><label>Age (days)</label><div class="val">${w.age ?? '—'}</div></div>
+      <div class="modal-field"><label>Originator</label><div class="val">${w.originator || '—'}</div></div>
+      <div class="modal-field"><label>Created</label><div class="val">${w.created || '—'}</div></div>
+      <div class="modal-field"><label>Activated</label><div class="val">${w.activated || '—'}</div></div>
+      <div class="modal-field"><label>Expected Completion</label><div class="val">${w.expected || '—'}</div></div>
+      <div class="modal-field"><label>Closed</label><div class="val">${w.closed || '—'}</div></div>
+    </div>`;
+  document.getElementById('modalBackdrop').classList.add('show');
+}
+function closeModal(evt) { if (evt.target === document.getElementById('modalBackdrop')) closeModalDirect(); }
+function closeModalDirect() { document.getElementById('modalBackdrop').classList.remove('show'); }
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModalDirect(); });
+
+
+const API_URL = '/api/workorders';
+
+
+
+function inferPortfolio(unitName) {
+  if (!unitName) return 'Unknown';
+  const u = unitName.toLowerCase();
+  if (u.startsWith('sandalfoot')) return 'Sandalfoot';
+  if (u.startsWith('zgulf & bay') || u.startsWith('gulf & bay')) return 'GBB';
+  if (u.startsWith('iv ') || u.startsWith('island') || u === 'iv') return 'IV';
+  if (u.startsWith('signal')) return 'Signal Inn';
+  if (u.startsWith('z') && u.includes('gulf')) return 'GBB';
+  return 'Northern Portfolio';
+}
+
+function parseAPIDate(str) {
+  if (!str) return null;
+  // Format: "09/27/2026 13:59:50 EDT" or "09/22/2026"
+  const m = str.match(/(\d{2})\/(\d{2})\/(\d{4})/);
+  if (!m) return null;
+  return new Date(parseInt(m[3]), parseInt(m[1])-1, parseInt(m[2]));
+}
+
+function transformAPIRecord(r) {
+  const created = parseAPIDate(r.creation_date);
+  const today = new Date(); today.setHours(0,0,0,0);
+  const age = created ? Math.floor((today - created) / 86400000) : null;
+  const expRaw = r.expected_completion_date ? r.expected_completion_date.slice(0,10) : null;
+  // Convert YYYY-MM-DD to MM/DD/YY for compatibility with parseWODate
+  let expected = null;
+  if (expRaw) {
+    const [y,m,d] = expRaw.split('-');
+    expected = `${m}/${d}/${y.slice(2)}`;
+  }
+  const closedRaw = r.closed_date ? r.closed_date.slice(0,10) : null;
+  let closed = null;
+  if (closedRaw && closedRaw !== '0000-00-00') {
+    const [y,m,d] = closedRaw.split('-');
+    closed = `${m}/${d}/${y.slice(2)}`;
+  }
+  const unit = r.unit_name || r.location_name || '';
+  return {
+    wo: String(r.id),
+    unit: unit,
+    portfolio: inferPortfolio(unit),
+    created: r.creation_date ? r.creation_date.slice(0,16) : null,
+    activated: r.activation_date || null,
+    expected: expected,
+    closed: closed,
+    title: r.title || '',
+    vendor: (r.vendor_name && r.vendor_name !== 'N/A') ? r.vendor_name : null,
+    processor: (r.processor_name && r.processor_name !== 'N/A') ? r.processor_name : null,
+    priority: (r.priority_name && r.priority_name !== 'N/A') ? r.priority_name : null,
+    status: r.status_name || '',
+    unitStatus: r.unit_housekeeping_status || null,
+    age: age,
+    originator: r.originator_name || null,
+    _created: created,
+  };
+}
+
+async function loadFromAPI() {
+  const btn = document.getElementById('refreshBtn');
+  const note = document.getElementById('apiStatusNote');
+  if (btn) { btn.disabled = true; btn.textContent = '⟳ Loading…'; }
+  note.style.display = 'none';
+  document.getElementById('loadingOverlay').classList.add('show');
+  try {
+    const res = await fetch(API_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ methodName: 'GetWorkOrders' })
+    });
+    const json = await res.json();
+    if (json.status && json.status.code && json.status.code !== 'S0000') {
+      throw new Error(json.status.description || 'API error');
+    }
+    const raw = json.data.maintenances.maintenance || [];
+    WO_DATA = raw.map(transformAPIRecord);
+    filteredWOs = [...WO_DATA];
+    searchedWOs = [...WO_DATA];
+    currentPage = 1;
+    document.getElementById('lastSyncedTime').textContent = new Date().toLocaleString('en-US',{month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit'});
+    init();
+    renderLynx();
+  } catch(err) {
+    note.style.display = 'block';
+    note.innerHTML = `⚠️ Could not load from Streamline API: ${err.message}. <strong>Your IP may need to be re-added to the Streamline whitelist</strong> (Partner Portal → Administration → Allowed IP Addresses).`;
+    document.getElementById('loadingOverlay').classList.remove('show');
+    if (btn) { btn.disabled = false; btn.textContent = '⟳ Refresh'; }
+    return;
+  }
+  document.getElementById('loadingOverlay').classList.remove('show');
+  if (btn) { btn.disabled = false; btn.textContent = '⟳ Refresh'; }
+}
+
+loadFromAPI();
+</script>
+</body>
+</html>
