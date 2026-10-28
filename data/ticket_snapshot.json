@@ -1,18 +1,4 @@
 {
-  "9431": {
-    "subject": "3 Star Review Feedback | Res #: 65044 | Hopkins James | Colony Inn C-54 | 10/20/2026 - 10/24/2026",
-    "assigned_to": "marcie@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-30 22:00:00",
-    "priority": 1
-  },
-  "9430": {
-    "subject": "5 Star Review Feedback | Res #: 62625 | Griffith Michelle | Colony Inn C-49 | 10/22/2026 - 10/26/2026",
-    "assigned_to": "marcie@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-30 22:00:00",
-    "priority": 1
-  },
   "9429": {
     "subject": "Name: Turcotte Jan And Russ | Res: 33984 | Refund Check",
     "assigned_to": "k.fisher@choosegulfcoast.com",
@@ -178,7 +164,7 @@
     "subject": "Name:Osborne Kathleen E | Res: 61430 | Cancelled 50% Retained - OTA",
     "assigned_to": "a.ytac@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-28 18:20:27",
+    "due_date": "2026-11-06 22:00:00",
     "priority": 1
   },
   "9388": {
@@ -311,7 +297,7 @@
     "subject": "Newsletter / Owner Account Balance & Carrying Charge Policy",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-28 20:38:00",
+    "due_date": "2026-11-06 20:38:00",
     "priority": 5
   },
   "9340": {
@@ -332,14 +318,7 @@
     "subject": "Owner facing newsletter / Professional Linen Program",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-28 22:00:00",
-    "priority": 5
-  },
-  "9324": {
-    "subject": "Newsletter to owner / Municipal License and Registration Renewal Administration Fee",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-28 22:00:00",
+    "due_date": "2026-11-06 22:00:00",
     "priority": 5
   },
   "9322": {
@@ -411,13 +390,6 @@
     "status": "Open",
     "due_date": "2026-10-20 17:47:24",
     "priority": 5
-  },
-  "9273": {
-    "subject": "Vehicle wrap quotes",
-    "assigned_to": "e.buchanan@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-02 16:40:00",
-    "priority": 10
   },
   "9261": {
     "subject": "Name: Pfeifer Chris | Res: 62211 | Property: C-14 | Cancelled 100% Retained - Direct",
@@ -647,7 +619,7 @@
     "subject": "City of Sarasota VR License - Beautiful Bayou | 2124 North Tamiami Trail",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-27 19:33:00",
+    "due_date": "2026-10-30 19:33:00",
     "priority": 10
   },
   "9076": {

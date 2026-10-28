@@ -1,5 +1,69 @@
 [
   {
+    "ts": "2026-10-28T14:47:05+00:00",
+    "ticket_number": 9390,
+    "subject": "Name:Osborne Kathleen E | Res: 61430 | Cancelled 50% Retained - OTA",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-28 18:20:27 to 2026-11-06 22:00:00",
+    "from": "2026-10-28 18:20:27",
+    "to": "2026-11-06 22:00:00"
+  },
+  {
+    "ts": "2026-10-28T14:47:05+00:00",
+    "ticket_number": 9341,
+    "subject": "Newsletter / Owner Account Balance & Carrying Charge Policy",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-28 20:38:00 to 2026-11-06 20:38:00",
+    "from": "2026-10-28 20:38:00",
+    "to": "2026-11-06 20:38:00"
+  },
+  {
+    "ts": "2026-10-28T14:47:05+00:00",
+    "ticket_number": 9325,
+    "subject": "Owner facing newsletter / Professional Linen Program",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-28 22:00:00 to 2026-11-06 22:00:00",
+    "from": "2026-10-28 22:00:00",
+    "to": "2026-11-06 22:00:00"
+  },
+  {
+    "ts": "2026-10-28T14:47:05+00:00",
+    "ticket_number": 9110,
+    "subject": "City of Sarasota VR License - Beautiful Bayou | 2124 North Tamiami Trail",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-27 19:33:00 to 2026-10-30 19:33:00",
+    "from": "2026-10-27 19:33:00",
+    "to": "2026-10-30 19:33:00"
+  },
+  {
+    "ts": "2026-10-28T14:47:05+00:00",
+    "ticket_number": 9431,
+    "subject": "3 Star Review Feedback | Res #: 65044 | Hopkins James | Colony Inn C-54 | 10/20/2026 - 10/24/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-28T14:47:05+00:00",
+    "ticket_number": 9430,
+    "subject": "5 Star Review Feedback | Res #: 62625 | Griffith Michelle | Colony Inn C-49 | 10/22/2026 - 10/26/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-28T14:47:05+00:00",
+    "ticket_number": 9324,
+    "subject": "Newsletter to owner / Municipal License and Registration Renewal Administration Fee",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-28T14:47:05+00:00",
+    "ticket_number": 9273,
+    "subject": "Vehicle wrap quotes",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-28T01:57:04+00:00",
     "ticket_number": 9431,
     "subject": "3 Star Review Feedback | Res #: 65044 | Hopkins James | Colony Inn C-54 | 10/20/2026 - 10/24/2026",
@@ -7846,67 +7910,5 @@
     "detail": "Due date changed from 2026-10-02 22:00:00 to 2026-10-09 22:00:00",
     "from": "2026-10-02 22:00:00",
     "to": "2026-10-09 22:00:00"
-  },
-  {
-    "ts": "2026-10-07T13:40:28+00:00",
-    "ticket_number": 8830,
-    "subject": "Pellito Laurie/Signal Inn - Unit 14/Signal Inn - Unit 14/Property Feedback",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-06 21:13:00 to 2026-10-09 21:13:00",
-    "from": "2026-10-06 21:13:00",
-    "to": "2026-10-09 21:13:00"
-  },
-  {
-    "ts": "2026-10-07T13:40:28+00:00",
-    "ticket_number": 8586,
-    "subject": "Boardwalk Shell station",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-07 20:41:00 to 2026-10-10 20:41:00",
-    "from": "2026-10-07 20:41:00",
-    "to": "2026-10-10 20:41:00"
-  },
-  {
-    "ts": "2026-10-07T13:40:28+00:00",
-    "ticket_number": 7396,
-    "subject": "Marriott Curation Rejected - Signal Inn 18",
-    "type": "reassigned",
-    "detail": "Reassigned from n.ventura@choosegulfcoast.com to s.paulin@choosegulfcoast.com",
-    "from": "n.ventura@choosegulfcoast.com",
-    "to": "s.paulin@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-07T13:40:28+00:00",
-    "ticket_number": 9116,
-    "subject": "Charlottes Dream-owner coming in early",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-07T13:40:28+00:00",
-    "ticket_number": 9097,
-    "subject": "Tee Time and fore Season- 2nd code",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-07T13:40:28+00:00",
-    "ticket_number": 8965,
-    "subject": "4 Star Review Feedback | Res #62969 | 62969 | Signal Inn - Unit 19 | 9/20/2026-9/25/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-07T13:40:28+00:00",
-    "ticket_number": 8956,
-    "subject": "4 Star Review Feedback | Res #57554 | Ellis Jonathan | Signal Inn - Unit 16 | 9/16/2026-9/22/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-07T00:16:54+00:00",
-    "ticket_number": 9126,
-    "subject": "GBB1371 - Statement correction",
-    "type": "created",
-    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
   }
 ]
