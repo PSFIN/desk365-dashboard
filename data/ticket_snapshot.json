@@ -1,8 +1,29 @@
 {
+  "9436": {
+    "subject": "Marina Sunrise - Need plumber",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-02 19:28:00",
+    "priority": 1
+  },
+  "9435": {
+    "subject": "Unit: Cyprina Beach #10 | Guest Name: Fink Peter | Cancel Res #: 49348",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-02 16:19:06",
+    "priority": 1
+  },
+  "9434": {
+    "subject": "The Duffers Retreat - Cleaning",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-02 15:49:43",
+    "priority": 1
+  },
   "9429": {
     "subject": "Name: Turcotte Jan And Russ | Res: 33984 | Refund Check",
-    "assigned_to": "k.fisher@choosegulfcoast.com",
-    "status": "Open",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Pending",
     "due_date": "2026-10-30 21:26:18",
     "priority": 1
   },
@@ -69,13 +90,6 @@
     "due_date": "2026-10-30 18:52:12",
     "priority": 1
   },
-  "9418": {
-    "subject": "Email Signatures -Lisa, Josh, Christina, Chris",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-30 18:38:10",
-    "priority": 10
-  },
   "9417": {
     "subject": "Website Team Pages",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
@@ -92,8 +106,8 @@
   },
   "9415": {
     "subject": "Name: Malinowski Robert | Res: 54453 | Refund Check Request",
-    "assigned_to": "k.fisher@choosegulfcoast.com",
-    "status": "Open",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Pending",
     "due_date": "2026-10-30 16:00:42",
     "priority": 1
   },
@@ -143,7 +157,7 @@
     "subject": "Lynx Lock tab-work order dashboard",
     "assigned_to": "b.evans@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-29 15:50:53",
+    "due_date": "2026-10-29 15:52:24",
     "priority": 10
   },
   "9398": {
@@ -185,15 +199,8 @@
     "subject": "5 Star Review Feedback | Res #: 58843 | Kiehlmann Lara | Dreams Of Paradise | 10/18/2026 - 10/22/2026",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-27 22:00:00",
+    "due_date": "2026-11-01 22:00:00",
     "priority": 1
-  },
-  "9381": {
-    "subject": "Past Due Invoices- not in SL",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-27 20:18:50",
-    "priority": 5
   },
   "9379": {
     "subject": "Owner Requested Deep Clean",
@@ -262,14 +269,14 @@
     "subject": "Raymonds Retreat - Lynx lock",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-26 17:59:42",
+    "due_date": "2026-10-31 17:59:00",
     "priority": 1
   },
   "9357": {
     "subject": "GBB1332 - Lynx lock",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-26 17:59:00",
+    "due_date": "2026-10-31 17:59:00",
     "priority": 1
   },
   "9354": {
@@ -383,13 +390,6 @@
     "status": "Open",
     "due_date": "2026-10-30 22:00:00",
     "priority": 1
-  },
-  "9288": {
-    "subject": "Avalon-change owner code",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-20 17:47:24",
-    "priority": 5
   },
   "9261": {
     "subject": "Name: Pfeifer Chris | Res: 62211 | Property: C-14 | Cancelled 100% Retained - Direct",
@@ -603,9 +603,9 @@
   },
   "9119": {
     "subject": "RES#52252 PRITCHETT DAY DREAMER GUEST COMPLAINTS/POTENTIALLY WANTING REFUND",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-16 15:35:00",
+    "due_date": "2026-10-30 15:35:00",
     "priority": 20
   },
   "9114": {
@@ -689,7 +689,7 @@
     "subject": "City of Bradenton VR License - Tropical Gulf Retreat | 4325 46th Avenue West, #203",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-28 17:42:00",
+    "due_date": "2026-10-30 17:42:00",
     "priority": 20
   },
   "8861": {
@@ -852,6 +852,13 @@
     "status": "Open",
     "due_date": "2026-11-07 23:00:00",
     "priority": 5
+  },
+  "7431": {
+    "subject": "Name:Sauter Theresa | Res: 54591-HM2RHWK2SM | Cancelled 50% Retained - OTA | Cancelled Funds Retained by GC",
+    "assigned_to": "m.johnston@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-07-07 17:34:00",
+    "priority": 1
   },
   "7396": {
     "subject": "Marriott Curation Rejected - Signal Inn 18",
