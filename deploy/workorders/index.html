@@ -946,7 +946,8 @@ async function loadFromAPI() {
     filteredWOs = [...WO_DATA];
     searchedWOs = [...WO_DATA];
     currentPage = 1;
-    document.getElementById('lastSyncedTime').textContent = new Date().toLocaleString('en-US',{month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit'});
+    const syncEl = document.getElementById('lastSyncedTime');  // init() replaces this header text, so it may not exist on a refresh
+    if (syncEl) syncEl.textContent = new Date().toLocaleString('en-US',{month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit'});
     init();
     renderLynx();
   } catch(err) {
