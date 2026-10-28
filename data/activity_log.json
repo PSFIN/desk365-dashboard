@@ -1,5 +1,19 @@
 [
   {
+    "ts": "2026-10-28T01:57:04+00:00",
+    "ticket_number": 9431,
+    "subject": "3 Star Review Feedback | Res #: 65044 | Hopkins James | Colony Inn C-54 | 10/20/2026 - 10/24/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to marcie@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-28T01:57:04+00:00",
+    "ticket_number": 9430,
+    "subject": "5 Star Review Feedback | Res #: 62625 | Griffith Michelle | Colony Inn C-49 | 10/22/2026 - 10/26/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to marcie@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-10-27T22:47:32+00:00",
     "ticket_number": 9429,
     "subject": "Name: Turcotte Jan And Russ | Res: 33984 | Refund Check",
@@ -7894,19 +7908,5 @@
     "subject": "GBB1371 - Statement correction",
     "type": "created",
     "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-07T00:16:54+00:00",
-    "ticket_number": 9125,
-    "subject": "Gedarevich David/Lido Del Mare/Res #: 63850/Back door Lock Issue",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-07T00:16:54+00:00",
-    "ticket_number": 9124,
-    "subject": "Business card for Sandra Soria Frausto",
-    "type": "created",
-    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
   }
 ]
