@@ -163,6 +163,17 @@
   }
   @keyframes spin { to { transform: rotate(360deg); } }
   .spinner-label { color: #fff; font-size: 15px; font-weight: 600; letter-spacing: 0.5px; }
+  /* Tabs */
+  .tab-bar { display: flex; gap: 6px; margin-bottom: 20px; border-bottom: 2px solid #dde1e7; }
+  .tab-btn {
+    background: none; border: none; padding: 10px 20px; font-size: 14px; font-weight: 600;
+    color: #7f8c8d; cursor: pointer; border-bottom: 3px solid transparent; margin-bottom: -2px;
+    font-family: inherit; transition: color 0.15s;
+  }
+  .tab-btn:hover { color: #024F8D; }
+  .tab-btn.active { color: #024F8D; border-bottom-color: #EA7A1E; }
+  .tab-btn .tab-count { font-size: 11px; background: #e8f0f8; color: #024F8D; border-radius: 10px; padding: 1px 8px; margin-left: 6px; }
+  .tab-btn.active .tab-count { background: #fbe9d8; color: #a2650a; }
   /* WO link */
   .wo-link { color: #024F8D; text-decoration: none; font-weight: 700; }
   .wo-link:hover { text-decoration: underline; }
@@ -196,6 +207,12 @@
 
   <div id="apiStatusNote" class="note-card" style="display:none"></div>
 
+  <div class="tab-bar">
+    <button class="tab-btn active" id="tabBtnAll" onclick="switchTab('all')">All Work Orders</button>
+    <button class="tab-btn" id="tabBtnLynx" onclick="switchTab('lynx')">🔑 Lynx Locks<span class="tab-count" id="lynxTabCount">0</span></button>
+  </div>
+
+  <div id="paneAll">
   <!-- KPI Cards -->
   <div class="kpi-row">
     <div class="kpi-card blue" onclick="clearFilter()" id="kpiCardTotal">
@@ -307,6 +324,39 @@
       <span class="page-info" id="pageInfo"></span>
       <button id="nextBtn" onclick="changePage(1)">Next →</button>
       <span id="totalInfo" style="margin-left:8px;"></span>
+    </div>
+  </div>
+  </div><!-- /paneAll -->
+
+  <!-- Lynx Locks tab -->
+  <div id="paneLynx" style="display:none">
+    <div class="note-card">Work orders whose title mentions a <strong>Lynx</strong> lock (install, offline, jammed, removal, etc.). Click a WO # to open it in Streamline, or click a row to see its details.</div>
+    <div class="kpi-row" id="lynxKpis"></div>
+    <div class="ticket-panel">
+      <div class="ticket-panel-header">
+        <div>
+          <h3 id="lynxTableTitle">Lynx Lock Work Orders</h3>
+          <span id="lynxTableCount"></span>
+        </div>
+        <input class="ticket-search" id="lynxSearch" type="text" placeholder="Search WO #, unit, title, vendor..." oninput="renderLynx()">
+      </div>
+      <div class="table-wrap">
+        <table id="lynxTable">
+          <thead>
+            <tr>
+              <th onclick="sortLynx('wo')">WO # <span class="sort-icon">↕</span></th>
+              <th onclick="sortLynx('title')">Title <span class="sort-icon">↕</span></th>
+              <th onclick="sortLynx('unit')">Unit <span class="sort-icon">↕</span></th>
+              <th onclick="sortLynx('portfolio')">Portfolio <span class="sort-icon">↕</span></th>
+              <th onclick="sortLynx('status')">Status <span class="sort-icon">↕</span></th>
+              <th onclick="sortLynx('vendor')">Vendor <span class="sort-icon">↕</span></th>
+              <th onclick="sortLynx('priority')">Priority <span class="sort-icon">↕</span></th>
+              <th onclick="sortLynx('age')">Age (days) <span class="sort-icon">↕</span></th>
+            </tr>
+          </thead>
+          <tbody id="lynxBody"></tbody>
+        </table>
+      </div>
     </div>
   </div>
 
@@ -671,13 +721,27 @@ function applySearch() {
 
 function sortTable(key) {
   if (sortKey === key) sortDir *= -1; else { sortKey = key; sortDir = 1; }
-  document.querySelectorAll('thead th').forEach(th => th.classList.remove('sorted'));
+  document.querySelectorAll('#woTable thead th').forEach(th => th.classList.remove('sorted'));
   const idx = ['wo','title','unit','portfolio','status','vendor','priority','age'].indexOf(key);
-  if (idx >= 0) document.querySelectorAll('thead th')[idx].classList.add('sorted');
+  if (idx >= 0) document.querySelectorAll('#woTable thead th')[idx].classList.add('sorted');
   renderTable();
 }
 
 function changePage(dir) { currentPage += dir; renderTable(); }
+
+function woRowHTML(w) {
+  return `
+    <tr onclick="openModal('${w.wo}')">
+      <td class="wo-num"><a class="wo-link" href="https://admin.streamlinevrs.com/edit_maintenance.html?maintenance_id=${w.wo}&activetab=0&need_update_parent=1" target="_blank" onclick="event.stopPropagation()">#${w.wo}<span class="wo-ext">↗</span></a></td>
+      <td class="wo-title" title="${(w.title||'').replace(/"/g,'&quot;')}">${w.title || '—'}</td>
+      <td style="font-size:12px">${w.unit || '—'}</td>
+      <td style="font-size:12px">${w.portfolio}</td>
+      <td>${statusBadge(w.status)}</td>
+      <td>${vendorBadge(w.vendor)}</td>
+      <td style="font-size:12px">${w.priority || '—'}</td>
+      <td style="font-size:12px;font-weight:700;color:${w.age >= 60 ? '#e74c3c' : w.age >= 30 ? '#e67e22' : '#7f8c8d'}">${w.age ?? '—'}</td>
+    </tr>`;
+}
 
 function renderTable() {
   const sorted = [...searchedWOs].sort((a,b) => {
@@ -696,22 +760,81 @@ function renderTable() {
   document.getElementById('tableTitle').textContent = `${filterDesc} Work Orders`;
   document.getElementById('tableCount').textContent = `${total.toLocaleString()} work order${total !== 1 ? 's' : ''}`;
 
-  document.getElementById('woBody').innerHTML = page.map(w => `
-    <tr onclick="openModal('${w.wo}')">
-      <td class="wo-num"><a class="wo-link" href="https://admin.streamlinevrs.com/edit_maintenance.html?maintenance_id=${w.wo}&activetab=0&need_update_parent=1" target="_blank" onclick="event.stopPropagation()">#${w.wo}<span class="wo-ext">↗</span></a></td>
-      <td class="wo-title" title="${(w.title||'').replace(/"/g,'&quot;')}">${w.title || '—'}</td>
-      <td style="font-size:12px">${w.unit || '—'}</td>
-      <td style="font-size:12px">${w.portfolio}</td>
-      <td>${statusBadge(w.status)}</td>
-      <td>${vendorBadge(w.vendor)}</td>
-      <td style="font-size:12px">${w.priority || '—'}</td>
-      <td style="font-size:12px;font-weight:700;color:${w.age >= 60 ? '#e74c3c' : w.age >= 30 ? '#e67e22' : '#7f8c8d'}">${w.age ?? '—'}</td>
-    </tr>`).join('');
+  document.getElementById('woBody').innerHTML = page.map(woRowHTML).join('');
 
   document.getElementById('pageInfo').textContent = `Page ${currentPage} of ${totalPages}`;
   document.getElementById('totalInfo').textContent = `${total.toLocaleString()} total`;
   document.getElementById('prevBtn').disabled = currentPage <= 1;
   document.getElementById('nextBtn').disabled = currentPage >= totalPages;
+}
+
+// ─── Lynx Locks tab ────────────────────────────────────────────────
+const isLynx = w => /lynx|linx|lynk/i.test(w.title || '');
+let lynxSortKey = 'age';
+let lynxSortDir = -1;
+let lynxStatusFilter = null;
+
+function switchTab(tab) {
+  const lynx = tab === 'lynx';
+  document.getElementById('paneAll').style.display = lynx ? 'none' : '';
+  document.getElementById('paneLynx').style.display = lynx ? '' : 'none';
+  document.getElementById('tabBtnAll').classList.toggle('active', !lynx);
+  document.getElementById('tabBtnLynx').classList.toggle('active', lynx);
+  if (lynx) renderLynx();
+  else Object.values(charts).forEach(c => c && c.resize && c.resize());
+}
+
+function filterLynxStatus(status) {
+  lynxStatusFilter = (lynxStatusFilter === status) ? null : status;
+  renderLynx();
+}
+
+function sortLynx(key) {
+  if (lynxSortKey === key) lynxSortDir *= -1; else { lynxSortKey = key; lynxSortDir = 1; }
+  const idx = ['wo','title','unit','portfolio','status','vendor','priority','age'].indexOf(key);
+  document.querySelectorAll('#lynxTable thead th').forEach((th, i) => th.classList.toggle('sorted', i === idx));
+  renderLynx();
+}
+
+function renderLynx() {
+  const all = WO_DATA.filter(isLynx);
+  document.getElementById('lynxTabCount').textContent = all.length;
+
+  const kpi = (label, cls, status, count, sub) => `
+    <div class="kpi-card ${cls}${lynxStatusFilter === status ? ' active' : ''}" onclick="filterLynxStatus(${status === null ? 'null' : `'${status}'`})">
+      <div class="label">${label}</div>
+      <div class="value">${count}</div>
+      <div class="sub">${sub}</div>
+      <div class="click-hint">▶ Click to filter</div>
+    </div>`;
+  document.getElementById('lynxKpis').innerHTML =
+    kpi('Total Lynx Lock WOs', 'blue', null, all.length, 'Click to clear filter') +
+    kpi('Active', 'teal', 'Active', all.filter(w => w.status === 'Active').length, 'Being worked') +
+    kpi('Pending', 'orange', 'Pending', all.filter(w => w.status === 'Pending').length, 'Awaiting action') +
+    kpi('Pending Final Closing', 'purple', 'Pending Final Closing', all.filter(w => w.status === 'Pending Final Closing').length, 'Wrapping up') +
+    kpi('No Vendor Assigned', 'red', '__novendor', all.filter(w => !w.vendor).length, 'Not yet dispatched');
+
+  const q = (document.getElementById('lynxSearch').value || '').toLowerCase().trim();
+  let rows = all.filter(w =>
+    !lynxStatusFilter ||
+    (lynxStatusFilter === '__novendor' ? !w.vendor : w.status === lynxStatusFilter));
+  if (q) rows = rows.filter(w =>
+    String(w.wo).includes(q) || (w.unit||'').toLowerCase().includes(q) ||
+    (w.title||'').toLowerCase().includes(q) || (w.vendor||'').toLowerCase().includes(q) ||
+    (w.portfolio||'').toLowerCase().includes(q));
+
+  rows.sort((a, b) => {
+    let av = a[lynxSortKey], bv = b[lynxSortKey];
+    if (av == null) av = ''; if (bv == null) bv = '';
+    if (typeof av === 'number' && typeof bv === 'number') return lynxSortDir * (av - bv);
+    return lynxSortDir * String(av).localeCompare(String(bv), undefined, { numeric: true });
+  });
+
+  const filterDesc = lynxStatusFilter === '__novendor' ? 'No Vendor' : (lynxStatusFilter || 'All');
+  document.getElementById('lynxTableTitle').textContent = `${filterDesc} Lynx Lock Work Orders`;
+  document.getElementById('lynxTableCount').textContent = `${rows.length.toLocaleString()} work order${rows.length !== 1 ? 's' : ''}`;
+  document.getElementById('lynxBody').innerHTML = rows.length ? rows.map(woRowHTML).join('') :
+    `<tr><td colspan="8" style="text-align:center;color:#95a5a6;padding:28px">No Lynx lock work orders match.</td></tr>`;
 }
 
 // ─── Modal ─────────────────────────────────────────────────────────
@@ -825,6 +948,7 @@ async function loadFromAPI() {
     currentPage = 1;
     document.getElementById('lastSyncedTime').textContent = new Date().toLocaleString('en-US',{month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit'});
     init();
+    renderLynx();
   } catch(err) {
     note.style.display = 'block';
     note.innerHTML = `⚠️ Could not load from Streamline API: ${err.message}. <strong>Your IP may need to be re-added to the Streamline whitelist</strong> (Partner Portal → Administration → Allowed IP Addresses).`;
