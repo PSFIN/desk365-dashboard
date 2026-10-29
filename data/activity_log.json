@@ -1,5 +1,86 @@
 [
   {
+    "ts": "2026-10-29T23:27:10+00:00",
+    "ticket_number": 9448,
+    "subject": "Berkey Betsy/Enjoy Sarasota/  Res #: 65948/ Cancellation Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-29T23:27:10+00:00",
+    "ticket_number": 9447,
+    "subject": "Glorious Golfers - Internet",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.messasierra@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-29T23:27:10+00:00",
+    "ticket_number": 9446,
+    "subject": "YCBR Fire extinguisher order",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-29T23:27:10+00:00",
+    "ticket_number": 9445,
+    "subject": "Ospreys Nest | Cracked toilet bowl",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-29T23:27:10+00:00",
+    "ticket_number": 9444,
+    "subject": "Name: DeSheles Latricia | Res: 65453 & 65931 | Airbnb Reservation Split Between Units 10 & 08",
+    "type": "created",
+    "detail": "Created \u2014 assigned to a.ytac@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-10-29T23:27:10+00:00",
+    "ticket_number": 9368,
+    "subject": "Flip Flop Retreat - excessive cleaning charge 10-22-26",
+    "type": "reassigned",
+    "detail": "Reassigned from j.messasierra@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
+    "from": "j.messasierra@choosegulfcoast.com",
+    "to": "s.soriafrausto@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-10-29T23:27:10+00:00",
+    "ticket_number": 9318,
+    "subject": "GBB1318 Fan in master",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-29 22:00:00 to 2026-10-30 22:00:00",
+    "from": "2026-10-29 22:00:00",
+    "to": "2026-10-30 22:00:00"
+  },
+  {
+    "ts": "2026-10-29T23:27:10+00:00",
+    "ticket_number": 9442,
+    "subject": "SF Unit 4A1 / Amenities",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-29T23:27:10+00:00",
+    "ticket_number": 9379,
+    "subject": "Owner Requested Deep Clean",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-29T23:27:10+00:00",
+    "ticket_number": 9258,
+    "subject": "Palm Meadow-no cleaning",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-29T23:27:10+00:00",
+    "ticket_number": 9145,
+    "subject": "GBB1328 - Deep clean",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-29T19:05:58+00:00",
     "ticket_number": 9443,
     "subject": "Breeze by the sea - Nonrenting",
@@ -7845,82 +7926,5 @@
     "subject": "Add Property to Manatee Tourist Development Tax Umbrella : Tee Time - 19116 Scallop Loop, #105",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-07T23:57:35+00:00",
-    "ticket_number": 8728,
-    "subject": "Sales & Tourist Tax Remittance - August 2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-07T23:57:35+00:00",
-    "ticket_number": 8628,
-    "subject": "Update website team photos",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-07T19:40:03+00:00",
-    "ticket_number": 9151,
-    "subject": "Tropical Escape - Cleaning",
-    "type": "created",
-    "detail": "Created \u2014 assigned to j.messasierra@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-07T19:40:03+00:00",
-    "ticket_number": 9150,
-    "subject": "Cart abandonment email automation",
-    "type": "created",
-    "detail": "Created \u2014 assigned to e.buchanan@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-07T19:40:03+00:00",
-    "ticket_number": 9149,
-    "subject": "Name: Perez Gilberto | Res: 64154 | Property: Colony Inn C-06 | Cancelled 50% Retained - OTA",
-    "type": "created",
-    "detail": "Created \u2014 assigned to a.ytac@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-07T19:40:03+00:00",
-    "ticket_number": 9148,
-    "subject": "Lido Del Mare - Info sheet",
-    "type": "created",
-    "detail": "Created \u2014 assigned to j.messasierra@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-07T19:40:03+00:00",
-    "ticket_number": 9147,
-    "subject": "Longboat Dream - Info sheet",
-    "type": "created",
-    "detail": "Created \u2014 assigned to j.messasierra@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-07T19:40:03+00:00",
-    "ticket_number": 9146,
-    "subject": "Longboat Oasis - Info sheet",
-    "type": "created",
-    "detail": "Created \u2014 assigned to j.messasierra@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-07T19:40:03+00:00",
-    "ticket_number": 9145,
-    "subject": "GBB1328 - Deep clean",
-    "type": "created",
-    "detail": "Created \u2014 assigned to j.messasierra@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-07T19:40:03+00:00",
-    "ticket_number": 9144,
-    "subject": "GBB1350 - Deep clean",
-    "type": "created",
-    "detail": "Created \u2014 assigned to j.messasierra@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-07T19:40:03+00:00",
-    "ticket_number": 9142,
-    "subject": "OffBoard - William Wright",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.evans@choosegulfcoast.com, status Open"
   }
 ]

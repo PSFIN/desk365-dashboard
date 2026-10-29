@@ -1,17 +1,45 @@
 {
+  "9448": {
+    "subject": "Berkey Betsy/Enjoy Sarasota/  Res #: 65948/ Cancellation Request",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-03 21:24:08",
+    "priority": 1
+  },
+  "9447": {
+    "subject": "Glorious Golfers - Internet",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-03 20:39:03",
+    "priority": 1
+  },
+  "9446": {
+    "subject": "YCBR Fire extinguisher order",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-03 20:11:14",
+    "priority": 1
+  },
+  "9445": {
+    "subject": "Ospreys Nest | Cracked toilet bowl",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-03 19:57:43",
+    "priority": 1
+  },
+  "9444": {
+    "subject": "Name: DeSheles Latricia | Res: 65453 & 65931 | Airbnb Reservation Split Between Units 10 & 08",
+    "assigned_to": "a.ytac@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-03 19:31:56",
+    "priority": 1
+  },
   "9443": {
     "subject": "Breeze by the sea - Nonrenting",
     "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-03 18:53:57",
     "priority": 1
-  },
-  "9442": {
-    "subject": "SF Unit 4A1 / Amenities",
-    "assigned_to": "e.buchanan@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-03 18:48:24",
-    "priority": 10
   },
   "9441": {
     "subject": "Name: Gary & Laurie Smith | Res: 33946 | Refund Check Request",
@@ -202,13 +230,6 @@
     "due_date": "2026-11-01 22:00:00",
     "priority": 1
   },
-  "9379": {
-    "subject": "Owner Requested Deep Clean",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-27 19:44:00",
-    "priority": 1
-  },
   "9372": {
     "subject": "3 Star Review Feedback | Res #: 60939 | James Robinson | Sandalfoot 1D2 | 10/17/2026 - 10/21/2026",
     "assigned_to": "n.armstrong@choosegulfcoast.com",
@@ -218,7 +239,7 @@
   },
   "9368": {
     "subject": "Flip Flop Retreat - excessive cleaning charge 10-22-26",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-26 22:00:00",
     "priority": 5
@@ -332,7 +353,7 @@
     "subject": "GBB1318 Fan in master",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-29 22:00:00",
+    "due_date": "2026-10-30 22:00:00",
     "priority": 1
   },
   "9315": {
@@ -396,13 +417,6 @@
     "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-02 20:43:00",
-    "priority": 1
-  },
-  "9258": {
-    "subject": "Palm Meadow-no cleaning",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-23 19:42:00",
     "priority": 1
   },
   "9228": {
@@ -557,13 +571,6 @@
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-29 15:46:00",
-    "priority": 1
-  },
-  "9145": {
-    "subject": "GBB1328 - Deep clean",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-25 15:43:00",
     "priority": 1
   },
   "9144": {
