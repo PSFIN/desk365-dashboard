@@ -76,13 +76,6 @@
     "due_date": "2026-10-30 18:55:00",
     "priority": 1
   },
-  "9420": {
-    "subject": "Genwright Lee | Unit: Sandy Pointe | Res #: 65000 | Cancellation Request",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-30 18:53:32",
-    "priority": 1
-  },
   "9419": {
     "subject": "YCBR Res#33996",
     "assigned_to": "e.morales@choosegulfcoast.com",
@@ -318,7 +311,7 @@
     "subject": "Cranes Galore \u2013 Owner Contribution (Check Payment)",
     "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-28 18:54:00",
+    "due_date": "2026-10-30 18:54:00",
     "priority": 1
   },
   "9325": {

@@ -1,5 +1,21 @@
 [
   {
+    "ts": "2026-10-29T13:27:04+00:00",
+    "ticket_number": 9336,
+    "subject": "Cranes Galore \u2013 Owner Contribution (Check Payment)",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-28 18:54:00 to 2026-10-30 18:54:00",
+    "from": "2026-10-28 18:54:00",
+    "to": "2026-10-30 18:54:00"
+  },
+  {
+    "ts": "2026-10-29T13:27:04+00:00",
+    "ticket_number": 9420,
+    "subject": "Genwright Lee | Unit: Sandy Pointe | Res #: 65000 | Cancellation Request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-29T00:07:40+00:00",
     "ticket_number": 9438,
     "subject": "5 Star Review Feedback | Res #: 60051 | Myrtle Lois Taylor | Sanibel Inn 513 | 10/24/2026 - 10/27/2026",
@@ -7910,23 +7926,5 @@
     "detail": "Due date changed from 2026-10-07 18:00:00 to 2026-10-10 18:00:00",
     "from": "2026-10-07 18:00:00",
     "to": "2026-10-10 18:00:00"
-  },
-  {
-    "ts": "2026-10-07T19:40:03+00:00",
-    "ticket_number": 9046,
-    "subject": "1260 broken fridge shelf-ARDI?",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-07 22:00:00 to 2026-10-14 22:00:00",
-    "from": "2026-10-07 22:00:00",
-    "to": "2026-10-14 22:00:00"
-  },
-  {
-    "ts": "2026-10-07T19:40:03+00:00",
-    "ticket_number": 9041,
-    "subject": "New photos",
-    "type": "reassigned",
-    "detail": "Reassigned from b.meyer@choosegulfcoast.com to n.armstrong@choosegulfcoast.com",
-    "from": "b.meyer@choosegulfcoast.com",
-    "to": "n.armstrong@choosegulfcoast.com"
   }
 ]
