@@ -1,23 +1,23 @@
 {
+  "9438": {
+    "subject": "5 Star Review Feedback | Res #: 60051 | Myrtle Lois Taylor | Sanibel Inn 513 | 10/24/2026 - 10/27/2026",
+    "assigned_to": "l.costa@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-02 22:00:00",
+    "priority": 1
+  },
+  "9437": {
+    "subject": "Name: Robbins Deborah | Res: 64411 | Request for 2 Lounge Chairs for Upcoming Guest",
+    "assigned_to": "d.husak@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-02 22:00:00",
+    "priority": 1
+  },
   "9436": {
     "subject": "Marina Sunrise - Need plumber",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-02 19:28:00",
-    "priority": 1
-  },
-  "9435": {
-    "subject": "Unit: Cyprina Beach #10 | Guest Name: Fink Peter | Cancel Res #: 49348",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-02 16:19:06",
-    "priority": 1
-  },
-  "9434": {
-    "subject": "The Duffers Retreat - Cleaning",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-02 15:49:43",
     "priority": 1
   },
   "9429": {
@@ -486,12 +486,12 @@
     "subject": "PCA - Breeze By The Sea",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-29 15:43:00",
+    "due_date": "2026-11-06 16:43:00",
     "priority": 1
   },
   "9216": {
     "subject": "PCA - Beach Breeze",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-01 15:42:00",
     "priority": 1
@@ -568,7 +568,7 @@
   },
   "9146": {
     "subject": "Longboat Oasis - Info sheet",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-29 15:46:00",
     "priority": 1
@@ -603,7 +603,7 @@
   },
   "9119": {
     "subject": "RES#52252 PRITCHETT DAY DREAMER GUEST COMPLAINTS/POTENTIALLY WANTING REFUND",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-30 15:35:00",
     "priority": 20
@@ -743,7 +743,7 @@
   },
   "8575": {
     "subject": "The Duffers Retreat-PCA Deep clean",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-09 17:24:00",
     "priority": 1
