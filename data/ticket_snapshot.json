@@ -1,4 +1,39 @@
 {
+  "9443": {
+    "subject": "Breeze by the sea - Nonrenting",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-03 18:53:57",
+    "priority": 1
+  },
+  "9442": {
+    "subject": "SF Unit 4A1 / Amenities",
+    "assigned_to": "e.buchanan@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-03 18:48:24",
+    "priority": 10
+  },
+  "9441": {
+    "subject": "Name: Gary & Laurie Smith | Res: 33946 | Refund Check Request",
+    "assigned_to": "k.fisher@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-03 17:53:47",
+    "priority": 1
+  },
+  "9440": {
+    "subject": "Name: Victoria Vila  | Res: 33992 | Refund Check Request",
+    "assigned_to": "k.fisher@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-03 17:46:17",
+    "priority": 1
+  },
+  "9439": {
+    "subject": "GBB 1382 - Front door paint",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-03 16:03:18",
+    "priority": 1
+  },
   "9438": {
     "subject": "5 Star Review Feedback | Res #: 60051 | Myrtle Lois Taylor | Sanibel Inn 513 | 10/24/2026 - 10/27/2026",
     "assigned_to": "l.costa@choosegulfcoast.com",
@@ -18,13 +53,6 @@
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-02 19:28:00",
-    "priority": 1
-  },
-  "9429": {
-    "subject": "Name: Turcotte Jan And Russ | Res: 33984 | Refund Check",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Pending",
-    "due_date": "2026-10-30 21:26:18",
     "priority": 1
   },
   "9428": {
@@ -97,13 +125,6 @@
     "due_date": "2026-10-30 16:14:42",
     "priority": 10
   },
-  "9415": {
-    "subject": "Name: Malinowski Robert | Res: 54453 | Refund Check Request",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Pending",
-    "due_date": "2026-10-30 16:00:42",
-    "priority": 1
-  },
   "9414": {
     "subject": "Onboarding inventory Sheet for VR owners",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
@@ -129,7 +150,7 @@
     "subject": "Keys Please - Photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-06 20:54:00",
+    "due_date": "2026-11-13 20:54:00",
     "priority": 1
   },
   "9403": {
@@ -153,13 +174,6 @@
     "due_date": "2026-10-29 15:52:24",
     "priority": 10
   },
-  "9398": {
-    "subject": "The Cortusa | Mid-stay Cleaning Request",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-29 14:51:55",
-    "priority": 1
-  },
   "9396": {
     "subject": "GBB Amenities Update.",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
@@ -179,13 +193,6 @@
     "assigned_to": "n.armstrong@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-28 16:08:14",
-    "priority": 1
-  },
-  "9385": {
-    "subject": "Charlotte Dream- no cleanning",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-27 22:00:00",
     "priority": 1
   },
   "9384": {
@@ -251,13 +258,6 @@
     "due_date": "2026-10-26 18:23:30",
     "priority": 1
   },
-  "9359": {
-    "subject": "Par than Bar-cleaning",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-26 18:17:29",
-    "priority": 1
-  },
   "9358": {
     "subject": "Raymonds Retreat - Lynx lock",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
@@ -276,7 +276,7 @@
     "subject": "Raymonds Retreat - Photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-02 18:55:00",
+    "due_date": "2026-11-03 18:55:00",
     "priority": 1
   },
   "9351": {
@@ -475,13 +475,6 @@
     "due_date": "2026-11-01 15:43:00",
     "priority": 1
   },
-  "9217": {
-    "subject": "PCA - Breeze By The Sea",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-06 16:43:00",
-    "priority": 1
-  },
   "9216": {
     "subject": "PCA - Beach Breeze",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
@@ -593,13 +586,6 @@
     "status": "Open",
     "due_date": "2026-10-31 14:17:00",
     "priority": 1
-  },
-  "9119": {
-    "subject": "RES#52252 PRITCHETT DAY DREAMER GUEST COMPLAINTS/POTENTIALLY WANTING REFUND",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-30 15:35:00",
-    "priority": 20
   },
   "9114": {
     "subject": "Name: Freidus Susan | Res: 54145 | Cancelled 50% Retained - OTA",
@@ -722,7 +708,7 @@
   },
   "8754": {
     "subject": "#1364 owner --reimburse",
-    "assigned_to": "c.nutt@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-24 16:53:00",
     "priority": 10
