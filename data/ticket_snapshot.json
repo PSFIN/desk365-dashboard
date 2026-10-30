@@ -1,4 +1,46 @@
 {
+  "9456": {
+    "subject": "Olsen Denise/Fairways to Coastline/Res #: 64745/Cancellation Request",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-04 20:42:03",
+    "priority": 1
+  },
+  "9455": {
+    "subject": "rent rev",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-03 16:26:29",
+    "priority": 20
+  },
+  "9454": {
+    "subject": "rent rev",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-03 16:19:24",
+    "priority": 20
+  },
+  "9453": {
+    "subject": "Guest Name: Lentini Janelle | Res #: 65053 | Unit: Pineapple Way | Compensation request",
+    "assigned_to": "m.eronico@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-04 19:22:44",
+    "priority": 1
+  },
+  "9452": {
+    "subject": "Burns Wendy | Unit: Horizon Oasis | Res #: 63517 | Cancellation Request",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-04 17:35:14",
+    "priority": 1
+  },
+  "9451": {
+    "subject": "A Shore Thing | Multiple issues",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-04 16:24:02",
+    "priority": 1
+  },
   "9450": {
     "subject": "Name: Logan Cheryl | Res: 47155 | Cancelled Funds Retained by GC",
     "assigned_to": "e.morales@choosegulfcoast.com",
@@ -339,14 +381,14 @@
     "subject": "GBB1318 Fan in master",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-30 22:00:00",
+    "due_date": "2026-11-02 23:00:00",
     "priority": 1
   },
   "9312": {
     "subject": "Colony unit photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-31 14:06:00",
+    "due_date": "2026-11-06 15:06:00",
     "priority": 5
   },
   "9310": {
@@ -577,7 +619,7 @@
     "subject": "City of Sarasota VR License - Beautiful Bayou | 2124 North Tamiami Trail",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-30 19:33:00",
+    "due_date": "2026-11-02 19:33:00",
     "priority": 10
   },
   "9076": {
@@ -591,12 +633,12 @@
     "subject": "GBB Walk Through Videos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-30 22:00:00",
+    "due_date": "2026-11-13 23:00:00",
     "priority": 1
   },
   "9046": {
     "subject": "1260 broken fridge shelf-ARDI?",
-    "assigned_to": "c.nutt@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-14 22:00:00",
     "priority": 5
@@ -647,7 +689,7 @@
     "subject": "City of Bradenton VR License - Tropical Gulf Retreat | 4325 46th Avenue West, #203",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-30 17:42:00",
+    "due_date": "2026-11-04 17:42:00",
     "priority": 20
   },
   "8861": {
@@ -661,7 +703,7 @@
     "subject": "City of Bradenton VR License - Don't Worry Beach Happy | 502 Sanderling Circle",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-30 15:55:00",
+    "due_date": "2026-11-02 15:55:00",
     "priority": 20
   },
   "8856": {
