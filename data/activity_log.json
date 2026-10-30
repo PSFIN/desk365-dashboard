@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-10-30T02:46:05+00:00",
+    "ticket_number": 9449,
+    "subject": "Lassiter Renae/Sandalfoot 3B3/Res #: 65386/Cancellation Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-10-29T23:27:10+00:00",
     "ticket_number": 9448,
     "subject": "Berkey Betsy/Enjoy Sarasota/  Res #: 65948/ Cancellation Request",
@@ -7917,13 +7924,6 @@
     "ts": "2026-10-07T23:57:35+00:00",
     "ticket_number": 9029,
     "subject": "Easy Does it-Fire extinguisher",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-07T23:57:35+00:00",
-    "ticket_number": 8857,
-    "subject": "Add Property to Manatee Tourist Development Tax Umbrella : Tee Time - 19116 Scallop Loop, #105",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
