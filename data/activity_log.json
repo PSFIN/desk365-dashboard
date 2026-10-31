@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-10-31T17:27:40+00:00",
+    "ticket_number": 9457,
+    "subject": "Steinberg David | Res #: 61974 and Res #: 61973 |  Cancellation | 2 reservations",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-10-31T12:53:33+00:00",
     "ticket_number": 9453,
     "subject": "Guest Name: Lentini Janelle | Res #: 65053 | Unit: Pineapple Way | Compensation request",
@@ -7921,14 +7928,5 @@
     "detail": "Due date changed from 2026-10-02 18:23:11 to 2026-10-10 18:23:00",
     "from": "2026-10-02 18:23:11",
     "to": "2026-10-10 18:23:00"
-  },
-  {
-    "ts": "2026-10-08T18:15:39+00:00",
-    "ticket_number": 8951,
-    "subject": "Sanibel HOA Email",
-    "type": "priority_changed",
-    "detail": "Priority changed from 5 to 10",
-    "from": 5,
-    "to": 10
   }
 ]
