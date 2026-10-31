@@ -1,5 +1,14 @@
 [
   {
+    "ts": "2026-10-31T12:53:33+00:00",
+    "ticket_number": 9453,
+    "subject": "Guest Name: Lentini Janelle | Res #: 65053 | Unit: Pineapple Way | Compensation request",
+    "type": "reassigned",
+    "detail": "Reassigned from m.eronico@choosegulfcoast.com to m.omasdang@choosegulfcoast.com",
+    "from": "m.eronico@choosegulfcoast.com",
+    "to": "m.omasdang@choosegulfcoast.com"
+  },
+  {
     "ts": "2026-10-31T00:21:37+00:00",
     "ticket_number": 9449,
     "subject": "Lassiter Renae/Sandalfoot 3B3/Res #: 65386/Cancellation Request",
@@ -7921,14 +7930,5 @@
     "detail": "Priority changed from 5 to 10",
     "from": 5,
     "to": 10
-  },
-  {
-    "ts": "2026-10-08T18:15:39+00:00",
-    "ticket_number": 8932,
-    "subject": "4 Star Review Feedback | Res #33168 | Krahl Elke | Bayside Paradise | 9/5/2026-9/19/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-09-28 20:57:46 to 2026-10-09 20:57:00",
-    "from": "2026-09-28 20:57:46",
-    "to": "2026-10-09 20:57:00"
   }
 ]
