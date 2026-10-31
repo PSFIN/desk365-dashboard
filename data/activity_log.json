@@ -1,5 +1,19 @@
 [
   {
+    "ts": "2026-10-31T00:21:37+00:00",
+    "ticket_number": 9449,
+    "subject": "Lassiter Renae/Sandalfoot 3B3/Res #: 65386/Cancellation Request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-10-31T00:21:37+00:00",
+    "ticket_number": 9396,
+    "subject": "GBB Amenities Update.",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-10-30T20:56:53+00:00",
     "ticket_number": 9456,
     "subject": "Olsen Denise/Fairways to Coastline/Res #: 64745/Cancellation Request",
@@ -7916,23 +7930,5 @@
     "detail": "Due date changed from 2026-09-28 20:57:46 to 2026-10-09 20:57:00",
     "from": "2026-09-28 20:57:46",
     "to": "2026-10-09 20:57:00"
-  },
-  {
-    "ts": "2026-10-08T18:15:39+00:00",
-    "ticket_number": 8867,
-    "subject": "City of Bradenton VR License - Villa In The Clouds | 1439 56th Street West",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-08 17:50:00 to 2026-10-12 17:50:00",
-    "from": "2026-10-08 17:50:00",
-    "to": "2026-10-12 17:50:00"
-  },
-  {
-    "ts": "2026-10-08T18:15:39+00:00",
-    "ticket_number": 8866,
-    "subject": "City of Bradenton VR License - Tropical Gulf Retreat | 4325 46th Avenue West, #203",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-08 17:42:00 to 2026-10-12 17:42:00",
-    "from": "2026-10-08 17:42:00",
-    "to": "2026-10-12 17:42:00"
   }
 ]
