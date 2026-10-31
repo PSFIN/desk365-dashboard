@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-10-31T20:35:18+00:00",
+    "ticket_number": 9458,
+    "subject": "Jessica Selaine | Sweet Pineapple | Possible Lead",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-10-31T17:27:40+00:00",
     "ticket_number": 9457,
     "subject": "Steinberg David | Res #: 61974 and Res #: 61973 |  Cancellation | 2 reservations",
@@ -7919,14 +7926,5 @@
     "detail": "Reassigned from c.thayer@choosegulfcoast.com to z.adair@choosegulfcoast.com",
     "from": "c.thayer@choosegulfcoast.com",
     "to": "z.adair@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-08T18:15:39+00:00",
-    "ticket_number": 8989,
-    "subject": "Avalon -PCA DC",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-02 18:23:11 to 2026-10-10 18:23:00",
-    "from": "2026-10-02 18:23:11",
-    "to": "2026-10-10 18:23:00"
   }
 ]
