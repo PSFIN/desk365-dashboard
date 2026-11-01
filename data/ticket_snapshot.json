@@ -1,4 +1,25 @@
 {
+  "9463": {
+    "subject": "SCHARRET Kim | Unit: Colony Inn C-54 | Res #: 64877 | Guest Feedback",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-04 22:00:00",
+    "priority": 1
+  },
+  "9462": {
+    "subject": "Findlay Colleen | Unit: LuvLax | Res #: 63444 | Cancellation Request",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-04 22:00:00",
+    "priority": 1
+  },
+  "9461": {
+    "subject": "Sanderson Wendy | Res #: 66053 | Cancellation",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-04 22:00:00",
+    "priority": 1
+  },
   "9460": {
     "subject": "Res #: 65758| Guest Name: Leckerman Theresa M |Property/Unit: My Great Escape| Refund request",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
@@ -213,7 +234,7 @@
     "subject": "Fireside Cottage \u2013 Verify Lynx Lock and Guest Key Access",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-30 16:14:42",
+    "due_date": "2026-11-02 17:14:00",
     "priority": 10
   },
   "9414": {
@@ -276,7 +297,7 @@
     "subject": "5 Star Review Feedback | Res #: 58843 | Kiehlmann Lara | Dreams Of Paradise | 10/18/2026 - 10/22/2026",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-01 22:00:00",
+    "due_date": "2026-11-02 23:00:00",
     "priority": 1
   },
   "9368": {
@@ -325,14 +346,14 @@
     "subject": "Raymonds Retreat - Lynx lock",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-31 17:59:00",
+    "due_date": "2026-11-02 18:59:00",
     "priority": 1
   },
   "9357": {
     "subject": "GBB1332 - Lynx lock",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-31 17:59:00",
+    "due_date": "2026-11-02 18:59:00",
     "priority": 1
   },
   "9354": {
@@ -689,7 +710,7 @@
     "subject": "City of Sanibel - Business Tax Receipt (BTR) Renewal Due Sept. 30,2026",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-31 21:00:00",
+    "due_date": "2026-11-29 21:00:00",
     "priority": 10
   },
   "8868": {

@@ -1,5 +1,71 @@
 [
   {
+    "ts": "2026-11-01T16:59:09+00:00",
+    "ticket_number": 9463,
+    "subject": "SCHARRET Kim | Unit: Colony Inn C-54 | Res #: 64877 | Guest Feedback",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-01T16:59:09+00:00",
+    "ticket_number": 9462,
+    "subject": "Findlay Colleen | Unit: LuvLax | Res #: 63444 | Cancellation Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-01T16:59:09+00:00",
+    "ticket_number": 9461,
+    "subject": "Sanderson Wendy | Res #: 66053 | Cancellation",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-01T16:59:09+00:00",
+    "ticket_number": 9416,
+    "subject": "Fireside Cottage \u2013 Verify Lynx Lock and Guest Key Access",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-30 16:14:42 to 2026-11-02 17:14:00",
+    "from": "2026-10-30 16:14:42",
+    "to": "2026-11-02 17:14:00"
+  },
+  {
+    "ts": "2026-11-01T16:59:09+00:00",
+    "ticket_number": 9384,
+    "subject": "5 Star Review Feedback | Res #: 58843 | Kiehlmann Lara | Dreams Of Paradise | 10/18/2026 - 10/22/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-01 22:00:00 to 2026-11-02 23:00:00",
+    "from": "2026-11-01 22:00:00",
+    "to": "2026-11-02 23:00:00"
+  },
+  {
+    "ts": "2026-11-01T16:59:09+00:00",
+    "ticket_number": 9358,
+    "subject": "Raymonds Retreat - Lynx lock",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-31 17:59:00 to 2026-11-02 18:59:00",
+    "from": "2026-10-31 17:59:00",
+    "to": "2026-11-02 18:59:00"
+  },
+  {
+    "ts": "2026-11-01T16:59:09+00:00",
+    "ticket_number": 9357,
+    "subject": "GBB1332 - Lynx lock",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-31 17:59:00 to 2026-11-02 18:59:00",
+    "from": "2026-10-31 17:59:00",
+    "to": "2026-11-02 18:59:00"
+  },
+  {
+    "ts": "2026-11-01T16:59:09+00:00",
+    "ticket_number": 8912,
+    "subject": "City of Sanibel - Business Tax Receipt (BTR) Renewal Due Sept. 30,2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-31 21:00:00 to 2026-11-29 21:00:00",
+    "from": "2026-10-31 21:00:00",
+    "to": "2026-11-29 21:00:00"
+  },
+  {
     "ts": "2026-11-01T10:56:28+00:00",
     "ticket_number": 9460,
     "subject": "Res #: 65758| Guest Name: Leckerman Theresa M |Property/Unit: My Great Escape| Refund request",
@@ -7850,77 +7916,5 @@
     "detail": "Reassigned from j.messasierra@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
     "from": "j.messasierra@choosegulfcoast.com",
     "to": "j.rushton@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-08T18:15:39+00:00",
-    "ticket_number": 9140,
-    "subject": "Tochinskiy Daniel | Enjoy Sarasota | Res #: 61561 | Washer Issue",
-    "type": "reassigned",
-    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
-    "from": "h.mcnamara@choosegulfcoast.com",
-    "to": "s.soriafrausto@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-08T18:15:39+00:00",
-    "ticket_number": 9130,
-    "subject": "West James | Southern Comfort | Res #: 33775 | Pool Heat On",
-    "type": "reassigned",
-    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
-    "from": "h.mcnamara@choosegulfcoast.com",
-    "to": "s.soriafrausto@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-08T18:15:39+00:00",
-    "ticket_number": 9125,
-    "subject": "Gedarevich David/Lido Del Mare/Res #: 63850/Back door Lock Issue",
-    "type": "reassigned",
-    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
-    "from": "h.mcnamara@choosegulfcoast.com",
-    "to": "j.rushton@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-08T18:15:39+00:00",
-    "ticket_number": 9111,
-    "subject": "Colony Inn Unit Descriptions",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-09 14:39:03 to 2026-10-14 14:39:00",
-    "from": "2026-10-09 14:39:03",
-    "to": "2026-10-14 14:39:00"
-  },
-  {
-    "ts": "2026-10-08T18:15:39+00:00",
-    "ticket_number": 9103,
-    "subject": "Tropical Escape - New photos",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-08 22:00:00 to 2026-10-13 22:00:00",
-    "from": "2026-10-08 22:00:00",
-    "to": "2026-10-13 22:00:00"
-  },
-  {
-    "ts": "2026-10-08T18:15:39+00:00",
-    "ticket_number": 9101,
-    "subject": "Ocean Eyes - Celebration",
-    "type": "reassigned",
-    "detail": "Reassigned from j.messasierra@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
-    "from": "j.messasierra@choosegulfcoast.com",
-    "to": "s.soriafrausto@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-08T18:15:39+00:00",
-    "ticket_number": 9095,
-    "subject": "Request for cancellation due to low rate: A Shore Thing Res #: 64168",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-08 22:00:00 to 2026-10-13 22:00:00",
-    "from": "2026-10-08 22:00:00",
-    "to": "2026-10-13 22:00:00"
-  },
-  {
-    "ts": "2026-10-08T18:15:39+00:00",
-    "ticket_number": 9078,
-    "subject": "Grand Getaway- install pool lights.",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-07 16:00:00 to 2026-10-09 16:00:00",
-    "from": "2026-10-07 16:00:00",
-    "to": "2026-10-09 16:00:00"
   }
 ]
