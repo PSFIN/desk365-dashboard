@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-11-01T10:56:28+00:00",
+    "ticket_number": 9460,
+    "subject": "Res #: 65758| Guest Name: Leckerman Theresa M |Property/Unit: My Great Escape| Refund request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-10-31T23:53:05+00:00",
     "ticket_number": 9459,
     "subject": "Van den Heerik Jenette | Unit: Turtle House | Res #: 59381 | Guest Feedback",
@@ -7915,14 +7922,5 @@
     "detail": "Due date changed from 2026-10-07 16:00:00 to 2026-10-09 16:00:00",
     "from": "2026-10-07 16:00:00",
     "to": "2026-10-09 16:00:00"
-  },
-  {
-    "ts": "2026-10-08T18:15:39+00:00",
-    "ticket_number": 9071,
-    "subject": "Possible Guest/Cleo Brown/Pearl In The Rough/VRBO Guest Requests / Inquiries",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-08 16:21:07 to 2026-10-09 16:21:00",
-    "from": "2026-10-08 16:21:07",
-    "to": "2026-10-09 16:21:00"
   }
 ]
