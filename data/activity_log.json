@@ -1,5 +1,81 @@
 [
   {
+    "ts": "2026-11-02T07:06:29+00:00",
+    "ticket_number": 9471,
+    "subject": "4 Star Review Feedback | Res #: 59381 | Jenette Van den Heerik | Turtle House | 10/23/2026 - 10/28/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-02T07:06:29+00:00",
+    "ticket_number": 9470,
+    "subject": "5 Star Review Feedback | Res #: 55564 | Hagen Michael | Ocean Eyes | 10/23/2026 - 10/30/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-02T07:06:29+00:00",
+    "ticket_number": 9469,
+    "subject": "5 Star Review Feedback | Res #: 61017 | Post Brittany | Colony Inn C-02 | 10/28/2026 - 10/30/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to marcie@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-02T07:06:29+00:00",
+    "ticket_number": 9468,
+    "subject": "1 Star Review Feedback | Res #: 36469 | Hobson Katherine | Sandalfoot 1D2 | 10/24/2026 - 10/29/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.armstrong@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-02T07:06:29+00:00",
+    "ticket_number": 9467,
+    "subject": "Name: Johnson Linnea | Res: 64636 | Cancelled 50% Retained - OTA",
+    "type": "created",
+    "detail": "Created \u2014 assigned to a.ytac@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-02T07:06:29+00:00",
+    "ticket_number": 9466,
+    "subject": "Raymonds Retreat - AC Maintenance",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.thayer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-02T07:06:29+00:00",
+    "ticket_number": 9465,
+    "subject": "Gulf Standard - AC services",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.thayer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-02T07:06:29+00:00",
+    "ticket_number": 9403,
+    "subject": "Sun Seeker | Guest requests",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-29 18:40:50 to 2026-11-03 19:40:00",
+    "from": "2026-10-29 18:40:50",
+    "to": "2026-11-03 19:40:00"
+  },
+  {
+    "ts": "2026-11-02T07:06:29+00:00",
+    "ticket_number": 8754,
+    "subject": "#1364 owner --reimburse",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-24 16:53:00 to 2026-11-02 17:53:00",
+    "from": "2026-10-24 16:53:00",
+    "to": "2026-11-02 17:53:00"
+  },
+  {
+    "ts": "2026-11-02T07:06:29+00:00",
+    "ticket_number": 8410,
+    "subject": "YCBR Photo shoot",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-10-30 19:15:00 to 2026-11-13 20:15:00",
+    "from": "2026-10-30 19:15:00",
+    "to": "2026-11-13 20:15:00"
+  },
+  {
     "ts": "2026-11-02T00:55:49+00:00",
     "ticket_number": 9464,
     "subject": "Fireside Cottage - Rekey",
@@ -7844,75 +7920,5 @@
     "subject": "Legacy Rock from 3rd QTR L10 Sales",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-08T23:29:00+00:00",
-    "ticket_number": 9156,
-    "subject": "Legacy Rock from 3rd QTR Sales Meeting - Island Vacations Revenue Report",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-08T23:29:00+00:00",
-    "ticket_number": 9155,
-    "subject": "Template Creation / GBB Linen Program",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-08T23:29:00+00:00",
-    "ticket_number": 9079,
-    "subject": "Grand getaway- lock on pool controls outside",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-08T18:15:39+00:00",
-    "ticket_number": 9161,
-    "subject": "Property Management Inquiry",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.vandroff@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-08T18:15:39+00:00",
-    "ticket_number": 9160,
-    "subject": "Guest name: MELASECCA NUNEZ PATRICIA | Res #: 57445 | Unit: Turtle House | Multiple issues",
-    "type": "created",
-    "detail": "Created \u2014 assigned to j.delafuente@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-08T18:15:39+00:00",
-    "ticket_number": 9159,
-    "subject": "4 Star Review Feedback | Res #: 54994 | Kaake Ashley | Breakers West B7 | 10/01/2026-10/05/2026",
-    "type": "created",
-    "detail": "Created \u2014 assigned to l.costa@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-08T18:15:39+00:00",
-    "ticket_number": 9158,
-    "subject": "Guest Name: Kilthau Gerald & Jean | Res #: 62255 | Unit: Palm Meadow | Multiple Issues",
-    "type": "created",
-    "detail": "Created \u2014 assigned to j.delafuente@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-08T18:15:39+00:00",
-    "ticket_number": 9157,
-    "subject": "Legacy Rock from 3rd QTR L10 Sales",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.evans@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-08T18:15:39+00:00",
-    "ticket_number": 9156,
-    "subject": "Legacy Rock from 3rd QTR Sales Meeting - Island Vacations Revenue Report",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.evans@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-08T18:15:39+00:00",
-    "ticket_number": 9155,
-    "subject": "Template Creation / GBB Linen Program",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.evans@choosegulfcoast.com, status Open"
   }
 ]
