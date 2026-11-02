@@ -1,5 +1,130 @@
 [
   {
+    "ts": "2026-11-02T17:17:40+00:00",
+    "ticket_number": 9478,
+    "subject": "I have no ability to add issues in the meetings space",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.vengaloor@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-02T17:17:40+00:00",
+    "ticket_number": 9477,
+    "subject": "Please create a dash board to track home watch properties",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.evans@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-02T17:17:40+00:00",
+    "ticket_number": 9476,
+    "subject": "fire extinguisher order - 15 for office rotation",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-02T17:17:40+00:00",
+    "ticket_number": 9475,
+    "subject": "Guest Name: Franxman Chris | Res #: 65457 | Unit: Harbour Happiness | Requesting for discount",
+    "type": "created",
+    "detail": "Created \u2014 assigned to m.omasdang@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-02T17:17:40+00:00",
+    "ticket_number": 9474,
+    "subject": "Electronic lock offline - Par then bar",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.husak@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-02T17:17:40+00:00",
+    "ticket_number": 9473,
+    "subject": "Grand Getaway b2b owner came in early",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-02T17:17:40+00:00",
+    "ticket_number": 9472,
+    "subject": "Links & leisure wall heavily marked and overflowing garbage",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-02T17:17:40+00:00",
+    "ticket_number": 9471,
+    "subject": "4 Star Review Feedback | Res #: 59381 | Jenette Van den Heerik | Turtle House | 10/23/2026 - 10/28/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from j.rushton@choosegulfcoast.com to j.delafuente@choosegulfcoast.com",
+    "from": "j.rushton@choosegulfcoast.com",
+    "to": "j.delafuente@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-02T17:17:40+00:00",
+    "ticket_number": 9464,
+    "subject": "Fireside Cottage - Rekey",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-02T17:17:40+00:00",
+    "ticket_number": 8860,
+    "subject": "City of Bradenton VR License - Don't Worry Beach Happy | 502 Sanderling Circle",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-02 15:55:00 to 2026-11-06 15:55:00",
+    "from": "2026-11-02 15:55:00",
+    "to": "2026-11-06 15:55:00"
+  },
+  {
+    "ts": "2026-11-02T17:17:40+00:00",
+    "ticket_number": 9469,
+    "subject": "5 Star Review Feedback | Res #: 61017 | Post Brittany | Colony Inn C-02 | 10/28/2026 - 10/30/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-02T17:17:40+00:00",
+    "ticket_number": 9455,
+    "subject": "rent rev",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-02T17:17:40+00:00",
+    "ticket_number": 9454,
+    "subject": "rent rev",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-02T17:17:40+00:00",
+    "ticket_number": 9401,
+    "subject": "5 Star Review Feedback | Res #: 58847 | Hess Diane | Sandalfoot 1D1 | 10/17/2026 - 10/24/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-02T17:17:40+00:00",
+    "ticket_number": 9358,
+    "subject": "Raymonds Retreat - Lynx lock",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-02T17:17:40+00:00",
+    "ticket_number": 9357,
+    "subject": "GBB1332 - Lynx lock",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-02T17:17:40+00:00",
+    "ticket_number": 8861,
+    "subject": "City of Bradenton VR License - Florida Dreams | 4457 45th Avenue West, #110",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-11-02T07:06:29+00:00",
     "ticket_number": 9471,
     "subject": "4 Star Review Feedback | Res #: 59381 | Jenette Van den Heerik | Turtle House | 10/23/2026 - 10/28/2026",
@@ -7783,141 +7908,6 @@
     "ts": "2026-10-09T17:15:36+00:00",
     "ticket_number": 9078,
     "subject": "Grand Getaway- install pool lights.",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-09T17:15:36+00:00",
-    "ticket_number": 9042,
-    "subject": "Guest Name: Bosqui Frank | Res #: 59277 | Unit: Villa Milano",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-09T10:46:50+00:00",
-    "ticket_number": 9166,
-    "subject": "Krumm Marissa/Gulf & Bay Bayside - 1260/Res #: 58705/Broken Refrigerator Door Shelf",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-09T10:46:50+00:00",
-    "ticket_number": 9125,
-    "subject": "Gedarevich David/Lido Del Mare/Res #: 63850/Back door Lock Issue",
-    "type": "reassigned",
-    "detail": "Reassigned from j.rushton@choosegulfcoast.com to l.susas@choosegulfcoast.com",
-    "from": "j.rushton@choosegulfcoast.com",
-    "to": "l.susas@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-09T03:02:05+00:00",
-    "ticket_number": 9153,
-    "subject": "Southern Exposure/Back door unlocked",
-    "type": "reassigned",
-    "detail": "Reassigned from m.eronico@choosegulfcoast.com to a.maboloc@choosegulfcoast.com",
-    "from": "m.eronico@choosegulfcoast.com",
-    "to": "a.maboloc@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-09T03:02:05+00:00",
-    "ticket_number": 7156,
-    "subject": "PCA for Don't Worry Beach Happy Due Date: 7/15/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-12 22:00:00 to 2026-10-24 22:00:00",
-    "from": "2026-10-12 22:00:00",
-    "to": "2026-10-24 22:00:00"
-  },
-  {
-    "ts": "2026-10-08T23:29:00+00:00",
-    "ticket_number": 9165,
-    "subject": "Request for P&L Statements | Sandalfoot 4B2 | Brian Schneider",
-    "type": "created",
-    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-08T23:29:00+00:00",
-    "ticket_number": 9164,
-    "subject": "Merrikin Richard/O6ERS/Res #: 62688/ Cancellation Request",
-    "type": "created",
-    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-08T23:29:00+00:00",
-    "ticket_number": 9163,
-    "subject": "Take Photos New AR GC1899",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-08T23:29:00+00:00",
-    "ticket_number": 9162,
-    "subject": "Sun Seeker-owner min",
-    "type": "created",
-    "detail": "Created \u2014 assigned to a.guarin@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-08T23:29:00+00:00",
-    "ticket_number": 9118,
-    "subject": "rent rev",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.paulin@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-08T23:29:00+00:00",
-    "ticket_number": 8499,
-    "subject": "Cedar Hammock Fire District Inspection - Multiple Units",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-08 21:00:00 to 2026-10-09 21:00:00",
-    "from": "2026-10-08 21:00:00",
-    "to": "2026-10-09 21:00:00"
-  },
-  {
-    "ts": "2026-10-08T23:29:00+00:00",
-    "ticket_number": 8444,
-    "subject": "PCA for Par Then Bar Due Date: 12/20/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from t.healy@choosegulfcoast.com to z.adair@choosegulfcoast.com",
-    "from": "t.healy@choosegulfcoast.com",
-    "to": "z.adair@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-08T23:29:00+00:00",
-    "ticket_number": 8329,
-    "subject": "PCA for Sunset On The Gulf Due Date: 9/12/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from t.healy@choosegulfcoast.com to z.adair@choosegulfcoast.com",
-    "from": "t.healy@choosegulfcoast.com",
-    "to": "z.adair@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-08T23:29:00+00:00",
-    "ticket_number": 8179,
-    "subject": "PCA for Little Bit Of Heaven Due Date: 9/8/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from t.healy@choosegulfcoast.com to z.adair@choosegulfcoast.com",
-    "from": "t.healy@choosegulfcoast.com",
-    "to": "z.adair@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-08T23:29:00+00:00",
-    "ticket_number": 7598,
-    "subject": "PCA for Longboat Oasis Due Date: 8/4/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from t.healy@choosegulfcoast.com to z.adair@choosegulfcoast.com",
-    "from": "t.healy@choosegulfcoast.com",
-    "to": "z.adair@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-08T23:29:00+00:00",
-    "ticket_number": 9161,
-    "subject": "Property Management Inquiry",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-08T23:29:00+00:00",
-    "ticket_number": 9157,
-    "subject": "Legacy Rock from 3rd QTR L10 Sales",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }

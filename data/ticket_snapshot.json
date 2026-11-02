@@ -1,7 +1,56 @@
 {
+  "9478": {
+    "subject": "I have no ability to add issues in the meetings space",
+    "assigned_to": "s.vengaloor@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-05 16:44:17",
+    "priority": 1
+  },
+  "9477": {
+    "subject": "Please create a dash board to track home watch properties",
+    "assigned_to": "b.evans@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-05 16:41:43",
+    "priority": 1
+  },
+  "9476": {
+    "subject": "fire extinguisher order - 15 for office rotation",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-05 16:37:34",
+    "priority": 1
+  },
+  "9475": {
+    "subject": "Guest Name: Franxman Chris | Res #: 65457 | Unit: Harbour Happiness | Requesting for discount",
+    "assigned_to": "m.omasdang@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-05 16:32:30",
+    "priority": 1
+  },
+  "9474": {
+    "subject": "Electronic lock offline - Par then bar",
+    "assigned_to": "d.husak@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-05 15:36:58",
+    "priority": 10
+  },
+  "9473": {
+    "subject": "Grand Getaway b2b owner came in early",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-05 14:35:24",
+    "priority": 1
+  },
+  "9472": {
+    "subject": "Links & leisure wall heavily marked and overflowing garbage",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-05 14:28:28",
+    "priority": 1
+  },
   "9471": {
     "subject": "4 Star Review Feedback | Res #: 59381 | Jenette Van den Heerik | Turtle House | 10/23/2026 - 10/28/2026",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-04 22:00:00",
     "priority": 1
@@ -9,13 +58,6 @@
   "9470": {
     "subject": "5 Star Review Feedback | Res #: 55564 | Hagen Michael | Ocean Eyes | 10/23/2026 - 10/30/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-04 22:00:00",
-    "priority": 1
-  },
-  "9469": {
-    "subject": "5 Star Review Feedback | Res #: 61017 | Post Brittany | Colony Inn C-02 | 10/28/2026 - 10/30/2026",
-    "assigned_to": "marcie@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-04 22:00:00",
     "priority": 1
@@ -50,7 +92,7 @@
   },
   "9464": {
     "subject": "Fireside Cottage - Rekey",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-04 22:00:00",
     "priority": 1
@@ -110,20 +152,6 @@
     "status": "Open",
     "due_date": "2026-11-04 20:42:03",
     "priority": 1
-  },
-  "9455": {
-    "subject": "rent rev",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-03 16:26:29",
-    "priority": 20
-  },
-  "9454": {
-    "subject": "rent rev",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-03 16:19:24",
-    "priority": 20
   },
   "9453": {
     "subject": "Guest Name: Lentini Janelle | Res #: 65053 | Unit: Pineapple Way | Compensation request",
@@ -328,13 +356,6 @@
     "due_date": "2026-11-03 19:40:00",
     "priority": 1
   },
-  "9401": {
-    "subject": "5 Star Review Feedback | Res #: 58847 | Hess Diane | Sandalfoot 1D1 | 10/17/2026 - 10/24/2026",
-    "assigned_to": "n.armstrong@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-29 17:42:34",
-    "priority": 1
-  },
   "9399": {
     "subject": "Lynx Lock tab-work order dashboard",
     "assigned_to": "b.evans@choosegulfcoast.com",
@@ -396,20 +417,6 @@
     "assigned_to": "j.banks@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-26 18:23:30",
-    "priority": 1
-  },
-  "9358": {
-    "subject": "Raymonds Retreat - Lynx lock",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-02 18:59:00",
-    "priority": 1
-  },
-  "9357": {
-    "subject": "GBB1332 - Lynx lock",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-02 18:59:00",
     "priority": 1
   },
   "9354": {
@@ -783,18 +790,11 @@
     "due_date": "2026-11-04 17:42:00",
     "priority": 20
   },
-  "8861": {
-    "subject": "City of Bradenton VR License - Florida Dreams | 4457 45th Avenue West, #110",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-30 15:58:00",
-    "priority": 20
-  },
   "8860": {
     "subject": "City of Bradenton VR License - Don't Worry Beach Happy | 502 Sanderling Circle",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-02 15:55:00",
+    "due_date": "2026-11-06 15:55:00",
     "priority": 20
   },
   "8856": {
