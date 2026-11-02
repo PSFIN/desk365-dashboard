@@ -1,4 +1,25 @@
 {
+  "9482": {
+    "subject": "New Bloom: Request to change the format of each section in Account Managers Meeting",
+    "assigned_to": "s.vengaloor@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-05 20:54:59",
+    "priority": 5
+  },
+  "9480": {
+    "subject": "My Great Escape-Black flow testing",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-05 19:19:40",
+    "priority": 10
+  },
+  "9479": {
+    "subject": "BLAIR Robert |  Res #: 65585 | VRBO Cancellation",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-05 17:59:45",
+    "priority": 1
+  },
   "9478": {
     "subject": "I have no ability to add issues in the meetings space",
     "assigned_to": "s.vengaloor@choosegulfcoast.com",
@@ -52,7 +73,7 @@
     "subject": "4 Star Review Feedback | Res #: 59381 | Jenette Van den Heerik | Turtle House | 10/23/2026 - 10/28/2026",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-04 22:00:00",
+    "due_date": "2026-11-05 22:00:00",
     "priority": 1
   },
   "9470": {
@@ -76,20 +97,6 @@
     "due_date": "2026-11-04 22:00:00",
     "priority": 1
   },
-  "9466": {
-    "subject": "Raymonds Retreat - AC Maintenance",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-04 22:00:00",
-    "priority": 1
-  },
-  "9465": {
-    "subject": "Gulf Standard - AC services",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-04 22:00:00",
-    "priority": 1
-  },
   "9464": {
     "subject": "Fireside Cottage - Rekey",
     "assigned_to": "d.husak@choosegulfcoast.com",
@@ -107,13 +114,6 @@
   "9462": {
     "subject": "Findlay Colleen | Unit: LuvLax | Res #: 63444 | Cancellation Request",
     "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-04 22:00:00",
-    "priority": 1
-  },
-  "9461": {
-    "subject": "Sanderson Wendy | Res #: 66053 | Cancellation",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-04 22:00:00",
     "priority": 1
@@ -141,7 +141,7 @@
   },
   "9457": {
     "subject": "Steinberg David | Res #: 61974 and Res #: 61973 |  Cancellation | 2 reservations",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-04 22:00:00",
     "priority": 1
@@ -181,13 +181,6 @@
     "due_date": "2026-11-04 15:01:35",
     "priority": 1
   },
-  "9448": {
-    "subject": "Berkey Betsy/Enjoy Sarasota/  Res #: 65948/ Cancellation Request",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-03 21:24:08",
-    "priority": 1
-  },
   "9447": {
     "subject": "Glorious Golfers - Internet",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
@@ -207,13 +200,6 @@
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-03 19:57:43",
-    "priority": 1
-  },
-  "9444": {
-    "subject": "Name: DeSheles Latricia | Res: 65453 & 65931 | Airbnb Reservation Split Between Units 10 & 08",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-03 19:31:56",
     "priority": 1
   },
   "9443": {
@@ -337,7 +323,7 @@
   },
   "9412": {
     "subject": "Deactivating Property : zSugar Beach",
-    "assigned_to": "a.guarin@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-30 15:41:17",
     "priority": 1
@@ -377,6 +363,13 @@
     "due_date": "2026-11-02 23:00:00",
     "priority": 1
   },
+  "9374": {
+    "subject": "Res #65280 NPG Charge Owner Commission",
+    "assigned_to": "a.ytac@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-03 16:23:18",
+    "priority": 20
+  },
   "9368": {
     "subject": "Flip Flop Retreat - excessive cleaning charge 10-22-26",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
@@ -395,7 +388,7 @@
     "subject": "Approach shot - Lynx lock",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-02 23:00:00",
+    "due_date": "2026-11-05 23:00:00",
     "priority": 1
   },
   "9362": {
@@ -479,7 +472,7 @@
     "subject": "GBB1318 Fan in master",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-02 23:00:00",
+    "due_date": "2026-11-05 23:00:00",
     "priority": 1
   },
   "9312": {
@@ -713,13 +706,6 @@
     "due_date": "2026-11-04 22:00:00",
     "priority": 1
   },
-  "9110": {
-    "subject": "City of Sarasota VR License - Beautiful Bayou | 2124 North Tamiami Trail",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-02 19:33:00",
-    "priority": 10
-  },
   "9076": {
     "subject": "Grill",
     "assigned_to": "n.ventura@choosegulfcoast.com",
@@ -801,7 +787,7 @@
     "subject": "DR-11 Form : Tee Time | 19116 Scallop Loop, #105",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-02 21:00:00",
+    "due_date": "2026-11-05 21:00:00",
     "priority": 10
   },
   "8830": {
@@ -829,7 +815,7 @@
     "subject": "Name: ippolito barbara | Res: 51748 |  Hold Distribution of Cancelled Reservation Funds",
     "assigned_to": "a.ytac@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-30 17:06:00",
+    "due_date": "2026-12-02 00:06:00",
     "priority": 1
   },
   "8575": {
@@ -843,7 +829,7 @@
     "subject": "DR-11 Form :  Splash Decision - 14881 Laguna Drive",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-02 21:00:00",
+    "due_date": "2026-11-05 21:00:00",
     "priority": 10
   },
   "8562": {
@@ -857,7 +843,7 @@
     "subject": "DR-11 Form : Putt in Paradise -19116 SCALLOP LOOP, #202",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-02 21:00:00",
+    "due_date": "2026-11-05 21:00:00",
     "priority": 10
   },
   "8505": {
@@ -871,7 +857,7 @@
     "subject": "Cedar Hammock Fire District Inspection - Multiple Units",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-02 21:00:00",
+    "due_date": "2026-11-05 21:00:00",
     "priority": 10
   },
   "8444": {
@@ -892,7 +878,7 @@
     "subject": "DR-11 Forms : Multiple Property Units",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-02 21:00:00",
+    "due_date": "2026-11-05 21:00:00",
     "priority": 10
   },
   "8365": {
@@ -946,7 +932,7 @@
   },
   "7431": {
     "subject": "Name:Sauter Theresa | Res: 54591-HM2RHWK2SM | Cancelled 50% Retained - OTA | Cancelled Funds Retained by GC",
-    "assigned_to": "m.johnston@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-07-07 17:34:00",
     "priority": 1
