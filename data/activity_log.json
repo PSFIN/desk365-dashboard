@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-11-02T00:55:49+00:00",
+    "ticket_number": 9464,
+    "subject": "Fireside Cottage - Rekey",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-11-01T16:59:09+00:00",
     "ticket_number": 9463,
     "subject": "SCHARRET Kim | Unit: Colony Inn C-54 | Res #: 64877 | Guest Feedback",
@@ -7907,14 +7914,5 @@
     "subject": "Template Creation / GBB Linen Program",
     "type": "created",
     "detail": "Created \u2014 assigned to b.evans@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-08T18:15:39+00:00",
-    "ticket_number": 9144,
-    "subject": "GBB1350 - Deep clean",
-    "type": "reassigned",
-    "detail": "Reassigned from j.messasierra@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
-    "from": "j.messasierra@choosegulfcoast.com",
-    "to": "j.rushton@choosegulfcoast.com"
   }
 ]
