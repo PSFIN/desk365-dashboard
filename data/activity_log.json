@@ -1,5 +1,14 @@
 [
   {
+    "ts": "2026-11-03T12:55:25+00:00",
+    "ticket_number": 9475,
+    "subject": "Guest Name: Franxman Chris | Res #: 65457 | Unit: Harbour Happiness | Requesting for discount",
+    "type": "reassigned",
+    "detail": "Reassigned from m.omasdang@choosegulfcoast.com to m.eronico@choosegulfcoast.com",
+    "from": "m.omasdang@choosegulfcoast.com",
+    "to": "m.eronico@choosegulfcoast.com"
+  },
+  {
     "ts": "2026-11-03T05:26:23+00:00",
     "ticket_number": 9483,
     "subject": "Franxman Chris/Harbour Happiness/Res #: 65457/Gas Grill",
@@ -7895,12 +7904,5 @@
     "subject": "5 Star Review Feedback | Res #: 64025 | Lombardi Gabriel | Colony Inn C-46 | 10/06/2026-10/08/2026",
     "type": "created",
     "detail": "Created \u2014 assigned to b.evans@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-09T17:15:36+00:00",
-    "ticket_number": 9167,
-    "subject": "Low Lynx Locks",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
   }
 ]
