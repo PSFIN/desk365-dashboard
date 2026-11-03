@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-11-03T05:26:23+00:00",
+    "ticket_number": 9483,
+    "subject": "Franxman Chris/Harbour Happiness/Res #: 65457/Gas Grill",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.husak@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-11-02T23:57:11+00:00",
     "ticket_number": 9482,
     "subject": "New Bloom: Request to change the format of each section in Account Managers Meeting",
@@ -7895,14 +7902,5 @@
     "subject": "Low Lynx Locks",
     "type": "created",
     "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-09T17:15:36+00:00",
-    "ticket_number": 9166,
-    "subject": "Krumm Marissa/Gulf & Bay Bayside - 1260/Res #: 58705/Broken Refrigerator Door Shelf",
-    "type": "reassigned",
-    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to m.omasdang@choosegulfcoast.com",
-    "from": "h.mcnamara@choosegulfcoast.com",
-    "to": "m.omasdang@choosegulfcoast.com"
   }
 ]
