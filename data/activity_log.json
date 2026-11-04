@@ -1,5 +1,88 @@
 [
   {
+    "ts": "2026-11-04T00:18:43+00:00",
+    "ticket_number": 9502,
+    "subject": "ADRI Claim Signal Inn #7",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.thayer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-04T00:18:43+00:00",
+    "ticket_number": 9501,
+    "subject": "Business Cards - Autumn",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-04T00:18:43+00:00",
+    "ticket_number": 9500,
+    "subject": "Teams Background",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-04T00:18:43+00:00",
+    "ticket_number": 9499,
+    "subject": "Business Cards - Blank",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-04T00:18:43+00:00",
+    "ticket_number": 9498,
+    "subject": "GCAM Team Mmebers",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-04T00:18:43+00:00",
+    "ticket_number": 9495,
+    "subject": "Dreams of Paradise- comp night stands",
+    "type": "reassigned",
+    "detail": "Reassigned from m.johnston@choosegulfcoast.com to e.morales@choosegulfcoast.com",
+    "from": "m.johnston@choosegulfcoast.com",
+    "to": "e.morales@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-04T00:18:43+00:00",
+    "ticket_number": 9495,
+    "subject": "Dreams of Paradise- comp night stands",
+    "type": "priority_changed",
+    "detail": "Priority changed from 1 to 10",
+    "from": 1,
+    "to": 10
+  },
+  {
+    "ts": "2026-11-04T00:18:43+00:00",
+    "ticket_number": 9453,
+    "subject": "Guest Name: Lentini Janelle | Res #: 65053 | Unit: Pineapple Way | Compensation request",
+    "type": "reassigned",
+    "detail": "Reassigned from m.omasdang@choosegulfcoast.com to h.nomura@choosegulfcoast.com",
+    "from": "m.omasdang@choosegulfcoast.com",
+    "to": "h.nomura@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-04T00:18:43+00:00",
+    "ticket_number": 9483,
+    "subject": "Franxman Chris/Harbour Happiness/Res #: 65457/Gas Grill",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-04T00:18:43+00:00",
+    "ticket_number": 9475,
+    "subject": "Guest Name: Franxman Chris | Res #: 65457 | Unit: Harbour Happiness | Requesting for discount",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-04T00:18:43+00:00",
+    "ticket_number": 9384,
+    "subject": "5 Star Review Feedback | Res #: 58843 | Kiehlmann Lara | Dreams Of Paradise | 10/18/2026 - 10/22/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-11-03T19:55:15+00:00",
     "ticket_number": 9497,
     "subject": "YCBR Ready Units - Write Description",
@@ -7825,96 +7908,5 @@
     "detail": "Due date changed from 2026-10-09 21:13:00 to 2026-10-12 21:13:00",
     "from": "2026-10-09 21:13:00",
     "to": "2026-10-12 21:13:00"
-  },
-  {
-    "ts": "2026-10-10T21:54:08+00:00",
-    "ticket_number": 8825,
-    "subject": "Sliding door lock project",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-08 15:51:00 to 2026-10-12 15:51:00",
-    "from": "2026-10-08 15:51:00",
-    "to": "2026-10-12 15:51:00"
-  },
-  {
-    "ts": "2026-10-10T21:54:08+00:00",
-    "ticket_number": 9096,
-    "subject": "Res #: 53462| Unit: Signal Inn - Unit 17| Guest Name: Savage Lisa| shower handle is loose",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-10T18:08:33+00:00",
-    "ticket_number": 9186,
-    "subject": "Gulf Horizon | Bathroom toilet issue",
-    "type": "created",
-    "detail": "Created \u2014 assigned to j.delafuente@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-10T13:54:43+00:00",
-    "ticket_number": 9185,
-    "subject": "Reitz Alexander |  Res #: 58854 | Dreams of Paradise | AC issue",
-    "type": "created",
-    "detail": "Created \u2014 assigned to j.delafuente@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-10T13:54:43+00:00",
-    "ticket_number": 9184,
-    "subject": "Kenney Patrick |   Res#: 60210 | Signal Inn - Unit 16 | Damaged Window Shade",
-    "type": "created",
-    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-10T13:54:43+00:00",
-    "ticket_number": 8861,
-    "subject": "City of Bradenton VR License - Florida Dreams | 4457 45th Avenue West, #110",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-10 15:55:00 to 2026-10-12 15:55:00",
-    "from": "2026-10-10 15:55:00",
-    "to": "2026-10-12 15:55:00"
-  },
-  {
-    "ts": "2026-10-10T13:54:43+00:00",
-    "ticket_number": 8860,
-    "subject": "City of Bradenton VR License - Don't Worry Beach Happy | 502 Sanderling Circle",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-10 15:43:00 to 2026-10-12 15:43:00",
-    "from": "2026-10-10 15:43:00",
-    "to": "2026-10-12 15:43:00"
-  },
-  {
-    "ts": "2026-10-10T13:54:43+00:00",
-    "ticket_number": 8859,
-    "subject": "City of Bradenton VR License - Blossom Retreat | 7333 Skybird Road",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-10 15:30:00 to 2026-10-12 15:30:00",
-    "from": "2026-10-10 15:30:00",
-    "to": "2026-10-12 15:30:00"
-  },
-  {
-    "ts": "2026-10-10T13:54:43+00:00",
-    "ticket_number": 8499,
-    "subject": "Cedar Hammock Fire District Inspection - Multiple Units",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-09 21:00:00 to 2026-10-12 21:00:00",
-    "from": "2026-10-09 21:00:00",
-    "to": "2026-10-12 21:00:00"
-  },
-  {
-    "ts": "2026-10-10T07:26:11+00:00",
-    "ticket_number": 9113,
-    "subject": "Name: Anstruther Susan | Res: 63854 | Cancelled 50% Retained - OTA",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-09 15:40:59 to 2026-10-20 15:40:00",
-    "from": "2026-10-09 15:40:59",
-    "to": "2026-10-20 15:40:00"
-  },
-  {
-    "ts": "2026-10-10T07:26:11+00:00",
-    "ticket_number": 9089,
-    "subject": "Name: Schulte Kristina | Res: 36955 | Refund Check Request",
-    "type": "reassigned",
-    "detail": "Reassigned from e.morales@choosegulfcoast.com to k.fisher@choosegulfcoast.com",
-    "from": "e.morales@choosegulfcoast.com",
-    "to": "k.fisher@choosegulfcoast.com"
   }
 ]
