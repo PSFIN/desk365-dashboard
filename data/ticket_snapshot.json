@@ -1,4 +1,39 @@
 {
+  "9508": {
+    "subject": "GBB1344 - New photos",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-09 14:34:36",
+    "priority": 1
+  },
+  "9507": {
+    "subject": "Update form on GCAM webiste",
+    "assigned_to": "e.buchanan@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-09 14:12:02",
+    "priority": 10
+  },
+  "9506": {
+    "subject": "Looby Susan | Golfer Grove |  Res #: 51582 | Cancellation",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-06 22:00:00",
+    "priority": 1
+  },
+  "9505": {
+    "subject": "Barfels Thomas  | Colony Inn C11 | Cancellation | Res #: 63141",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-06 22:00:00",
+    "priority": 1
+  },
+  "9504": {
+    "subject": "Cancellation Request - Res #: 63141",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-06 22:00:00",
+    "priority": 1
+  },
   "9503": {
     "subject": "Langman Andrea/ Signal Inn - Unit 07/Res #: 63153/ Cancellation Request",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
@@ -48,13 +83,6 @@
     "due_date": "2026-11-06 19:52:29",
     "priority": 1
   },
-  "9496": {
-    "subject": "zfairway to paradise-open March",
-    "assigned_to": "a.alvarado@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-06 19:52:24",
-    "priority": 1
-  },
   "9495": {
     "subject": "Dreams of Paradise- comp night stands",
     "assigned_to": "e.morales@choosegulfcoast.com",
@@ -66,7 +94,7 @@
     "subject": "Dreams of Paradise-pick up new nights stands",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-06 17:06:02",
+    "due_date": "2026-12-07 17:06:00",
     "priority": 1
   },
   "9486": {
@@ -75,20 +103,6 @@
     "status": "Open",
     "due_date": "2026-11-06 14:47:05",
     "priority": 1
-  },
-  "9485": {
-    "subject": "Hibiscus Haven-remove block",
-    "assigned_to": "a.alvarado@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-06 14:17:27",
-    "priority": 10
-  },
-  "9484": {
-    "subject": "Fairway to Paradise -March",
-    "assigned_to": "a.alvarado@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-06 14:12:11",
-    "priority": 10
   },
   "9482": {
     "subject": "New Bloom: Request to change the format of each section in Account Managers Meeting",
@@ -327,13 +341,6 @@
     "status": "Open",
     "due_date": "2026-11-10 18:08:00",
     "priority": 5
-  },
-  "9416": {
-    "subject": "Fireside Cottage \u2013 Verify Lynx Lock and Guest Key Access",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-02 17:14:00",
-    "priority": 10
   },
   "9414": {
     "subject": "Onboarding inventory Sheet for VR owners",
@@ -844,13 +851,6 @@
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-05 21:00:00",
-    "priority": 10
-  },
-  "8505": {
-    "subject": "Create Dashboard for Work Order Performance",
-    "assigned_to": "s.vengaloor@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-30 23:00:00",
     "priority": 10
   },
   "8499": {
