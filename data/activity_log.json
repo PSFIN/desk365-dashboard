@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-11-04T06:47:30+00:00",
+    "ticket_number": 9503,
+    "subject": "Langman Andrea/ Signal Inn - Unit 07/Res #: 63153/ Cancellation Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-11-04T00:18:43+00:00",
     "ticket_number": 9502,
     "subject": "ADRI Claim Signal Inn #7",
@@ -7899,14 +7906,5 @@
     "detail": "Due date changed from 2026-10-07 17:00:00 to 2026-10-19 17:00:00",
     "from": "2026-10-07 17:00:00",
     "to": "2026-10-19 17:00:00"
-  },
-  {
-    "ts": "2026-10-10T21:54:08+00:00",
-    "ticket_number": 8830,
-    "subject": "Pellito Laurie/Signal Inn - Unit 14/Signal Inn - Unit 14/Property Feedback",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-09 21:13:00 to 2026-10-12 21:13:00",
-    "from": "2026-10-09 21:13:00",
-    "to": "2026-10-12 21:13:00"
   }
 ]
