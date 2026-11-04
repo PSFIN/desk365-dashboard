@@ -1,17 +1,101 @@
 {
+  "9530": {
+    "subject": "Beach Heron - Statement correction",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-09 20:41:20",
+    "priority": 1
+  },
+  "9528": {
+    "subject": "GBB1338 - ARDI Claim",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-09 20:24:38",
+    "priority": 1
+  },
+  "9527": {
+    "subject": "GBB 1344 - Statement",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-09 20:18:24",
+    "priority": 1
+  },
+  "9526": {
+    "subject": "GBB1344 - ARDI",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-09 20:16:49",
+    "priority": 1
+  },
+  "9525": {
+    "subject": "Resident Benefits Package PDF Flyer",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-09 20:02:58",
+    "priority": 5
+  },
+  "9524": {
+    "subject": "5 Star Review Feedback | Res #: 58446 | Murdock David | Signal Inn - Unit 16 | 10/15/2026 - 10/19/2026",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-09 19:54:08",
+    "priority": 1
+  },
+  "9523": {
+    "subject": "Resident Benefits Package PDF Flyer",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-09 19:49:38",
+    "priority": 5
+  },
+  "9521": {
+    "subject": "GBB1305 - ARDI Claim",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-09 19:07:51",
+    "priority": 1
+  },
+  "9519": {
+    "subject": "Unit: Golfers Grove | Guest Name: Looby Susan | Res #: 51582 | Cancelation Request",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-09 18:50:59",
+    "priority": 1
+  },
+  "9518": {
+    "subject": "Birdie - Guest needs maintenance",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-09 17:20:34",
+    "priority": 1
+  },
+  "9514": {
+    "subject": "Price Projection",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-09 16:20:14",
+    "priority": 10
+  },
+  "9512": {
+    "subject": "Fort Myers - SPLASH DECISION - Onboarding Photo Shoot",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-13 19:11:00",
+    "priority": 20
+  },
+  "9509": {
+    "subject": "Hibiscus Haven, relist the property on the OTAs",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-09 14:59:19",
+    "priority": 5
+  },
   "9508": {
     "subject": "GBB1344 - New photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-09 14:34:36",
+    "due_date": "2026-11-13 14:34:00",
     "priority": 1
-  },
-  "9507": {
-    "subject": "Update form on GCAM webiste",
-    "assigned_to": "e.buchanan@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-09 14:12:02",
-    "priority": 10
   },
   "9506": {
     "subject": "Looby Susan | Golfer Grove |  Res #: 51582 | Cancellation",
@@ -43,7 +127,7 @@
   },
   "9502": {
     "subject": "ADRI Claim Signal Inn #7",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-06 21:14:36",
     "priority": 1
@@ -80,15 +164,8 @@
     "subject": "YCBR Ready Units - Write Description",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-06 19:52:29",
+    "due_date": "2026-11-11 19:52:00",
     "priority": 1
-  },
-  "9495": {
-    "subject": "Dreams of Paradise- comp night stands",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-06 18:06:08",
-    "priority": 10
   },
   "9494": {
     "subject": "Dreams of Paradise-pick up new nights stands",
@@ -132,20 +209,6 @@
     "due_date": "2026-11-05 16:37:34",
     "priority": 1
   },
-  "9474": {
-    "subject": "Electronic lock offline - Par then bar",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-05 15:36:58",
-    "priority": 10
-  },
-  "9473": {
-    "subject": "Grand Getaway b2b owner came in early",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-05 14:35:24",
-    "priority": 1
-  },
   "9472": {
     "subject": "Links & leisure wall heavily marked and overflowing garbage",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
@@ -162,7 +225,7 @@
   },
   "9470": {
     "subject": "5 Star Review Feedback | Res #: 55564 | Hagen Michael | Ocean Eyes | 10/23/2026 - 10/30/2026",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-04 22:00:00",
     "priority": 1
@@ -209,13 +272,6 @@
     "due_date": "2026-11-04 22:00:00",
     "priority": 1
   },
-  "9457": {
-    "subject": "Steinberg David | Res #: 61974 and Res #: 61973 |  Cancellation | 2 reservations",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-04 22:00:00",
-    "priority": 1
-  },
   "9456": {
     "subject": "Olsen Denise/Fairways to Coastline/Res #: 64745/Cancellation Request",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
@@ -223,16 +279,9 @@
     "due_date": "2026-11-04 20:42:03",
     "priority": 1
   },
-  "9453": {
-    "subject": "Guest Name: Lentini Janelle | Res #: 65053 | Unit: Pineapple Way | Compensation request",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-04 19:22:44",
-    "priority": 1
-  },
   "9451": {
     "subject": "A Shore Thing | Multiple issues",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-04 16:24:02",
     "priority": 1
@@ -248,7 +297,7 @@
     "subject": "Ospreys Nest | Cracked toilet bowl",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-03 19:57:43",
+    "due_date": "2026-11-06 19:57:00",
     "priority": 1
   },
   "9441": {
@@ -267,7 +316,7 @@
   },
   "9439": {
     "subject": "GBB 1382 - Front door paint",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-03 16:03:18",
     "priority": 1
@@ -277,62 +326,6 @@
     "assigned_to": "j.banks@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-02 22:00:00",
-    "priority": 1
-  },
-  "9437": {
-    "subject": "Name: Robbins Deborah | Res: 64411 | Request for 2 Lounge Chairs for Upcoming Guest",
-    "assigned_to": "d.husak@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-02 22:00:00",
-    "priority": 1
-  },
-  "9427": {
-    "subject": "YCBR Res#33997",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-30 19:35:09",
-    "priority": 1
-  },
-  "9425": {
-    "subject": "YCBR Res#33998",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-30 19:03:56",
-    "priority": 1
-  },
-  "9424": {
-    "subject": "YCBR Res#33999",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-30 19:01:00",
-    "priority": 1
-  },
-  "9423": {
-    "subject": "YCBR Res#34000",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-30 19:00:15",
-    "priority": 1
-  },
-  "9422": {
-    "subject": "YCBR Res#33995",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-30 18:55:43",
-    "priority": 1
-  },
-  "9421": {
-    "subject": "YCBR Res#34001",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-30 18:55:00",
-    "priority": 1
-  },
-  "9419": {
-    "subject": "YCBR Res#33996",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-30 18:52:12",
     "priority": 1
   },
   "9417": {
@@ -486,7 +479,7 @@
     "subject": "Colony unit photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-06 15:06:00",
+    "due_date": "2026-11-27 15:06:00",
     "priority": 5
   },
   "9310": {
@@ -522,13 +515,6 @@
     "assigned_to": "a.ytac@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-04 22:00:00",
-    "priority": 1
-  },
-  "9259": {
-    "subject": "Name: Rosar Elijah | Res: 64139 | Property: Tee Time | Cancelled Funds Retained by GC",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-02 20:43:00",
     "priority": 1
   },
   "9228": {
@@ -727,19 +713,19 @@
     "due_date": "2026-11-13 23:00:00",
     "priority": 1
   },
-  "9046": {
-    "subject": "1260 broken fridge shelf-ARDI?",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-14 22:00:00",
-    "priority": 5
-  },
   "9041": {
     "subject": "New photos",
     "assigned_to": "n.armstrong@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-08 17:55:00",
     "priority": 1
+  },
+  "9039": {
+    "subject": "Sales & Tourist Tax Remittance - September 2026",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-04 22:00:00",
+    "priority": 10
   },
   "8951": {
     "subject": "Sanibel HOA Email",
@@ -780,7 +766,7 @@
     "subject": "City of Bradenton VR License - Tropical Gulf Retreat | 4325 46th Avenue West, #203",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-04 17:42:00",
+    "due_date": "2026-11-06 17:42:00",
     "priority": 20
   },
   "8860": {
@@ -810,13 +796,6 @@
     "status": "Open",
     "due_date": "2026-11-13 16:51:00",
     "priority": 1
-  },
-  "8754": {
-    "subject": "#1364 owner --reimburse",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-02 17:53:00",
-    "priority": 10
   },
   "8683": {
     "subject": "Name: ippolito barbara | Res: 51748 |  Hold Distribution of Cancelled Reservation Funds",
@@ -929,13 +908,6 @@
     "status": "Open",
     "due_date": "2026-11-07 23:00:00",
     "priority": 5
-  },
-  "7431": {
-    "subject": "Name:Sauter Theresa | Res: 54591-HM2RHWK2SM | Cancelled 50% Retained - OTA | Cancelled Funds Retained by GC",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-07-07 17:34:00",
-    "priority": 1
   },
   "7396": {
     "subject": "Marriott Curation Rejected - Signal Inn 18",

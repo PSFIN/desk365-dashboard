@@ -1,5 +1,310 @@
 [
   {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9530,
+    "subject": "Beach Heron - Statement correction",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9528,
+    "subject": "GBB1338 - ARDI Claim",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.thayer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9527,
+    "subject": "GBB 1344 - Statement",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9526,
+    "subject": "GBB1344 - ARDI",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.thayer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9525,
+    "subject": "Resident Benefits Package PDF Flyer",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9524,
+    "subject": "5 Star Review Feedback | Res #: 58446 | Murdock David | Signal Inn - Unit 16 | 10/15/2026 - 10/19/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9523,
+    "subject": "Resident Benefits Package PDF Flyer",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9521,
+    "subject": "GBB1305 - ARDI Claim",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.thayer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9519,
+    "subject": "Unit: Golfers Grove | Guest Name: Looby Susan | Res #: 51582 | Cancelation Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9518,
+    "subject": "Birdie - Guest needs maintenance",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9514,
+    "subject": "Price Projection",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.paulin@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9512,
+    "subject": "Fort Myers - SPLASH DECISION - Onboarding Photo Shoot",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9509,
+    "subject": "Hibiscus Haven, relist the property on the OTAs",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.paulin@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9508,
+    "subject": "GBB1344 - New photos",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-09 14:34:36 to 2026-11-13 14:34:00",
+    "from": "2026-11-09 14:34:36",
+    "to": "2026-11-13 14:34:00"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9502,
+    "subject": "ADRI Claim Signal Inn #7",
+    "type": "reassigned",
+    "detail": "Reassigned from c.thayer@choosegulfcoast.com to n.ventura@choosegulfcoast.com",
+    "from": "c.thayer@choosegulfcoast.com",
+    "to": "n.ventura@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9497,
+    "subject": "YCBR Ready Units - Write Description",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-06 19:52:29 to 2026-11-11 19:52:00",
+    "from": "2026-11-06 19:52:29",
+    "to": "2026-11-11 19:52:00"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9470,
+    "subject": "5 Star Review Feedback | Res #: 55564 | Hagen Michael | Ocean Eyes | 10/23/2026 - 10/30/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from j.rushton@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "j.rushton@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9451,
+    "subject": "A Shore Thing | Multiple issues",
+    "type": "reassigned",
+    "detail": "Reassigned from j.rushton@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "j.rushton@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9445,
+    "subject": "Ospreys Nest | Cracked toilet bowl",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-03 19:57:43 to 2026-11-06 19:57:00",
+    "from": "2026-11-03 19:57:43",
+    "to": "2026-11-06 19:57:00"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9439,
+    "subject": "GBB 1382 - Front door paint",
+    "type": "reassigned",
+    "detail": "Reassigned from j.rushton@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "j.rushton@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9312,
+    "subject": "Colony unit photos",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-06 15:06:00 to 2026-11-27 15:06:00",
+    "from": "2026-11-06 15:06:00",
+    "to": "2026-11-27 15:06:00"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9039,
+    "subject": "Sales & Tourist Tax Remittance - September 2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to l.brigida@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 8866,
+    "subject": "City of Bradenton VR License - Tropical Gulf Retreat | 4325 46th Avenue West, #203",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-04 17:42:00 to 2026-11-06 17:42:00",
+    "from": "2026-11-04 17:42:00",
+    "to": "2026-11-06 17:42:00"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9507,
+    "subject": "Update form on GCAM webiste",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9495,
+    "subject": "Dreams of Paradise- comp night stands",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9474,
+    "subject": "Electronic lock offline - Par then bar",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9473,
+    "subject": "Grand Getaway b2b owner came in early",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9457,
+    "subject": "Steinberg David | Res #: 61974 and Res #: 61973 |  Cancellation | 2 reservations",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9453,
+    "subject": "Guest Name: Lentini Janelle | Res #: 65053 | Unit: Pineapple Way | Compensation request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9437,
+    "subject": "Name: Robbins Deborah | Res: 64411 | Request for 2 Lounge Chairs for Upcoming Guest",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9427,
+    "subject": "YCBR Res#33997",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9425,
+    "subject": "YCBR Res#33998",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9424,
+    "subject": "YCBR Res#33999",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9423,
+    "subject": "YCBR Res#34000",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9422,
+    "subject": "YCBR Res#33995",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9421,
+    "subject": "YCBR Res#34001",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9419,
+    "subject": "YCBR Res#33996",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9259,
+    "subject": "Name: Rosar Elijah | Res: 64139 | Property: Tee Time | Cancelled Funds Retained by GC",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 9046,
+    "subject": "1260 broken fridge shelf-ARDI?",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 8754,
+    "subject": "#1364 owner --reimburse",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-04T21:06:20+00:00",
+    "ticket_number": 7431,
+    "subject": "Name:Sauter Theresa | Res: 54591-HM2RHWK2SM | Cancelled 50% Retained - OTA | Cancelled Funds Retained by GC",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-11-04T14:59:07+00:00",
     "ticket_number": 9508,
     "subject": "GBB1344 - New photos",
@@ -7569,336 +7874,5 @@
     "detail": "Due date changed from 2026-10-12 18:49:15 to 2026-10-19 18:49:00",
     "from": "2026-10-12 18:49:15",
     "to": "2026-10-19 18:49:00"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9149,
-    "subject": "Name: Perez Gilberto | Res: 64154 | Property: Colony Inn C-06 | Cancelled 50% Retained - OTA",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-12 16:23:58 to 2026-11-04 22:00:00",
-    "from": "2026-10-12 16:23:58",
-    "to": "2026-11-04 22:00:00"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9077,
-    "subject": "Unit: Grand Gateaway | Pool Control is not working",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-12 14:56:00 to 2026-10-15 14:56:00",
-    "from": "2026-10-12 14:56:00",
-    "to": "2026-10-15 14:56:00"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9071,
-    "subject": "Possible Guest/Cleo Brown/Pearl In The Rough/VRBO Guest Requests / Inquiries",
-    "type": "reassigned",
-    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to m.omasdang@choosegulfcoast.com",
-    "from": "h.mcnamara@choosegulfcoast.com",
-    "to": "m.omasdang@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9066,
-    "subject": "Mielenz Laurel/Waterfront Dreamin/Ceiling Fan not working",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-12 22:00:00 to 2026-10-13 22:00:00",
-    "from": "2026-10-12 22:00:00",
-    "to": "2026-10-13 22:00:00"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9039,
-    "subject": "Sales & Tourist Tax Remittance - September 2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-12 16:56:00 to 2026-10-12 18:56:00",
-    "from": "2026-10-12 16:56:00",
-    "to": "2026-10-12 18:56:00"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9021,
-    "subject": "Shower Glass - Rental insurance claim",
-    "type": "reassigned",
-    "detail": "Reassigned from c.thayer@choosegulfcoast.com to n.armstrong@choosegulfcoast.com",
-    "from": "c.thayer@choosegulfcoast.com",
-    "to": "n.armstrong@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 8906,
-    "subject": "Core Values Poster",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-09 18:45:00 to 2026-10-16 18:45:00",
-    "from": "2026-10-09 18:45:00",
-    "to": "2026-10-16 18:45:00"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 8867,
-    "subject": "City of Bradenton VR License - Villa In The Clouds | 1439 56th Street West",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-12 17:50:00 to 2026-10-14 17:50:00",
-    "from": "2026-10-12 17:50:00",
-    "to": "2026-10-14 17:50:00"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 8866,
-    "subject": "City of Bradenton VR License - Tropical Gulf Retreat | 4325 46th Avenue West, #203",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-12 17:42:00 to 2026-10-14 17:42:00",
-    "from": "2026-10-12 17:42:00",
-    "to": "2026-10-14 17:42:00"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 8861,
-    "subject": "City of Bradenton VR License - Florida Dreams | 4457 45th Avenue West, #110",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-12 15:55:00 to 2026-10-15 15:58:00",
-    "from": "2026-10-12 15:55:00",
-    "to": "2026-10-15 15:58:00"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 8860,
-    "subject": "City of Bradenton VR License - Don't Worry Beach Happy | 502 Sanderling Circle",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-12 15:43:00 to 2026-10-15 15:55:00",
-    "from": "2026-10-12 15:43:00",
-    "to": "2026-10-15 15:55:00"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 8859,
-    "subject": "City of Bradenton VR License - Blossom Retreat | 7333 Skybird Road",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-12 15:30:00 to 2026-10-15 15:55:00",
-    "from": "2026-10-12 15:30:00",
-    "to": "2026-10-15 15:55:00"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 8444,
-    "subject": "PCA for Par Then Bar Due Date: 12/20/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from z.adair@choosegulfcoast.com to j.messasierra@choosegulfcoast.com",
-    "from": "z.adair@choosegulfcoast.com",
-    "to": "j.messasierra@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 8329,
-    "subject": "PCA for Sunset On The Gulf Due Date: 9/12/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from z.adair@choosegulfcoast.com to j.messasierra@choosegulfcoast.com",
-    "from": "z.adair@choosegulfcoast.com",
-    "to": "j.messasierra@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 8179,
-    "subject": "PCA for Little Bit Of Heaven Due Date: 9/8/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from z.adair@choosegulfcoast.com to j.messasierra@choosegulfcoast.com",
-    "from": "z.adair@choosegulfcoast.com",
-    "to": "j.messasierra@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 7598,
-    "subject": "PCA for Longboat Oasis Due Date: 8/4/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from z.adair@choosegulfcoast.com to j.messasierra@choosegulfcoast.com",
-    "from": "z.adair@choosegulfcoast.com",
-    "to": "j.messasierra@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 7405,
-    "subject": "Marriott Curation Rejected - Signal Inn 02",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-09 21:00:00 to 2026-10-16 21:00:00",
-    "from": "2026-10-09 21:00:00",
-    "to": "2026-10-16 21:00:00"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 7397,
-    "subject": "Marriott Curation Rejected - Signal inn 03",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-09 15:28:00 to 2026-10-16 15:28:00",
-    "from": "2026-10-09 15:28:00",
-    "to": "2026-10-16 15:28:00"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 7396,
-    "subject": "Marriott Curation Rejected - Signal Inn 18",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-09 15:06:00 to 2026-10-16 15:06:00",
-    "from": "2026-10-09 15:06:00",
-    "to": "2026-10-16 15:06:00"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9187,
-    "subject": "Florida Sanctuary | Fix pool filter",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9178,
-    "subject": "Paraclete Paradise | Overgrown weeds and bushes",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9159,
-    "subject": "4 Star Review Feedback | Res #: 54994 | Kaake Ashley | Breakers West B7 | 10/01/2026-10/05/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9091,
-    "subject": "Res #56173 | Peters Karen & David | Sanibel Shuffle Beach House | Waive Rejected E-Check Fee",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9081,
-    "subject": "Bellevue | Missing Fire Extinguisher",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9072,
-    "subject": "3 Star Review Feedback | Res #54612 | Patterson Robert | Golden Beach #1 | 9/26/2026-10/3/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9068,
-    "subject": "Capozzolo Maria/Ocean Eyes/Res #: 57563/Balcony Roller Curtain Not Working Properly",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9053,
-    "subject": "Unit: GBB 1240 | Guest: Olha | Res #: 58850 | A/C and Fans not working, window blind broken",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 8932,
-    "subject": "4 Star Review Feedback | Res #33168 | Krahl Elke | Bayside Paradise | 9/5/2026-9/19/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 8601,
-    "subject": "Vacation Rental Services Agreement : Lighthouse Point 223 - 200 Periwinkle Way Unit 223",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-12T01:58:10+00:00",
-    "ticket_number": 9194,
-    "subject": "Little Bit Of Heaven | Listing Description Update",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.paulin@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-12T01:58:10+00:00",
-    "ticket_number": 9021,
-    "subject": "Shower Glass - Rental insurance claim",
-    "type": "reassigned",
-    "detail": "Reassigned from z.adair@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
-    "from": "z.adair@choosegulfcoast.com",
-    "to": "c.thayer@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-11T22:37:08+00:00",
-    "ticket_number": 9193,
-    "subject": "Name: Vickroy Dennis | Res: 63163 | Community: River Strand | HOA Membership Extension",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.zeh@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-11T22:37:08+00:00",
-    "ticket_number": 9192,
-    "subject": "Pfeifer Chris |  Colony Inn C14 | Res #: 62211 | Cancellation",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-11T22:37:08+00:00",
-    "ticket_number": 9190,
-    "subject": "Hershey joyce | Unit: Colony Inn C-56 | Res #: 64632 | Cancellation or Change date Requet",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-11T22:37:08+00:00",
-    "ticket_number": 9183,
-    "subject": "Eisenbrei Richard | Unit: Signal Inn - Unit 07 | Res #: 64516 | Cancellation Request",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-11T22:37:08+00:00",
-    "ticket_number": 9118,
-    "subject": "rent rev",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-11T18:33:48+00:00",
-    "ticket_number": 9192,
-    "subject": "Pfeifer Chris |  Colony Inn C14 | Res #: 62211 | Cancellation",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-11T18:33:48+00:00",
-    "ticket_number": 9071,
-    "subject": "Possible Guest/Cleo Brown/Pearl In The Rough/VRBO Guest Requests / Inquiries",
-    "type": "reassigned",
-    "detail": "Reassigned from j.messasierra@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
-    "from": "j.messasierra@choosegulfcoast.com",
-    "to": "h.mcnamara@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-11T18:33:48+00:00",
-    "ticket_number": 9160,
-    "subject": "Guest name: MELASECCA NUNEZ PATRICIA | Res #: 57445 | Unit: Turtle House | Multiple issues",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-11T13:41:56+00:00",
-    "ticket_number": 9114,
-    "subject": "Name: Freidus Susan | Res: 54145 | Cancelled 50% Retained - OTA",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-09 17:25:34 to 2026-11-04 22:00:00",
-    "from": "2026-10-09 17:25:34",
-    "to": "2026-11-04 22:00:00"
-  },
-  {
-    "ts": "2026-10-11T13:41:56+00:00",
-    "ticket_number": 9185,
-    "subject": "Reitz Alexander |  Res #: 58854 | Dreams of Paradise | AC issue",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
 ]
