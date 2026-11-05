@@ -1,4 +1,25 @@
 {
+  "9537": {
+    "subject": "5 Star Review Feedback | Res #: 64690 | Jenna Tyminski | Signal Inn - Unit 03 | 10/30/2026 - 11/1/2026",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-09 22:00:00",
+    "priority": 1
+  },
+  "9536": {
+    "subject": "5 Star Review Feedback | Res #: 49065 | Godshalk Lori | Breakers West C3 | 10/24/2026 - 10/29/2026",
+    "assigned_to": "l.costa@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-09 22:00:00",
+    "priority": 1
+  },
+  "9535": {
+    "subject": "T-Wreckz Junk Removal llc/ Invoice",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-09 22:00:00",
+    "priority": 1
+  },
   "9534": {
     "subject": "1 Star Review Feedback | Res #: 55570 | Wabers Jennifer | Gulf & Bay Bayside - 1272 | 10/26/2026 - 11/2/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
@@ -237,13 +258,6 @@
     "due_date": "2026-11-04 22:00:00",
     "priority": 1
   },
-  "9467": {
-    "subject": "Name: Johnson Linnea | Res: 64636 | Cancelled 50% Retained - OTA",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-04 22:00:00",
-    "priority": 1
-  },
   "9463": {
     "subject": "SCHARRET Kim | Unit: Colony Inn C-54 | Res #: 64877 | Guest Feedback",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
@@ -256,7 +270,7 @@
     "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-04 22:00:00",
-    "priority": 5
+    "priority": 10
   },
   "9459": {
     "subject": "Van den Heerik Jenette | Unit: Turtle House | Res #: 59381 | Guest Feedback",
@@ -379,7 +393,7 @@
   },
   "9374": {
     "subject": "Res #65280 NPG Charge Owner Commission",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
+    "assigned_to": "i.yates@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-03 16:23:18",
     "priority": 20
@@ -496,25 +510,11 @@
     "due_date": "2026-11-13 15:42:00",
     "priority": 1
   },
-  "9299": {
-    "subject": "Name: Lindenberg Jay | Res: 50193 | Cancelled 100% Retained - Direct",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-04 22:30:00",
-    "priority": 1
-  },
   "9291": {
     "subject": "Sandy Pointe Damage Claim | Generali claim number 26182219-01",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-06 23:00:00",
-    "priority": 1
-  },
-  "9261": {
-    "subject": "Name: Pfeifer Chris | Res: 62211 | Property: C-14 | Cancelled 100% Retained - Direct",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-04 22:00:00",
     "priority": 1
   },
   "9228": {
@@ -643,13 +643,6 @@
     "due_date": "2026-11-18 19:02:00",
     "priority": 10
   },
-  "9149": {
-    "subject": "Name: Perez Gilberto | Res: 64154 | Property: Colony Inn C-06 | Cancelled 50% Retained - OTA",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-04 22:00:00",
-    "priority": 1
-  },
   "9148": {
     "subject": "Lido Del Mare - Info sheet",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
@@ -690,13 +683,6 @@
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-31 14:17:00",
-    "priority": 1
-  },
-  "9114": {
-    "subject": "Name: Freidus Susan | Res: 54145 | Cancelled 50% Retained - OTA",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-04 22:00:00",
     "priority": 1
   },
   "9076": {

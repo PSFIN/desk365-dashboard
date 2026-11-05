@@ -1,5 +1,79 @@
 [
   {
+    "ts": "2026-11-05T08:49:32+00:00",
+    "ticket_number": 9537,
+    "subject": "5 Star Review Feedback | Res #: 64690 | Jenna Tyminski | Signal Inn - Unit 03 | 10/30/2026 - 11/1/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-05T08:49:32+00:00",
+    "ticket_number": 9536,
+    "subject": "5 Star Review Feedback | Res #: 49065 | Godshalk Lori | Breakers West C3 | 10/24/2026 - 10/29/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to l.costa@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-05T08:49:32+00:00",
+    "ticket_number": 9535,
+    "subject": "T-Wreckz Junk Removal llc/ Invoice",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-05T08:49:32+00:00",
+    "ticket_number": 9460,
+    "subject": "Res #: 65758| Guest Name: Leckerman Theresa M |Property/Unit: My Great Escape| Refund request",
+    "type": "priority_changed",
+    "detail": "Priority changed from 5 to 10",
+    "from": 5,
+    "to": 10
+  },
+  {
+    "ts": "2026-11-05T08:49:32+00:00",
+    "ticket_number": 9374,
+    "subject": "Res #65280 NPG Charge Owner Commission",
+    "type": "reassigned",
+    "detail": "Reassigned from a.ytac@choosegulfcoast.com to i.yates@choosegulfcoast.com",
+    "from": "a.ytac@choosegulfcoast.com",
+    "to": "i.yates@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-05T08:49:32+00:00",
+    "ticket_number": 9467,
+    "subject": "Name: Johnson Linnea | Res: 64636 | Cancelled 50% Retained - OTA",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-05T08:49:32+00:00",
+    "ticket_number": 9299,
+    "subject": "Name: Lindenberg Jay | Res: 50193 | Cancelled 100% Retained - Direct",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-05T08:49:32+00:00",
+    "ticket_number": 9261,
+    "subject": "Name: Pfeifer Chris | Res: 62211 | Property: C-14 | Cancelled 100% Retained - Direct",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-05T08:49:32+00:00",
+    "ticket_number": 9149,
+    "subject": "Name: Perez Gilberto | Res: 64154 | Property: Colony Inn C-06 | Cancelled 50% Retained - OTA",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-05T08:49:32+00:00",
+    "ticket_number": 9114,
+    "subject": "Name: Freidus Susan | Res: 54145 | Cancelled 50% Retained - OTA",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-11-05T01:34:23+00:00",
     "ticket_number": 9534,
     "subject": "1 Star Review Feedback | Res #: 55570 | Wabers Jennifer | Gulf & Bay Bayside - 1272 | 10/26/2026 - 11/2/2026",
@@ -7796,75 +7870,5 @@
     "subject": "PCA - Bali Poolside",
     "type": "created",
     "detail": "Created \u2014 assigned to j.messasierra@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9214,
-    "subject": "PCA - Array of Sunshine",
-    "type": "created",
-    "detail": "Created \u2014 assigned to j.messasierra@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9213,
-    "subject": "Sunnyside Up-carpet quote",
-    "type": "created",
-    "detail": "Created \u2014 assigned to d.husak@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9211,
-    "subject": "5 Star Review Feedback | Res #: 60705 | Jane Valenzia | O6ERS | 09/26/2026 - 10/05/2026",
-    "type": "created",
-    "detail": "Created \u2014 assigned to d.husak@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9210,
-    "subject": "2 Star Review Feedback | Res #: 49339 | Ricardo Cristobal | Sunnyside Up | 06/19/2026 - 10/10/2026",
-    "type": "created",
-    "detail": "Created \u2014 assigned to d.husak@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9208,
-    "subject": "GC393 - owner concession of $100 / credit check",
-    "type": "created",
-    "detail": "Created \u2014 assigned to m.johnston@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9207,
-    "subject": "5 Star Review Feedback | Res #: 60059 | Loretta Messinger | Colony Inn C-07 | 10/04/2026 - 10/09/2026",
-    "type": "created",
-    "detail": "Created \u2014 assigned to marcie@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9205,
-    "subject": "5 Star Review Feedback | Res #: 60172 | Paige Litterer | Sandalfoot 5C2 | 10/06/2026 - 10/10/2026",
-    "type": "created",
-    "detail": "Created \u2014 assigned to n.armstrong@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9204,
-    "subject": "The Beach Fact Oar",
-    "type": "created",
-    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9203,
-    "subject": "5 Star Review Feedback | Res #: 63822 | Kim Lambert | Sandalfoot 3C1 | 10/06/2026 - 10/10/2026",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.evans@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9202,
-    "subject": "5 Star Review Feedback | Res #: 63822 | Kim Lambert | Sandalfoot 3C1 | 10/06/2026 - 10/10/2026",
-    "type": "created",
-    "detail": "Created \u2014 assigned to n.armstrong@choosegulfcoast.com, status Open"
   }
 ]
