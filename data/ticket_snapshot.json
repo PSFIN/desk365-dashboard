@@ -1,10 +1,10 @@
 {
-  "9537": {
-    "subject": "5 Star Review Feedback | Res #: 64690 | Jenna Tyminski | Signal Inn - Unit 03 | 10/30/2026 - 11/1/2026",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
+  "9539": {
+    "subject": "Statement Correction / SI Unit 13",
+    "assigned_to": "a.guarin@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-09 22:00:00",
-    "priority": 1
+    "due_date": "2026-11-10 14:08:45",
+    "priority": 10
   },
   "9536": {
     "subject": "5 Star Review Feedback | Res #: 49065 | Godshalk Lori | Breakers West C3 | 10/24/2026 - 10/29/2026",
@@ -34,13 +34,6 @@
     "due_date": "2026-11-09 22:00:00",
     "priority": 1
   },
-  "9532": {
-    "subject": "1 Star Review Feedback | Res #: 42499 | Deveah Galloway | Signal Inn - Unit 06 | 2/21/2026 - 2/24/2026",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-09 21:57:50",
-    "priority": 1
-  },
   "9531": {
     "subject": "Unit: Luna Sea | Guest Name: Gottschall Terry | Cancelation Request Res #: 49349",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
@@ -68,13 +61,6 @@
     "status": "Open",
     "due_date": "2026-11-09 20:02:58",
     "priority": 5
-  },
-  "9524": {
-    "subject": "5 Star Review Feedback | Res #: 58446 | Murdock David | Signal Inn - Unit 16 | 10/15/2026 - 10/19/2026",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-09 19:54:08",
-    "priority": 1
   },
   "9523": {
     "subject": "Resident Benefits Package PDF Flyer",
@@ -144,13 +130,6 @@
     "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-06 22:00:00",
-    "priority": 1
-  },
-  "9502": {
-    "subject": "ADRI Claim Signal Inn #7",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-06 21:14:36",
     "priority": 1
   },
   "9501": {
@@ -239,7 +218,7 @@
   },
   "9471": {
     "subject": "4 Star Review Feedback | Res #: 59381 | Jenette Van den Heerik | Turtle House | 10/23/2026 - 10/28/2026",
-    "assigned_to": "j.delafuente@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-05 22:00:00",
     "priority": 1
@@ -295,9 +274,9 @@
   },
   "9451": {
     "subject": "A Shore Thing | Multiple issues",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-04 16:24:02",
+    "due_date": "2026-11-06 16:24:00",
     "priority": 1
   },
   "9446": {
@@ -330,9 +309,9 @@
   },
   "9439": {
     "subject": "GBB 1382 - Front door paint",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-03 16:03:18",
+    "due_date": "2026-11-06 23:00:00",
     "priority": 1
   },
   "9438": {
@@ -374,7 +353,7 @@
     "subject": "Sun Seeker | Guest requests",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-03 19:40:00",
+    "due_date": "2026-11-06 19:40:00",
     "priority": 1
   },
   "9399": {
@@ -393,9 +372,9 @@
   },
   "9374": {
     "subject": "Res #65280 NPG Charge Owner Commission",
-    "assigned_to": "i.yates@choosegulfcoast.com",
+    "assigned_to": "a.pelandas@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-03 16:23:18",
+    "due_date": "2026-11-05 16:23:00",
     "priority": 20
   },
   "9368": {
