@@ -1,4 +1,46 @@
 {
+  "9547": {
+    "subject": "GBB 1241 | Furniture needed cleaning",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-10 22:00:00",
+    "priority": 1
+  },
+  "9546": {
+    "subject": "O6ERS | Carpet cleaning",
+    "assigned_to": "d.husak@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-10 21:57:11",
+    "priority": 1
+  },
+  "9544": {
+    "subject": "Liu Fang/ Res #: 62238/Sandalfoot 2B3/Guest Feedback",
+    "assigned_to": "k.garcia@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-10 21:24:23",
+    "priority": 1
+  },
+  "9543": {
+    "subject": "#1206 AC failed- moved guests to #1315",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-10 20:34:19",
+    "priority": 5
+  },
+  "9542": {
+    "subject": "Unit: Colony Inn C-47 / Guest Name: Fred Downey / Cancel Res #: 62693",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-10 20:02:36",
+    "priority": 1
+  },
+  "9541": {
+    "subject": "GBB 1272 | Repaint bathroom door",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-10 18:44:35",
+    "priority": 1
+  },
   "9539": {
     "subject": "Statement Correction / SI Unit 13",
     "assigned_to": "a.guarin@choosegulfcoast.com",
@@ -27,13 +69,6 @@
     "due_date": "2026-11-09 22:00:00",
     "priority": 1
   },
-  "9533": {
-    "subject": "Raymonds Retreat - pet friendly",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-09 22:00:00",
-    "priority": 1
-  },
   "9531": {
     "subject": "Unit: Luna Sea | Guest Name: Gottschall Terry | Cancelation Request Res #: 49349",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
@@ -43,14 +78,14 @@
   },
   "9528": {
     "subject": "GBB1338 - ARDI Claim",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-09 20:24:38",
     "priority": 1
   },
   "9526": {
     "subject": "GBB1344 - ARDI",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-09 20:16:49",
     "priority": 1
@@ -71,16 +106,9 @@
   },
   "9521": {
     "subject": "GBB1305 - ARDI Claim",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-09 19:07:51",
-    "priority": 1
-  },
-  "9519": {
-    "subject": "Unit: Golfers Grove | Guest Name: Looby Susan | Res #: 51582 | Cancelation Request",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-09 18:50:59",
     "priority": 1
   },
   "9518": {
@@ -118,20 +146,6 @@
     "due_date": "2026-11-13 14:34:00",
     "priority": 1
   },
-  "9506": {
-    "subject": "Looby Susan | Golfer Grove |  Res #: 51582 | Cancellation",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-06 22:00:00",
-    "priority": 1
-  },
-  "9503": {
-    "subject": "Langman Andrea/ Signal Inn - Unit 07/Res #: 63153/ Cancellation Request",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-06 22:00:00",
-    "priority": 1
-  },
   "9501": {
     "subject": "Business Cards - Autumn",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
@@ -150,14 +164,14 @@
     "subject": "Business Cards - Blank",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-06 20:39:17",
+    "due_date": "2026-11-13 20:39:00",
     "priority": 5
   },
   "9498": {
     "subject": "GCAM Team Mmebers",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-06 20:07:46",
+    "due_date": "2026-11-13 20:07:00",
     "priority": 5
   },
   "9497": {
@@ -192,7 +206,7 @@
     "subject": "My Great Escape-Black flow testing",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-05 19:19:40",
+    "due_date": "2026-12-01 19:19:00",
     "priority": 10
   },
   "9477": {
@@ -207,13 +221,6 @@
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-05 16:37:34",
-    "priority": 1
-  },
-  "9472": {
-    "subject": "Links & leisure wall heavily marked and overflowing garbage",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-05 14:28:28",
     "priority": 1
   },
   "9471": {
@@ -239,38 +246,17 @@
   },
   "9463": {
     "subject": "SCHARRET Kim | Unit: Colony Inn C-54 | Res #: 64877 | Guest Feedback",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "assigned_to": "j.gueco@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-04 22:00:00",
     "priority": 1
   },
   "9460": {
     "subject": "Res #: 65758| Guest Name: Leckerman Theresa M |Property/Unit: My Great Escape| Refund request",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "assigned_to": "m.eronico@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-04 22:00:00",
     "priority": 10
-  },
-  "9459": {
-    "subject": "Van den Heerik Jenette | Unit: Turtle House | Res #: 59381 | Guest Feedback",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-04 22:00:00",
-    "priority": 1
-  },
-  "9458": {
-    "subject": "Jessica Selaine | Sweet Pineapple | Possible Lead",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-04 22:00:00",
-    "priority": 1
-  },
-  "9456": {
-    "subject": "Olsen Denise/Fairways to Coastline/Res #: 64745/Cancellation Request",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-04 20:42:03",
-    "priority": 1
   },
   "9451": {
     "subject": "A Shore Thing | Multiple issues",
@@ -311,7 +297,7 @@
     "subject": "GBB 1382 - Front door paint",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-06 23:00:00",
+    "due_date": "2026-11-09 23:00:00",
     "priority": 1
   },
   "9438": {
@@ -332,7 +318,7 @@
     "subject": "Onboarding inventory Sheet for VR owners",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-06 15:49:00",
+    "due_date": "2026-11-13 15:49:00",
     "priority": 5
   },
   "9413": {
@@ -351,7 +337,7 @@
   },
   "9403": {
     "subject": "Sun Seeker | Guest requests",
-    "assigned_to": "j.delafuente@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-06 19:40:00",
     "priority": 1
@@ -395,7 +381,7 @@
     "subject": "Approach shot - Lynx lock",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-05 23:00:00",
+    "due_date": "2026-11-09 23:00:00",
     "priority": 1
   },
   "9362": {
@@ -437,7 +423,7 @@
     "subject": "Newsletter / Owner Account Balance & Carrying Charge Policy",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-06 20:38:00",
+    "due_date": "2026-11-13 20:38:00",
     "priority": 5
   },
   "9340": {
@@ -463,9 +449,9 @@
   },
   "9318": {
     "subject": "GBB1318 Fan in master",
-    "assigned_to": "j.delafuente@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-05 23:00:00",
+    "due_date": "2026-11-09 23:00:00",
     "priority": 1
   },
   "9312": {
@@ -745,7 +731,7 @@
     "subject": "DR-11 Form : Tee Time | 19116 Scallop Loop, #105",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-05 21:00:00",
+    "due_date": "2026-11-11 21:00:00",
     "priority": 10
   },
   "8830": {
@@ -780,7 +766,7 @@
     "subject": "DR-11 Form :  Splash Decision - 14881 Laguna Drive",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-05 21:00:00",
+    "due_date": "2026-11-11 21:00:00",
     "priority": 10
   },
   "8562": {
@@ -794,14 +780,14 @@
     "subject": "DR-11 Form : Putt in Paradise -19116 SCALLOP LOOP, #202",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-05 21:00:00",
+    "due_date": "2026-11-11 21:00:00",
     "priority": 10
   },
   "8499": {
     "subject": "Cedar Hammock Fire District Inspection - Multiple Units",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-05 21:00:00",
+    "due_date": "2026-11-11 21:00:00",
     "priority": 10
   },
   "8444": {
@@ -822,7 +808,7 @@
     "subject": "DR-11 Forms : Multiple Property Units",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-05 21:00:00",
+    "due_date": "2026-11-11 21:00:00",
     "priority": 10
   },
   "8365": {
