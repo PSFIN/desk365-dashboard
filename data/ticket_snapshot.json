@@ -1,9 +1,30 @@
 {
-  "9530": {
-    "subject": "Beach Heron - Statement correction",
-    "assigned_to": "e.morales@choosegulfcoast.com",
+  "9534": {
+    "subject": "1 Star Review Feedback | Res #: 55570 | Wabers Jennifer | Gulf & Bay Bayside - 1272 | 10/26/2026 - 11/2/2026",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-09 20:41:20",
+    "due_date": "2026-11-09 22:00:00",
+    "priority": 1
+  },
+  "9533": {
+    "subject": "Raymonds Retreat - pet friendly",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-09 22:00:00",
+    "priority": 1
+  },
+  "9532": {
+    "subject": "1 Star Review Feedback | Res #: 42499 | Deveah Galloway | Signal Inn - Unit 06 | 2/21/2026 - 2/24/2026",
+    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-09 21:57:50",
+    "priority": 1
+  },
+  "9531": {
+    "subject": "Unit: Luna Sea | Guest Name: Gottschall Terry | Cancelation Request Res #: 49349",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-09 21:23:30",
     "priority": 1
   },
   "9528": {
@@ -11,13 +32,6 @@
     "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-09 20:24:38",
-    "priority": 1
-  },
-  "9527": {
-    "subject": "GBB 1344 - Statement",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-09 20:18:24",
     "priority": 1
   },
   "9526": {
@@ -100,20 +114,6 @@
   "9506": {
     "subject": "Looby Susan | Golfer Grove |  Res #: 51582 | Cancellation",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-06 22:00:00",
-    "priority": 1
-  },
-  "9505": {
-    "subject": "Barfels Thomas  | Colony Inn C11 | Cancellation | Res #: 63141",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-06 22:00:00",
-    "priority": 1
-  },
-  "9504": {
-    "subject": "Cancellation Request - Res #: 63141",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-06 22:00:00",
     "priority": 1

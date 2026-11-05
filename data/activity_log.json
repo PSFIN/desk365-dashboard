@@ -1,5 +1,61 @@
 [
   {
+    "ts": "2026-11-05T01:34:23+00:00",
+    "ticket_number": 9534,
+    "subject": "1 Star Review Feedback | Res #: 55570 | Wabers Jennifer | Gulf & Bay Bayside - 1272 | 10/26/2026 - 11/2/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-05T01:34:23+00:00",
+    "ticket_number": 9533,
+    "subject": "Raymonds Retreat - pet friendly",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-05T01:34:23+00:00",
+    "ticket_number": 9532,
+    "subject": "1 Star Review Feedback | Res #: 42499 | Deveah Galloway | Signal Inn - Unit 06 | 2/21/2026 - 2/24/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-05T01:34:23+00:00",
+    "ticket_number": 9531,
+    "subject": "Unit: Luna Sea | Guest Name: Gottschall Terry | Cancelation Request Res #: 49349",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-05T01:34:23+00:00",
+    "ticket_number": 9530,
+    "subject": "Beach Heron - Statement correction",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-05T01:34:23+00:00",
+    "ticket_number": 9527,
+    "subject": "GBB 1344 - Statement",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-05T01:34:23+00:00",
+    "ticket_number": 9505,
+    "subject": "Barfels Thomas  | Colony Inn C11 | Cancellation | Res #: 63141",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-05T01:34:23+00:00",
+    "ticket_number": 9504,
+    "subject": "Cancellation Request - Res #: 63141",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-11-04T21:06:20+00:00",
     "ticket_number": 9530,
     "subject": "Beach Heron - Statement correction",
@@ -7810,69 +7866,5 @@
     "subject": "5 Star Review Feedback | Res #: 63822 | Kim Lambert | Sandalfoot 3C1 | 10/06/2026 - 10/10/2026",
     "type": "created",
     "detail": "Created \u2014 assigned to n.armstrong@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9201,
-    "subject": "Nicodemus Kathy | Ocean Eyes |  Res #: 57164 | Blinds stuck",
-    "type": "created",
-    "detail": "Created \u2014 assigned to a.maboloc@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9200,
-    "subject": "4 Star Review Feedback | Res #: 60105 | John Kovach | Signal Inn - Unit 10 | 10/03/2026 - 10/09/2026",
-    "type": "created",
-    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9199,
-    "subject": "IVSC PowerPoint",
-    "type": "created",
-    "detail": "Created \u2014 assigned to e.buchanan@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9198,
-    "subject": "Price Brenda | Sandalfoot 4C3 | Res #: 61815 | Cancellation",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9194,
-    "subject": "Little Bit Of Heaven | Listing Description Update",
-    "type": "reassigned",
-    "detail": "Reassigned from s.paulin@choosegulfcoast.com to d.husak@choosegulfcoast.com",
-    "from": "s.paulin@choosegulfcoast.com",
-    "to": "d.husak@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9191,
-    "subject": "Cousin Dalton/Signal Inn - Unit 09/Res #: 64517/ Pet Fee Refund",
-    "type": "reassigned",
-    "detail": "Reassigned from m.eronico@choosegulfcoast.com to m.mccartney@choosegulfcoast.com",
-    "from": "m.eronico@choosegulfcoast.com",
-    "to": "m.mccartney@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9175,
-    "subject": "admirals watch-cleaning",
-    "type": "reassigned",
-    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to d.husak@choosegulfcoast.com",
-    "from": "s.soriafrausto@choosegulfcoast.com",
-    "to": "d.husak@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-12T18:26:52+00:00",
-    "ticket_number": 9150,
-    "subject": "Cart abandonment email automation",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-12 18:49:15 to 2026-10-19 18:49:00",
-    "from": "2026-10-12 18:49:15",
-    "to": "2026-10-19 18:49:00"
   }
 ]
