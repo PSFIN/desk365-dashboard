@@ -1,4 +1,32 @@
 {
+  "9552": {
+    "subject": "Name: Bruce Sharon | Res: 33953 | Refund Check",
+    "assigned_to": "k.fisher@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-11 16:25:46",
+    "priority": 1
+  },
+  "9551": {
+    "subject": "Guest Name: Pugh Laurie | Res #: 50968 | Unit: GBB - 1206 | Additional Compensation Request \u2013 AC Issues | Unit 1206",
+    "assigned_to": "m.eronico@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-11 15:25:39",
+    "priority": 1
+  },
+  "9550": {
+    "subject": "Post Video to YouTube",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-11 14:19:39",
+    "priority": 1
+  },
+  "9549": {
+    "subject": "Relist in OTAs: fairway to paradise",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-11 14:15:44",
+    "priority": 10
+  },
   "9548": {
     "subject": "GBB 1327 | Interior rug is dirty",
     "assigned_to": "j.rushton@choosegulfcoast.com",
@@ -64,7 +92,7 @@
   },
   "9535": {
     "subject": "T-Wreckz Junk Removal llc/ Invoice",
-    "assigned_to": "e.morales@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-09 22:00:00",
     "priority": 1
@@ -125,26 +153,12 @@
     "due_date": "2026-11-09 17:20:34",
     "priority": 1
   },
-  "9514": {
-    "subject": "Price Projection",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-09 16:20:14",
-    "priority": 10
-  },
   "9512": {
     "subject": "Fort Myers - SPLASH DECISION - Onboarding Photo Shoot",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-13 19:11:00",
     "priority": 20
-  },
-  "9509": {
-    "subject": "Hibiscus Haven, relist the property on the OTAs",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-09 14:59:19",
-    "priority": 5
   },
   "9508": {
     "subject": "GBB1344 - New photos",
@@ -157,14 +171,14 @@
     "subject": "Business Cards - Autumn",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-06 21:02:39",
+    "due_date": "2026-11-13 21:02:00",
     "priority": 5
   },
   "9500": {
     "subject": "Teams Background",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-06 20:49:23",
+    "due_date": "2026-11-13 20:49:00",
     "priority": 1
   },
   "9499": {
@@ -172,13 +186,6 @@
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-13 20:39:00",
-    "priority": 5
-  },
-  "9498": {
-    "subject": "GCAM Team Mmebers",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-13 20:07:00",
     "priority": 5
   },
   "9497": {
@@ -253,7 +260,7 @@
   },
   "9463": {
     "subject": "SCHARRET Kim | Unit: Colony Inn C-54 | Res #: 64877 | Guest Feedback",
-    "assigned_to": "l.susas@choosegulfcoast.com",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-04 22:00:00",
     "priority": 1
@@ -274,7 +281,7 @@
   },
   "9446": {
     "subject": "YCBR Fire extinguisher order",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-03 20:11:14",
     "priority": 1
@@ -319,13 +326,6 @@
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-10 18:08:00",
-    "priority": 5
-  },
-  "9414": {
-    "subject": "Onboarding inventory Sheet for VR owners",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-13 15:49:00",
     "priority": 5
   },
   "9413": {
@@ -444,7 +444,7 @@
     "subject": "Owner facing newsletter / Professional Linen Program",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-06 22:00:00",
+    "due_date": "2026-11-13 22:00:00",
     "priority": 5
   },
   "9322": {
@@ -484,7 +484,7 @@
   },
   "9291": {
     "subject": "Sandy Pointe Damage Claim | Generali claim number 26182219-01",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-06 23:00:00",
     "priority": 1
@@ -724,14 +724,14 @@
     "subject": "City of Bradenton VR License - Tropical Gulf Retreat | 4325 46th Avenue West, #203",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-06 17:42:00",
+    "due_date": "2026-11-09 17:42:00",
     "priority": 20
   },
   "8860": {
     "subject": "City of Bradenton VR License - Don't Worry Beach Happy | 502 Sanderling Circle",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-06 15:55:00",
+    "due_date": "2026-11-10 15:55:00",
     "priority": 20
   },
   "8856": {
@@ -871,7 +871,7 @@
     "subject": "Marriott Curation Rejected - Signal Inn 18",
     "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-06 16:06:00",
+    "due_date": "2026-11-13 16:06:00",
     "priority": 5
   },
   "7323": {
