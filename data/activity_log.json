@@ -1,5 +1,14 @@
 [
   {
+    "ts": "2026-11-06T11:15:29+00:00",
+    "ticket_number": 9463,
+    "subject": "SCHARRET Kim | Unit: Colony Inn C-54 | Res #: 64877 | Guest Feedback",
+    "type": "reassigned",
+    "detail": "Reassigned from j.gueco@choosegulfcoast.com to l.susas@choosegulfcoast.com",
+    "from": "j.gueco@choosegulfcoast.com",
+    "to": "l.susas@choosegulfcoast.com"
+  },
+  {
     "ts": "2026-11-06T03:01:14+00:00",
     "ticket_number": 9548,
     "subject": "GBB 1327 | Interior rug is dirty",
@@ -7877,12 +7886,5 @@
     "subject": "Name: Hoffman Victoria | Res: 45881 | Cancelled 100% Retained - Direct",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-13T07:15:39+00:00",
-    "ticket_number": 9234,
-    "subject": "Cancel Res #: 49287 | Unit: The River\u2019s End | Guest Name: Scearcy Diane",
-    "type": "created",
-    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
   }
 ]
