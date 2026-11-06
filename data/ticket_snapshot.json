@@ -1,4 +1,11 @@
 {
+  "9548": {
+    "subject": "GBB 1327 | Interior rug is dirty",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-10 22:00:00",
+    "priority": 1
+  },
   "9547": {
     "subject": "GBB 1241 | Furniture needed cleaning",
     "assigned_to": "j.rushton@choosegulfcoast.com",
@@ -253,7 +260,7 @@
   },
   "9460": {
     "subject": "Res #: 65758| Guest Name: Leckerman Theresa M |Property/Unit: My Great Escape| Refund request",
-    "assigned_to": "m.eronico@choosegulfcoast.com",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-04 22:00:00",
     "priority": 10

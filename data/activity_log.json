@@ -1,5 +1,21 @@
 [
   {
+    "ts": "2026-11-06T03:01:14+00:00",
+    "ticket_number": 9548,
+    "subject": "GBB 1327 | Interior rug is dirty",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-06T03:01:14+00:00",
+    "ticket_number": 9460,
+    "subject": "Res #: 65758| Guest Name: Leckerman Theresa M |Property/Unit: My Great Escape| Refund request",
+    "type": "reassigned",
+    "detail": "Reassigned from m.eronico@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
+    "from": "m.eronico@choosegulfcoast.com",
+    "to": "s.soriafrausto@choosegulfcoast.com"
+  },
+  {
     "ts": "2026-11-05T22:37:23+00:00",
     "ticket_number": 9547,
     "subject": "GBB 1241 | Furniture needed cleaning",
@@ -7868,21 +7884,5 @@
     "subject": "Cancel Res #: 49287 | Unit: The River\u2019s End | Guest Name: Scearcy Diane",
     "type": "created",
     "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-13T00:53:48+00:00",
-    "ticket_number": 9233,
-    "subject": "GBB1275 - Remove from Linen Program",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-13T00:53:48+00:00",
-    "ticket_number": 9231,
-    "subject": "Fishtail-home check",
-    "type": "reassigned",
-    "detail": "Reassigned from d.husak@choosegulfcoast.com to j.messasierra@choosegulfcoast.com",
-    "from": "d.husak@choosegulfcoast.com",
-    "to": "j.messasierra@choosegulfcoast.com"
   }
 ]
