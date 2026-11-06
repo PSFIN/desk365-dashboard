@@ -1,9 +1,30 @@
 {
-  "9552": {
-    "subject": "Name: Bruce Sharon | Res: 33953 | Refund Check",
-    "assigned_to": "k.fisher@choosegulfcoast.com",
+  "9557": {
+    "subject": "Flip Flop Retreat | 2nd bedroom ceiling",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-11 16:25:46",
+    "due_date": "2026-11-11 21:51:56",
+    "priority": 1
+  },
+  "9556": {
+    "subject": "VR Management Agreement Update / Local Registration",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-11 19:24:17",
+    "priority": 5
+  },
+  "9555": {
+    "subject": "VR Management Agreement Update /  Carrying Charge",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-11 19:13:38",
+    "priority": 5
+  },
+  "9553": {
+    "subject": "Guest Name: Bleiler Karin | Res #: 66503 | Unit: Gulf & Bay Bayside - 1328 | Cancellation request",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-11 19:06:59",
     "priority": 1
   },
   "9551": {
@@ -111,13 +132,6 @@
     "due_date": "2026-11-09 21:23:30",
     "priority": 1
   },
-  "9528": {
-    "subject": "GBB1338 - ARDI Claim",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-09 20:24:38",
-    "priority": 1
-  },
   "9526": {
     "subject": "GBB1344 - ARDI",
     "assigned_to": "j.rushton@choosegulfcoast.com",
@@ -138,13 +152,6 @@
     "status": "Open",
     "due_date": "2026-11-09 19:49:38",
     "priority": 5
-  },
-  "9521": {
-    "subject": "GBB1305 - ARDI Claim",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-09 19:07:51",
-    "priority": 1
   },
   "9518": {
     "subject": "Birdie - Guest needs maintenance",
@@ -202,13 +209,6 @@
     "due_date": "2026-12-07 17:06:00",
     "priority": 1
   },
-  "9486": {
-    "subject": "Name: Poirier David | Res: 33935 | Refund Check Request",
-    "assigned_to": "k.fisher@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-06 14:47:05",
-    "priority": 1
-  },
   "9482": {
     "subject": "New Bloom: Request to change the format of each section in Account Managers Meeting",
     "assigned_to": "s.vengaloor@choosegulfcoast.com",
@@ -234,7 +234,7 @@
     "subject": "fire extinguisher order - 15 for office rotation",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-05 16:37:34",
+    "due_date": "2026-11-09 16:37:00",
     "priority": 1
   },
   "9471": {
@@ -276,14 +276,14 @@
     "subject": "A Shore Thing | Multiple issues",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-06 16:24:00",
+    "due_date": "2026-11-09 23:00:00",
     "priority": 1
   },
   "9446": {
     "subject": "YCBR Fire extinguisher order",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-03 20:11:14",
+    "due_date": "2026-12-01 20:11:00",
     "priority": 1
   },
   "9445": {
@@ -291,20 +291,6 @@
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-06 19:57:00",
-    "priority": 1
-  },
-  "9441": {
-    "subject": "Name: Gary & Laurie Smith | Res: 33946 | Refund Check Request",
-    "assigned_to": "k.fisher@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-03 17:53:47",
-    "priority": 1
-  },
-  "9440": {
-    "subject": "Name: Victoria Vila  | Res: 33992 | Refund Check Request",
-    "assigned_to": "k.fisher@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-03 17:46:17",
     "priority": 1
   },
   "9439": {
@@ -386,7 +372,7 @@
   },
   "9363": {
     "subject": "Approach shot - Lynx lock",
-    "assigned_to": "j.delafuente@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-09 23:00:00",
     "priority": 1
@@ -493,28 +479,28 @@
     "subject": "PCA - Tropic Treasure",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-15 15:51:13",
+    "due_date": "2026-11-09 16:51:00",
     "priority": 1
   },
   "9227": {
     "subject": "PCA - Serenity Garden",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-03 16:50:00",
+    "due_date": "2027-03-01 16:50:00",
     "priority": 1
   },
   "9225": {
     "subject": "PCA - Sans Souci",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-30 15:49:00",
+    "due_date": "2026-11-09 16:49:00",
     "priority": 1
   },
   "9224": {
     "subject": "PCA - Sandy Pointe",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-31 15:48:00",
+    "due_date": "2026-11-09 16:48:00",
     "priority": 1
   },
   "9223": {
@@ -528,42 +514,42 @@
     "subject": "PCA - Links & Leisure",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-02 16:46:00",
+    "due_date": "2026-11-09 16:46:00",
     "priority": 1
   },
   "9221": {
     "subject": "PCA - Flip Flop Retreat",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-30 15:45:00",
+    "due_date": "2026-11-09 16:45:00",
     "priority": 1
   },
   "9220": {
     "subject": "PCA - Edgewater Bungalow",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-19 15:45:00",
+    "due_date": "2026-11-09 16:45:00",
     "priority": 1
   },
   "9219": {
     "subject": "PCA - Dreams of Paradise",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-01 15:44:00",
+    "due_date": "2026-12-06 16:44:00",
     "priority": 1
   },
   "9218": {
     "subject": "PCA - Casa de Suenos",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-01 15:43:00",
+    "due_date": "2027-05-01 15:43:00",
     "priority": 1
   },
   "9216": {
     "subject": "PCA - Beach Breeze",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-01 15:42:00",
+    "due_date": "2026-11-09 16:42:00",
     "priority": 1
   },
   "9215": {
@@ -577,7 +563,7 @@
     "subject": "PCA - Array of Sunshine",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-01 15:40:00",
+    "due_date": "2026-11-09 16:40:00",
     "priority": 1
   },
   "9213": {
@@ -592,13 +578,6 @@
     "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-30 14:33:00",
-    "priority": 1
-  },
-  "9203": {
-    "subject": "5 Star Review Feedback | Res #: 63822 | Kim Lambert | Sandalfoot 3C1 | 10/06/2026 - 10/10/2026",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-14 22:00:00",
     "priority": 1
   },
   "9184": {
@@ -654,7 +633,7 @@
     "subject": "Birdie - Info sheet",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-31 14:17:00",
+    "due_date": "2026-12-02 15:17:00",
     "priority": 1
   },
   "9076": {
@@ -843,7 +822,7 @@
     "subject": "PCA for Little Bit Of Heaven Due Date: 9/8/2026",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-06 15:46:00",
+    "due_date": "2026-11-09 15:46:00",
     "priority": 5
   },
   "8037": {
@@ -864,7 +843,7 @@
     "subject": "PCA for Longboat Oasis Due Date: 8/4/2026",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-07 23:00:00",
+    "due_date": "2026-12-30 23:00:00",
     "priority": 5
   },
   "7396": {
