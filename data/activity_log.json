@@ -1,5 +1,14 @@
 [
   {
+    "ts": "2026-11-07T16:00:01+00:00",
+    "ticket_number": 9551,
+    "subject": "Guest Name: Pugh Laurie | Res #: 50968 | Unit: GBB - 1206 | Additional Compensation Request \u2013 AC Issues | Unit 1206",
+    "type": "reassigned",
+    "detail": "Reassigned from m.eronico@choosegulfcoast.com to l.susas@choosegulfcoast.com",
+    "from": "m.eronico@choosegulfcoast.com",
+    "to": "l.susas@choosegulfcoast.com"
+  },
+  {
     "ts": "2026-11-07T02:58:14+00:00",
     "ticket_number": 9558,
     "subject": "GBB1241 - Statement Correction",
@@ -7891,13 +7900,6 @@
     "ts": "2026-10-13T20:45:17+00:00",
     "ticket_number": 9252,
     "subject": "Calusa-Club house",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-13T20:45:17+00:00",
-    "ticket_number": 9251,
-    "subject": "Beyond the Green-New ob need pictures",
     "type": "created",
     "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
   }
