@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-11-07T20:04:46+00:00",
+    "ticket_number": 9559,
+    "subject": "Residences Of Siesta Key | Broken balcony fan",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-11-07T16:00:01+00:00",
     "ticket_number": 9551,
     "subject": "Guest Name: Pugh Laurie | Res #: 50968 | Unit: GBB - 1206 | Additional Compensation Request \u2013 AC Issues | Unit 1206",
@@ -7895,12 +7902,5 @@
     "subject": "Southern Comfort-cleaning",
     "type": "created",
     "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-13T20:45:17+00:00",
-    "ticket_number": 9252,
-    "subject": "Calusa-Club house",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
   }
 ]
