@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-11-07T02:58:14+00:00",
+    "ticket_number": 9558,
+    "subject": "GBB1241 - Statement Correction",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-11-06T23:20:56+00:00",
     "ticket_number": 9557,
     "subject": "Flip Flop Retreat | 2nd bedroom ceiling",
@@ -7893,12 +7900,5 @@
     "subject": "Beyond the Green-New ob need pictures",
     "type": "created",
     "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-13T20:45:17+00:00",
-    "ticket_number": 9250,
-    "subject": "1260 - Guest compensation",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
   }
 ]
