@@ -167,13 +167,6 @@
     "due_date": "2026-11-09 19:49:38",
     "priority": 5
   },
-  "9518": {
-    "subject": "Birdie - Guest needs maintenance",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-09 17:20:34",
-    "priority": 1
-  },
   "9512": {
     "subject": "Fort Myers - SPLASH DECISION - Onboarding Photo Shoot",
     "assigned_to": "b.meyer@choosegulfcoast.com",
@@ -346,7 +339,7 @@
     "subject": "Sun Seeker | Guest requests",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-06 19:40:00",
+    "due_date": "2026-11-09 19:40:00",
     "priority": 1
   },
   "9399": {
@@ -486,7 +479,7 @@
     "subject": "Sandy Pointe Damage Claim | Generali claim number 26182219-01",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-06 23:00:00",
+    "due_date": "2026-11-09 23:00:00",
     "priority": 1
   },
   "9228": {
