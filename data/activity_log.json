@@ -1,5 +1,19 @@
 [
   {
+    "ts": "2026-11-08T16:54:44+00:00",
+    "ticket_number": 9561,
+    "subject": "Bowling John | Res #: 44795 | Cancellation",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-08T16:54:44+00:00",
+    "ticket_number": 9551,
+    "subject": "Guest Name: Pugh Laurie | Res #: 50968 | Unit: GBB - 1206 | Additional Compensation Request \u2013 AC Issues | Unit 1206",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-11-07T23:44:43+00:00",
     "ticket_number": 9560,
     "subject": "The Cortusa | Bourgeois Yvon | Res#: 65263 | Unidentified Package Left at Property",
@@ -7888,19 +7902,5 @@
     "subject": "Palm Meadow-no cleaning",
     "type": "created",
     "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-13T20:45:17+00:00",
-    "ticket_number": 9257,
-    "subject": "Amenities on SL pushed to Airbnb",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.paulin@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-13T20:45:17+00:00",
-    "ticket_number": 9256,
-    "subject": "GC1910 - Remove the furniture",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
   }
 ]
