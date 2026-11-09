@@ -1,28 +1,84 @@
 {
-  "9563": {
-    "subject": "3 Star Review Feedback | Res #: 65250 | Suzanne Heyn | Gulf & Bay Bayside - 1360 | 10/25/2026 - 11/4/2026",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+  "9572": {
+    "subject": "GBB1332- Annual AC maintenance",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-12 17:07:10",
+    "priority": 1
+  },
+  "9571": {
+    "subject": "Peace in the palms - AC",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-12 17:04:31",
+    "priority": 1
+  },
+  "9570": {
+    "subject": "Pier Pressure - Lynx lock install",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-12 17:02:34",
+    "priority": 1
+  },
+  "9569": {
+    "subject": "My Great Escape-Confirm and continue 1 water per week",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-12 16:21:49",
+    "priority": 1
+  },
+  "9568": {
+    "subject": "Guest Name: Gaboury Ray |  Res #: 65845 | Unit: YCBR 01 - Studio | Change request",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-12 15:39:22",
+    "priority": 1
+  },
+  "9567": {
+    "subject": "Remove Nik Ventura Website",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-12 14:50:03",
+    "priority": 10
+  },
+  "9566": {
+    "subject": "Moore Margaret | Res #: 65316 | Unit: Signal Inn - Unit 17 |  Cancellation Request",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-12 14:48:28",
+    "priority": 1
+  },
+  "9565": {
+    "subject": "5 Star Review Feedback | Res #: 61661 | Dusold Elizabeth | Sandalfoot 5B2 | 11/4/2026 - 11/8/2026",
+    "assigned_to": "n.armstrong@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-11 22:00:00",
     "priority": 1
   },
-  "9562": {
-    "subject": "5 Star Review Feedback | Res #: 62564 | Westin Taylor | Colony Inn C-55 | 10/23/2026 - 10/25/2026",
-    "assigned_to": "marcie@choosegulfcoast.com",
+  "9564": {
+    "subject": "Res #: 61096|Unit: Sandalfoot 1A1| Guest Name: Dick Steven| Cancellation Request",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-11 22:00:00",
+    "priority": 1
+  },
+  "9563": {
+    "subject": "3 Star Review Feedback | Res #: 65250 | Suzanne Heyn | Gulf & Bay Bayside - 1360 | 10/25/2026 - 11/4/2026",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-11 22:00:00",
     "priority": 1
   },
   "9560": {
     "subject": "The Cortusa | Bourgeois Yvon | Res#: 65263 | Unidentified Package Left at Property",
-    "assigned_to": "j.gueco@choosegulfcoast.com",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-11 22:00:00",
     "priority": 1
   },
   "9559": {
     "subject": "Residences Of Siesta Key | Broken balcony fan",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-11 22:00:00",
     "priority": 1
@@ -64,21 +120,21 @@
   },
   "9549": {
     "subject": "Relist in OTAs: fairway to paradise",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-11 14:15:44",
     "priority": 10
   },
   "9548": {
     "subject": "GBB 1327 | Interior rug is dirty",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "c.nutt@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-10 22:00:00",
+    "due_date": "2026-11-11 22:00:00",
     "priority": 1
   },
   "9547": {
     "subject": "GBB 1241 | Furniture needed cleaning",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-10 22:00:00",
     "priority": 1
@@ -95,20 +151,6 @@
     "assigned_to": "k.garcia@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-10 21:24:23",
-    "priority": 1
-  },
-  "9543": {
-    "subject": "#1206 AC failed- moved guests to #1315",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-10 20:34:19",
-    "priority": 5
-  },
-  "9542": {
-    "subject": "Unit: Colony Inn C-47 / Guest Name: Fred Downey / Cancel Res #: 62693",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-10 20:02:00",
     "priority": 1
   },
   "9541": {
@@ -134,7 +176,7 @@
   },
   "9535": {
     "subject": "T-Wreckz Junk Removal llc/ Invoice",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-09 22:00:00",
     "priority": 1
@@ -153,25 +195,18 @@
     "due_date": "2026-11-10 21:23:00",
     "priority": 1
   },
-  "9526": {
-    "subject": "GBB1344 - ARDI",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-09 20:16:49",
-    "priority": 1
-  },
   "9525": {
     "subject": "Resident Benefits Package PDF Flyer",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-09 20:02:58",
+    "due_date": "2026-11-13 20:02:00",
     "priority": 5
   },
   "9523": {
     "subject": "Resident Benefits Package PDF Flyer",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-09 19:49:38",
+    "due_date": "2026-11-13 19:49:00",
     "priority": 5
   },
   "9512": {
@@ -223,13 +258,6 @@
     "due_date": "2026-12-07 17:06:00",
     "priority": 1
   },
-  "9482": {
-    "subject": "New Bloom: Request to change the format of each section in Account Managers Meeting",
-    "assigned_to": "s.vengaloor@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-05 20:54:59",
-    "priority": 5
-  },
   "9480": {
     "subject": "My Great Escape-Black flow testing",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
@@ -253,9 +281,9 @@
   },
   "9471": {
     "subject": "4 Star Review Feedback | Res #: 59381 | Jenette Van den Heerik | Turtle House | 10/23/2026 - 10/28/2026",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-05 22:00:00",
+    "due_date": "2026-11-10 22:00:00",
     "priority": 1
   },
   "9470": {
@@ -270,13 +298,6 @@
     "assigned_to": "n.armstrong@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-04 22:00:00",
-    "priority": 1
-  },
-  "9463": {
-    "subject": "SCHARRET Kim | Unit: Colony Inn C-54 | Res #: 64877 | Guest Feedback",
-    "assigned_to": "marcie@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-10 22:00:00",
     "priority": 1
   },
   "9451": {
@@ -295,16 +316,9 @@
   },
   "9445": {
     "subject": "Ospreys Nest | Cracked toilet bowl",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-06 19:57:00",
-    "priority": 1
-  },
-  "9439": {
-    "subject": "GBB 1382 - Front door paint",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-09 23:00:00",
+    "due_date": "2026-11-10 19:57:00",
     "priority": 1
   },
   "9438": {
@@ -337,7 +351,7 @@
   },
   "9403": {
     "subject": "Sun Seeker | Guest requests",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-09 19:40:00",
     "priority": 1
@@ -451,7 +465,7 @@
     "subject": "GBB1318 Fan in master",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-09 23:00:00",
+    "due_date": "2026-11-11 23:00:00",
     "priority": 1
   },
   "9312": {
