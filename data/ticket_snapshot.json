@@ -1,11 +1,4 @@
 {
-  "9561": {
-    "subject": "Bowling John | Res #: 44795 | Cancellation",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-11 22:00:00",
-    "priority": 1
-  },
   "9560": {
     "subject": "The Cortusa | Bourgeois Yvon | Res#: 65263 | Unidentified Package Left at Property",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
@@ -271,13 +264,6 @@
     "status": "Open",
     "due_date": "2026-11-04 22:00:00",
     "priority": 1
-  },
-  "9460": {
-    "subject": "Res #: 65758| Guest Name: Leckerman Theresa M |Property/Unit: My Great Escape| Refund request",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-04 22:00:00",
-    "priority": 10
   },
   "9451": {
     "subject": "A Shore Thing | Multiple issues",

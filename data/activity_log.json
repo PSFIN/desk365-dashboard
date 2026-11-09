@@ -1,5 +1,19 @@
 [
   {
+    "ts": "2026-11-09T00:24:12+00:00",
+    "ticket_number": 9561,
+    "subject": "Bowling John | Res #: 44795 | Cancellation",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-09T00:24:12+00:00",
+    "ticket_number": 9460,
+    "subject": "Res #: 65758| Guest Name: Leckerman Theresa M |Property/Unit: My Great Escape| Refund request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-11-08T20:55:09+00:00",
     "ticket_number": 9403,
     "subject": "Sun Seeker | Guest requests",
@@ -7892,19 +7906,5 @@
     "subject": "o6ers-block",
     "type": "created",
     "detail": "Created \u2014 assigned to a.guarin@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-13T20:45:17+00:00",
-    "ticket_number": 9262,
-    "subject": "The Boat House-No smoke detectors",
-    "type": "created",
-    "detail": "Created \u2014 assigned to d.husak@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-13T20:45:17+00:00",
-    "ticket_number": 9261,
-    "subject": "Name: Pfeifer Chris | Res: 62211 | Property: C-14 | Cancelled 100% Retained - Direct",
-    "type": "created",
-    "detail": "Created \u2014 assigned to a.ytac@choosegulfcoast.com, status Open"
   }
 ]
