@@ -1,7 +1,21 @@
 {
+  "9563": {
+    "subject": "3 Star Review Feedback | Res #: 65250 | Suzanne Heyn | Gulf & Bay Bayside - 1360 | 10/25/2026 - 11/4/2026",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-11 22:00:00",
+    "priority": 1
+  },
+  "9562": {
+    "subject": "5 Star Review Feedback | Res #: 62564 | Westin Taylor | Colony Inn C-55 | 10/23/2026 - 10/25/2026",
+    "assigned_to": "marcie@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-11 22:00:00",
+    "priority": 1
+  },
   "9560": {
     "subject": "The Cortusa | Bourgeois Yvon | Res#: 65263 | Unidentified Package Left at Property",
-    "assigned_to": "j.delafuente@choosegulfcoast.com",
+    "assigned_to": "j.gueco@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-11 22:00:00",
     "priority": 1
@@ -94,7 +108,7 @@
     "subject": "Unit: Colony Inn C-47 / Guest Name: Fred Downey / Cancel Res #: 62693",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-10 20:02:36",
+    "due_date": "2026-11-10 20:02:00",
     "priority": 1
   },
   "9541": {
@@ -136,7 +150,7 @@
     "subject": "Unit: Luna Sea | Guest Name: Gottschall Terry | Cancelation Request Res #: 49349",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-09 21:23:30",
+    "due_date": "2026-11-10 21:23:00",
     "priority": 1
   },
   "9526": {
@@ -260,9 +274,9 @@
   },
   "9463": {
     "subject": "SCHARRET Kim | Unit: Colony Inn C-54 | Res #: 64877 | Guest Feedback",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "assigned_to": "marcie@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-04 22:00:00",
+    "due_date": "2026-11-10 22:00:00",
     "priority": 1
   },
   "9451": {
