@@ -1,4 +1,11 @@
 {
+  "9583": {
+    "subject": "4 Star Review Feedback | Res #: 43914 | Justin Kemp-Gee | Gulf & Bay 1389 | 10/24/2026 - 11/7/2026",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-12 22:00:00",
+    "priority": 1
+  },
   "9582": {
     "subject": "Check# 5960 dated 12/23/21 Issued to Sohail Hasan",
     "assigned_to": "k.zeh@choosegulfcoast.com",
@@ -11,13 +18,6 @@
     "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-12 21:36:35",
-    "priority": 1
-  },
-  "9580": {
-    "subject": "YCBR Unit 4 - Description update",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-12 20:44:13",
     "priority": 1
   },
   "9579": {

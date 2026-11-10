@@ -1,5 +1,19 @@
 [
   {
+    "ts": "2026-11-10T07:56:04+00:00",
+    "ticket_number": 9583,
+    "subject": "4 Star Review Feedback | Res #: 43914 | Justin Kemp-Gee | Gulf & Bay 1389 | 10/24/2026 - 11/7/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-10T07:56:04+00:00",
+    "ticket_number": 9580,
+    "subject": "YCBR Unit 4 - Description update",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-11-10T00:46:55+00:00",
     "ticket_number": 9582,
     "subject": "Check# 5960 dated 12/23/21 Issued to Sohail Hasan",
@@ -7892,19 +7906,5 @@
     "subject": "Rothrock Lindsey | Ocean Eyes | Res #: 60090 | Toilet Issue",
     "type": "created",
     "detail": "Created \u2014 assigned to j.delafuente@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-15T16:04:33+00:00",
-    "ticket_number": 9284,
-    "subject": "1 Star Review Feedback | Res #: 58458 | Blackburn Kathleen | Signal Inn - Unit 19 | 10/9/2026 - 10/12/2026",
-    "type": "created",
-    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-15T16:04:33+00:00",
-    "ticket_number": 9283,
-    "subject": "Name: Reber Paul & Renee | Res: 64639 | NPG Commission Charge",
-    "type": "created",
-    "detail": "Created \u2014 assigned to a.ytac@choosegulfcoast.com, status Open"
   }
 ]
