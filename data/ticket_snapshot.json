@@ -1,4 +1,32 @@
 {
+  "9590": {
+    "subject": "Change GCAM Phone #",
+    "assigned_to": "e.buchanan@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-13 15:58:33",
+    "priority": 5
+  },
+  "9586": {
+    "subject": "Sanderson Wendy | Colony Inn C16 | Res #: 66053 | Cancellation Refund",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-13 14:18:21",
+    "priority": 1
+  },
+  "9585": {
+    "subject": "Raymonds Retreats Relocation | Res# 66489",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-11 18:00:00",
+    "priority": 20
+  },
+  "9584": {
+    "subject": "Please remit Sarasota County Tax on res #66403",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-11 18:00:00",
+    "priority": 20
+  },
   "9583": {
     "subject": "4 Star Review Feedback | Res #: 43914 | Justin Kemp-Gee | Gulf & Bay 1389 | 10/24/2026 - 11/7/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
@@ -29,7 +57,7 @@
   },
   "9577": {
     "subject": "Name: Kilthau Gerald & Jean | Res: 62255 | Entry Light & Lanai Screen Damage",
-    "assigned_to": "j.delafuente@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-12 19:55:30",
     "priority": 1
@@ -141,7 +169,7 @@
   },
   "9544": {
     "subject": "Liu Fang/ Res #: 62238/Sandalfoot 2B3/Guest Feedback",
-    "assigned_to": "k.garcia@choosegulfcoast.com",
+    "assigned_to": "a.dallman@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-10 21:24:23",
     "priority": 1
@@ -163,13 +191,6 @@
   "9536": {
     "subject": "5 Star Review Feedback | Res #: 49065 | Godshalk Lori | Breakers West C3 | 10/24/2026 - 10/29/2026",
     "assigned_to": "l.costa@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-09 22:00:00",
-    "priority": 1
-  },
-  "9535": {
-    "subject": "T-Wreckz Junk Removal llc/ Invoice",
-    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-09 22:00:00",
     "priority": 1
@@ -710,7 +731,7 @@
     "subject": "City of Bradenton VR License - Don't Worry Beach Happy | 502 Sanderling Circle",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-10 15:55:00",
+    "due_date": "2026-11-13 15:55:00",
     "priority": 20
   },
   "8856": {

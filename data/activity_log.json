@@ -1,5 +1,67 @@
 [
   {
+    "ts": "2026-11-10T16:01:27+00:00",
+    "ticket_number": 9590,
+    "subject": "Change GCAM Phone #",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.buchanan@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-10T16:01:27+00:00",
+    "ticket_number": 9586,
+    "subject": "Sanderson Wendy | Colony Inn C16 | Res #: 66053 | Cancellation Refund",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-10T16:01:27+00:00",
+    "ticket_number": 9585,
+    "subject": "Raymonds Retreats Relocation | Res# 66489",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-10T16:01:27+00:00",
+    "ticket_number": 9584,
+    "subject": "Please remit Sarasota County Tax on res #66403",
+    "type": "created",
+    "detail": "Created \u2014 assigned to e.morales@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-10T16:01:27+00:00",
+    "ticket_number": 9577,
+    "subject": "Name: Kilthau Gerald & Jean | Res: 62255 | Entry Light & Lanai Screen Damage",
+    "type": "reassigned",
+    "detail": "Reassigned from j.delafuente@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "j.delafuente@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-10T16:01:27+00:00",
+    "ticket_number": 9544,
+    "subject": "Liu Fang/ Res #: 62238/Sandalfoot 2B3/Guest Feedback",
+    "type": "reassigned",
+    "detail": "Reassigned from k.garcia@choosegulfcoast.com to a.dallman@choosegulfcoast.com",
+    "from": "k.garcia@choosegulfcoast.com",
+    "to": "a.dallman@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-10T16:01:27+00:00",
+    "ticket_number": 8860,
+    "subject": "City of Bradenton VR License - Don't Worry Beach Happy | 502 Sanderling Circle",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-10 15:55:00 to 2026-11-13 15:55:00",
+    "from": "2026-11-10 15:55:00",
+    "to": "2026-11-13 15:55:00"
+  },
+  {
+    "ts": "2026-11-10T16:01:27+00:00",
+    "ticket_number": 9535,
+    "subject": "T-Wreckz Junk Removal llc/ Invoice",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-11-10T07:56:04+00:00",
     "ticket_number": 9583,
     "subject": "4 Star Review Feedback | Res #: 43914 | Justin Kemp-Gee | Gulf & Bay 1389 | 10/24/2026 - 11/7/2026",
@@ -7850,61 +7912,5 @@
     "subject": "Southern Comfort-cleaning",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-15T19:56:49+00:00",
-    "ticket_number": 9240,
-    "subject": "Brown Cleo | Res #: 64268 | Pearl in the Rough | Hairs and Scrubs",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-15T19:56:49+00:00",
-    "ticket_number": 9176,
-    "subject": "BLOOM AM Weekly meeting - request to add unit leaderboard",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-15T19:56:49+00:00",
-    "ticket_number": 9173,
-    "subject": "Bourgeois Yvon | The Cortusa |  Res: 32428 | Light not working in the stairs building",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-15T19:56:49+00:00",
-    "ticket_number": 9168,
-    "subject": "5 Star Review Feedback | Res #: 64025 | Lombardi Gabriel | Colony Inn C-46 | 10/06/2026-10/08/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-15T19:56:49+00:00",
-    "ticket_number": 9163,
-    "subject": "Take Photos New AR GC1899",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-15T19:56:49+00:00",
-    "ticket_number": 9141,
-    "subject": "New Hire - Christopher Zepeda",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-15T19:56:49+00:00",
-    "ticket_number": 9014,
-    "subject": "Gulf Standard - Lynx",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-15T16:04:33+00:00",
-    "ticket_number": 9285,
-    "subject": "Rothrock Lindsey | Ocean Eyes | Res #: 60090 | Toilet Issue",
-    "type": "created",
-    "detail": "Created \u2014 assigned to j.delafuente@choosegulfcoast.com, status Open"
   }
 ]
