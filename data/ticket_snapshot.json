@@ -1,16 +1,58 @@
 {
-  "9572": {
-    "subject": "GBB1332- Annual AC maintenance",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+  "9582": {
+    "subject": "Check# 5960 dated 12/23/21 Issued to Sohail Hasan",
+    "assigned_to": "k.zeh@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-12 17:07:10",
+    "due_date": "2026-11-12 22:00:00",
     "priority": 1
   },
-  "9571": {
-    "subject": "Peace in the palms - AC",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+  "9581": {
+    "subject": "Shore Pro Clean LLC South Invoices",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-12 17:04:31",
+    "due_date": "2026-11-12 21:36:35",
+    "priority": 1
+  },
+  "9580": {
+    "subject": "YCBR Unit 4 - Description update",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-12 20:44:13",
+    "priority": 1
+  },
+  "9579": {
+    "subject": "YCBR Project",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-12 20:43:04",
+    "priority": 1
+  },
+  "9577": {
+    "subject": "Name: Kilthau Gerald & Jean | Res: 62255 | Entry Light & Lanai Screen Damage",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-12 19:55:30",
+    "priority": 1
+  },
+  "9576": {
+    "subject": "Avalon-no cleaning required",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-12 19:23:51",
+    "priority": 10
+  },
+  "9574": {
+    "subject": "Lead Simple Emails",
+    "assigned_to": "e.buchanan@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-12 18:56:36",
+    "priority": 5
+  },
+  "9573": {
+    "subject": "Charitable Donations for Resorts - October 2026",
+    "assigned_to": "l.brigida@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-10 18:27:00",
     "priority": 1
   },
   "9570": {
@@ -22,42 +64,14 @@
   },
   "9569": {
     "subject": "My Great Escape-Confirm and continue 1 water per week",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-12 16:21:49",
-    "priority": 1
-  },
-  "9568": {
-    "subject": "Guest Name: Gaboury Ray |  Res #: 65845 | Unit: YCBR 01 - Studio | Change request",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-12 15:39:22",
-    "priority": 1
-  },
-  "9567": {
-    "subject": "Remove Nik Ventura Website",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-12 14:50:03",
-    "priority": 10
-  },
-  "9566": {
-    "subject": "Moore Margaret | Res #: 65316 | Unit: Signal Inn - Unit 17 |  Cancellation Request",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-12 14:48:28",
     "priority": 1
   },
   "9565": {
     "subject": "5 Star Review Feedback | Res #: 61661 | Dusold Elizabeth | Sandalfoot 5B2 | 11/4/2026 - 11/8/2026",
     "assigned_to": "n.armstrong@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-11 22:00:00",
-    "priority": 1
-  },
-  "9564": {
-    "subject": "Res #: 61096|Unit: Sandalfoot 1A1| Guest Name: Dick Steven| Cancellation Request",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-11 22:00:00",
     "priority": 1
@@ -78,7 +92,7 @@
   },
   "9559": {
     "subject": "Residences Of Siesta Key | Broken balcony fan",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-11 22:00:00",
     "priority": 1
@@ -92,7 +106,7 @@
   },
   "9557": {
     "subject": "Flip Flop Retreat | 2nd bedroom ceiling",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-11 21:51:56",
     "priority": 1
@@ -111,20 +125,6 @@
     "due_date": "2026-11-11 19:13:38",
     "priority": 5
   },
-  "9550": {
-    "subject": "Post Video to YouTube",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-11 14:19:39",
-    "priority": 1
-  },
-  "9549": {
-    "subject": "Relist in OTAs: fairway to paradise",
-    "assigned_to": "d.husak@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-11 14:15:44",
-    "priority": 10
-  },
   "9548": {
     "subject": "GBB 1327 | Interior rug is dirty",
     "assigned_to": "c.nutt@choosegulfcoast.com",
@@ -137,13 +137,6 @@
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-10 22:00:00",
-    "priority": 1
-  },
-  "9546": {
-    "subject": "O6ERS | Carpet cleaning",
-    "assigned_to": "d.husak@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-10 21:57:11",
     "priority": 1
   },
   "9544": {
@@ -186,13 +179,6 @@
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-09 22:00:00",
-    "priority": 1
-  },
-  "9531": {
-    "subject": "Unit: Luna Sea | Guest Name: Gottschall Terry | Cancelation Request Res #: 49349",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-10 21:23:00",
     "priority": 1
   },
   "9525": {
@@ -281,7 +267,7 @@
   },
   "9471": {
     "subject": "4 Star Review Feedback | Res #: 59381 | Jenette Van den Heerik | Turtle House | 10/23/2026 - 10/28/2026",
-    "assigned_to": "j.delafuente@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-10 22:00:00",
     "priority": 1
@@ -304,7 +290,7 @@
     "subject": "A Shore Thing | Multiple issues",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-09 23:00:00",
+    "due_date": "2026-11-12 23:00:00",
     "priority": 1
   },
   "9446": {
@@ -332,7 +318,7 @@
     "subject": "Website Team Pages",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-10 18:08:00",
+    "due_date": "2026-11-13 18:08:00",
     "priority": 5
   },
   "9413": {
@@ -342,16 +328,9 @@
     "due_date": "2026-10-30 15:49:34",
     "priority": 10
   },
-  "9406": {
-    "subject": "Keys Please - Photos",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-13 20:54:00",
-    "priority": 1
-  },
   "9403": {
     "subject": "Sun Seeker | Guest requests",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-09 19:40:00",
     "priority": 1
@@ -724,7 +703,7 @@
     "subject": "City of Bradenton VR License - Tropical Gulf Retreat | 4325 46th Avenue West, #203",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-09 17:42:00",
+    "due_date": "2026-11-13 17:42:00",
     "priority": 20
   },
   "8860": {
@@ -893,20 +872,6 @@
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2027-06-01 22:00:00",
-    "priority": 1
-  },
-  "5394": {
-    "subject": "FLorida Sanctuary/ Heat pump for pool",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": null,
-    "priority": 10
-  },
-  "5300": {
-    "subject": "Guest Name: Simmons Julie I Unit: Coastal Oasis I Res #: 40541 I Pool Dirty",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": null,
     "priority": 1
   }
 }
