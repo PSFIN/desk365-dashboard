@@ -1,4 +1,67 @@
 {
+  "9599": {
+    "subject": "Relocation Res #53333 | Kozmic Bartosz | Sunny Retreat",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-13 21:38:32",
+    "priority": 1
+  },
+  "9598": {
+    "subject": "Email Signature - Jim Brown",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-13 21:07:48",
+    "priority": 10
+  },
+  "9597": {
+    "subject": "Fore Season-All Calusa properties'",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-13 20:35:48",
+    "priority": 10
+  },
+  "9596": {
+    "subject": "Fore Season-mail box key",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-13 20:32:42",
+    "priority": 10
+  },
+  "9595": {
+    "subject": "Bellevue -Comp 145.00 garage door",
+    "assigned_to": "m.johnston@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-13 20:09:51",
+    "priority": 1
+  },
+  "9594": {
+    "subject": "Grand Getaway-ARDI SHeets",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-13 19:42:36",
+    "priority": 1
+  },
+  "9593": {
+    "subject": "Sun Dappled comp lawn 132.50",
+    "assigned_to": "m.johnston@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-13 17:58:46",
+    "priority": 1
+  },
+  "9592": {
+    "subject": "Beautiful Bayou-comp cleaning",
+    "assigned_to": "m.johnston@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-13 17:48:46",
+    "priority": 1
+  },
+  "9591": {
+    "subject": "Chang Christina | Res #: 64927 | Unit: Beach House Residences Unit 1 | Guest Feedback",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-13 16:49:10",
+    "priority": 1
+  },
   "9590": {
     "subject": "Change GCAM Phone #",
     "assigned_to": "e.buchanan@choosegulfcoast.com",
@@ -41,18 +104,11 @@
     "due_date": "2026-11-12 22:00:00",
     "priority": 1
   },
-  "9581": {
-    "subject": "Shore Pro Clean LLC South Invoices",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-12 21:36:35",
-    "priority": 1
-  },
   "9579": {
     "subject": "YCBR Project",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-12 20:43:04",
+    "due_date": "2026-11-16 20:43:00",
     "priority": 1
   },
   "9577": {
@@ -75,13 +131,6 @@
     "status": "Open",
     "due_date": "2026-11-12 18:56:36",
     "priority": 5
-  },
-  "9573": {
-    "subject": "Charitable Donations for Resorts - October 2026",
-    "assigned_to": "l.brigida@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-10 18:27:00",
-    "priority": 1
   },
   "9570": {
     "subject": "Pier Pressure - Lynx lock install",
@@ -125,13 +174,6 @@
     "due_date": "2026-11-11 22:00:00",
     "priority": 1
   },
-  "9558": {
-    "subject": "GBB1241 - Statement Correction",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-11 22:00:00",
-    "priority": 1
-  },
   "9557": {
     "subject": "Flip Flop Retreat | 2nd bedroom ceiling",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
@@ -150,7 +192,7 @@
     "subject": "VR Management Agreement Update /  Carrying Charge",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-11 19:13:38",
+    "due_date": "2026-11-13 19:13:00",
     "priority": 5
   },
   "9548": {
@@ -169,7 +211,7 @@
   },
   "9544": {
     "subject": "Liu Fang/ Res #: 62238/Sandalfoot 2B3/Guest Feedback",
-    "assigned_to": "a.dallman@choosegulfcoast.com",
+    "assigned_to": "n.armstrong@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-10 21:24:23",
     "priority": 1
@@ -209,13 +251,6 @@
     "due_date": "2026-11-13 20:02:00",
     "priority": 5
   },
-  "9523": {
-    "subject": "Resident Benefits Package PDF Flyer",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-13 19:49:00",
-    "priority": 5
-  },
   "9512": {
     "subject": "Fort Myers - SPLASH DECISION - Onboarding Photo Shoot",
     "assigned_to": "b.meyer@choosegulfcoast.com",
@@ -250,13 +285,6 @@
     "status": "Open",
     "due_date": "2026-11-13 20:39:00",
     "priority": 5
-  },
-  "9497": {
-    "subject": "YCBR Ready Units - Write Description",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-11 19:52:00",
-    "priority": 1
   },
   "9494": {
     "subject": "Dreams of Paradise-pick up new nights stands",
@@ -300,13 +328,6 @@
     "due_date": "2026-11-04 22:00:00",
     "priority": 1
   },
-  "9468": {
-    "subject": "1 Star Review Feedback | Res #: 36469 | Hobson Katherine | Sandalfoot 1D2 | 10/24/2026 - 10/29/2026",
-    "assigned_to": "n.armstrong@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-04 22:00:00",
-    "priority": 1
-  },
   "9451": {
     "subject": "A Shore Thing | Multiple issues",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
@@ -323,7 +344,7 @@
   },
   "9445": {
     "subject": "Ospreys Nest | Cracked toilet bowl",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-10 19:57:00",
     "priority": 1
@@ -668,7 +689,7 @@
     "subject": "GBB Walk Through Videos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-13 23:00:00",
+    "due_date": "2026-11-27 23:00:00",
     "priority": 1
   },
   "9041": {
