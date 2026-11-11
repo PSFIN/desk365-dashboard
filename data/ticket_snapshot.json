@@ -1,17 +1,66 @@
 {
+  "9613": {
+    "subject": "Patrick Tranter/ Tropical Escape/  Res #: 65380/ Cancellation Request",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-16 21:14:11",
+    "priority": 1
+  },
+  "9612": {
+    "subject": "Sun Dappled-remove lynx lock",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-16 20:46:08",
+    "priority": 10
+  },
+  "9611": {
+    "subject": "Smoke Detectors- Day Dreamer",
+    "assigned_to": "d.husak@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-16 20:44:56",
+    "priority": 1
+  },
+  "9610": {
+    "subject": "Smoke Detectors- Array of Sunshine",
+    "assigned_to": "d.husak@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-16 20:43:34",
+    "priority": 1
+  },
+  "9609": {
+    "subject": "Remove golf pricing",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-16 19:47:01",
+    "priority": 10
+  },
+  "9608": {
+    "subject": "RES#39088 - Oak Water Escape Returning Guest Question",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-16 18:31:40",
+    "priority": 1
+  },
+  "9607": {
+    "subject": "Good tideings - Listing photos",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-16 17:17:54",
+    "priority": 5
+  },
+  "9606": {
+    "subject": "Good tideings - Lynx lock install and TV",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-16 17:17:03",
+    "priority": 1
+  },
   "9605": {
     "subject": "Name: Fred Downey | Res: 62693 | Cancelled 50% Retained - OTA",
     "assigned_to": "a.ytac@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-16 15:48:53",
     "priority": 1
-  },
-  "9604": {
-    "subject": "Beachbound Bliss - Credit",
-    "assigned_to": "k.zeh@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-16 15:01:53",
-    "priority": 10
   },
   "9603": {
     "subject": "Sly and Salty - Photos",
@@ -20,26 +69,12 @@
     "due_date": "2026-11-16 14:41:09",
     "priority": 1
   },
-  "9602": {
-    "subject": "Sly and Salty - Deep clean",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-16 14:40:08",
-    "priority": 1
-  },
   "9601": {
     "subject": "Assistance with Securing and Transferring Forms from PandaDoc to Jotform",
     "assigned_to": "s.vengaloor@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-16 14:31:10",
     "priority": 10
-  },
-  "9599": {
-    "subject": "Relocation Res #53333 | Kozmic Bartosz | Sunny Retreat",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-13 21:38:32",
-    "priority": 1
   },
   "9598": {
     "subject": "Email Signature - Jim Brown",
@@ -60,13 +95,6 @@
     "assigned_to": "m.johnston@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-13 20:09:51",
-    "priority": 1
-  },
-  "9594": {
-    "subject": "Grand Getaway-ARDI SHeets",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-13 19:42:36",
     "priority": 1
   },
   "9593": {
@@ -97,18 +125,11 @@
     "due_date": "2026-11-13 15:58:33",
     "priority": 5
   },
-  "9585": {
-    "subject": "Raymonds Retreats Relocation | Res# 66489",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-11 18:00:00",
-    "priority": 20
-  },
   "9583": {
     "subject": "4 Star Review Feedback | Res #: 43914 | Justin Kemp-Gee | Gulf & Bay 1389 | 10/24/2026 - 11/7/2026",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-12 22:00:00",
+    "due_date": "2026-11-25 22:00:00",
     "priority": 1
   },
   "9582": {
@@ -122,7 +143,7 @@
     "subject": "YCBR Project",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-16 20:43:00",
+    "due_date": "2026-11-20 20:43:00",
     "priority": 1
   },
   "9577": {
@@ -269,7 +290,7 @@
     "subject": "fire extinguisher order - 15 for office rotation",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-09 16:37:00",
+    "due_date": "2026-11-13 16:37:00",
     "priority": 1
   },
   "9471": {
@@ -295,7 +316,7 @@
   },
   "9445": {
     "subject": "Ospreys Nest | Cracked toilet bowl",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-10 19:57:00",
     "priority": 1
@@ -358,9 +379,9 @@
   },
   "9363": {
     "subject": "Approach shot - Lynx lock",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-09 23:00:00",
+    "due_date": "2026-11-13 23:00:00",
     "priority": 1
   },
   "9362": {
@@ -368,13 +389,6 @@
     "assigned_to": "d.canada@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-26 18:35:34",
-    "priority": 1
-  },
-  "9361": {
-    "subject": "Buy Pressure washer",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-18 19:26:00",
     "priority": 1
   },
   "9360": {
@@ -391,33 +405,12 @@
     "due_date": "2026-12-02 16:37:00",
     "priority": 1
   },
-  "9344": {
-    "subject": "Old Photo negatives",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-15 23:00:00",
-    "priority": 1
-  },
-  "9341": {
-    "subject": "Newsletter / Owner Account Balance & Carrying Charge Policy",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-13 20:38:00",
-    "priority": 5
-  },
   "9340": {
     "subject": "TEST Property",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2027-01-30 20:29:00",
     "priority": 1
-  },
-  "9325": {
-    "subject": "Owner facing newsletter / Professional Linen Program",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-13 22:00:00",
-    "priority": 5
   },
   "9322": {
     "subject": "1 Star Review Feedback | Res #: 53101 | Snyder Daniel | Compass Point #163 | 10/10/2026 - 10/17/2026",
@@ -449,7 +442,7 @@
   },
   "9302": {
     "subject": "5 Star Review Feedback | Res #: 43586 | Douglas Simpson | Signal Inn - Unit 04 | 10/12/2026 - 10/15/2026",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "assigned_to": "m.mccartney@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-13 15:42:00",
     "priority": 1
@@ -463,9 +456,9 @@
   },
   "9228": {
     "subject": "PCA - Tropic Treasure",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-09 16:51:00",
+    "due_date": "2026-11-21 16:51:00",
     "priority": 1
   },
   "9227": {
@@ -477,16 +470,16 @@
   },
   "9225": {
     "subject": "PCA - Sans Souci",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-09 16:49:00",
+    "due_date": "2026-11-13 16:49:00",
     "priority": 1
   },
   "9224": {
     "subject": "PCA - Sandy Pointe",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-09 16:48:00",
+    "due_date": "2026-11-13 16:48:00",
     "priority": 1
   },
   "9223": {
@@ -498,23 +491,23 @@
   },
   "9222": {
     "subject": "PCA - Links & Leisure",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-09 16:46:00",
+    "due_date": "2026-11-13 16:46:00",
     "priority": 1
   },
   "9221": {
     "subject": "PCA - Flip Flop Retreat",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-09 16:45:00",
+    "due_date": "2026-11-13 16:45:00",
     "priority": 1
   },
   "9220": {
     "subject": "PCA - Edgewater Bungalow",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-09 16:45:00",
+    "due_date": "2026-11-13 16:45:00",
     "priority": 1
   },
   "9219": {
@@ -535,7 +528,7 @@
     "subject": "PCA - Beach Breeze",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-09 16:42:00",
+    "due_date": "2026-11-13 16:42:00",
     "priority": 1
   },
   "9215": {
@@ -549,7 +542,7 @@
     "subject": "PCA - Array of Sunshine",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-09 16:40:00",
+    "due_date": "2026-11-13 16:40:00",
     "priority": 1
   },
   "9213": {
@@ -568,7 +561,7 @@
   },
   "9184": {
     "subject": "Kenney Patrick |   Res#: 60210 | Signal Inn - Unit 06 | Damaged Window Shade",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-06 23:00:00",
     "priority": 1
@@ -589,23 +582,23 @@
   },
   "9147": {
     "subject": "Longboat Dream - Info sheet",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-12 15:47:19",
+    "due_date": "2026-11-28 16:47:00",
     "priority": 1
   },
   "9146": {
     "subject": "Longboat Oasis - Info sheet",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-29 15:46:00",
+    "due_date": "2026-11-14 16:46:00",
     "priority": 1
   },
   "9144": {
     "subject": "GBB1350 - Deep clean",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-12 15:43:22",
+    "due_date": "2026-11-21 16:43:00",
     "priority": 1
   },
   "9136": {
@@ -624,7 +617,7 @@
   },
   "9076": {
     "subject": "Grill",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "assigned_to": "m.mccartney@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-13 15:52:00",
     "priority": 1
@@ -678,13 +671,6 @@
     "due_date": "2026-11-29 21:00:00",
     "priority": 10
   },
-  "8868": {
-    "subject": "Boardwalk benches",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-30 23:00:00",
-    "priority": 1
-  },
   "8866": {
     "subject": "City of Bradenton VR License - Tropical Gulf Retreat | 4325 46th Avenue West, #203",
     "assigned_to": "l.brigida@choosegulfcoast.com",
@@ -703,19 +689,19 @@
     "subject": "DR-11 Form : Tee Time | 19116 Scallop Loop, #105",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-11 21:00:00",
+    "due_date": "2026-11-17 21:00:00",
     "priority": 10
   },
   "8830": {
     "subject": "Pellito Laurie/Signal Inn - Unit 14/Signal Inn - Unit 14/Property Feedback",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "assigned_to": "m.mccartney@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-05 22:13:00",
     "priority": 1
   },
   "8825": {
     "subject": "Sliding door lock project",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "assigned_to": "m.mccartney@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-13 16:51:00",
     "priority": 1
@@ -738,12 +724,12 @@
     "subject": "DR-11 Form :  Splash Decision - 14881 Laguna Drive",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-11 21:00:00",
+    "due_date": "2026-11-17 21:00:00",
     "priority": 10
   },
   "8562": {
     "subject": "camera for signal from Red1",
-    "assigned_to": "n.ventura@choosegulfcoast.com",
+    "assigned_to": "l.costa@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-18 17:07:00",
     "priority": 1
@@ -752,14 +738,14 @@
     "subject": "DR-11 Form : Putt in Paradise -19116 SCALLOP LOOP, #202",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-11 21:00:00",
+    "due_date": "2026-11-17 21:00:00",
     "priority": 10
   },
   "8499": {
     "subject": "Cedar Hammock Fire District Inspection - Multiple Units",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-11 21:00:00",
+    "due_date": "2026-11-17 21:00:00",
     "priority": 10
   },
   "8444": {
@@ -780,7 +766,7 @@
     "subject": "DR-11 Forms : Multiple Property Units",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-11 21:00:00",
+    "due_date": "2026-11-17 21:00:00",
     "priority": 10
   },
   "8365": {
@@ -806,9 +792,9 @@
   },
   "8179": {
     "subject": "PCA for Little Bit Of Heaven Due Date: 9/8/2026",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-09 15:46:00",
+    "due_date": "2026-11-21 15:46:00",
     "priority": 5
   },
   "8037": {
