@@ -1,4 +1,39 @@
 {
+  "9605": {
+    "subject": "Name: Fred Downey | Res: 62693 | Cancelled 50% Retained - OTA",
+    "assigned_to": "a.ytac@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-16 15:48:53",
+    "priority": 1
+  },
+  "9604": {
+    "subject": "Beachbound Bliss - Credit",
+    "assigned_to": "k.zeh@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-16 15:01:53",
+    "priority": 10
+  },
+  "9603": {
+    "subject": "Sly and Salty - Photos",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-16 14:41:09",
+    "priority": 1
+  },
+  "9602": {
+    "subject": "Sly and Salty - Deep clean",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-16 14:40:08",
+    "priority": 1
+  },
+  "9601": {
+    "subject": "Assistance with Securing and Transferring Forms from PandaDoc to Jotform",
+    "assigned_to": "s.vengaloor@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-16 14:31:10",
+    "priority": 10
+  },
   "9599": {
     "subject": "Relocation Res #53333 | Kozmic Bartosz | Sunny Retreat",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
@@ -13,16 +48,9 @@
     "due_date": "2026-11-13 21:07:48",
     "priority": 10
   },
-  "9597": {
-    "subject": "Fore Season-All Calusa properties'",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-13 20:35:48",
-    "priority": 10
-  },
   "9596": {
     "subject": "Fore Season-mail box key",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-13 20:32:42",
     "priority": 10
@@ -57,7 +85,7 @@
   },
   "9591": {
     "subject": "Chang Christina | Res #: 64927 | Unit: Beach House Residences Unit 1 | Guest Feedback",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-13 16:49:10",
     "priority": 1
@@ -69,13 +97,6 @@
     "due_date": "2026-11-13 15:58:33",
     "priority": 5
   },
-  "9586": {
-    "subject": "Sanderson Wendy | Colony Inn C16 | Res #: 66053 | Cancellation Refund",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-13 14:18:21",
-    "priority": 1
-  },
   "9585": {
     "subject": "Raymonds Retreats Relocation | Res# 66489",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
@@ -83,16 +104,9 @@
     "due_date": "2026-11-11 18:00:00",
     "priority": 20
   },
-  "9584": {
-    "subject": "Please remit Sarasota County Tax on res #66403",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-11 18:00:00",
-    "priority": 20
-  },
   "9583": {
     "subject": "4 Star Review Feedback | Res #: 43914 | Justin Kemp-Gee | Gulf & Bay 1389 | 10/24/2026 - 11/7/2026",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-12 22:00:00",
     "priority": 1
@@ -118,13 +132,6 @@
     "due_date": "2026-11-12 19:55:30",
     "priority": 1
   },
-  "9576": {
-    "subject": "Avalon-no cleaning required",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-12 19:23:51",
-    "priority": 10
-  },
   "9574": {
     "subject": "Lead Simple Emails",
     "assigned_to": "e.buchanan@choosegulfcoast.com",
@@ -139,13 +146,6 @@
     "due_date": "2026-11-12 16:21:49",
     "priority": 1
   },
-  "9565": {
-    "subject": "5 Star Review Feedback | Res #: 61661 | Dusold Elizabeth | Sandalfoot 5B2 | 11/4/2026 - 11/8/2026",
-    "assigned_to": "n.armstrong@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-11 22:00:00",
-    "priority": 1
-  },
   "9560": {
     "subject": "The Cortusa | Bourgeois Yvon | Res#: 65263 | Unidentified Package Left at Property",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
@@ -155,7 +155,7 @@
   },
   "9559": {
     "subject": "Residences Of Siesta Key | Broken balcony fan",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-11 22:00:00",
     "priority": 1
@@ -171,7 +171,7 @@
     "subject": "VR Management Agreement Update / Local Registration",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-11 19:24:17",
+    "due_date": "2026-11-13 19:24:00",
     "priority": 5
   },
   "9555": {
@@ -202,16 +202,9 @@
     "due_date": "2026-11-10 21:24:23",
     "priority": 1
   },
-  "9541": {
-    "subject": "GBB 1272 | Repaint bathroom door",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-10 18:44:35",
-    "priority": 1
-  },
   "9539": {
     "subject": "Statement Correction / SI Unit 13",
-    "assigned_to": "a.guarin@choosegulfcoast.com",
+    "assigned_to": "a.ytac@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-10 14:08:45",
     "priority": 10
@@ -222,20 +215,6 @@
     "status": "Open",
     "due_date": "2026-11-09 22:00:00",
     "priority": 1
-  },
-  "9534": {
-    "subject": "1 Star Review Feedback | Res #: 55570 | Wabers Jennifer | Gulf & Bay Bayside - 1272 | 10/26/2026 - 11/2/2026",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-09 22:00:00",
-    "priority": 1
-  },
-  "9525": {
-    "subject": "Resident Benefits Package PDF Flyer",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-13 20:02:00",
-    "priority": 5
   },
   "9512": {
     "subject": "Fort Myers - SPLASH DECISION - Onboarding Photo Shoot",
@@ -250,13 +229,6 @@
     "status": "Open",
     "due_date": "2026-11-13 14:34:00",
     "priority": 1
-  },
-  "9501": {
-    "subject": "Business Cards - Autumn",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-13 21:02:00",
-    "priority": 5
   },
   "9500": {
     "subject": "Teams Background",
@@ -302,16 +274,9 @@
   },
   "9471": {
     "subject": "4 Star Review Feedback | Res #: 59381 | Jenette Van den Heerik | Turtle House | 10/23/2026 - 10/28/2026",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-10 22:00:00",
-    "priority": 1
-  },
-  "9470": {
-    "subject": "5 Star Review Feedback | Res #: 55564 | Hagen Michael | Ocean Eyes | 10/23/2026 - 10/30/2026",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-04 22:00:00",
     "priority": 1
   },
   "9451": {
@@ -330,7 +295,7 @@
   },
   "9445": {
     "subject": "Ospreys Nest | Cracked toilet bowl",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-10 19:57:00",
     "priority": 1
@@ -341,13 +306,6 @@
     "status": "Open",
     "due_date": "2026-11-02 22:00:00",
     "priority": 1
-  },
-  "9417": {
-    "subject": "Website Team Pages",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-13 18:08:00",
-    "priority": 5
   },
   "9413": {
     "subject": "Update Team Member List in Streamline (SL)",
@@ -360,7 +318,7 @@
     "subject": "Sun Seeker | Guest requests",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-09 19:40:00",
+    "due_date": "2026-11-13 19:40:00",
     "priority": 1
   },
   "9399": {
@@ -372,7 +330,7 @@
   },
   "9390": {
     "subject": "Name:Osborne Kathleen E | Res: 61430 | Cancelled 50% Retained - OTA",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-06 22:00:00",
     "priority": 1
@@ -500,7 +458,7 @@
     "subject": "Sandy Pointe Damage Claim | Generali claim number 26182219-01",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-09 23:00:00",
+    "due_date": "2026-11-30 23:00:00",
     "priority": 1
   },
   "9228": {
@@ -874,13 +832,6 @@
     "due_date": "2026-12-30 23:00:00",
     "priority": 5
   },
-  "7396": {
-    "subject": "Marriott Curation Rejected - Signal Inn 18",
-    "assigned_to": "s.paulin@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-13 16:06:00",
-    "priority": 5
-  },
   "7323": {
     "subject": "Aloha House - Unit painting",
     "assigned_to": "j.rushton@choosegulfcoast.com",
@@ -890,7 +841,7 @@
   },
   "7156": {
     "subject": "PCA for Don't Worry Beach Happy Due Date: 7/15/2026",
-    "assigned_to": "t.healy@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-24 22:00:00",
     "priority": 5
