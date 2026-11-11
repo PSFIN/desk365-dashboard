@@ -1,5 +1,28 @@
 [
   {
+    "ts": "2026-11-11T01:37:50+00:00",
+    "ticket_number": 9596,
+    "subject": "Fore Season-mail box key",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-11T01:37:50+00:00",
+    "ticket_number": 9570,
+    "subject": "Pier Pressure - Lynx lock install",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-11T01:37:50+00:00",
+    "ticket_number": 9563,
+    "subject": "3 Star Review Feedback | Res #: 65250 | Suzanne Heyn | Gulf & Bay Bayside - 1360 | 10/25/2026 - 11/4/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-11-10T21:51:52+00:00",
     "ticket_number": 9599,
     "subject": "Relocation Res #53333 | Kozmic Bartosz | Sunny Retreat",
@@ -7861,32 +7884,5 @@
     "detail": "Due date changed from 2026-10-15 22:00:00 to 2026-10-20 22:00:00",
     "from": "2026-10-15 22:00:00",
     "to": "2026-10-20 22:00:00"
-  },
-  {
-    "ts": "2026-10-15T19:56:49+00:00",
-    "ticket_number": 9223,
-    "subject": "PCA - LuvLax",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-15 15:46:57 to 2026-10-16 15:46:00",
-    "from": "2026-10-15 15:46:57",
-    "to": "2026-10-16 15:46:00"
-  },
-  {
-    "ts": "2026-10-15T19:56:49+00:00",
-    "ticket_number": 9221,
-    "subject": "PCA - Flip Flop Retreat",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-15 15:45:41 to 2026-10-17 15:45:00",
-    "from": "2026-10-15 15:45:41",
-    "to": "2026-10-17 15:45:00"
-  },
-  {
-    "ts": "2026-10-15T19:56:49+00:00",
-    "ticket_number": 9217,
-    "subject": "PCA - Breeze By The Sea",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-15 15:43:00 to 2026-10-16 15:43:00",
-    "from": "2026-10-15 15:43:00",
-    "to": "2026-10-16 15:43:00"
   }
 ]
