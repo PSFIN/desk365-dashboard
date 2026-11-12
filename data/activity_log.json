@@ -1,5 +1,19 @@
 [
   {
+    "ts": "2026-11-12T03:58:23+00:00",
+    "ticket_number": 9615,
+    "subject": "Randall Anne/Sandalfoot 4D1/Res #: 47275/Cancellation Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-12T03:58:23+00:00",
+    "ticket_number": 9614,
+    "subject": "Pinkerton Barbara/Family Tides/Res #: 64376/Cancellation Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-11-11T23:14:24+00:00",
     "ticket_number": 9613,
     "subject": "Patrick Tranter/ Tropical Escape/  Res #: 65380/ Cancellation Request",
@@ -7862,23 +7876,5 @@
     "detail": "Reassigned from d.husak@choosegulfcoast.com to j.delafuente@choosegulfcoast.com",
     "from": "d.husak@choosegulfcoast.com",
     "to": "j.delafuente@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-16T21:51:22+00:00",
-    "ticket_number": 9303,
-    "subject": "Avalon-old fridge pick up quote",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-21 15:10:41 to 2026-10-17 18:00:00",
-    "from": "2026-10-21 15:10:41",
-    "to": "2026-10-17 18:00:00"
-  },
-  {
-    "ts": "2026-10-16T21:51:22+00:00",
-    "ticket_number": 9289,
-    "subject": "GBB1332 - Photos",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-20 17:52:28 to 2026-10-22 17:52:00",
-    "from": "2026-10-20 17:52:28",
-    "to": "2026-10-22 17:52:00"
   }
 ]
