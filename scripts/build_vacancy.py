@@ -76,6 +76,17 @@ def main():
             if u.get("last_inspection"):
                 previous[u["id"]] = (parse_iso(u["last_inspection"]), u.get("last_inspector"))
     last_inspection = dict(previous)
+
+    # Historical completed inspections imported from the Streamline Inspection Report export
+    # (scripts/import_inspections.py), keyed by lower-cased unit name.
+    history = {}
+    hist_path = os.path.join(os.path.dirname(OUT), "inspection_history.json")
+    if os.path.exists(hist_path):
+        with open(hist_path) as f:
+            hist = json.load(f)
+        history = {k: (parse_iso(v["date"]), v.get("inspector")) for k, v in hist["units"].items()}
+        if hist.get("report_start") and hist["report_start"] < inspections_since:
+            inspections_since = hist["report_start"]
     try:
         hk = call("GetHousekeepingCleaningReport")
         for ev in as_list(hk, "reservations"):
@@ -103,6 +114,9 @@ def main():
         upcoming = [parse(s["startdate"]) for s in stays if parse(s["startdate"]) > today]
         last_out = max(ended) if ended else None
         insp = last_inspection.get(p["id"])
+        hist_insp = history.get((p.get("name") or "").strip().lower())
+        if hist_insp and (not insp or hist_insp[0] > insp[0]):
+            insp = hist_insp
         units.append({
             "id": p["id"],
             "name": p.get("name"),

@@ -1,0 +1,1115 @@
+{
+"report_end": "2026-11-12",
+"report_start": "2025-11-12",
+"source": "excel_housekeeping_inspection.xls",
+"units": {
+"18th fairway": {
+"date": "2026-05-13",
+"inspector": "Urroz Cesar"
+},
+"a shore thing": {
+"date": "2026-10-30",
+"inspector": "Santana Angel"
+},
+"a slice of paradise": {
+"date": "2026-10-19",
+"inspector": "McGlinchey Glenn"
+},
+"admirals watch": {
+"date": "2026-10-15",
+"inspector": "Moritz Matt"
+},
+"aloha house": {
+"date": "2026-08-21",
+"inspector": "Sierra Mesa Juan"
+},
+"array of sunshine": {
+"date": "2026-09-19",
+"inspector": "Sierra Mesa Juan"
+},
+"avalon": {
+"date": "2026-11-02",
+"inspector": "Moritz Matt"
+},
+"awake zone": {
+"date": "2026-10-13",
+"inspector": "Matthews Travis"
+},
+"azure tides": {
+"date": "2026-11-10",
+"inspector": "Matthews Travis"
+},
+"bali poolside": {
+"date": "2026-10-29",
+"inspector": "Moritz Matt"
+},
+"bayside paradise": {
+"date": "2026-11-01",
+"inspector": "Moritz Matt"
+},
+"be still beach retreat": {
+"date": "2026-10-15",
+"inspector": "Moritz Matt"
+},
+"beach heron": {
+"date": "2026-11-07",
+"inspector": "Matthews Travis"
+},
+"beach house residences unit 1": {
+"date": "2026-11-10",
+"inspector": "Matthews Travis"
+},
+"bellevue": {
+"date": "2026-11-01",
+"inspector": "McGlinchey Glenn"
+},
+"birdie": {
+"date": "2026-10-31",
+"inspector": "McGlinchey Glenn"
+},
+"blossom retreat": {
+"date": "2026-09-03",
+"inspector": "Santana Angel"
+},
+"blue dolphin": {
+"date": "2026-10-09",
+"inspector": "Matthews Travis"
+},
+"breakers west b7": {
+"date": "2026-10-14",
+"inspector": "Banks Jen"
+},
+"breakers west c3": {
+"date": "2026-11-07",
+"inspector": "Banks Jen"
+},
+"casa de suenos": {
+"date": "2026-07-31",
+"inspector": "Sierra Mesa Juan"
+},
+"charlotte's dream": {
+"date": "2026-07-11",
+"inspector": "Cabrera Yuli"
+},
+"coast is clear": {
+"date": "2026-09-11",
+"inspector": "Matthews Travis"
+},
+"coastal links": {
+"date": "2026-05-15",
+"inspector": "Randall Cararese"
+},
+"coastal oasis": {
+"date": "2026-10-18",
+"inspector": "McGlinchey Glenn"
+},
+"colony inn c-03": {
+"date": "2026-04-17",
+"inspector": "Soria Frausto Sandra"
+},
+"colony inn c-53": {
+"date": "2026-09-07",
+"inspector": "Front Desk Colony"
+},
+"compass point #163": {
+"date": "2026-10-17",
+"inspector": "Banks Jen"
+},
+"coral paradise": {
+"date": "2026-10-24",
+"inspector": "McGlinchey Glenn"
+},
+"cranes galore": {
+"date": "2026-08-30",
+"inspector": "Sierra Mesa Juan"
+},
+"cyprina beach #10": {
+"date": "2026-11-07",
+"inspector": "Banks Jen"
+},
+"day dreamer": {
+"date": "2026-08-11",
+"inspector": "Sierra Mesa Juan"
+},
+"destination paradise": {
+"date": "2026-09-13",
+"inspector": "Sierra Mesa Juan"
+},
+"dolphins reach": {
+"date": "2026-08-06",
+"inspector": "Banks Jen"
+},
+"dreams of paradise": {
+"date": "2026-10-31",
+"inspector": "Moritz Matt"
+},
+"driftwood dreams": {
+"date": "2026-10-01",
+"inspector": "Moritz Matt"
+},
+"eagle hunters": {
+"date": "2026-05-15",
+"inspector": "Sierra Mesa Juan"
+},
+"easy does it": {
+"date": "2026-11-09",
+"inspector": "McGlinchey Glenn"
+},
+"edgewater bungalow": {
+"date": "2026-10-18",
+"inspector": "McGlinchey Glenn"
+},
+"enjoy sarasota": {
+"date": "2026-10-19",
+"inspector": "McGlinchey Glenn"
+},
+"fairway to paradise": {
+"date": "2026-04-23",
+"inspector": null
+},
+"fairways to coastline": {
+"date": "2026-04-24",
+"inspector": "Matthews Travis"
+},
+"family tides": {
+"date": "2026-11-06",
+"inspector": "McGlinchey Glenn"
+},
+"fireside cottage": {
+"date": "2026-11-02",
+"inspector": "Moritz Matt"
+},
+"fishtail": {
+"date": "2026-11-08",
+"inspector": "Moritz Matt"
+},
+"flip flop retreat": {
+"date": "2026-11-09",
+"inspector": "McGlinchey Glenn"
+},
+"florida dreams": {
+"date": "2026-11-03",
+"inspector": "McGlinchey Glenn"
+},
+"florida oasis": {
+"date": "2026-10-30",
+"inspector": "Moritz Matt"
+},
+"florida sanctuary": {
+"date": "2026-10-30",
+"inspector": "Matthews Travis"
+},
+"fore seasons": {
+"date": "2026-10-31",
+"inspector": "Moritz Matt"
+},
+"glorious golfers": {
+"date": "2026-05-19",
+"inspector": "Randall Cararese"
+},
+"golden beach #1": {
+"date": "2026-11-07",
+"inspector": "Banks Jen"
+},
+"golden beach haven": {
+"date": "2026-10-20",
+"inspector": "Matthews Travis"
+},
+"golf and beach getaway": {
+"date": "2026-05-18",
+"inspector": null
+},
+"golfers grove": {
+"date": "2026-10-24",
+"inspector": "McGlinchey Glenn"
+},
+"golfside escape": {
+"date": "2026-09-18",
+"inspector": "Moritz Matt"
+},
+"grand getaway": {
+"date": "2026-11-01",
+"inspector": "Moritz Matt"
+},
+"green view getaway": {
+"date": "2026-09-07",
+"inspector": "Moritz Matt"
+},
+"gulf & bay bayside - 1204": {
+"date": "2026-11-08",
+"inspector": "McGlinchey Glenn"
+},
+"gulf & bay bayside - 1206": {
+"date": "2026-11-06",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1219": {
+"date": "2026-11-07",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1230": {
+"date": "2026-10-28",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1240": {
+"date": "2026-11-06",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1241": {
+"date": "2026-10-09",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1260": {
+"date": "2026-11-08",
+"inspector": "McGlinchey Glenn"
+},
+"gulf & bay bayside - 1269": {
+"date": "2026-11-11",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1272": {
+"date": "2026-11-04",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1274": {
+"date": "2026-11-12",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1275": {
+"date": "2026-10-09",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1291": {
+"date": "2026-11-12",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1304": {
+"date": "2026-11-04",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1305": {
+"date": "2026-10-15",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1313": {
+"date": "2026-11-03",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1315": {
+"date": "2026-10-16",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1318": {
+"date": "2026-10-31",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1326": {
+"date": "2026-11-11",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1327": {
+"date": "2026-11-05",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1328": {
+"date": "2026-11-08",
+"inspector": "McGlinchey Glenn"
+},
+"gulf & bay bayside - 1332": {
+"date": "2026-11-11",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1333": {
+"date": "2026-11-07",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1335": {
+"date": "2026-10-29",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1338": {
+"date": "2026-10-24",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1339": {
+"date": "2026-11-11",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1340": {
+"date": "2026-11-08",
+"inspector": "McGlinchey Glenn"
+},
+"gulf & bay bayside - 1342": {
+"date": "2026-11-02",
+"inspector": "Santana Angel"
+},
+"gulf & bay bayside - 1343": {
+"date": "2026-10-30",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1344": {
+"date": "2026-10-24",
+"inspector": "McGlinchey Glenn"
+},
+"gulf & bay bayside - 1346": {
+"date": "2026-09-09",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1350": {
+"date": "2026-08-17",
+"inspector": "Sierra Mesa Juan"
+},
+"gulf & bay bayside - 1351": {
+"date": "2026-11-06",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1358": {
+"date": "2026-11-07",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1360": {
+"date": "2026-11-04",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1364": {
+"date": "2026-09-28",
+"inspector": "Sierra Mesa Juan"
+},
+"gulf & bay bayside - 1365": {
+"date": "2026-09-30",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1366": {
+"date": "2026-10-22",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1368": {
+"date": "2026-11-05",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1371": {
+"date": "2026-11-02",
+"inspector": "Santana Angel"
+},
+"gulf & bay bayside - 1373": {
+"date": "2026-10-25",
+"inspector": "McGlinchey Glenn"
+},
+"gulf & bay bayside - 1374": {
+"date": "2026-11-08",
+"inspector": "McGlinchey Glenn"
+},
+"gulf & bay bayside - 1382": {
+"date": "2026-10-29",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1385": {
+"date": "2026-11-06",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1389": {
+"date": "2026-11-07",
+"inspector": "Randall Cararese"
+},
+"gulf & bay bayside - 1391": {
+"date": "2026-11-04",
+"inspector": "Randall Cararese"
+},
+"gulf horizon": {
+"date": "2026-10-12",
+"inspector": "McGlinchey Glenn"
+},
+"harbour happiness": {
+"date": "2026-10-25",
+"inspector": "McGlinchey Glenn"
+},
+"hibiscus haven": {
+"date": "2026-11-02",
+"inspector": "Moritz Matt"
+},
+"horizon oasis": {
+"date": "2026-09-01",
+"inspector": "Banks Jen"
+},
+"ibis paradise": {
+"date": "2026-10-20",
+"inspector": "Matthews Travis"
+},
+"irynas dream": {
+"date": "2026-10-25",
+"inspector": "McGlinchey Glenn"
+},
+"la vida loca": {
+"date": "2026-10-02",
+"inspector": "Matthews Travis"
+},
+"lake daze": {
+"date": "2026-04-28",
+"inspector": "Randall Cararese"
+},
+"lido del mare": {
+"date": "2026-10-01",
+"inspector": "Moritz Matt"
+},
+"lighthouse point 223": {
+"date": "2026-07-10",
+"inspector": "Cabrera Yuli"
+},
+"lily pad": {
+"date": "2026-08-06",
+"inspector": "Banks Jen"
+},
+"links & leisure": {
+"date": "2026-11-02",
+"inspector": "McGlinchey Glenn"
+},
+"little bit of heaven": {
+"date": "2026-11-07",
+"inspector": "Matthews Travis"
+},
+"loggerhead cay #183": {
+"date": "2026-10-31",
+"inspector": "Banks Jen"
+},
+"longboat dream": {
+"date": "2026-05-01",
+"inspector": "Santana Angel"
+},
+"longboat oasis": {
+"date": "2026-08-11",
+"inspector": "Sierra Mesa Juan"
+},
+"luna sea": {
+"date": "2026-11-03",
+"inspector": "Matthews Travis"
+},
+"luvlax": {
+"date": "2026-09-21",
+"inspector": "Sierra Mesa Juan"
+},
+"mangrove escape": {
+"date": "2026-04-15",
+"inspector": "Randall Cararese"
+},
+"my great escape": {
+"date": "2026-11-09",
+"inspector": "McGlinchey Glenn"
+},
+"mystic sea": {
+"date": "2026-11-01",
+"inspector": "McGlinchey Glenn"
+},
+"o6ers": {
+"date": "2026-11-07",
+"inspector": "Matthews Travis"
+},
+"oak water escape": {
+"date": "2026-11-01",
+"inspector": "McGlinchey Glenn"
+},
+"ocean eyes": {
+"date": "2026-11-06",
+"inspector": "Randall Cararese"
+},
+"once upon a tide": {
+"date": "2026-11-01",
+"inspector": "Moritz Matt"
+},
+"ospreys nest": {
+"date": "2026-08-14",
+"inspector": "Santana Angel"
+},
+"palm garden": {
+"date": "2026-10-03",
+"inspector": "Monteforte Gavin"
+},
+"palm meadow": {
+"date": "2026-10-01",
+"inspector": "Moritz Matt"
+},
+"palm whisper cottage": {
+"date": "2026-09-15",
+"inspector": "Matthews Travis"
+},
+"paraclete paradise": {
+"date": "2026-10-18",
+"inspector": "Moritz Matt"
+},
+"pardon us golf": {
+"date": "2026-05-22",
+"inspector": "Randall Cararese"
+},
+"patsgang": {
+"date": "2026-10-03",
+"inspector": "Moritz Matt"
+},
+"pearl in the rough": {
+"date": "2026-10-11",
+"inspector": "Moritz Matt"
+},
+"pearl on the key": {
+"date": "2026-05-12",
+"inspector": "Sierra Mesa Juan"
+},
+"pelican poolside": {
+"date": "2026-11-10",
+"inspector": "Matthews Travis"
+},
+"pier pressure": {
+"date": "2026-09-22",
+"inspector": "Sierra Mesa Juan"
+},
+"pineapple way": {
+"date": "2026-06-24",
+"inspector": "Cabrera Yuli"
+},
+"point of rocks": {
+"date": "2026-07-15",
+"inspector": "Cabrera Yuli"
+},
+"residences of siesta key": {
+"date": "2026-11-07",
+"inspector": "McGlinchey Glenn"
+},
+"rising tide": {
+"date": "2026-11-07",
+"inspector": "Matthews Travis"
+},
+"rod and reel": {
+"date": "2026-05-12",
+"inspector": "Cabrera Yuli"
+},
+"sandalfoot 1a1": {
+"date": "2026-10-10",
+"inspector": "Kobe Ben"
+},
+"sandalfoot 1a2": {
+"date": "2026-11-01",
+"inspector": "Urroz Cesar"
+},
+"sandalfoot 1a3": {
+"date": "2026-11-03",
+"inspector": "Armstrong Norman"
+},
+"sandalfoot 1b1": {
+"date": "2026-10-29",
+"inspector": "Garcia Kyle"
+},
+"sandalfoot 1b2": {
+"date": "2026-11-11",
+"inspector": "Armstrong Norman"
+},
+"sandalfoot 1c1": {
+"date": "2026-11-10",
+"inspector": "Armstrong Norman"
+},
+"sandalfoot 1c2": {
+"date": "2026-10-25",
+"inspector": "Urroz Cesar"
+},
+"sandalfoot 1c3": {
+"date": "2026-11-07",
+"inspector": "Garcia Kyle"
+},
+"sandalfoot 1d1": {
+"date": "2026-11-04",
+"inspector": "Armstrong Norman"
+},
+"sandalfoot 1d2": {
+"date": "2026-10-29",
+"inspector": "Dallman Autumn"
+},
+"sandalfoot 2a2": {
+"date": "2026-11-03",
+"inspector": "Garcia Kyle"
+},
+"sandalfoot 2a3": {
+"date": "2026-10-22",
+"inspector": "Garcia Kyle"
+},
+"sandalfoot 2b1": {
+"date": "2026-11-04",
+"inspector": "Armstrong Norman"
+},
+"sandalfoot 2b2": {
+"date": "2026-11-11",
+"inspector": "Dallman Autumn"
+},
+"sandalfoot 2b3": {
+"date": "2026-10-30",
+"inspector": "Garcia Kyle"
+},
+"sandalfoot 2c1": {
+"date": "2026-11-07",
+"inspector": "Garcia Kyle"
+},
+"sandalfoot 2c2": {
+"date": "2026-11-11",
+"inspector": "Dallman Autumn"
+},
+"sandalfoot 2c3": {
+"date": "2026-10-28",
+"inspector": "Dallman Autumn"
+},
+"sandalfoot 2d1": {
+"date": "2026-11-11",
+"inspector": "Garcia Kyle"
+},
+"sandalfoot 2d2": {
+"date": "2026-11-11",
+"inspector": "Garcia Kyle"
+},
+"sandalfoot 2d3": {
+"date": "2026-11-02",
+"inspector": "Dallman Autumn"
+},
+"sandalfoot 3a2": {
+"date": "2026-11-09",
+"inspector": "Dallman Autumn"
+},
+"sandalfoot 3a3": {
+"date": "2026-11-11",
+"inspector": "Armstrong Norman"
+},
+"sandalfoot 3b1": {
+"date": "2026-11-02",
+"inspector": "Dallman Autumn"
+},
+"sandalfoot 3b2": {
+"date": "2026-11-02",
+"inspector": "Armstrong Norman"
+},
+"sandalfoot 3b3": {
+"date": "2026-10-31",
+"inspector": "Garcia Kyle"
+},
+"sandalfoot 3c1": {
+"date": "2026-10-25",
+"inspector": "Urroz Cesar"
+},
+"sandalfoot 3c2": {
+"date": "2026-11-10",
+"inspector": "Dallman Autumn"
+},
+"sandalfoot 3c3": {
+"date": "2026-11-06",
+"inspector": "Armstrong Norman"
+},
+"sandalfoot 3d1": {
+"date": "2026-11-06",
+"inspector": "Garcia Kyle"
+},
+"sandalfoot 4a1": {
+"date": "2026-10-13",
+"inspector": "Dallman Autumn"
+},
+"sandalfoot 4a2": {
+"date": "2026-10-25",
+"inspector": "Urroz Cesar"
+},
+"sandalfoot 4a3": {
+"date": "2026-10-29",
+"inspector": "Dallman Autumn"
+},
+"sandalfoot 4b1": {
+"date": "2026-11-04",
+"inspector": "Garcia Kyle"
+},
+"sandalfoot 4b2": {
+"date": "2026-11-09",
+"inspector": "Dallman Autumn"
+},
+"sandalfoot 4b3": {
+"date": "2026-11-07",
+"inspector": "Garcia Kyle"
+},
+"sandalfoot 4c1": {
+"date": "2026-09-12",
+"inspector": "Urroz Cesar"
+},
+"sandalfoot 4c2": {
+"date": "2026-11-12",
+"inspector": "Garcia Kyle"
+},
+"sandalfoot 4c3": {
+"date": "2026-11-11",
+"inspector": "Garcia Kyle"
+},
+"sandalfoot 4d1": {
+"date": "2026-11-04",
+"inspector": "Dallman Autumn"
+},
+"sandalfoot 4d3": {
+"date": "2026-09-09",
+"inspector": "Garcia Kyle"
+},
+"sandalfoot 5a1": {
+"date": "2026-11-01",
+"inspector": "Urroz Cesar"
+},
+"sandalfoot 5a2": {
+"date": "2026-11-10",
+"inspector": "Dallman Autumn"
+},
+"sandalfoot 5a3": {
+"date": "2026-11-12",
+"inspector": "Dallman Autumn"
+},
+"sandalfoot 5b1": {
+"date": "2026-10-20",
+"inspector": "Garcia Kyle"
+},
+"sandalfoot 5b2": {
+"date": "2026-11-04",
+"inspector": "Garcia Kyle"
+},
+"sandalfoot 5b3": {
+"date": "2026-11-12",
+"inspector": "Dallman Autumn"
+},
+"sandalfoot 5c1": {
+"date": "2026-11-08",
+"inspector": "Inspections Gulf Coast"
+},
+"sandalfoot 5c2": {
+"date": "2026-11-08",
+"inspector": "Urroz Cesar"
+},
+"sandalfoot 5c3": {
+"date": "2026-11-11",
+"inspector": "Armstrong Norman"
+},
+"sandalfoot 5d1": {
+"date": "2026-11-08",
+"inspector": "Urroz Cesar"
+},
+"sandalfoot 5d3": {
+"date": "2026-11-10",
+"inspector": "Armstrong Norman"
+},
+"sandpebble 1d": {
+"date": "2026-08-06",
+"inspector": "Banks Jen"
+},
+"sandpebble 4e": {
+"date": "2026-07-11",
+"inspector": "Cabrera Yuli"
+},
+"sandy pointe": {
+"date": "2026-11-07",
+"inspector": "McGlinchey Glenn"
+},
+"sanibel inn 513": {
+"date": "2026-10-17",
+"inspector": "Banks Jen"
+},
+"sanibel shuffle beach house": {
+"date": "2026-09-01",
+"inspector": "Banks Jen"
+},
+"sans souci": {
+"date": "2026-11-11",
+"inspector": "Moritz Matt"
+},
+"sea isles 8d": {
+"date": "2026-05-13",
+"inspector": "Cabrera Yuli"
+},
+"serenity garden": {
+"date": "2026-08-31",
+"inspector": "Sierra Mesa Juan"
+},
+"shades of summer": {
+"date": "2026-10-21",
+"inspector": "Matthews Travis"
+},
+"shaker of salt": {
+"date": "2026-11-06",
+"inspector": "McGlinchey Glenn"
+},
+"shell yeah": {
+"date": "2026-05-12",
+"inspector": "Sierra Mesa Juan"
+},
+"shore bet": {
+"date": "2026-09-12",
+"inspector": "Matthews Travis"
+},
+"signal inn - unit 01": {
+"date": "2026-11-09",
+"inspector": "McCartney Michelle"
+},
+"signal inn - unit 02": {
+"date": "2026-11-08",
+"inspector": "McCartney Michelle"
+},
+"signal inn - unit 03": {
+"date": "2026-11-08",
+"inspector": "McCartney Michelle"
+},
+"signal inn - unit 04": {
+"date": "2026-11-11",
+"inspector": "Banks Jen"
+},
+"signal inn - unit 05": {
+"date": "2026-11-03",
+"inspector": "McCartney Michelle"
+},
+"signal inn - unit 06": {
+"date": "2026-11-09",
+"inspector": "McCartney Michelle"
+},
+"signal inn - unit 07": {
+"date": "2026-11-11",
+"inspector": "Banks Jen"
+},
+"signal inn - unit 08": {
+"date": "2026-11-09",
+"inspector": "McCartney Michelle"
+},
+"signal inn - unit 09": {
+"date": "2026-11-11",
+"inspector": "Banks Jen"
+},
+"signal inn - unit 10": {
+"date": "2026-11-10",
+"inspector": "McCartney Michelle"
+},
+"signal inn - unit 11": {
+"date": "2026-11-08",
+"inspector": "McCartney Michelle"
+},
+"signal inn - unit 12": {
+"date": "2026-11-05",
+"inspector": "Ventura Nikolas"
+},
+"signal inn - unit 13": {
+"date": "2026-11-10",
+"inspector": "McCartney Michelle"
+},
+"signal inn - unit 14": {
+"date": "2026-11-11",
+"inspector": "Banks Jen"
+},
+"signal inn - unit 15": {
+"date": "2026-11-01",
+"inspector": "Johnson Michelle"
+},
+"signal inn - unit 16": {
+"date": "2026-10-29",
+"inspector": "Ventura Nikolas"
+},
+"signal inn - unit 17": {
+"date": "2026-11-09",
+"inspector": "McCartney Michelle"
+},
+"signal inn - unit 18": {
+"date": "2026-11-10",
+"inspector": "McCartney Michelle"
+},
+"signal inn - unit 19": {
+"date": "2026-11-10",
+"inspector": "McCartney Michelle"
+},
+"southern comfort": {
+"date": "2026-10-15",
+"inspector": "Moritz Matt"
+},
+"southern exposure": {
+"date": "2026-11-10",
+"inspector": "Matthews Travis"
+},
+"sun dappled": {
+"date": "2026-10-31",
+"inspector": "Moritz Matt"
+},
+"sunny life": {
+"date": "2026-10-31",
+"inspector": "McGlinchey Glenn"
+},
+"sunny retreat": {
+"date": "2026-10-30",
+"inspector": "Moritz Matt"
+},
+"sunny south": {
+"date": "2026-10-26",
+"inspector": "McGlinchey Glenn"
+},
+"sunnyside up": {
+"date": "2026-10-12",
+"inspector": "Moritz Matt"
+},
+"sunsational": {
+"date": "2026-08-22",
+"inspector": "Santana Angel"
+},
+"sweet pineapple": {
+"date": "2026-10-31",
+"inspector": "Moritz Matt"
+},
+"the artist's way": {
+"date": "2026-05-14",
+"inspector": "Randall Cararese"
+},
+"the beach fact oar": {
+"date": "2026-06-02",
+"inspector": "Santana Angel"
+},
+"the boat house": {
+"date": "2026-08-07",
+"inspector": "Sierra Mesa Juan"
+},
+"the cortusa": {
+"date": "2026-10-07",
+"inspector": "Sierra Mesa Juan"
+},
+"the duffers retreat": {
+"date": "2026-10-30",
+"inspector": "Matthews Travis"
+},
+"the lookout": {
+"date": "2026-10-02",
+"inspector": "Moritz Matt"
+},
+"the nest": {
+"date": "2026-07-17",
+"inspector": "Santana Angel"
+},
+"the river\u2019s end": {
+"date": "2026-10-02",
+"inspector": "Matthews Travis"
+},
+"the sand dune": {
+"date": "2026-07-17",
+"inspector": "Matthews Travis"
+},
+"the white pearl": {
+"date": "2026-10-08",
+"inspector": "Moritz Matt"
+},
+"tidewater manor": {
+"date": "2026-11-07",
+"inspector": "Matthews Travis"
+},
+"tranquil waters": {
+"date": "2026-06-19",
+"inspector": "Santana Angel"
+},
+"tropic treasure": {
+"date": "2026-07-01",
+"inspector": "Randall Cararese"
+},
+"tropical escape": {
+"date": "2026-11-02",
+"inspector": "McGlinchey Glenn"
+},
+"tropical gulf retreat": {
+"date": "2026-10-30",
+"inspector": "Moritz Matt"
+},
+"turtle house": {
+"date": "2026-11-09",
+"inspector": "McGlinchey Glenn"
+},
+"villa milano": {
+"date": "2026-09-30",
+"inspector": "Matthews Travis"
+},
+"wait n sea": {
+"date": "2026-10-23",
+"inspector": "Matthews Travis"
+},
+"waterfront dreamin": {
+"date": "2026-10-31",
+"inspector": "McGlinchey Glenn"
+},
+"ycbr 02 - 1 bed / 1 bath": {
+"date": "2026-11-03",
+"inspector": "Matthews Travis"
+},
+"ycbr 04 - 2 bed / 1 bath": {
+"date": "2026-11-06",
+"inspector": "Matthews Travis"
+},
+"ycbr 09 - studio": {
+"date": "2026-09-11",
+"inspector": "Matthews Travis"
+},
+"ycbr 25 - 1 bed / 1 bath": {
+"date": "2026-07-18",
+"inspector": "Matthews Travis"
+},
+"z7th heaven": {
+"date": "2026-09-19",
+"inspector": "Monteforte Gavin"
+},
+"za wave from it all": {
+"date": "2026-08-19",
+"inspector": "Santana Angel"
+},
+"zbeach bungalow": {
+"date": "2026-05-19",
+"inspector": "Matthews Travis"
+},
+"zbeachbound bliss": {
+"date": "2026-07-21",
+"inspector": "Sierra Mesa Juan"
+},
+"zcheryl's hideaway": {
+"date": "2026-04-30",
+"inspector": "Cabrera Yuli"
+},
+"zgulf & bay bayside - 1200": {
+"date": "2026-09-19",
+"inspector": "Randall Cararese"
+},
+"zpar 3": {
+"date": "2026-04-12",
+"inspector": null
+},
+"zroyal oasis": {
+"date": "2026-06-30",
+"inspector": "Cabrera Yuli"
+},
+"zsandalfoot 4d2": {
+"date": "2026-10-25",
+"inspector": "Urroz Cesar"
+},
+"zsandalfoot 5d2": {
+"date": "2026-06-19",
+"inspector": null
+},
+"zscenic solitude": {
+"date": "2026-05-26",
+"inspector": "Matthews Travis"
+},
+"zserenity oasis": {
+"date": "2026-05-12",
+"inspector": "Sierra Mesa Juan"
+},
+"zserenity on savona": {
+"date": "2026-07-03",
+"inspector": "Randall Cararese"
+},
+"zsugar beach": {
+"date": "2026-08-01",
+"inspector": "Sierra Mesa Juan"
+},
+"zsunset splash": {
+"date": "2026-09-02",
+"inspector": "Sierra Mesa Juan"
+},
+"ztangerine skies": {
+"date": "2026-04-30",
+"inspector": "Cabrera Yuli"
+},
+"zthe captain's quarters": {
+"date": "2026-05-02",
+"inspector": "Sierra Mesa Juan"
+},
+"zthe grand palm villa": {
+"date": "2026-05-03",
+"inspector": "Cabrera Yuli"
+}
+}
+}

@@ -383,6 +383,7 @@
               <th onclick="sortVacancy('days_vacant')">Days Vacant <span class="sort-icon">↕</span></th>
               <th onclick="sortVacancy('next_arrival')">Next Arrival <span class="sort-icon">↕</span></th>
               <th onclick="sortVacancy('last_inspection')">Last Inspection <span class="sort-icon">↕</span></th>
+              <th onclick="sortVacancy('days_since_inspection')">Days Since Inspection <span class="sort-icon">↕</span></th>
               <th onclick="sortVacancy('open_wos')">Open WOs <span class="sort-icon">↕</span></th>
             </tr>
           </thead>
@@ -906,14 +907,20 @@ function vacancyRows() {
   if (!VACANCY) return [];
   return VACANCY.units
     .filter(u => !u.occupied_now)
-    .map(u => ({ ...u, open_wos: openWOsFor(u.name).length }));
+    .map(u => ({
+      ...u,
+      open_wos: openWOsFor(u.name).length,
+      days_since_inspection: u.last_inspection
+        ? Math.round((new Date(VACANCY.as_of) - new Date(u.last_inspection)) / 86400000) : null,
+    }));
 }
+const noInsp30 = u => u.days_since_inspection === null || u.days_since_inspection > 30;
 const isOver = (u, n) => u.days_vacant === null || u.days_vacant > n;
 
 function filterVacancy(f) { vacancyFilter = f; renderVacancy(); }
 function sortVacancy(key) {
   if (vacancySortKey === key) vacancySortDir *= -1; else { vacancySortKey = key; vacancySortDir = (key === 'name' || key === 'area') ? 1 : -1; }
-  const idx = ['name','area','last_checkout','days_vacant','next_arrival','last_inspection','open_wos'].indexOf(key);
+  const idx = ['name','area','last_checkout','days_vacant','next_arrival','last_inspection','days_since_inspection','open_wos'].indexOf(key);
   document.querySelectorAll('#vacancyTable thead th').forEach((th, i) => th.classList.toggle('sorted', i === idx));
   renderVacancy();
 }
@@ -924,14 +931,15 @@ function renderVacancy() {
   const over30 = rows.filter(u => isOver(u, 30));
   document.getElementById('vacancyTabCount').textContent = over30.length;
   if (VACANCY.inspections_since) document.getElementById('inspectionNote').textContent =
-    `Last Inspection counts completed inspections recorded since ${fmtDate(VACANCY.inspections_since)} (Streamline only exposes the current month, so this history builds up daily); “—” means none recorded yet.`;
+    `Last Inspection is the most recent completed inspection from Streamline's Inspection Report since ${fmtDate(VACANCY.inspections_since)}; “None recorded” means no completed inspection in that period.`;
 
   const defs = [
     ['over30',  'Vacant 30+ Days',   'blue',   over30.length, 'No stay since last checkout'],
     ['over60',  'Vacant 60+ Days',   'orange', rows.filter(u => isOver(u, 60)).length, 'Longer than 2 months'],
     ['over90',  'Vacant 90+ Days',   'red',    rows.filter(u => isOver(u, 90)).length, 'Longer than 3 months'],
-    ['nostay',  'No Stay on Record', 'purple', rows.filter(u => u.days_vacant === null).length, 'No past checkout found'],
-    ['noarr',   '30+ & Nothing Booked', 'red', over30.filter(u => !u.next_arrival).length, 'No upcoming arrival'],
+    ['insp30',  'No Inspection 30+ Days', 'purple', rows.filter(noInsp30).length, 'Vacant now, last inspection over 30 days ago or none'],
+    ['both',    'Vacant 30+ & No Inspection 30+', 'red', over30.filter(noInsp30).length, 'Highest priority to check'],
+    ['noarr',   '30+ & Nothing Booked', 'orange', over30.filter(u => !u.next_arrival).length, 'No upcoming arrival'],
     ['wos',     '30+ With Open WOs', 'teal',   over30.filter(u => u.open_wos > 0).length, 'Open work orders on the unit'],
   ];
   document.getElementById('vacancyKpis').innerHTML = defs.map(([k, label, cls, n, sub]) => `
@@ -943,7 +951,8 @@ function renderVacancy() {
   let list = over30;
   if (vacancyFilter === 'over60') list = rows.filter(u => isOver(u, 60));
   if (vacancyFilter === 'over90') list = rows.filter(u => isOver(u, 90));
-  if (vacancyFilter === 'nostay') list = rows.filter(u => u.days_vacant === null);
+  if (vacancyFilter === 'insp30') list = rows.filter(noInsp30);
+  if (vacancyFilter === 'both')   list = over30.filter(noInsp30);
   if (vacancyFilter === 'noarr')  list = over30.filter(u => !u.next_arrival);
   if (vacancyFilter === 'wos')    list = over30.filter(u => u.open_wos > 0);
 
@@ -952,7 +961,7 @@ function renderVacancy() {
 
   const val = u => {
     const v = u[vacancySortKey];
-    return (vacancySortKey === 'days_vacant' && v === null) ? Infinity : v;
+    return ((vacancySortKey === 'days_vacant' || vacancySortKey === 'days_since_inspection') && v === null) ? Infinity : v;
   };
   list = [...list].sort((a, b) => {
     let av = val(a), bv = val(b);
@@ -973,9 +982,10 @@ function renderVacancy() {
       <td style="font-size:12px;font-weight:700;color:${u.days_vacant === null || u.days_vacant >= 90 ? '#e74c3c' : u.days_vacant >= 60 ? '#e67e22' : '#7f8c8d'}">${u.days_vacant === null ? 'No stay on record' : u.days_vacant}</td>
       <td style="font-size:12px">${u.next_arrival ? fmtDate(u.next_arrival) : '<span style="color:#e74c3c">None booked</span>'}</td>
       <td style="font-size:12px">${u.last_inspection ? fmtDate(u.last_inspection) : '—'}</td>
+      <td style="font-size:12px;font-weight:700;color:${u.days_since_inspection === null || u.days_since_inspection > 60 ? '#e74c3c' : u.days_since_inspection > 30 ? '#e67e22' : '#7f8c8d'}">${u.days_since_inspection === null ? 'None recorded' : u.days_since_inspection}</td>
       <td style="font-size:12px">${u.open_wos || '—'}</td>
     </tr>`).join('') :
-    `<tr><td colspan="7" style="text-align:center;color:#95a5a6;padding:28px">No properties match.</td></tr>`;
+    `<tr><td colspan="8" style="text-align:center;color:#95a5a6;padding:28px">No properties match.</td></tr>`;
 }
 
 function openVacancyModal(id) {
@@ -990,7 +1000,7 @@ function openVacancyModal(id) {
       <div class="modal-field"><label>Last Checkout</label><div class="val">${fmtDate(u.last_checkout)}</div></div>
       <div class="modal-field"><label>Days Vacant</label><div class="val">${u.days_vacant === null ? 'No stay on record' : u.days_vacant}</div></div>
       <div class="modal-field"><label>Next Arrival</label><div class="val">${u.next_arrival ? fmtDate(u.next_arrival) : 'None booked'}</div></div>
-      <div class="modal-field"><label>Last Inspection</label><div class="val">${u.last_inspection ? fmtDate(u.last_inspection) + (u.last_inspector ? ' · ' + u.last_inspector : '') : '— (none recorded since ' + fmtDate(VACANCY.inspections_since) + ')'}</div></div>
+      <div class="modal-field"><label>Last Inspection</label><div class="val">${u.last_inspection ? fmtDate(u.last_inspection) + (u.last_inspector ? ' · ' + u.last_inspector : '') : 'None recorded since ' + fmtDate(VACANCY.inspections_since)}</div></div>
     </div>
     <div style="margin-top:18px;font-size:11px;font-weight:700;color:#95a5a6;text-transform:uppercase;letter-spacing:.6px">Open work orders (${wos.length})</div>
     <div style="margin-top:6px;font-size:13px">${wos.length ? wos.map(w => `<div style="padding:4px 0"><a class="wo-link" target="_blank" href="https://admin.streamlinevrs.com/edit_maintenance.html?maintenance_id=${w.wo}&activetab=0&need_update_parent=1">#${w.wo}<span class="wo-ext">↗</span></a> — ${w.title || '(no title)'} · ${w.status}</div>`).join('') : '<span style="color:#95a5a6">None</span>'}</div>`;

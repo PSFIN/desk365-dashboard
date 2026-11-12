@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-12T19:09:38+00:00",
+ "generated": "2026-11-12T19:25:04+00:00",
  "as_of": "2026-11-12",
- "inspections_since": "2026-11-01",
+ "inspections_since": "2025-11-12",
  "units": [
   {
    "id": 929811,
@@ -13,8 +13,8 @@
    "last_checkout": "2026-05-03",
    "days_vacant": 193,
    "next_arrival": "2026-11-21",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-05-13",
+   "last_inspector": "Urroz Cesar"
   },
   {
    "id": 932641,
@@ -39,8 +39,8 @@
    "last_checkout": null,
    "days_vacant": null,
    "next_arrival": null,
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-19",
+   "last_inspector": "McGlinchey Glenn"
   },
   {
    "id": 929760,
@@ -52,8 +52,8 @@
    "last_checkout": "2026-10-11",
    "days_vacant": null,
    "next_arrival": "2026-12-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-15",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 929651,
@@ -65,8 +65,8 @@
    "last_checkout": "2026-08-20",
    "days_vacant": 84,
    "next_arrival": "2026-11-21",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-08-21",
+   "last_inspector": "Sierra Mesa Juan"
   },
   {
    "id": 929653,
@@ -91,8 +91,8 @@
    "last_checkout": "2026-10-31",
    "days_vacant": 12,
    "next_arrival": "2027-01-06",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-11-02",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 929791,
@@ -104,8 +104,8 @@
    "last_checkout": "2026-09-13",
    "days_vacant": null,
    "next_arrival": "2027-02-07",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-13",
+   "last_inspector": "Matthews Travis"
   },
   {
    "id": 945094,
@@ -130,8 +130,8 @@
    "last_checkout": "2026-10-23",
    "days_vacant": 20,
    "next_arrival": "2026-11-19",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-29",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 929758,
@@ -143,8 +143,8 @@
    "last_checkout": "2026-10-31",
    "days_vacant": null,
    "next_arrival": "2026-11-22",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-11-01",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 1008176,
@@ -156,8 +156,8 @@
    "last_checkout": "2026-10-14",
    "days_vacant": null,
    "next_arrival": "2026-12-10",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-15",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 994313,
@@ -208,8 +208,8 @@
    "last_checkout": "2026-09-30",
    "days_vacant": null,
    "next_arrival": "2027-01-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-11-01",
+   "last_inspector": "McGlinchey Glenn"
   },
   {
    "id": 1163137,
@@ -234,8 +234,8 @@
    "last_checkout": "2026-10-31",
    "days_vacant": null,
    "next_arrival": "2027-01-31",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-31",
+   "last_inspector": "McGlinchey Glenn"
   },
   {
    "id": 941075,
@@ -247,8 +247,8 @@
    "last_checkout": "2026-09-13",
    "days_vacant": 60,
    "next_arrival": null,
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-09-03",
+   "last_inspector": "Santana Angel"
   },
   {
    "id": 929780,
@@ -260,8 +260,8 @@
    "last_checkout": "2026-10-07",
    "days_vacant": 36,
    "next_arrival": "2026-12-04",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-09",
+   "last_inspector": "Matthews Travis"
   },
   {
    "id": 929755,
@@ -273,8 +273,8 @@
    "last_checkout": "2026-10-14",
    "days_vacant": null,
    "next_arrival": "2026-11-22",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-14",
+   "last_inspector": "Banks Jen"
   },
   {
    "id": 929749,
@@ -299,8 +299,8 @@
    "last_checkout": "2026-08-07",
    "days_vacant": 97,
    "next_arrival": "2027-01-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-07-31",
+   "last_inspector": "Sierra Mesa Juan"
   },
   {
    "id": 929660,
@@ -325,8 +325,8 @@
    "last_checkout": "2026-06-24",
    "days_vacant": null,
    "next_arrival": "2026-11-28",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-07-11",
+   "last_inspector": "Cabrera Yuli"
   },
   {
    "id": 1130935,
@@ -338,8 +338,8 @@
    "last_checkout": null,
    "days_vacant": null,
    "next_arrival": null,
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-09-11",
+   "last_inspector": "Matthews Travis"
   },
   {
    "id": 948428,
@@ -351,8 +351,8 @@
    "last_checkout": "2026-05-03",
    "days_vacant": 193,
    "next_arrival": "2027-01-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-05-15",
+   "last_inspector": "Randall Cararese"
   },
   {
    "id": 929750,
@@ -364,8 +364,8 @@
    "last_checkout": "2026-10-18",
    "days_vacant": 25,
    "next_arrival": "2027-02-04",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-18",
+   "last_inspector": "McGlinchey Glenn"
   },
   {
    "id": 1031635,
@@ -403,8 +403,8 @@
    "last_checkout": "2026-11-12",
    "days_vacant": 0,
    "next_arrival": "2026-11-14",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-04-17",
+   "last_inspector": "Soria Frausto Sandra"
   },
   {
    "id": 1031638,
@@ -819,8 +819,8 @@
    "last_checkout": "2026-10-31",
    "days_vacant": null,
    "next_arrival": "2027-03-31",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-24",
+   "last_inspector": "McGlinchey Glenn"
   },
   {
    "id": 932858,
@@ -832,8 +832,8 @@
    "last_checkout": "2026-08-28",
    "days_vacant": 76,
    "next_arrival": "2027-01-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-08-30",
+   "last_inspector": "Sierra Mesa Juan"
   },
   {
    "id": 929798,
@@ -884,8 +884,8 @@
    "last_checkout": "2026-09-13",
    "days_vacant": 60,
    "next_arrival": "2026-11-20",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-09-13",
+   "last_inspector": "Sierra Mesa Juan"
   },
   {
    "id": 1086362,
@@ -897,8 +897,8 @@
    "last_checkout": "2026-08-02",
    "days_vacant": 102,
    "next_arrival": "2026-12-29",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-08-06",
+   "last_inspector": "Banks Jen"
   },
   {
    "id": 929782,
@@ -923,8 +923,8 @@
    "last_checkout": "2026-10-31",
    "days_vacant": 12,
    "next_arrival": "2026-12-06",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-31",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 999244,
@@ -936,8 +936,8 @@
    "last_checkout": "2026-05-03",
    "days_vacant": null,
    "next_arrival": "2027-01-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-01",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 929668,
@@ -949,8 +949,8 @@
    "last_checkout": "2026-10-31",
    "days_vacant": null,
    "next_arrival": "2027-02-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-05-15",
+   "last_inspector": "Sierra Mesa Juan"
   },
   {
    "id": 1153565,
@@ -975,8 +975,8 @@
    "last_checkout": "2026-10-18",
    "days_vacant": 25,
    "next_arrival": "2026-12-03",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-18",
+   "last_inspector": "McGlinchey Glenn"
   },
   {
    "id": 929672,
@@ -988,8 +988,8 @@
    "last_checkout": "2026-10-16",
    "days_vacant": null,
    "next_arrival": "2027-04-18",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-19",
+   "last_inspector": "McGlinchey Glenn"
   },
   {
    "id": 929756,
@@ -1001,7 +1001,7 @@
    "last_checkout": "2026-10-16",
    "days_vacant": 27,
    "next_arrival": "2027-02-01",
-   "last_inspection": null,
+   "last_inspection": "2026-04-23",
    "last_inspector": null
   },
   {
@@ -1014,8 +1014,8 @@
    "last_checkout": "2026-04-03",
    "days_vacant": 223,
    "next_arrival": "2027-01-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-04-24",
+   "last_inspector": "Matthews Travis"
   },
   {
    "id": 929673,
@@ -1040,8 +1040,8 @@
    "last_checkout": "2026-10-29",
    "days_vacant": 14,
    "next_arrival": "2026-12-28",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-11-02",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 929725,
@@ -1066,8 +1066,8 @@
    "last_checkout": "2026-10-20",
    "days_vacant": 23,
    "next_arrival": "2026-11-26",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-11-09",
+   "last_inspector": "McGlinchey Glenn"
   },
   {
    "id": 929674,
@@ -1105,8 +1105,8 @@
    "last_checkout": "2026-10-30",
    "days_vacant": 13,
    "next_arrival": "2026-11-23",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-30",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 929767,
@@ -1118,8 +1118,8 @@
    "last_checkout": "2026-08-31",
    "days_vacant": 73,
    "next_arrival": "2027-01-31",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-30",
+   "last_inspector": "Matthews Travis"
   },
   {
    "id": 986157,
@@ -1144,8 +1144,8 @@
    "last_checkout": "2026-09-15",
    "days_vacant": null,
    "next_arrival": "2027-02-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-31",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 935136,
@@ -1157,8 +1157,8 @@
    "last_checkout": "2026-05-03",
    "days_vacant": 193,
    "next_arrival": "2027-01-31",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-05-19",
+   "last_inspector": "Randall Cararese"
   },
   {
    "id": 929675,
@@ -1196,7 +1196,7 @@
    "last_checkout": "2026-05-18",
    "days_vacant": 178,
    "next_arrival": "2027-01-01",
-   "last_inspection": null,
+   "last_inspection": "2026-05-18",
    "last_inspector": null
   },
   {
@@ -1209,8 +1209,8 @@
    "last_checkout": "2026-09-30",
    "days_vacant": null,
    "next_arrival": "2026-12-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-24",
+   "last_inspector": "McGlinchey Glenn"
   },
   {
    "id": 977955,
@@ -1222,8 +1222,8 @@
    "last_checkout": "2026-09-23",
    "days_vacant": 50,
    "next_arrival": "2026-12-27",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-09-18",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 1167310,
@@ -1261,8 +1261,8 @@
    "last_checkout": "2026-08-11",
    "days_vacant": null,
    "next_arrival": "2026-12-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-09-07",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 929578,
@@ -1300,8 +1300,8 @@
    "last_checkout": "2026-10-16",
    "days_vacant": null,
    "next_arrival": "2026-12-19",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-11-07",
+   "last_inspector": "Randall Cararese"
   },
   {
    "id": 929584,
@@ -1313,8 +1313,8 @@
    "last_checkout": "2026-10-26",
    "days_vacant": null,
    "next_arrival": "2026-12-25",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-28",
+   "last_inspector": "Randall Cararese"
   },
   {
    "id": 1015795,
@@ -1339,8 +1339,8 @@
    "last_checkout": "2026-10-29",
    "days_vacant": 14,
    "next_arrival": "2026-12-19",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-09",
+   "last_inspector": "Randall Cararese"
   },
   {
    "id": 929588,
@@ -1404,8 +1404,8 @@
    "last_checkout": "2026-10-04",
    "days_vacant": 39,
    "next_arrival": "2026-12-18",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-09",
+   "last_inspector": "Randall Cararese"
   },
   {
    "id": 1003121,
@@ -1417,8 +1417,8 @@
    "last_checkout": "2026-10-04",
    "days_vacant": 39,
    "next_arrival": "2026-11-14",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-11-12",
+   "last_inspector": "Randall Cararese"
   },
   {
    "id": 929597,
@@ -1430,8 +1430,8 @@
    "last_checkout": "2026-10-31",
    "days_vacant": 12,
    "next_arrival": "2026-12-27",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-11-04",
+   "last_inspector": "Randall Cararese"
   },
   {
    "id": 929598,
@@ -1443,8 +1443,8 @@
    "last_checkout": "2026-09-03",
    "days_vacant": 70,
    "next_arrival": "2027-01-02",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-15",
+   "last_inspector": "Randall Cararese"
   },
   {
    "id": 929620,
@@ -1482,8 +1482,8 @@
    "last_checkout": "2026-10-31",
    "days_vacant": null,
    "next_arrival": "2027-01-16",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-31",
+   "last_inspector": "Randall Cararese"
   },
   {
    "id": 929831,
@@ -1508,8 +1508,8 @@
    "last_checkout": "2026-11-06",
    "days_vacant": 6,
    "next_arrival": "2026-11-27",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-11-05",
+   "last_inspector": "Randall Cararese"
   },
   {
    "id": 929832,
@@ -1560,8 +1560,8 @@
    "last_checkout": "2026-10-29",
    "days_vacant": null,
    "next_arrival": "2026-11-15",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-29",
+   "last_inspector": "Randall Cararese"
   },
   {
    "id": 929833,
@@ -1573,8 +1573,8 @@
    "last_checkout": "2026-10-24",
    "days_vacant": null,
    "next_arrival": "2026-11-16",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-24",
+   "last_inspector": "Randall Cararese"
   },
   {
    "id": 929800,
@@ -1586,8 +1586,8 @@
    "last_checkout": "2026-09-16",
    "days_vacant": 57,
    "next_arrival": "2027-02-13",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-11-11",
+   "last_inspector": "Randall Cararese"
   },
   {
    "id": 929602,
@@ -1625,8 +1625,8 @@
    "last_checkout": "2026-10-30",
    "days_vacant": 13,
    "next_arrival": "2026-11-14",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-30",
+   "last_inspector": "Randall Cararese"
   },
   {
    "id": 929605,
@@ -1638,8 +1638,8 @@
    "last_checkout": "2026-10-24",
    "days_vacant": null,
    "next_arrival": "2026-11-21",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-24",
+   "last_inspector": "McGlinchey Glenn"
   },
   {
    "id": 932862,
@@ -1651,8 +1651,8 @@
    "last_checkout": "2026-08-14",
    "days_vacant": 90,
    "next_arrival": "2026-11-27",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-09-09",
+   "last_inspector": "Randall Cararese"
   },
   {
    "id": 929606,
@@ -1664,8 +1664,8 @@
    "last_checkout": "2026-10-31",
    "days_vacant": null,
    "next_arrival": "2026-12-26",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-08-17",
+   "last_inspector": "Sierra Mesa Juan"
   },
   {
    "id": 929796,
@@ -1716,8 +1716,8 @@
    "last_checkout": "2026-09-06",
    "days_vacant": 67,
    "next_arrival": "2027-02-26",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-09-28",
+   "last_inspector": "Sierra Mesa Juan"
   },
   {
    "id": 929609,
@@ -1729,8 +1729,8 @@
    "last_checkout": "2026-09-16",
    "days_vacant": null,
    "next_arrival": "2027-02-27",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-09-30",
+   "last_inspector": "Randall Cararese"
   },
   {
    "id": 929610,
@@ -1742,8 +1742,8 @@
    "last_checkout": "2026-11-07",
    "days_vacant": null,
    "next_arrival": "2026-11-21",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-22",
+   "last_inspector": "Randall Cararese"
   },
   {
    "id": 929611,
@@ -1781,8 +1781,8 @@
    "last_checkout": "2026-10-24",
    "days_vacant": null,
    "next_arrival": "2026-11-21",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-25",
+   "last_inspector": "McGlinchey Glenn"
   },
   {
    "id": 929614,
@@ -1807,8 +1807,8 @@
    "last_checkout": "2026-10-28",
    "days_vacant": 15,
    "next_arrival": "2026-12-19",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-29",
+   "last_inspector": "Randall Cararese"
   },
   {
    "id": 929616,
@@ -1846,8 +1846,8 @@
    "last_checkout": "2026-10-31",
    "days_vacant": 12,
    "next_arrival": "2026-11-13",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-11-04",
+   "last_inspector": "Randall Cararese"
   },
   {
    "id": 1082304,
@@ -1872,8 +1872,8 @@
    "last_checkout": "2026-10-12",
    "days_vacant": 31,
    "next_arrival": "2027-01-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-12",
+   "last_inspector": "McGlinchey Glenn"
   },
   {
    "id": 1153616,
@@ -1898,8 +1898,8 @@
    "last_checkout": "2026-11-09",
    "days_vacant": 3,
    "next_arrival": "2026-11-21",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-25",
+   "last_inspector": "McGlinchey Glenn"
   },
   {
    "id": 929679,
@@ -1924,8 +1924,8 @@
    "last_checkout": "2026-06-15",
    "days_vacant": 150,
    "next_arrival": "2027-02-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-11-02",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 929680,
@@ -1937,8 +1937,8 @@
    "last_checkout": "2026-10-27",
    "days_vacant": 16,
    "next_arrival": "2026-12-27",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-09-01",
+   "last_inspector": "Banks Jen"
   },
   {
    "id": 929809,
@@ -1950,8 +1950,8 @@
    "last_checkout": "2026-06-28",
    "days_vacant": 137,
    "next_arrival": "2027-01-02",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-20",
+   "last_inspector": "Matthews Travis"
   },
   {
    "id": 929829,
@@ -1963,8 +1963,8 @@
    "last_checkout": "2026-08-02",
    "days_vacant": null,
    "next_arrival": "2026-12-28",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-25",
+   "last_inspector": "McGlinchey Glenn"
   },
   {
    "id": 1165897,
@@ -1989,8 +1989,8 @@
    "last_checkout": "2026-10-01",
    "days_vacant": 42,
    "next_arrival": "2027-03-06",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-02",
+   "last_inspector": "Matthews Travis"
   },
   {
    "id": 929682,
@@ -2002,8 +2002,8 @@
    "last_checkout": "2026-04-26",
    "days_vacant": 200,
    "next_arrival": "2027-01-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-04-28",
+   "last_inspector": "Randall Cararese"
   },
   {
    "id": 929776,
@@ -2015,8 +2015,8 @@
    "last_checkout": "2026-10-31",
    "days_vacant": null,
    "next_arrival": "2027-01-02",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-01",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 1163665,
@@ -2041,8 +2041,8 @@
    "last_checkout": null,
    "days_vacant": null,
    "next_arrival": "2026-12-05",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-07-10",
+   "last_inspector": "Cabrera Yuli"
   },
   {
    "id": 929684,
@@ -2054,8 +2054,8 @@
    "last_checkout": "2026-08-02",
    "days_vacant": null,
    "next_arrival": "2026-12-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-08-06",
+   "last_inspector": "Banks Jen"
   },
   {
    "id": 993259,
@@ -2093,8 +2093,8 @@
    "last_checkout": "2026-10-31",
    "days_vacant": null,
    "next_arrival": "2026-11-21",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-31",
+   "last_inspector": "Banks Jen"
   },
   {
    "id": 929759,
@@ -2106,8 +2106,8 @@
    "last_checkout": "2026-10-31",
    "days_vacant": 12,
    "next_arrival": "2027-01-02",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-05-01",
+   "last_inspector": "Santana Angel"
   },
   {
    "id": 932661,
@@ -2145,8 +2145,8 @@
    "last_checkout": "2026-09-27",
    "days_vacant": 46,
    "next_arrival": null,
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-09-21",
+   "last_inspector": "Sierra Mesa Juan"
   },
   {
    "id": 948635,
@@ -2158,8 +2158,8 @@
    "last_checkout": "2026-04-07",
    "days_vacant": 219,
    "next_arrival": "2027-01-07",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-04-15",
+   "last_inspector": "Randall Cararese"
   },
   {
    "id": 929818,
@@ -2197,8 +2197,8 @@
    "last_checkout": "2026-10-31",
    "days_vacant": null,
    "next_arrival": "2026-12-02",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-11-01",
+   "last_inspector": "McGlinchey Glenn"
   },
   {
    "id": 996267,
@@ -2210,8 +2210,8 @@
    "last_checkout": "2026-10-16",
    "days_vacant": null,
    "next_arrival": "2026-12-19",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-11-07",
+   "last_inspector": "Matthews Travis"
   },
   {
    "id": 936807,
@@ -2223,8 +2223,8 @@
    "last_checkout": "2026-10-31",
    "days_vacant": null,
    "next_arrival": "2027-01-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-11-01",
+   "last_inspector": "McGlinchey Glenn"
   },
   {
    "id": 929688,
@@ -2249,8 +2249,8 @@
    "last_checkout": "2026-11-01",
    "days_vacant": null,
    "next_arrival": "2026-12-05",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-11-01",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 951730,
@@ -2262,8 +2262,8 @@
    "last_checkout": "2026-08-13",
    "days_vacant": 91,
    "next_arrival": "2026-12-21",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-08-14",
+   "last_inspector": "Santana Angel"
   },
   {
    "id": 929686,
@@ -2275,8 +2275,8 @@
    "last_checkout": "2026-10-03",
    "days_vacant": 40,
    "next_arrival": "2027-01-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-03",
+   "last_inspector": "Monteforte Gavin"
   },
   {
    "id": 946311,
@@ -2288,8 +2288,8 @@
    "last_checkout": "2026-09-30",
    "days_vacant": null,
    "next_arrival": "2026-12-31",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-01",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 1009398,
@@ -2301,8 +2301,8 @@
    "last_checkout": "2026-08-04",
    "days_vacant": null,
    "next_arrival": "2027-01-15",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-09-15",
+   "last_inspector": "Matthews Travis"
   },
   {
    "id": 929689,
@@ -2327,8 +2327,8 @@
    "last_checkout": "2026-09-09",
    "days_vacant": null,
    "next_arrival": "2026-12-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-18",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 929814,
@@ -2353,8 +2353,8 @@
    "last_checkout": "2026-05-03",
    "days_vacant": 193,
    "next_arrival": "2026-12-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-05-22",
+   "last_inspector": "Randall Cararese"
   },
   {
    "id": 943715,
@@ -2366,8 +2366,8 @@
    "last_checkout": "2026-09-30",
    "days_vacant": 43,
    "next_arrival": "2026-12-28",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-03",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 1153579,
@@ -2392,8 +2392,8 @@
    "last_checkout": "2026-06-19",
    "days_vacant": null,
    "next_arrival": "2026-12-06",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-11",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 966322,
@@ -2405,8 +2405,8 @@
    "last_checkout": "2026-05-03",
    "days_vacant": 193,
    "next_arrival": null,
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-05-12",
+   "last_inspector": "Sierra Mesa Juan"
   },
   {
    "id": 940091,
@@ -2431,8 +2431,8 @@
    "last_checkout": "2026-09-29",
    "days_vacant": 44,
    "next_arrival": "2027-02-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-09-22",
+   "last_inspector": "Sierra Mesa Juan"
   },
   {
    "id": 929722,
@@ -2444,8 +2444,8 @@
    "last_checkout": "2026-06-24",
    "days_vacant": 141,
    "next_arrival": "2026-12-19",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-06-24",
+   "last_inspector": "Cabrera Yuli"
   },
   {
    "id": 929807,
@@ -2457,8 +2457,8 @@
    "last_checkout": "2026-07-14",
    "days_vacant": 121,
    "next_arrival": "2027-02-06",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-07-15",
+   "last_inspector": "Cabrera Yuli"
   },
   {
    "id": 929692,
@@ -2548,8 +2548,8 @@
    "last_checkout": "2026-09-24",
    "days_vacant": 49,
    "next_arrival": "2027-01-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-05-12",
+   "last_inspector": "Cabrera Yuli"
   },
   {
    "id": 898912,
@@ -2561,8 +2561,8 @@
    "last_checkout": "2026-10-09",
    "days_vacant": null,
    "next_arrival": "2026-11-21",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-10",
+   "last_inspector": "Kobe Ben"
   },
   {
    "id": 899054,
@@ -2574,8 +2574,8 @@
    "last_checkout": "2026-10-31",
    "days_vacant": 12,
    "next_arrival": "2026-11-21",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-11-01",
+   "last_inspector": "Urroz Cesar"
   },
   {
    "id": 899055,
@@ -2600,8 +2600,8 @@
    "last_checkout": "2026-10-28",
    "days_vacant": 15,
    "next_arrival": "2026-11-15",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-29",
+   "last_inspector": "Garcia Kyle"
   },
   {
    "id": 899057,
@@ -2678,8 +2678,8 @@
    "last_checkout": "2026-10-29",
    "days_vacant": null,
    "next_arrival": "2026-11-17",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-29",
+   "last_inspector": "Dallman Autumn"
   },
   {
    "id": 899073,
@@ -2691,8 +2691,8 @@
    "last_checkout": "2026-10-26",
    "days_vacant": null,
    "next_arrival": "2026-11-24",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-11-03",
+   "last_inspector": "Garcia Kyle"
   },
   {
    "id": 899074,
@@ -2704,8 +2704,8 @@
    "last_checkout": "2026-10-26",
    "days_vacant": null,
    "next_arrival": "2026-11-23",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-22",
+   "last_inspector": "Garcia Kyle"
   },
   {
    "id": 899075,
@@ -2743,8 +2743,8 @@
    "last_checkout": "2026-11-08",
    "days_vacant": null,
    "next_arrival": "2026-11-13",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-30",
+   "last_inspector": "Garcia Kyle"
   },
   {
    "id": 899079,
@@ -2782,8 +2782,8 @@
    "last_checkout": "2026-11-08",
    "days_vacant": null,
    "next_arrival": "2026-11-14",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-28",
+   "last_inspector": "Dallman Autumn"
   },
   {
    "id": 899083,
@@ -2899,8 +2899,8 @@
    "last_checkout": "2026-10-16",
    "days_vacant": null,
    "next_arrival": "2026-11-20",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-25",
+   "last_inspector": "Urroz Cesar"
   },
   {
    "id": 899097,
@@ -2925,8 +2925,8 @@
    "last_checkout": "2026-10-31",
    "days_vacant": null,
    "next_arrival": "2026-11-21",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-11-06",
+   "last_inspector": "Armstrong Norman"
   },
   {
    "id": 899102,
@@ -2938,8 +2938,8 @@
    "last_checkout": "2026-09-07",
    "days_vacant": null,
    "next_arrival": "2026-11-22",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-11-06",
+   "last_inspector": "Garcia Kyle"
   },
   {
    "id": 899110,
@@ -2951,8 +2951,8 @@
    "last_checkout": "2026-10-31",
    "days_vacant": null,
    "next_arrival": "2026-11-22",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-13",
+   "last_inspector": "Dallman Autumn"
   },
   {
    "id": 899111,
@@ -2964,8 +2964,8 @@
    "last_checkout": "2026-10-24",
    "days_vacant": null,
    "next_arrival": "2026-11-22",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-25",
+   "last_inspector": "Urroz Cesar"
   },
   {
    "id": 899113,
@@ -2977,8 +2977,8 @@
    "last_checkout": "2026-11-08",
    "days_vacant": null,
    "next_arrival": "2026-11-20",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-29",
+   "last_inspector": "Dallman Autumn"
   },
   {
    "id": 899114,
@@ -3029,8 +3029,8 @@
    "last_checkout": "2026-10-23",
    "days_vacant": 20,
    "next_arrival": "2026-11-14",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-09-12",
+   "last_inspector": "Urroz Cesar"
   },
   {
    "id": 899119,
@@ -3081,8 +3081,8 @@
    "last_checkout": "2026-09-27",
    "days_vacant": 46,
    "next_arrival": "2026-12-26",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-09-09",
+   "last_inspector": "Garcia Kyle"
   },
   {
    "id": 899131,
@@ -3094,8 +3094,8 @@
    "last_checkout": "2026-10-30",
    "days_vacant": 13,
    "next_arrival": "2026-11-16",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-11-01",
+   "last_inspector": "Urroz Cesar"
   },
   {
    "id": 899132,
@@ -3302,8 +3302,8 @@
    "last_checkout": "2026-10-25",
    "days_vacant": 18,
    "next_arrival": "2027-01-02",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-09-01",
+   "last_inspector": "Banks Jen"
   },
   {
    "id": 929836,
@@ -3315,8 +3315,8 @@
    "last_checkout": "2026-10-20",
    "days_vacant": null,
    "next_arrival": "2027-03-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-11-11",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 968379,
@@ -3328,8 +3328,8 @@
    "last_checkout": "2026-11-10",
    "days_vacant": null,
    "next_arrival": "2027-02-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-05-13",
+   "last_inspector": "Cabrera Yuli"
   },
   {
    "id": 1168505,
@@ -3393,8 +3393,8 @@
    "last_checkout": "2026-08-30",
    "days_vacant": 74,
    "next_arrival": null,
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-08-31",
+   "last_inspector": "Sierra Mesa Juan"
   },
   {
    "id": 929697,
@@ -3406,8 +3406,8 @@
    "last_checkout": "2026-10-20",
    "days_vacant": null,
    "next_arrival": "2027-01-31",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-21",
+   "last_inspector": "Matthews Travis"
   },
   {
    "id": 929764,
@@ -3432,8 +3432,8 @@
    "last_checkout": "2026-06-27",
    "days_vacant": null,
    "next_arrival": "2026-12-28",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-05-12",
+   "last_inspector": "Sierra Mesa Juan"
   },
   {
    "id": 1132105,
@@ -3445,8 +3445,8 @@
    "last_checkout": null,
    "days_vacant": null,
    "next_arrival": null,
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-09-12",
+   "last_inspector": "Matthews Travis"
   },
   {
    "id": 1131458,
@@ -3666,8 +3666,8 @@
    "last_checkout": "2026-11-04",
    "days_vacant": null,
    "next_arrival": "2026-11-17",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-29",
+   "last_inspector": "Ventura Nikolas"
   },
   {
    "id": 929744,
@@ -3744,8 +3744,8 @@
    "last_checkout": "2026-10-13",
    "days_vacant": 30,
    "next_arrival": "2027-01-03",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-15",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 929846,
@@ -3783,8 +3783,8 @@
    "last_checkout": "2026-10-29",
    "days_vacant": 14,
    "next_arrival": "2026-11-21",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-31",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 1137357,
@@ -3809,8 +3809,8 @@
    "last_checkout": "2026-05-10",
    "days_vacant": null,
    "next_arrival": "2027-02-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-31",
+   "last_inspector": "McGlinchey Glenn"
   },
   {
    "id": 929700,
@@ -3822,8 +3822,8 @@
    "last_checkout": "2026-10-31",
    "days_vacant": null,
    "next_arrival": "2026-11-21",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-30",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 929701,
@@ -3835,8 +3835,8 @@
    "last_checkout": "2026-08-08",
    "days_vacant": 96,
    "next_arrival": "2027-01-02",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-26",
+   "last_inspector": "McGlinchey Glenn"
   },
   {
    "id": 929850,
@@ -3848,8 +3848,8 @@
    "last_checkout": "2026-10-10",
    "days_vacant": 33,
    "next_arrival": "2027-01-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-12",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 929702,
@@ -3861,8 +3861,8 @@
    "last_checkout": "2026-07-15",
    "days_vacant": null,
    "next_arrival": "2026-11-30",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-08-22",
+   "last_inspector": "Santana Angel"
   },
   {
    "id": 929840,
@@ -3900,8 +3900,8 @@
    "last_checkout": "2026-10-31",
    "days_vacant": null,
    "next_arrival": "2026-12-19",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-31",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 1126920,
@@ -3926,8 +3926,8 @@
    "last_checkout": "2026-06-02",
    "days_vacant": 163,
    "next_arrival": "2027-01-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-05-14",
+   "last_inspector": "Randall Cararese"
   },
   {
    "id": 929844,
@@ -3939,8 +3939,8 @@
    "last_checkout": "2026-05-30",
    "days_vacant": null,
    "next_arrival": "2027-01-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-06-02",
+   "last_inspector": "Santana Angel"
   },
   {
    "id": 1128971,
@@ -3952,8 +3952,8 @@
    "last_checkout": "2026-08-07",
    "days_vacant": 97,
    "next_arrival": "2026-12-29",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-08-07",
+   "last_inspector": "Sierra Mesa Juan"
   },
   {
    "id": 929706,
@@ -3965,8 +3965,8 @@
    "last_checkout": "2026-10-02",
    "days_vacant": 41,
    "next_arrival": "2027-01-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-07",
+   "last_inspector": "Sierra Mesa Juan"
   },
   {
    "id": 929707,
@@ -3978,8 +3978,8 @@
    "last_checkout": "2026-10-01",
    "days_vacant": null,
    "next_arrival": "2026-12-06",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-30",
+   "last_inspector": "Matthews Travis"
   },
   {
    "id": 929709,
@@ -4004,8 +4004,8 @@
    "last_checkout": "2026-09-30",
    "days_vacant": 43,
    "next_arrival": "2027-02-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-02",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 929787,
@@ -4043,8 +4043,8 @@
    "last_checkout": "2026-10-18",
    "days_vacant": 25,
    "next_arrival": "2026-11-15",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-07-17",
+   "last_inspector": "Matthews Travis"
   },
   {
    "id": 929704,
@@ -4056,8 +4056,8 @@
    "last_checkout": "2026-07-25",
    "days_vacant": 110,
    "next_arrival": null,
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-08",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 972507,
@@ -4069,8 +4069,8 @@
    "last_checkout": "2026-10-31",
    "days_vacant": 12,
    "next_arrival": "2026-12-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-11-07",
+   "last_inspector": "Matthews Travis"
   },
   {
    "id": 929714,
@@ -4082,8 +4082,8 @@
    "last_checkout": "2026-06-14",
    "days_vacant": 151,
    "next_arrival": "2027-01-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-06-19",
+   "last_inspector": "Santana Angel"
   },
   {
    "id": 929715,
@@ -4095,8 +4095,8 @@
    "last_checkout": "2026-10-30",
    "days_vacant": 13,
    "next_arrival": "2027-02-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-07-01",
+   "last_inspector": "Randall Cararese"
   },
   {
    "id": 929784,
@@ -4108,8 +4108,8 @@
    "last_checkout": "2026-10-27",
    "days_vacant": 16,
    "next_arrival": "2026-12-19",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-11-02",
+   "last_inspector": "McGlinchey Glenn"
   },
   {
    "id": 929852,
@@ -4121,8 +4121,8 @@
    "last_checkout": "2026-10-29",
    "days_vacant": 14,
    "next_arrival": "2026-12-25",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-30",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 929716,
@@ -4160,8 +4160,8 @@
    "last_checkout": "2026-09-30",
    "days_vacant": 43,
    "next_arrival": "2027-02-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-09-30",
+   "last_inspector": "Matthews Travis"
   },
   {
    "id": 929845,
@@ -4173,8 +4173,8 @@
    "last_checkout": "2026-06-09",
    "days_vacant": null,
    "next_arrival": "2026-12-03",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-23",
+   "last_inspector": "Matthews Travis"
   },
   {
    "id": 929717,
@@ -4186,8 +4186,8 @@
    "last_checkout": "2026-10-31",
    "days_vacant": null,
    "next_arrival": "2026-12-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-31",
+   "last_inspector": "McGlinchey Glenn"
   },
   {
    "id": 1015307,
@@ -4212,8 +4212,8 @@
    "last_checkout": "2026-10-13",
    "days_vacant": null,
    "next_arrival": "2026-11-21",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-11-03",
+   "last_inspector": "Matthews Travis"
   },
   {
    "id": 1015325,
@@ -4225,8 +4225,8 @@
    "last_checkout": "2026-07-07",
    "days_vacant": null,
    "next_arrival": "2027-11-15",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-11-06",
+   "last_inspector": "Matthews Travis"
   },
   {
    "id": 1015329,
@@ -4277,8 +4277,8 @@
    "last_checkout": "2026-10-31",
    "days_vacant": null,
    "next_arrival": "2027-10-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-09-11",
+   "last_inspector": "Matthews Travis"
   },
   {
    "id": 1015888,
@@ -4485,8 +4485,8 @@
    "last_checkout": "2026-09-29",
    "days_vacant": null,
    "next_arrival": "2026-11-21",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-07-18",
+   "last_inspector": "Matthews Travis"
   },
   {
    "id": 1016031,
@@ -4537,8 +4537,8 @@
    "last_checkout": "2026-11-07",
    "days_vacant": 5,
    "next_arrival": "2026-11-14",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-09-19",
+   "last_inspector": "Monteforte Gavin"
   },
   {
    "id": 929650,
@@ -4550,8 +4550,8 @@
    "last_checkout": "2026-11-05",
    "days_vacant": null,
    "next_arrival": "2026-11-22",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-08-19",
+   "last_inspector": "Santana Angel"
   },
   {
    "id": 929652,
@@ -4576,8 +4576,8 @@
    "last_checkout": "2026-07-18",
    "days_vacant": null,
    "next_arrival": "2027-01-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-07-21",
+   "last_inspector": "Sierra Mesa Juan"
   },
   {
    "id": 1028856,
@@ -4667,8 +4667,8 @@
    "last_checkout": "2026-10-25",
    "days_vacant": 18,
    "next_arrival": null,
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-10-25",
+   "last_inspector": "Urroz Cesar"
   },
   {
    "id": 929838,
@@ -4693,8 +4693,8 @@
    "last_checkout": "2026-09-18",
    "days_vacant": 55,
    "next_arrival": "2027-04-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-07-03",
+   "last_inspector": "Randall Cararese"
   },
   {
    "id": 929705,
@@ -4706,8 +4706,8 @@
    "last_checkout": "2026-10-31",
    "days_vacant": null,
    "next_arrival": "2027-04-01",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-05-02",
+   "last_inspector": "Sierra Mesa Juan"
   }
  ]
 }
