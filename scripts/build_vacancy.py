@@ -44,7 +44,11 @@ def as_list(node, key):
 
 
 def parse(s):
-    return dt.datetime.strptime(s, "%m/%d/%Y").date() if s and s != "N/A" else None
+    return dt.datetime.strptime(s, "%m/%d/%Y").date() if isinstance(s, str) and s != "N/A" else None
+
+
+def parse_iso(s):
+    return dt.date.fromisoformat(s)
 
 
 def main():
@@ -59,14 +63,30 @@ def main():
             break
         page += 1
 
-    # Recent inspections: the HK report only covers a short window around today.
-    last_inspection = {}
+    # Inspections: Streamline only exposes the current month to date (date filters are ignored), so
+    # completed inspections (inspection_status_id 2, "Clean w/ inspection") are accumulated across
+    # runs: history is carried forward from the previous data/vacancy.json.
+    previous = {}
+    inspections_since = today.isoformat()
+    if os.path.exists(OUT):
+        with open(OUT) as f:
+            old = json.load(f)
+        inspections_since = old.get("inspections_since", inspections_since)
+        for u in old.get("units", []):
+            if u.get("last_inspection"):
+                previous[u["id"]] = (parse_iso(u["last_inspection"]), u.get("last_inspector"))
+    last_inspection = dict(previous)
     try:
         hk = call("GetHousekeepingCleaningReport")
         for ev in as_list(hk, "reservations"):
+            cleaned = parse(ev.get("cleaning_date"))
+            if cleaned and cleaned.isoformat() < inspections_since:
+                inspections_since = cleaned.isoformat()
             d = parse(ev.get("inspection_date"))
-            if d and d <= today and (ev["unit_id"] not in last_inspection or d > last_inspection[ev["unit_id"]][0]):
-                last_inspection[ev["unit_id"]] = (d, ev.get("inspector_name") or None)
+            if ev.get("inspection_status_id") == 2 and d and d <= today and \
+                    (ev["unit_id"] not in last_inspection or d > last_inspection[ev["unit_id"]][0]):
+                insp = ev.get("inspector_name")
+                last_inspection[ev["unit_id"]] = (d, insp if isinstance(insp, str) else None)
     except Exception as exc:  # inspection info is optional; occupancy is the core data
         print(f"warning: housekeeping report unavailable: {exc}", file=sys.stderr)
 
@@ -100,6 +120,7 @@ def main():
     out = {
         "generated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
         "as_of": today.isoformat(),
+        "inspections_since": inspections_since,
         "units": sorted(units, key=lambda u: (u["name"] or "").lower()),
     }
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
