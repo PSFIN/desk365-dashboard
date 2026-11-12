@@ -1,0 +1,35 @@
+name: Update Vacancy Data
+
+on:
+  schedule:
+    - cron: '0 10,16 * * *'   # ~6am and ~12pm ET
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  vacancy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build vacancy data from Streamline
+        run: python3 scripts/build_vacancy.py
+
+      - name: Commit changes, if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/vacancy.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Vacancy data update"
+            git pull --rebase
+            git push
+          fi
