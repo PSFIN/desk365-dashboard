@@ -210,6 +210,7 @@
   <div class="tab-bar">
     <button class="tab-btn active" id="tabBtnAll" onclick="switchTab('all')">All Work Orders</button>
     <button class="tab-btn" id="tabBtnLynx" onclick="switchTab('lynx')">🔑 Lynx Locks<span class="tab-count" id="lynxTabCount">0</span></button>
+    <button class="tab-btn" id="tabBtnVacancy" onclick="switchTab('vacancy')">🏠 Vacant 30+ Days<span class="tab-count" id="vacancyTabCount">…</span></button>
   </div>
 
   <div id="paneAll">
@@ -355,6 +356,37 @@
             </tr>
           </thead>
           <tbody id="lynxBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vacancy tab -->
+  <div id="paneVacancy" style="display:none">
+    <div class="note-card" id="vacancyNote">Properties with <strong>no current stay</strong> whose last checkout (owner stays included) was more than 30 days ago, or that have no stay on record. Built from Streamline reservations and refreshed twice a day. Cancelled bookings, inquiries and office blocks are not counted as occupancy.</div>
+    <div class="kpi-row" id="vacancyKpis"></div>
+    <div class="ticket-panel">
+      <div class="ticket-panel-header">
+        <div>
+          <h3 id="vacancyTableTitle">Vacant 30+ Days</h3>
+          <span id="vacancyTableCount"></span>
+        </div>
+        <input class="ticket-search" id="vacancySearch" type="text" placeholder="Search property or area..." oninput="renderVacancy()">
+      </div>
+      <div class="table-wrap">
+        <table id="vacancyTable">
+          <thead>
+            <tr>
+              <th onclick="sortVacancy('name')">Property <span class="sort-icon">↕</span></th>
+              <th onclick="sortVacancy('area')">Area <span class="sort-icon">↕</span></th>
+              <th onclick="sortVacancy('last_checkout')">Last Checkout <span class="sort-icon">↕</span></th>
+              <th onclick="sortVacancy('days_vacant')">Days Vacant <span class="sort-icon">↕</span></th>
+              <th onclick="sortVacancy('next_arrival')">Next Arrival <span class="sort-icon">↕</span></th>
+              <th onclick="sortVacancy('last_inspection')">Recent Inspection <span class="sort-icon">↕</span></th>
+              <th onclick="sortVacancy('open_wos')">Open WOs <span class="sort-icon">↕</span></th>
+            </tr>
+          </thead>
+          <tbody id="vacancyBody"></tbody>
         </table>
       </div>
     </div>
@@ -775,12 +807,14 @@ let lynxSortDir = -1;
 let lynxStatusFilter = null;
 
 function switchTab(tab) {
-  const lynx = tab === 'lynx';
-  document.getElementById('paneAll').style.display = lynx ? 'none' : '';
-  document.getElementById('paneLynx').style.display = lynx ? '' : 'none';
-  document.getElementById('tabBtnAll').classList.toggle('active', !lynx);
-  document.getElementById('tabBtnLynx').classList.toggle('active', lynx);
-  if (lynx) renderLynx();
+  const panes = { all: 'paneAll', lynx: 'paneLynx', vacancy: 'paneVacancy' };
+  const btns = { all: 'tabBtnAll', lynx: 'tabBtnLynx', vacancy: 'tabBtnVacancy' };
+  Object.keys(panes).forEach(k => {
+    document.getElementById(panes[k]).style.display = k === tab ? '' : 'none';
+    document.getElementById(btns[k]).classList.toggle('active', k === tab);
+  });
+  if (tab === 'lynx') renderLynx();
+  else if (tab === 'vacancy') renderVacancy();
   else Object.values(charts).forEach(c => c && c.resize && c.resize());
 }
 
@@ -835,6 +869,130 @@ function renderLynx() {
   document.getElementById('lynxTableCount').textContent = `${rows.length.toLocaleString()} work order${rows.length !== 1 ? 's' : ''}`;
   document.getElementById('lynxBody').innerHTML = rows.length ? rows.map(woRowHTML).join('') :
     `<tr><td colspan="8" style="text-align:center;color:#95a5a6;padding:28px">No Lynx lock work orders match.</td></tr>`;
+}
+
+// ─── Vacancy tab ───────────────────────────────────────────────────
+const VACANCY_URL = 'https://psfin.github.io/desk365-dashboard/data/vacancy.json';
+let VACANCY = null;          // { as_of, generated, units: [...] }
+let vacancyFilter = 'over30';
+let vacancySortKey = 'days_vacant';
+let vacancySortDir = -1;
+
+async function loadVacancy() {
+  try {
+    const res = await fetch(VACANCY_URL + '?t=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    VACANCY = await res.json();
+  } catch (err) {
+    VACANCY = null;
+    document.getElementById('vacancyTabCount').textContent = '!';
+    document.getElementById('vacancyNote').innerHTML = `⚠️ Could not load vacancy data: ${err.message}`;
+    return;
+  }
+  renderVacancy();
+}
+
+const unitKey = s => (s || '').trim().toLowerCase();
+function openWOsFor(name) {
+  const k = unitKey(name);
+  return WO_DATA.filter(w => !w.closed && unitKey(w.unit) === k);
+}
+function fmtDate(iso) {
+  if (!iso) return '—';
+  const [y, m, d] = iso.split('-');
+  return `${m}/${d}/${y}`;
+}
+function vacancyRows() {
+  if (!VACANCY) return [];
+  return VACANCY.units
+    .filter(u => !u.occupied_now)
+    .map(u => ({ ...u, open_wos: openWOsFor(u.name).length }));
+}
+const isOver = (u, n) => u.days_vacant === null || u.days_vacant > n;
+
+function filterVacancy(f) { vacancyFilter = f; renderVacancy(); }
+function sortVacancy(key) {
+  if (vacancySortKey === key) vacancySortDir *= -1; else { vacancySortKey = key; vacancySortDir = (key === 'name' || key === 'area') ? 1 : -1; }
+  const idx = ['name','area','last_checkout','days_vacant','next_arrival','last_inspection','open_wos'].indexOf(key);
+  document.querySelectorAll('#vacancyTable thead th').forEach((th, i) => th.classList.toggle('sorted', i === idx));
+  renderVacancy();
+}
+
+function renderVacancy() {
+  if (!VACANCY) return;
+  const rows = vacancyRows();
+  const over30 = rows.filter(u => isOver(u, 30));
+  document.getElementById('vacancyTabCount').textContent = over30.length;
+
+  const defs = [
+    ['over30',  'Vacant 30+ Days',   'blue',   over30.length, 'No stay since last checkout'],
+    ['over60',  'Vacant 60+ Days',   'orange', rows.filter(u => isOver(u, 60)).length, 'Longer than 2 months'],
+    ['over90',  'Vacant 90+ Days',   'red',    rows.filter(u => isOver(u, 90)).length, 'Longer than 3 months'],
+    ['nostay',  'No Stay on Record', 'purple', rows.filter(u => u.days_vacant === null).length, 'No past checkout found'],
+    ['noarr',   '30+ & Nothing Booked', 'red', over30.filter(u => !u.next_arrival).length, 'No upcoming arrival'],
+    ['wos',     '30+ With Open WOs', 'teal',   over30.filter(u => u.open_wos > 0).length, 'Open work orders on the unit'],
+  ];
+  document.getElementById('vacancyKpis').innerHTML = defs.map(([k, label, cls, n, sub]) => `
+    <div class="kpi-card ${cls}${vacancyFilter === k ? ' active' : ''}" onclick="filterVacancy('${k}')">
+      <div class="label">${label}</div><div class="value">${n}</div><div class="sub">${sub}</div>
+      <div class="click-hint">▶ Click to filter</div>
+    </div>`).join('');
+
+  let list = over30;
+  if (vacancyFilter === 'over60') list = rows.filter(u => isOver(u, 60));
+  if (vacancyFilter === 'over90') list = rows.filter(u => isOver(u, 90));
+  if (vacancyFilter === 'nostay') list = rows.filter(u => u.days_vacant === null);
+  if (vacancyFilter === 'noarr')  list = over30.filter(u => !u.next_arrival);
+  if (vacancyFilter === 'wos')    list = over30.filter(u => u.open_wos > 0);
+
+  const q = (document.getElementById('vacancySearch').value || '').toLowerCase().trim();
+  if (q) list = list.filter(u => (u.name || '').toLowerCase().includes(q) || (u.area || '').toLowerCase().includes(q));
+
+  const val = u => {
+    const v = u[vacancySortKey];
+    return (vacancySortKey === 'days_vacant' && v === null) ? Infinity : v;
+  };
+  list = [...list].sort((a, b) => {
+    let av = val(a), bv = val(b);
+    if (av == null) av = (typeof bv === 'number') ? -1 : ''; if (bv == null) bv = (typeof av === 'number') ? -1 : '';
+    if (typeof av === 'number' && typeof bv === 'number') return vacancySortDir * (av === bv ? 0 : av - bv);
+    return vacancySortDir * String(av).localeCompare(String(bv));
+  });
+
+  const title = defs.find(d => d[0] === vacancyFilter)[1];
+  document.getElementById('vacancyTableTitle').textContent = title;
+  document.getElementById('vacancyTableCount').textContent =
+    `${list.length.toLocaleString()} propert${list.length !== 1 ? 'ies' : 'y'} · data as of ${fmtDate(VACANCY.as_of)}`;
+  document.getElementById('vacancyBody').innerHTML = list.length ? list.map(u => `
+    <tr onclick="openVacancyModal(${u.id})">
+      <td class="wo-num">${u.name || '—'}</td>
+      <td style="font-size:12px">${u.area || '—'}</td>
+      <td style="font-size:12px">${fmtDate(u.last_checkout)}</td>
+      <td style="font-size:12px;font-weight:700;color:${u.days_vacant === null || u.days_vacant >= 90 ? '#e74c3c' : u.days_vacant >= 60 ? '#e67e22' : '#7f8c8d'}">${u.days_vacant === null ? 'No stay on record' : u.days_vacant}</td>
+      <td style="font-size:12px">${u.next_arrival ? fmtDate(u.next_arrival) : '<span style="color:#e74c3c">None booked</span>'}</td>
+      <td style="font-size:12px">${u.last_inspection ? fmtDate(u.last_inspection) : '—'}</td>
+      <td style="font-size:12px">${u.open_wos || '—'}</td>
+    </tr>`).join('') :
+    `<tr><td colspan="7" style="text-align:center;color:#95a5a6;padding:28px">No properties match.</td></tr>`;
+}
+
+function openVacancyModal(id) {
+  const u = VACANCY.units.find(x => x.id === id);
+  if (!u) return;
+  const wos = openWOsFor(u.name);
+  document.getElementById('modalTitle').textContent = u.name || '(unnamed property)';
+  document.getElementById('modalBody').innerHTML = `
+    <div class="modal-grid">
+      <div class="modal-field"><label>Area</label><div class="val">${u.area || '—'}</div></div>
+      <div class="modal-field"><label>Community</label><div class="val">${u.community || '—'}</div></div>
+      <div class="modal-field"><label>Last Checkout</label><div class="val">${fmtDate(u.last_checkout)}</div></div>
+      <div class="modal-field"><label>Days Vacant</label><div class="val">${u.days_vacant === null ? 'No stay on record' : u.days_vacant}</div></div>
+      <div class="modal-field"><label>Next Arrival</label><div class="val">${u.next_arrival ? fmtDate(u.next_arrival) : 'None booked'}</div></div>
+      <div class="modal-field"><label>Recent Inspection</label><div class="val">${u.last_inspection ? fmtDate(u.last_inspection) + (u.last_inspector ? ' · ' + u.last_inspector : '') : '— (none in the recent housekeeping report)'}</div></div>
+    </div>
+    <div style="margin-top:18px;font-size:11px;font-weight:700;color:#95a5a6;text-transform:uppercase;letter-spacing:.6px">Open work orders (${wos.length})</div>
+    <div style="margin-top:6px;font-size:13px">${wos.length ? wos.map(w => `<div style="padding:4px 0"><a class="wo-link" target="_blank" href="https://admin.streamlinevrs.com/edit_maintenance.html?maintenance_id=${w.wo}&activetab=0&need_update_parent=1">#${w.wo}<span class="wo-ext">↗</span></a> — ${w.title || '(no title)'} · ${w.status}</div>`).join('') : '<span style="color:#95a5a6">None</span>'}</div>`;
+  document.getElementById('modalBackdrop').classList.add('show');
 }
 
 // ─── Modal ─────────────────────────────────────────────────────────
@@ -950,6 +1108,7 @@ async function loadFromAPI() {
     if (syncEl) syncEl.textContent = new Date().toLocaleString('en-US',{month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit'});
     init();
     renderLynx();
+    renderVacancy();
   } catch(err) {
     note.style.display = 'block';
     note.innerHTML = `⚠️ Could not load from Streamline API: ${err.message}. <strong>Your IP may need to be re-added to the Streamline whitelist</strong> (Partner Portal → Administration → Allowed IP Addresses).`;
@@ -962,6 +1121,7 @@ async function loadFromAPI() {
 }
 
 loadFromAPI();
+loadVacancy();
 </script>
 </body>
 </html>
