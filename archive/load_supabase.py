@@ -42,7 +42,10 @@ def num(v):
 
 
 def row(t):
-    custom = {k[3:]: v for k, v in t.items() if k.startswith("cf_") and v not in (None, "", [])}
+    # The list endpoint returns custom fields as a nested object {"cf_Name": value, ...} (every slot
+    # present, mostly empty); keep only non-empty values and drop the cf_ prefix.
+    nested = t.get("custom_fields") if isinstance(t.get("custom_fields"), dict) else {}
+    custom = {k[3:] if k.startswith("cf_") else k: v for k, v in nested.items() if v not in (None, "", [])}
     return {
         "ticket_number": t["ticket_number"],
         "subject": t.get("subject"),
