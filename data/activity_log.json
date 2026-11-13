@@ -1,5 +1,62 @@
 [
   {
+    "ts": "2026-11-13T01:17:48+00:00",
+    "ticket_number": 9628,
+    "subject": "Name: Mueller Michael | Res: 61356 | HOA Membership Extension Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.zeh@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-13T01:17:48+00:00",
+    "ticket_number": 9626,
+    "subject": "Knight Nicole | Signal Inn 11 | Res #: 53293 | Cancellation",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-13T01:17:48+00:00",
+    "ticket_number": 9625,
+    "subject": "GBB1358 - Lynx Lock",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-13T01:17:48+00:00",
+    "ticket_number": 9559,
+    "subject": "Residences Of Siesta Key | Broken balcony fan",
+    "type": "reassigned",
+    "detail": "Reassigned from j.rushton@choosegulfcoast.com to j.delafuente@choosegulfcoast.com",
+    "from": "j.rushton@choosegulfcoast.com",
+    "to": "j.delafuente@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-13T01:17:48+00:00",
+    "ticket_number": 9228,
+    "subject": "PCA - Tropic Treasure",
+    "type": "reassigned",
+    "detail": "Reassigned from c.thayer@choosegulfcoast.com to j.messasierra@choosegulfcoast.com",
+    "from": "c.thayer@choosegulfcoast.com",
+    "to": "j.messasierra@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-13T01:17:48+00:00",
+    "ticket_number": 9147,
+    "subject": "Longboat Dream - Info sheet",
+    "type": "reassigned",
+    "detail": "Reassigned from j.rushton@choosegulfcoast.com to j.messasierra@choosegulfcoast.com",
+    "from": "j.rushton@choosegulfcoast.com",
+    "to": "j.messasierra@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-13T01:17:48+00:00",
+    "ticket_number": 8410,
+    "subject": "YCBR Photo shoot",
+    "type": "reassigned",
+    "detail": "Reassigned from j.rushton@choosegulfcoast.com to b.meyer@choosegulfcoast.com",
+    "from": "j.rushton@choosegulfcoast.com",
+    "to": "b.meyer@choosegulfcoast.com"
+  },
+  {
     "ts": "2026-11-12T20:13:29+00:00",
     "ticket_number": 9624,
     "subject": "5 Star Review Feedback | Res #: 63965| Reymann Marian | Sandalfoot 4B1 | 11/4/2026 - 11/9/2026",
@@ -7823,68 +7880,5 @@
     "detail": "Due date changed from 2026-10-19 15:40:19 to 2026-10-26 15:40:00",
     "from": "2026-10-19 15:40:19",
     "to": "2026-10-26 15:40:00"
-  },
-  {
-    "ts": "2026-10-19T17:37:33+00:00",
-    "ticket_number": 9262,
-    "subject": "The Boat House-No smoke detectors",
-    "type": "reassigned",
-    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to j.delafuente@choosegulfcoast.com",
-    "from": "h.mcnamara@choosegulfcoast.com",
-    "to": "j.delafuente@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-19T17:37:33+00:00",
-    "ticket_number": 9262,
-    "subject": "The Boat House-No smoke detectors",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-16 20:09:23 to 2026-10-20 20:09:00",
-    "from": "2026-10-16 20:09:23",
-    "to": "2026-10-20 20:09:00"
-  },
-  {
-    "ts": "2026-10-19T17:37:33+00:00",
-    "ticket_number": 9248,
-    "subject": "Name: Lawrence Brian | Res: 31718 | Owner Commission Request",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-16 15:48:00 to 2026-10-21 15:48:00",
-    "from": "2026-10-16 15:48:00",
-    "to": "2026-10-21 15:48:00"
-  },
-  {
-    "ts": "2026-10-19T17:37:33+00:00",
-    "ticket_number": 9228,
-    "subject": "PCA - Tropic Treasure",
-    "type": "reassigned",
-    "detail": "Reassigned from d.husak@choosegulfcoast.com to s.soriafrausto@choosegulfcoast.com",
-    "from": "d.husak@choosegulfcoast.com",
-    "to": "s.soriafrausto@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-19T17:37:33+00:00",
-    "ticket_number": 9223,
-    "subject": "PCA - LuvLax",
-    "type": "reassigned",
-    "detail": "Reassigned from j.messasierra@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
-    "from": "j.messasierra@choosegulfcoast.com",
-    "to": "c.thayer@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-19T17:37:33+00:00",
-    "ticket_number": 9217,
-    "subject": "PCA - Breeze By The Sea",
-    "type": "reassigned",
-    "detail": "Reassigned from j.messasierra@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
-    "from": "j.messasierra@choosegulfcoast.com",
-    "to": "c.thayer@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-19T17:37:33+00:00",
-    "ticket_number": 9215,
-    "subject": "PCA - Bali Poolside",
-    "type": "reassigned",
-    "detail": "Reassigned from j.messasierra@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
-    "from": "j.messasierra@choosegulfcoast.com",
-    "to": "c.thayer@choosegulfcoast.com"
   }
 ]

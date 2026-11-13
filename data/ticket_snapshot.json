@@ -1,4 +1,25 @@
 {
+  "9628": {
+    "subject": "Name: Mueller Michael | Res: 61356 | HOA Membership Extension Request",
+    "assigned_to": "b.zeh@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-17 21:40:24",
+    "priority": 1
+  },
+  "9626": {
+    "subject": "Knight Nicole | Signal Inn 11 | Res #: 53293 | Cancellation",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-17 20:35:08",
+    "priority": 1
+  },
+  "9625": {
+    "subject": "GBB1358 - Lynx Lock",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-17 20:26:14",
+    "priority": 1
+  },
   "9624": {
     "subject": "5 Star Review Feedback | Res #: 63965| Reymann Marian | Sandalfoot 4B1 | 11/4/2026 - 11/9/2026",
     "assigned_to": "n.armstrong@choosegulfcoast.com",
@@ -197,7 +218,7 @@
   },
   "9559": {
     "subject": "Residences Of Siesta Key | Broken balcony fan",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-13 22:00:00",
     "priority": 1
@@ -442,7 +463,7 @@
   },
   "9228": {
     "subject": "PCA - Tropic Treasure",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-21 16:51:00",
     "priority": 1
@@ -568,7 +589,7 @@
   },
   "9147": {
     "subject": "Longboat Dream - Info sheet",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-28 16:47:00",
     "priority": 1
@@ -743,7 +764,7 @@
   },
   "8410": {
     "subject": "YCBR Photo shoot",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-13 20:15:00",
     "priority": 5
