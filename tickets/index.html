@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gulf Coast Tickets</title>
+<style>
+  :root {
+    --bg: #f5f7fa; --panel: #ffffff; --text: #1d2733; --muted: #667085; --line: #e3e8ef;
+    --brand: #0b6e8a; --brand-weak: #e3f2f6; --danger: #b42318;
+    --open: #b54708; --open-bg: #fef0c7; --resolved: #067647; --resolved-bg: #d3f8df;
+    --closed: #475467; --closed-bg: #eaecf0;
+    --p1: #667085; --p5: #0b6e8a; --p10: #b54708; --p20: #b42318;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f151c; --panel: #17202a; --text: #e6ebf1; --muted: #98a2b3; --line: #2a3644;
+      --brand: #4cc2e0; --brand-weak: #153540; --danger: #f97066;
+      --open: #fdb022; --open-bg: #3b2a08; --resolved: #47cd89; --resolved-bg: #0e3a24;
+      --closed: #98a2b3; --closed-bg: #232d39;
+      --p1: #98a2b3; --p5: #4cc2e0; --p10: #fdb022; --p20: #f97066;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  header { display: flex; align-items: center; gap: 12px; padding: 12px 20px; background: var(--panel);
+           border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 5; }
+  header h1 { font-size: 17px; margin: 0; flex: 1; }
+  header .who { color: var(--muted); font-size: 12px; }
+  button, select, input { font: inherit; color: inherit; }
+  button { cursor: pointer; border: 1px solid var(--line); background: var(--panel); padding: 6px 12px; border-radius: 6px; }
+  button:hover { border-color: var(--brand); }
+  button.primary { background: var(--brand); border-color: var(--brand); color: #fff; }
+  button:disabled { opacity: .5; cursor: default; }
+  select, input[type=search], input[type=date], input[type=email] {
+    border: 1px solid var(--line); background: var(--panel); padding: 6px 8px; border-radius: 6px; min-width: 0; }
+  main { max-width: 1400px; margin: 0 auto; padding: 16px 20px 40px; }
+  .hidden { display: none !important; }
+
+  /* login */
+  .login { max-width: 380px; margin: 12vh auto; background: var(--panel); border: 1px solid var(--line);
+           border-radius: 10px; padding: 28px; text-align: center; }
+  .login h2 { margin: 0 0 6px; }
+  .login p { color: var(--muted); margin: 0 0 18px; }
+  .login input { width: 100%; margin-bottom: 10px; padding: 9px 10px; }
+  .login button { width: 100%; padding: 9px; }
+  .msg { margin-top: 12px; font-size: 13px; }
+  .msg.err { color: var(--danger); }
+
+  /* filters */
+  .filters { display: grid; grid-template-columns: 2fr repeat(4, 1fr) auto; gap: 8px; margin-bottom: 8px; }
+  .filters.row2 { grid-template-columns: repeat(2, minmax(0,160px)) 1fr; align-items: center; color: var(--muted); }
+  .filters.row2 label { display: flex; gap: 6px; align-items: center; }
+  .summary { color: var(--muted); margin: 8px 0; display: flex; justify-content: space-between; align-items: center; }
+
+  /* table */
+  .tablewrap { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 8px 10px; text-align: left; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  th { font-size: 12px; color: var(--muted); font-weight: 600; user-select: none; position: sticky; top: 0; background: var(--panel); }
+  th.sortable { cursor: pointer; }
+  th.sortable:hover { color: var(--text); }
+  tr.row { cursor: pointer; }
+  tr.row:hover td { background: var(--brand-weak); }
+  td.subject { white-space: normal; min-width: 260px; max-width: 520px; }
+  td.num { color: var(--muted); font-variant-numeric: tabular-nums; }
+  .badge { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 12px; font-weight: 600; }
+  .st-Open { color: var(--open); background: var(--open-bg); }
+  .st-Resolved { color: var(--resolved); background: var(--resolved-bg); }
+  .st-Closed { color: var(--closed); background: var(--closed-bg); }
+  .pr { font-weight: 600; }
+  .pr-1 { color: var(--p1); } .pr-5 { color: var(--p5); } .pr-10 { color: var(--p10); } .pr-20 { color: var(--p20); }
+  .pager { display: flex; gap: 8px; align-items: center; justify-content: flex-end; padding-top: 12px; color: var(--muted); }
+  .empty { padding: 40px; text-align: center; color: var(--muted); }
+
+  /* detail drawer */
+  .overlay { position: fixed; inset: 0; background: rgba(0,0,0,.35); z-index: 9; }
+  .drawer { position: fixed; top: 0; right: 0; bottom: 0; width: min(720px, 100%); background: var(--panel);
+            z-index: 10; box-shadow: -8px 0 30px rgba(0,0,0,.25); overflow-y: auto; padding: 20px 24px 40px; }
+  .drawer h2 { margin: 4px 0 8px; font-size: 18px; }
+  .drawer .close { float: right; }
+  .meta { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 20px; margin: 14px 0; }
+  .meta div span { display: block; font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .03em; }
+  .desc { white-space: pre-wrap; word-break: break-word; background: var(--bg); border: 1px solid var(--line);
+          border-radius: 8px; padding: 12px; max-height: 50vh; overflow-y: auto; }
+  h3 { font-size: 13px; margin: 20px 0 6px; color: var(--muted); text-transform: uppercase; letter-spacing: .03em; }
+  .note { font-size: 12px; color: var(--muted); }
+  @media (max-width: 800px) {
+    .filters { grid-template-columns: 1fr 1fr; }
+    .filters > :first-child { grid-column: 1 / -1; }
+    .filters.row2 { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Gulf Coast Tickets <span class="note">· archive from Desk365</span></h1>
+  <span class="who" id="who"></span>
+  <button id="signOut" class="hidden">Sign out</button>
+</header>
+
+<main>
+  <!-- sign-in -->
+  <section id="login" class="login hidden">
+    <h2>Sign in</h2>
+    <p>Enter your company email and we'll send you a one-time sign-in link.</p>
+    <form id="loginForm">
+      <input type="email" id="email" placeholder="you@choosegulfcoast.com" required autocomplete="email">
+      <button class="primary" id="sendLink" type="submit">Email me a link</button>
+    </form>
+    <div class="msg" id="loginMsg"></div>
+  </section>
+
+  <!-- not authorised -->
+  <section id="denied" class="login hidden">
+    <h2>No access yet</h2>
+    <p id="deniedText">Your email isn't on the staff list. Ask an admin to add you.</p>
+  </section>
+
+  <!-- app -->
+  <section id="app" class="hidden">
+    <div class="filters">
+      <input type="search" id="q" placeholder="Search subject, contact, or ticket #…">
+      <select id="fStatus"><option value="">All statuses</option></select>
+      <select id="fCategory"><option value="">All categories</option></select>
+      <select id="fAssigned"><option value="">All assignees</option></select>
+      <select id="fPriority"><option value="">All priorities</option>
+        <option value="20">Urgent</option><option value="10">High</option><option value="5">Medium</option><option value="1">Low</option></select>
+      <button id="reset">Reset</button>
+    </div>
+    <div class="filters row2">
+      <label>Created from <input type="date" id="fFrom"></label>
+      <label>to <input type="date" id="fTo"></label>
+      <span></span>
+    </div>
+    <div class="summary"><span id="count">Loading…</span><span class="note">Times are shown as stored in Desk365 (account time zone).</span></div>
+    <div class="tablewrap">
+      <table>
+        <thead><tr>
+          <th class="sortable" data-sort="ticket_number">#</th>
+          <th>Subject</th>
+          <th class="sortable" data-sort="status">Status</th>
+          <th class="sortable" data-sort="priority">Priority</th>
+          <th class="sortable" data-sort="assigned_to">Assigned to</th>
+          <th class="sortable" data-sort="category">Category</th>
+          <th>Contact</th>
+          <th class="sortable" data-sort="created_on">Created</th>
+          <th class="sortable" data-sort="updated_on">Updated</th>
+        </tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+      <div id="empty" class="empty hidden">No tickets match these filters.</div>
+    </div>
+    <div class="pager">
+      <button id="prev">‹ Prev</button><span id="pageInfo"></span><button id="next">Next ›</button>
+    </div>
+  </section>
+</main>
+
+<div id="overlay" class="overlay hidden"></div>
+<aside id="drawer" class="drawer hidden" aria-live="polite"></aside>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<script>
+// Public by design: the anon key only lets people sign in; row-level security decides what they can read.
+const SUPABASE_URL = 'https://sfxaaxdkfmddisnntcty.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNmeGFheGRrZm1kZGlzbm50Y3R5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTQ1ODc0NjYsImV4cCI6MjExMDE2MzQ2Nn0.SsjahDDBQFHJ9Ek8pRLPfutoi0mZmj5Tkyxr-DDvjOs';
+const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+const PAGE_SIZE = 50;
+const LIST_COLS = 'ticket_number,subject,status,priority,assigned_to,category,contact_name,contact_email,created_on,updated_on';
+const DETAIL_COLS = 'ticket_number,subject,status,priority,type,source,assigned_to,group_name,category,subcategory,' +
+  'contact_name,contact_email,company_name,form_name,sla,completed_within_sla,conversation_count,created_on,updated_on,' +
+  'due_date,first_response_time,resolved_on,closed_on,watchers,share_to,custom_fields,description_text';
+const PRIORITY = { 1: 'Low', 5: 'Medium', 10: 'High', 20: 'Urgent' };
+
+const $ = id => document.getElementById(id);
+const state = { page: 0, sort: 'ticket_number', asc: false, token: 0, staff: null, optionsLoaded: false };
+
+function esc(s) { const d = document.createElement('div'); d.textContent = s == null ? '' : String(s); return d.innerHTML; }
+function fmt(ts) { return ts ? String(ts).replace('T', ' ').slice(0, 16) : '—'; }
+function show(id, on) { $(id).classList.toggle('hidden', !on); }
+function name(email) { return email ? email.split('@')[0] : '—'; }
+
+/* ---------- auth ---------- */
+$('loginForm').addEventListener('submit', async e => {
+  e.preventDefault();
+  const email = $('email').value.trim().toLowerCase();
+  const msg = $('loginMsg'); msg.className = 'msg'; msg.textContent = 'Sending…';
+  $('sendLink').disabled = true;
+  const { error } = await sb.auth.signInWithOtp({
+    email, options: { emailRedirectTo: location.origin + location.pathname }
+  });
+  $('sendLink').disabled = false;
+  if (error) { msg.className = 'msg err'; msg.textContent = error.message; }
+  else msg.textContent = 'Check your email and click the link. You can close this tab.';
+});
+$('signOut').addEventListener('click', () => sb.auth.signOut());
+
+async function route(session) {
+  show('login', false); show('denied', false); show('app', false); show('signOut', false);
+  $('who').textContent = '';
+  if (!session) { show('login', true); return; }
+  $('who').textContent = session.user.email;
+  show('signOut', true);
+  const email = (session.user.email || '').toLowerCase();
+  const { data, error } = await sb.from('staff').select('email,full_name,is_admin').eq('email', email).maybeSingle();
+  if (error || !data) { $('deniedText').textContent = `${email} isn't on the staff list. Ask an admin to add you.`; show('denied', true); return; }
+  state.staff = data;
+  $('who').textContent = `${data.full_name || email}${data.is_admin ? ' · admin' : ''}`;
+  show('app', true);
+  if (!state.optionsLoaded) await loadOptions();
+  openFromHash();
+  loadTickets();
+}
+sb.auth.onAuthStateChange((_evt, session) => { setTimeout(() => route(session), 0); });
+
+/* ---------- filters ---------- */
+async function loadOptions() {
+  const { data, error } = await sb.rpc('ticket_filter_options');
+  if (error || !data) return;
+  const fill = (id, vals) => vals.forEach(v => { const o = document.createElement('option'); o.value = v; o.textContent = id === 'fAssigned' ? name(v) : v; $(id).appendChild(o); });
+  fill('fStatus', data.status); fill('fCategory', data.category); fill('fAssigned', data.assigned);
+  state.optionsLoaded = true;
+}
+function resetPage() { state.page = 0; loadTickets(); }
+['fStatus', 'fCategory', 'fAssigned', 'fPriority', 'fFrom', 'fTo'].forEach(id => $(id).addEventListener('change', resetPage));
+let searchTimer; $('q').addEventListener('input', () => { clearTimeout(searchTimer); searchTimer = setTimeout(resetPage, 300); });
+$('reset').addEventListener('click', () => {
+  ['q', 'fStatus', 'fCategory', 'fAssigned', 'fPriority', 'fFrom', 'fTo'].forEach(id => $(id).value = '');
+  resetPage();
+});
+document.querySelectorAll('th.sortable').forEach(th => th.addEventListener('click', () => {
+  const key = th.dataset.sort;
+  if (state.sort === key) state.asc = !state.asc; else { state.sort = key; state.asc = key === 'assigned_to' || key === 'category'; }
+  resetPage();
+}));
+$('prev').addEventListener('click', () => { if (state.page > 0) { state.page--; loadTickets(); } });
+$('next').addEventListener('click', () => { state.page++; loadTickets(); });
+
+/* ---------- list ---------- */
+async function loadTickets() {
+  const token = ++state.token;
+  $('count').textContent = 'Loading…';
+  let q = sb.from('desk365_tickets').select(LIST_COLS, { count: 'exact' });
+  if ($('fStatus').value) q = q.eq('status', $('fStatus').value);
+  if ($('fCategory').value) q = q.eq('category', $('fCategory').value);
+  if ($('fAssigned').value) q = q.eq('assigned_to', $('fAssigned').value);
+  if ($('fPriority').value) q = q.eq('priority', Number($('fPriority').value));
+  if ($('fFrom').value) q = q.gte('created_on', $('fFrom').value + 'T00:00:00');
+  if ($('fTo').value) q = q.lte('created_on', $('fTo').value + 'T23:59:59');
+  const term = $('q').value.trim().replace(/[*,()%\\]/g, ' ').trim();
+  if (term) {
+    if (/^#?\d+$/.test(term)) q = q.eq('ticket_number', Number(term.replace('#', '')));
+    else q = q.or(`subject.ilike.*${term}*,contact_name.ilike.*${term}*,contact_email.ilike.*${term}*`);
+  }
+  q = q.order(state.sort, { ascending: state.asc, nullsFirst: false });
+  if (state.sort !== 'ticket_number') q = q.order('ticket_number', { ascending: false });
+  const from = state.page * PAGE_SIZE;
+  const { data, count, error } = await q.range(from, from + PAGE_SIZE - 1);
+  if (token !== state.token) return;           // a newer request superseded this one
+  if (error) { $('count').textContent = 'Error: ' + error.message; return; }
+  renderRows(data, count, from);
+}
+
+function renderRows(rows, count, from) {
+  $('rows').innerHTML = rows.map(t => `
+    <tr class="row" data-n="${t.ticket_number}">
+      <td class="num">${t.ticket_number}</td>
+      <td class="subject">${esc(t.subject) || '<span class="note">(no subject)</span>'}</td>
+      <td><span class="badge st-${esc(t.status)}">${esc(t.status)}</span></td>
+      <td><span class="pr pr-${t.priority}">${esc(PRIORITY[t.priority] || t.priority || '—')}</span></td>
+      <td>${esc(name(t.assigned_to))}</td>
+      <td>${esc(t.category) || '—'}</td>
+      <td>${esc(t.contact_name || name(t.contact_email))}</td>
+      <td class="num">${fmt(t.created_on)}</td>
+      <td class="num">${fmt(t.updated_on)}</td>
+    </tr>`).join('');
+  show('empty', rows.length === 0);
+  const to = from + rows.length;
+  $('count').textContent = count === 0 ? '0 tickets' : `${from + 1}–${to} of ${count.toLocaleString()} tickets`;
+  $('pageInfo').textContent = `Page ${state.page + 1} of ${Math.max(1, Math.ceil(count / PAGE_SIZE))}`;
+  $('prev').disabled = state.page === 0;
+  $('next').disabled = to >= count;
+}
+$('rows').addEventListener('click', e => {
+  const tr = e.target.closest('tr.row'); if (tr) openTicket(Number(tr.dataset.n));
+});
+
+/* ---------- detail ---------- */
+async function openTicket(n) {
+  history.replaceState(null, '', '#' + n);
+  $('drawer').innerHTML = '<p class="note">Loading…</p>';
+  show('overlay', true); show('drawer', true);
+  const { data: t, error } = await sb.from('desk365_tickets').select(DETAIL_COLS).eq('ticket_number', n).maybeSingle();
+  if (error || !t) { $('drawer').innerHTML = `<button class="close" id="closeBtn">Close</button><p>${esc(error ? error.message : 'Ticket not found or not visible to you.')}</p>`; $('closeBtn').onclick = closeTicket; return; }
+  const meta = (label, val) => `<div><span>${label}</span>${val == null || val === '' ? '—' : esc(val)}</div>`;
+  const custom = Object.entries(t.custom_fields || {}).filter(([k, v]) => v !== false)
+    .map(([k, v]) => `<div><span>${esc(k)}</span>${esc(typeof v === 'object' ? JSON.stringify(v) : v)}</div>`).join('');
+  $('drawer').innerHTML = `
+    <button class="close" id="closeBtn">Close</button>
+    <div class="note">Ticket #${t.ticket_number}</div>
+    <h2>${esc(t.subject) || '(no subject)'}</h2>
+    <span class="badge st-${esc(t.status)}">${esc(t.status)}</span>
+    <span class="pr pr-${t.priority}"> ${esc(PRIORITY[t.priority] || '')}</span>
+    <div class="meta">
+      ${meta('Assigned to', t.assigned_to)}${meta('Group', t.group_name)}
+      ${meta('Category', [t.category, t.subcategory].filter(Boolean).join(' › '))}${meta('Type', t.type)}
+      ${meta('Contact', [t.contact_name, t.contact_email].filter(Boolean).join(' · '))}${meta('Company', t.company_name)}
+      ${meta('Created', fmt(t.created_on))}${meta('Updated', fmt(t.updated_on))}
+      ${meta('First response', fmt(t.first_response_time))}${meta('Due', fmt(t.due_date))}
+      ${meta('Resolved', fmt(t.resolved_on))}${meta('Closed', fmt(t.closed_on))}
+      ${meta('Form', t.form_name)}${meta('Replies / notes', t.conversation_count)}
+      ${meta('Watchers', (t.watchers || []).join(', '))}${meta('Shared with', (t.share_to || []).join(', '))}
+    </div>
+    <h3>Description</h3>
+    <div class="desc">${esc(t.description_text) || '<span class="note">(empty)</span>'}</div>
+    ${custom ? `<h3>Custom fields</h3><div class="meta">${custom}</div>` : ''}
+    <p class="note">This is the archived copy from Desk365. Replies, notes and attachments aren't in the archive yet.</p>`;
+  $('closeBtn').onclick = closeTicket;
+}
+function closeTicket() { show('overlay', false); show('drawer', false); history.replaceState(null, '', location.pathname); }
+function openFromHash() { const m = location.hash.match(/^#(\d+)$/); if (m) openTicket(Number(m[1])); }
+$('overlay').addEventListener('click', closeTicket);
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeTicket(); });
+</script>
+</body>
+</html>
