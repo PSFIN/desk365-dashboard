@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-11-13T08:21:52+00:00",
+    "ticket_number": 9629,
+    "subject": "Weisberg Suzanne/Sandalfoot 2B1/Res #: 66077/Cancellation Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-11-13T01:17:48+00:00",
     "ticket_number": 9628,
     "subject": "Name: Mueller Michael | Res: 61356 | HOA Membership Extension Request",
@@ -7871,14 +7878,5 @@
     "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to j.delafuente@choosegulfcoast.com",
     "from": "h.mcnamara@choosegulfcoast.com",
     "to": "j.delafuente@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-19T17:37:33+00:00",
-    "ticket_number": 9273,
-    "subject": "Vehicle wrap quotes",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-19 15:40:19 to 2026-10-26 15:40:00",
-    "from": "2026-10-19 15:40:19",
-    "to": "2026-10-26 15:40:00"
   }
 ]
