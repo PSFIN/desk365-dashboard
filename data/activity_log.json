@@ -1,5 +1,69 @@
 [
   {
+    "ts": "2026-11-13T22:19:06+00:00",
+    "ticket_number": 9635,
+    "subject": "Irynas Dreams-no cleaning",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.messasierra@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-13T22:19:06+00:00",
+    "ticket_number": 9634,
+    "subject": "Smoke Detectors- cranes galore",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-13T22:19:06+00:00",
+    "ticket_number": 9619,
+    "subject": "Rod And Reel | Patio Furniture",
+    "type": "reassigned",
+    "detail": "Reassigned from j.delafuente@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
+    "from": "j.delafuente@choosegulfcoast.com",
+    "to": "h.mcnamara@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-13T22:19:06+00:00",
+    "ticket_number": 9607,
+    "subject": "Good tideings - Listing photos",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-16 17:17:54 to 2026-11-17 17:17:00",
+    "from": "2026-11-16 17:17:54",
+    "to": "2026-11-17 17:17:00"
+  },
+  {
+    "ts": "2026-11-13T22:19:06+00:00",
+    "ticket_number": 9603,
+    "subject": "Sly and Salty - Photos",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-16 14:41:09 to 2026-11-17 14:41:00",
+    "from": "2026-11-16 14:41:09",
+    "to": "2026-11-17 14:41:00"
+  },
+  {
+    "ts": "2026-11-13T22:19:06+00:00",
+    "ticket_number": 9569,
+    "subject": "My Great Escape-Confirm and continue 1 water per week",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-13 16:21:00 to 2026-11-16 16:21:00",
+    "from": "2026-11-13 16:21:00",
+    "to": "2026-11-16 16:21:00"
+  },
+  {
+    "ts": "2026-11-13T22:19:06+00:00",
+    "ticket_number": 9628,
+    "subject": "Name: Mueller Michael | Res: 61356 | HOA Membership Extension Request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-13T22:19:06+00:00",
+    "ticket_number": 9626,
+    "subject": "Knight Nicole | Signal Inn 11 | Res #: 53293 | Cancellation",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-11-13T16:37:51+00:00",
     "ticket_number": 9633,
     "subject": "YCBR Descriptions",
@@ -7816,67 +7880,5 @@
     "detail": "Due date changed from 2026-10-19 22:00:00 to 2026-10-22 22:00:00",
     "from": "2026-10-19 22:00:00",
     "to": "2026-10-22 22:00:00"
-  },
-  {
-    "ts": "2026-10-20T00:51:18+00:00",
-    "ticket_number": 9307,
-    "subject": "Barry Nial |  Res #: 63513 | Returning Guest | Gulf & Bay Bayside - 1373",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-19T21:54:19+00:00",
-    "ticket_number": 9321,
-    "subject": "Hibiscus Haven-Block",
-    "type": "created",
-    "detail": "Created \u2014 assigned to a.guarin@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-19T21:54:19+00:00",
-    "ticket_number": 9320,
-    "subject": "4 Star Review Feedback | Res #: 64694 | Moore Nicholas | Sandalfoot 1A3 | 10/14/2026 - 10/18/2026",
-    "type": "created",
-    "detail": "Created \u2014 assigned to n.armstrong@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-19T21:54:19+00:00",
-    "ticket_number": 9319,
-    "subject": "5 Star Review Feedback | Res #: 60210 | Kenney Patrick | Signal Inn - Unit 06 | 10/9/2026 - 10/16/2026",
-    "type": "created",
-    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-19T21:54:19+00:00",
-    "ticket_number": 9318,
-    "subject": "GBB1318 Fan in master",
-    "type": "created",
-    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-19T21:54:19+00:00",
-    "ticket_number": 9310,
-    "subject": "Coastal Oasis | Cracked kitchen floor",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-21 22:00:00 to 2026-10-22 22:00:00",
-    "from": "2026-10-21 22:00:00",
-    "to": "2026-10-22 22:00:00"
-  },
-  {
-    "ts": "2026-10-19T21:54:19+00:00",
-    "ticket_number": 9260,
-    "subject": "Email Signature",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-19 19:43:00 to 2026-10-23 19:43:00",
-    "from": "2026-10-19 19:43:00",
-    "to": "2026-10-23 19:43:00"
-  },
-  {
-    "ts": "2026-10-19T21:54:19+00:00",
-    "ticket_number": 9215,
-    "subject": "PCA - Bali Poolside",
-    "type": "reassigned",
-    "detail": "Reassigned from c.thayer@choosegulfcoast.com to j.messasierra@choosegulfcoast.com",
-    "from": "c.thayer@choosegulfcoast.com",
-    "to": "j.messasierra@choosegulfcoast.com"
   }
 ]

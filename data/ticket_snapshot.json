@@ -1,4 +1,18 @@
 {
+  "9635": {
+    "subject": "Irynas Dreams-no cleaning",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-18 19:12:30",
+    "priority": 10
+  },
+  "9634": {
+    "subject": "Smoke Detectors- cranes galore",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-18 18:15:33",
+    "priority": 1
+  },
   "9633": {
     "subject": "YCBR Descriptions",
     "assigned_to": "b.meyer@choosegulfcoast.com",
@@ -32,20 +46,6 @@
     "assigned_to": "h.nomura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-17 22:00:00",
-    "priority": 1
-  },
-  "9628": {
-    "subject": "Name: Mueller Michael | Res: 61356 | HOA Membership Extension Request",
-    "assigned_to": "b.zeh@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-17 21:40:24",
-    "priority": 1
-  },
-  "9626": {
-    "subject": "Knight Nicole | Signal Inn 11 | Res #: 53293 | Cancellation",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-17 20:35:08",
     "priority": 1
   },
   "9625": {
@@ -92,7 +92,7 @@
   },
   "9619": {
     "subject": "Rod And Reel | Patio Furniture",
-    "assigned_to": "j.delafuente@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-17 16:26:07",
     "priority": 1
@@ -136,7 +136,7 @@
     "subject": "Good tideings - Listing photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-16 17:17:54",
+    "due_date": "2026-11-17 17:17:00",
     "priority": 5
   },
   "9605": {
@@ -150,7 +150,7 @@
     "subject": "Sly and Salty - Photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-16 14:41:09",
+    "due_date": "2026-11-17 14:41:00",
     "priority": 1
   },
   "9601": {
@@ -220,7 +220,7 @@
     "subject": "My Great Escape-Confirm and continue 1 water per week",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-13 16:21:00",
+    "due_date": "2026-11-16 16:21:00",
     "priority": 1
   },
   "9560": {
