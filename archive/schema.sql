@@ -48,3 +48,7 @@ create index if not exists desk365_tickets_category_idx    on public.desk365_tic
 
 alter table public.desk365_tickets enable row level security;
 -- (deliberately no policies: anon and authenticated roles get no access)
+
+-- Only the server-side service_role (our loader) may use the table. Needed when the project was
+-- created with "Automatically expose new tables" turned off; harmless otherwise.
+grant all on public.desk365_tickets to service_role;
