@@ -1,4 +1,32 @@
 {
+  "9633": {
+    "subject": "YCBR Descriptions",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-18 15:09:08",
+    "priority": 10
+  },
+  "9632": {
+    "subject": "Smoke Detectors Sunnyside Up",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-18 14:58:36",
+    "priority": 1
+  },
+  "9631": {
+    "subject": "Smoke Detectors- Coastal Links",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-18 14:56:44",
+    "priority": 1
+  },
+  "9630": {
+    "subject": "Rent rev",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-16 18:00:00",
+    "priority": 20
+  },
   "9629": {
     "subject": "Weisberg Suzanne/Sandalfoot 2B1/Res #: 66077/Cancellation Request",
     "assigned_to": "h.nomura@choosegulfcoast.com",
@@ -64,7 +92,7 @@
   },
   "9619": {
     "subject": "Rod And Reel | Patio Furniture",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-17 16:26:07",
     "priority": 1
@@ -78,7 +106,7 @@
   },
   "9616": {
     "subject": "Fireside Cottage_thermostat and fans",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-17 14:04:18",
     "priority": 10
@@ -111,13 +139,6 @@
     "due_date": "2026-11-16 17:17:54",
     "priority": 5
   },
-  "9606": {
-    "subject": "Good tideings - Lynx lock install and TV",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-16 17:17:03",
-    "priority": 1
-  },
   "9605": {
     "subject": "Name: Fred Downey | Res: 62693 | Cancelled 50% Retained - OTA",
     "assigned_to": "a.ytac@choosegulfcoast.com",
@@ -137,13 +158,6 @@
     "assigned_to": "b.evans@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-16 14:31:10",
-    "priority": 10
-  },
-  "9596": {
-    "subject": "Fore Season-mail box key",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-13 20:32:42",
     "priority": 10
   },
   "9595": {
@@ -193,13 +207,6 @@
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-20 20:43:00",
-    "priority": 1
-  },
-  "9577": {
-    "subject": "Name: Kilthau Gerald & Jean | Res: 62255 | Entry Light & Lanai Screen Damage",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-12 19:55:30",
     "priority": 1
   },
   "9574": {
@@ -265,20 +272,6 @@
     "due_date": "2026-11-14 22:00:00",
     "priority": 1
   },
-  "9544": {
-    "subject": "Liu Fang/ Res #: 62238/Sandalfoot 2B3/Guest Feedback",
-    "assigned_to": "n.armstrong@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-10 21:24:23",
-    "priority": 1
-  },
-  "9539": {
-    "subject": "Statement Correction / SI Unit 13",
-    "assigned_to": "a.ytac@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-10 14:08:45",
-    "priority": 10
-  },
   "9536": {
     "subject": "5 Star Review Feedback | Res #: 49065 | Godshalk Lori | Breakers West C3 | 10/24/2026 - 10/29/2026",
     "assigned_to": "l.costa@choosegulfcoast.com",
@@ -290,14 +283,14 @@
     "subject": "Fort Myers - SPLASH DECISION - Onboarding Photo Shoot",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-13 19:11:00",
+    "due_date": "2026-11-16 19:11:00",
     "priority": 20
   },
   "9508": {
     "subject": "GBB1344 - New photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-13 14:34:00",
+    "due_date": "2026-11-16 14:34:00",
     "priority": 1
   },
   "9500": {
@@ -397,13 +390,6 @@
     "status": "Open",
     "due_date": "2026-10-26 19:24:38",
     "priority": 10
-  },
-  "9363": {
-    "subject": "Approach shot - Lynx lock",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-13 23:00:00",
-    "priority": 1
   },
   "9362": {
     "subject": "Manatee/ Sarasota pool report",
@@ -540,7 +526,7 @@
   },
   "9216": {
     "subject": "PCA - Beach Breeze",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-13 16:42:00",
     "priority": 1
@@ -773,7 +759,7 @@
     "subject": "YCBR Photo shoot",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-13 20:15:00",
+    "due_date": "2026-11-30 20:15:00",
     "priority": 5
   },
   "8372": {
