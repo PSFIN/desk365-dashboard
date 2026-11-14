@@ -1,5 +1,19 @@
 [
   {
+    "ts": "2026-11-14T16:17:02+00:00",
+    "ticket_number": 9639,
+    "subject": "request for cord cover for floor and tape measure",
+    "type": "created",
+    "detail": "Created \u2014 assigned to t.frost@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-14T16:17:02+00:00",
+    "ticket_number": 9638,
+    "subject": "locked out of Rippling",
+    "type": "created",
+    "detail": "Created \u2014 assigned to t.frost@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-11-14T02:33:35+00:00",
     "ticket_number": 9637,
     "subject": "BAUMANN Allison |  Res #: 67079 | Unit: YCBR 04 - 2 Bed / 1 Bath | Cancellation Request",
@@ -7866,19 +7880,5 @@
     "subject": "5 Star Review Feedback | Res #59332 | Torretto Jeff | Signal Inn - Unit 12 | 9/25/2026-9/29/2026",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-20T15:30:41+00:00",
-    "ticket_number": 8586,
-    "subject": "Boardwalk Shell station",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-20T00:51:18+00:00",
-    "ticket_number": 9323,
-    "subject": "5 Star Review Feedback | Res #: 51536 | Maddox Dennis | Signal Inn - Unit 07 | 10/11/2026 - 10/16/2026",
-    "type": "created",
-    "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
   }
 ]
