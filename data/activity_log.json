@@ -1,5 +1,30 @@
 [
   {
+    "ts": "2026-11-14T02:33:35+00:00",
+    "ticket_number": 9637,
+    "subject": "BAUMANN Allison |  Res #: 67079 | Unit: YCBR 04 - 2 Bed / 1 Bath | Cancellation Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-14T02:33:35+00:00",
+    "ticket_number": 9559,
+    "subject": "Residences Of Siesta Key | Broken balcony fan",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-13 22:00:00 to 2026-11-16 22:00:00",
+    "from": "2026-11-13 22:00:00",
+    "to": "2026-11-16 22:00:00"
+  },
+  {
+    "ts": "2026-11-14T02:33:35+00:00",
+    "ticket_number": 9547,
+    "subject": "GBB 1241 | Furniture needed cleaning",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-14 22:00:00 to 2026-11-16 22:00:00",
+    "from": "2026-11-14 22:00:00",
+    "to": "2026-11-16 22:00:00"
+  },
+  {
     "ts": "2026-11-13T22:19:06+00:00",
     "ticket_number": 9635,
     "subject": "Irynas Dreams-no cleaning",
@@ -7855,30 +7880,5 @@
     "subject": "5 Star Review Feedback | Res #: 51536 | Maddox Dennis | Signal Inn - Unit 07 | 10/11/2026 - 10/16/2026",
     "type": "created",
     "detail": "Created \u2014 assigned to n.ventura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-20T00:51:18+00:00",
-    "ticket_number": 9322,
-    "subject": "1 Star Review Feedback | Res #: 53101 | Snyder Daniel | Compass Point #163 | 10/10/2026 - 10/17/2026",
-    "type": "created",
-    "detail": "Created \u2014 assigned to l.costa@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-20T00:51:18+00:00",
-    "ticket_number": 9298,
-    "subject": "Cancellation Request for: Res #: 65003 in Signal Inn Unit 18 due to low rate",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-16 22:00:00 to 2026-10-23 22:00:00",
-    "from": "2026-10-16 22:00:00",
-    "to": "2026-10-23 22:00:00"
-  },
-  {
-    "ts": "2026-10-20T00:51:18+00:00",
-    "ticket_number": 9201,
-    "subject": "Nicodemus Kathy | Ocean Eyes |  Res #: 57164 | Blinds stuck",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-19 22:00:00 to 2026-10-22 22:00:00",
-    "from": "2026-10-19 22:00:00",
-    "to": "2026-10-22 22:00:00"
   }
 ]
