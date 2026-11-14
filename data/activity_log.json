@@ -1,5 +1,87 @@
 [
   {
+    "ts": "2026-11-14T20:50:51+00:00",
+    "ticket_number": 9640,
+    "subject": "Guest Name: Brandner Sue | Res #: 65917 | Unit: YCBR 24B - 2 Bed / 2 Bath | Cancellation request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-14T20:50:51+00:00",
+    "ticket_number": 9632,
+    "subject": "Smoke Detectors Sunnyside Up",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-18 14:58:36 to 2026-11-17 14:58:00",
+    "from": "2026-11-18 14:58:36",
+    "to": "2026-11-17 14:58:00"
+  },
+  {
+    "ts": "2026-11-14T20:50:51+00:00",
+    "ticket_number": 9591,
+    "subject": "Chang Christina | Res #: 64927 | Unit: Beach House Residences Unit 1 | Guest Feedback",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-13 16:49:10 to 2026-11-16 16:49:00",
+    "from": "2026-11-13 16:49:10",
+    "to": "2026-11-16 16:49:00"
+  },
+  {
+    "ts": "2026-11-14T20:50:51+00:00",
+    "ticket_number": 9445,
+    "subject": "Ospreys Nest | Cracked toilet bowl",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-10 19:57:00 to 2026-11-16 19:57:00",
+    "from": "2026-11-10 19:57:00",
+    "to": "2026-11-16 19:57:00"
+  },
+  {
+    "ts": "2026-11-14T20:50:51+00:00",
+    "ticket_number": 9403,
+    "subject": "Sun Seeker | Guest requests",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-13 19:40:00 to 2026-11-16 19:40:00",
+    "from": "2026-11-13 19:40:00",
+    "to": "2026-11-16 19:40:00"
+  },
+  {
+    "ts": "2026-11-14T20:50:51+00:00",
+    "ticket_number": 9184,
+    "subject": "Kenney Patrick |   Res#: 60210 | Signal Inn - Unit 06 | Damaged Window Shade",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-06 23:00:00 to 2026-11-16 23:00:00",
+    "from": "2026-11-06 23:00:00",
+    "to": "2026-11-16 23:00:00"
+  },
+  {
+    "ts": "2026-11-14T20:50:51+00:00",
+    "ticket_number": 8037,
+    "subject": "Qualify for ARDI?",
+    "type": "reassigned",
+    "detail": "Reassigned from j.rushton@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
+    "from": "j.rushton@choosegulfcoast.com",
+    "to": "c.thayer@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-14T20:50:51+00:00",
+    "ticket_number": 9616,
+    "subject": "Fireside Cottage_thermostat and fans",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-14T20:50:51+00:00",
+    "ticket_number": 9547,
+    "subject": "GBB 1241 | Furniture needed cleaning",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-14T20:50:51+00:00",
+    "ticket_number": 9476,
+    "subject": "fire extinguisher order - 15 for office rotation",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-11-14T16:17:02+00:00",
     "ticket_number": 9639,
     "subject": "request for cord cover for floor and tape measure",
@@ -7804,81 +7886,5 @@
     "detail": "Due date changed from 2026-10-20 15:58:00 to 2026-10-21 15:58:00",
     "from": "2026-10-20 15:58:00",
     "to": "2026-10-21 15:58:00"
-  },
-  {
-    "ts": "2026-10-20T15:30:41+00:00",
-    "ticket_number": 8618,
-    "subject": "PCA - Fishtail",
-    "type": "reassigned",
-    "detail": "Reassigned from d.husak@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
-    "from": "d.husak@choosegulfcoast.com",
-    "to": "c.thayer@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-20T15:30:41+00:00",
-    "ticket_number": 8562,
-    "subject": "camera for signal from Red1",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-20 16:07:00 to 2026-10-27 16:07:00",
-    "from": "2026-10-20 16:07:00",
-    "to": "2026-10-27 16:07:00"
-  },
-  {
-    "ts": "2026-10-20T15:30:41+00:00",
-    "ticket_number": 8332,
-    "subject": "PCA for Charlotte's Dream Due Date: 9/15/2026",
-    "type": "reassigned",
-    "detail": "Reassigned from d.husak@choosegulfcoast.com to c.thayer@choosegulfcoast.com",
-    "from": "d.husak@choosegulfcoast.com",
-    "to": "c.thayer@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-20T15:30:41+00:00",
-    "ticket_number": 9319,
-    "subject": "5 Star Review Feedback | Res #: 60210 | Kenney Patrick | Signal Inn - Unit 06 | 10/9/2026 - 10/16/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-20T15:30:41+00:00",
-    "ticket_number": 9284,
-    "subject": "1 Star Review Feedback | Res #: 58458 | Blackburn Kathleen | Signal Inn - Unit 19 | 10/9/2026 - 10/12/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-20T15:30:41+00:00",
-    "ticket_number": 9266,
-    "subject": "GBB1365 Balance",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-20T15:30:41+00:00",
-    "ticket_number": 9265,
-    "subject": "GBB1350 Balance",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-20T15:30:41+00:00",
-    "ticket_number": 9211,
-    "subject": "5 Star Review Feedback | Res #: 60705 | Jane Valenzia | O6ERS | 09/26/2026 - 10/05/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-20T15:30:41+00:00",
-    "ticket_number": 9113,
-    "subject": "Name: Anstruther Susan | Res: 63854 | Cancelled 50% Retained - OTA",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-20T15:30:41+00:00",
-    "ticket_number": 9004,
-    "subject": "5 Star Review Feedback | Res #59332 | Torretto Jeff | Signal Inn - Unit 12 | 9/25/2026-9/29/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
 ]

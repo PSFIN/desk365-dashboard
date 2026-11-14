@@ -1,4 +1,11 @@
 {
+  "9640": {
+    "subject": "Guest Name: Brandner Sue | Res #: 65917 | Unit: YCBR 24B - 2 Bed / 2 Bath | Cancellation request",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-18 22:00:00",
+    "priority": 1
+  },
   "9639": {
     "subject": "request for cord cover for floor and tape measure",
     "assigned_to": "t.frost@choosegulfcoast.com",
@@ -45,7 +52,7 @@
     "subject": "Smoke Detectors Sunnyside Up",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-18 14:58:36",
+    "due_date": "2026-11-17 14:58:00",
     "priority": 1
   },
   "9631": {
@@ -125,13 +132,6 @@
     "due_date": "2026-11-17 15:14:52",
     "priority": 1
   },
-  "9616": {
-    "subject": "Fireside Cottage_thermostat and fans",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-17 14:04:18",
-    "priority": 10
-  },
   "9612": {
     "subject": "Sun Dappled-remove lynx lock",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
@@ -206,7 +206,7 @@
     "subject": "Chang Christina | Res #: 64927 | Unit: Beach House Residences Unit 1 | Guest Feedback",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-13 16:49:10",
+    "due_date": "2026-11-16 16:49:00",
     "priority": 1
   },
   "9590": {
@@ -286,13 +286,6 @@
     "due_date": "2026-11-11 22:00:00",
     "priority": 1
   },
-  "9547": {
-    "subject": "GBB 1241 | Furniture needed cleaning",
-    "assigned_to": "j.delafuente@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-16 22:00:00",
-    "priority": 1
-  },
   "9536": {
     "subject": "5 Star Review Feedback | Res #: 49065 | Godshalk Lori | Breakers West C3 | 10/24/2026 - 10/29/2026",
     "assigned_to": "l.costa@choosegulfcoast.com",
@@ -342,13 +335,6 @@
     "due_date": "2026-12-01 19:19:00",
     "priority": 10
   },
-  "9476": {
-    "subject": "fire extinguisher order - 15 for office rotation",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-13 16:37:00",
-    "priority": 1
-  },
   "9471": {
     "subject": "4 Star Review Feedback | Res #: 59381 | Jenette Van den Heerik | Turtle House | 10/23/2026 - 10/28/2026",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
@@ -367,7 +353,7 @@
     "subject": "Ospreys Nest | Cracked toilet bowl",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-10 19:57:00",
+    "due_date": "2026-11-16 19:57:00",
     "priority": 1
   },
   "9438": {
@@ -388,7 +374,7 @@
     "subject": "Sun Seeker | Guest requests",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-13 19:40:00",
+    "due_date": "2026-11-16 19:40:00",
     "priority": 1
   },
   "9374": {
@@ -584,7 +570,7 @@
     "subject": "Kenney Patrick |   Res#: 60210 | Signal Inn - Unit 06 | Damaged Window Shade",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-06 23:00:00",
+    "due_date": "2026-11-16 23:00:00",
     "priority": 1
   },
   "9175": {
@@ -820,7 +806,7 @@
   },
   "8037": {
     "subject": "Qualify for ARDI?",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-30 23:00:00",
     "priority": 10
