@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-11-15T14:53:19+00:00",
+    "ticket_number": 9635,
+    "subject": "Irynas Dreams-no cleaning",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-11-15T00:35:46+00:00",
     "ticket_number": 9640,
     "subject": "Guest Name: Brandner Sue | Res #: 65917 | Unit: YCBR 24B - 2 Bed / 2 Bath | Cancellation request",
@@ -7871,14 +7878,5 @@
     "detail": "Due date changed from 2026-10-08 14:52:39 to 2026-10-27 14:52:00",
     "from": "2026-10-08 14:52:39",
     "to": "2026-10-27 14:52:00"
-  },
-  {
-    "ts": "2026-10-20T15:30:41+00:00",
-    "ticket_number": 8960,
-    "subject": "zSugar Beach - Minimum Escrow Balance",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-19 22:00:00 to 2026-10-20 22:00:00",
-    "from": "2026-10-19 22:00:00",
-    "to": "2026-10-20 22:00:00"
   }
 ]
