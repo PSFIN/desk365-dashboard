@@ -1,5 +1,19 @@
 [
   {
+    "ts": "2026-11-15T20:03:41+00:00",
+    "ticket_number": 9642,
+    "subject": "Vick Jim | Res #: 63208 |  Signal Inn - Unit 14 | Cancellation",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-15T20:03:41+00:00",
+    "ticket_number": 9641,
+    "subject": "Warner Carin | Colony Inn | Cancellation for 4 Reservations",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-11-15T14:53:19+00:00",
     "ticket_number": 9635,
     "subject": "Irynas Dreams-no cleaning",
@@ -7860,23 +7874,5 @@
     "detail": "Due date changed from 2026-10-20 19:21:26 to 2026-10-30 22:00:00",
     "from": "2026-10-20 19:21:26",
     "to": "2026-10-30 22:00:00"
-  },
-  {
-    "ts": "2026-10-20T15:30:41+00:00",
-    "ticket_number": 9218,
-    "subject": "PCA - Casa de Suenos",
-    "type": "reassigned",
-    "detail": "Reassigned from d.husak@choosegulfcoast.com to j.messasierra@choosegulfcoast.com",
-    "from": "d.husak@choosegulfcoast.com",
-    "to": "j.messasierra@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-20T15:30:41+00:00",
-    "ticket_number": 9076,
-    "subject": "Grill",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-08 14:52:39 to 2026-10-27 14:52:00",
-    "from": "2026-10-08 14:52:39",
-    "to": "2026-10-27 14:52:00"
   }
 ]
