@@ -1,5 +1,26 @@
 [
   {
+    "ts": "2026-11-15T00:35:46+00:00",
+    "ticket_number": 9640,
+    "subject": "Guest Name: Brandner Sue | Res #: 65917 | Unit: YCBR 24B - 2 Bed / 2 Bath | Cancellation request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-15T00:35:46+00:00",
+    "ticket_number": 9637,
+    "subject": "BAUMANN Allison |  Res #: 67079 | Unit: YCBR 04 - 2 Bed / 1 Bath | Cancellation Request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-15T00:35:46+00:00",
+    "ticket_number": 9629,
+    "subject": "Weisberg Suzanne/Sandalfoot 2B1/Res #: 66077/Cancellation Request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-11-14T20:50:51+00:00",
     "ticket_number": 9640,
     "subject": "Guest Name: Brandner Sue | Res #: 65917 | Unit: YCBR 24B - 2 Bed / 2 Bath | Cancellation request",
@@ -7859,32 +7880,5 @@
     "detail": "Due date changed from 2026-10-19 22:00:00 to 2026-10-20 22:00:00",
     "from": "2026-10-19 22:00:00",
     "to": "2026-10-20 22:00:00"
-  },
-  {
-    "ts": "2026-10-20T15:30:41+00:00",
-    "ticket_number": 8868,
-    "subject": "Boardwalk benches",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-09 22:00:00 to 2026-10-27 22:00:00",
-    "from": "2026-10-09 22:00:00",
-    "to": "2026-10-27 22:00:00"
-  },
-  {
-    "ts": "2026-10-20T15:30:41+00:00",
-    "ticket_number": 8866,
-    "subject": "City of Bradenton VR License - Tropical Gulf Retreat | 4325 46th Avenue West, #203",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-20 17:42:00 to 2026-10-21 17:42:00",
-    "from": "2026-10-20 17:42:00",
-    "to": "2026-10-21 17:42:00"
-  },
-  {
-    "ts": "2026-10-20T15:30:41+00:00",
-    "ticket_number": 8861,
-    "subject": "City of Bradenton VR License - Florida Dreams | 4457 45th Avenue West, #110",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-20 15:58:00 to 2026-10-21 15:58:00",
-    "from": "2026-10-20 15:58:00",
-    "to": "2026-10-21 15:58:00"
   }
 ]
