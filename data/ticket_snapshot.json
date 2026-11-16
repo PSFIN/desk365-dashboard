@@ -1,4 +1,11 @@
 {
+  "9644": {
+    "subject": "Update photos on the home page of Signal",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-23 15:02:00",
+    "priority": 1
+  },
   "9639": {
     "subject": "request for cord cover for floor and tape measure",
     "assigned_to": "t.frost@choosegulfcoast.com",
@@ -176,17 +183,10 @@
   },
   "9591": {
     "subject": "Chang Christina | Res #: 64927 | Unit: Beach House Residences Unit 1 | Guest Feedback",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-16 16:49:00",
     "priority": 1
-  },
-  "9590": {
-    "subject": "Change GCAM Phone #",
-    "assigned_to": "e.buchanan@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-13 15:58:33",
-    "priority": 5
   },
   "9583": {
     "subject": "4 Star Review Feedback | Res #: 43914 | Justin Kemp-Gee | Gulf & Bay 1389 | 10/24/2026 - 11/7/2026",
@@ -241,14 +241,14 @@
     "subject": "VR Management Agreement Update / Local Registration",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-13 19:24:00",
+    "due_date": "2026-11-20 19:24:00",
     "priority": 5
   },
   "9555": {
     "subject": "VR Management Agreement Update /  Carrying Charge",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-13 19:13:00",
+    "due_date": "2026-11-20 19:13:00",
     "priority": 5
   },
   "9548": {
@@ -265,13 +265,6 @@
     "due_date": "2026-11-09 22:00:00",
     "priority": 1
   },
-  "9512": {
-    "subject": "Fort Myers - SPLASH DECISION - Onboarding Photo Shoot",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-16 19:11:00",
-    "priority": 20
-  },
   "9508": {
     "subject": "GBB1344 - New photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
@@ -283,14 +276,14 @@
     "subject": "Teams Background",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-13 20:49:00",
+    "due_date": "2026-11-20 20:49:00",
     "priority": 1
   },
   "9499": {
     "subject": "Business Cards - Blank",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-13 20:39:00",
+    "due_date": "2026-11-20 20:39:00",
     "priority": 5
   },
   "9494": {
@@ -348,13 +341,6 @@
     "status": "Open",
     "due_date": "2026-11-16 19:40:00",
     "priority": 1
-  },
-  "9374": {
-    "subject": "Res #65280 NPG Charge Owner Commission",
-    "assigned_to": "a.pelandas@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-05 16:23:00",
-    "priority": 20
   },
   "9368": {
     "subject": "Flip Flop Retreat - excessive cleaning charge 10-22-26",
@@ -654,14 +640,14 @@
     "subject": "City of Bradenton VR License - Tropical Gulf Retreat | 4325 46th Avenue West, #203",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-13 17:42:00",
+    "due_date": "2026-11-17 17:42:00",
     "priority": 20
   },
   "8860": {
     "subject": "City of Bradenton VR License - Don't Worry Beach Happy | 502 Sanderling Circle",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-13 15:55:00",
+    "due_date": "2026-11-18 15:55:00",
     "priority": 20
   },
   "8856": {

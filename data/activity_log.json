@@ -1,5 +1,96 @@
 [
   {
+    "ts": "2026-11-16T16:48:05+00:00",
+    "ticket_number": 9644,
+    "subject": "Update photos on the home page of Signal",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-16T16:48:05+00:00",
+    "ticket_number": 9591,
+    "subject": "Chang Christina | Res #: 64927 | Unit: Beach House Residences Unit 1 | Guest Feedback",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to j.delafuente@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "j.delafuente@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-16T16:48:05+00:00",
+    "ticket_number": 9556,
+    "subject": "VR Management Agreement Update / Local Registration",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-13 19:24:00 to 2026-11-20 19:24:00",
+    "from": "2026-11-13 19:24:00",
+    "to": "2026-11-20 19:24:00"
+  },
+  {
+    "ts": "2026-11-16T16:48:05+00:00",
+    "ticket_number": 9555,
+    "subject": "VR Management Agreement Update /  Carrying Charge",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-13 19:13:00 to 2026-11-20 19:13:00",
+    "from": "2026-11-13 19:13:00",
+    "to": "2026-11-20 19:13:00"
+  },
+  {
+    "ts": "2026-11-16T16:48:05+00:00",
+    "ticket_number": 9500,
+    "subject": "Teams Background",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-13 20:49:00 to 2026-11-20 20:49:00",
+    "from": "2026-11-13 20:49:00",
+    "to": "2026-11-20 20:49:00"
+  },
+  {
+    "ts": "2026-11-16T16:48:05+00:00",
+    "ticket_number": 9499,
+    "subject": "Business Cards - Blank",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-13 20:39:00 to 2026-11-20 20:39:00",
+    "from": "2026-11-13 20:39:00",
+    "to": "2026-11-20 20:39:00"
+  },
+  {
+    "ts": "2026-11-16T16:48:05+00:00",
+    "ticket_number": 8866,
+    "subject": "City of Bradenton VR License - Tropical Gulf Retreat | 4325 46th Avenue West, #203",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-13 17:42:00 to 2026-11-17 17:42:00",
+    "from": "2026-11-13 17:42:00",
+    "to": "2026-11-17 17:42:00"
+  },
+  {
+    "ts": "2026-11-16T16:48:05+00:00",
+    "ticket_number": 8860,
+    "subject": "City of Bradenton VR License - Don't Worry Beach Happy | 502 Sanderling Circle",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-13 15:55:00 to 2026-11-18 15:55:00",
+    "from": "2026-11-13 15:55:00",
+    "to": "2026-11-18 15:55:00"
+  },
+  {
+    "ts": "2026-11-16T16:48:05+00:00",
+    "ticket_number": 9590,
+    "subject": "Change GCAM Phone #",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-16T16:48:05+00:00",
+    "ticket_number": 9512,
+    "subject": "Fort Myers - SPLASH DECISION - Onboarding Photo Shoot",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-16T16:48:05+00:00",
+    "ticket_number": 9374,
+    "subject": "Res #65280 NPG Charge Owner Commission",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-11-16T00:05:59+00:00",
     "ticket_number": 9569,
     "subject": "My Great Escape-Confirm and continue 1 water per week",
@@ -7787,92 +7878,5 @@
     "detail": "Due date changed from 2026-10-20 18:14:00 to 2026-10-23 18:14:00",
     "from": "2026-10-20 18:14:00",
     "to": "2026-10-23 18:14:00"
-  },
-  {
-    "ts": "2026-10-20T19:46:24+00:00",
-    "ticket_number": 9217,
-    "subject": "PCA - Breeze By The Sea",
-    "type": "reassigned",
-    "detail": "Reassigned from c.thayer@choosegulfcoast.com to j.messasierra@choosegulfcoast.com",
-    "from": "c.thayer@choosegulfcoast.com",
-    "to": "j.messasierra@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-20T19:46:24+00:00",
-    "ticket_number": 9095,
-    "subject": "Request for cancellation due to low rate: A Shore Thing Res #: 64168",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-16 22:00:00 to 2026-10-23 22:00:00",
-    "from": "2026-10-16 22:00:00",
-    "to": "2026-10-23 22:00:00"
-  },
-  {
-    "ts": "2026-10-20T19:46:24+00:00",
-    "ticket_number": 8571,
-    "subject": "DR-11 Form :  Splash Decision - 14881 Laguna Drive",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-20 18:00:00 to 2026-10-20 21:00:00",
-    "from": "2026-10-20 18:00:00",
-    "to": "2026-10-20 21:00:00"
-  },
-  {
-    "ts": "2026-10-20T19:46:24+00:00",
-    "ticket_number": 8550,
-    "subject": "DR-11 Form : Putt in Paradise -19116 SCALLOP LOOP, #202",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-20 18:00:00 to 2026-10-20 21:00:00",
-    "from": "2026-10-20 18:00:00",
-    "to": "2026-10-20 21:00:00"
-  },
-  {
-    "ts": "2026-10-20T19:46:24+00:00",
-    "ticket_number": 8372,
-    "subject": "DR-11 Forms : Multiple Property Units",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-20 18:00:00 to 2026-10-20 21:00:00",
-    "from": "2026-10-20 18:00:00",
-    "to": "2026-10-20 21:00:00"
-  },
-  {
-    "ts": "2026-10-20T19:46:24+00:00",
-    "ticket_number": 9320,
-    "subject": "4 Star Review Feedback | Res #: 64694 | Moore Nicholas | Sandalfoot 1A3 | 10/14/2026 - 10/18/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-20T19:46:24+00:00",
-    "ticket_number": 9202,
-    "subject": "5 Star Review Feedback | Res #: 63822 | Kim Lambert | Sandalfoot 3C1 | 10/06/2026 - 10/10/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-20T19:46:24+00:00",
-    "ticket_number": 8618,
-    "subject": "PCA - Fishtail",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-20T19:46:24+00:00",
-    "ticket_number": 8332,
-    "subject": "PCA for Charlotte's Dream Due Date: 9/15/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-20T15:30:41+00:00",
-    "ticket_number": 9328,
-    "subject": "Charlottes Dream-DC",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-20T15:30:41+00:00",
-    "ticket_number": 9327,
-    "subject": "Brown Christine | Signal Inn 8 | Res #: 59313 | Cancellation",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
   }
 ]
