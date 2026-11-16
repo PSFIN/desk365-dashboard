@@ -1,5 +1,28 @@
 [
   {
+    "ts": "2026-11-16T00:05:59+00:00",
+    "ticket_number": 9569,
+    "subject": "My Great Escape-Confirm and continue 1 water per week",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-16 16:21:00 to 2026-11-19 16:21:00",
+    "from": "2026-11-16 16:21:00",
+    "to": "2026-11-19 16:21:00"
+  },
+  {
+    "ts": "2026-11-16T00:05:59+00:00",
+    "ticket_number": 9642,
+    "subject": "Vick Jim | Res #: 63208 |  Signal Inn - Unit 14 | Cancellation",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-16T00:05:59+00:00",
+    "ticket_number": 9641,
+    "subject": "Warner Carin | Colony Inn | Cancellation for 4 Reservations",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-11-15T20:03:41+00:00",
     "ticket_number": 9642,
     "subject": "Vick Jim | Res #: 63208 |  Signal Inn - Unit 14 | Cancellation",
@@ -7851,28 +7874,5 @@
     "subject": "Brown Christine | Signal Inn 8 | Res #: 59313 | Cancellation",
     "type": "created",
     "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-20T15:30:41+00:00",
-    "ticket_number": 9325,
-    "subject": "Owner facing newsletter / Professional Linen Program",
-    "type": "created",
-    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-20T15:30:41+00:00",
-    "ticket_number": 9324,
-    "subject": "Newsletter to owner / Municipal License and Registration Renewal Administration Fee",
-    "type": "created",
-    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-20T15:30:41+00:00",
-    "ticket_number": 9291,
-    "subject": "Sandy Pointe Damage Claim | Generali claim number 26182219-01",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-20 19:21:26 to 2026-10-30 22:00:00",
-    "from": "2026-10-20 19:21:26",
-    "to": "2026-10-30 22:00:00"
   }
 ]
