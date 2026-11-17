@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-11-17T08:43:06+00:00",
+    "ticket_number": 9651,
+    "subject": "Horowitz Jeffrey/ Oak Water Escape/Res #: 66380/Trash Day",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.evans@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-11-17T00:35:37+00:00",
     "ticket_number": 9650,
     "subject": "Tidewater Manor - Owner requesting comps",
@@ -7877,13 +7884,6 @@
     "ts": "2026-10-20T22:51:55+00:00",
     "ticket_number": 9332,
     "subject": "My Great Escape Bats",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-20T22:51:55+00:00",
-    "ticket_number": 9327,
-    "subject": "Brown Christine | Signal Inn 8 | Res #: 59313 | Cancellation",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
