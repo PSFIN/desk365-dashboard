@@ -1,4 +1,46 @@
 {
+  "9660": {
+    "subject": "zShell Yeah-cancel feb and March bookings",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-20 17:58:51",
+    "priority": 10
+  },
+  "9659": {
+    "subject": "zShell Yeah-charge the owner for canceling bookings",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-20 17:56:48",
+    "priority": 10
+  },
+  "9656": {
+    "subject": "Sea La Vie - Photos",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-20 15:10:14",
+    "priority": 1
+  },
+  "9655": {
+    "subject": "GBB1340 ARDI",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-20 15:07:21",
+    "priority": 1
+  },
+  "9654": {
+    "subject": "Miller a Diane | Colony 56 | Res #: 46200 | Cancellation",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-20 14:46:59",
+    "priority": 1
+  },
+  "9652": {
+    "subject": "AnnMarie Video Review",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-24 22:00:00",
+    "priority": 1
+  },
   "9651": {
     "subject": "Horowitz Jeffrey/ Oak Water Escape/Res #: 66380/Trash Day",
     "assigned_to": "b.evans@choosegulfcoast.com",
@@ -12,13 +54,6 @@
     "status": "Open",
     "due_date": "2026-11-19 19:39:03",
     "priority": 5
-  },
-  "9649": {
-    "subject": "Signal Inn Unit 06 Description Update",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-19 19:00:05",
-    "priority": 1
   },
   "9648": {
     "subject": "Shades of Summer- cleaning",
@@ -69,33 +104,12 @@
     "due_date": "2026-11-18 15:09:08",
     "priority": 10
   },
-  "9632": {
-    "subject": "Smoke Detectors Sunnyside Up",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-17 14:58:00",
-    "priority": 1
-  },
-  "9631": {
-    "subject": "Smoke Detectors- Coastal Links",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-18 14:56:44",
-    "priority": 1
-  },
   "9630": {
     "subject": "Rent rev",
     "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-16 18:00:00",
     "priority": 20
-  },
-  "9625": {
-    "subject": "GBB1358 - Lynx Lock",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-17 20:26:14",
-    "priority": 1
   },
   "9624": {
     "subject": "5 Star Review Feedback | Res #: 63965| Reymann Marian | Sandalfoot 4B1 | 11/4/2026 - 11/9/2026",
@@ -139,13 +153,6 @@
     "due_date": "2026-11-17 16:26:07",
     "priority": 1
   },
-  "9617": {
-    "subject": "Coastal Oasis -car port clean up and paint",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-17 15:14:52",
-    "priority": 1
-  },
   "9612": {
     "subject": "Sun Dappled-remove lynx lock",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
@@ -178,7 +185,7 @@
     "subject": "Name: Fred Downey | Res: 62693 | Cancelled 50% Retained - OTA",
     "assigned_to": "a.ytac@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-16 15:48:53",
+    "due_date": "2026-12-01 22:00:00",
     "priority": 1
   },
   "9603": {
@@ -236,13 +243,6 @@
     "status": "Open",
     "due_date": "2026-11-20 20:43:00",
     "priority": 1
-  },
-  "9574": {
-    "subject": "Lead Simple Emails",
-    "assigned_to": "e.buchanan@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-12 18:56:36",
-    "priority": 5
   },
   "9569": {
     "subject": "My Great Escape-Confirm and continue 1 water per week",
@@ -363,13 +363,6 @@
     "due_date": "2026-11-30 16:49:00",
     "priority": 10
   },
-  "9403": {
-    "subject": "Sun Seeker | Guest requests",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-16 19:40:00",
-    "priority": 1
-  },
   "9368": {
     "subject": "Flip Flop Retreat - excessive cleaning charge 10-22-26",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
@@ -475,13 +468,6 @@
     "due_date": "2026-11-13 16:48:00",
     "priority": 1
   },
-  "9223": {
-    "subject": "PCA - LuvLax",
-    "assigned_to": "d.husak@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-13 16:46:00",
-    "priority": 1
-  },
   "9222": {
     "subject": "PCA - Links & Leisure",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
@@ -526,7 +512,7 @@
   },
   "9215": {
     "subject": "PCA - Bali Poolside",
-    "assigned_to": "d.husak@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-06 16:41:00",
     "priority": 1
@@ -549,14 +535,7 @@
     "subject": "2 Star Review Feedback | Res #: 49339 | Ricardo Cristobal | Sunnyside Up | 06/19/2026 - 10/10/2026",
     "assigned_to": "d.husak@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-10-30 14:33:00",
-    "priority": 1
-  },
-  "9184": {
-    "subject": "Kenney Patrick |   Res#: 60210 | Signal Inn - Unit 06 | Damaged Window Shade",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-16 23:00:00",
+    "due_date": "2026-12-11 15:33:00",
     "priority": 1
   },
   "9175": {
@@ -668,7 +647,7 @@
     "subject": "City of Bradenton VR License - Tropical Gulf Retreat | 4325 46th Avenue West, #203",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-17 17:42:00",
+    "due_date": "2026-11-20 17:42:00",
     "priority": 20
   },
   "8860": {
@@ -792,7 +771,7 @@
   },
   "8037": {
     "subject": "Qualify for ARDI?",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "c.nutt@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-30 23:00:00",
     "priority": 10
