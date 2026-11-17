@@ -1,10 +1,38 @@
 {
-  "9644": {
-    "subject": "Update photos on the home page of Signal",
+  "9650": {
+    "subject": "Tidewater Manor - Owner requesting comps",
+    "assigned_to": "a.guarin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-19 19:39:03",
+    "priority": 5
+  },
+  "9649": {
+    "subject": "Signal Inn Unit 06 Description Update",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-23 15:02:00",
+    "due_date": "2026-11-19 19:00:05",
     "priority": 1
+  },
+  "9648": {
+    "subject": "Shades of Summer- cleaning",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-19 18:40:20",
+    "priority": 1
+  },
+  "9647": {
+    "subject": "Guest Name: Steirer Stephen |   Res #: 67127 | Unit: Flip Flop Retreat | Shorten their stay",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-19 18:39:51",
+    "priority": 1
+  },
+  "9646": {
+    "subject": "Lynnbrook Chargeback | Res# 65037 | Menard Nicole | Unit: Colony Inn C-52 | CI: 10/26/2026 | CO: 10/29/2026",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-19 17:38:11",
+    "priority": 10
   },
   "9639": {
     "subject": "request for cord cover for floor and tape measure",
@@ -87,7 +115,7 @@
     "subject": "Birdie | Grill burners",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-17 18:39:03",
+    "due_date": "2026-11-19 18:39:00",
     "priority": 1
   },
   "9620": {
@@ -162,21 +190,21 @@
   },
   "9595": {
     "subject": "Bellevue -Comp 145.00 garage door",
-    "assigned_to": "m.johnston@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-13 20:09:51",
     "priority": 1
   },
   "9593": {
     "subject": "Sun Dappled comp lawn 132.50",
-    "assigned_to": "m.johnston@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-13 17:58:46",
     "priority": 1
   },
   "9592": {
     "subject": "Beautiful Bayou-comp cleaning",
-    "assigned_to": "m.johnston@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-13 17:48:46",
     "priority": 1
@@ -185,7 +213,7 @@
     "subject": "Chang Christina | Res #: 64927 | Unit: Beach House Residences Unit 1 | Guest Feedback",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-16 16:49:00",
+    "due_date": "2026-11-18 16:49:00",
     "priority": 1
   },
   "9583": {
@@ -227,7 +255,7 @@
     "subject": "Residences Of Siesta Key | Broken balcony fan",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-16 22:00:00",
+    "due_date": "2026-11-19 22:00:00",
     "priority": 1
   },
   "9557": {
@@ -265,13 +293,6 @@
     "due_date": "2026-11-09 22:00:00",
     "priority": 1
   },
-  "9508": {
-    "subject": "GBB1344 - New photos",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-16 14:34:00",
-    "priority": 1
-  },
   "9500": {
     "subject": "Teams Background",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
@@ -302,7 +323,7 @@
   },
   "9471": {
     "subject": "4 Star Review Feedback | Res #: 59381 | Jenette Van den Heerik | Turtle House | 10/23/2026 - 10/28/2026",
-    "assigned_to": "j.delafuente@choosegulfcoast.com",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-16 22:00:00",
     "priority": 1
@@ -388,7 +409,7 @@
     "subject": "GBB1318 Fan in master",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-13 23:00:00",
+    "due_date": "2026-11-17 23:00:00",
     "priority": 1
   },
   "9312": {
@@ -493,7 +514,7 @@
     "subject": "PCA - Beach Breeze",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-13 16:42:00",
+    "due_date": "2026-11-16 16:42:00",
     "priority": 1
   },
   "9215": {
@@ -794,7 +815,7 @@
     "subject": "PCA for Don't Worry Beach Happy Due Date: 7/15/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-13 23:00:00",
+    "due_date": "2026-11-16 23:00:00",
     "priority": 5
   },
   "7027": {
