@@ -1,4 +1,11 @@
 {
+  "9662": {
+    "subject": "Outstanding Work Order, Invoice or Pending Charges - Shell Yeah | 3816 6th Ave Holmes",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-20 20:51:47",
+    "priority": 1
+  },
   "9660": {
     "subject": "zShell Yeah-cancel feb and March bookings",
     "assigned_to": "c.hernandez@choosegulfcoast.com",
@@ -10,7 +17,7 @@
     "subject": "zShell Yeah-charge the owner for canceling bookings",
     "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-20 17:56:48",
+    "due_date": "2026-11-20 18:14:21",
     "priority": 10
   },
   "9656": {
@@ -18,20 +25,6 @@
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-20 15:10:14",
-    "priority": 1
-  },
-  "9655": {
-    "subject": "GBB1340 ARDI",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-20 15:07:21",
-    "priority": 1
-  },
-  "9654": {
-    "subject": "Miller a Diane | Colony 56 | Res #: 46200 | Cancellation",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-20 14:46:59",
     "priority": 1
   },
   "9652": {
@@ -62,16 +55,9 @@
     "due_date": "2026-11-19 18:40:20",
     "priority": 1
   },
-  "9647": {
-    "subject": "Guest Name: Steirer Stephen |   Res #: 67127 | Unit: Flip Flop Retreat | Shorten their stay",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-19 18:39:51",
-    "priority": 1
-  },
   "9646": {
     "subject": "Lynnbrook Chargeback | Res# 65037 | Menard Nicole | Unit: Colony Inn C-52 | CI: 10/26/2026 | CO: 10/29/2026",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-19 17:38:11",
     "priority": 10
@@ -83,13 +69,6 @@
     "due_date": "2026-11-18 22:00:00",
     "priority": 10
   },
-  "9638": {
-    "subject": "locked out of Rippling",
-    "assigned_to": "t.frost@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-17 18:00:00",
-    "priority": 20
-  },
   "9634": {
     "subject": "Smoke Detectors- cranes galore",
     "assigned_to": "j.rushton@choosegulfcoast.com",
@@ -97,26 +76,12 @@
     "due_date": "2026-11-18 18:15:33",
     "priority": 1
   },
-  "9633": {
-    "subject": "YCBR Descriptions",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-18 15:09:08",
-    "priority": 10
-  },
   "9630": {
     "subject": "Rent rev",
     "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-16 18:00:00",
     "priority": 20
-  },
-  "9624": {
-    "subject": "5 Star Review Feedback | Res #: 63965| Reymann Marian | Sandalfoot 4B1 | 11/4/2026 - 11/9/2026",
-    "assigned_to": "n.armstrong@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-17 19:17:58",
-    "priority": 1
   },
   "9623": {
     "subject": "5 Star Review Feedback | Res #: 51762| Hudecek Brent | Signal Inn - Unit 18 | 11/6/2026 - 11/9/2026",
@@ -153,33 +118,12 @@
     "due_date": "2026-11-17 16:26:07",
     "priority": 1
   },
-  "9612": {
-    "subject": "Sun Dappled-remove lynx lock",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-16 20:46:08",
-    "priority": 10
-  },
-  "9611": {
-    "subject": "Smoke Detectors- Day Dreamer",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-16 20:44:56",
-    "priority": 1
-  },
   "9608": {
     "subject": "RES#39088 - Oak Water Escape Returning Guest Question",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-16 18:31:40",
     "priority": 1
-  },
-  "9607": {
-    "subject": "Good tideings - Listing photos",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-17 17:17:00",
-    "priority": 5
   },
   "9605": {
     "subject": "Name: Fred Downey | Res: 62693 | Cancelled 50% Retained - OTA",
@@ -188,40 +132,12 @@
     "due_date": "2026-12-01 22:00:00",
     "priority": 1
   },
-  "9603": {
-    "subject": "Sly and Salty - Photos",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-17 14:41:00",
-    "priority": 1
-  },
   "9601": {
     "subject": "Assistance with Securing and Transferring Forms from PandaDoc to Jotform",
     "assigned_to": "b.evans@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-16 14:31:10",
     "priority": 10
-  },
-  "9595": {
-    "subject": "Bellevue -Comp 145.00 garage door",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-13 20:09:51",
-    "priority": 1
-  },
-  "9593": {
-    "subject": "Sun Dappled comp lawn 132.50",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-13 17:58:46",
-    "priority": 1
-  },
-  "9592": {
-    "subject": "Beautiful Bayou-comp cleaning",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-13 17:48:46",
-    "priority": 1
   },
   "9591": {
     "subject": "Chang Christina | Res #: 64927 | Unit: Beach House Residences Unit 1 | Guest Feedback",
@@ -335,18 +251,18 @@
     "due_date": "2026-11-16 22:00:00",
     "priority": 1
   },
+  "9451": {
+    "subject": "A Shore Thing | Multiple issues",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-12 23:00:00",
+    "priority": 1
+  },
   "9446": {
     "subject": "YCBR Fire extinguisher order",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-12-01 20:11:00",
-    "priority": 1
-  },
-  "9445": {
-    "subject": "Ospreys Nest | Cracked toilet bowl",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-16 19:57:00",
     "priority": 1
   },
   "9438": {
