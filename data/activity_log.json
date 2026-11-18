@@ -1,5 +1,47 @@
 [
   {
+    "ts": "2026-11-18T08:45:23+00:00",
+    "ticket_number": 9668,
+    "subject": "1 Star Review Feedback | Res #: 52252 | Pritchett Darin | Day Dreamer | 8/11/2026 - 11/11/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-18T08:45:23+00:00",
+    "ticket_number": 9667,
+    "subject": "1 Star Review Feedback | Res #: 62174 | Wilburn George | Enjoy Sarasota | 10/31/2026 - 11/14/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-18T08:45:23+00:00",
+    "ticket_number": 9666,
+    "subject": "5 Star Review Feedback | Res #: 60185 | Jahn Ruth | Signal Inn - Unit 13 | 11/10/2026 - 11/15/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to l.costa@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-18T08:45:23+00:00",
+    "ticket_number": 9665,
+    "subject": "5 Star Review Feedback | Res #: 62263 | Wise Kari | Sandalfoot 2B3 | 11/8/2026 - 11/13/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.armstrong@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-18T08:45:23+00:00",
+    "ticket_number": 9664,
+    "subject": "4 Star Review Feedback | Res #: 62178 | Zoelzer Andreas | Signal Inn - Unit 17 | 10/20/2026 - 10/30/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to l.costa@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-18T08:45:23+00:00",
+    "ticket_number": 9663,
+    "subject": "3 Star Review Feedback | Res #: 64927 | Chang Christina | Beach House Residences Unit 1 | 11/6/2026 - 11/9/2026",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-11-18T01:05:21+00:00",
     "ticket_number": 9662,
     "subject": "Outstanding Work Order, Invoice or Pending Charges - Shell Yeah | 3816 6th Ave Holmes",
@@ -7828,47 +7870,5 @@
     "detail": "Reassigned from j.rushton@choosegulfcoast.com to h.mcnamara@choosegulfcoast.com",
     "from": "j.rushton@choosegulfcoast.com",
     "to": "h.mcnamara@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-21T20:49:00+00:00",
-    "ticket_number": 9353,
-    "subject": "Oak Water Escape-Desc pool heat",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-21T20:49:00+00:00",
-    "ticket_number": 9347,
-    "subject": "Gavalier Joe | Res #: 53427 | Fairways to Coastline | Cancellation Request",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-21T20:49:00+00:00",
-    "ticket_number": 9339,
-    "subject": "SeaDuce",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-21T20:49:00+00:00",
-    "ticket_number": 9317,
-    "subject": "3 Star Review Feedback | Res #: 44196 | Kenney Steven | Gulf & Bay Bayside - 1368 | 10/10/2026 - 10/17/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-21T20:49:00+00:00",
-    "ticket_number": 9311,
-    "subject": "White Pearl City Inspection",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-21T20:49:00+00:00",
-    "ticket_number": 9308,
-    "subject": "Brown Cleo | Res #: 64268 | Pearl in the Rough | Multiple Issues",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
 ]
