@@ -1,4 +1,39 @@
 {
+  "9675": {
+    "subject": "Shell Yeah- outstanding balance",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-23 15:43:22",
+    "priority": 10
+  },
+  "9674": {
+    "subject": "zBlossom Retreat- collect Stop payments",
+    "assigned_to": "e.morales@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-23 15:38:08",
+    "priority": 10
+  },
+  "9672": {
+    "subject": "Name: Robinson Susan & Jeff | Res: 33970 | Refund Check Request",
+    "assigned_to": "k.fisher@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-23 15:21:44",
+    "priority": 1
+  },
+  "9670": {
+    "subject": "Keys Please - Lynx lock",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-23 14:46:14",
+    "priority": 1
+  },
+  "9669": {
+    "subject": "Ren rev",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-20 22:00:00",
+    "priority": 5
+  },
   "9668": {
     "subject": "1 Star Review Feedback | Res #: 52252 | Pritchett Darin | Day Dreamer | 8/11/2026 - 11/11/2026",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
@@ -67,13 +102,6 @@
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-20 15:10:14",
-    "priority": 1
-  },
-  "9652": {
-    "subject": "AnnMarie Video Review",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-24 22:00:00",
     "priority": 1
   },
   "9651": {
@@ -199,7 +227,7 @@
     "subject": "YCBR Project",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-20 20:43:00",
+    "due_date": "2026-11-25 20:43:00",
     "priority": 1
   },
   "9569": {
@@ -290,14 +318,14 @@
     "subject": "4 Star Review Feedback | Res #: 59381 | Jenette Van den Heerik | Turtle House | 10/23/2026 - 10/28/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-16 22:00:00",
+    "due_date": "2026-11-18 22:00:00",
     "priority": 1
   },
   "9451": {
     "subject": "A Shore Thing | Multiple issues",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-12 23:00:00",
+    "due_date": "2026-11-20 23:00:00",
     "priority": 1
   },
   "9446": {
@@ -367,7 +395,7 @@
     "subject": "GBB1318 Fan in master",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-17 23:00:00",
+    "due_date": "2026-11-18 23:00:00",
     "priority": 1
   },
   "9312": {
@@ -465,7 +493,7 @@
     "subject": "PCA - Beach Breeze",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-16 16:42:00",
+    "due_date": "2026-11-18 16:42:00",
     "priority": 1
   },
   "9215": {
@@ -619,7 +647,7 @@
     "subject": "DR-11 Form : Tee Time | 19116 Scallop Loop, #105",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-17 21:00:00",
+    "due_date": "2026-11-20 21:00:00",
     "priority": 10
   },
   "8830": {
@@ -654,7 +682,7 @@
     "subject": "DR-11 Form :  Splash Decision - 14881 Laguna Drive",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-17 21:00:00",
+    "due_date": "2026-11-20 21:00:00",
     "priority": 10
   },
   "8562": {
@@ -668,14 +696,14 @@
     "subject": "DR-11 Form : Putt in Paradise -19116 SCALLOP LOOP, #202",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-17 21:00:00",
+    "due_date": "2026-11-20 21:00:00",
     "priority": 10
   },
   "8499": {
     "subject": "Cedar Hammock Fire District Inspection - Multiple Units",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-17 21:00:00",
+    "due_date": "2026-11-20 21:00:00",
     "priority": 10
   },
   "8444": {
@@ -685,18 +713,11 @@
     "due_date": "2026-12-01 21:09:00",
     "priority": 5
   },
-  "8410": {
-    "subject": "YCBR Photo shoot",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-30 20:15:00",
-    "priority": 5
-  },
   "8372": {
     "subject": "DR-11 Forms : Multiple Property Units",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-17 21:00:00",
+    "due_date": "2026-11-20 21:00:00",
     "priority": 10
   },
   "8365": {
@@ -759,7 +780,7 @@
     "subject": "PCA for Don't Worry Beach Happy Due Date: 7/15/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-16 23:00:00",
+    "due_date": "2026-11-20 23:00:00",
     "priority": 5
   },
   "7027": {
