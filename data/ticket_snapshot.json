@@ -1,4 +1,46 @@
 {
+  "9682": {
+    "subject": "ZSunny Life- open up Jan",
+    "assigned_to": "a.alvarado@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-23 21:26:49",
+    "priority": 10
+  },
+  "9681": {
+    "subject": "Sunny South-new pictures",
+    "assigned_to": "b.meyer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-23 20:15:21",
+    "priority": 10
+  },
+  "9680": {
+    "subject": "Sunny South-trash cans",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-23 20:10:18",
+    "priority": 1
+  },
+  "9679": {
+    "subject": "Pearl in the Rough- comp TV",
+    "assigned_to": "m.johnston@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-23 19:17:30",
+    "priority": 1
+  },
+  "9678": {
+    "subject": "Transfer Fund : Residences Of Siesta Key to The White Pearl",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-23 19:01:56",
+    "priority": 1
+  },
+  "9677": {
+    "subject": "Email Signature Needed - Darrel P",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-23 17:50:57",
+    "priority": 5
+  },
   "9675": {
     "subject": "Shell Yeah- outstanding balance",
     "assigned_to": "e.morales@choosegulfcoast.com",
@@ -69,23 +111,16 @@
     "due_date": "2026-11-20 22:00:00",
     "priority": 1
   },
-  "9663": {
-    "subject": "3 Star Review Feedback | Res #: 64927 | Chang Christina | Beach House Residences Unit 1 | 11/6/2026 - 11/9/2026",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-20 22:00:00",
-    "priority": 1
-  },
   "9662": {
     "subject": "Outstanding Work Order, Invoice or Pending Charges - Shell Yeah | 3816 6th Ave Holmes",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-20 20:51:47",
     "priority": 1
   },
   "9660": {
     "subject": "zShell Yeah-cancel feb and March bookings",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "assigned_to": "k.fisher@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-20 17:58:51",
     "priority": 10
@@ -143,7 +178,7 @@
     "subject": "Smoke Detectors- cranes galore",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-18 18:15:33",
+    "due_date": "2026-11-19 18:15:00",
     "priority": 1
   },
   "9630": {
@@ -318,7 +353,7 @@
     "subject": "4 Star Review Feedback | Res #: 59381 | Jenette Van den Heerik | Turtle House | 10/23/2026 - 10/28/2026",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-18 22:00:00",
+    "due_date": "2026-11-27 22:00:00",
     "priority": 1
   },
   "9451": {
@@ -395,7 +430,7 @@
     "subject": "GBB1318 Fan in master",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-18 23:00:00",
+    "due_date": "2026-11-19 23:00:00",
     "priority": 1
   },
   "9312": {
@@ -421,7 +456,7 @@
   },
   "9291": {
     "subject": "Sandy Pointe Damage Claim | Generali claim number 26182219-01",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-30 23:00:00",
     "priority": 1
@@ -491,7 +526,7 @@
   },
   "9216": {
     "subject": "PCA - Beach Breeze",
-    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-18 16:42:00",
     "priority": 1

@@ -1,5 +1,117 @@
 [
   {
+    "ts": "2026-11-18T23:45:09+00:00",
+    "ticket_number": 9682,
+    "subject": "ZSunny Life- open up Jan",
+    "type": "created",
+    "detail": "Created \u2014 assigned to a.alvarado@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-18T23:45:09+00:00",
+    "ticket_number": 9681,
+    "subject": "Sunny South-new pictures",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.meyer@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-18T23:45:09+00:00",
+    "ticket_number": 9680,
+    "subject": "Sunny South-trash cans",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.messasierra@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-18T23:45:09+00:00",
+    "ticket_number": 9679,
+    "subject": "Pearl in the Rough- comp TV",
+    "type": "created",
+    "detail": "Created \u2014 assigned to m.johnston@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-18T23:45:09+00:00",
+    "ticket_number": 9678,
+    "subject": "Transfer Fund : Residences Of Siesta Key to The White Pearl",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-18T23:45:09+00:00",
+    "ticket_number": 9677,
+    "subject": "Email Signature Needed - Darrel P",
+    "type": "created",
+    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-18T23:45:09+00:00",
+    "ticket_number": 9662,
+    "subject": "Outstanding Work Order, Invoice or Pending Charges - Shell Yeah | 3816 6th Ave Holmes",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to e.morales@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "e.morales@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-18T23:45:09+00:00",
+    "ticket_number": 9660,
+    "subject": "zShell Yeah-cancel feb and March bookings",
+    "type": "reassigned",
+    "detail": "Reassigned from c.hernandez@choosegulfcoast.com to k.fisher@choosegulfcoast.com",
+    "from": "c.hernandez@choosegulfcoast.com",
+    "to": "k.fisher@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-18T23:45:09+00:00",
+    "ticket_number": 9634,
+    "subject": "Smoke Detectors- cranes galore",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-18 18:15:33 to 2026-11-19 18:15:00",
+    "from": "2026-11-18 18:15:33",
+    "to": "2026-11-19 18:15:00"
+  },
+  {
+    "ts": "2026-11-18T23:45:09+00:00",
+    "ticket_number": 9471,
+    "subject": "4 Star Review Feedback | Res #: 59381 | Jenette Van den Heerik | Turtle House | 10/23/2026 - 10/28/2026",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-18 22:00:00 to 2026-11-27 22:00:00",
+    "from": "2026-11-18 22:00:00",
+    "to": "2026-11-27 22:00:00"
+  },
+  {
+    "ts": "2026-11-18T23:45:09+00:00",
+    "ticket_number": 9318,
+    "subject": "GBB1318 Fan in master",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-18 23:00:00 to 2026-11-19 23:00:00",
+    "from": "2026-11-18 23:00:00",
+    "to": "2026-11-19 23:00:00"
+  },
+  {
+    "ts": "2026-11-18T23:45:09+00:00",
+    "ticket_number": 9291,
+    "subject": "Sandy Pointe Damage Claim | Generali claim number 26182219-01",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to h.nomura@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "h.nomura@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-18T23:45:09+00:00",
+    "ticket_number": 9216,
+    "subject": "PCA - Beach Breeze",
+    "type": "reassigned",
+    "detail": "Reassigned from j.rushton@choosegulfcoast.com to j.messasierra@choosegulfcoast.com",
+    "from": "j.rushton@choosegulfcoast.com",
+    "to": "j.messasierra@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-18T23:45:09+00:00",
+    "ticket_number": 9663,
+    "subject": "3 Star Review Feedback | Res #: 64927 | Chang Christina | Beach House Residences Unit 1 | 11/6/2026 - 11/9/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-11-18T17:42:37+00:00",
     "ticket_number": 9675,
     "subject": "Shell Yeah- outstanding balance",
@@ -7760,123 +7872,5 @@
     "detail": "Reassigned from j.messasierra@choosegulfcoast.com to s.paulin@choosegulfcoast.com",
     "from": "j.messasierra@choosegulfcoast.com",
     "to": "s.paulin@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-22T13:58:00+00:00",
-    "ticket_number": 9215,
-    "subject": "PCA - Bali Poolside",
-    "type": "reassigned",
-    "detail": "Reassigned from j.messasierra@choosegulfcoast.com to s.paulin@choosegulfcoast.com",
-    "from": "j.messasierra@choosegulfcoast.com",
-    "to": "s.paulin@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-22T13:58:00+00:00",
-    "ticket_number": 9208,
-    "subject": "GC393 - owner concession of $100 / credit check",
-    "type": "reassigned",
-    "detail": "Reassigned from m.johnston@choosegulfcoast.com to b.santos@choosegulfcoast.com",
-    "from": "m.johnston@choosegulfcoast.com",
-    "to": "b.santos@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-22T13:58:00+00:00",
-    "ticket_number": 8960,
-    "subject": "zSugar Beach - Minimum Escrow Balance",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-20 22:00:00 to 2026-10-22 22:00:00",
-    "from": "2026-10-20 22:00:00",
-    "to": "2026-10-22 22:00:00"
-  },
-  {
-    "ts": "2026-10-22T13:58:00+00:00",
-    "ticket_number": 8866,
-    "subject": "City of Bradenton VR License - Tropical Gulf Retreat | 4325 46th Avenue West, #203",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-22 17:42:00 to 2026-10-23 17:42:00",
-    "from": "2026-10-22 17:42:00",
-    "to": "2026-10-23 17:42:00"
-  },
-  {
-    "ts": "2026-10-22T13:58:00+00:00",
-    "ticket_number": 8861,
-    "subject": "City of Bradenton VR License - Florida Dreams | 4457 45th Avenue West, #110",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-22 15:58:00 to 2026-10-23 15:58:00",
-    "from": "2026-10-22 15:58:00",
-    "to": "2026-10-23 15:58:00"
-  },
-  {
-    "ts": "2026-10-22T13:58:00+00:00",
-    "ticket_number": 8860,
-    "subject": "City of Bradenton VR License - Don't Worry Beach Happy | 502 Sanderling Circle",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-22 15:55:00 to 2026-10-26 15:55:00",
-    "from": "2026-10-22 15:55:00",
-    "to": "2026-10-26 15:55:00"
-  },
-  {
-    "ts": "2026-10-22T13:58:00+00:00",
-    "ticket_number": 9292,
-    "subject": "Owner Concern Regarding Property Manager Responsiveness",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-22T13:58:00+00:00",
-    "ticket_number": 8859,
-    "subject": "City of Bradenton VR License - Blossom Retreat | 7333 Skybird Road",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-22T02:46:06+00:00",
-    "ticket_number": 9366,
-    "subject": "Vrbo -  Your property may be at risk for an unauthorized event",
-    "type": "created",
-    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-22T02:46:06+00:00",
-    "ticket_number": 9365,
-    "subject": "Athey Ramona/Sandalfoot 3B2/Res #: 65319/Cancelation Request",
-    "type": "created",
-    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-21T23:50:56+00:00",
-    "ticket_number": 8856,
-    "subject": "DR-11 Form : Tee Time | 19116 Scallop Loop, #105",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-21 21:00:00 to 2026-10-22 21:00:00",
-    "from": "2026-10-21 21:00:00",
-    "to": "2026-10-22 21:00:00"
-  },
-  {
-    "ts": "2026-10-21T23:50:56+00:00",
-    "ticket_number": 8571,
-    "subject": "DR-11 Form :  Splash Decision - 14881 Laguna Drive",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-21 21:00:00 to 2026-10-22 21:00:00",
-    "from": "2026-10-21 21:00:00",
-    "to": "2026-10-22 21:00:00"
-  },
-  {
-    "ts": "2026-10-21T23:50:56+00:00",
-    "ticket_number": 8550,
-    "subject": "DR-11 Form : Putt in Paradise -19116 SCALLOP LOOP, #202",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-21 21:00:00 to 2026-10-22 21:00:00",
-    "from": "2026-10-21 21:00:00",
-    "to": "2026-10-22 21:00:00"
-  },
-  {
-    "ts": "2026-10-21T23:50:56+00:00",
-    "ticket_number": 8499,
-    "subject": "Cedar Hammock Fire District Inspection - Multiple Units",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-21 21:00:00 to 2026-10-22 21:00:00",
-    "from": "2026-10-21 21:00:00",
-    "to": "2026-10-22 21:00:00"
   }
 ]
