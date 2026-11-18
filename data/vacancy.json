@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-17T18:55:43+00:00",
- "as_of": "2026-11-17",
+ "generated": "2026-11-18T18:36:20+00:00",
+ "as_of": "2026-11-18",
  "inspections_since": "2025-11-12",
  "units": [
   {
@@ -11,7 +11,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-05-03",
-   "days_vacant": 198,
+   "days_vacant": 199,
    "next_arrival": "2026-11-21",
    "last_inspection": "2026-05-13",
    "last_inspector": "Urroz Cesar"
@@ -24,7 +24,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-12",
-   "days_vacant": 5,
+   "days_vacant": 6,
    "next_arrival": "2026-11-21",
    "last_inspection": "2026-11-12",
    "last_inspector": "Moritz Matt"
@@ -48,9 +48,9 @@
    "area": "Sarasota Vacation Rentals",
    "community": "Siesta Keys",
    "status": "Active",
-   "occupied_now": true,
-   "last_checkout": "2026-10-11",
-   "days_vacant": null,
+   "occupied_now": false,
+   "last_checkout": "2026-11-18",
+   "days_vacant": 0,
    "next_arrival": "2026-12-01",
    "last_inspection": "2026-10-15",
    "last_inspector": "Moritz Matt"
@@ -63,7 +63,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-08-20",
-   "days_vacant": 89,
+   "days_vacant": 90,
    "next_arrival": "2026-11-21",
    "last_inspection": "2026-08-21",
    "last_inspector": "Sierra Mesa Juan"
@@ -76,7 +76,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-09",
-   "days_vacant": 8,
+   "days_vacant": 9,
    "next_arrival": null,
    "last_inspection": "2026-11-09",
    "last_inspector": "McGlinchey Glenn"
@@ -89,7 +89,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-14",
-   "days_vacant": 3,
+   "days_vacant": 4,
    "next_arrival": "2027-01-06",
    "last_inspection": "2026-11-02",
    "last_inspector": "Moritz Matt"
@@ -115,7 +115,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-08",
-   "days_vacant": 9,
+   "days_vacant": 10,
    "next_arrival": "2027-01-11",
    "last_inspection": "2026-11-10",
    "last_inspector": "Matthews Travis"
@@ -128,7 +128,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-10-23",
-   "days_vacant": 25,
+   "days_vacant": 26,
    "next_arrival": "2026-11-19",
    "last_inspection": "2026-10-29",
    "last_inspector": "Moritz Matt"
@@ -167,7 +167,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-03-31",
-   "days_vacant": 231,
+   "days_vacant": 232,
    "next_arrival": "2027-02-01",
    "last_inspection": null,
    "last_inspector": null
@@ -192,11 +192,24 @@
    "community": "Siesta Keys",
    "status": "Active",
    "occupied_now": false,
-   "last_checkout": "2026-11-09",
-   "days_vacant": 8,
+   "last_checkout": "2026-11-18",
+   "days_vacant": 0,
    "next_arrival": "2026-12-20",
    "last_inspection": "2026-11-10",
    "last_inspector": "Matthews Travis"
+  },
+  {
+   "id": 1167336,
+   "name": "Beach Village Escape",
+   "area": "Longboat Key Vacation Rentals",
+   "community": null,
+   "status": "Active",
+   "occupied_now": true,
+   "last_checkout": null,
+   "days_vacant": null,
+   "next_arrival": "2027-04-01",
+   "last_inspection": null,
+   "last_inspector": null
   },
   {
    "id": 929658,
@@ -245,7 +258,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-10-07",
-   "days_vacant": 41,
+   "days_vacant": 42,
    "next_arrival": "2026-12-04",
    "last_inspection": "2026-10-09",
    "last_inspector": "Matthews Travis"
@@ -271,7 +284,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-14",
-   "days_vacant": 3,
+   "days_vacant": 4,
    "next_arrival": "2026-11-23",
    "last_inspection": "2026-11-07",
    "last_inspector": "Banks Jen"
@@ -284,7 +297,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-08-07",
-   "days_vacant": 102,
+   "days_vacant": 103,
    "next_arrival": "2027-01-01",
    "last_inspection": "2026-07-31",
    "last_inspector": "Sierra Mesa Juan"
@@ -323,7 +336,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-05-03",
-   "days_vacant": 198,
+   "days_vacant": 199,
    "next_arrival": "2027-01-01",
    "last_inspection": "2026-05-15",
    "last_inspector": "Randall Cararese"
@@ -336,8 +349,8 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-10-18",
-   "days_vacant": 30,
-   "next_arrival": "2027-01-16",
+   "days_vacant": 31,
+   "next_arrival": "2026-12-18",
    "last_inspection": "2026-10-18",
    "last_inspector": "McGlinchey Glenn"
   },
@@ -347,9 +360,9 @@
    "area": "Sanibel Island Vacation Rentals",
    "community": null,
    "status": "Active",
-   "occupied_now": true,
-   "last_checkout": "2026-11-11",
-   "days_vacant": null,
+   "occupied_now": false,
+   "last_checkout": "2026-11-18",
+   "days_vacant": 0,
    "next_arrival": "2026-11-19",
    "last_inspection": null,
    "last_inspector": null
@@ -360,9 +373,9 @@
    "area": "Sanibel Island Vacation Rentals",
    "community": null,
    "status": "Active",
-   "occupied_now": false,
+   "occupied_now": true,
    "last_checkout": "2026-11-15",
-   "days_vacant": 2,
+   "days_vacant": null,
    "next_arrival": "2026-11-20",
    "last_inspection": "2026-11-09",
    "last_inspector": "Front Desk Colony"
@@ -388,7 +401,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-16",
-   "days_vacant": 1,
+   "days_vacant": 2,
    "next_arrival": "2026-11-20",
    "last_inspection": "2026-11-05",
    "last_inspector": "Front Desk Colony"
@@ -427,7 +440,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-15",
-   "days_vacant": 2,
+   "days_vacant": 3,
    "next_arrival": "2026-11-19",
    "last_inspection": "2026-11-07",
    "last_inspector": "Front Desk Colony"
@@ -438,10 +451,10 @@
    "area": "Sanibel Island Vacation Rentals",
    "community": null,
    "status": "Active",
-   "occupied_now": false,
+   "occupied_now": true,
    "last_checkout": "2026-11-15",
-   "days_vacant": 2,
-   "next_arrival": "2026-11-18",
+   "days_vacant": null,
+   "next_arrival": "2026-11-20",
    "last_inspection": "2026-11-08",
    "last_inspector": "Front Desk Colony"
   },
@@ -453,7 +466,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-16",
-   "days_vacant": 1,
+   "days_vacant": 2,
    "next_arrival": "2026-11-27",
    "last_inspection": "2026-11-02",
    "last_inspector": "Front Desk Colony"
@@ -464,10 +477,10 @@
    "area": "Sanibel Island Vacation Rentals",
    "community": null,
    "status": "Active",
-   "occupied_now": false,
+   "occupied_now": true,
    "last_checkout": "2026-11-15",
-   "days_vacant": 2,
-   "next_arrival": "2026-11-18",
+   "days_vacant": null,
+   "next_arrival": "2026-11-21",
    "last_inspection": null,
    "last_inspector": null
   },
@@ -492,7 +505,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-16",
-   "days_vacant": 1,
+   "days_vacant": 2,
    "next_arrival": "2026-11-25",
    "last_inspection": "2026-11-09",
    "last_inspector": "Front Desk Colony"
@@ -504,9 +517,9 @@
    "community": null,
    "status": "Active",
    "occupied_now": true,
-   "last_checkout": "2026-11-15",
+   "last_checkout": "2026-11-18",
    "days_vacant": null,
-   "next_arrival": "2026-11-18",
+   "next_arrival": "2026-11-21",
    "last_inspection": "2026-11-10",
    "last_inspector": "Front Desk Colony"
   },
@@ -518,7 +531,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-17",
-   "days_vacant": 0,
+   "days_vacant": 1,
    "next_arrival": "2026-11-20",
    "last_inspection": null,
    "last_inspector": null
@@ -542,9 +555,9 @@
    "area": "Sanibel Island Vacation Rentals",
    "community": null,
    "status": "Active",
-   "occupied_now": true,
-   "last_checkout": "2026-11-14",
-   "days_vacant": null,
+   "occupied_now": false,
+   "last_checkout": "2026-11-18",
+   "days_vacant": 0,
    "next_arrival": "2026-11-20",
    "last_inspection": null,
    "last_inspector": null
@@ -570,7 +583,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-16",
-   "days_vacant": 1,
+   "days_vacant": 2,
    "next_arrival": "2026-11-19",
    "last_inspection": "2026-11-01",
    "last_inspector": "Front Desk Colony"
@@ -607,10 +620,10 @@
    "area": "Sanibel Island Vacation Rentals",
    "community": null,
    "status": "Active",
-   "occupied_now": false,
+   "occupied_now": true,
    "last_checkout": "2026-11-15",
-   "days_vacant": 2,
-   "next_arrival": "2026-11-18",
+   "days_vacant": null,
+   "next_arrival": "2026-12-03",
    "last_inspection": "2026-11-03",
    "last_inspector": "Front Desk Colony"
   },
@@ -620,10 +633,10 @@
    "area": "Sanibel Island Vacation Rentals",
    "community": null,
    "status": "Active",
-   "occupied_now": false,
+   "occupied_now": true,
    "last_checkout": "2026-11-16",
-   "days_vacant": 1,
-   "next_arrival": "2026-11-18",
+   "days_vacant": null,
+   "next_arrival": "2026-11-23",
    "last_inspection": null,
    "last_inspector": null
   },
@@ -633,10 +646,10 @@
    "area": "Sanibel Island Vacation Rentals",
    "community": null,
    "status": "Active",
-   "occupied_now": false,
+   "occupied_now": true,
    "last_checkout": "2026-11-17",
-   "days_vacant": 0,
-   "next_arrival": "2026-11-18",
+   "days_vacant": null,
+   "next_arrival": "2026-11-25",
    "last_inspection": "2026-11-10",
    "last_inspector": "Front Desk Colony"
   },
@@ -661,7 +674,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-17",
-   "days_vacant": 0,
+   "days_vacant": 1,
    "next_arrival": "2026-12-03",
    "last_inspection": null,
    "last_inspector": null
@@ -672,10 +685,10 @@
    "area": "Sanibel Island Vacation Rentals",
    "community": null,
    "status": "Active",
-   "occupied_now": false,
+   "occupied_now": true,
    "last_checkout": "2026-11-15",
-   "days_vacant": 2,
-   "next_arrival": "2026-11-18",
+   "days_vacant": null,
+   "next_arrival": "2026-11-26",
    "last_inspection": null,
    "last_inspector": null
   },
@@ -700,7 +713,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-16",
-   "days_vacant": 1,
+   "days_vacant": 2,
    "next_arrival": "2026-11-25",
    "last_inspection": null,
    "last_inspector": null
@@ -776,11 +789,11 @@
    "area": "Sanibel Island Vacation Rentals",
    "community": "Compass Point",
    "status": "Active",
-   "occupied_now": false,
+   "occupied_now": true,
    "last_checkout": "2026-11-17",
-   "days_vacant": 0,
-   "next_arrival": "2026-11-18",
-   "last_inspection": "2026-11-10",
+   "days_vacant": null,
+   "next_arrival": "2026-12-05",
+   "last_inspection": "2026-11-17",
    "last_inspector": "Banks Jen"
   },
   {
@@ -804,7 +817,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-08-28",
-   "days_vacant": 81,
+   "days_vacant": 82,
    "next_arrival": "2027-01-01",
    "last_inspection": "2026-08-30",
    "last_inspector": "Sierra Mesa Juan"
@@ -843,7 +856,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-11",
-   "days_vacant": 6,
+   "days_vacant": 7,
    "next_arrival": "2026-12-19",
    "last_inspection": "2026-11-14",
    "last_inspector": "McGlinchey Glenn"
@@ -856,7 +869,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-09-13",
-   "days_vacant": 65,
+   "days_vacant": 66,
    "next_arrival": "2026-11-20",
    "last_inspection": "2026-09-13",
    "last_inspector": "Sierra Mesa Juan"
@@ -869,7 +882,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-08-02",
-   "days_vacant": 107,
+   "days_vacant": 108,
    "next_arrival": "2026-12-29",
    "last_inspection": "2026-08-06",
    "last_inspector": "Banks Jen"
@@ -882,7 +895,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-04-05",
-   "days_vacant": 226,
+   "days_vacant": 227,
    "next_arrival": "2027-01-09",
    "last_inspection": null,
    "last_inspector": null
@@ -895,7 +908,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-10-31",
-   "days_vacant": 17,
+   "days_vacant": 18,
    "next_arrival": "2026-12-06",
    "last_inspection": "2026-10-31",
    "last_inspector": "Moritz Matt"
@@ -947,7 +960,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-10-18",
-   "days_vacant": 30,
+   "days_vacant": 31,
    "next_arrival": "2026-12-03",
    "last_inspection": "2026-10-18",
    "last_inspector": "McGlinchey Glenn"
@@ -960,10 +973,10 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-14",
-   "days_vacant": 3,
+   "days_vacant": 4,
    "next_arrival": "2027-02-07",
-   "last_inspection": "2026-10-19",
-   "last_inspector": "McGlinchey Glenn"
+   "last_inspection": "2026-11-17",
+   "last_inspector": "Moritz Matt"
   },
   {
    "id": 929756,
@@ -973,7 +986,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-10-16",
-   "days_vacant": 32,
+   "days_vacant": 33,
    "next_arrival": "2027-02-01",
    "last_inspection": "2026-04-23",
    "last_inspector": null
@@ -986,7 +999,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-04-03",
-   "days_vacant": 228,
+   "days_vacant": 229,
    "next_arrival": "2027-01-01",
    "last_inspection": "2026-04-24",
    "last_inspector": "Matthews Travis"
@@ -999,7 +1012,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-06",
-   "days_vacant": 11,
+   "days_vacant": 12,
    "next_arrival": "2026-12-04",
    "last_inspection": "2026-11-06",
    "last_inspector": "McGlinchey Glenn"
@@ -1012,7 +1025,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-10-29",
-   "days_vacant": 19,
+   "days_vacant": 20,
    "next_arrival": "2026-12-28",
    "last_inspection": "2026-11-02",
    "last_inspector": "Moritz Matt"
@@ -1025,7 +1038,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-14",
-   "days_vacant": 3,
+   "days_vacant": 4,
    "next_arrival": "2026-11-24",
    "last_inspection": "2026-11-14",
    "last_inspector": "Matthews Travis"
@@ -1038,7 +1051,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-10-20",
-   "days_vacant": 28,
+   "days_vacant": 29,
    "next_arrival": "2026-11-26",
    "last_inspection": "2026-11-09",
    "last_inspector": "McGlinchey Glenn"
@@ -1077,7 +1090,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-10-30",
-   "days_vacant": 18,
+   "days_vacant": 19,
    "next_arrival": "2026-11-23",
    "last_inspection": "2026-10-30",
    "last_inspector": "Moritz Matt"
@@ -1090,7 +1103,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-08-31",
-   "days_vacant": 78,
+   "days_vacant": 79,
    "next_arrival": "2027-01-31",
    "last_inspection": "2026-10-30",
    "last_inspector": "Matthews Travis"
@@ -1103,7 +1116,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-03-31",
-   "days_vacant": 231,
+   "days_vacant": 232,
    "next_arrival": "2027-01-01",
    "last_inspection": null,
    "last_inspector": null
@@ -1129,7 +1142,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-05-03",
-   "days_vacant": 198,
+   "days_vacant": 199,
    "next_arrival": "2027-01-31",
    "last_inspection": "2026-05-19",
    "last_inspector": "Randall Cararese"
@@ -1155,7 +1168,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-11",
-   "days_vacant": 6,
+   "days_vacant": 7,
    "next_arrival": "2026-11-27",
    "last_inspection": "2026-11-13",
    "last_inspector": "Matthews Travis"
@@ -1168,7 +1181,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-05-18",
-   "days_vacant": 183,
+   "days_vacant": 184,
    "next_arrival": "2027-01-01",
    "last_inspection": "2026-05-18",
    "last_inspector": null
@@ -1194,14 +1207,14 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-09-23",
-   "days_vacant": 55,
+   "days_vacant": 56,
    "next_arrival": "2026-12-27",
    "last_inspection": "2026-09-18",
    "last_inspector": "Moritz Matt"
   },
   {
    "id": 1167310,
-   "name": "Good Tideings",
+   "name": "Good Tidings",
    "area": "Longboat Key Vacation Rentals",
    "community": null,
    "status": "Active",
@@ -1259,7 +1272,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-05",
-   "days_vacant": 12,
+   "days_vacant": 13,
    "next_arrival": "2026-12-26",
    "last_inspection": "2026-11-06",
    "last_inspector": "Randall Cararese"
@@ -1270,11 +1283,11 @@
    "area": "Siesta Key Vacation Rentals",
    "community": "Gulf & Bay Club Bayside",
    "status": "Active",
-   "occupied_now": true,
-   "last_checkout": "2026-10-16",
-   "days_vacant": null,
+   "occupied_now": false,
+   "last_checkout": "2026-11-18",
+   "days_vacant": 0,
    "next_arrival": "2026-12-19",
-   "last_inspection": "2026-11-07",
+   "last_inspection": "2026-11-18",
    "last_inspector": "Randall Cararese"
   },
   {
@@ -1285,7 +1298,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-13",
-   "days_vacant": 4,
+   "days_vacant": 5,
    "next_arrival": "2026-12-02",
    "last_inspection": "2026-11-14",
    "last_inspector": "Randall Cararese"
@@ -1298,7 +1311,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-14",
-   "days_vacant": 3,
+   "days_vacant": 4,
    "next_arrival": "2026-11-21",
    "last_inspection": "2026-11-14",
    "last_inspector": "Monteforte Gavin"
@@ -1311,7 +1324,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-10-29",
-   "days_vacant": 19,
+   "days_vacant": 20,
    "next_arrival": "2026-12-19",
    "last_inspection": "2026-10-09",
    "last_inspector": "Randall Cararese"
@@ -1324,8 +1337,8 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-08",
-   "days_vacant": 9,
-   "next_arrival": "2026-12-19",
+   "days_vacant": 10,
+   "next_arrival": "2026-11-20",
    "last_inspection": "2026-11-08",
    "last_inspector": "McGlinchey Glenn"
   },
@@ -1337,7 +1350,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-07",
-   "days_vacant": 10,
+   "days_vacant": 11,
    "next_arrival": "2026-11-21",
    "last_inspection": "2026-11-11",
    "last_inspector": "Randall Cararese"
@@ -1350,7 +1363,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-14",
-   "days_vacant": 3,
+   "days_vacant": 4,
    "next_arrival": "2027-03-27",
    "last_inspection": "2026-11-14",
    "last_inspector": "Monteforte Gavin"
@@ -1376,7 +1389,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-10-04",
-   "days_vacant": 44,
+   "days_vacant": 45,
    "next_arrival": "2026-12-18",
    "last_inspection": "2026-10-09",
    "last_inspector": "Randall Cararese"
@@ -1402,7 +1415,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-10-31",
-   "days_vacant": 17,
+   "days_vacant": 18,
    "next_arrival": "2026-12-16",
    "last_inspection": "2026-11-04",
    "last_inspector": "Randall Cararese"
@@ -1415,7 +1428,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-09-03",
-   "days_vacant": 75,
+   "days_vacant": 76,
    "next_arrival": "2027-01-02",
    "last_inspection": "2026-10-15",
    "last_inspector": "Randall Cararese"
@@ -1428,7 +1441,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-14",
-   "days_vacant": 3,
+   "days_vacant": 4,
    "next_arrival": "2026-11-22",
    "last_inspection": "2026-11-15",
    "last_inspector": "Monteforte Gavin"
@@ -1441,7 +1454,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-09",
-   "days_vacant": 8,
+   "days_vacant": 9,
    "next_arrival": "2026-12-19",
    "last_inspection": "2026-11-12",
    "last_inspector": "Randall Cararese"
@@ -1467,7 +1480,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-09",
-   "days_vacant": 8,
+   "days_vacant": 9,
    "next_arrival": "2026-11-21",
    "last_inspection": "2026-11-11",
    "last_inspector": "Randall Cararese"
@@ -1480,7 +1493,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-06",
-   "days_vacant": 11,
+   "days_vacant": 12,
    "next_arrival": "2026-11-27",
    "last_inspection": "2026-11-05",
    "last_inspector": "Randall Cararese"
@@ -1493,8 +1506,8 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-07",
-   "days_vacant": 10,
-   "next_arrival": "2026-12-19",
+   "days_vacant": 11,
+   "next_arrival": "2026-11-26",
    "last_inspection": "2026-11-08",
    "last_inspector": "McGlinchey Glenn"
   },
@@ -1558,7 +1571,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-16",
-   "days_vacant": 1,
+   "days_vacant": 2,
    "next_arrival": "2027-02-13",
    "last_inspection": "2026-11-11",
    "last_inspector": "Randall Cararese"
@@ -1571,10 +1584,10 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-15",
-   "days_vacant": 2,
+   "days_vacant": 3,
    "next_arrival": "2026-11-20",
-   "last_inspection": "2026-11-08",
-   "last_inspector": "McGlinchey Glenn"
+   "last_inspection": "2026-11-18",
+   "last_inspector": "Randall Cararese"
   },
   {
    "id": 929621,
@@ -1584,9 +1597,9 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-09",
-   "days_vacant": 8,
+   "days_vacant": 9,
    "next_arrival": "2026-12-21",
-   "last_inspection": "2026-11-11",
+   "last_inspection": "2026-11-18",
    "last_inspector": "Randall Cararese"
   },
   {
@@ -1621,10 +1634,10 @@
    "area": "Siesta Key Vacation Rentals",
    "community": "Gulf & Bay Club Bayside",
    "status": "Active",
-   "occupied_now": false,
+   "occupied_now": true,
    "last_checkout": "2026-08-14",
-   "days_vacant": 95,
-   "next_arrival": "2026-11-18",
+   "days_vacant": null,
+   "next_arrival": "2026-11-27",
    "last_inspection": "2026-09-09",
    "last_inspector": "Randall Cararese"
   },
@@ -1662,7 +1675,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-15",
-   "days_vacant": 2,
+   "days_vacant": 3,
    "next_arrival": "2026-12-05",
    "last_inspection": "2026-11-04",
    "last_inspector": "Randall Cararese"
@@ -1675,7 +1688,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-09-06",
-   "days_vacant": 72,
+   "days_vacant": 73,
    "next_arrival": "2027-02-26",
    "last_inspection": "2026-09-28",
    "last_inspector": "Sierra Mesa Juan"
@@ -1701,7 +1714,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-14",
-   "days_vacant": 3,
+   "days_vacant": 4,
    "next_arrival": "2026-11-21",
    "last_inspection": "2026-11-14",
    "last_inspector": "Monteforte Gavin"
@@ -1740,7 +1753,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-17",
-   "days_vacant": 0,
+   "days_vacant": 1,
    "next_arrival": "2026-11-21",
    "last_inspection": "2026-11-17",
    "last_inspector": "Randall Cararese"
@@ -1753,7 +1766,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-07",
-   "days_vacant": 10,
+   "days_vacant": 11,
    "next_arrival": "2026-11-20",
    "last_inspection": "2026-11-08",
    "last_inspector": "McGlinchey Glenn"
@@ -1766,7 +1779,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-10-28",
-   "days_vacant": 20,
+   "days_vacant": 21,
    "next_arrival": "2026-12-19",
    "last_inspection": "2026-10-29",
    "last_inspector": "Randall Cararese"
@@ -1779,7 +1792,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-06",
-   "days_vacant": 11,
+   "days_vacant": 12,
    "next_arrival": "2026-11-20",
    "last_inspection": "2026-11-06",
    "last_inspector": "Randall Cararese"
@@ -1831,7 +1844,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-10-12",
-   "days_vacant": 36,
+   "days_vacant": 37,
    "next_arrival": "2027-01-01",
    "last_inspection": "2026-10-12",
    "last_inspector": "McGlinchey Glenn"
@@ -1857,7 +1870,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-09",
-   "days_vacant": 8,
+   "days_vacant": 9,
    "next_arrival": "2026-11-21",
    "last_inspection": "2026-11-13",
    "last_inspector": "McGlinchey Glenn"
@@ -1883,7 +1896,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-06-15",
-   "days_vacant": 155,
+   "days_vacant": 156,
    "next_arrival": "2027-02-01",
    "last_inspection": "2026-11-02",
    "last_inspector": "Moritz Matt"
@@ -1896,7 +1909,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-16",
-   "days_vacant": 1,
+   "days_vacant": 2,
    "next_arrival": "2026-12-27",
    "last_inspection": "2026-09-01",
    "last_inspector": "Banks Jen"
@@ -1909,7 +1922,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-06-28",
-   "days_vacant": 142,
+   "days_vacant": 143,
    "next_arrival": "2027-01-02",
    "last_inspection": "2026-10-20",
    "last_inspector": "Matthews Travis"
@@ -1922,7 +1935,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-14",
-   "days_vacant": 3,
+   "days_vacant": 4,
    "next_arrival": "2026-12-28",
    "last_inspection": "2026-10-25",
    "last_inspector": "McGlinchey Glenn"
@@ -1948,9 +1961,9 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-17",
-   "days_vacant": 0,
+   "days_vacant": 1,
    "next_arrival": "2027-01-01",
-   "last_inspection": "2026-10-02",
+   "last_inspection": "2026-11-17",
    "last_inspector": "Matthews Travis"
   },
   {
@@ -1961,7 +1974,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-04-26",
-   "days_vacant": 205,
+   "days_vacant": 206,
    "next_arrival": "2027-01-01",
    "last_inspection": "2026-04-28",
    "last_inspector": "Randall Cararese"
@@ -2026,7 +2039,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-01",
-   "days_vacant": 16,
+   "days_vacant": 17,
    "next_arrival": "2027-01-01",
    "last_inspection": "2026-11-02",
    "last_inspector": "McGlinchey Glenn"
@@ -2039,7 +2052,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-05",
-   "days_vacant": 12,
+   "days_vacant": 13,
    "next_arrival": "2026-11-21",
    "last_inspection": "2026-11-07",
    "last_inspector": "Matthews Travis"
@@ -2052,7 +2065,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-14",
-   "days_vacant": 3,
+   "days_vacant": 4,
    "next_arrival": "2026-11-21",
    "last_inspection": "2026-11-14",
    "last_inspector": "Inspections Gulf Coast"
@@ -2065,7 +2078,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-10-31",
-   "days_vacant": 17,
+   "days_vacant": 18,
    "next_arrival": "2027-01-02",
    "last_inspection": "2026-05-01",
    "last_inspector": "Santana Angel"
@@ -2091,7 +2104,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-11",
-   "days_vacant": 6,
+   "days_vacant": 7,
    "next_arrival": "2026-12-05",
    "last_inspection": "2026-11-14",
    "last_inspector": "Matthews Travis"
@@ -2104,7 +2117,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-09-27",
-   "days_vacant": 51,
+   "days_vacant": 52,
    "next_arrival": null,
    "last_inspection": "2026-09-21",
    "last_inspector": "Sierra Mesa Juan"
@@ -2117,7 +2130,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-04-07",
-   "days_vacant": 224,
+   "days_vacant": 225,
    "next_arrival": "2027-01-07",
    "last_inspection": "2026-04-15",
    "last_inspector": "Randall Cararese"
@@ -2141,10 +2154,10 @@
    "area": "Bradenton Vacation Rentals",
    "community": null,
    "status": "Active",
-   "occupied_now": false,
+   "occupied_now": true,
    "last_checkout": "2026-11-16",
-   "days_vacant": 1,
-   "next_arrival": "2026-11-18",
+   "days_vacant": null,
+   "next_arrival": "2026-11-23",
    "last_inspection": "2026-11-17",
    "last_inspector": "Moritz Matt"
   },
@@ -2169,7 +2182,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-13",
-   "days_vacant": 4,
+   "days_vacant": 5,
    "next_arrival": "2026-12-19",
    "last_inspection": "2026-11-13",
    "last_inspector": "Matthews Travis"
@@ -2195,7 +2208,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-16",
-   "days_vacant": 1,
+   "days_vacant": 2,
    "next_arrival": "2026-11-21",
    "last_inspection": "2026-11-17",
    "last_inspector": "Randall Cararese"
@@ -2221,7 +2234,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-08-13",
-   "days_vacant": 96,
+   "days_vacant": 97,
    "next_arrival": "2026-12-21",
    "last_inspection": "2026-08-14",
    "last_inspector": "Santana Angel"
@@ -2233,8 +2246,8 @@
    "community": null,
    "status": "Active",
    "occupied_now": false,
-   "last_checkout": "2026-10-03",
-   "days_vacant": 45,
+   "last_checkout": "2026-11-18",
+   "days_vacant": 0,
    "next_arrival": "2027-01-01",
    "last_inspection": "2026-10-03",
    "last_inspector": "Monteforte Gavin"
@@ -2260,7 +2273,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-08-04",
-   "days_vacant": 105,
+   "days_vacant": 106,
    "next_arrival": "2027-01-15",
    "last_inspection": "2026-09-15",
    "last_inspector": "Matthews Travis"
@@ -2299,7 +2312,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-03-07",
-   "days_vacant": 255,
+   "days_vacant": 256,
    "next_arrival": null,
    "last_inspection": null,
    "last_inspector": null
@@ -2312,7 +2325,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-05-03",
-   "days_vacant": 198,
+   "days_vacant": 199,
    "next_arrival": "2026-12-01",
    "last_inspection": "2026-05-22",
    "last_inspector": "Randall Cararese"
@@ -2325,7 +2338,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-09-30",
-   "days_vacant": 48,
+   "days_vacant": 49,
    "next_arrival": "2026-12-28",
    "last_inspection": "2026-10-03",
    "last_inspector": "Moritz Matt"
@@ -2364,7 +2377,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-05-03",
-   "days_vacant": 198,
+   "days_vacant": 199,
    "next_arrival": null,
    "last_inspection": "2026-05-12",
    "last_inspector": "Sierra Mesa Juan"
@@ -2390,7 +2403,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-09-29",
-   "days_vacant": 49,
+   "days_vacant": 50,
    "next_arrival": "2027-02-01",
    "last_inspection": "2026-09-22",
    "last_inspector": "Sierra Mesa Juan"
@@ -2403,7 +2416,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-06-24",
-   "days_vacant": 146,
+   "days_vacant": 147,
    "next_arrival": "2026-12-19",
    "last_inspection": "2026-06-24",
    "last_inspector": "Cabrera Yuli"
@@ -2416,7 +2429,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-07-14",
-   "days_vacant": 126,
+   "days_vacant": 127,
    "next_arrival": "2026-12-26",
    "last_inspection": "2026-07-15",
    "last_inspector": "Cabrera Yuli"
@@ -2429,7 +2442,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-03-31",
-   "days_vacant": 231,
+   "days_vacant": 232,
    "next_arrival": "2027-01-01",
    "last_inspection": null,
    "last_inspector": null
@@ -2440,9 +2453,9 @@
    "area": "Lakewood Ranch Vacation Rentals",
    "community": null,
    "status": "Active",
-   "occupied_now": true,
-   "last_checkout": null,
-   "days_vacant": null,
+   "occupied_now": false,
+   "last_checkout": "2026-11-18",
+   "days_vacant": 0,
    "next_arrival": "2026-12-01",
    "last_inspection": null,
    "last_inspector": null
@@ -2494,8 +2507,8 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-06",
-   "days_vacant": 11,
-   "next_arrival": "2027-01-01",
+   "days_vacant": 12,
+   "next_arrival": "2026-12-02",
    "last_inspection": "2026-11-07",
    "last_inspector": "Matthews Travis"
   },
@@ -2507,7 +2520,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-09-24",
-   "days_vacant": 54,
+   "days_vacant": 55,
    "next_arrival": "2027-01-01",
    "last_inspection": "2026-05-12",
    "last_inspector": "Cabrera Yuli"
@@ -2533,7 +2546,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-15",
-   "days_vacant": 2,
+   "days_vacant": 3,
    "next_arrival": "2026-11-21",
    "last_inspection": "2026-11-15",
    "last_inspector": "Urroz Cesar"
@@ -2598,7 +2611,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-16",
-   "days_vacant": 1,
+   "days_vacant": 2,
    "next_arrival": "2026-11-19",
    "last_inspection": "2026-11-16",
    "last_inspector": "Armstrong Norman"
@@ -2610,10 +2623,10 @@
    "community": "Sandalfoot Beachfront Condominiums",
    "status": "Active",
    "occupied_now": true,
-   "last_checkout": "2026-11-14",
+   "last_checkout": "2026-11-18",
    "days_vacant": null,
-   "next_arrival": "2026-11-18",
-   "last_inspection": "2026-11-07",
+   "next_arrival": "2026-12-05",
+   "last_inspection": "2026-11-18",
    "last_inspector": "Garcia Kyle"
   },
   {
@@ -2650,7 +2663,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-14",
-   "days_vacant": 3,
+   "days_vacant": 4,
    "next_arrival": "2026-11-24",
    "last_inspection": "2026-11-03",
    "last_inspector": "Garcia Kyle"
@@ -2676,7 +2689,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-14",
-   "days_vacant": 3,
+   "days_vacant": 4,
    "next_arrival": "2026-11-22",
    "last_inspection": "2026-11-14",
    "last_inspector": "Dallman Autumn"
@@ -2715,7 +2728,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-07",
-   "days_vacant": 10,
+   "days_vacant": 11,
    "next_arrival": "2026-11-22",
    "last_inspection": "2026-11-07",
    "last_inspector": "Garcia Kyle"
@@ -2728,7 +2741,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-10",
-   "days_vacant": 7,
+   "days_vacant": 8,
    "next_arrival": "2026-12-06",
    "last_inspection": "2026-11-11",
    "last_inspector": "Dallman Autumn"
@@ -2741,7 +2754,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-13",
-   "days_vacant": 4,
+   "days_vacant": 5,
    "next_arrival": "2026-11-19",
    "last_inspection": "2026-11-13",
    "last_inspector": "Garcia Kyle"
@@ -2767,7 +2780,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-09",
-   "days_vacant": 8,
+   "days_vacant": 9,
    "next_arrival": "2026-11-21",
    "last_inspection": "2026-11-11",
    "last_inspector": "Garcia Kyle"
@@ -2780,7 +2793,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-16",
-   "days_vacant": 1,
+   "days_vacant": 2,
    "next_arrival": "2026-11-19",
    "last_inspection": "2026-11-16",
    "last_inspector": "Dallman Autumn"
@@ -2793,7 +2806,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-09",
-   "days_vacant": 8,
+   "days_vacant": 9,
    "next_arrival": "2026-11-21",
    "last_inspection": "2026-11-09",
    "last_inspector": "Dallman Autumn"
@@ -2804,9 +2817,9 @@
    "area": "Sanibel Island Vacation Rentals",
    "community": "Sandalfoot Beachfront Condominiums",
    "status": "Active",
-   "occupied_now": true,
-   "last_checkout": "2026-11-11",
-   "days_vacant": null,
+   "occupied_now": false,
+   "last_checkout": "2026-11-18",
+   "days_vacant": 0,
    "next_arrival": "2026-11-21",
    "last_inspection": "2026-11-11",
    "last_inspector": "Armstrong Norman"
@@ -2819,10 +2832,10 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-17",
-   "days_vacant": 0,
+   "days_vacant": 1,
    "next_arrival": "2026-11-21",
-   "last_inspection": "2026-11-02",
-   "last_inspector": "Dallman Autumn"
+   "last_inspection": "2026-11-17",
+   "last_inspector": "Garcia Kyle"
   },
   {
    "id": 899091,
@@ -2832,7 +2845,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-14",
-   "days_vacant": 3,
+   "days_vacant": 4,
    "next_arrival": "2026-11-21",
    "last_inspection": "2026-11-08",
    "last_inspector": "Urroz Cesar"
@@ -2845,7 +2858,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-07",
-   "days_vacant": 10,
+   "days_vacant": 11,
    "next_arrival": "2026-11-23",
    "last_inspection": "2026-11-08",
    "last_inspector": "Urroz Cesar"
@@ -2858,7 +2871,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-13",
-   "days_vacant": 4,
+   "days_vacant": 5,
    "next_arrival": "2026-11-20",
    "last_inspection": "2026-11-13",
    "last_inspector": "Armstrong Norman"
@@ -2884,7 +2897,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-14",
-   "days_vacant": 3,
+   "days_vacant": 4,
    "next_arrival": "2026-11-21",
    "last_inspection": "2026-11-14",
    "last_inspector": "Dallman Autumn"
@@ -2897,7 +2910,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-14",
-   "days_vacant": 3,
+   "days_vacant": 4,
    "next_arrival": "2026-11-22",
    "last_inspection": "2026-11-14",
    "last_inspector": "Dallman Autumn"
@@ -2910,7 +2923,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-14",
-   "days_vacant": 3,
+   "days_vacant": 4,
    "next_arrival": "2026-11-22",
    "last_inspection": "2026-10-13",
    "last_inspector": "Dallman Autumn"
@@ -2923,7 +2936,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-15",
-   "days_vacant": 2,
+   "days_vacant": 3,
    "next_arrival": "2026-12-05",
    "last_inspection": "2026-11-15",
    "last_inspector": "Dallman Autumn"
@@ -2936,7 +2949,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-13",
-   "days_vacant": 4,
+   "days_vacant": 5,
    "next_arrival": "2026-11-20",
    "last_inspection": "2026-11-13",
    "last_inspector": "Dallman Autumn"
@@ -2949,7 +2962,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-17",
-   "days_vacant": 0,
+   "days_vacant": 1,
    "next_arrival": "2026-11-19",
    "last_inspection": "2026-11-04",
    "last_inspector": "Garcia Kyle"
@@ -2962,7 +2975,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-05",
-   "days_vacant": 12,
+   "days_vacant": 13,
    "next_arrival": "2026-11-21",
    "last_inspection": "2026-11-09",
    "last_inspector": "Dallman Autumn"
@@ -2975,7 +2988,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-12",
-   "days_vacant": 5,
+   "days_vacant": 6,
    "next_arrival": "2026-11-21",
    "last_inspection": "2026-11-12",
    "last_inspector": "Garcia Kyle"
@@ -3027,7 +3040,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-09",
-   "days_vacant": 8,
+   "days_vacant": 9,
    "next_arrival": "2026-12-02",
    "last_inspection": "2026-11-04",
    "last_inspector": "Dallman Autumn"
@@ -3040,7 +3053,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-09-27",
-   "days_vacant": 51,
+   "days_vacant": 52,
    "next_arrival": "2026-12-26",
    "last_inspection": "2026-09-09",
    "last_inspector": "Garcia Kyle"
@@ -3118,7 +3131,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-15",
-   "days_vacant": 2,
+   "days_vacant": 3,
    "next_arrival": "2026-11-21",
    "last_inspection": "2026-11-12",
    "last_inspector": "Dallman Autumn"
@@ -3129,9 +3142,9 @@
    "area": null,
    "community": "Sandalfoot Beachfront Condominiums",
    "status": "Active",
-   "occupied_now": true,
-   "last_checkout": "2026-11-14",
-   "days_vacant": null,
+   "occupied_now": false,
+   "last_checkout": "2026-11-18",
+   "days_vacant": 0,
    "next_arrival": "2026-11-20",
    "last_inspection": "2026-11-14",
    "last_inspector": "Dallman Autumn"
@@ -3157,7 +3170,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-17",
-   "days_vacant": 0,
+   "days_vacant": 1,
    "next_arrival": "2026-11-21",
    "last_inspection": "2026-11-11",
    "last_inspector": "Armstrong Norman"
@@ -3170,7 +3183,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-08",
-   "days_vacant": 9,
+   "days_vacant": 10,
    "next_arrival": "2026-11-23",
    "last_inspection": "2026-11-08",
    "last_inspector": "Urroz Cesar"
@@ -3183,7 +3196,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-17",
-   "days_vacant": 0,
+   "days_vacant": 1,
    "next_arrival": "2026-11-22",
    "last_inspection": "2026-11-10",
    "last_inspector": "Armstrong Norman"
@@ -3209,7 +3222,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-12",
-   "days_vacant": 5,
+   "days_vacant": 6,
    "next_arrival": "2026-11-21",
    "last_inspection": "2026-11-12",
    "last_inspector": null
@@ -3222,8 +3235,8 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-07",
-   "days_vacant": 10,
-   "next_arrival": "2026-11-20",
+   "days_vacant": 11,
+   "next_arrival": "2026-12-26",
    "last_inspection": "2026-11-07",
    "last_inspector": "Banks Jen"
   },
@@ -3235,7 +3248,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-07",
-   "days_vacant": 10,
+   "days_vacant": 11,
    "next_arrival": "2026-11-19",
    "last_inspection": "2026-11-07",
    "last_inspector": "McGlinchey Glenn"
@@ -3248,7 +3261,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-13",
-   "days_vacant": 4,
+   "days_vacant": 5,
    "next_arrival": "2026-11-20",
    "last_inspection": "2026-11-13",
    "last_inspector": "Banks Jen"
@@ -3261,7 +3274,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-10-25",
-   "days_vacant": 23,
+   "days_vacant": 24,
    "next_arrival": "2027-01-02",
    "last_inspection": "2026-09-01",
    "last_inspector": "Banks Jen"
@@ -3287,10 +3300,10 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-17",
-   "days_vacant": 0,
+   "days_vacant": 1,
    "next_arrival": "2027-02-01",
-   "last_inspection": "2026-05-13",
-   "last_inspector": "Cabrera Yuli"
+   "last_inspection": "2026-11-17",
+   "last_inspector": "Banks Jen"
   },
   {
    "id": 1168505,
@@ -3313,7 +3326,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-10-31",
-   "days_vacant": 17,
+   "days_vacant": 18,
    "next_arrival": null,
    "last_inspection": null,
    "last_inspector": null
@@ -3326,7 +3339,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-07-01",
-   "days_vacant": 139,
+   "days_vacant": 140,
    "next_arrival": "2027-01-01",
    "last_inspection": null,
    "last_inspector": null
@@ -3339,7 +3352,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-03-07",
-   "days_vacant": 255,
+   "days_vacant": 256,
    "next_arrival": null,
    "last_inspection": null,
    "last_inspector": null
@@ -3352,7 +3365,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-08-30",
-   "days_vacant": 79,
+   "days_vacant": 80,
    "next_arrival": null,
    "last_inspection": "2026-08-31",
    "last_inspector": "Sierra Mesa Juan"
@@ -3365,7 +3378,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-05",
-   "days_vacant": 12,
+   "days_vacant": 13,
    "next_arrival": "2026-11-20",
    "last_inspection": "2026-11-06",
    "last_inspector": "McGlinchey Glenn"
@@ -3417,7 +3430,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-17",
-   "days_vacant": 0,
+   "days_vacant": 1,
    "next_arrival": "2026-11-22",
    "last_inspection": "2026-11-17",
    "last_inspector": "McCartney Michelle"
@@ -3428,10 +3441,10 @@
    "area": "Sanibel Island Vacation Rentals",
    "community": null,
    "status": "Active",
-   "occupied_now": false,
-   "last_checkout": "2026-11-15",
-   "days_vacant": 2,
-   "next_arrival": "2026-11-18",
+   "occupied_now": true,
+   "last_checkout": "2026-11-18",
+   "days_vacant": null,
+   "next_arrival": "2026-11-22",
    "last_inspection": "2026-11-15",
    "last_inspector": "Johnson Michelle"
   },
@@ -3469,7 +3482,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-17",
-   "days_vacant": 0,
+   "days_vacant": 1,
    "next_arrival": "2026-12-06",
    "last_inspection": "2026-11-17",
    "last_inspector": "McCartney Michelle"
@@ -3586,7 +3599,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-14",
-   "days_vacant": 3,
+   "days_vacant": 4,
    "next_arrival": "2026-11-20",
    "last_inspection": "2026-11-14",
    "last_inspector": "Johnson Michelle"
@@ -3612,7 +3625,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-04",
-   "days_vacant": 13,
+   "days_vacant": 14,
    "next_arrival": "2026-11-23",
    "last_inspection": "2026-10-29",
    "last_inspector": "Ventura Nikolas"
@@ -3657,19 +3670,6 @@
    "last_inspector": "Johnson Michelle"
   },
   {
-   "id": 1167336,
-   "name": "Sly & Salty",
-   "area": "Longboat Key Vacation Rentals",
-   "community": null,
-   "status": "Active",
-   "occupied_now": true,
-   "last_checkout": null,
-   "days_vacant": null,
-   "next_arrival": "2027-04-01",
-   "last_inspection": null,
-   "last_inspector": null
-  },
-  {
    "id": 929843,
    "name": "Snow On The Beach",
    "area": "Longboat Key Vacation Rentals",
@@ -3677,7 +3677,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-03-07",
-   "days_vacant": 255,
+   "days_vacant": 256,
    "next_arrival": "2027-01-09",
    "last_inspection": null,
    "last_inspector": null
@@ -3690,7 +3690,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-10-13",
-   "days_vacant": 35,
+   "days_vacant": 36,
    "next_arrival": "2027-01-03",
    "last_inspection": "2026-10-15",
    "last_inspector": "Moritz Matt"
@@ -3703,8 +3703,8 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-09",
-   "days_vacant": 8,
-   "next_arrival": "2027-02-01",
+   "days_vacant": 9,
+   "next_arrival": "2026-12-01",
    "last_inspection": "2026-11-10",
    "last_inspector": "Matthews Travis"
   },
@@ -3755,7 +3755,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-08-08",
-   "days_vacant": 101,
+   "days_vacant": 102,
    "next_arrival": "2027-01-02",
    "last_inspection": "2026-10-26",
    "last_inspector": "McGlinchey Glenn"
@@ -3768,7 +3768,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-10-10",
-   "days_vacant": 38,
+   "days_vacant": 39,
    "next_arrival": "2027-01-01",
    "last_inspection": "2026-10-12",
    "last_inspector": "Moritz Matt"
@@ -3807,7 +3807,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-09-30",
-   "days_vacant": 48,
+   "days_vacant": 49,
    "next_arrival": "2027-02-27",
    "last_inspection": null,
    "last_inspector": null
@@ -3846,7 +3846,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-06-02",
-   "days_vacant": 168,
+   "days_vacant": 169,
    "next_arrival": "2027-01-01",
    "last_inspection": "2026-05-14",
    "last_inspector": "Randall Cararese"
@@ -3872,7 +3872,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-08-07",
-   "days_vacant": 102,
+   "days_vacant": 103,
    "next_arrival": "2026-12-29",
    "last_inspection": "2026-08-07",
    "last_inspector": "Sierra Mesa Juan"
@@ -3885,7 +3885,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-10-02",
-   "days_vacant": 46,
+   "days_vacant": 47,
    "next_arrival": "2027-01-01",
    "last_inspection": "2026-10-07",
    "last_inspector": "Sierra Mesa Juan"
@@ -3924,7 +3924,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-09-30",
-   "days_vacant": 48,
+   "days_vacant": 49,
    "next_arrival": "2027-02-01",
    "last_inspection": "2026-10-02",
    "last_inspector": "Moritz Matt"
@@ -3976,7 +3976,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-07-25",
-   "days_vacant": 115,
+   "days_vacant": 116,
    "next_arrival": null,
    "last_inspection": "2026-10-08",
    "last_inspector": "Moritz Matt"
@@ -3989,7 +3989,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-10-31",
-   "days_vacant": 17,
+   "days_vacant": 18,
    "next_arrival": "2026-12-01",
    "last_inspection": "2026-11-07",
    "last_inspector": "Matthews Travis"
@@ -4002,7 +4002,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-06-14",
-   "days_vacant": 156,
+   "days_vacant": 157,
    "next_arrival": "2027-01-01",
    "last_inspection": "2026-06-19",
    "last_inspector": "Santana Angel"
@@ -4015,7 +4015,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-10-30",
-   "days_vacant": 18,
+   "days_vacant": 19,
    "next_arrival": "2027-02-01",
    "last_inspection": "2026-07-01",
    "last_inspector": "Randall Cararese"
@@ -4028,7 +4028,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-10-27",
-   "days_vacant": 21,
+   "days_vacant": 22,
    "next_arrival": "2026-12-25",
    "last_inspection": "2026-11-02",
    "last_inspector": "McGlinchey Glenn"
@@ -4041,7 +4041,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-10-29",
-   "days_vacant": 19,
+   "days_vacant": 20,
    "next_arrival": "2026-12-25",
    "last_inspection": "2026-10-30",
    "last_inspector": "Moritz Matt"
@@ -4067,7 +4067,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-05-03",
-   "days_vacant": 198,
+   "days_vacant": 199,
    "next_arrival": "2026-12-19",
    "last_inspection": null,
    "last_inspector": null
@@ -4080,7 +4080,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-09-30",
-   "days_vacant": 48,
+   "days_vacant": 49,
    "next_arrival": "2027-02-01",
    "last_inspection": "2026-09-30",
    "last_inspector": "Matthews Travis"
@@ -4119,7 +4119,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-03-31",
-   "days_vacant": 231,
+   "days_vacant": 232,
    "next_arrival": null,
    "last_inspection": null,
    "last_inspector": null
@@ -4143,9 +4143,9 @@
    "area": "Venice Vacation Rentals",
    "community": "Yacht Club Apartments",
    "status": "Active",
-   "occupied_now": true,
-   "last_checkout": "2026-07-07",
-   "days_vacant": null,
+   "occupied_now": false,
+   "last_checkout": "2026-11-18",
+   "days_vacant": 0,
    "next_arrival": "2026-12-29",
    "last_inspection": "2026-11-06",
    "last_inspector": "Matthews Travis"
@@ -4171,7 +4171,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-17",
-   "days_vacant": 0,
+   "days_vacant": 1,
    "next_arrival": null,
    "last_inspection": null,
    "last_inspector": null
@@ -4300,8 +4300,8 @@
    "community": "Yacht Club Apartments",
    "status": "Active",
    "occupied_now": false,
-   "last_checkout": "2026-03-01",
-   "days_vacant": 261,
+   "last_checkout": null,
+   "days_vacant": null,
    "next_arrival": "2026-12-08",
    "last_inspection": null,
    "last_inspector": null
@@ -4392,7 +4392,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-11-17",
-   "days_vacant": 0,
+   "days_vacant": 1,
    "next_arrival": "2026-11-22",
    "last_inspection": null,
    "last_inspector": null
@@ -4420,8 +4420,8 @@
    "last_checkout": "2026-11-17",
    "days_vacant": null,
    "next_arrival": "2027-01-31",
-   "last_inspection": null,
-   "last_inspector": null
+   "last_inspection": "2026-11-17",
+   "last_inspector": "Matthews Travis"
   },
   {
    "id": 1016033,
@@ -4548,7 +4548,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-09-30",
-   "days_vacant": 48,
+   "days_vacant": 49,
    "next_arrival": "2026-12-02",
    "last_inspection": null,
    "last_inspector": null
@@ -4574,7 +4574,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-05-01",
-   "days_vacant": 200,
+   "days_vacant": 201,
    "next_arrival": "2026-12-26",
    "last_inspection": null,
    "last_inspector": null
@@ -4626,7 +4626,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-10-25",
-   "days_vacant": 23,
+   "days_vacant": 24,
    "next_arrival": null,
    "last_inspection": "2026-10-25",
    "last_inspector": "Urroz Cesar"
@@ -4652,7 +4652,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-09-18",
-   "days_vacant": 60,
+   "days_vacant": 61,
    "next_arrival": "2027-04-01",
    "last_inspection": "2026-07-03",
    "last_inspector": "Randall Cararese"
@@ -4678,7 +4678,7 @@
    "status": "Active",
    "occupied_now": false,
    "last_checkout": "2026-10-29",
-   "days_vacant": 19,
+   "days_vacant": 20,
    "next_arrival": "2026-11-21",
    "last_inspection": "2026-10-31",
    "last_inspector": "Moritz Matt"
