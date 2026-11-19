@@ -15,14 +15,14 @@
   },
   "9680": {
     "subject": "Sunny South-trash cans",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-23 20:10:18",
     "priority": 1
   },
   "9679": {
     "subject": "Pearl in the Rough- comp TV",
-    "assigned_to": "m.johnston@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-23 19:17:30",
     "priority": 1
@@ -111,25 +111,11 @@
     "due_date": "2026-11-20 22:00:00",
     "priority": 1
   },
-  "9662": {
-    "subject": "Outstanding Work Order, Invoice or Pending Charges - Shell Yeah | 3816 6th Ave Holmes",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-20 20:51:47",
-    "priority": 1
-  },
   "9660": {
     "subject": "zShell Yeah-cancel feb and March bookings",
     "assigned_to": "k.fisher@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-20 17:58:51",
-    "priority": 10
-  },
-  "9659": {
-    "subject": "zShell Yeah-charge the owner for canceling bookings",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-20 18:14:21",
     "priority": 10
   },
   "9656": {
@@ -484,14 +470,14 @@
   },
   "9224": {
     "subject": "PCA - Sandy Pointe",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-13 16:48:00",
     "priority": 1
   },
   "9222": {
     "subject": "PCA - Links & Leisure",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-13 16:46:00",
     "priority": 1
