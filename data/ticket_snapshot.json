@@ -1,9 +1,93 @@
 {
-  "9682": {
-    "subject": "ZSunny Life- open up Jan",
-    "assigned_to": "a.alvarado@choosegulfcoast.com",
+  "9697": {
+    "subject": "Beach Heron - Cancel clean",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-23 21:26:49",
+    "due_date": "2026-11-24 21:48:51",
+    "priority": 1
+  },
+  "9696": {
+    "subject": "Ocean Eyes - Cancellations",
+    "assigned_to": "a.guarin@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-24 21:34:05",
+    "priority": 1
+  },
+  "9694": {
+    "subject": "GBB1326 - Add to linen program",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-24 21:16:59",
+    "priority": 1
+  },
+  "9693": {
+    "subject": "The Duffer's Retreat - RES#52139 & Upcoming 52140",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-24 20:54:58",
+    "priority": 1
+  },
+  "9692": {
+    "subject": "Smoke Detectors- Tropic Treasure",
+    "assigned_to": "d.husak@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-24 19:39:53",
+    "priority": 1
+  },
+  "9691": {
+    "subject": "GBB1291 - Guest relocation",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-24 19:04:31",
+    "priority": 1
+  },
+  "9690": {
+    "subject": "Smoke Detectors- Mangrove Escape",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-24 18:43:44",
+    "priority": 1
+  },
+  "9689": {
+    "subject": "VR Compensation Tracker",
+    "assigned_to": "b.evans@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-24 18:38:31",
+    "priority": 5
+  },
+  "9688": {
+    "subject": "Longboat Escape - Lynx lock",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-24 18:32:47",
+    "priority": 1
+  },
+  "9687": {
+    "subject": "New lead (Mr Smith 12/31-1/14)",
+    "assigned_to": "b.evans@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-24 18:31:01",
+    "priority": 1
+  },
+  "9685": {
+    "subject": "Signal Inn Unit 7 / Photo update",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-24 16:36:36",
+    "priority": 5
+  },
+  "9684": {
+    "subject": "Sea La Vie - Please order beach chairs",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-24 16:30:35",
+    "priority": 1
+  },
+  "9683": {
+    "subject": "YCBR SEO Names",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-24 15:24:31",
     "priority": 10
   },
   "9681": {
@@ -20,13 +104,6 @@
     "due_date": "2026-11-23 20:10:18",
     "priority": 1
   },
-  "9679": {
-    "subject": "Pearl in the Rough- comp TV",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-23 19:17:30",
-    "priority": 1
-  },
   "9678": {
     "subject": "Transfer Fund : Residences Of Siesta Key to The White Pearl",
     "assigned_to": "j.rushton@choosegulfcoast.com",
@@ -40,20 +117,6 @@
     "status": "Open",
     "due_date": "2026-11-23 17:50:57",
     "priority": 5
-  },
-  "9675": {
-    "subject": "Shell Yeah- outstanding balance",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-23 15:43:22",
-    "priority": 10
-  },
-  "9674": {
-    "subject": "zBlossom Retreat- collect Stop payments",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-23 15:38:08",
-    "priority": 10
   },
   "9672": {
     "subject": "Name: Robinson Susan & Jeff | Res: 33970 | Refund Check Request",
@@ -76,13 +139,6 @@
     "due_date": "2026-11-20 22:00:00",
     "priority": 5
   },
-  "9668": {
-    "subject": "1 Star Review Feedback | Res #: 52252 | Pritchett Darin | Day Dreamer | 8/11/2026 - 11/11/2026",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-20 22:00:00",
-    "priority": 1
-  },
   "9667": {
     "subject": "1 Star Review Feedback | Res #: 62174 | Wilburn George | Enjoy Sarasota | 10/31/2026 - 11/14/2026",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
@@ -97,13 +153,6 @@
     "due_date": "2026-11-20 22:00:00",
     "priority": 1
   },
-  "9665": {
-    "subject": "5 Star Review Feedback | Res #: 62263 | Wise Kari | Sandalfoot 2B3 | 11/8/2026 - 11/13/2026",
-    "assigned_to": "n.armstrong@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-20 22:00:00",
-    "priority": 1
-  },
   "9664": {
     "subject": "4 Star Review Feedback | Res #: 62178 | Zoelzer Andreas | Signal Inn - Unit 17 | 10/20/2026 - 10/30/2026",
     "assigned_to": "l.costa@choosegulfcoast.com",
@@ -112,7 +161,7 @@
     "priority": 1
   },
   "9660": {
-    "subject": "zShell Yeah-cancel feb and March bookings",
+    "subject": "zShell Yeah-cancel feb and March bookings res #41450",
     "assigned_to": "k.fisher@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-20 17:58:51",
@@ -192,7 +241,7 @@
     "subject": "Birdie | Grill burners",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-19 18:39:00",
+    "due_date": "2026-11-20 18:39:00",
     "priority": 1
   },
   "9620": {
@@ -206,12 +255,12 @@
     "subject": "Rod And Reel | Patio Furniture",
     "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-17 16:26:07",
+    "due_date": "2026-12-01 16:26:00",
     "priority": 1
   },
   "9608": {
     "subject": "RES#39088 - Oak Water Escape Returning Guest Question",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-16 18:31:40",
     "priority": 1
@@ -229,13 +278,6 @@
     "status": "Open",
     "due_date": "2026-11-16 14:31:10",
     "priority": 10
-  },
-  "9591": {
-    "subject": "Chang Christina | Res #: 64927 | Unit: Beach House Residences Unit 1 | Guest Feedback",
-    "assigned_to": "j.delafuente@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-18 16:49:00",
-    "priority": 1
   },
   "9583": {
     "subject": "4 Star Review Feedback | Res #: 43914 | Justin Kemp-Gee | Gulf & Bay 1389 | 10/24/2026 - 11/7/2026",
@@ -255,7 +297,7 @@
     "subject": "My Great Escape-Confirm and continue 1 water per week",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-19 16:21:00",
+    "due_date": "2026-11-20 16:21:00",
     "priority": 1
   },
   "9560": {
@@ -263,13 +305,6 @@
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-11 22:00:00",
-    "priority": 1
-  },
-  "9559": {
-    "subject": "Residences Of Siesta Key | Broken balcony fan",
-    "assigned_to": "j.delafuente@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-19 22:00:00",
     "priority": 1
   },
   "9557": {
@@ -292,13 +327,6 @@
     "status": "Open",
     "due_date": "2026-11-20 19:13:00",
     "priority": 5
-  },
-  "9548": {
-    "subject": "GBB 1327 | Interior rug is dirty",
-    "assigned_to": "c.nutt@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-11 22:00:00",
-    "priority": 1
   },
   "9536": {
     "subject": "5 Star Review Feedback | Res #: 49065 | Godshalk Lori | Breakers West C3 | 10/24/2026 - 10/29/2026",
@@ -372,7 +400,7 @@
   },
   "9368": {
     "subject": "Flip Flop Retreat - excessive cleaning charge 10-22-26",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-26 22:00:00",
     "priority": 5
@@ -470,7 +498,7 @@
   },
   "9224": {
     "subject": "PCA - Sandy Pointe",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-13 16:48:00",
     "priority": 1
@@ -484,14 +512,14 @@
   },
   "9221": {
     "subject": "PCA - Flip Flop Retreat",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-13 16:45:00",
     "priority": 1
   },
   "9220": {
     "subject": "PCA - Edgewater Bungalow",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-18 16:45:00",
     "priority": 1
@@ -519,14 +547,14 @@
   },
   "9215": {
     "subject": "PCA - Bali Poolside",
-    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-06 16:41:00",
     "priority": 1
   },
   "9214": {
     "subject": "PCA - Array of Sunshine",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-13 16:40:00",
     "priority": 1
@@ -692,13 +720,6 @@
     "due_date": "2026-12-02 00:06:00",
     "priority": 1
   },
-  "8575": {
-    "subject": "The Duffers Retreat-PCA Deep clean",
-    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-10-09 17:24:00",
-    "priority": 1
-  },
   "8571": {
     "subject": "DR-11 Form :  Splash Decision - 14881 Laguna Drive",
     "assigned_to": "l.brigida@choosegulfcoast.com",
@@ -764,14 +785,14 @@
   },
   "8179": {
     "subject": "PCA for Little Bit Of Heaven Due Date: 9/8/2026",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-21 15:46:00",
     "priority": 5
   },
   "8037": {
     "subject": "Qualify for ARDI?",
-    "assigned_to": "c.nutt@choosegulfcoast.com",
+    "assigned_to": "e.morales@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-30 23:00:00",
     "priority": 10
