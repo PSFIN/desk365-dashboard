@@ -1,5 +1,100 @@
 [
   {
+    "ts": "2026-11-20T20:36:32+00:00",
+    "ticket_number": 9699,
+    "subject": "Cleaners start time for GBB 1371",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.messasierra@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-20T20:36:32+00:00",
+    "ticket_number": 9698,
+    "subject": "Assistance Needed: Retrieve & Shred Misdelivered Blank Checks at Marina Sunrise",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.messasierra@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-20T20:36:32+00:00",
+    "ticket_number": 9697,
+    "subject": "Beach Heron - Cancel clean",
+    "type": "reassigned",
+    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to j.messasierra@choosegulfcoast.com",
+    "from": "s.soriafrausto@choosegulfcoast.com",
+    "to": "j.messasierra@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-20T20:36:32+00:00",
+    "ticket_number": 9659,
+    "subject": "zShell Yeah-charge the owner for canceling bookings",
+    "type": "created",
+    "detail": "Created \u2014 assigned to m.johnston@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-20T20:36:32+00:00",
+    "ticket_number": 9557,
+    "subject": "Flip Flop Retreat | 2nd bedroom ceiling",
+    "type": "reassigned",
+    "detail": "Reassigned from d.husak@choosegulfcoast.com to j.delafuente@choosegulfcoast.com",
+    "from": "d.husak@choosegulfcoast.com",
+    "to": "j.delafuente@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-20T20:36:32+00:00",
+    "ticket_number": 9696,
+    "subject": "Ocean Eyes - Cancellations",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-20T20:36:32+00:00",
+    "ticket_number": 9692,
+    "subject": "Smoke Detectors- Tropic Treasure",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-20T20:36:32+00:00",
+    "ticket_number": 9672,
+    "subject": "Name: Robinson Susan & Jeff | Res: 33970 | Refund Check Request",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-20T20:36:32+00:00",
+    "ticket_number": 9660,
+    "subject": "zShell Yeah-cancel feb and March bookings res #41450",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-20T20:36:32+00:00",
+    "ticket_number": 9650,
+    "subject": "Tidewater Manor - Owner requesting comps",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-20T20:36:32+00:00",
+    "ticket_number": 9569,
+    "subject": "My Great Escape-Confirm and continue 1 water per week",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-20T20:36:32+00:00",
+    "ticket_number": 9215,
+    "subject": "PCA - Bali Poolside",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-20T20:36:32+00:00",
+    "ticket_number": 8037,
+    "subject": "Qualify for ARDI?",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-11-19T22:31:21+00:00",
     "ticket_number": 9697,
     "subject": "Beach Heron - Cancel clean",
@@ -7747,122 +7842,5 @@
     "detail": "Due date changed from 2026-10-16 15:46:00 to 2026-11-13 16:46:00",
     "from": "2026-10-16 15:46:00",
     "to": "2026-11-13 16:46:00"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 9221,
-    "subject": "PCA - Flip Flop Retreat",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-20 15:45:00 to 2026-10-30 15:45:00",
-    "from": "2026-10-20 15:45:00",
-    "to": "2026-10-30 15:45:00"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 9217,
-    "subject": "PCA - Breeze By The Sea",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-16 15:43:00 to 2026-10-29 15:43:00",
-    "from": "2026-10-16 15:43:00",
-    "to": "2026-10-29 15:43:00"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 9215,
-    "subject": "PCA - Bali Poolside",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-16 15:41:00 to 2026-11-06 16:41:00",
-    "from": "2026-10-16 15:41:00",
-    "to": "2026-11-06 16:41:00"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 9148,
-    "subject": "Lido Del Mare - Info sheet",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-12 15:48:02 to 2026-11-25 16:48:00",
-    "from": "2026-10-12 15:48:02",
-    "to": "2026-11-25 16:48:00"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 9146,
-    "subject": "Longboat Oasis - Info sheet",
-    "type": "reassigned",
-    "detail": "Reassigned from j.messasierra@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
-    "from": "j.messasierra@choosegulfcoast.com",
-    "to": "j.rushton@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 9136,
-    "subject": "Sunset Reflections - Info Sheet",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-12 14:19:24 to 2026-12-01 15:19:00",
-    "from": "2026-10-12 14:19:24",
-    "to": "2026-12-01 15:19:00"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 9135,
-    "subject": "Birdie - Info sheet",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-12 14:17:28 to 2026-10-31 14:17:00",
-    "from": "2026-10-12 14:17:28",
-    "to": "2026-10-31 14:17:00"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 9130,
-    "subject": "West James | Southern Comfort | Res #: 33775 | Pool Heat On",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-09 22:00:00 to 2026-10-24 22:00:00",
-    "from": "2026-10-09 22:00:00",
-    "to": "2026-10-24 22:00:00"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 8856,
-    "subject": "DR-11 Form : Tee Time | 19116 Scallop Loop, #105",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-22 21:00:00 to 2026-10-27 21:00:00",
-    "from": "2026-10-22 21:00:00",
-    "to": "2026-10-27 21:00:00"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 8571,
-    "subject": "DR-11 Form :  Splash Decision - 14881 Laguna Drive",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-22 21:00:00 to 2026-10-27 21:00:00",
-    "from": "2026-10-22 21:00:00",
-    "to": "2026-10-27 21:00:00"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 8550,
-    "subject": "DR-11 Form : Putt in Paradise -19116 SCALLOP LOOP, #202",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-22 21:00:00 to 2026-10-27 21:00:00",
-    "from": "2026-10-22 21:00:00",
-    "to": "2026-10-27 21:00:00"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 8499,
-    "subject": "Cedar Hammock Fire District Inspection - Multiple Units",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-22 21:00:00 to 2026-10-26 21:00:00",
-    "from": "2026-10-22 21:00:00",
-    "to": "2026-10-26 21:00:00"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 8444,
-    "subject": "PCA for Par Then Bar Due Date: 12/20/2026",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-12-31 21:09:00 to 2026-12-01 21:09:00",
-    "from": "2026-12-31 21:09:00",
-    "to": "2026-12-01 21:09:00"
   }
 ]
