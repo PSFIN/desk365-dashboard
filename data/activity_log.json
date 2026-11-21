@@ -1,5 +1,85 @@
 [
   {
+    "ts": "2026-11-21T16:52:40+00:00",
+    "ticket_number": 9703,
+    "subject": "Fink Peter | Res #: 67360 | Sandalfoot 1C3 | Cancellation",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-21T16:52:40+00:00",
+    "ticket_number": 9702,
+    "subject": "1391- frying pan charge",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-21T16:52:40+00:00",
+    "ticket_number": 9701,
+    "subject": "Guest Name: Kobel Natalee | Res #: 64885 | Unit: Signal Inn - Unit 07 | Cancellation Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-21T16:52:40+00:00",
+    "ticket_number": 9699,
+    "subject": "Cleaners start time for GBB 1371",
+    "type": "reassigned",
+    "detail": "Reassigned from j.messasierra@choosegulfcoast.com to c.nutt@choosegulfcoast.com",
+    "from": "j.messasierra@choosegulfcoast.com",
+    "to": "c.nutt@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-21T16:52:40+00:00",
+    "ticket_number": 9608,
+    "subject": "RES#39088 - Oak Water Escape Returning Guest Question",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-16 18:31:40 to 2026-12-31 18:31:00",
+    "from": "2026-11-16 18:31:40",
+    "to": "2026-12-31 18:31:00"
+  },
+  {
+    "ts": "2026-11-21T16:52:40+00:00",
+    "ticket_number": 9451,
+    "subject": "A Shore Thing | Multiple issues",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-20 23:00:00 to 2026-11-28 23:00:00",
+    "from": "2026-11-20 23:00:00",
+    "to": "2026-11-28 23:00:00"
+  },
+  {
+    "ts": "2026-11-21T16:52:40+00:00",
+    "ticket_number": 9368,
+    "subject": "Flip Flop Retreat - excessive cleaning charge 10-22-26",
+    "type": "reassigned",
+    "detail": "Reassigned from j.messasierra@choosegulfcoast.com to h.nomura@choosegulfcoast.com",
+    "from": "j.messasierra@choosegulfcoast.com",
+    "to": "h.nomura@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-21T16:52:40+00:00",
+    "ticket_number": 9225,
+    "subject": "PCA - Sans Souci",
+    "type": "reassigned",
+    "detail": "Reassigned from j.messasierra@choosegulfcoast.com to s.paulin@choosegulfcoast.com",
+    "from": "j.messasierra@choosegulfcoast.com",
+    "to": "s.paulin@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-21T16:52:40+00:00",
+    "ticket_number": 9697,
+    "subject": "Beach Heron - Cancel clean",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-21T16:52:40+00:00",
+    "ticket_number": 9648,
+    "subject": "Shades of Summer- cleaning",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-11-21T01:54:13+00:00",
     "ticket_number": 9700,
     "subject": "A Shore Thing | No pool sign",
@@ -7754,87 +7834,5 @@
     "subject": "Sea Ya - Description update",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 9381,
-    "subject": "Past Due Invoices- not in SL",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 9380,
-    "subject": "Avalon-trash cans",
-    "type": "created",
-    "detail": "Created \u2014 assigned to j.messasierra@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 9379,
-    "subject": "Owner Requested Deep Clean",
-    "type": "created",
-    "detail": "Created \u2014 assigned to j.messasierra@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 9378,
-    "subject": "Res #: 53170 | Unit: Waterfront Dreamin | Guest Name: Mielenz Laurel | POOL HEAT ON Request",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 9368,
-    "subject": "Flip Flop Retreat - excessive cleaning charge 10-22-26",
-    "type": "reassigned",
-    "detail": "Reassigned from s.soriafrausto@choosegulfcoast.com to j.messasierra@choosegulfcoast.com",
-    "from": "s.soriafrausto@choosegulfcoast.com",
-    "to": "j.messasierra@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 9364,
-    "subject": "Emailing inspection reports to Owner (Signal Inn Unit #5) - Owner receives an error message and unable to open the PDF",
-    "type": "reassigned",
-    "detail": "Reassigned from b.evans@choosegulfcoast.com to m.mccartney@choosegulfcoast.com",
-    "from": "b.evans@choosegulfcoast.com",
-    "to": "m.mccartney@choosegulfcoast.com"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 9341,
-    "subject": "Newsletter / Owner Account Balance & Carrying Charge Policy",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-23 20:38:28 to 2026-10-28 20:38:00",
-    "from": "2026-10-23 20:38:28",
-    "to": "2026-10-28 20:38:00"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 9328,
-    "subject": "Charlottes Dream-DC",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-23 14:19:50 to 2026-11-22 15:19:00",
-    "from": "2026-10-23 14:19:50",
-    "to": "2026-11-22 15:19:00"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 9325,
-    "subject": "Owner facing newsletter / Professional Linen Program",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-22 22:00:00 to 2026-10-28 22:00:00",
-    "from": "2026-10-22 22:00:00",
-    "to": "2026-10-28 22:00:00"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 9324,
-    "subject": "Newsletter to owner / Municipal License and Registration Renewal Administration Fee",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-22 22:00:00 to 2026-10-28 22:00:00",
-    "from": "2026-10-22 22:00:00",
-    "to": "2026-10-28 22:00:00"
   }
 ]

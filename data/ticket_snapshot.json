@@ -1,4 +1,25 @@
 {
+  "9703": {
+    "subject": "Fink Peter | Res #: 67360 | Sandalfoot 1C3 | Cancellation",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-25 22:00:00",
+    "priority": 1
+  },
+  "9702": {
+    "subject": "1391- frying pan charge",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-25 22:00:00",
+    "priority": 10
+  },
+  "9701": {
+    "subject": "Guest Name: Kobel Natalee | Res #: 64885 | Unit: Signal Inn - Unit 07 | Cancellation Request",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-25 22:00:00",
+    "priority": 1
+  },
   "9700": {
     "subject": "A Shore Thing | No pool sign",
     "assigned_to": "j.rushton@choosegulfcoast.com",
@@ -8,7 +29,7 @@
   },
   "9699": {
     "subject": "Cleaners start time for GBB 1371",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "c.nutt@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-27 17:00:00",
     "priority": 10
@@ -18,13 +39,6 @@
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-25 16:48:17",
-    "priority": 1
-  },
-  "9697": {
-    "subject": "Beach Heron - Cancel clean",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-24 21:48:51",
     "priority": 1
   },
   "9694": {
@@ -181,13 +195,6 @@
     "due_date": "2026-11-19 22:00:00",
     "priority": 1
   },
-  "9648": {
-    "subject": "Shades of Summer- cleaning",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-19 18:40:20",
-    "priority": 1
-  },
   "9646": {
     "subject": "Lynnbrook Chargeback | Res# 65037 | Menard Nicole | Unit: Colony Inn C-52 | CI: 10/26/2026 | CO: 10/29/2026",
     "assigned_to": "e.morales@choosegulfcoast.com",
@@ -255,7 +262,7 @@
     "subject": "RES#39088 - Oak Water Escape Returning Guest Question",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-16 18:31:40",
+    "due_date": "2026-12-31 18:31:00",
     "priority": 1
   },
   "9605": {
@@ -346,7 +353,7 @@
     "subject": "A Shore Thing | Multiple issues",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-20 23:00:00",
+    "due_date": "2026-11-28 23:00:00",
     "priority": 1
   },
   "9446": {
@@ -372,7 +379,7 @@
   },
   "9368": {
     "subject": "Flip Flop Retreat - excessive cleaning charge 10-22-26",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-26 22:00:00",
     "priority": 5
@@ -463,7 +470,7 @@
   },
   "9225": {
     "subject": "PCA - Sans Souci",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-13 16:49:00",
     "priority": 1
