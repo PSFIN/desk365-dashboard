@@ -1,4 +1,11 @@
 {
+  "9700": {
+    "subject": "A Shore Thing | No pool sign",
+    "assigned_to": "j.rushton@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-25 21:50:11",
+    "priority": 1
+  },
   "9699": {
     "subject": "Cleaners start time for GBB 1371",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
@@ -227,7 +234,7 @@
     "subject": "Birdie | Grill burners",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-20 18:39:00",
+    "due_date": "2026-11-26 18:39:00",
     "priority": 1
   },
   "9620": {
@@ -293,20 +300,6 @@
     "due_date": "2026-11-27 21:51:00",
     "priority": 1
   },
-  "9556": {
-    "subject": "VR Management Agreement Update / Local Registration",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-20 19:24:00",
-    "priority": 5
-  },
-  "9555": {
-    "subject": "VR Management Agreement Update /  Carrying Charge",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-20 19:13:00",
-    "priority": 5
-  },
   "9536": {
     "subject": "5 Star Review Feedback | Res #: 49065 | Godshalk Lori | Breakers West C3 | 10/24/2026 - 10/29/2026",
     "assigned_to": "l.costa@choosegulfcoast.com",
@@ -318,14 +311,14 @@
     "subject": "Teams Background",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-20 20:49:00",
+    "due_date": "2026-11-27 20:49:00",
     "priority": 1
   },
   "9499": {
     "subject": "Business Cards - Blank",
     "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-20 20:39:00",
+    "due_date": "2026-11-27 20:39:00",
     "priority": 5
   },
   "9494": {

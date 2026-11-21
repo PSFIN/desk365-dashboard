@@ -1,5 +1,53 @@
 [
   {
+    "ts": "2026-11-21T01:54:13+00:00",
+    "ticket_number": 9700,
+    "subject": "A Shore Thing | No pool sign",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-21T01:54:13+00:00",
+    "ticket_number": 9621,
+    "subject": "Birdie | Grill burners",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-20 18:39:00 to 2026-11-26 18:39:00",
+    "from": "2026-11-20 18:39:00",
+    "to": "2026-11-26 18:39:00"
+  },
+  {
+    "ts": "2026-11-21T01:54:13+00:00",
+    "ticket_number": 9500,
+    "subject": "Teams Background",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-20 20:49:00 to 2026-11-27 20:49:00",
+    "from": "2026-11-20 20:49:00",
+    "to": "2026-11-27 20:49:00"
+  },
+  {
+    "ts": "2026-11-21T01:54:13+00:00",
+    "ticket_number": 9499,
+    "subject": "Business Cards - Blank",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-20 20:39:00 to 2026-11-27 20:39:00",
+    "from": "2026-11-20 20:39:00",
+    "to": "2026-11-27 20:39:00"
+  },
+  {
+    "ts": "2026-11-21T01:54:13+00:00",
+    "ticket_number": 9556,
+    "subject": "VR Management Agreement Update / Local Registration",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-21T01:54:13+00:00",
+    "ticket_number": 9555,
+    "subject": "VR Management Agreement Update /  Carrying Charge",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-11-20T20:36:32+00:00",
     "ticket_number": 9699,
     "subject": "Cleaners start time for GBB 1371",
@@ -7788,59 +7836,5 @@
     "detail": "Due date changed from 2026-10-22 22:00:00 to 2026-10-28 22:00:00",
     "from": "2026-10-22 22:00:00",
     "to": "2026-10-28 22:00:00"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 9260,
-    "subject": "Email Signature",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-23 19:43:00 to 2026-10-29 19:43:00",
-    "from": "2026-10-23 19:43:00",
-    "to": "2026-10-29 19:43:00"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 9258,
-    "subject": "Palm Meadow-no cleaning",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-16 19:42:59 to 2026-10-23 19:42:00",
-    "from": "2026-10-16 19:42:59",
-    "to": "2026-10-23 19:42:00"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 9227,
-    "subject": "PCA - Serenity Garden",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-17 15:50:00 to 2026-11-03 16:50:00",
-    "from": "2026-10-17 15:50:00",
-    "to": "2026-11-03 16:50:00"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 9225,
-    "subject": "PCA - Sans Souci",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-20 15:49:00 to 2026-10-30 15:49:00",
-    "from": "2026-10-20 15:49:00",
-    "to": "2026-10-30 15:49:00"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 9224,
-    "subject": "PCA - Sandy Pointe",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-19 15:48:00 to 2026-10-31 15:48:00",
-    "from": "2026-10-19 15:48:00",
-    "to": "2026-10-31 15:48:00"
-  },
-  {
-    "ts": "2026-10-22T21:48:37+00:00",
-    "ticket_number": 9223,
-    "subject": "PCA - LuvLax",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-16 15:46:00 to 2026-11-13 16:46:00",
-    "from": "2026-10-16 15:46:00",
-    "to": "2026-11-13 16:46:00"
   }
 ]
