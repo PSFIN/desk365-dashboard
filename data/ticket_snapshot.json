@@ -1,4 +1,18 @@
 {
+  "9705": {
+    "subject": "Very sharp metal pipe sticking out of the concrete in the rocks in front of Signal Inn Shell Station",
+    "assigned_to": "c.thayer@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-24 18:00:00",
+    "priority": 20
+  },
+  "9704": {
+    "subject": "Enjoy Sarasota | Carpets issue",
+    "assigned_to": "d.husak@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-25 22:00:00",
+    "priority": 1
+  },
   "9703": {
     "subject": "Fink Peter | Res #: 67360 | Sandalfoot 1C3 | Cancellation",
     "assigned_to": "h.nomura@choosegulfcoast.com",
@@ -29,7 +43,7 @@
   },
   "9699": {
     "subject": "Cleaners start time for GBB 1371",
-    "assigned_to": "c.nutt@choosegulfcoast.com",
+    "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-27 17:00:00",
     "priority": 10
@@ -297,7 +311,7 @@
     "subject": "The Cortusa | Bourgeois Yvon | Res#: 65263 | Unidentified Package Left at Property",
     "assigned_to": "s.soriafrausto@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-11 22:00:00",
+    "due_date": "2026-11-24 22:00:00",
     "priority": 1
   },
   "9557": {
@@ -456,7 +470,7 @@
   },
   "9228": {
     "subject": "PCA - Tropic Treasure",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
+    "assigned_to": "s.paulin@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-21 16:51:00",
     "priority": 1
@@ -571,13 +585,6 @@
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-14 16:46:00",
-    "priority": 1
-  },
-  "9144": {
-    "subject": "GBB1350 - Deep clean",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-21 16:43:00",
     "priority": 1
   },
   "9136": {
