@@ -1,5 +1,19 @@
 [
   {
+    "ts": "2026-11-22T01:55:24+00:00",
+    "ticket_number": 9708,
+    "subject": "COLONY INN PRE-ARRIVAL MESSAGE",
+    "type": "created",
+    "detail": "Created \u2014 assigned to b.evans@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-22T01:55:24+00:00",
+    "ticket_number": 9707,
+    "subject": "Oden Shawn | Unit: zSandalfoot 1D3 | Res #: 47801 | Relocation Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to n.armstrong@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-11-21T21:57:58+00:00",
     "ticket_number": 9705,
     "subject": "Very sharp metal pipe sticking out of the concrete in the rocks in front of Signal Inn Shell Station",
@@ -7820,19 +7834,5 @@
     "subject": "Vrbo -  Your property may be at risk for an unauthorized event",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-23T05:08:13+00:00",
-    "ticket_number": 9365,
-    "subject": "Athey Ramona/Sandalfoot 3B2/Res #: 65319/Cancelation Request",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-23T00:18:16+00:00",
-    "ticket_number": 9384,
-    "subject": "5 Star Review Feedback | Res #: 58843 | Kiehlmann Lara | Dreams Of Paradise | 10/18/2026 - 10/22/2026",
-    "type": "created",
-    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
   }
 ]
