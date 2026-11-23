@@ -1,5 +1,66 @@
 [
   {
+    "ts": "2026-11-23T13:24:15+00:00",
+    "ticket_number": 9224,
+    "subject": "PCA - Sandy Pointe",
+    "type": "reassigned",
+    "detail": "Reassigned from s.paulin@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
+    "from": "s.paulin@choosegulfcoast.com",
+    "to": "j.rushton@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-23T13:24:15+00:00",
+    "ticket_number": 9222,
+    "subject": "PCA - Links & Leisure",
+    "type": "reassigned",
+    "detail": "Reassigned from s.paulin@choosegulfcoast.com to j.rushton@choosegulfcoast.com",
+    "from": "s.paulin@choosegulfcoast.com",
+    "to": "j.rushton@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-23T13:24:15+00:00",
+    "ticket_number": 9221,
+    "subject": "PCA - Flip Flop Retreat",
+    "type": "reassigned",
+    "detail": "Reassigned from s.paulin@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "s.paulin@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-23T13:24:15+00:00",
+    "ticket_number": 9220,
+    "subject": "PCA - Edgewater Bungalow",
+    "type": "reassigned",
+    "detail": "Reassigned from s.paulin@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "s.paulin@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-23T13:24:15+00:00",
+    "ticket_number": 9214,
+    "subject": "PCA - Array of Sunshine",
+    "type": "reassigned",
+    "detail": "Reassigned from s.paulin@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "s.paulin@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-23T13:24:15+00:00",
+    "ticket_number": 8179,
+    "subject": "PCA for Little Bit Of Heaven Due Date: 9/8/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from s.paulin@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "s.paulin@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-23T13:24:15+00:00",
+    "ticket_number": 9646,
+    "subject": "Lynnbrook Chargeback | Res# 65037 | Menard Nicole | Unit: Colony Inn C-52 | CI: 10/26/2026 | CO: 10/29/2026",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-11-23T03:24:42+00:00",
     "ticket_number": 9709,
     "subject": "Klein Theresa | Unit: Signal Inn - Unit 15 | Res #: 64347 | Guest Feedback",
@@ -7783,56 +7844,5 @@
     "detail": "Due date changed from 2026-10-12 15:43:51 to 2026-10-25 15:43:00",
     "from": "2026-10-12 15:43:51",
     "to": "2026-10-25 15:43:00"
-  },
-  {
-    "ts": "2026-10-23T15:17:47+00:00",
-    "ticket_number": 7396,
-    "subject": "Marriott Curation Rejected - Signal Inn 18",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-23 15:06:00 to 2026-10-30 15:06:00",
-    "from": "2026-10-23 15:06:00",
-    "to": "2026-10-30 15:06:00"
-  },
-  {
-    "ts": "2026-10-23T15:17:47+00:00",
-    "ticket_number": 9383,
-    "subject": "5 Star Review Feedback | Res #: 64051 | Siders Vickie | Colony Inn C-45| 10/15/2026 - 10/18/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-23T15:17:47+00:00",
-    "ticket_number": 9328,
-    "subject": "Charlottes Dream-DC",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-23T15:17:47+00:00",
-    "ticket_number": 9314,
-    "subject": "Rental Projection",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-23T15:17:47+00:00",
-    "ticket_number": 9277,
-    "subject": "06ers-no cleaning owner block",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-23T15:17:47+00:00",
-    "ticket_number": 9275,
-    "subject": "Game On-Pictures",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-23T05:08:13+00:00",
-    "ticket_number": 9377,
-    "subject": "Cutter Brian | Bali Poolside | Res #: 60129 | Prop visit",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
 ]
