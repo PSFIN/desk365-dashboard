@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-11-23T03:24:42+00:00",
+    "ticket_number": 9709,
+    "subject": "Klein Theresa | Unit: Signal Inn - Unit 15 | Res #: 64347 | Guest Feedback",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-11-22T01:55:24+00:00",
     "ticket_number": 9708,
     "subject": "COLONY INN PRE-ARRIVAL MESSAGE",
@@ -7825,13 +7832,6 @@
     "ts": "2026-10-23T05:08:13+00:00",
     "ticket_number": 9377,
     "subject": "Cutter Brian | Bali Poolside | Res #: 60129 | Prop visit",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-23T05:08:13+00:00",
-    "ticket_number": 9366,
-    "subject": "Vrbo -  Your property may be at risk for an unauthorized event",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
