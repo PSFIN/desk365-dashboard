@@ -1,5 +1,14 @@
 [
   {
+    "ts": "2026-11-24T11:17:33+00:00",
+    "ticket_number": 9721,
+    "subject": "JAN JACOB / VRBO / Life In Full Swing / Property Pet Inquiry",
+    "type": "reassigned",
+    "detail": "Reassigned from c.hernandez@choosegulfcoast.com to h.nomura@choosegulfcoast.com",
+    "from": "c.hernandez@choosegulfcoast.com",
+    "to": "h.nomura@choosegulfcoast.com"
+  },
+  {
     "ts": "2026-11-24T01:05:22+00:00",
     "ticket_number": 9721,
     "subject": "JAN JACOB / VRBO / Life In Full Swing / Property Inquiries",
@@ -7831,12 +7840,5 @@
     "subject": "Guest Name: Greenly Robert |  Res #: 65479 | Unit: Sandalfoot 1C2 | Request for removal",
     "type": "created",
     "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-25T14:08:34+00:00",
-    "ticket_number": 9382,
-    "subject": "Conway Nicola/Gulf & Bay Bayside - 1391/Res #: 39119/Cleaning Refund Request",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
 ]
