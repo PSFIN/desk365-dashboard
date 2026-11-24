@@ -1,38 +1,52 @@
 {
+  "9734": {
+    "subject": "Guest Claim of Bed Bug Bites / Request for Financial Compensation",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-27 20:45:42",
+    "priority": 1
+  },
+  "9732": {
+    "subject": "T-Wreckz Junk Open Invoices as of 11/24/2026",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-27 18:02:56",
+    "priority": 1
+  },
+  "9731": {
+    "subject": "A Hole in one-Lynx lock",
+    "assigned_to": "j.delafuente@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-27 17:57:18",
+    "priority": 1
+  },
+  "9730": {
+    "subject": "Name: Kathy Smith | Res: 33982 | Refund Check Request",
+    "assigned_to": "k.fisher@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-27 16:39:31",
+    "priority": 1
+  },
+  "9724": {
+    "subject": "Name: Oden Shawn | Res: 47801 | Reservation Commission",
+    "assigned_to": "a.ytac@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-27 14:36:56",
+    "priority": 1
+  },
+  "9723": {
+    "subject": "Cather Katie | Res #: 66901 | Unit: Pier Pressure | Cancellation Request",
+    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-27 14:15:47",
+    "priority": 1
+  },
   "9721": {
     "subject": "JAN JACOB / VRBO / Life In Full Swing / Property Pet Inquiry",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-26 22:00:00",
     "priority": 1
-  },
-  "9720": {
-    "subject": "New Bloom - Area to Add Photos",
-    "assigned_to": "s.vengaloor@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-26 17:22:07",
-    "priority": 1
-  },
-  "9719": {
-    "subject": "Rising tides-lawn service",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-26 17:10:21",
-    "priority": 10
-  },
-  "9718": {
-    "subject": "Point of Rocks- lawn",
-    "assigned_to": "c.thayer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-26 17:08:44",
-    "priority": 10
-  },
-  "9717": {
-    "subject": "Southern Comfort- Cleaning",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-26 17:02:13",
-    "priority": 10
   },
   "9716": {
     "subject": "Pearl In The Rough- Dishwasher Racks",
@@ -40,13 +54,6 @@
     "status": "Open",
     "due_date": "2026-11-26 17:00:25",
     "priority": 1
-  },
-  "9715": {
-    "subject": "Sunny Life-cleaning",
-    "assigned_to": "j.messasierra@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-26 16:51:21",
-    "priority": 10
   },
   "9713": {
     "subject": "rent rev",
@@ -78,7 +85,7 @@
   },
   "9709": {
     "subject": "Klein Theresa | Unit: Signal Inn - Unit 15 | Res #: 64347 | Guest Feedback",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
+    "assigned_to": "l.costa@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-25 22:00:00",
     "priority": 1
@@ -86,13 +93,6 @@
   "9708": {
     "subject": "COLONY INN PRE-ARRIVAL MESSAGE",
     "assigned_to": "b.evans@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-25 22:00:00",
-    "priority": 1
-  },
-  "9707": {
-    "subject": "Oden Shawn | Unit: zSandalfoot 1D3 | Res #: 47801 | Relocation Request",
-    "assigned_to": "n.armstrong@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-25 22:00:00",
     "priority": 1
@@ -132,13 +132,6 @@
     "due_date": "2026-11-24 20:54:58",
     "priority": 1
   },
-  "9691": {
-    "subject": "GBB1291 - Guest relocation",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-24 19:04:31",
-    "priority": 1
-  },
   "9690": {
     "subject": "Smoke Detectors- Mangrove Escape",
     "assigned_to": "j.rushton@choosegulfcoast.com",
@@ -166,27 +159,6 @@
     "status": "Open",
     "due_date": "2026-11-24 16:30:35",
     "priority": 1
-  },
-  "9681": {
-    "subject": "Sunny South-new pictures",
-    "assigned_to": "b.meyer@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-30 20:15:00",
-    "priority": 10
-  },
-  "9678": {
-    "subject": "Transfer Fund : Residences Of Siesta Key to The White Pearl",
-    "assigned_to": "e.morales@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-23 19:01:56",
-    "priority": 1
-  },
-  "9677": {
-    "subject": "Email Signature Needed - Darrel P",
-    "assigned_to": "d.penaherrera@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-23 17:50:57",
-    "priority": 5
   },
   "9667": {
     "subject": "1 Star Review Feedback | Res #: 62174 | Wilburn George | Enjoy Sarasota | 10/31/2026 - 11/14/2026",
@@ -654,7 +626,7 @@
     "subject": "DR-11 Form : Tee Time | 19116 Scallop Loop, #105",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-23 21:00:00",
+    "due_date": "2026-11-26 21:00:00",
     "priority": 10
   },
   "8830": {
@@ -682,7 +654,7 @@
     "subject": "DR-11 Form :  Splash Decision - 14881 Laguna Drive",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-23 21:00:00",
+    "due_date": "2026-11-26 21:00:00",
     "priority": 10
   },
   "8562": {
@@ -696,14 +668,14 @@
     "subject": "DR-11 Form : Putt in Paradise -19116 SCALLOP LOOP, #202",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-23 21:00:00",
+    "due_date": "2026-11-26 21:00:00",
     "priority": 10
   },
   "8499": {
     "subject": "Cedar Hammock Fire District Inspection - Multiple Units",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-23 21:00:00",
+    "due_date": "2026-11-26 21:00:00",
     "priority": 10
   },
   "8444": {
@@ -717,7 +689,7 @@
     "subject": "DR-11 Forms : Multiple Property Units",
     "assigned_to": "l.brigida@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-23 21:00:00",
+    "due_date": "2026-11-26 21:00:00",
     "priority": 10
   },
   "8365": {
@@ -731,7 +703,7 @@
     "subject": "Southern Comfort-PCA cleaning request",
     "assigned_to": "j.messasierra@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-27 19:18:00",
+    "due_date": "2026-11-29 19:18:00",
     "priority": 10
   },
   "8329": {
