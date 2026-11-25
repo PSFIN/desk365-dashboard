@@ -94,6 +94,14 @@
   .ai.mine { border-color: var(--brand); background: var(--brand-weak); }
   .ai small { color: var(--muted); }
 
+  /* new-ticket form */
+  .form label { display: block; font-size: 12px; color: var(--muted); margin-top: 12px; }
+  .form input, .form textarea, .form select { display: block; width: 100%; margin-top: 4px; padding: 8px 10px; color: var(--text);
+    border: 1px solid var(--line); background: var(--panel); border-radius: 6px; font: inherit; }
+  .form textarea { resize: vertical; }
+  .form .two { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .form .actions { margin-top: 16px; display: flex; gap: 8px; }
+
   /* detail drawer */
   .overlay { position: fixed; inset: 0; background: rgba(0,0,0,.35); z-index: 9; }
   .drawer { position: fixed; top: 0; right: 0; bottom: 0; width: min(720px, 100%); background: var(--panel);
@@ -169,7 +177,8 @@
       <label>to <input type="date" id="fTo"></label>
       <span></span>
     </div>
-    <div class="summary"><span id="count">Loading…</span><span class="note">Times are shown as stored in Desk365 (account time zone).</span></div>
+    <div class="summary"><span id="count">Loading…</span>
+      <span><span class="note">Times are in Eastern time. &nbsp;</span><button class="primary" id="newTicket">+ New ticket</button></span></div>
     <div class="tablewrap">
       <table>
         <thead><tr>
@@ -205,7 +214,8 @@ const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBh
 const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 const PAGE_SIZE = 50;
-const LIST_COLS = 'ticket_number,subject,status,priority,assigned_to,category,contact_name,contact_email,created_on,updated_on';
+const LIST_COLS = 'ticket_number,subject,status,priority,assigned_to,category,contact_name,contact_email,created_on,updated_on,origin';
+const NATIVE_FROM = 100000;   // tickets created here are numbered from 100001; Desk365's archive stays below this
 const DETAIL_COLS = 'ticket_number,subject,status,priority,type,source,assigned_to,group_name,category,subcategory,' +
   'contact_name,contact_email,company_name,form_name,sla,completed_within_sla,conversation_count,created_on,updated_on,' +
   'due_date,first_response_time,resolved_on,closed_on,watchers,share_to,custom_fields,description_text';
@@ -237,7 +247,7 @@ $('signOut').addEventListener('click', () => sb.auth.signOut());
 async function route(session) {
   const uid = session ? session.user.id : null;
   if (state.uid !== uid) {                      // a different person (or sign-out): drop anything cached for the last one
-    state.uid = uid; meetings = null;
+    state.uid = uid; meetings = null; formOpts = null;
     $('meetingList').innerHTML = ''; $('mq').value = '';
     $('drawer').innerHTML = ''; show('drawer', false); show('overlay', false);
     setView('tickets', true);                   // keep the address as is, so a #123 link still opens that ticket
@@ -286,7 +296,7 @@ $('next').addEventListener('click', () => { state.page++; loadTickets(); });
 async function loadTickets() {
   const token = ++state.token;
   $('count').textContent = 'Loading…';
-  let q = sb.from('desk365_tickets').select(LIST_COLS, { count: 'exact' });
+  let q = sb.from('all_tickets').select(LIST_COLS, { count: 'exact' });   // Desk365 archive + tickets created here
   if ($('fStatus').value) q = q.eq('status', $('fStatus').value);
   if ($('fCategory').value) q = q.eq('category', $('fCategory').value);
   if ($('fAssigned').value) q = q.eq('assigned_to', $('fAssigned').value);
@@ -311,7 +321,7 @@ function renderRows(rows, count, from) {
   $('rows').innerHTML = rows.map(t => `
     <tr class="row" data-n="${t.ticket_number}">
       <td class="num">${t.ticket_number}</td>
-      <td class="subject">${esc(t.subject) || '<span class="note">(no subject)</span>'}</td>
+      <td class="subject">${esc(t.subject) || '<span class="note">(no subject)</span>'}${t.origin === 'native' ? '<span class="chip">new</span>' : ''}</td>
       <td><span class="badge st-${esc(t.status)}">${esc(t.status)}</span></td>
       <td><span class="pr pr-${t.priority}">${esc(PRIORITY[t.priority] || t.priority || '—')}</span></td>
       <td>${esc(name(t.assigned_to))}</td>
@@ -336,6 +346,7 @@ async function openTicket(n) {
   history.replaceState(null, '', '#' + n);
   $('drawer').innerHTML = '<p class="note">Loading…</p>';
   show('overlay', true); show('drawer', true);
+  if (n >= NATIVE_FROM) return openNativeTicket(n);
   const { data: t, error } = await sb.from('desk365_tickets').select(DETAIL_COLS).eq('ticket_number', n).maybeSingle();
   if (error || !t) { $('drawer').innerHTML = `<button class="close" id="closeBtn">Close</button><p>${esc(error ? error.message : 'Ticket not found or not visible to you.')}</p>`; $('closeBtn').onclick = closeTicket; return; }
   const meta = (label, val) => `<div><span>${label}</span>${val == null || val === '' ? '—' : esc(val)}</div>`;
@@ -363,6 +374,93 @@ async function openTicket(n) {
     <p class="note">This is the archived copy from Desk365. Replies, notes and attachments aren't in the archive yet.</p>`;
   $('closeBtn').onclick = closeTicket;
 }
+/* ---------- tickets created in this system ---------- */
+const NATIVE_COLS = 'ticket_number,subject,description,status,priority,category,assigned_to,created_by,contact_name,contact_email,created_on,updated_on,due_date,resolved_on,closed_on';
+const whenFmtNative = ts => ts ? whenFmtET.format(new Date(ts)) : '—';
+const whenFmtET = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', dateStyle: 'medium', timeStyle: 'short' });
+
+async function openNativeTicket(n) {
+  const { data: t, error } = await sb.from('tickets').select(NATIVE_COLS).eq('ticket_number', n).maybeSingle();
+  if (error || !t) { $('drawer').innerHTML = `<button class="close" id="closeBtn">Close</button><p>${esc(error ? error.message : 'Ticket not found or not visible to you.')}</p>`; $('closeBtn').onclick = closeTicket; return; }
+  const meta = (label, val) => `<div><span>${label}</span>${val == null || val === '' ? '—' : esc(val)}</div>`;
+  $('drawer').innerHTML = `
+    <button class="close" id="closeBtn">Close</button>
+    <div class="note">Ticket #${t.ticket_number} <span class="chip">created in the new system</span></div>
+    <h2>${esc(t.subject)}</h2>
+    <span class="badge st-${esc(t.status)}">${esc(t.status)}</span>
+    <span class="pr pr-${t.priority}"> ${esc(PRIORITY[t.priority] || '')}</span>
+    <div class="meta">
+      ${meta('Assigned to', t.assigned_to)}${meta('Category', t.category)}
+      ${meta('Contact', [t.contact_name, t.contact_email].filter(Boolean).join(' · '))}${meta('Created by', t.created_by)}
+      ${meta('Created', whenFmtNative(t.created_on))}${meta('Updated', whenFmtNative(t.updated_on))}
+      ${meta('Resolved', whenFmtNative(t.resolved_on))}${meta('Closed', whenFmtNative(t.closed_on))}
+    </div>
+    <h3>Description</h3>
+    <div class="desc">${esc(t.description) || '<span class="note">(empty)</span>'}</div>
+    <p class="note">Replies, status changes and reassigning aren't available yet.</p>`;
+  $('closeBtn').onclick = closeTicket;
+}
+
+let formOpts = null;   // categories + staff for the form; cleared when a different person signs in
+
+async function loadFormOptions() {
+  if (formOpts) return formOpts;
+  const [cats, staff] = await Promise.all([
+    sb.from('ticket_categories').select('name').eq('active', true).order('sort_order'),
+    sb.rpc('staff_directory'),
+  ]);
+  if (cats.error) throw cats.error;
+  if (staff.error) throw staff.error;
+  formOpts = { categories: cats.data.map(c => c.name), staff: staff.data };
+  return formOpts;
+}
+
+async function openNewTicket() {
+  history.replaceState(null, '', location.pathname);
+  $('drawer').innerHTML = '<p class="note">Loading…</p>';
+  show('overlay', true); show('drawer', true);
+  let opts;
+  try { opts = await loadFormOptions(); }
+  catch (e) { $('drawer').innerHTML = `<button class="close" id="closeBtn">Close</button><p>Couldn't load the form: ${esc(e.message)}</p>`; $('closeBtn').onclick = closeTicket; return; }
+  const options = (items, label, value) => items.map(i => `<option value="${esc(value(i))}">${esc(label(i))}</option>`).join('');
+  $('drawer').innerHTML = `
+    <button class="close" id="closeBtn">Cancel</button>
+    <h2>New ticket</h2>
+    <form id="newForm" class="form">
+      <label>Subject *<input id="nSubject" maxlength="300" required autocomplete="off"></label>
+      <label>Description<textarea id="nDesc" rows="8" maxlength="20000" placeholder="What happened, where (property / unit), and anything the next person needs to know."></textarea></label>
+      <div class="two">
+        <label>Category *<select id="nCat" required><option value="">Choose…</option>${options(opts.categories, c => c, c => c)}</select></label>
+        <label>Priority<select id="nPri"><option value="1">Low</option><option value="5" selected>Medium</option><option value="10">High</option><option value="20">Urgent</option></select></label>
+      </div>
+      <label>Assign to<select id="nAssign"><option value="">Unassigned</option>${options(opts.staff, s => s.full_name || s.email, s => s.email)}</select></label>
+      <div class="two">
+        <label>Contact name (optional)<input id="nCName" autocomplete="off"></label>
+        <label>Contact email (optional)<input id="nCEmail" type="email" autocomplete="off"></label>
+      </div>
+      <div class="note">Leave the contact blank and it's you.</div>
+      <div class="msg err" id="nMsg"></div>
+      <div class="actions"><button class="primary" id="nSubmit" type="submit">Create ticket</button></div>
+    </form>`;
+  $('closeBtn').onclick = closeTicket;
+  $('nSubject').focus();
+  $('newForm').addEventListener('submit', async e => {
+    e.preventDefault();
+    const btn = $('nSubmit'); btn.disabled = true; $('nMsg').textContent = '';
+    const val = id => $(id).value.trim();
+    const { data, error } = await sb.from('tickets').insert({
+      subject: val('nSubject'), description: $('nDesc').value.trim(), category: val('nCat'), priority: Number($('nPri').value),
+      assigned_to: val('nAssign') || null, contact_name: val('nCName') || null, contact_email: val('nCEmail') || null,
+    }).select('ticket_number').single();
+    if (error) { btn.disabled = false; $('nMsg').textContent = "Couldn't create the ticket: " + error.message; return; }
+    closeTicket();
+    state.page = 0; state.sort = 'ticket_number'; state.asc = false;
+    loadTickets();
+    openTicket(data.ticket_number);
+  });
+}
+$('newTicket').addEventListener('click', openNewTicket);
+
 /* ---------- meetings (AI notes from the gulf-coast-notes worker) ---------- */
 let meetings = null;                       // loaded on first visit to the tab
 const whenFmt = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', dateStyle: 'medium', timeStyle: 'short' });
