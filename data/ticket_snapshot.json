@@ -1,10 +1,24 @@
 {
-  "9736": {
-    "subject": "Carter Kim/O6ERS/Res #: 36438/Cancellation Request",
-    "assigned_to": "c.hernandez@choosegulfcoast.com",
+  "9742": {
+    "subject": "Name: Lile Jerry | Res: 48546 | Refund Check Request",
+    "assigned_to": "k.fisher@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-27 22:00:00",
+    "due_date": "2026-11-30 18:05:26",
     "priority": 1
+  },
+  "9741": {
+    "subject": "AI Rank Social post for GCPM",
+    "assigned_to": "d.penaherrera@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-30 16:14:14",
+    "priority": 5
+  },
+  "9737": {
+    "subject": "Website update / RBP to $45 from $35",
+    "assigned_to": "e.buchanan@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-30 14:54:02",
+    "priority": 10
   },
   "9735": {
     "subject": "Bali Poolside - Linens, comforters and mattress protector",
@@ -15,7 +29,7 @@
   },
   "9734": {
     "subject": "Guest Claim of Bed Bug Bites / Request for Financial Compensation",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-27 20:45:42",
     "priority": 1
@@ -50,7 +64,7 @@
   },
   "9723": {
     "subject": "Cather Katie | Res #: 66901 | Unit: Pier Pressure | Cancellation Request",
-    "assigned_to": "h.nomura@choosegulfcoast.com",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-27 14:15:47",
     "priority": 1
@@ -89,13 +103,6 @@
     "status": "Open",
     "due_date": "2026-11-24 18:29:52",
     "priority": 20
-  },
-  "9709": {
-    "subject": "Klein Theresa | Unit: Signal Inn - Unit 15 | Res #: 64347 | Guest Feedback",
-    "assigned_to": "l.costa@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-25 22:00:00",
-    "priority": 1
   },
   "9708": {
     "subject": "COLONY INN PRE-ARRIVAL MESSAGE",
@@ -136,7 +143,7 @@
     "subject": "Smoke Detectors- Mangrove Escape",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-24 18:43:44",
+    "due_date": "2026-12-04 18:43:00",
     "priority": 1
   },
   "9689": {
@@ -167,20 +174,6 @@
     "due_date": "2026-11-20 22:00:00",
     "priority": 1
   },
-  "9666": {
-    "subject": "5 Star Review Feedback | Res #: 60185 | Jahn Ruth | Signal Inn - Unit 13 | 11/10/2026 - 11/15/2026",
-    "assigned_to": "l.costa@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-20 22:00:00",
-    "priority": 1
-  },
-  "9664": {
-    "subject": "4 Star Review Feedback | Res #: 62178 | Zoelzer Andreas | Signal Inn - Unit 17 | 10/20/2026 - 10/30/2026",
-    "assigned_to": "l.costa@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-20 22:00:00",
-    "priority": 1
-  },
   "9659": {
     "subject": "zShell Yeah-charge the owner for canceling bookings",
     "assigned_to": "m.johnston@choosegulfcoast.com",
@@ -202,20 +195,6 @@
     "due_date": "2026-11-25 18:15:00",
     "priority": 1
   },
-  "9623": {
-    "subject": "5 Star Review Feedback | Res #: 51762| Hudecek Brent | Signal Inn - Unit 18 | 11/6/2026 - 11/9/2026",
-    "assigned_to": "l.costa@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-17 18:47:12",
-    "priority": 1
-  },
-  "9622": {
-    "subject": "2 Star Review Feedback | Res #: 54693| Meyer Kaitlyn | Signal Inn - Unit 16 | 11/4/2026 - 11/8/2026",
-    "assigned_to": "l.costa@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-17 18:40:37",
-    "priority": 1
-  },
   "9621": {
     "subject": "Birdie | Grill burners",
     "assigned_to": "j.delafuente@choosegulfcoast.com",
@@ -225,7 +204,7 @@
   },
   "9620": {
     "subject": "1 Star Review Feedback | Res #: 62605 | Ralph Cutcher | Compass Point #163 | 11/3/2026 - 11/10/2026",
-    "assigned_to": "l.costa@choosegulfcoast.com",
+    "assigned_to": "c.hernandez@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-17 17:38:55",
     "priority": 1
@@ -269,7 +248,7 @@
     "subject": "YCBR Project",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-25 20:43:00",
+    "due_date": "2026-12-01 20:43:00",
     "priority": 1
   },
   "9560": {
@@ -284,13 +263,6 @@
     "assigned_to": "j.delafuente@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-27 21:51:00",
-    "priority": 1
-  },
-  "9536": {
-    "subject": "5 Star Review Feedback | Res #: 49065 | Godshalk Lori | Breakers West C3 | 10/24/2026 - 10/29/2026",
-    "assigned_to": "l.costa@choosegulfcoast.com",
-    "status": "Open",
-    "due_date": "2026-11-09 22:00:00",
     "priority": 1
   },
   "9500": {
@@ -365,7 +337,7 @@
   },
   "9362": {
     "subject": "Manatee/ Sarasota pool report",
-    "assigned_to": "d.canada@choosegulfcoast.com",
+    "assigned_to": "h.mcnamara@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-10-26 18:35:34",
     "priority": 1
@@ -388,14 +360,14 @@
     "subject": "GBB1318 Fan in master",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-19 23:00:00",
+    "due_date": "2026-12-04 23:00:00",
     "priority": 1
   },
   "9312": {
     "subject": "Colony unit photos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-27 15:06:00",
+    "due_date": "2026-12-01 15:06:00",
     "priority": 5
   },
   "9310": {
@@ -444,14 +416,14 @@
     "subject": "PCA - Sandy Pointe",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-13 16:48:00",
+    "due_date": "2026-12-04 16:48:00",
     "priority": 1
   },
   "9222": {
     "subject": "PCA - Links & Leisure",
     "assigned_to": "j.rushton@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-13 16:46:00",
+    "due_date": "2026-12-04 16:46:00",
     "priority": 1
   },
   "9221": {
@@ -563,7 +535,7 @@
     "subject": "GBB Walk Through Videos",
     "assigned_to": "b.meyer@choosegulfcoast.com",
     "status": "Open",
-    "due_date": "2026-11-30 23:00:00",
+    "due_date": "2026-12-01 23:00:00",
     "priority": 1
   },
   "9041": {
@@ -607,6 +579,13 @@
     "status": "Open",
     "due_date": "2026-11-29 21:00:00",
     "priority": 10
+  },
+  "8908": {
+    "subject": "Name: kudenchak karl | Res: 51575 | Door Code Request",
+    "assigned_to": "s.soriafrausto@choosegulfcoast.com",
+    "status": "Open",
+    "due_date": "2026-11-30 19:07:51",
+    "priority": 1
   },
   "8866": {
     "subject": "City of Bradenton VR License - Tropical Gulf Retreat | 4325 46th Avenue West, #203",
@@ -659,7 +638,7 @@
   },
   "8562": {
     "subject": "camera for signal from Red1",
-    "assigned_to": "l.costa@choosegulfcoast.com",
+    "assigned_to": "z.adair@choosegulfcoast.com",
     "status": "Open",
     "due_date": "2026-11-18 17:07:00",
     "priority": 1
