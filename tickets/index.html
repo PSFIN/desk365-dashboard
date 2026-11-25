@@ -110,6 +110,12 @@
   .msg-b .txt { white-space: pre-wrap; word-break: break-word; }
   .evt { font-size: 12px; color: var(--muted); padding: 4px 2px; }
 
+  /* attachments */
+  .atts { margin: 6px 0; }
+  .attrow { padding: 3px 0; }
+  a.att { color: var(--brand); text-decoration: none; font-weight: 600; word-break: break-all; }
+  a.att:hover { text-decoration: underline; }
+
   /* detail drawer */
   .overlay { position: fixed; inset: 0; background: rgba(0,0,0,.35); z-index: 9; }
   .drawer { position: fixed; top: 0; right: 0; bottom: 0; width: min(720px, 100%); background: var(--panel);
@@ -388,6 +394,64 @@ const NATIVE_COLS = 'ticket_number,subject,description,status,priority,category,
 const whenFmtNative = ts => ts ? whenFmtET.format(new Date(ts)) : '—';
 const whenFmtET = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', dateStyle: 'medium', timeStyle: 'short' });
 
+/* ---------- attachments ---------- */
+const ATT_BUCKET = 'ticket-attachments', ATT_COLS = 'id,activity_id,file_name,content_type,size_bytes,storage_path,uploaded_by,created_at';
+const MAX_FILE = 10 * 1024 * 1024, MAX_FILES = 5;
+// The type is decided from the file extension (browsers often report nothing for .csv / .xlsx); the server enforces the same list.
+const MIME_BY_EXT = {
+  png: 'image/png', jpg: 'image/jpeg', jpeg: 'image/jpeg', gif: 'image/gif', webp: 'image/webp', heic: 'image/heic',
+  pdf: 'application/pdf', txt: 'text/plain', csv: 'text/csv', doc: 'application/msword',
+  docx: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', xls: 'application/vnd.ms-excel',
+  xlsx: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', ppt: 'application/vnd.ms-powerpoint',
+  pptx: 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
+};
+const ATT_ACCEPT = Object.keys(MIME_BY_EXT).map(e => '.' + e).join(',');
+const extOf = f => (f.name.split('.').pop() || '').toLowerCase();
+const fmtSize = b => b < 1024 ? b + ' B' : b < 1048576 ? (b / 1024).toFixed(0) + ' KB' : (b / 1048576).toFixed(1) + ' MB';
+
+/** Returns a problem description, or '' when the files are fine. */
+function checkFiles(files) {
+  if (files.length > MAX_FILES) return `Please attach at most ${MAX_FILES} files at a time.`;
+  for (const f of files) {
+    if (!MIME_BY_EXT[extOf(f)]) return `"${f.name}": this file type isn't allowed. Allowed: PDF, images, Word, Excel, PowerPoint, CSV, text.`;
+    if (f.size > MAX_FILE) return `"${f.name}" is ${fmtSize(f.size)}; the limit is 10 MB per file.`;
+    if (f.size === 0) return `"${f.name}" is empty.`;
+  }
+  return '';
+}
+
+/** Uploads files for a ticket (optionally tied to a reply). Returns the names that failed. */
+async function uploadFiles(ticket, files, activityId) {
+  const failed = [];
+  for (const f of files) {
+    const type = MIME_BY_EXT[extOf(f)];
+    const path = `${ticket}/${crypto.randomUUID()}-${f.name.replace(/[^A-Za-z0-9._-]/g, '_').slice(-100)}`;
+    const up = await sb.storage.from(ATT_BUCKET).upload(path, f, { contentType: type, upsert: false });
+    if (up.error) { failed.push(f.name); continue; }
+    const row = await sb.from('ticket_attachments').insert({
+      ticket_number: ticket, activity_id: activityId || null, file_name: f.name.slice(0, 200), content_type: type, size_bytes: f.size, storage_path: path,
+    });
+    if (row.error) { failed.push(f.name); await sb.storage.from(ATT_BUCKET).remove([path]); }
+  }
+  return failed;
+}
+
+function attList(items, withHeading) {
+  if (!items.length) return '';
+  const rows = items.map(a => `<div class="attrow"><a href="#" class="att" data-path="${esc(a.storage_path)}" data-name="${esc(a.file_name)}">📎 ${esc(a.file_name)}</a>
+    <span class="note">${esc(fmtSize(a.size_bytes))} · ${esc(personName(a.uploaded_by))} · ${esc(whenFmtET.format(new Date(a.created_at)))}</span></div>`).join('');
+  return `${withHeading ? '<h3>Attachments</h3>' : ''}<div class="atts">${rows}</div>`;
+}
+
+// Short-lived signed link; "download" makes the browser save the file instead of opening it.
+async function downloadAttachment(path, name, el) {
+  const label = el.textContent; el.textContent = 'Preparing…';
+  const { data, error } = await sb.storage.from(ATT_BUCKET).createSignedUrl(path, 60, { download: name });
+  el.textContent = label;
+  if (error || !data) { const m = $('cMsg'); if (m) m.textContent = "Couldn't download: " + (error ? error.message : 'no link'); return; }
+  const a = document.createElement('a'); a.href = data.signedUrl; a.rel = 'noopener'; document.body.appendChild(a); a.click(); a.remove();
+}
+
 const STATUSES = ['Open', 'Pending', 'Resolved', 'Closed'];
 const personName = email => {
   if (!email) return 'Unassigned';
@@ -414,21 +478,25 @@ async function openNativeTicket(n, keepScroll) {
   const scroller = $('drawer'), top = scroller.scrollTop;
   let opts;
   try { opts = await loadFormOptions(); } catch (e) { opts = { categories: [], staff: [] }; }
-  const [tr, ar] = await Promise.all([
+  const [tr, ar, fr] = await Promise.all([
     sb.from('tickets').select(NATIVE_COLS).eq('ticket_number', n).maybeSingle(),
     sb.from('ticket_activity').select('id,kind,body,meta,actor,created_at').eq('ticket_number', n).order('created_at').order('id'),
+    sb.from('ticket_attachments').select(ATT_COLS).eq('ticket_number', n).order('created_at'),
   ]);
   const t = tr.data, error = tr.error || ar.error;
+  const atts = fr.error ? [] : fr.data;
+  const flash = state.flash; state.flash = null;
   if (error || !t) { $('drawer').innerHTML = `<button class="close" id="closeBtn">Close</button><p>${esc(error ? error.message : 'Ticket not found, or you no longer have access to it.')}</p>`; $('closeBtn').onclick = closeTicket; return; }
   const meta = (label, val) => `<div><span>${label}</span>${val == null || val === '' ? '—' : esc(val)}</div>`;
   const sel = (id, label, items, cur) => `<label>${label}<select id="${id}">${items.map(([v, l]) => `<option value="${esc(v)}"${String(v) === String(cur ?? '') ? ' selected' : ''}>${esc(l)}</option>`).join('')}</select></label>`;
   const thread = ar.data.map(a => (a.kind === 'reply' || a.kind === 'note')
-    ? `<div class="msg-b ${a.kind}"><div class="who"><strong>${esc(personName(a.actor))}</strong> · ${esc(whenFmtET.format(new Date(a.created_at)))}${a.kind === 'note' ? ' <span class="chip">internal note</span>' : ''}</div><div class="txt">${esc(a.body)}</div></div>`
+    ? `<div class="msg-b ${a.kind}"><div class="who"><strong>${esc(personName(a.actor))}</strong> · ${esc(whenFmtET.format(new Date(a.created_at)))}${a.kind === 'note' ? ' <span class="chip">internal note</span>' : ''}</div><div class="txt">${esc(a.body)}</div>${attList(atts.filter(x => x.activity_id === a.id))}</div>`
     : `<div class="evt">${eventText(a)} <span class="note">· ${esc(whenFmtET.format(new Date(a.created_at)))}</span></div>`).join('');
   $('drawer').innerHTML = `
     <button class="close" id="closeBtn">Close</button>
     <div class="note">Ticket #${t.ticket_number} <span class="chip">created in the new system</span></div>
     <h2>${esc(t.subject)}</h2>
+    ${flash ? `<div class="msg err">${esc(flash)}</div>` : ''}
     <div class="controls form">
       ${sel('cStatus', 'Status', STATUSES.map(x => [x, x]), t.status)}
       ${sel('cPri', 'Priority', [[1, 'Low'], [5, 'Medium'], [10, 'High'], [20, 'Urgent']], t.priority)}
@@ -444,10 +512,12 @@ async function openNativeTicket(n, keepScroll) {
     </div>
     <h3>Description</h3>
     <div class="desc">${esc(t.description) || '<span class="note">(empty)</span>'}</div>
+    ${attList(atts.filter(x => !x.activity_id), true)}
     <h3>Conversation</h3>
     <div id="thread">${thread || '<span class="note">No replies yet.</span>'}</div>
     <form id="replyForm" class="form">
       <label>Add to the conversation<textarea id="rBody" rows="4" maxlength="20000" placeholder="Write a reply or an internal note…" required></textarea></label>
+      <label>Attach files (optional; up to 5, 10 MB each)<input type="file" id="rFiles" multiple accept="${ATT_ACCEPT}"></label>
       <div class="actions">
         <button class="primary" id="rSend" type="submit" data-kind="reply">Send reply</button>
         <button id="rNote" type="submit" data-kind="note">Add internal note</button>
@@ -455,6 +525,7 @@ async function openNativeTicket(n, keepScroll) {
     </form>`;
   $('closeBtn').onclick = closeTicket;
   if (keepScroll) scroller.scrollTop = top;
+  $('drawer').querySelectorAll('a.att').forEach(a => a.onclick = ev => { ev.preventDefault(); downloadAttachment(a.dataset.path, a.dataset.name, a); });
 
   const refresh = () => { openNativeTicket(n, true); loadTickets(); };
   const save = async (changes, field) => {
@@ -472,9 +543,13 @@ async function openNativeTicket(n, keepScroll) {
     e.preventDefault();
     const kind = (e.submitter && e.submitter.dataset.kind) || 'reply', body = $('rBody').value.trim();
     if (!body) return;
+    const files = [...($('rFiles').files || [])], problem = checkFiles(files);
+    if (problem) { $('cMsg').textContent = problem; return; }
     $('rSend').disabled = true; $('rNote').disabled = true;
-    const { error: er } = await sb.from('ticket_activity').insert({ ticket_number: n, kind, body });
+    const { data: row, error: er } = await sb.from('ticket_activity').insert({ ticket_number: n, kind, body }).select('id').single();
     if (er) { $('rSend').disabled = false; $('rNote').disabled = false; $('cMsg').textContent = "Couldn't post: " + er.message; return; }
+    const failed = files.length ? await uploadFiles(n, files, row.id) : [];
+    if (failed.length) state.flash = `Your message was posted, but ${failed.length} file(s) didn't upload: ${failed.join(', ')}`;
     openNativeTicket(n, false).then(() => { const th = $('thread'); if (th) th.scrollIntoView({ block: 'end' }); });
     loadTickets();
   });
@@ -518,6 +593,7 @@ async function openNewTicket() {
         <label>Contact email (optional)<input id="nCEmail" type="email" autocomplete="off"></label>
       </div>
       <div class="note">Leave the contact blank and it's you.</div>
+      <label>Attach files (optional; up to 5, 10 MB each: PDF, images, Word, Excel, PowerPoint, CSV, text)<input type="file" id="nFiles" multiple accept="${ATT_ACCEPT}"></label>
       <div class="msg err" id="nMsg"></div>
       <div class="actions"><button class="primary" id="nSubmit" type="submit">Create ticket</button></div>
     </form>`;
@@ -525,6 +601,8 @@ async function openNewTicket() {
   $('nSubject').focus();
   $('newForm').addEventListener('submit', async e => {
     e.preventDefault();
+    const files = [...($('nFiles').files || [])], problem = checkFiles(files);
+    if (problem) { $('nMsg').textContent = problem; return; }
     const btn = $('nSubmit'); btn.disabled = true; $('nMsg').textContent = '';
     const val = id => $(id).value.trim();
     const { data, error } = await sb.from('tickets').insert({
@@ -532,6 +610,11 @@ async function openNewTicket() {
       assigned_to: val('nAssign') || null, contact_name: val('nCName') || null, contact_email: val('nCEmail') || null,
     }).select('ticket_number').single();
     if (error) { btn.disabled = false; $('nMsg').textContent = "Couldn't create the ticket: " + error.message; return; }
+    if (files.length) {
+      btn.textContent = 'Uploading files…';
+      const failed = await uploadFiles(data.ticket_number, files, null);
+      if (failed.length) state.flash = `Ticket created, but ${failed.length} file(s) didn't upload: ${failed.join(', ')}. Add them from the ticket.`;
+    }
     closeTicket();
     state.page = 0; state.sort = 'ticket_number'; state.asc = false;
     loadTickets();
