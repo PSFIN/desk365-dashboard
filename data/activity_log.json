@@ -1,5 +1,26 @@
 [
   {
+    "ts": "2026-11-25T04:24:14+00:00",
+    "ticket_number": 9736,
+    "subject": "Carter Kim/O6ERS/Res #: 36438/Cancellation Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-25T04:24:14+00:00",
+    "ticket_number": 9735,
+    "subject": "Bali Poolside - Linens, comforters and mattress protector",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-25T04:24:14+00:00",
+    "ticket_number": 9721,
+    "subject": "JAN JACOB / VRBO / Life In Full Swing / Property Pet Inquiry",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-11-24T21:24:56+00:00",
     "ticket_number": 9734,
     "subject": "Guest Claim of Bed Bug Bites / Request for Financial Compensation",
@@ -7811,26 +7832,5 @@
     "subject": "Malinowski Robert | Turtle House | Res #: 54453 | Cancellation",
     "type": "created",
     "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-26T18:45:21+00:00",
-    "ticket_number": 9401,
-    "subject": "5 Star Review Feedback | Res #: 58847 | Hess Diane | Sandalfoot 1D1 | 10/17/2026 - 10/24/2026",
-    "type": "created",
-    "detail": "Created \u2014 assigned to n.armstrong@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-26T18:45:21+00:00",
-    "ticket_number": 9399,
-    "subject": "Lynx Lock tab-work order dashboard",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.evans@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-26T18:45:21+00:00",
-    "ticket_number": 9398,
-    "subject": "The Cortusa | Mid-stay Cleaning Request",
-    "type": "created",
-    "detail": "Created \u2014 assigned to j.messasierra@choosegulfcoast.com, status Open"
   }
 ]
