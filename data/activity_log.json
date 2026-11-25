@@ -1,5 +1,39 @@
 [
   {
+    "ts": "2026-11-25T14:44:11+00:00",
+    "ticket_number": 9736,
+    "subject": "Carter Kim/O6ERS/Res #: 36438/Cancellation Request",
+    "type": "reassigned",
+    "detail": "Reassigned from h.nomura@choosegulfcoast.com to c.hernandez@choosegulfcoast.com",
+    "from": "h.nomura@choosegulfcoast.com",
+    "to": "c.hernandez@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-25T14:44:11+00:00",
+    "ticket_number": 9735,
+    "subject": "Bali Poolside - Linens, comforters and mattress protector",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-25T14:44:11+00:00",
+    "ticket_number": 9732,
+    "subject": "T-Wreckz Junk Open Invoices as of 11/24/2026",
+    "type": "reassigned",
+    "detail": "Reassigned from h.mcnamara@choosegulfcoast.com to e.morales@choosegulfcoast.com",
+    "from": "h.mcnamara@choosegulfcoast.com",
+    "to": "e.morales@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-25T14:44:11+00:00",
+    "ticket_number": 9693,
+    "subject": "The Duffer's Retreat - RES#52139 & Upcoming 52140",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-11-25T04:24:14+00:00",
     "ticket_number": 9736,
     "subject": "Carter Kim/O6ERS/Res #: 36438/Cancellation Request",
@@ -7804,33 +7838,5 @@
     "subject": "4 Star Review Feedback | Res #: 61122 | Tim Hauer | Sandalfoot 4A3 | 10/6/2026 - 10/14/2026",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-26T22:58:17+00:00",
-    "ticket_number": 9331,
-    "subject": "Refund adjustment - 1D1",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-26T22:58:17+00:00",
-    "ticket_number": 9021,
-    "subject": "Shower Glass - Rental insurance claim",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-26T18:45:21+00:00",
-    "ticket_number": 9403,
-    "subject": "Sun Seeker | Guest requests",
-    "type": "created",
-    "detail": "Created \u2014 assigned to d.husak@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-26T18:45:21+00:00",
-    "ticket_number": 9402,
-    "subject": "Malinowski Robert | Turtle House | Res #: 54453 | Cancellation",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
   }
 ]
