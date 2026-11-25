@@ -102,6 +102,14 @@
   .form .two { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
   .form .actions { margin-top: 16px; display: flex; gap: 8px; }
 
+  /* working a ticket */
+  .controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0 12px; margin: 10px 0 0; }
+  .msg-b { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; margin: 8px 0; background: var(--bg); }
+  .msg-b.note { background: var(--open-bg); border-color: transparent; }
+  .msg-b .who { font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+  .msg-b .txt { white-space: pre-wrap; word-break: break-word; }
+  .evt { font-size: 12px; color: var(--muted); padding: 4px 2px; }
+
   /* detail drawer */
   .overlay { position: fixed; inset: 0; background: rgba(0,0,0,.35); z-index: 9; }
   .drawer { position: fixed; top: 0; right: 0; bottom: 0; width: min(720px, 100%); background: var(--panel);
@@ -167,7 +175,7 @@
       <input type="search" id="q" placeholder="Search subject, contact, or ticket #…">
       <select id="fStatus"><option value="">All statuses</option></select>
       <select id="fCategory"><option value="">All categories</option></select>
-      <select id="fAssigned"><option value="">All assignees</option></select>
+      <select id="fAssigned"><option value="">All assignees</option><option value="__me__">Assigned to me</option></select>
       <select id="fPriority"><option value="">All priorities</option>
         <option value="20">Urgent</option><option value="10">High</option><option value="5">Medium</option><option value="1">Low</option></select>
       <button id="reset">Reset</button>
@@ -258,6 +266,7 @@ async function route(session) {
   $('who').textContent = session.user.email;
   show('signOut', true);
   const email = (session.user.email || '').toLowerCase();
+  state.email = email;
   const { data, error } = await sb.from('staff').select('email,full_name,is_admin').eq('email', email).maybeSingle();
   if (error || !data) { $('deniedText').textContent = `${email} isn't on the staff list. Ask an admin to add you.`; show('denied', true); return; }
   state.staff = data;
@@ -299,7 +308,7 @@ async function loadTickets() {
   let q = sb.from('all_tickets').select(LIST_COLS, { count: 'exact' });   // Desk365 archive + tickets created here
   if ($('fStatus').value) q = q.eq('status', $('fStatus').value);
   if ($('fCategory').value) q = q.eq('category', $('fCategory').value);
-  if ($('fAssigned').value) q = q.eq('assigned_to', $('fAssigned').value);
+  if ($('fAssigned').value) q = q.eq('assigned_to', $('fAssigned').value === '__me__' ? (state.email || '') : $('fAssigned').value);
   if ($('fPriority').value) q = q.eq('priority', Number($('fPriority').value));
   if ($('fFrom').value) q = q.gte('created_on', $('fFrom').value + 'T00:00:00');
   if ($('fTo').value) q = q.lte('created_on', $('fTo').value + 'T23:59:59');
@@ -379,26 +388,96 @@ const NATIVE_COLS = 'ticket_number,subject,description,status,priority,category,
 const whenFmtNative = ts => ts ? whenFmtET.format(new Date(ts)) : '—';
 const whenFmtET = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', dateStyle: 'medium', timeStyle: 'short' });
 
-async function openNativeTicket(n) {
-  const { data: t, error } = await sb.from('tickets').select(NATIVE_COLS).eq('ticket_number', n).maybeSingle();
-  if (error || !t) { $('drawer').innerHTML = `<button class="close" id="closeBtn">Close</button><p>${esc(error ? error.message : 'Ticket not found or not visible to you.')}</p>`; $('closeBtn').onclick = closeTicket; return; }
+const STATUSES = ['Open', 'Pending', 'Resolved', 'Closed'];
+const personName = email => {
+  if (!email) return 'Unassigned';
+  const m = formOpts && formOpts.staff.find(x => x.email === email);
+  return (m && m.full_name) || email.split('@')[0];
+};
+const dueToInput = ts => ts ? new Date(ts).toLocaleDateString('en-CA', { timeZone: 'America/New_York' }) : '';   // yyyy-mm-dd
+const inputToDue = d => d ? new Date(`${d}T17:00:00-05:00`).toISOString() : null;                                  // 5 pm Eastern (standard time)
+
+function eventText(a) {
+  const m = a.meta || {}, who = esc(personName(a.actor === 'system' ? null : a.actor));
+  const from = v => esc(v == null || v === '' ? 'none' : v);
+  switch (a.kind) {
+    case 'status': return `${who} changed the status: ${from(m.from)} → ${from(m.to)}`;
+    case 'assignment': return `${who} reassigned: ${esc(m.from ? personName(m.from) : 'Unassigned')} → ${esc(m.to ? personName(m.to) : 'Unassigned')}`;
+    case 'priority': return `${who} changed the priority: ${from(PRIORITY[m.from])} → ${from(PRIORITY[m.to])}`;
+    case 'category': return `${who} changed the category: ${from(m.from)} → ${from(m.to)}`;
+    case 'due_date': return `${who} changed the due date: ${m.from ? esc(whenFmtET.format(new Date(m.from)).split(',').slice(0, 2).join(',')) : 'none'} → ${m.to ? esc(whenFmtET.format(new Date(m.to)).split(',').slice(0, 2).join(',')) : 'none'}`;
+    default: return who;
+  }
+}
+
+async function openNativeTicket(n, keepScroll) {
+  const scroller = $('drawer'), top = scroller.scrollTop;
+  let opts;
+  try { opts = await loadFormOptions(); } catch (e) { opts = { categories: [], staff: [] }; }
+  const [tr, ar] = await Promise.all([
+    sb.from('tickets').select(NATIVE_COLS).eq('ticket_number', n).maybeSingle(),
+    sb.from('ticket_activity').select('id,kind,body,meta,actor,created_at').eq('ticket_number', n).order('created_at').order('id'),
+  ]);
+  const t = tr.data, error = tr.error || ar.error;
+  if (error || !t) { $('drawer').innerHTML = `<button class="close" id="closeBtn">Close</button><p>${esc(error ? error.message : 'Ticket not found, or you no longer have access to it.')}</p>`; $('closeBtn').onclick = closeTicket; return; }
   const meta = (label, val) => `<div><span>${label}</span>${val == null || val === '' ? '—' : esc(val)}</div>`;
+  const sel = (id, label, items, cur) => `<label>${label}<select id="${id}">${items.map(([v, l]) => `<option value="${esc(v)}"${String(v) === String(cur ?? '') ? ' selected' : ''}>${esc(l)}</option>`).join('')}</select></label>`;
+  const thread = ar.data.map(a => (a.kind === 'reply' || a.kind === 'note')
+    ? `<div class="msg-b ${a.kind}"><div class="who"><strong>${esc(personName(a.actor))}</strong> · ${esc(whenFmtET.format(new Date(a.created_at)))}${a.kind === 'note' ? ' <span class="chip">internal note</span>' : ''}</div><div class="txt">${esc(a.body)}</div></div>`
+    : `<div class="evt">${eventText(a)} <span class="note">· ${esc(whenFmtET.format(new Date(a.created_at)))}</span></div>`).join('');
   $('drawer').innerHTML = `
     <button class="close" id="closeBtn">Close</button>
     <div class="note">Ticket #${t.ticket_number} <span class="chip">created in the new system</span></div>
     <h2>${esc(t.subject)}</h2>
-    <span class="badge st-${esc(t.status)}">${esc(t.status)}</span>
-    <span class="pr pr-${t.priority}"> ${esc(PRIORITY[t.priority] || '')}</span>
+    <div class="controls form">
+      ${sel('cStatus', 'Status', STATUSES.map(x => [x, x]), t.status)}
+      ${sel('cPri', 'Priority', [[1, 'Low'], [5, 'Medium'], [10, 'High'], [20, 'Urgent']], t.priority)}
+      ${sel('cCat', 'Category', [['', '—'], ...opts.categories.map(c => [c, c])], t.category)}
+      ${sel('cAssign', 'Assigned to', [['', 'Unassigned'], ...opts.staff.map(x => [x.email, x.full_name || x.email])], t.assigned_to)}
+      <label>Due<input type="date" id="cDue" value="${esc(dueToInput(t.due_date))}"></label>
+    </div>
+    <div class="msg err" id="cMsg"></div>
     <div class="meta">
-      ${meta('Assigned to', t.assigned_to)}${meta('Category', t.category)}
-      ${meta('Contact', [t.contact_name, t.contact_email].filter(Boolean).join(' · '))}${meta('Created by', t.created_by)}
+      ${meta('Contact', [t.contact_name, t.contact_email].filter(Boolean).join(' · '))}${meta('Created by', personName(t.created_by))}
       ${meta('Created', whenFmtNative(t.created_on))}${meta('Updated', whenFmtNative(t.updated_on))}
       ${meta('Resolved', whenFmtNative(t.resolved_on))}${meta('Closed', whenFmtNative(t.closed_on))}
     </div>
     <h3>Description</h3>
     <div class="desc">${esc(t.description) || '<span class="note">(empty)</span>'}</div>
-    <p class="note">Replies, status changes and reassigning aren't available yet.</p>`;
+    <h3>Conversation</h3>
+    <div id="thread">${thread || '<span class="note">No replies yet.</span>'}</div>
+    <form id="replyForm" class="form">
+      <label>Add to the conversation<textarea id="rBody" rows="4" maxlength="20000" placeholder="Write a reply or an internal note…" required></textarea></label>
+      <div class="actions">
+        <button class="primary" id="rSend" type="submit" data-kind="reply">Send reply</button>
+        <button id="rNote" type="submit" data-kind="note">Add internal note</button>
+      </div>
+    </form>`;
   $('closeBtn').onclick = closeTicket;
+  if (keepScroll) scroller.scrollTop = top;
+
+  const refresh = () => { openNativeTicket(n, true); loadTickets(); };
+  const save = async (changes, field) => {
+    $('cMsg').textContent = 'Saving…';
+    const { error: e } = await sb.from('tickets').update(changes).eq('ticket_number', n);
+    if (e) { $('cMsg').textContent = "Couldn't save: " + e.message; return; }
+    refresh();
+  };
+  $('cStatus').onchange = e => save({ status: e.target.value });
+  $('cPri').onchange = e => save({ priority: Number(e.target.value) });
+  $('cCat').onchange = e => save({ category: e.target.value || null });
+  $('cAssign').onchange = e => save({ assigned_to: e.target.value || null });
+  $('cDue').onchange = e => save({ due_date: inputToDue(e.target.value) });
+  $('replyForm').addEventListener('submit', async e => {
+    e.preventDefault();
+    const kind = (e.submitter && e.submitter.dataset.kind) || 'reply', body = $('rBody').value.trim();
+    if (!body) return;
+    $('rSend').disabled = true; $('rNote').disabled = true;
+    const { error: er } = await sb.from('ticket_activity').insert({ ticket_number: n, kind, body });
+    if (er) { $('rSend').disabled = false; $('rNote').disabled = false; $('cMsg').textContent = "Couldn't post: " + er.message; return; }
+    openNativeTicket(n, false).then(() => { const th = $('thread'); if (th) th.scrollIntoView({ block: 'end' }); });
+    loadTickets();
+  });
 }
 
 let formOpts = null;   // categories + staff for the form; cleared when a different person signs in
