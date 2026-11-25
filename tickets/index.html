@@ -74,6 +74,26 @@
   .pager { display: flex; gap: 8px; align-items: center; justify-content: flex-end; padding-top: 12px; color: var(--muted); }
   .empty { padding: 40px; text-align: center; color: var(--muted); }
 
+  /* tabs */
+  .tabs { display: flex; gap: 4px; margin-bottom: 14px; border-bottom: 1px solid var(--line); }
+  .tab { border: 0; border-bottom: 2px solid transparent; border-radius: 0; background: none; padding: 8px 14px; color: var(--muted); font-weight: 600; }
+  .tab:hover { color: var(--text); border-color: transparent; }
+  .tab.active { color: var(--brand); border-bottom-color: var(--brand); }
+
+  /* meetings */
+  .meetings-filter { grid-template-columns: 1fr; }
+  .mcard { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; margin-bottom: 8px; cursor: pointer; }
+  .mcard:hover { border-color: var(--brand); }
+  .mcard h4 { margin: 0 0 2px; font-size: 15px; }
+  .mcard .sub { color: var(--muted); font-size: 12px; margin-bottom: 6px; }
+  .mcard p { margin: 0; color: var(--text); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .chip { display: inline-block; margin-left: 6px; padding: 0 8px; border-radius: 10px; font-size: 12px; font-weight: 600; background: var(--brand-weak); color: var(--brand); }
+  ul.plain { margin: 4px 0; padding-left: 20px; }
+  ul.plain li { margin: 3px 0; }
+  .ai { padding: 8px 10px; border: 1px solid var(--line); border-radius: 6px; margin: 6px 0; }
+  .ai.mine { border-color: var(--brand); background: var(--brand-weak); }
+  .ai small { color: var(--muted); }
+
   /* detail drawer */
   .overlay { position: fixed; inset: 0; background: rgba(0,0,0,.35); z-index: 9; }
   .drawer { position: fixed; top: 0; right: 0; bottom: 0; width: min(720px, 100%); background: var(--panel);
@@ -120,6 +140,21 @@
 
   <!-- app -->
   <section id="app" class="hidden">
+    <nav class="tabs" role="tablist">
+      <button class="tab active" id="tabTickets" role="tab" data-view="tickets">Tickets</button>
+      <button class="tab" id="tabMeetings" role="tab" data-view="meetings">Meetings</button>
+    </nav>
+
+    <div id="meetingsView" class="hidden">
+      <div class="filters meetings-filter">
+        <input type="search" id="mq" placeholder="Search meetings: title, people, decisions, action items…">
+      </div>
+      <div class="summary"><span id="mCount">Loading…</span><span class="note">Private: you only see meetings you attended.</span></div>
+      <div id="meetingList"></div>
+      <div id="mEmpty" class="empty hidden"></div>
+    </div>
+
+    <div id="ticketsView">
     <div class="filters">
       <input type="search" id="q" placeholder="Search subject, contact, or ticket #…">
       <select id="fStatus"><option value="">All statuses</option></select>
@@ -155,6 +190,7 @@
     <div class="pager">
       <button id="prev">‹ Prev</button><span id="pageInfo"></span><button id="next">Next ›</button>
     </div>
+    </div><!-- /ticketsView -->
   </section>
 </main>
 
@@ -199,6 +235,13 @@ $('loginForm').addEventListener('submit', async e => {
 $('signOut').addEventListener('click', () => sb.auth.signOut());
 
 async function route(session) {
+  const uid = session ? session.user.id : null;
+  if (state.uid !== uid) {                      // a different person (or sign-out): drop anything cached for the last one
+    state.uid = uid; meetings = null;
+    $('meetingList').innerHTML = ''; $('mq').value = '';
+    $('drawer').innerHTML = ''; show('drawer', false); show('overlay', false);
+    setView('tickets', true);                   // keep the address as is, so a #123 link still opens that ticket
+  }
   show('login', false); show('denied', false); show('app', false); show('signOut', false);
   $('who').textContent = '';
   if (!session) { show('login', true); return; }
@@ -320,6 +363,90 @@ async function openTicket(n) {
     <p class="note">This is the archived copy from Desk365. Replies, notes and attachments aren't in the archive yet.</p>`;
   $('closeBtn').onclick = closeTicket;
 }
+/* ---------- meetings (AI notes from the gulf-coast-notes worker) ---------- */
+let meetings = null;                       // loaded on first visit to the tab
+const whenFmt = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', dateStyle: 'medium', timeStyle: 'short' });
+
+function setView(view, keepAddress) {
+  state.view = view;
+  $('tabTickets').classList.toggle('active', view === 'tickets');
+  $('tabMeetings').classList.toggle('active', view === 'meetings');
+  show('ticketsView', view === 'tickets'); show('meetingsView', view === 'meetings');
+  if (!keepAddress) closeTicket();
+  if (view === 'meetings' && meetings === null) loadMeetings();
+}
+document.querySelectorAll('.tab').forEach(b => b.addEventListener('click', () => setView(b.dataset.view)));
+
+async function loadMeetings() {
+  $('mCount').textContent = 'Loading…';
+  const { data, error } = await sb.from('meeting_notes').select('key,title,ended_at,speakers,recap')
+    .order('ended_at', { ascending: false }).limit(300);
+  if (error) { $('mCount').textContent = 'Error: ' + error.message; return; }
+  meetings = data;
+  renderMeetings();
+}
+
+function meetingText(m) {
+  const r = m.recap || {};
+  return [m.title, (m.speakers || []).join(' '), r.summary, (r.decisions || []).join(' '),
+    (r.action_items || []).map(a => a.task + ' ' + (a.owner || '')).join(' '), (r.open_questions || []).join(' ')]
+    .join(' ').toLowerCase();
+}
+
+function renderMeetings() {
+  const term = $('mq').value.trim().toLowerCase();
+  const list = term ? meetings.filter(m => meetingText(m).includes(term)) : meetings;
+  $('meetingList').innerHTML = list.map(m => {
+    const r = m.recap || {}, n = (r.action_items || []).length;
+    return `<div class="mcard" data-key="${esc(m.key)}">
+      <h4>${esc(m.title)}${n ? `<span class="chip">${n} action item${n > 1 ? 's' : ''}</span>` : ''}</h4>
+      <div class="sub">${esc(whenFmt.format(new Date(m.ended_at)))} · ${esc((m.speakers || []).join(', ') || 'no speakers recorded')}</div>
+      <p>${esc(r.summary)}</p></div>`;
+  }).join('');
+  show('mEmpty', list.length === 0);
+  $('mEmpty').textContent = meetings.length === 0
+    ? "No meeting notes yet. Notes appear here for Teams meetings you attended, once they have been processed."
+    : 'No meetings match your search.';
+  $('mCount').textContent = `${list.length}${term ? ' of ' + meetings.length : ''} meeting${list.length === 1 ? '' : 's'}`;
+}
+$('mq').addEventListener('input', () => { if (meetings) renderMeetings(); });
+$('meetingList').addEventListener('click', e => {
+  const card = e.target.closest('.mcard'); if (card) openMeeting(card.dataset.key);
+});
+
+// An action item is "yours" when its owner is your full name, or just your first name.
+function isMine(owner) {
+  const me = ((state.staff && state.staff.full_name) || '').trim().toLowerCase();
+  const o = (owner || '').trim().toLowerCase();
+  if (!me || !o) return false;
+  return o === me || o === me.split(/\s+/)[0];
+}
+
+function openMeeting(key) {
+  const m = (meetings || []).find(x => x.key === key); if (!m) return;
+  const r = m.recap || {};
+  const ul = items => items && items.length ? `<ul class="plain">${items.map(i => `<li>${esc(i)}</li>`).join('')}</ul>` : '<span class="note">None</span>';
+  const actions = (r.action_items || []).map(a => `
+    <div class="ai${isMine(a.owner) ? ' mine' : ''}">${esc(a.task)}<br>
+      <small>${esc(a.owner || 'Unassigned')}${isMine(a.owner) ? ' (you)' : ''}${a.due ? ' · due ' + esc(a.due) : ''}</small></div>`).join('');
+  const topics = (r.topics || []).map(t => `
+    <p><strong>${esc(t.title)}</strong>${t.start_time ? ` <span class="note">(${esc(t.start_time)})</span>` : ''}</p>${ul(t.points)}`).join('');
+  $('drawer').innerHTML = `
+    <button class="close" id="closeBtn">Close</button>
+    <div class="note">Meeting notes · ${esc(whenFmt.format(new Date(m.ended_at)))}</div>
+    <h2>${esc(m.title)}</h2>
+    <div class="note">Speakers: ${esc((m.speakers || []).join(', ') || '—')}</div>
+    <h3>Summary</h3><p>${esc(r.summary)}</p>
+    <h3>Action items</h3>${actions || '<span class="note">None</span>'}
+    <h3>Decisions</h3>${ul(r.decisions)}
+    <h3>Open questions</h3>${ul(r.open_questions)}
+    ${topics ? `<h3>Topics</h3>${topics}` : ''}
+    <p class="note">AI-generated from the Teams transcript. Private to the people who attended; check anything important against the meeting.</p>`;
+  history.replaceState(null, '', location.pathname);
+  show('overlay', true); show('drawer', true);
+  $('closeBtn').onclick = closeTicket;
+}
+
 function closeTicket() { show('overlay', false); show('drawer', false); history.replaceState(null, '', location.pathname); }
 function openFromHash() { const m = location.hash.match(/^#(\d+)$/); if (m) openTicket(Number(m[1])); }
 $('overlay').addEventListener('click', closeTicket);
