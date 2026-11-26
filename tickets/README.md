@@ -1,6 +1,6 @@
 # Gulf Coast ticket system (replacement for Desk365)
 
-A single page (`tickets/index.html`) backed by the Supabase project `gulfcoast-tickets`. No build step.
+A static single-page app (`tickets/index.html` + `style.css` + four small scripts) backed by the Supabase project `gulfcoast-tickets`. No build step.
 Sign-in is **Microsoft** (company work accounts, via Supabase's Azure provider, like the meetings tool); what each person can do is decided by the database (row-level security),
 not by the page. The page contains only Supabase's public key.
 
@@ -11,7 +11,9 @@ not by the page. The page contains only Supabase's public key.
 | Desk365 history and live mirror (9,704 tickets so far) | Done. Search, filter, sort, open any ticket. A timer on the server copies new and changed Desk365 tickets every 10 minutes (see "Moving off Desk365"). |
 | Create a ticket (subject, description, category, priority, assignee, contact, files) | Done. Numbers start at **100001**. |
 | Work a ticket: reply, internal note, status, priority, category, assignee, due date, files | Done. Every change is logged in the conversation. |
-| Meetings tab: AI notes from the meeting notes tool, private to attendees | Done. |
+| Dashboard (the default screen): KPI cards, tickets-over-time, status / priority donuts, categories, workload per person, ticket age, needs-attention list. **Every number, bar and slice is a link** to the matching ticket list. | Done. |
+| Left panel: Overview, ticket views with live counts, active tickets per category, meetings links | Done. Menu button + slide-out on phones. |
+| Meetings tab: AI notes from the meeting notes tool, private to attendees. Opens on charts (meetings per week, open vs resolved, items per person, most frequent meetings, "follow up first"); every chart filters the lists below. **Action items and open questions can be marked resolved** (with Undo). | Done. |
 | Email notifications (assigned / reply / note / status) | Built, **switched off**. See "Notifications". |
 | Receiving email into tickets / customer portal | **Not needed.** Owners, guests and vendors never create tickets; staff create them all. |
 | SLA rules / reports | Not built. |
@@ -20,7 +22,7 @@ not by the page. The page contains only Supabase's public key.
 
 | File | What |
 |---|---|
-| `tickets/index.html` (+ `gulf-coast-logo.png`, `fonts/`) | The whole UI. Same look as the meetings tool (Plus Jakarta Sans, coastal blue / sunset accent, frosted cards, light + dark). Fonts are self-hosted. Loading feedback: a top progress bar tied to real network requests, skeleton placeholders, button spinners, and a splash while sign-in is checked. |
+| `tickets/index.html`, `style.css`, `app.js` (sign-in, ticket list, ticket drawer, new ticket), `dashboard.js` (router, left panel, dashboard), `charts.js` (SVG/HTML charts: donut, bars, columns, KPI cards), `meetings.js` (meetings screens and resolve) (+ `gulf-coast-logo.png`, `fonts/`) | The whole UI. Same look as the meetings tool (Plus Jakarta Sans, coastal blue / sunset accent, frosted cards, light + dark). Fonts are self-hosted. Loading feedback: a top progress bar tied to real network requests, skeleton placeholders, button spinners, and a splash while sign-in is checked. |
 | `supabase/phase1_access.sql` | Staff allow-list, helper functions, archive read access. |
 | `supabase/phase1b_meetings.sql` | `meeting_notes` (private to attendees). |
 | `supabase/phase1c_staff_sync.sql` | Columns for the daily Microsoft 365 staff sync. |
@@ -29,6 +31,7 @@ not by the page. The page contains only Supabase's public key.
 | `supabase/phase3c_notifications.sql` | `ticket_notifications` queue (filled by triggers). |
 | `supabase/phase3d_attachments.sql` | Private storage bucket + `ticket_attachments`. |
 | `supabase/phase3f_view_counts.sql` | `ticket_view_counts()`: the live counts on the quick-view pills (All, Open, Pending, Assigned to me, Unassigned, Urgent & High, Resolved, Closed). Counts only what the caller may see. |
+| `supabase/phase3g_dashboard.sql` | `ticket_dashboard(days)`: every dashboard number in one call (respects row-level security); `ticket_view_counts()` now also returns active + per-category counts; `meeting_item_status` + `set_meeting_item()` (attendees mark action items / questions resolved; the server records who and when). |
 | `supabase/phase3e_timezones.sql` | Desk365 times are UTC; the combined view returns real timestamps. |
 | `archive/sync_desk365.py` + `archive/deploy_sync.sh` | The Desk365 -> in-house mirror (runs on the server every 10 minutes). |
 | `deploy/tickets/` | Caddy block + `deploy.sh` that publishes the page. |
@@ -113,3 +116,8 @@ attach a file -> download it. Then turn on notifications with a pilot list (see 
 
 Why single-tenant matters: access rules trust the email Microsoft reports. With the company tenant URL only people in the company
 can sign in; the `public.staff` list (synced daily from Microsoft 365) then decides who may see anything.
+
+## Trying the screens without signing in (development only)
+
+`tickets/dev/stub.js` fakes the Supabase calls with realistic numbers. Serve `tickets/` locally, open the page, then in the browser console:
+`eval(await (await fetch('/dev/stub.js')).text()); await signInAsStub();`. `deploy.sh` never uploads that folder.

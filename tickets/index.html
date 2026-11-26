@@ -4,201 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Gulf Coast Tickets</title>
-<style>
-  /* Same look as the meetings tool: coastal blue, sunset-orange accent, frosted cards, Plus Jakarta Sans. */
-  @font-face { font-family: 'Plus Jakarta Sans'; font-style: normal; font-weight: 400 800; font-display: swap; src: url(/fonts/PlusJakartaSans.woff2) format('woff2'); }
-  @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 500 700; font-display: swap; src: url(/fonts/JetBrainsMono.woff2) format('woff2'); }
-
-  :root {
-    --paper: #f8fafc; --paper-2: #f1f5f9; --card: #ffffff; --ink: #0f172a; --muted: #64748b;
-    --hair: #e2e8f0; --hair-soft: #eef2f7; --accent: #0066c8; --accent-ink: #ffffff; --brass: #c2410c;
-    --field: #8390a3;
-    --glass: rgba(255, 255, 255, 0.92); --header-glass: rgba(255, 255, 255, 0.88);
-    --brand-grad: linear-gradient(135deg, #0a73e0 0%, #0050a4 100%); --brand-glow: rgba(0, 102, 200, 0.22);
-    --good: #047857; --good-bg: #ecfdf5; --good-border: #a7f3d0;
-    --warn: #b45309; --warn-bg: #fffbeb; --warn-border: #fde68a;
-    --bad: #be123c; --bad-bg: #fff1f2; --bad-border: #fecdd3;
-    --shadow-card: 0 4px 20px -2px rgba(15, 23, 42, 0.06), 0 2px 6px -1px rgba(15, 23, 42, 0.04);
-    --shadow-card-hover: 0 12px 30px -6px rgba(15, 23, 42, 0.14), 0 3px 8px -1px rgba(15, 23, 42, 0.06);
-    --glow-opacity: 0.35; color-scheme: light;
-  }
-  :root[data-theme="dark"] {
-    --paper: #070a11; --paper-2: #0c1320; --card: #0e1420; --ink: #f8fafc; --muted: #94a3b8;
-    --hair: rgba(255, 255, 255, 0.09); --hair-soft: rgba(255, 255, 255, 0.05); --accent: #38bdf8; --accent-ink: #04111f; --brass: #fb923c;
-    --field: #5f7088;
-    --glass: rgba(14, 20, 32, 0.78); --header-glass: rgba(9, 13, 22, 0.8);
-    --brand-glow: rgba(56, 189, 248, 0.35);
-    --good: #34d399; --good-bg: rgba(52, 211, 153, 0.12); --good-border: rgba(52, 211, 153, 0.28);
-    --warn: #fbbf24; --warn-bg: rgba(251, 191, 36, 0.12); --warn-border: rgba(251, 191, 36, 0.3);
-    --bad: #fb7185; --bad-bg: rgba(244, 63, 94, 0.13); --bad-border: rgba(244, 63, 94, 0.3);
-    --shadow-card: 0 12px 30px -4px rgba(0, 0, 0, 0.5); --shadow-card-hover: 0 18px 40px -6px rgba(0, 0, 0, 0.65);
-    --glow-opacity: 0.85; color-scheme: dark;
-  }
-  * { box-sizing: border-box; scrollbar-width: thin; scrollbar-color: rgba(148, 163, 184, 0.35) transparent; }
-  body { margin: 0; min-height: 100vh; background: var(--paper); color: var(--ink);
-         font: 14px/1.5 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-         font-feature-settings: "cv02", "cv03", "cv04", "cv11"; transition: background-color .25s ease, color .25s ease; }
-  .hidden { display: none !important; }
-  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-  .mono, td.num { font-family: 'JetBrains Mono', ui-monospace, monospace; }
-
-  /* soft blue + sunset glow behind everything */
-  .ambient-glow { position: fixed; top: 0; left: 0; right: 0; height: 520px; overflow: hidden; pointer-events: none; z-index: 0; opacity: var(--glow-opacity); transition: opacity .3s ease; }
-  .ambient-glow i { position: absolute; border-radius: 50%; }
-  .ambient-glow .g1 { top: -120px; left: 10%; width: 550px; height: 550px; background: radial-gradient(circle, rgba(0,102,200,.18) 0%, transparent 70%); filter: blur(85px); }
-  .ambient-glow .g2 { top: -80px; right: 12%; width: 500px; height: 500px; background: radial-gradient(circle, rgba(242,111,33,.15) 0%, transparent 70%); filter: blur(95px); }
-
-  /* ---- loading: top progress bar, skeletons, spinners, splash ---- */
-  #topbar { position: fixed; inset: 0 0 auto 0; height: 3px; z-index: 100; pointer-events: none; }
-  #topbar i { display: block; height: 100%; width: 0; opacity: 0; border-radius: 0 3px 3px 0; background: var(--accent); box-shadow: 0 0 8px var(--accent); }
-  #topbar.on i { opacity: 1; animation: nav-progress 8s cubic-bezier(.1,.6,.2,1) forwards; }
-  #topbar.done i { width: 100%; opacity: 0; transition: width .2s ease-out, opacity .45s ease .2s; animation: none; }
-  @keyframes nav-progress { from { width: 0; } to { width: 85%; } }
-  @keyframes pulse { 50% { opacity: .5; } }
-  @keyframes spin { to { transform: rotate(360deg); } }
-  @keyframes route-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
-  @keyframes item-in { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
-  .sk { display: inline-block; vertical-align: middle; height: 12px; border-radius: 8px; background: var(--paper-2); animation: pulse 1.6s ease-in-out infinite; }
-  .spin, button.busy::before { display: inline-block; width: 14px; height: 14px; border-radius: 50%; border: 2px solid currentColor; border-top-color: transparent; animation: spin .7s linear infinite; vertical-align: -2px; }
-  button.busy::before { content: ""; margin-right: 8px; }
-  button.busy svg { display: none; }
-  .tablewrap.loading { opacity: .55; transition: opacity .2s; }
-  #boot { position: fixed; inset: 0; z-index: 200; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; background: var(--paper); transition: opacity .3s ease; }
-  #boot.gone { opacity: 0; pointer-events: none; }
-  #boot img { width: 72px; height: 72px; border-radius: 14px; background: #fff; box-shadow: var(--shadow-card); }
-  #boot .bar { width: 120px; height: 3px; border-radius: 3px; background: var(--hair); overflow: hidden; }
-  #boot .bar::after { content: ""; display: block; height: 100%; width: 40%; border-radius: 3px; background: var(--brand-grad); animation: slide 1.1s ease-in-out infinite; }
-  @keyframes slide { from { transform: translateX(-100%); } to { transform: translateX(300%); } }
-  #boot p { margin: 0; color: var(--muted); font-size: 13px; font-weight: 600; }
-  @media (prefers-reduced-motion: reduce) {
-    *, *::before, *::after { animation: none !important; transition-duration: .01ms !important; }
-    #topbar.on i { width: 85%; } .spin, button.busy::before { border-top-color: currentColor; opacity: .6; }
-  }
-
-  /* header */
-  header.app { position: sticky; top: 0; z-index: 40; display: flex; align-items: center; gap: 12px; height: 64px; padding: 0 clamp(16px, 2vw, 32px);
-               background: var(--header-glass); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid var(--hair); box-shadow: var(--shadow-card); }
-  header.app .brand { display: flex; align-items: center; gap: 12px; min-width: 0; }
-  header.app .brand img { width: 46px; height: 46px; border-radius: 10px; background: #fff; box-shadow: var(--shadow-card); flex: none; }
-  header.app .t1 { display: block; font-size: 16px; font-weight: 800; letter-spacing: -.01em; line-height: 1.15; }
-  header.app .t2 { display: block; font-size: 12px; font-weight: 600; color: var(--muted); }
-  header.app .right { margin-left: auto; display: flex; align-items: center; gap: 8px; min-width: 0; }
-  header.app .who { color: var(--muted); font-size: 12px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  button.icon { width: 36px; height: 36px; padding: 0; display: inline-flex; align-items: center; justify-content: center; }
-  [data-theme="dark"] .i-sun, :root:not([data-theme="dark"]) .i-moon { display: none; }
-  main { position: relative; z-index: 1; width: 100%; padding: 22px clamp(16px, 2vw, 32px) 48px; }   /* full width, like the table needs */
-
-  /* controls */
-  button, select, input, textarea { font: inherit; color: inherit; transition: background-color .15s ease-out, border-color .15s ease-out, color .15s ease-out, box-shadow .15s ease-out, opacity .15s ease-out, transform .2s; }
-  button { cursor: pointer; border: 1px solid var(--hair); background: var(--glass); backdrop-filter: blur(16px); padding: 8px 14px; border-radius: 8px; font-weight: 600; white-space: nowrap; }
-  button:hover:not(:disabled) { border-color: var(--field); box-shadow: 0 4px 14px -4px rgba(15,23,42,.18); transform: translateY(-1px); }
-  button:active:not(:disabled) { transform: none; }
-  button.primary { background: var(--brand-grad); border-color: transparent; color: #fff; box-shadow: 0 2px 10px var(--brand-glow); }
-  button.primary:hover:not(:disabled) { filter: brightness(1.1); box-shadow: 0 4px 16px var(--brand-glow); border-color: transparent; }
-  button:disabled { opacity: .5; cursor: not-allowed; transform: none; }
-  select, input[type=search], input[type=date], input[type=email], input[type=text], input:not([type]), textarea {
-    border: 1px solid var(--field); background: var(--card); padding: 8px 10px; border-radius: 8px; min-width: 0; color: var(--ink); }
-  select:focus-visible, input:focus-visible, textarea:focus-visible { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--brand-glow); }
-
-  /* sign-in / denied */
-  .login { max-width: 400px; margin: 10vh auto; background: var(--glass); backdrop-filter: blur(16px); border: 1px solid var(--hair); border-radius: 20px; box-shadow: var(--shadow-card); padding: 32px 28px; text-align: center; animation: route-in 240ms ease-out; }
-  .login img { width: 64px; height: 64px; border-radius: 14px; background: #fff; box-shadow: var(--shadow-card); margin-bottom: 14px; }
-  .login h2 { margin: 0 0 6px; font-size: 24px; font-weight: 800; letter-spacing: -.02em; }
-  .login p { color: var(--muted); margin: 0 0 20px; font-size: 14px; }
-  .login button { width: 100%; padding: 10px; }
-  .login button.ms { display: flex; align-items: center; justify-content: center; gap: 10px; font-weight: 700; color: var(--ink); }
-  .msg { margin-top: 12px; font-size: 13px; }
-  .msg.err { color: var(--bad); }
-
-  /* tabs: pill */
-  .tabs { display: inline-flex; gap: 2px; margin-bottom: 18px; padding: 3px; border: 1px solid var(--hair); background: var(--paper-2); border-radius: 999px; }
-  .tab { border: 0; border-radius: 999px; background: none; backdrop-filter: none; padding: 7px 18px; color: var(--muted); font-weight: 700; box-shadow: none; }
-  .tab:hover:not(:disabled) { color: var(--ink); box-shadow: none; transform: none; border-color: transparent; }
-  .tab.active { background: var(--brand-grad); color: #fff; box-shadow: 0 2px 10px var(--brand-glow); }
-  #ticketsView, #meetingsView { animation: route-in 240ms ease-out; }
-
-  /* quick views: pills with live counts */
-  .qviews { display: flex; gap: 8px; flex-wrap: wrap; margin: 0 0 14px; }
-  .qv { display: inline-flex; align-items: center; gap: 8px; padding: 6px 8px 6px 14px; border-radius: 999px; font-weight: 700; }
-  .qv .n { min-width: 26px; padding: 1px 8px; border-radius: 999px; text-align: center; font: 600 11px 'JetBrains Mono', ui-monospace, monospace; background: var(--paper-2); color: var(--muted); }
-  .qv .n .sk { height: 9px; width: 18px; }
-  .qv.active { background: var(--brand-grad); border-color: transparent; color: #fff; box-shadow: 0 2px 10px var(--brand-glow); }
-  .qv.active .n { background: rgba(255, 255, 255, .22); color: #fff; }
-  .qv.urgent:not(.active) .n { background: var(--bad-bg); color: var(--bad); }
-  @media (max-width: 800px) { .qviews { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; } }
-
-  /* filters + summary */
-  .filters { display: grid; grid-template-columns: 2fr repeat(4, 1fr) auto; gap: 8px; margin-bottom: 8px; }
-  .filters.row2 { grid-template-columns: repeat(2, minmax(0,170px)) 1fr; align-items: center; color: var(--muted); font-size: 13px; font-weight: 600; }
-  .filters.row2 label { display: flex; gap: 8px; align-items: center; }
-  .summary { color: var(--muted); margin: 12px 0; display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; font-weight: 600; }
-
-  /* table card */
-  .tablewrap { background: var(--glass); backdrop-filter: blur(16px); border: 1px solid var(--hair); border-radius: 16px; box-shadow: var(--shadow-card); overflow-x: auto; }
-  table { width: 100%; border-collapse: collapse; }
-  th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--hair); white-space: nowrap; }
-  tbody tr:last-child td { border-bottom: 0; }
-  th { font-size: 11px; color: var(--muted); font-weight: 700; text-transform: uppercase; letter-spacing: .05em; user-select: none; position: sticky; top: 0; background: var(--card); }
-  th.sortable { cursor: pointer; } th.sortable:hover { color: var(--ink); }
-  tr.row { cursor: pointer; animation: item-in 220ms ease-out; }
-  tr.row:hover td { background: color-mix(in srgb, var(--accent) 7%, transparent); }
-  td.subject { white-space: normal; min-width: 260px; max-width: 520px; font-weight: 600; }
-  td.num { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
-  .badge { display: inline-flex; align-items: center; padding: 1px 10px; border-radius: 999px; border: 1px solid var(--hair); font-size: 12px; font-weight: 700; color: var(--muted); background: var(--paper-2); }
-  .st-Open { color: var(--warn); background: var(--warn-bg); border-color: var(--warn-border); }
-  .st-Pending { color: var(--accent); background: color-mix(in srgb, var(--accent) 10%, transparent); border-color: color-mix(in srgb, var(--accent) 25%, transparent); }
-  .st-Resolved { color: var(--good); background: var(--good-bg); border-color: var(--good-border); }
-  .st-Closed { color: var(--muted); background: var(--paper-2); border-color: var(--hair); }
-  .pr { font-weight: 700; } .pr-1 { color: var(--muted); } .pr-5 { color: var(--accent); } .pr-10 { color: var(--warn); } .pr-20 { color: var(--bad); }
-  .pager { display: flex; gap: 10px; align-items: center; justify-content: flex-end; padding-top: 14px; color: var(--muted); font-weight: 600; }
-  .empty { padding: 44px; text-align: center; color: var(--muted); }
-  .chip { display: inline-block; margin-left: 6px; padding: 0 9px; border-radius: 999px; font-size: 11px; font-weight: 700; color: var(--accent); background: color-mix(in srgb, var(--accent) 10%, transparent); border: 1px solid color-mix(in srgb, var(--accent) 25%, transparent); vertical-align: 1px; }
-
-  /* meetings */
-  .meetings-filter { grid-template-columns: 1fr; }
-  .mcard { background: var(--glass); backdrop-filter: blur(16px); border: 1px solid var(--hair); border-radius: 16px; box-shadow: var(--shadow-card); padding: 14px 18px; margin-bottom: 10px; cursor: pointer; transition: box-shadow .2s, transform .2s, border-color .2s; animation: item-in 220ms ease-out; }
-  .mcard:hover { transform: translateY(-2px); border-color: var(--field); box-shadow: var(--shadow-card-hover); }
-  .mcard h4 { margin: 0 0 2px; font-size: 15px; font-weight: 800; }
-  .mcard .sub { color: var(--muted); font-size: 12px; margin-bottom: 6px; font-weight: 600; }
-  .mcard p { margin: 0; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-  ul.plain { margin: 4px 0; padding-left: 20px; } ul.plain li { margin: 3px 0; }
-  .ai { padding: 10px 12px; border: 1px solid var(--hair); border-radius: 10px; margin: 6px 0; background: var(--card); }
-  .ai.mine { border-color: color-mix(in srgb, var(--accent) 40%, transparent); background: color-mix(in srgb, var(--accent) 9%, transparent); }
-  .ai small { color: var(--muted); }
-
-  /* forms + working a ticket */
-  .form label { display: block; font-size: 12px; font-weight: 700; color: var(--muted); margin-top: 12px; }
-  .form input, .form textarea, .form select { display: block; width: 100%; margin-top: 4px; font-weight: 500; }
-  .form textarea { resize: vertical; }
-  .form .two { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-  .form .actions { margin-top: 18px; display: flex; gap: 8px; }
-  .controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0 12px; margin: 10px 0 0; }
-  .msg-b { border: 1px solid var(--hair); border-radius: 12px; padding: 10px 14px; margin: 8px 0; background: var(--paper-2); }
-  .msg-b.note { background: var(--warn-bg); border-color: var(--warn-border); }
-  .msg-b .who { font-size: 12px; color: var(--muted); margin-bottom: 4px; }
-  .msg-b .txt { white-space: pre-wrap; word-break: break-word; }
-  .evt { font-size: 12px; color: var(--muted); padding: 4px 2px; }
-  .atts { margin: 6px 0; } .attrow { padding: 3px 0; }
-  a.att { color: var(--accent); text-decoration: none; font-weight: 700; word-break: break-all; } a.att:hover { text-decoration: underline; }
-
-  /* detail drawer */
-  .overlay { position: fixed; inset: 0; background: rgba(15,23,42,.4); backdrop-filter: blur(2px); z-index: 60; animation: fade .2s ease-out; }
-  @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
-  @keyframes drawer-in { from { transform: translateX(24px); opacity: 0; } to { transform: none; opacity: 1; } }
-  .drawer { position: fixed; top: 0; right: 0; bottom: 0; width: min(740px, 100%); background: var(--card); border-left: 1px solid var(--hair); border-radius: 20px 0 0 20px;
-            z-index: 61; box-shadow: -12px 0 40px rgba(0,0,0,.25); overflow-y: auto; padding: 22px 26px 44px; animation: drawer-in 220ms ease-out; }
-  .drawer h2 { margin: 4px 0 10px; font-size: 22px; font-weight: 800; letter-spacing: -.02em; }
-  .drawer .close { float: right; }
-  .meta { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 20px; margin: 16px 0; }
-  .meta div span { display: block; font-size: 11px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
-  .desc { white-space: pre-wrap; word-break: break-word; background: var(--paper-2); border: 1px solid var(--hair); border-radius: 12px; padding: 12px 14px; max-height: 50vh; overflow-y: auto; }
-  h3 { font-size: 11px; font-weight: 800; margin: 22px 0 8px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
-  .note { font-size: 12px; color: var(--muted); font-weight: 600; }
-  @media (max-width: 800px) {
-    .filters { grid-template-columns: 1fr 1fr; } .filters > :first-child { grid-column: 1 / -1; }
-    .filters.row2 { grid-template-columns: 1fr 1fr; } header.app .t2, header.app .who { display: none; }
-  }
-</style>
+<link rel="stylesheet" href="/style.css">
 <script>try{var t=localStorage.getItem('theme');document.documentElement.setAttribute('data-theme',t==='dark'?'dark':'light');}catch(e){}</script>
 </head>
 <body>
@@ -209,714 +15,126 @@
   <div class="bar"></div>
   <p id="bootText">Loading…</p>
 </div>
+
 <header class="app">
-  <div class="brand">
+  <button id="menuBtn" class="icon menu-btn hidden" type="button" aria-label="Open menu" aria-controls="side" aria-expanded="false">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+  </button>
+  <a class="brand" href="#/dashboard" aria-label="Dashboard">
     <img src="/gulf-coast-logo.png" alt="Gulf Coast Property Management">
     <span><span class="t1">Tickets</span><span class="t2">Gulf Coast Property Management</span></span>
-  </div>
+  </a>
   <div class="right">
     <span class="who" id="who"></span>
-    <button id="themeBtn" class="icon" type="button" aria-label="Switch colour theme" title="Switch colour theme"><svg class="i-sun" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg><svg class="i-moon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg></button>
+    <button id="themeBtn" class="icon" type="button" aria-label="Switch colour theme" title="Switch colour theme">
+      <svg class="i-sun" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      <svg class="i-moon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+    </button>
     <button id="signOut" class="hidden">Sign out</button>
   </div>
 </header>
 
-<main>
-  <!-- sign-in -->
-  <section id="login" class="login hidden">
-    <img src="/gulf-coast-logo.png" alt="">
-    <h2>Sign in</h2>
-    <p>Use your Gulf Coast Microsoft account. There is nothing new to remember.</p>
-    <button class="ms" id="msSignIn" type="button">
-      <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><rect x="0" y="0" width="7.3" height="7.3" fill="#F25022"/><rect x="8.7" y="0" width="7.3" height="7.3" fill="#7FBA00"/><rect x="0" y="8.7" width="7.3" height="7.3" fill="#00A4EF"/><rect x="8.7" y="8.7" width="7.3" height="7.3" fill="#FFB900"/></svg>
-      <span id="msLabel">Sign in with Microsoft</span>
-    </button>
-    <div class="msg" id="loginMsg" role="status" aria-live="polite"></div>
-  </section>
+<div class="shell">
+  <nav id="side" class="side hidden" aria-label="Main navigation"></nav>
+  <div id="scrim" class="scrim hidden"></div>
 
-  <!-- not authorised -->
-  <section id="denied" class="login hidden">
-    <img src="/gulf-coast-logo.png" alt="">
-    <h2>No access yet</h2>
-    <p id="deniedText">Your email isn't on the staff list. Ask an admin to add you.</p>
-  </section>
+  <main>
+    <!-- sign-in -->
+    <section id="login" class="login hidden">
+      <img src="/gulf-coast-logo.png" alt="">
+      <h2>Sign in</h2>
+      <p>Use your Gulf Coast Microsoft account. There is nothing new to remember.</p>
+      <button class="ms" id="msSignIn" type="button">
+        <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><rect x="0" y="0" width="7.3" height="7.3" fill="#F25022"/><rect x="8.7" y="0" width="7.3" height="7.3" fill="#7FBA00"/><rect x="0" y="8.7" width="7.3" height="7.3" fill="#00A4EF"/><rect x="8.7" y="8.7" width="7.3" height="7.3" fill="#FFB900"/></svg>
+        <span id="msLabel">Sign in with Microsoft</span>
+      </button>
+      <div class="msg" id="loginMsg" role="status" aria-live="polite"></div>
+    </section>
 
-  <!-- app -->
-  <section id="app" class="hidden">
-    <nav class="tabs" role="tablist">
-      <button class="tab active" id="tabTickets" role="tab" data-view="tickets">Tickets</button>
-      <button class="tab" id="tabMeetings" role="tab" data-view="meetings">Meetings</button>
-    </nav>
+    <!-- not authorised -->
+    <section id="denied" class="login hidden">
+      <img src="/gulf-coast-logo.png" alt="">
+      <h2>No access yet</h2>
+      <p id="deniedText">Your email isn't on the staff list. Ask an admin to add you.</p>
+    </section>
 
-    <div id="meetingsView" class="hidden">
-      <div class="filters meetings-filter">
-        <input type="search" id="mq" placeholder="Search meetings: title, people, decisions, action items…">
+    <!-- the app: three screens -->
+    <section id="app" class="hidden">
+      <div id="viewDashboard" class="view"></div>
+
+      <div id="viewTickets" class="view hidden">
+        <div class="pagehead">
+          <div><p class="eyebrow" id="listEyebrow">Tickets</p><h1 id="listTitle">All tickets</h1><p class="sub" id="listSub"></p></div>
+          <div class="actions"><button class="primary" id="newTicket">+ New ticket</button></div>
+        </div>
+        <div class="activefilters" id="activeFilters"></div>
+        <div class="filters">
+          <input type="search" id="q" placeholder="Search subject, contact, or ticket #…">
+          <select id="fStatus"><option value="">All statuses</option></select>
+          <select id="fCategory"><option value="">All categories</option></select>
+          <select id="fAssigned"><option value="">All assignees</option><option value="__me__">Assigned to me</option></select>
+          <select id="fPriority"><option value="">All priorities</option>
+            <option value="20">Urgent</option><option value="10">High</option><option value="5">Medium</option><option value="1">Low</option></select>
+          <button id="reset">Reset</button>
+        </div>
+        <div class="filters row2">
+          <label>Created from <input type="date" id="fFrom"></label>
+          <label>to <input type="date" id="fTo"></label>
+          <span></span>
+        </div>
+        <div class="summary"><span id="count">Loading…</span><span class="note">Times are in Eastern time.</span></div>
+        <div class="tablewrap" id="tableWrap">
+          <table>
+            <thead><tr>
+              <th class="sortable" data-sort="ticket_number">#</th>
+              <th>Subject</th>
+              <th class="sortable" data-sort="status">Status</th>
+              <th class="sortable" data-sort="priority">Priority</th>
+              <th class="sortable" data-sort="assigned_to">Assigned to</th>
+              <th class="sortable" data-sort="category">Category</th>
+              <th>Contact</th>
+              <th class="sortable" data-sort="created_on">Created</th>
+              <th class="sortable" data-sort="updated_on">Updated</th>
+            </tr></thead>
+            <tbody id="rows"></tbody>
+          </table>
+          <div id="empty" class="empty hidden">No tickets match these filters.</div>
+        </div>
+        <div class="pager">
+          <button id="prev">‹ Prev</button><span id="pageInfo"></span><button id="next">Next ›</button>
+        </div>
       </div>
-      <div class="summary"><span id="mCount">Loading…</span><span class="note">Private: you only see meetings you attended.</span></div>
-      <div id="meetingList"></div>
-      <div id="mEmpty" class="empty hidden"></div>
-    </div>
 
-    <div id="ticketsView">
-    <div class="qviews" id="qviews" role="group" aria-label="Ticket views"></div>
-    <div class="filters">
-      <input type="search" id="q" placeholder="Search subject, contact, or ticket #…">
-      <select id="fStatus"><option value="">All statuses</option></select>
-      <select id="fCategory"><option value="">All categories</option></select>
-      <select id="fAssigned"><option value="">All assignees</option><option value="__me__">Assigned to me</option></select>
-      <select id="fPriority"><option value="">All priorities</option>
-        <option value="20">Urgent</option><option value="10">High</option><option value="5">Medium</option><option value="1">Low</option></select>
-      <button id="reset">Reset</button>
-    </div>
-    <div class="filters row2">
-      <label>Created from <input type="date" id="fFrom"></label>
-      <label>to <input type="date" id="fTo"></label>
-      <span></span>
-    </div>
-    <div class="summary"><span id="count">Loading…</span>
-      <span><span class="note">Times are in Eastern time. &nbsp;</span><button class="primary" id="newTicket">+ New ticket</button></span></div>
-    <div class="tablewrap" id="tableWrap">
-      <table>
-        <thead><tr>
-          <th class="sortable" data-sort="ticket_number">#</th>
-          <th>Subject</th>
-          <th class="sortable" data-sort="status">Status</th>
-          <th class="sortable" data-sort="priority">Priority</th>
-          <th class="sortable" data-sort="assigned_to">Assigned to</th>
-          <th class="sortable" data-sort="category">Category</th>
-          <th>Contact</th>
-          <th class="sortable" data-sort="created_on">Created</th>
-          <th class="sortable" data-sort="updated_on">Updated</th>
-        </tr></thead>
-        <tbody id="rows"></tbody>
-      </table>
-      <div id="empty" class="empty hidden">No tickets match these filters.</div>
-    </div>
-    <div class="pager">
-      <button id="prev">‹ Prev</button><span id="pageInfo"></span><button id="next">Next ›</button>
-    </div>
-    </div><!-- /ticketsView -->
-  </section>
-</main>
+      <div id="viewMeetings" class="view hidden">
+        <div class="pagehead">
+          <div><p class="eyebrow">Meetings</p><h1>Meeting insights</h1><p class="sub">AI notes from the meetings you attended. Only you and the other attendees can see them.</p></div>
+          <div class="seg" id="mPeriod" role="group" aria-label="Time period"></div>
+        </div>
+        <div id="mDash"></div>
+        <div class="listhead">
+          <div class="seg" id="mTabs" role="group" aria-label="Show"></div>
+          <div class="mfilters">
+            <input type="search" id="mq" placeholder="Search meetings and action items…">
+            <div class="seg small hidden" id="mStatus" role="group" aria-label="Item status"></div>
+          </div>
+        </div>
+        <div class="activefilters" id="mActive"></div>
+        <div id="meetingList"></div>
+        <div id="itemsList" class="hidden"></div>
+        <div id="mEmpty" class="empty hidden"></div>
+      </div>
+    </section>
+  </main>
+</div>
 
 <div id="overlay" class="overlay hidden"></div>
 <aside id="drawer" class="drawer hidden" aria-live="polite"></aside>
+<div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
-<script>
-// Public by design: the anon key only lets people sign in; row-level security decides what they can read.
-const SUPABASE_URL = 'https://sfxaaxdkfmddisnntcty.supabase.co';
-const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNmeGFheGRrZm1kZGlzbm50Y3R5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTQ1ODc0NjYsImV4cCI6MjExMDE2MzQ2Nn0.SsjahDDBQFHJ9Ek8pRLPfutoi0mZmj5Tkyxr-DDvjOs';
-// Loading feedback: a thin bar along the top of the window whenever anything is being fetched. Every request the
-// Supabase client makes goes through trackedFetch; the bar appears only if it takes longer than a moment.
-let pending = 0, barOn = null, barOff = null;
-function netStart() {
-  if (++pending !== 1) return;
-  clearTimeout(barOff);
-  barOn = setTimeout(() => { if (pending > 0) { const b = document.getElementById('topbar'); b.className = ''; void b.offsetWidth; b.className = 'on'; } }, 120);
-}
-function netEnd() {
-  pending = Math.max(0, pending - 1);
-  if (pending > 0) return;
-  clearTimeout(barOn);
-  const b = document.getElementById('topbar');
-  if (b.classList.contains('on')) { b.className = 'done'; barOff = setTimeout(() => { b.className = ''; }, 700); }
-}
-const trackedFetch = (...args) => { netStart(); return fetch(...args).finally(netEnd); };
-const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, { auth: { flowType: 'pkce' }, global: { fetch: trackedFetch } });
-
-const PAGE_SIZE = 50;
-const LIST_COLS = 'ticket_number,subject,status,priority,assigned_to,category,contact_name,contact_email,created_on,updated_on,origin';
-const NATIVE_FROM = 100000;   // tickets created here are numbered from 100001; Desk365's archive stays below this
-const DETAIL_COLS = 'ticket_number,subject,status,priority,type,source,assigned_to,group_name,category,subcategory,' +
-  'contact_name,contact_email,company_name,form_name,sla,completed_within_sla,conversation_count,created_on,updated_on,' +
-  'due_date,first_response_time,resolved_on,closed_on,watchers,share_to,custom_fields,description_text';
-const PRIORITY = { 1: 'Low', 5: 'Medium', 10: 'High', 20: 'Urgent' };
-
-const $ = id => document.getElementById(id);
-const state = { page: 0, sort: 'ticket_number', asc: false, token: 0, staff: null, optionsLoaded: false };
-
-// colour theme (light / dark), remembered per browser; same sun/moon button as the meetings tool
-$('themeBtn').addEventListener('click', () => {
-  const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-  document.documentElement.setAttribute('data-theme', next);
-  try { localStorage.setItem('theme', next); } catch (e) { /* private window: just not remembered */ }
-});
-
-// splash while the sign-in state is being checked (and while Microsoft's code is exchanged on return)
-let booted = false;
-if (/[?&]code=/.test(location.search)) $('bootText').textContent = 'Signing you in…';
-function hideBoot() { if (booted) return; booted = true; const b = $('boot'); b.classList.add('gone'); setTimeout(() => b.classList.add('hidden'), 350); }
-
-// pulsing placeholders shown where data is about to appear
-const sk = (w, h = 12) => `<span class="sk" style="width:${w}px;height:${h}px"></span>`;
-function skeletonRows(n) {
-  const widths = [40, 260, 70, 60, 110, 130, 90, 90, 90];
-  return Array.from({ length: n }, (_, i) => `<tr>${widths.map(w => `<td>${sk(Math.round(w * (0.7 + ((i * 37) % 30) / 100)))}</td>`).join('')}</tr>`).join('');
-}
-const skeletonCards = n => Array.from({ length: n }, () => `<div class="mcard" style="pointer-events:none"><div>${sk(220, 16)}</div><div style="margin:8px 0">${sk(160)}</div>${sk(420)}</div>`).join('');
-const drawerSkeleton = () => `<div style="padding-top:34px">${sk(120)}<div style="margin:12px 0 18px">${sk(380, 22)}</div>${sk(260)}<div style="margin:22px 0 10px">${sk(520, 64)}</div>${sk(420)}<div style="margin:10px 0">${sk(480)}</div>${sk(300)}</div>`;
-
-function esc(s) { const d = document.createElement('div'); d.textContent = s == null ? '' : String(s); return d.innerHTML; }
-const fmtET = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York', hourCycle: 'h23', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' });
-// Desk365's archive stores UTC with no zone marker; everything else carries one. Show all of it in Eastern time.
-function fmt(ts) {
-  if (!ts) return '—';
-  const s = String(ts).replace(' ', 'T');
-  const d = new Date(/(Z|[+-]\d\d(:?\d\d)?)$/.test(s) ? s : s + 'Z');
-  return isNaN(d) ? String(ts) : fmtET.format(d).replace(',', '');
-}
-// Start / end of a calendar day in Eastern time (handles daylight saving), as an ISO string with an offset.
-function etDay(d, end) {
-  const part = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', timeZoneName: 'shortOffset' }).formatToParts(new Date(end ? Date.parse(`${d}T00:00:00Z`) + 28 * 3600e3 : Date.parse(`${d}T05:00:00Z`))).find(p => p.type === 'timeZoneName').value;
-  const h = parseInt(part.replace('GMT', ''), 10) || 0;
-  return `${d}T${end ? '23:59:59' : '00:00:00'}${h < 0 ? '-' : '+'}${String(Math.abs(h)).padStart(2, '0')}:00`;
-}
-function show(id, on) { $(id).classList.toggle('hidden', !on); }
-function name(email) { return email ? email.split('@')[0] : '—'; }
-
-/* ---------- auth ---------- */
-// Microsoft sign-in (Supabase "azure" provider, company tenant only). Same approach as the meetings tool.
-$('msSignIn').addEventListener('click', async () => {
-  const btn = $('msSignIn'), msg = $('loginMsg');
-  btn.disabled = true; btn.classList.add('busy'); msg.className = 'msg'; msg.textContent = '';
-  $('msLabel').textContent = 'Signing in…';
-  try { sessionStorage.setItem('post_login_hash', location.hash); } catch (e) { /* private window: the deep link is just not restored */ }
-  const { error } = await sb.auth.signInWithOAuth({ provider: 'azure', options: { scopes: 'email', redirectTo: location.origin + location.pathname } });
-  if (error) {                                   // otherwise the browser is already on its way to Microsoft
-    btn.disabled = false; btn.classList.remove('busy'); $('msLabel').textContent = 'Sign in with Microsoft';
-    msg.className = 'msg err'; msg.textContent = "Microsoft sign-in isn't available right now. " + error.message;
-  }
-});
-
-// Back from Microsoft with a problem (declined, wrong account, ...): say so on the sign-in panel.
-(function showReturnedError() {
-  const q = new URLSearchParams(location.search), h = new URLSearchParams(location.hash.replace(/^#/, ''));
-  const text = q.get('error_description') || h.get('error_description');
-  if (!text) return;
-  history.replaceState(null, '', location.pathname);
-  const msg = $('loginMsg'); msg.className = 'msg err'; msg.textContent = text.replace(/\+/g, ' ');
-})();
-$('signOut').addEventListener('click', () => sb.auth.signOut());
-
-async function route(session) {
-  hideBoot();
-  const uid = session ? session.user.id : null;
-  if (state.uid !== uid) {                      // a different person (or sign-out): drop anything cached for the last one
-    state.uid = uid; meetings = null; formOpts = null; state.counts = null; state.view = 'all'; renderQViews();
-    $('meetingList').innerHTML = ''; $('mq').value = '';
-    $('drawer').innerHTML = ''; show('drawer', false); show('overlay', false);
-    setView('tickets', true);                   // keep the address as is, so a #123 link still opens that ticket
-  }
-  show('login', false); show('denied', false); show('app', false); show('signOut', false);
-  $('who').textContent = '';
-  if (!session) { show('login', true); return; }
-  $('who').textContent = session.user.email;
-  show('signOut', true);
-  const email = (session.user.email || '').toLowerCase();
-  state.email = email;
-  const { data, error } = await sb.from('staff').select('email,full_name,is_admin').eq('email', email).maybeSingle();
-  if (error || !data) { $('deniedText').textContent = `${email} isn't on the staff list. Ask an admin to add you.`; show('denied', true); return; }
-  state.staff = data;
-  $('who').textContent = `${data.full_name || email}${data.is_admin ? ' · admin' : ''}`;
-  show('app', true);
-  loadCounts();
-  if (!state.optionsLoaded) await loadOptions();
-  try {                                           // a #123 link opened before sign-in comes back after it
-    const saved = sessionStorage.getItem('post_login_hash'); sessionStorage.removeItem('post_login_hash');
-    if (saved && !location.hash) history.replaceState(null, '', location.pathname + saved);
-  } catch (e) { /* nothing saved */ }
-  openFromHash();
-  loadTickets();
-}
-sb.auth.onAuthStateChange((_evt, session) => { setTimeout(() => route(session), 0); });
-setTimeout(() => { if (!booted) route(null); }, 8000);   // safety net: never leave the splash up forever
-
-/* ---------- filters ---------- */
-async function loadOptions() {
-  const { data, error } = await sb.rpc('ticket_filter_options');
-  if (error || !data) return;
-  const fill = (id, vals) => vals.forEach(v => { const o = document.createElement('option'); o.value = v; o.textContent = id === 'fAssigned' ? name(v) : v; $(id).appendChild(o); });
-  fill('fStatus', data.status); fill('fCategory', data.category); fill('fAssigned', data.assigned);
-  state.optionsLoaded = true;
-}
-// Quick views (like Desk365's left-hand list). "Active" means Open or Pending.
-const QVIEWS = [
-  { id: 'all',        label: 'All tickets' },
-  { id: 'open',       label: 'Open' },
-  { id: 'pending',    label: 'Pending' },
-  { id: 'mine',       label: 'Assigned to me' },
-  { id: 'unassigned', label: 'Unassigned' },
-  { id: 'urgent',     label: 'Urgent & High', cls: 'urgent' },
-  { id: 'resolved',   label: 'Resolved' },
-  { id: 'closed',     label: 'Closed' },
-];
-state.view = 'all'; state.counts = null;
-
-function renderQViews() {
-  $('qviews').innerHTML = QVIEWS.map(v => {
-    const n = state.counts ? Number(state.counts[v.id] ?? 0).toLocaleString() : '<span class="sk"></span>';
-    return `<button type="button" class="qv ${v.cls || ''} ${state.view === v.id ? 'active' : ''}" data-view="${v.id}" aria-pressed="${state.view === v.id}">${esc(v.label)}<span class="n">${n}</span></button>`;
-  }).join('');
-}
-function setQuickView(id, reload) {
-  state.view = id;
-  if (reload) { ['fStatus', 'fAssigned', 'fPriority'].forEach(f => $(f).value = ''); state.page = 0; }   // the pill replaces these three
-  renderQViews();
-  if (reload) loadTickets();
-}
-$('qviews').addEventListener('click', e => { const b = e.target.closest('.qv'); if (b) setQuickView(b.dataset.view, true); });
-
-async function loadCounts() {
-  const { data, error } = await sb.rpc('ticket_view_counts');
-  if (!error && data) { state.counts = data; renderQViews(); }
-}
-renderQViews();
-
-// the pill's rule, applied on top of whatever else is filled in (search, category, dates)
-function applyQuickView(q) {
-  const ACTIVE = ['Open', 'Pending'];
-  switch (state.view) {
-    case 'open':       return q.eq('status', 'Open');
-    case 'pending':    return q.eq('status', 'Pending');
-    case 'resolved':   return q.eq('status', 'Resolved');
-    case 'closed':     return q.eq('status', 'Closed');
-    case 'mine':       return q.in('status', ACTIVE).eq('assigned_to', state.email || '');
-    case 'unassigned': return q.in('status', ACTIVE).is('assigned_to', null);
-    case 'urgent':     return q.in('status', ACTIVE).gte('priority', 10);
-    default:           return q;
-  }
-}
-
-function resetPage() { state.page = 0; loadTickets(); }
-['fStatus', 'fCategory', 'fAssigned', 'fPriority', 'fFrom', 'fTo'].forEach(id => $(id).addEventListener('change', resetPage));
-// choosing status / assignee / priority by hand means "I'm filtering myself": drop the pill so the two don't fight
-['fStatus', 'fAssigned', 'fPriority'].forEach(id => $(id).addEventListener('change', () => { if (state.view !== 'all') { state.view = 'all'; renderQViews(); } }));
-let searchTimer; $('q').addEventListener('input', () => { clearTimeout(searchTimer); searchTimer = setTimeout(resetPage, 300); });
-$('reset').addEventListener('click', () => {
-  ['q', 'fStatus', 'fCategory', 'fAssigned', 'fPriority', 'fFrom', 'fTo'].forEach(id => $(id).value = '');
-  state.view = 'all'; renderQViews();
-  resetPage();
-});
-document.querySelectorAll('th.sortable').forEach(th => th.addEventListener('click', () => {
-  const key = th.dataset.sort;
-  if (state.sort === key) state.asc = !state.asc; else { state.sort = key; state.asc = key === 'assigned_to' || key === 'category'; }
-  resetPage();
-}));
-$('prev').addEventListener('click', () => { if (state.page > 0) { state.page--; loadTickets(); } });
-$('next').addEventListener('click', () => { state.page++; loadTickets(); });
-
-/* ---------- list ---------- */
-async function loadTickets() {
-  const token = ++state.token;
-  $('count').innerHTML = '<span class="spin"></span>&nbsp; Loading…';
-  if (!$('rows').children.length) { $('rows').innerHTML = skeletonRows(10); show('empty', false); }
-  else $('tableWrap').classList.add('loading');
-  let q = applyQuickView(sb.from('all_tickets').select(LIST_COLS, { count: 'exact' }));   // Desk365 archive + tickets created here
-  if ($('fStatus').value) q = q.eq('status', $('fStatus').value);
-  if ($('fCategory').value) q = q.eq('category', $('fCategory').value);
-  if ($('fAssigned').value) q = q.eq('assigned_to', $('fAssigned').value === '__me__' ? (state.email || '') : $('fAssigned').value);
-  if ($('fPriority').value) q = q.eq('priority', Number($('fPriority').value));
-  if ($('fFrom').value) q = q.gte('created_on', etDay($('fFrom').value, false));
-  if ($('fTo').value) q = q.lte('created_on', etDay($('fTo').value, true));
-  const term = $('q').value.trim().replace(/[*,()%\\]/g, ' ').trim();
-  if (term) {
-    if (/^#?\d+$/.test(term)) q = q.eq('ticket_number', Number(term.replace('#', '')));
-    else q = q.or(`subject.ilike.*${term}*,contact_name.ilike.*${term}*,contact_email.ilike.*${term}*`);
-  }
-  q = q.order(state.sort, { ascending: state.asc, nullsFirst: false });
-  if (state.sort !== 'ticket_number') q = q.order('ticket_number', { ascending: false });
-  const from = state.page * PAGE_SIZE;
-  const { data, count, error } = await q.range(from, from + PAGE_SIZE - 1);
-  if (token !== state.token) return;           // a newer request superseded this one
-  $('tableWrap').classList.remove('loading');
-  if (error) { $('count').textContent = 'Error: ' + error.message; return; }
-  renderRows(data, count, from);
-}
-
-function renderRows(rows, count, from) {
-  $('rows').innerHTML = rows.map(t => `
-    <tr class="row" data-n="${t.ticket_number}">
-      <td class="num">${t.ticket_number}</td>
-      <td class="subject">${esc(t.subject) || '<span class="note">(no subject)</span>'}${t.origin === 'native' ? '<span class="chip">new</span>' : ''}</td>
-      <td><span class="badge st-${esc(t.status)}">${esc(t.status)}</span></td>
-      <td><span class="pr pr-${t.priority}">${esc(PRIORITY[t.priority] || t.priority || '—')}</span></td>
-      <td>${esc(name(t.assigned_to))}</td>
-      <td>${esc(t.category) || '—'}</td>
-      <td>${esc(t.contact_name || name(t.contact_email))}</td>
-      <td class="num">${fmt(t.created_on)}</td>
-      <td class="num">${fmt(t.updated_on)}</td>
-    </tr>`).join('');
-  show('empty', rows.length === 0);
-  const to = from + rows.length;
-  $('count').textContent = count === 0 ? '0 tickets' : `${from + 1}–${to} of ${count.toLocaleString()} tickets`;
-  $('pageInfo').textContent = `Page ${state.page + 1} of ${Math.max(1, Math.ceil(count / PAGE_SIZE))}`;
-  $('prev').disabled = state.page === 0;
-  $('next').disabled = to >= count;
-}
-$('rows').addEventListener('click', e => {
-  const tr = e.target.closest('tr.row'); if (tr) openTicket(Number(tr.dataset.n));
-});
-
-/* ---------- detail ---------- */
-async function openTicket(n) {
-  history.replaceState(null, '', '#' + n);
-  $('drawer').innerHTML = drawerSkeleton();
-  show('overlay', true); show('drawer', true);
-  if (n >= NATIVE_FROM) return openNativeTicket(n);
-  const { data: t, error } = await sb.from('desk365_tickets').select(DETAIL_COLS).eq('ticket_number', n).maybeSingle();
-  if (error || !t) { $('drawer').innerHTML = `<button class="close" id="closeBtn">Close</button><p>${esc(error ? error.message : 'Ticket not found or not visible to you.')}</p>`; $('closeBtn').onclick = closeTicket; return; }
-  const meta = (label, val) => `<div><span>${label}</span>${val == null || val === '' ? '—' : esc(val)}</div>`;
-  const custom = Object.entries(t.custom_fields || {}).filter(([k, v]) => v !== false)
-    .map(([k, v]) => `<div><span>${esc(k)}</span>${esc(typeof v === 'object' ? JSON.stringify(v) : v)}</div>`).join('');
-  $('drawer').innerHTML = `
-    <button class="close" id="closeBtn">Close</button>
-    <div class="note">Ticket #${t.ticket_number}</div>
-    <h2>${esc(t.subject) || '(no subject)'}</h2>
-    <span class="badge st-${esc(t.status)}">${esc(t.status)}</span>
-    <span class="pr pr-${t.priority}"> ${esc(PRIORITY[t.priority] || '')}</span>
-    <div class="meta">
-      ${meta('Assigned to', t.assigned_to)}${meta('Group', t.group_name)}
-      ${meta('Category', [t.category, t.subcategory].filter(Boolean).join(' › '))}${meta('Type', t.type)}
-      ${meta('Contact', [t.contact_name, t.contact_email].filter(Boolean).join(' · '))}${meta('Company', t.company_name)}
-      ${meta('Created', fmt(t.created_on))}${meta('Updated', fmt(t.updated_on))}
-      ${meta('First response', fmt(t.first_response_time))}${meta('Due', fmt(t.due_date))}
-      ${meta('Resolved', fmt(t.resolved_on))}${meta('Closed', fmt(t.closed_on))}
-      ${meta('Form', t.form_name)}${meta('Replies / notes', t.conversation_count)}
-      ${meta('Watchers', (t.watchers || []).join(', '))}${meta('Shared with', (t.share_to || []).join(', '))}
-    </div>
-    <h3>Description</h3>
-    <div class="desc">${esc(t.description_text) || '<span class="note">(empty)</span>'}</div>
-    ${custom ? `<h3>Custom fields</h3><div class="meta">${custom}</div>` : ''}
-    <p class="note">This is the archived copy from Desk365. Replies, notes and attachments aren't in the archive yet.</p>`;
-  $('closeBtn').onclick = closeTicket;
-}
-/* ---------- tickets created in this system ---------- */
-const NATIVE_COLS = 'ticket_number,subject,description,status,priority,category,assigned_to,created_by,contact_name,contact_email,created_on,updated_on,due_date,resolved_on,closed_on';
-const whenFmtNative = ts => ts ? whenFmtET.format(new Date(ts)) : '—';
-const whenFmtET = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', dateStyle: 'medium', timeStyle: 'short' });
-
-/* ---------- attachments ---------- */
-const ATT_BUCKET = 'ticket-attachments', ATT_COLS = 'id,activity_id,file_name,content_type,size_bytes,storage_path,uploaded_by,created_at';
-const MAX_FILE = 10 * 1024 * 1024, MAX_FILES = 5;
-// The type is decided from the file extension (browsers often report nothing for .csv / .xlsx); the server enforces the same list.
-const MIME_BY_EXT = {
-  png: 'image/png', jpg: 'image/jpeg', jpeg: 'image/jpeg', gif: 'image/gif', webp: 'image/webp', heic: 'image/heic',
-  pdf: 'application/pdf', txt: 'text/plain', csv: 'text/csv', doc: 'application/msword',
-  docx: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', xls: 'application/vnd.ms-excel',
-  xlsx: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', ppt: 'application/vnd.ms-powerpoint',
-  pptx: 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
-};
-const ATT_ACCEPT = Object.keys(MIME_BY_EXT).map(e => '.' + e).join(',');
-const extOf = f => (f.name.split('.').pop() || '').toLowerCase();
-const fmtSize = b => b < 1024 ? b + ' B' : b < 1048576 ? (b / 1024).toFixed(0) + ' KB' : (b / 1048576).toFixed(1) + ' MB';
-
-/** Returns a problem description, or '' when the files are fine. */
-function checkFiles(files) {
-  if (files.length > MAX_FILES) return `Please attach at most ${MAX_FILES} files at a time.`;
-  for (const f of files) {
-    if (!MIME_BY_EXT[extOf(f)]) return `"${f.name}": this file type isn't allowed. Allowed: PDF, images, Word, Excel, PowerPoint, CSV, text.`;
-    if (f.size > MAX_FILE) return `"${f.name}" is ${fmtSize(f.size)}; the limit is 10 MB per file.`;
-    if (f.size === 0) return `"${f.name}" is empty.`;
-  }
-  return '';
-}
-
-/** Uploads files for a ticket (optionally tied to a reply). Returns the names that failed. */
-async function uploadFiles(ticket, files, activityId) {
-  const failed = [];
-  for (const f of files) {
-    const type = MIME_BY_EXT[extOf(f)];
-    const path = `${ticket}/${crypto.randomUUID()}-${f.name.replace(/[^A-Za-z0-9._-]/g, '_').slice(-100)}`;
-    const up = await sb.storage.from(ATT_BUCKET).upload(path, f, { contentType: type, upsert: false });
-    if (up.error) { failed.push(f.name); continue; }
-    const row = await sb.from('ticket_attachments').insert({
-      ticket_number: ticket, activity_id: activityId || null, file_name: f.name.slice(0, 200), content_type: type, size_bytes: f.size, storage_path: path,
-    });
-    if (row.error) { failed.push(f.name); await sb.storage.from(ATT_BUCKET).remove([path]); }
-  }
-  return failed;
-}
-
-function attList(items, withHeading) {
-  if (!items.length) return '';
-  const rows = items.map(a => `<div class="attrow"><a href="#" class="att" data-path="${esc(a.storage_path)}" data-name="${esc(a.file_name)}">📎 ${esc(a.file_name)}</a>
-    <span class="note">${esc(fmtSize(a.size_bytes))} · ${esc(personName(a.uploaded_by))} · ${esc(whenFmtET.format(new Date(a.created_at)))}</span></div>`).join('');
-  return `${withHeading ? '<h3>Attachments</h3>' : ''}<div class="atts">${rows}</div>`;
-}
-
-// Short-lived signed link; "download" makes the browser save the file instead of opening it.
-async function downloadAttachment(path, name, el) {
-  const label = el.textContent; el.textContent = 'Preparing…';
-  const { data, error } = await sb.storage.from(ATT_BUCKET).createSignedUrl(path, 60, { download: name });
-  el.textContent = label;
-  if (error || !data) { const m = $('cMsg'); if (m) m.textContent = "Couldn't download: " + (error ? error.message : 'no link'); return; }
-  const a = document.createElement('a'); a.href = data.signedUrl; a.rel = 'noopener'; document.body.appendChild(a); a.click(); a.remove();
-}
-
-const STATUSES = ['Open', 'Pending', 'Resolved', 'Closed'];
-const personName = email => {
-  if (!email) return 'Unassigned';
-  const m = formOpts && formOpts.staff.find(x => x.email === email);
-  return (m && m.full_name) || email.split('@')[0];
-};
-const dueToInput = ts => ts ? new Date(ts).toLocaleDateString('en-CA', { timeZone: 'America/New_York' }) : '';   // yyyy-mm-dd
-const inputToDue = d => d ? new Date(`${d}T17:00:00-05:00`).toISOString() : null;                                  // 5 pm Eastern (standard time)
-
-function eventText(a) {
-  const m = a.meta || {}, who = esc(personName(a.actor === 'system' ? null : a.actor));
-  const from = v => esc(v == null || v === '' ? 'none' : v);
-  switch (a.kind) {
-    case 'status': return `${who} changed the status: ${from(m.from)} → ${from(m.to)}`;
-    case 'assignment': return `${who} reassigned: ${esc(m.from ? personName(m.from) : 'Unassigned')} → ${esc(m.to ? personName(m.to) : 'Unassigned')}`;
-    case 'priority': return `${who} changed the priority: ${from(PRIORITY[m.from])} → ${from(PRIORITY[m.to])}`;
-    case 'category': return `${who} changed the category: ${from(m.from)} → ${from(m.to)}`;
-    case 'due_date': return `${who} changed the due date: ${m.from ? esc(whenFmtET.format(new Date(m.from)).split(',').slice(0, 2).join(',')) : 'none'} → ${m.to ? esc(whenFmtET.format(new Date(m.to)).split(',').slice(0, 2).join(',')) : 'none'}`;
-    default: return who;
-  }
-}
-
-async function openNativeTicket(n, keepScroll) {
-  const scroller = $('drawer'), top = scroller.scrollTop;
-  let opts;
-  try { opts = await loadFormOptions(); } catch (e) { opts = { categories: [], staff: [] }; }
-  const [tr, ar, fr] = await Promise.all([
-    sb.from('tickets').select(NATIVE_COLS).eq('ticket_number', n).maybeSingle(),
-    sb.from('ticket_activity').select('id,kind,body,meta,actor,created_at').eq('ticket_number', n).order('created_at').order('id'),
-    sb.from('ticket_attachments').select(ATT_COLS).eq('ticket_number', n).order('created_at'),
-  ]);
-  const t = tr.data, error = tr.error || ar.error;
-  const atts = fr.error ? [] : fr.data;
-  const flash = state.flash; state.flash = null;
-  if (error || !t) { $('drawer').innerHTML = `<button class="close" id="closeBtn">Close</button><p>${esc(error ? error.message : 'Ticket not found, or you no longer have access to it.')}</p>`; $('closeBtn').onclick = closeTicket; return; }
-  const meta = (label, val) => `<div><span>${label}</span>${val == null || val === '' ? '—' : esc(val)}</div>`;
-  const sel = (id, label, items, cur) => `<label>${label}<select id="${id}">${items.map(([v, l]) => `<option value="${esc(v)}"${String(v) === String(cur ?? '') ? ' selected' : ''}>${esc(l)}</option>`).join('')}</select></label>`;
-  const thread = ar.data.map(a => (a.kind === 'reply' || a.kind === 'note')
-    ? `<div class="msg-b ${a.kind}"><div class="who"><strong>${esc(personName(a.actor))}</strong> · ${esc(whenFmtET.format(new Date(a.created_at)))}${a.kind === 'note' ? ' <span class="chip">internal note</span>' : ''}</div><div class="txt">${esc(a.body)}</div>${attList(atts.filter(x => x.activity_id === a.id))}</div>`
-    : `<div class="evt">${eventText(a)} <span class="note">· ${esc(whenFmtET.format(new Date(a.created_at)))}</span></div>`).join('');
-  $('drawer').innerHTML = `
-    <button class="close" id="closeBtn">Close</button>
-    <div class="note">Ticket #${t.ticket_number} <span class="chip">created in the new system</span></div>
-    <h2>${esc(t.subject)}</h2>
-    ${flash ? `<div class="msg err">${esc(flash)}</div>` : ''}
-    <div class="controls form">
-      ${sel('cStatus', 'Status', STATUSES.map(x => [x, x]), t.status)}
-      ${sel('cPri', 'Priority', [[1, 'Low'], [5, 'Medium'], [10, 'High'], [20, 'Urgent']], t.priority)}
-      ${sel('cCat', 'Category', [['', '—'], ...opts.categories.map(c => [c, c])], t.category)}
-      ${sel('cAssign', 'Assigned to', [['', 'Unassigned'], ...opts.staff.map(x => [x.email, x.full_name || x.email])], t.assigned_to)}
-      <label>Due<input type="date" id="cDue" value="${esc(dueToInput(t.due_date))}"></label>
-    </div>
-    <div class="msg err" id="cMsg"></div>
-    <div class="meta">
-      ${meta('Contact', [t.contact_name, t.contact_email].filter(Boolean).join(' · '))}${meta('Created by', personName(t.created_by))}
-      ${meta('Created', whenFmtNative(t.created_on))}${meta('Updated', whenFmtNative(t.updated_on))}
-      ${meta('Resolved', whenFmtNative(t.resolved_on))}${meta('Closed', whenFmtNative(t.closed_on))}
-    </div>
-    <h3>Description</h3>
-    <div class="desc">${esc(t.description) || '<span class="note">(empty)</span>'}</div>
-    ${attList(atts.filter(x => !x.activity_id), true)}
-    <h3>Conversation</h3>
-    <div id="thread">${thread || '<span class="note">No replies yet.</span>'}</div>
-    <form id="replyForm" class="form">
-      <label>Add to the conversation<textarea id="rBody" rows="4" maxlength="20000" placeholder="Write a reply or an internal note…" required></textarea></label>
-      <label>Attach files (optional; up to 5, 10 MB each)<input type="file" id="rFiles" multiple accept="${ATT_ACCEPT}"></label>
-      <div class="actions">
-        <button class="primary" id="rSend" type="submit" data-kind="reply">Send reply</button>
-        <button id="rNote" type="submit" data-kind="note">Add internal note</button>
-      </div>
-    </form>`;
-  $('closeBtn').onclick = closeTicket;
-  if (keepScroll) scroller.scrollTop = top;
-  $('drawer').querySelectorAll('a.att').forEach(a => a.onclick = ev => { ev.preventDefault(); downloadAttachment(a.dataset.path, a.dataset.name, a); });
-
-  const refresh = () => { openNativeTicket(n, true); loadTickets(); loadCounts(); };
-  const save = async (changes, field) => {
-    $('cMsg').className = 'msg'; $('cMsg').innerHTML = '<span class="spin"></span>&nbsp; Saving…';
-    const { error: e } = await sb.from('tickets').update(changes).eq('ticket_number', n);
-    if (e) { $('cMsg').className = 'msg err'; $('cMsg').textContent = "Couldn't save: " + e.message; return; }
-    refresh();
-  };
-  $('cStatus').onchange = e => save({ status: e.target.value });
-  $('cPri').onchange = e => save({ priority: Number(e.target.value) });
-  $('cCat').onchange = e => save({ category: e.target.value || null });
-  $('cAssign').onchange = e => save({ assigned_to: e.target.value || null });
-  $('cDue').onchange = e => save({ due_date: inputToDue(e.target.value) });
-  $('replyForm').addEventListener('submit', async e => {
-    e.preventDefault();
-    const kind = (e.submitter && e.submitter.dataset.kind) || 'reply', body = $('rBody').value.trim();
-    if (!body) return;
-    const files = [...($('rFiles').files || [])], problem = checkFiles(files);
-    if (problem) { $('cMsg').textContent = problem; return; }
-    const clicked = e.submitter || $('rSend'), label = clicked.textContent;
-    $('rSend').disabled = true; $('rNote').disabled = true; clicked.classList.add('busy'); clicked.textContent = kind === 'note' ? 'Adding…' : 'Sending…';
-    const { data: row, error: er } = await sb.from('ticket_activity').insert({ ticket_number: n, kind, body }).select('id').single();
-    if (er) { $('rSend').disabled = false; $('rNote').disabled = false; clicked.classList.remove('busy'); clicked.textContent = label; $('cMsg').className = 'msg err'; $('cMsg').textContent = "Couldn't post: " + er.message; return; }
-    const failed = files.length ? await uploadFiles(n, files, row.id) : [];
-    if (failed.length) state.flash = `Your message was posted, but ${failed.length} file(s) didn't upload: ${failed.join(', ')}`;
-    openNativeTicket(n, false).then(() => { const th = $('thread'); if (th) th.scrollIntoView({ block: 'end' }); });
-    loadCounts();
-    loadTickets();
-  });
-}
-
-let formOpts = null;   // categories + staff for the form; cleared when a different person signs in
-
-async function loadFormOptions() {
-  if (formOpts) return formOpts;
-  const [cats, staff] = await Promise.all([
-    sb.from('ticket_categories').select('name').eq('active', true).order('sort_order'),
-    sb.rpc('staff_directory'),
-  ]);
-  if (cats.error) throw cats.error;
-  if (staff.error) throw staff.error;
-  formOpts = { categories: cats.data.map(c => c.name), staff: staff.data };
-  return formOpts;
-}
-
-async function openNewTicket() {
-  history.replaceState(null, '', location.pathname);
-  $('drawer').innerHTML = drawerSkeleton();
-  show('overlay', true); show('drawer', true);
-  let opts;
-  try { opts = await loadFormOptions(); }
-  catch (e) { $('drawer').innerHTML = `<button class="close" id="closeBtn">Close</button><p>Couldn't load the form: ${esc(e.message)}</p>`; $('closeBtn').onclick = closeTicket; return; }
-  const options = (items, label, value) => items.map(i => `<option value="${esc(value(i))}">${esc(label(i))}</option>`).join('');
-  $('drawer').innerHTML = `
-    <button class="close" id="closeBtn">Cancel</button>
-    <h2>New ticket</h2>
-    <form id="newForm" class="form">
-      <label>Subject *<input id="nSubject" maxlength="300" required autocomplete="off"></label>
-      <label>Description<textarea id="nDesc" rows="8" maxlength="20000" placeholder="What happened, where (property / unit), and anything the next person needs to know."></textarea></label>
-      <div class="two">
-        <label>Category *<select id="nCat" required><option value="">Choose…</option>${options(opts.categories, c => c, c => c)}</select></label>
-        <label>Priority<select id="nPri"><option value="1">Low</option><option value="5" selected>Medium</option><option value="10">High</option><option value="20">Urgent</option></select></label>
-      </div>
-      <label>Assign to<select id="nAssign"><option value="">Unassigned</option>${options(opts.staff, s => s.full_name || s.email, s => s.email)}</select></label>
-      <div class="two">
-        <label>Contact name (optional)<input id="nCName" autocomplete="off"></label>
-        <label>Contact email (optional)<input id="nCEmail" type="email" autocomplete="off"></label>
-      </div>
-      <div class="note">Leave the contact blank and it's you.</div>
-      <label>Attach files (optional; up to 5, 10 MB each: PDF, images, Word, Excel, PowerPoint, CSV, text)<input type="file" id="nFiles" multiple accept="${ATT_ACCEPT}"></label>
-      <div class="msg err" id="nMsg"></div>
-      <div class="actions"><button class="primary" id="nSubmit" type="submit">Create ticket</button></div>
-    </form>`;
-  $('closeBtn').onclick = closeTicket;
-  $('nSubject').focus();
-  $('newForm').addEventListener('submit', async e => {
-    e.preventDefault();
-    const files = [...($('nFiles').files || [])], problem = checkFiles(files);
-    if (problem) { $('nMsg').textContent = problem; return; }
-    const btn = $('nSubmit'); btn.disabled = true; btn.classList.add('busy'); btn.textContent = 'Creating…'; $('nMsg').textContent = '';
-    const val = id => $(id).value.trim();
-    const { data, error } = await sb.from('tickets').insert({
-      subject: val('nSubject'), description: $('nDesc').value.trim(), category: val('nCat'), priority: Number($('nPri').value),
-      assigned_to: val('nAssign') || null, contact_name: val('nCName') || null, contact_email: val('nCEmail') || null,
-    }).select('ticket_number').single();
-    if (error) { btn.disabled = false; btn.classList.remove('busy'); btn.textContent = 'Create ticket'; $('nMsg').textContent = "Couldn't create the ticket: " + error.message; return; }
-    if (files.length) {
-      btn.textContent = 'Uploading files…';
-      const failed = await uploadFiles(data.ticket_number, files, null);
-      if (failed.length) state.flash = `Ticket created, but ${failed.length} file(s) didn't upload: ${failed.join(', ')}. Add them from the ticket.`;
-    }
-    closeTicket();
-    state.page = 0; state.sort = 'ticket_number'; state.asc = false;
-    loadTickets();
-    openTicket(data.ticket_number);
-    loadCounts();
-  });
-}
-$('newTicket').addEventListener('click', openNewTicket);
-
-/* ---------- meetings (AI notes from the gulf-coast-notes worker) ---------- */
-let meetings = null;                       // loaded on first visit to the tab
-const whenFmt = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', dateStyle: 'medium', timeStyle: 'short' });
-
-function setView(view, keepAddress) {
-  state.view = view;
-  $('tabTickets').classList.toggle('active', view === 'tickets');
-  $('tabMeetings').classList.toggle('active', view === 'meetings');
-  show('ticketsView', view === 'tickets'); show('meetingsView', view === 'meetings');
-  if (!keepAddress) closeTicket();
-  if (view === 'meetings' && meetings === null) loadMeetings();
-}
-document.querySelectorAll('.tab').forEach(b => b.addEventListener('click', () => setView(b.dataset.view)));
-
-async function loadMeetings() {
-  $('mCount').innerHTML = '<span class="spin"></span>&nbsp; Loading…';
-  if (!$('meetingList').children.length) $('meetingList').innerHTML = skeletonCards(4);
-  const { data, error } = await sb.from('meeting_notes').select('key,title,ended_at,speakers,recap')
-    .order('ended_at', { ascending: false }).limit(300);
-  if (error) { $('meetingList').innerHTML = ''; $('mCount').textContent = 'Error: ' + error.message; return; }
-  meetings = data;
-  renderMeetings();
-}
-
-function meetingText(m) {
-  const r = m.recap || {};
-  return [m.title, (m.speakers || []).join(' '), r.summary, (r.decisions || []).join(' '),
-    (r.action_items || []).map(a => a.task + ' ' + (a.owner || '')).join(' '), (r.open_questions || []).join(' ')]
-    .join(' ').toLowerCase();
-}
-
-function renderMeetings() {
-  const term = $('mq').value.trim().toLowerCase();
-  const list = term ? meetings.filter(m => meetingText(m).includes(term)) : meetings;
-  $('meetingList').innerHTML = list.map(m => {
-    const r = m.recap || {}, n = (r.action_items || []).length;
-    return `<div class="mcard" data-key="${esc(m.key)}">
-      <h4>${esc(m.title)}${n ? `<span class="chip">${n} action item${n > 1 ? 's' : ''}</span>` : ''}</h4>
-      <div class="sub">${esc(whenFmt.format(new Date(m.ended_at)))} · ${esc((m.speakers || []).join(', ') || 'no speakers recorded')}</div>
-      <p>${esc(r.summary)}</p></div>`;
-  }).join('');
-  show('mEmpty', list.length === 0);
-  $('mEmpty').textContent = meetings.length === 0
-    ? "No meeting notes yet. Notes appear here for Teams meetings you attended, once they have been processed."
-    : 'No meetings match your search.';
-  $('mCount').textContent = `${list.length}${term ? ' of ' + meetings.length : ''} meeting${list.length === 1 ? '' : 's'}`;
-}
-$('mq').addEventListener('input', () => { if (meetings) renderMeetings(); });
-$('meetingList').addEventListener('click', e => {
-  const card = e.target.closest('.mcard'); if (card) openMeeting(card.dataset.key);
-});
-
-// An action item is "yours" when its owner is your full name, or just your first name.
-function isMine(owner) {
-  const me = ((state.staff && state.staff.full_name) || '').trim().toLowerCase();
-  const o = (owner || '').trim().toLowerCase();
-  if (!me || !o) return false;
-  return o === me || o === me.split(/\s+/)[0];
-}
-
-function openMeeting(key) {
-  const m = (meetings || []).find(x => x.key === key); if (!m) return;
-  const r = m.recap || {};
-  const ul = items => items && items.length ? `<ul class="plain">${items.map(i => `<li>${esc(i)}</li>`).join('')}</ul>` : '<span class="note">None</span>';
-  const actions = (r.action_items || []).map(a => `
-    <div class="ai${isMine(a.owner) ? ' mine' : ''}">${esc(a.task)}<br>
-      <small>${esc(a.owner || 'Unassigned')}${isMine(a.owner) ? ' (you)' : ''}${a.due ? ' · due ' + esc(a.due) : ''}</small></div>`).join('');
-  const topics = (r.topics || []).map(t => `
-    <p><strong>${esc(t.title)}</strong>${t.start_time ? ` <span class="note">(${esc(t.start_time)})</span>` : ''}</p>${ul(t.points)}`).join('');
-  $('drawer').innerHTML = `
-    <button class="close" id="closeBtn">Close</button>
-    <div class="note">Meeting notes · ${esc(whenFmt.format(new Date(m.ended_at)))}</div>
-    <h2>${esc(m.title)}</h2>
-    <div class="note">Speakers: ${esc((m.speakers || []).join(', ') || '—')}</div>
-    <h3>Summary</h3><p>${esc(r.summary)}</p>
-    <h3>Action items</h3>${actions || '<span class="note">None</span>'}
-    <h3>Decisions</h3>${ul(r.decisions)}
-    <h3>Open questions</h3>${ul(r.open_questions)}
-    ${topics ? `<h3>Topics</h3>${topics}` : ''}
-    <p class="note">AI-generated from the Teams transcript. Private to the people who attended; check anything important against the meeting.</p>`;
-  history.replaceState(null, '', location.pathname);
-  show('overlay', true); show('drawer', true);
-  $('closeBtn').onclick = closeTicket;
-}
-
-function closeTicket() { show('overlay', false); show('drawer', false); history.replaceState(null, '', location.pathname); }
-function openFromHash() { const m = location.hash.match(/^#(\d+)$/); if (m) openTicket(Number(m[1])); }
-$('overlay').addEventListener('click', closeTicket);
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closeTicket(); });
-</script>
+<script src="/charts.js"></script>
+<script src="/app.js"></script>
+<script src="/dashboard.js"></script>
+<script src="/meetings.js"></script>
 </body>
 </html>
