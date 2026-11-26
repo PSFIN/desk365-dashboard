@@ -79,9 +79,16 @@ Nobody is told about their own actions; people can opt out (`staff.notify_email 
    Tickets deleted or merged in Desk365 are not removed here.
 2. **Pilot**: a small team works tickets natively (create, reply, assign) while everyone else stays in Desk365.
    Native tickets do not appear in Desk365, so only do this for a team that does not need to share tickets.
-3. **Cut-over day**: run a final sync, stop using Desk365, convert the open Desk365 tickets so they can be worked here
-   (keeping their numbers), stop the sync timer (`sudo systemctl disable --now desk365-sync.timer`), switch notifications on.
-   The conversion step is not built yet; it needs the decisions listed in the hand-over notes.
+3. **Cut-over day** (`supabase/phase4a_cutover.sql`, already applied; nothing runs until someone calls it):
+   1. Make sure staff have stopped working in Desk365; wait for one more sync (10 minutes) so the mirror is current.
+   2. In the Supabase SQL editor: `select * from public.cutover_desk365_tickets();` is a **dry run** (counts only).
+   3. `select * from public.cutover_desk365_tickets(true, array['Open','Pending','Resolved'], true);` converts those tickets into
+      working tickets **keeping their Desk365 numbers** and dates, sends no emails, and makes the next new ticket #<highest + 1>
+      (use `false` as the last argument to keep new tickets at #100001). Closed tickets stay in the searchable archive.
+      It refuses the continue-numbering option if tickets numbered 100001+ already exist, and a second run converts nothing.
+   4. Stop the mirror: `sudo systemctl disable --now desk365-sync.timer` on the server.
+   5. Switch notifications on (see "Notifications"), and repoint anything that still reads Desk365 (the reminders bot and the
+      ticket dashboards) at Supabase.
 
 ## Before real use
 
