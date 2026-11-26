@@ -76,7 +76,7 @@
   }
 
   /* header */
-  header.app { position: sticky; top: 0; z-index: 40; display: flex; align-items: center; gap: 12px; height: 64px; padding: 0 20px;
+  header.app { position: sticky; top: 0; z-index: 40; display: flex; align-items: center; gap: 12px; height: 64px; padding: 0 clamp(16px, 2vw, 32px);
                background: var(--header-glass); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid var(--hair); box-shadow: var(--shadow-card); }
   header.app .brand { display: flex; align-items: center; gap: 12px; min-width: 0; }
   header.app .brand img { width: 46px; height: 46px; border-radius: 10px; background: #fff; box-shadow: var(--shadow-card); flex: none; }
@@ -86,7 +86,7 @@
   header.app .who { color: var(--muted); font-size: 12px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   button.icon { width: 36px; height: 36px; padding: 0; display: inline-flex; align-items: center; justify-content: center; }
   [data-theme="dark"] .i-sun, :root:not([data-theme="dark"]) .i-moon { display: none; }
-  main { position: relative; z-index: 1; max-width: 1400px; margin: 0 auto; padding: 22px 20px 48px; }
+  main { position: relative; z-index: 1; width: 100%; padding: 22px clamp(16px, 2vw, 32px) 48px; }   /* full width, like the table needs */
 
   /* controls */
   button, select, input, textarea { font: inherit; color: inherit; transition: background-color .15s ease-out, border-color .15s ease-out, color .15s ease-out, box-shadow .15s ease-out, opacity .15s ease-out, transform .2s; }
