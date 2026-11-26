@@ -20,7 +20,7 @@ not by the page. The page contains only Supabase's public key.
 
 | File | What |
 |---|---|
-| `tickets/index.html` | The whole UI. |
+| `tickets/index.html` (+ `gulf-coast-logo.png`, `fonts/`) | The whole UI. Same look as the meetings tool (Plus Jakarta Sans, coastal blue / sunset accent, frosted cards, light + dark). Fonts are self-hosted. Loading feedback: a top progress bar tied to real network requests, skeleton placeholders, button spinners, and a splash while sign-in is checked. |
 | `supabase/phase1_access.sql` | Staff allow-list, helper functions, archive read access. |
 | `supabase/phase1b_meetings.sql` | `meeting_notes` (private to attendees). |
 | `supabase/phase1c_staff_sync.sql` | Columns for the daily Microsoft 365 staff sync. |
