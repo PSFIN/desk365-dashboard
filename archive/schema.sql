@@ -20,7 +20,7 @@ create table if not exists public.desk365_tickets (
   sla                    text,
   completed_within_sla   boolean,
   conversation_count     integer,
-  -- Desk365 timestamps have no timezone in the API output (account timezone, shown as EDT in the app)
+  -- Desk365 timestamps carry no zone in the API output; they are UTC (see phase3e_timezones.sql)
   created_on             timestamp,
   updated_on             timestamp,
   due_date               timestamp,

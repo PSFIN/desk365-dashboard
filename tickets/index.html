@@ -239,7 +239,20 @@ const $ = id => document.getElementById(id);
 const state = { page: 0, sort: 'ticket_number', asc: false, token: 0, staff: null, optionsLoaded: false };
 
 function esc(s) { const d = document.createElement('div'); d.textContent = s == null ? '' : String(s); return d.innerHTML; }
-function fmt(ts) { return ts ? String(ts).replace('T', ' ').slice(0, 16) : '—'; }
+const fmtET = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York', hourCycle: 'h23', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' });
+// Desk365's archive stores UTC with no zone marker; everything else carries one. Show all of it in Eastern time.
+function fmt(ts) {
+  if (!ts) return '—';
+  const s = String(ts).replace(' ', 'T');
+  const d = new Date(/(Z|[+-]\d\d(:?\d\d)?)$/.test(s) ? s : s + 'Z');
+  return isNaN(d) ? String(ts) : fmtET.format(d).replace(',', '');
+}
+// Start / end of a calendar day in Eastern time (handles daylight saving), as an ISO string with an offset.
+function etDay(d, end) {
+  const part = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', timeZoneName: 'shortOffset' }).formatToParts(new Date(end ? Date.parse(`${d}T00:00:00Z`) + 28 * 3600e3 : Date.parse(`${d}T05:00:00Z`))).find(p => p.type === 'timeZoneName').value;
+  const h = parseInt(part.replace('GMT', ''), 10) || 0;
+  return `${d}T${end ? '23:59:59' : '00:00:00'}${h < 0 ? '-' : '+'}${String(Math.abs(h)).padStart(2, '0')}:00`;
+}
 function show(id, on) { $(id).classList.toggle('hidden', !on); }
 function name(email) { return email ? email.split('@')[0] : '—'; }
 
@@ -316,8 +329,8 @@ async function loadTickets() {
   if ($('fCategory').value) q = q.eq('category', $('fCategory').value);
   if ($('fAssigned').value) q = q.eq('assigned_to', $('fAssigned').value === '__me__' ? (state.email || '') : $('fAssigned').value);
   if ($('fPriority').value) q = q.eq('priority', Number($('fPriority').value));
-  if ($('fFrom').value) q = q.gte('created_on', $('fFrom').value + 'T00:00:00');
-  if ($('fTo').value) q = q.lte('created_on', $('fTo').value + 'T23:59:59');
+  if ($('fFrom').value) q = q.gte('created_on', etDay($('fFrom').value, false));
+  if ($('fTo').value) q = q.lte('created_on', etDay($('fTo').value, true));
   const term = $('q').value.trim().replace(/[*,()%\\]/g, ' ').trim();
   if (term) {
     if (/^#?\d+$/.test(term)) q = q.eq('ticket_number', Number(term.replace('#', '')));
