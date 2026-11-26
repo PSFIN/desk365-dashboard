@@ -4,7 +4,7 @@
 
 const VIEW_LABELS = {
   all: 'All tickets', active: 'Active tickets', open: 'Open', pending: 'Pending', mine: 'Assigned to me',
-  unassigned: 'Unassigned', urgent: 'Urgent & High', resolved: 'Resolved', closed: 'Closed',
+  unassigned: 'Unassigned', urgent: 'Urgent & High', resolved: 'Resolved', closed: 'Closed', trash: 'Trash',
 };
 const VIEW_HINTS = {
   all: 'Everything, newest first: the Desk365 history plus tickets created here.',
@@ -16,6 +16,7 @@ const VIEW_HINTS = {
   urgent: 'Open and Pending tickets at High or Urgent priority.',
   resolved: 'Tickets marked resolved.',
   closed: 'Finished tickets, kept for reference.',
+  trash: 'Tickets moved to Trash. They stay out of every list, count and chart until restored. Nothing is deleted for good.',
 };
 const STATUS_COLOR = { Open: 'var(--warn)', Pending: 'var(--accent)', Resolved: 'var(--good)', Closed: '#94a3b8' };
 const PRIORITY_COLOR = { 20: 'var(--bad)', 10: 'var(--warn)', 5: 'var(--accent)', 1: '#94a3b8' };
@@ -82,6 +83,7 @@ function renderSidebar() {
       ${view('urgent', 'flame', 'Urgent & High', 'urgent', true)}
       ${view('resolved', 'check', 'Resolved', 'resolved')}
       ${view('closed', 'archive', 'Closed', 'closed')}
+      ${view('trash', 'trash', 'Trash', 'trash')}
     </div>
     ${cats.length ? `<div class="grp"><details open><summary>Active by category</summary>${cats.map(([k, v]) =>
       nav({ href: ticketsHref({ view: 'active', cat: k }), ic: 'folder', label: k, count: v.toLocaleString(), active: onT && cat === k })).join('')}</details></div>` : ''}

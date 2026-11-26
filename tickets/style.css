@@ -339,3 +339,13 @@ header.app .brand { text-decoration: none; color: inherit; }
 
 .badge.pb-urgent { color: var(--bad); background: var(--bad-bg); border-color: var(--bad-border); }
 .badge.pb-high { color: var(--warn); background: var(--warn-bg); border-color: var(--warn-border); }
+
+/* =====================  trash  ===================== */
+.trashbar { display: flex; align-items: center; justify-content: space-between; gap: 14px; flex-wrap: wrap; margin: 4px 0 14px; padding: 12px 14px; border-radius: 14px;
+            border: 1px solid color-mix(in srgb, var(--warn) 40%, transparent); background: color-mix(in srgb, var(--warn) 12%, transparent); font-size: 13.5px; }
+.trashbar > div { flex: 1 1 260px; }
+.trashrow { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin: 26px 0 8px; padding-top: 16px; border-top: 1px dashed var(--hair); }
+button.mini { padding: 3px 11px; font-size: 12px; border-radius: 999px; }
+button.mini.danger { color: var(--bad); border-color: color-mix(in srgb, var(--bad) 35%, transparent); }
+button.mini.danger:hover:not(:disabled) { background: color-mix(in srgb, var(--bad) 10%, transparent); }
+td .note { font-size: 11px; margin: 1px 0 3px; }

@@ -47,16 +47,28 @@ async function signInAsStub() {
     if (t === 'all_tickets') { const rec = []; return new Proxy({}, { get: (_, m) => m === 'then' ? undefined : function f(...a) { if (m === 'range') { window.__queries.push(rec.filter(x => !/^(select|order)/.test(x)).join(' ')); return Promise.resolve({ data: rows, count: 9706, error: null }); } rec.push(m + '(' + a.map(x => JSON.stringify(x)).join(',') + ')'); return new Proxy({}, { get: (_, m2) => m2 === 'then' ? undefined : (...b) => f.call(null, ...b) && undefined }); } }); }
     return realFrom(t);
   };
-  // all_tickets needs a chainable builder; simpler explicit version:
+  // chainable query builder for the ticket tables; records the filters it was given in window.__queries
+  window.__trash = window.__trash || new Map();
+  const trashedRows = () => rows.filter(r => window.__trash.has(r.ticket_number)).map(r => ({ ...r, deleted_at: window.__trash.get(r.ticket_number).at, deleted_by: window.__trash.get(r.ticket_number).by }));
   sb.from = ((prev) => t => {
-    if (t !== 'all_tickets') return prev(t);
-    const rec = []; const q = new Proxy({}, { get: (_, m) => m === 'then' ? undefined : (...a) => { if (m === 'range') { window.__queries.push(rec.filter(x => !/^(select|order)/.test(x)).join(' ')); return Promise.resolve({ data: rows, count: 9706, error: null }); } rec.push(m + '(' + a.map(x => JSON.stringify(x)).join(',') + ')'); return q; } });
+    if (!['all_tickets', 'trashed_tickets', 'desk365_tickets'].includes(t)) return prev(t);
+    const rec = []; let num = null;
+    const q = new Proxy({}, { get: (_, m) => m === 'then' ? undefined : (...a) => {
+      if (m === 'eq' && a[0] === 'ticket_number') num = Number(a[1]);
+      if (m === 'range') { window.__queries.push(t + ' ' + rec.filter(x => !/^(select|order)/.test(x)).join(' ')); const data = t === 'trashed_tickets' ? trashedRows() : rows.filter(r => !window.__trash.has(r.ticket_number)); return Promise.resolve({ data, count: data.length, error: null }); }
+      if (m === 'maybeSingle') {
+        if (t === 'trashed_tickets') { const x = trashedRows().find(r => r.ticket_number === num); return Promise.resolve({ data: x || null, error: null }); }
+        const x = rows.find(r => r.ticket_number === num); return Promise.resolve({ data: x ? { ...x, description_text: 'Sample description for the archived ticket.', custom_fields: {}, watchers: [], share_to: [] } : null, error: null });
+      }
+      rec.push(m + '(' + a.map(x => JSON.stringify(x)).join(',') + ')'); return q; } });
     return q;
   })(sb.from);
   sb.rpc = async (name, args) => {
     window.__rpcCalls.push(name + (args ? ' ' + JSON.stringify(args) : ''));
     if (name === 'ticket_dashboard') return { data: dash(), error: null };
-    if (name === 'ticket_view_counts') return { data: counts, error: null };
+    if (name === 'ticket_view_counts') return { data: { ...counts, trash: window.__trash.size, all: counts.all - window.__trash.size }, error: null };
+    if (name === 'trash_ticket') { window.__trash.set(args.p_n, { at: new Date().toISOString(), by: 's.vengaloor@choosegulfcoast.com' }); return { data: null, error: null }; }
+    if (name === 'restore_ticket') { window.__trash.delete(args.p_n); return { data: null, error: null }; }
     if (name === 'ticket_filter_options') return { data: { status: ['Closed', 'Open', 'Resolved'], category: ['Accounting', 'Maintenance', 'Marketing'], assigned: ['j.rushton@choosegulfcoast.com'], group: [] }, error: null };
     if (name === 'staff_directory') return { data: people, error: null };
     if (name === 'set_meeting_item') {

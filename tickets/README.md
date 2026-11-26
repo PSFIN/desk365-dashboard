@@ -12,6 +12,7 @@ not by the page. The page contains only Supabase's public key.
 | Create a ticket (subject, description, category, priority, assignee, contact, files) | Done. Numbers start at **100001**. |
 | Work a ticket: reply, internal note, status, priority, category, assignee, due date, files | Done. Every change is logged in the conversation. |
 | Dashboard (the default screen): KPI cards, tickets-over-time, status / priority donuts, categories, workload per person, ticket age, needs-attention list. **Every number, bar and slice is a link** to the matching ticket list. | Done. |
+| Trash: "Move to Trash" in any ticket, Trash view in the left panel (with count), Restore from the list or the ticket, Undo toast. Nothing is deleted; every trash/restore keeps who and when. Trashed tickets vanish from lists, counts and charts. | Done. |
 | Left panel: Overview, ticket views with live counts, active tickets per category, meetings links | Done. Menu button + slide-out on phones. |
 | Meetings tab: AI notes from the meeting notes tool, private to attendees. Opens on charts (meetings per week, open vs resolved, items per person, most frequent meetings, "follow up first"); every chart filters the lists below. **Action items and open questions can be marked resolved** (with Undo). | Done. |
 | Email notifications (assigned / reply / note / status) | Built, **switched off**. See "Notifications". |
@@ -32,6 +33,7 @@ not by the page. The page contains only Supabase's public key.
 | `supabase/phase3d_attachments.sql` | Private storage bucket + `ticket_attachments`. |
 | `supabase/phase3f_view_counts.sql` | `ticket_view_counts()`: the live counts on the quick-view pills (All, Open, Pending, Assigned to me, Unassigned, Urgent & High, Resolved, Closed). Counts only what the caller may see. |
 | `supabase/phase3g_dashboard.sql` | `ticket_dashboard(days)`: every dashboard number in one call (respects row-level security); `ticket_view_counts()` now also returns active + per-category counts; `meeting_item_status` + `set_meeting_item()` (attendees mark action items / questions resolved; the server records who and when). |
+| `supabase/phase3h_trash.sql` | `ticket_trash` (history of trash / restore), `all_tickets` now hides trashed tickets, `trashed_tickets` view, `trash_ticket()` / `restore_ticket()`, `ticket_view_counts()` also returns `trash`. Anyone who can see a ticket can trash or restore it. |
 | `supabase/phase3e_timezones.sql` | Desk365 times are UTC; the combined view returns real timestamps. |
 | `archive/sync_desk365.py` + `archive/deploy_sync.sh` | The Desk365 -> in-house mirror (runs on the server every 10 minutes). |
 | `deploy/tickets/` | Caddy block + `deploy.sh` that publishes the page. |

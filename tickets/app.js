@@ -194,7 +194,11 @@ async function loadTickets() {
   $('count').innerHTML = '<span class="spin"></span>&nbsp; Loading…';
   if (!$('rows').children.length) { $('rows').innerHTML = skeletonRows(10); show('empty', false); }
   else $('tableWrap').classList.add('loading');
-  let q = applyQuickView(sb.from('all_tickets').select(LIST_COLS, { count: 'exact' }));   // Desk365 archive + tickets created here
+  const trashView = state.view === 'trash';
+  const th = $('thLast'); th.dataset.sort = trashView ? 'deleted_at' : 'updated_on'; th.textContent = trashView ? 'Moved to Trash' : 'Updated';
+  if (trashView && state.sort === 'updated_on') state.sort = 'deleted_at';
+  if (!trashView && state.sort === 'deleted_at') state.sort = 'updated_on';
+  let q = applyQuickView(sb.from(trashView ? 'trashed_tickets' : 'all_tickets').select(LIST_COLS + (trashView ? ',deleted_at,deleted_by' : ''), { count: 'exact' }));   // Desk365 archive + tickets created here (Trash = the ones moved to Trash)
   if ($('fStatus').value) q = q.eq('status', $('fStatus').value);
   if ($('fCategory').value === '_none') q = q.is('category', null);
   else if ($('fCategory').value) q = q.eq('category', $('fCategory').value);
@@ -228,8 +232,11 @@ function renderRows(rows, count, from) {
       <td>${esc(t.category) || '—'}</td>
       <td>${esc(t.contact_name || name(t.contact_email))}</td>
       <td class="num">${fmt(t.created_on)}</td>
-      <td class="num">${fmt(t.updated_on)}</td>
+      ${state.view === 'trash'
+        ? `<td class="num">${fmt(t.deleted_at)}<div class="note">by ${esc(personName(t.deleted_by))}</div><button type="button" class="mini" data-restore="${t.ticket_number}">Restore</button></td>`
+        : `<td class="num">${fmt(t.updated_on)}</td>`}
     </tr>`).join('');
+  $('empty').textContent = state.view === 'trash' && !$('q').value && !$('fCategory').value ? 'Trash is empty. Tickets you move to Trash show up here, and you can restore them.' : 'No tickets match these filters.';
   show('empty', rows.length === 0);
   const to = from + rows.length;
   $('count').textContent = count === 0 ? '0 tickets' : `${from + 1}–${to} of ${count.toLocaleString()} tickets`;
@@ -238,6 +245,7 @@ function renderRows(rows, count, from) {
   $('next').disabled = to >= count;
 }
 $('rows').addEventListener('click', e => {
+  const rb = e.target.closest('[data-restore]'); if (rb) { rb.disabled = true; setTrashed(Number(rb.dataset.restore), false); return; }
   const tr = e.target.closest('tr.row'); if (tr) openTicket(Number(tr.dataset.n));
 });
 
@@ -248,7 +256,7 @@ async function openTicket(n) {
   $('drawer').innerHTML = drawerSkeleton();
   show('overlay', true); show('drawer', true);
   if (n >= NATIVE_FROM) return openNativeTicket(n);
-  const { data: t, error } = await sb.from('desk365_tickets').select(DETAIL_COLS).eq('ticket_number', n).maybeSingle();
+  const [{ data: t, error }, trow] = await Promise.all([sb.from('desk365_tickets').select(DETAIL_COLS).eq('ticket_number', n).maybeSingle(), getTrashRow(n)]);
   if (error || !t) { $('drawer').innerHTML = `<button class="close" id="closeBtn">Close</button><p>${esc(error ? error.message : 'Ticket not found or not visible to you.')}</p>`; $('closeBtn').onclick = closeTicket; return; }
   const meta = (label, val) => `<div><span>${label}</span>${val == null || val === '' ? '—' : esc(val)}</div>`;
   const custom = Object.entries(t.custom_fields || {}).filter(([k, v]) => v !== false)
@@ -257,6 +265,7 @@ async function openTicket(n) {
     <button class="close" id="closeBtn">Close</button>
     <div class="note">Ticket #${t.ticket_number}</div>
     <h2>${esc(t.subject) || '(no subject)'}</h2>
+    ${trashBanner(trow)}
     <span class="badge st-${esc(t.status)}">${esc(t.status)}</span>
     <span class="pr pr-${t.priority}"> ${esc(PRIORITY[t.priority] || '')}</span>
     <div class="meta">
@@ -272,9 +281,31 @@ async function openTicket(n) {
     <h3>Description</h3>
     <div class="desc">${esc(t.description_text) || '<span class="note">(empty)</span>'}</div>
     ${custom ? `<h3>Custom fields</h3><div class="meta">${custom}</div>` : ''}
-    <p class="note">This is the archived copy from Desk365. Replies, notes and attachments aren't in the archive yet.</p>`;
-  $('closeBtn').onclick = closeTicket;
+    <p class="note">This is the archived copy from Desk365. Replies, notes and attachments aren't in the archive yet.</p>
+    ${trashFooter(trow)}`;
+  $('closeBtn').onclick = closeTicket; bindTrash(n);
 }
+
+/* ---------- Trash: nothing is deleted; a trashed ticket is hidden everywhere until restored ---------- */
+async function setTrashed(n, trash, quiet) {
+  const { error } = await sb.rpc(trash ? 'trash_ticket' : 'restore_ticket', { p_n: n });
+  if (error) { toast(`Couldn't ${trash ? 'move to Trash' : 'restore'}: ${error.message}`); loadTickets(); return false; }
+  loadCounts(); if (typeof invalidateDash === 'function') invalidateDash();
+  if (state.route === 'tickets') loadTickets();
+  if (state.openTicket === n) { if (trash) closeTicket(); else openTicket(n); }
+  if (!quiet) toast(trash ? `Ticket #${n} moved to Trash` : `Ticket #${n} restored`, () => setTrashed(n, !trash, true));
+  return true;
+}
+/** The line under the title (when in Trash) and the button at the bottom (when not). `tr` is the trash row, or null. */
+const trashBanner = tr => tr ? `<div class="trashbar"><div><b>This ticket is in Trash.</b> Moved by ${esc(personName(tr.deleted_by))} on ${esc(whenFmtET.format(new Date(tr.deleted_at)))}. It is hidden from every list, count and chart until you restore it.</div><button type="button" class="primary" id="restoreBtn">Restore ticket</button></div>` : '';
+const trashFooter = tr => tr ? '' : '<div class="trashrow"><button type="button" id="trashBtn" class="mini danger">Move to Trash</button><span class="note">Hidden from lists and charts. You can restore it any time.</span></div>';
+function bindTrash(n) {
+  const r = $('restoreBtn'), t = $('trashBtn');
+  if (r) r.onclick = () => { r.disabled = true; setTrashed(n, false); };
+  if (t) t.onclick = () => { t.disabled = true; setTrashed(n, true); };
+}
+const getTrashRow = async n => { const { data } = await sb.from('trashed_tickets').select('ticket_number,deleted_at,deleted_by').eq('ticket_number', n).maybeSingle(); return data || null; };
+
 /* ---------- tickets created in this system ---------- */
 const NATIVE_COLS = 'ticket_number,subject,description,status,priority,category,assigned_to,created_by,contact_name,contact_email,created_on,updated_on,due_date,resolved_on,closed_on';
 const whenFmtNative = ts => ts ? whenFmtET.format(new Date(ts)) : '—';
@@ -364,10 +395,11 @@ async function openNativeTicket(n, keepScroll) {
   const scroller = $('drawer'), top = scroller.scrollTop;
   let opts;
   try { opts = await loadFormOptions(); } catch (e) { opts = { categories: [], staff: [] }; }
-  const [tr, ar, fr] = await Promise.all([
+  const [tr, ar, fr, trow] = await Promise.all([
     sb.from('tickets').select(NATIVE_COLS).eq('ticket_number', n).maybeSingle(),
     sb.from('ticket_activity').select('id,kind,body,meta,actor,created_at').eq('ticket_number', n).order('created_at').order('id'),
     sb.from('ticket_attachments').select(ATT_COLS).eq('ticket_number', n).order('created_at'),
+    getTrashRow(n),
   ]);
   const t = tr.data, error = tr.error || ar.error;
   const atts = fr.error ? [] : fr.data;
@@ -382,6 +414,7 @@ async function openNativeTicket(n, keepScroll) {
     <button class="close" id="closeBtn">Close</button>
     <div class="note">Ticket #${t.ticket_number} <span class="chip">created in the new system</span></div>
     <h2>${esc(t.subject)}</h2>
+    ${trashBanner(trow)}
     ${flash ? `<div class="msg err">${esc(flash)}</div>` : ''}
     <div class="controls form">
       ${sel('cStatus', 'Status', STATUSES.map(x => [x, x]), t.status)}
@@ -408,8 +441,10 @@ async function openNativeTicket(n, keepScroll) {
         <button class="primary" id="rSend" type="submit" data-kind="reply">Send reply</button>
         <button id="rNote" type="submit" data-kind="note">Add internal note</button>
       </div>
-    </form>`;
-  $('closeBtn').onclick = closeTicket;
+    </form>
+    ${trashFooter(trow)}`;
+  $('closeBtn').onclick = closeTicket; bindTrash(n);
+  if (trow) $('drawer').querySelectorAll('.controls select, .controls input, #replyForm textarea, #replyForm input, #replyForm button').forEach(el => { el.disabled = true; });   // restore first, then edit
   if (keepScroll) scroller.scrollTop = top;
   $('drawer').querySelectorAll('a.att').forEach(a => a.onclick = ev => { ev.preventDefault(); downloadAttachment(a.dataset.path, a.dataset.name, a); });
 
