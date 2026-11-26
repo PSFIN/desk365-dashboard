@@ -28,6 +28,7 @@ not by the page. The page contains only Supabase's public key.
 | `supabase/phase3b_workflow.sql` | `ticket_activity`, update rules, history, first-response time. |
 | `supabase/phase3c_notifications.sql` | `ticket_notifications` queue (filled by triggers). |
 | `supabase/phase3d_attachments.sql` | Private storage bucket + `ticket_attachments`. |
+| `supabase/phase3f_view_counts.sql` | `ticket_view_counts()`: the live counts on the quick-view pills (All, Open, Pending, Assigned to me, Unassigned, Urgent & High, Resolved, Closed). Counts only what the caller may see. |
 | `supabase/phase3e_timezones.sql` | Desk365 times are UTC; the combined view returns real timestamps. |
 | `archive/sync_desk365.py` + `archive/deploy_sync.sh` | The Desk365 -> in-house mirror (runs on the server every 10 minutes). |
 | `deploy/tickets/` | Caddy block + `deploy.sh` that publishes the page. |

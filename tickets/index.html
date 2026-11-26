@@ -117,6 +117,16 @@
   .tab.active { background: var(--brand-grad); color: #fff; box-shadow: 0 2px 10px var(--brand-glow); }
   #ticketsView, #meetingsView { animation: route-in 240ms ease-out; }
 
+  /* quick views: pills with live counts */
+  .qviews { display: flex; gap: 8px; flex-wrap: wrap; margin: 0 0 14px; }
+  .qv { display: inline-flex; align-items: center; gap: 8px; padding: 6px 8px 6px 14px; border-radius: 999px; font-weight: 700; }
+  .qv .n { min-width: 26px; padding: 1px 8px; border-radius: 999px; text-align: center; font: 600 11px 'JetBrains Mono', ui-monospace, monospace; background: var(--paper-2); color: var(--muted); }
+  .qv .n .sk { height: 9px; width: 18px; }
+  .qv.active { background: var(--brand-grad); border-color: transparent; color: #fff; box-shadow: 0 2px 10px var(--brand-glow); }
+  .qv.active .n { background: rgba(255, 255, 255, .22); color: #fff; }
+  .qv.urgent:not(.active) .n { background: var(--bad-bg); color: var(--bad); }
+  @media (max-width: 800px) { .qviews { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; } }
+
   /* filters + summary */
   .filters { display: grid; grid-template-columns: 2fr repeat(4, 1fr) auto; gap: 8px; margin-bottom: 8px; }
   .filters.row2 { grid-template-columns: repeat(2, minmax(0,170px)) 1fr; align-items: center; color: var(--muted); font-size: 13px; font-weight: 600; }
@@ -248,6 +258,7 @@
     </div>
 
     <div id="ticketsView">
+    <div class="qviews" id="qviews" role="group" aria-label="Ticket views"></div>
     <div class="filters">
       <input type="search" id="q" placeholder="Search subject, contact, or ticket #…">
       <select id="fStatus"><option value="">All statuses</option></select>
@@ -392,7 +403,7 @@ async function route(session) {
   hideBoot();
   const uid = session ? session.user.id : null;
   if (state.uid !== uid) {                      // a different person (or sign-out): drop anything cached for the last one
-    state.uid = uid; meetings = null; formOpts = null;
+    state.uid = uid; meetings = null; formOpts = null; state.counts = null; state.view = 'all'; renderQViews();
     $('meetingList').innerHTML = ''; $('mq').value = '';
     $('drawer').innerHTML = ''; show('drawer', false); show('overlay', false);
     setView('tickets', true);                   // keep the address as is, so a #123 link still opens that ticket
@@ -409,6 +420,7 @@ async function route(session) {
   state.staff = data;
   $('who').textContent = `${data.full_name || email}${data.is_admin ? ' · admin' : ''}`;
   show('app', true);
+  loadCounts();
   if (!state.optionsLoaded) await loadOptions();
   try {                                           // a #123 link opened before sign-in comes back after it
     const saved = sessionStorage.getItem('post_login_hash'); sessionStorage.removeItem('post_login_hash');
@@ -428,11 +440,62 @@ async function loadOptions() {
   fill('fStatus', data.status); fill('fCategory', data.category); fill('fAssigned', data.assigned);
   state.optionsLoaded = true;
 }
+// Quick views (like Desk365's left-hand list). "Active" means Open or Pending.
+const QVIEWS = [
+  { id: 'all',        label: 'All tickets' },
+  { id: 'open',       label: 'Open' },
+  { id: 'pending',    label: 'Pending' },
+  { id: 'mine',       label: 'Assigned to me' },
+  { id: 'unassigned', label: 'Unassigned' },
+  { id: 'urgent',     label: 'Urgent & High', cls: 'urgent' },
+  { id: 'resolved',   label: 'Resolved' },
+  { id: 'closed',     label: 'Closed' },
+];
+state.view = 'all'; state.counts = null;
+
+function renderQViews() {
+  $('qviews').innerHTML = QVIEWS.map(v => {
+    const n = state.counts ? Number(state.counts[v.id] ?? 0).toLocaleString() : '<span class="sk"></span>';
+    return `<button type="button" class="qv ${v.cls || ''} ${state.view === v.id ? 'active' : ''}" data-view="${v.id}" aria-pressed="${state.view === v.id}">${esc(v.label)}<span class="n">${n}</span></button>`;
+  }).join('');
+}
+function setQuickView(id, reload) {
+  state.view = id;
+  if (reload) { ['fStatus', 'fAssigned', 'fPriority'].forEach(f => $(f).value = ''); state.page = 0; }   // the pill replaces these three
+  renderQViews();
+  if (reload) loadTickets();
+}
+$('qviews').addEventListener('click', e => { const b = e.target.closest('.qv'); if (b) setQuickView(b.dataset.view, true); });
+
+async function loadCounts() {
+  const { data, error } = await sb.rpc('ticket_view_counts');
+  if (!error && data) { state.counts = data; renderQViews(); }
+}
+renderQViews();
+
+// the pill's rule, applied on top of whatever else is filled in (search, category, dates)
+function applyQuickView(q) {
+  const ACTIVE = ['Open', 'Pending'];
+  switch (state.view) {
+    case 'open':       return q.eq('status', 'Open');
+    case 'pending':    return q.eq('status', 'Pending');
+    case 'resolved':   return q.eq('status', 'Resolved');
+    case 'closed':     return q.eq('status', 'Closed');
+    case 'mine':       return q.in('status', ACTIVE).eq('assigned_to', state.email || '');
+    case 'unassigned': return q.in('status', ACTIVE).is('assigned_to', null);
+    case 'urgent':     return q.in('status', ACTIVE).gte('priority', 10);
+    default:           return q;
+  }
+}
+
 function resetPage() { state.page = 0; loadTickets(); }
 ['fStatus', 'fCategory', 'fAssigned', 'fPriority', 'fFrom', 'fTo'].forEach(id => $(id).addEventListener('change', resetPage));
+// choosing status / assignee / priority by hand means "I'm filtering myself": drop the pill so the two don't fight
+['fStatus', 'fAssigned', 'fPriority'].forEach(id => $(id).addEventListener('change', () => { if (state.view !== 'all') { state.view = 'all'; renderQViews(); } }));
 let searchTimer; $('q').addEventListener('input', () => { clearTimeout(searchTimer); searchTimer = setTimeout(resetPage, 300); });
 $('reset').addEventListener('click', () => {
   ['q', 'fStatus', 'fCategory', 'fAssigned', 'fPriority', 'fFrom', 'fTo'].forEach(id => $(id).value = '');
+  state.view = 'all'; renderQViews();
   resetPage();
 });
 document.querySelectorAll('th.sortable').forEach(th => th.addEventListener('click', () => {
@@ -449,7 +512,7 @@ async function loadTickets() {
   $('count').innerHTML = '<span class="spin"></span>&nbsp; Loading…';
   if (!$('rows').children.length) { $('rows').innerHTML = skeletonRows(10); show('empty', false); }
   else $('tableWrap').classList.add('loading');
-  let q = sb.from('all_tickets').select(LIST_COLS, { count: 'exact' });   // Desk365 archive + tickets created here
+  let q = applyQuickView(sb.from('all_tickets').select(LIST_COLS, { count: 'exact' }));   // Desk365 archive + tickets created here
   if ($('fStatus').value) q = q.eq('status', $('fStatus').value);
   if ($('fCategory').value) q = q.eq('category', $('fCategory').value);
   if ($('fAssigned').value) q = q.eq('assigned_to', $('fAssigned').value === '__me__' ? (state.email || '') : $('fAssigned').value);
@@ -666,7 +729,7 @@ async function openNativeTicket(n, keepScroll) {
   if (keepScroll) scroller.scrollTop = top;
   $('drawer').querySelectorAll('a.att').forEach(a => a.onclick = ev => { ev.preventDefault(); downloadAttachment(a.dataset.path, a.dataset.name, a); });
 
-  const refresh = () => { openNativeTicket(n, true); loadTickets(); };
+  const refresh = () => { openNativeTicket(n, true); loadTickets(); loadCounts(); };
   const save = async (changes, field) => {
     $('cMsg').className = 'msg'; $('cMsg').innerHTML = '<span class="spin"></span>&nbsp; Saving…';
     const { error: e } = await sb.from('tickets').update(changes).eq('ticket_number', n);
@@ -691,6 +754,7 @@ async function openNativeTicket(n, keepScroll) {
     const failed = files.length ? await uploadFiles(n, files, row.id) : [];
     if (failed.length) state.flash = `Your message was posted, but ${failed.length} file(s) didn't upload: ${failed.join(', ')}`;
     openNativeTicket(n, false).then(() => { const th = $('thread'); if (th) th.scrollIntoView({ block: 'end' }); });
+    loadCounts();
     loadTickets();
   });
 }
@@ -759,6 +823,7 @@ async function openNewTicket() {
     state.page = 0; state.sort = 'ticket_number'; state.asc = false;
     loadTickets();
     openTicket(data.ticket_number);
+    loadCounts();
   });
 }
 $('newTicket').addEventListener('click', openNewTicket);
