@@ -103,7 +103,7 @@ meetings tool uses (`meetings.choosegulfcoast.com`).
 
 **B. Supabase** (project `gulfcoast-tickets`):
 1. **Authentication -> Sign In / Providers -> Azure** -> Enable. Paste the client ID and the secret value. Set **Azure Tenant URL** to
-   `https://login.microsoftonline.com/db57adcc-9e98-4c32-81f9-c4edda200fbf/v2.0` (the company tenant, never `common`). Save.
+   `https://login.microsoftonline.com/db57adcc-9e98-4c32-81f9-c4edda200fbf` (the company tenant, never `common`, and no `/v2.0` at the end: Supabase adds that itself). Save.
 2. **Authentication -> URL Configuration**: Site URL `https://tickets.choosegulfcoast.com`; Redirect URLs add
    `https://tickets.choosegulfcoast.com/**` (and `http://localhost:3000/**` for local testing).
 
