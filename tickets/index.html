@@ -45,6 +45,7 @@
   .login p { color: var(--muted); margin: 0 0 18px; }
   .login input { width: 100%; margin-bottom: 10px; padding: 9px 10px; }
   .login button { width: 100%; padding: 9px; }
+  .login button.ms { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 10px; font-weight: 600; }
   .msg { margin-top: 12px; font-size: 13px; }
   .msg.err { color: var(--danger); }
 
@@ -146,12 +147,12 @@
   <!-- sign-in -->
   <section id="login" class="login hidden">
     <h2>Sign in</h2>
-    <p>Enter your company email and we'll send you a one-time sign-in link.</p>
-    <form id="loginForm">
-      <input type="email" id="email" placeholder="you@choosegulfcoast.com" required autocomplete="email">
-      <button class="primary" id="sendLink" type="submit">Email me a link</button>
-    </form>
-    <div class="msg" id="loginMsg"></div>
+    <p>Use your Gulf Coast Microsoft account. There is nothing new to remember.</p>
+    <button class="ms" id="msSignIn" type="button">
+      <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><rect x="0" y="0" width="7.3" height="7.3" fill="#F25022"/><rect x="8.7" y="0" width="7.3" height="7.3" fill="#7FBA00"/><rect x="0" y="8.7" width="7.3" height="7.3" fill="#00A4EF"/><rect x="8.7" y="8.7" width="7.3" height="7.3" fill="#FFB900"/></svg>
+      <span id="msLabel">Sign in with Microsoft</span>
+    </button>
+    <div class="msg" id="loginMsg" role="status" aria-live="polite"></div>
   </section>
 
   <!-- not authorised -->
@@ -225,7 +226,7 @@
 // Public by design: the anon key only lets people sign in; row-level security decides what they can read.
 const SUPABASE_URL = 'https://sfxaaxdkfmddisnntcty.supabase.co';
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNmeGFheGRrZm1kZGlzbm50Y3R5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTQ1ODc0NjYsImV4cCI6MjExMDE2MzQ2Nn0.SsjahDDBQFHJ9Ek8pRLPfutoi0mZmj5Tkyxr-DDvjOs';
-const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, { auth: { flowType: 'pkce' } });
 
 const PAGE_SIZE = 50;
 const LIST_COLS = 'ticket_number,subject,status,priority,assigned_to,category,contact_name,contact_email,created_on,updated_on,origin';
@@ -257,18 +258,27 @@ function show(id, on) { $(id).classList.toggle('hidden', !on); }
 function name(email) { return email ? email.split('@')[0] : '—'; }
 
 /* ---------- auth ---------- */
-$('loginForm').addEventListener('submit', async e => {
-  e.preventDefault();
-  const email = $('email').value.trim().toLowerCase();
-  const msg = $('loginMsg'); msg.className = 'msg'; msg.textContent = 'Sending…';
-  $('sendLink').disabled = true;
-  const { error } = await sb.auth.signInWithOtp({
-    email, options: { emailRedirectTo: location.origin + location.pathname }
-  });
-  $('sendLink').disabled = false;
-  if (error) { msg.className = 'msg err'; msg.textContent = error.message; }
-  else msg.textContent = 'Check your email and click the link. You can close this tab.';
+// Microsoft sign-in (Supabase "azure" provider, company tenant only). Same approach as the meetings tool.
+$('msSignIn').addEventListener('click', async () => {
+  const btn = $('msSignIn'), msg = $('loginMsg');
+  btn.disabled = true; msg.className = 'msg'; msg.textContent = '';
+  $('msLabel').textContent = 'Signing in…';
+  try { sessionStorage.setItem('post_login_hash', location.hash); } catch (e) { /* private window: the deep link is just not restored */ }
+  const { error } = await sb.auth.signInWithOAuth({ provider: 'azure', options: { scopes: 'email', redirectTo: location.origin + location.pathname } });
+  if (error) {                                   // otherwise the browser is already on its way to Microsoft
+    btn.disabled = false; $('msLabel').textContent = 'Sign in with Microsoft';
+    msg.className = 'msg err'; msg.textContent = "Microsoft sign-in isn't available right now. " + error.message;
+  }
 });
+
+// Back from Microsoft with a problem (declined, wrong account, ...): say so on the sign-in panel.
+(function showReturnedError() {
+  const q = new URLSearchParams(location.search), h = new URLSearchParams(location.hash.replace(/^#/, ''));
+  const text = q.get('error_description') || h.get('error_description');
+  if (!text) return;
+  history.replaceState(null, '', location.pathname);
+  const msg = $('loginMsg'); msg.className = 'msg err'; msg.textContent = text.replace(/\+/g, ' ');
+})();
 $('signOut').addEventListener('click', () => sb.auth.signOut());
 
 async function route(session) {
@@ -292,6 +302,10 @@ async function route(session) {
   $('who').textContent = `${data.full_name || email}${data.is_admin ? ' · admin' : ''}`;
   show('app', true);
   if (!state.optionsLoaded) await loadOptions();
+  try {                                           // a #123 link opened before sign-in comes back after it
+    const saved = sessionStorage.getItem('post_login_hash'); sessionStorage.removeItem('post_login_hash');
+    if (saved && !location.hash) history.replaceState(null, '', location.pathname + saved);
+  } catch (e) { /* nothing saved */ }
   openFromHash();
   loadTickets();
 }

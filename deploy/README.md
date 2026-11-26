@@ -21,5 +21,4 @@ already there and overwrite that name). Caddy serves static files, so no restart
 | `../tickets/index.html`       | `/var/www/tickets/index.html`            | published with `deploy/tickets/deploy.sh` |
 | `tickets/Caddyfile.block`     | bottom of `/etc/caddy/Caddyfile`         | added once; then `caddy validate` and `systemctl reload caddy` |
 
-The page holds only Supabase's public key. Add `https://tickets.choosegulfcoast.com/**` under Supabase
-Authentication -> URL Configuration -> Redirect URLs (and set Site URL to `https://tickets.choosegulfcoast.com`).
+The page holds only Supabase's public key. Sign-in is Microsoft: see "one-time Microsoft sign-in setup" in `tickets/README.md`.

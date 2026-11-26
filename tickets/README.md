@@ -1,7 +1,7 @@
 # Gulf Coast ticket system (replacement for Desk365)
 
 A single page (`tickets/index.html`) backed by the Supabase project `gulfcoast-tickets`. No build step.
-Sign-in is a magic link by email; what each person can do is decided by the database (row-level security),
+Sign-in is **Microsoft** (company work accounts, via Supabase's Azure provider, like the meetings tool); what each person can do is decided by the database (row-level security),
 not by the page. The page contains only Supabase's public key.
 
 ## What it does today
@@ -90,9 +90,25 @@ Nobody is told about their own actions; people can opt out (`staff.notify_email 
    5. Switch notifications on (see "Notifications"), and repoint anything that still reads Desk365 (the reminders bot and the
       ticket dashboards) at Supabase.
 
-## Before real use
+## Before real use: one-time Microsoft sign-in setup (about 10 minutes)
 
-1. In Supabase, Authentication -> URL Configuration: add `https://tickets.choosegulfcoast.com/**` to Redirect URLs and
-   set Site URL to `https://tickets.choosegulfcoast.com`. (For a local test also add `http://localhost:3000/**`.)
-2. Sign in once yourself and click through: create -> reply -> change status -> attach a file -> download it.
-3. Turn on notifications with a pilot list first (see "Notifications"), then for everyone.
+The page already has the "Sign in with Microsoft" button. It starts working once these three things are done.
+
+**A. Entra admin center** (entra.microsoft.com -> Identity -> Applications -> App registrations): open the SAME app registration the
+meetings tool uses (`meetings.choosegulfcoast.com`).
+1. **Authentication** -> Web -> **Add URI** -> `https://sfxaaxdkfmddisnntcty.supabase.co/auth/v1/callback` -> Save.
+2. **Certificates & secrets** -> **New client secret** -> copy the **Value** right away (shown once).
+3. **Overview** -> copy **Application (client) ID** and **Directory (tenant) ID** (`db57adcc-9e98-4c32-81f9-c4edda200fbf`).
+4. **Token configuration** -> check an **email** optional claim exists for ID tokens (the meetings tool needs the same; add it if missing).
+
+**B. Supabase** (project `gulfcoast-tickets`):
+1. **Authentication -> Sign In / Providers -> Azure** -> Enable. Paste the client ID and the secret value. Set **Azure Tenant URL** to
+   `https://login.microsoftonline.com/db57adcc-9e98-4c32-81f9-c4edda200fbf/v2.0` (the company tenant, never `common`). Save.
+2. **Authentication -> URL Configuration**: Site URL `https://tickets.choosegulfcoast.com`; Redirect URLs add
+   `https://tickets.choosegulfcoast.com/**` (and `http://localhost:3000/**` for local testing).
+
+**C. First test**: open https://tickets.choosegulfcoast.com, click "Sign in with Microsoft", then create -> reply -> change status ->
+attach a file -> download it. Then turn on notifications with a pilot list (see "Notifications").
+
+Why single-tenant matters: access rules trust the email Microsoft reports. With the company tenant URL only people in the company
+can sign in; the `public.staff` list (synced daily from Microsoft 365) then decides who may see anything.
