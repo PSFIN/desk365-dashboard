@@ -8,13 +8,13 @@ not by the page. The page contains only Supabase's public key.
 
 | Area | Status |
 |---|---|
-| Desk365 history (9,597 tickets, read-only archive) | Done. Search, filter, sort, open any ticket. |
+| Desk365 history and live mirror (9,704 tickets so far) | Done. Search, filter, sort, open any ticket. A timer on the server copies new and changed Desk365 tickets every 10 minutes (see "Moving off Desk365"). |
 | Create a ticket (subject, description, category, priority, assignee, contact, files) | Done. Numbers start at **100001**. |
 | Work a ticket: reply, internal note, status, priority, category, assignee, due date, files | Done. Every change is logged in the conversation. |
 | Meetings tab: AI notes from the meeting notes tool, private to attendees | Done. |
 | Email notifications (assigned / reply / note / status) | Built, **switched off**. See "Notifications". |
-| Receiving email into tickets (owners and guests writing in) | **Not built.** Needs read access to a shared mailbox. |
-| SLA rules / reports / customer-facing portal | Not built. |
+| Receiving email into tickets / customer portal | **Not needed.** Owners, guests and vendors never create tickets; staff create them all. |
+| SLA rules / reports | Not built. |
 
 ## Files
 
@@ -28,6 +28,9 @@ not by the page. The page contains only Supabase's public key.
 | `supabase/phase3b_workflow.sql` | `ticket_activity`, update rules, history, first-response time. |
 | `supabase/phase3c_notifications.sql` | `ticket_notifications` queue (filled by triggers). |
 | `supabase/phase3d_attachments.sql` | Private storage bucket + `ticket_attachments`. |
+| `supabase/phase3e_timezones.sql` | Desk365 times are UTC; the combined view returns real timestamps. |
+| `archive/sync_desk365.py` + `archive/deploy_sync.sh` | The Desk365 -> in-house mirror (runs on the server every 10 minutes). |
+| `deploy/tickets/` | Caddy block + `deploy.sh` that publishes the page. |
 
 All SQL is already applied to the live project and is safe to re-run. The notes server (repo `gulf-coast-notes`)
 does the Microsoft 365 work: daily staff sync, copying meeting recaps, and (when enabled) sending notifications.
@@ -62,12 +65,27 @@ Nobody is told about their own actions; people can opt out (`staff.notify_email 
   in titles / replies shown as plain text.
 * **Not tested with a real sign-in or a real file upload** (needs a magic-link email).
 
-## Before real use (go-live checklist)
+## Where it runs
 
-1. Give the page an address (for example `tickets.choosegulfcoast.com`) and add it under Supabase
-   Authentication → URL Configuration → Redirect URLs. For a local test add `http://localhost:3000/**`.
-2. Sign in once yourself and click through: create → reply → change status → attach a file → download it.
-3. Decide how the two systems coexist. Tickets created here do **not** reach Desk365 and Desk365 tickets do not
-   appear here after the archive. Pick a cut-over date or run a pilot team.
-4. Turn on notifications with a pilot list first (above), then for everyone.
-5. Decide on email-to-ticket (owners, guests, vendors). It is the largest piece still missing.
+* Page: **https://tickets.choosegulfcoast.com** (Lightsail server, Caddy, automatic HTTPS). Publish changes with
+  `deploy/tickets/deploy.sh`.
+* Times: Desk365's API gives **UTC**; everything is shown in Eastern time.
+
+## Moving off Desk365
+
+1. **Mirror (now)**: staff keep working in Desk365. `desk365-sync.timer` on the server copies new and changed
+   tickets into Supabase every 10 minutes (about 6 Desk365 calls an hour, well inside the allowance). Replies and
+   notes written in Desk365 are NOT available through its API, so they are not copied (ask Desk365 for a full export).
+   Tickets deleted or merged in Desk365 are not removed here.
+2. **Pilot**: a small team works tickets natively (create, reply, assign) while everyone else stays in Desk365.
+   Native tickets do not appear in Desk365, so only do this for a team that does not need to share tickets.
+3. **Cut-over day**: run a final sync, stop using Desk365, convert the open Desk365 tickets so they can be worked here
+   (keeping their numbers), stop the sync timer (`sudo systemctl disable --now desk365-sync.timer`), switch notifications on.
+   The conversion step is not built yet; it needs the decisions listed in the hand-over notes.
+
+## Before real use
+
+1. In Supabase, Authentication -> URL Configuration: add `https://tickets.choosegulfcoast.com/**` to Redirect URLs and
+   set Site URL to `https://tickets.choosegulfcoast.com`. (For a local test also add `http://localhost:3000/**`.)
+2. Sign in once yourself and click through: create -> reply -> change status -> attach a file -> download it.
+3. Turn on notifications with a pilot list first (see "Notifications"), then for everyone.

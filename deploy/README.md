@@ -13,3 +13,13 @@ pages; no secrets inside.
 Copy each file over the existing one in that site's web root (the Caddy `root` for the site;
 the desk365 root file may be named `index.html` rather than `dashboard.html` — check what is
 already there and overwrite that name). Caddy serves static files, so no restart is needed.
+
+## tickets.choosegulfcoast.com (in-house ticket system)
+
+| Local file                    | Goes to                                  | Notes |
+|-------------------------------|------------------------------------------|-------|
+| `../tickets/index.html`       | `/var/www/tickets/index.html`            | published with `deploy/tickets/deploy.sh` |
+| `tickets/Caddyfile.block`     | bottom of `/etc/caddy/Caddyfile`         | added once; then `caddy validate` and `systemctl reload caddy` |
+
+The page holds only Supabase's public key. Add `https://tickets.choosegulfcoast.com/**` under Supabase
+Authentication -> URL Configuration -> Redirect URLs (and set Site URL to `https://tickets.choosegulfcoast.com`).

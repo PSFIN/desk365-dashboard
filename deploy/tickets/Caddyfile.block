@@ -1,0 +1,17 @@
+# tickets.choosegulfcoast.com: the in-house ticket system (static page; sign-in and data go straight to Supabase).
+# Appended to /etc/caddy/Caddyfile on the server. DNS: A record  tickets -> 54.243.31.14
+tickets.choosegulfcoast.com {
+	root * /var/www/tickets
+	encode zstd gzip
+	header {
+		Strict-Transport-Security "max-age=31536000"
+		X-Content-Type-Options "nosniff"
+		X-Frame-Options "DENY"
+		Referrer-Policy "strict-origin-when-cross-origin"
+		X-Robots-Tag "noindex, nofollow"
+		Cache-Control "no-cache"
+		# The page loads one script from jsDelivr and talks only to this project's Supabase.
+		Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://sfxaaxdkfmddisnntcty.supabase.co wss://sfxaaxdkfmddisnntcty.supabase.co; frame-ancestors 'none'; base-uri 'none'; form-action 'self'"
+	}
+	file_server
+}
