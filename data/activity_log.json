@@ -1,5 +1,19 @@
 [
   {
+    "ts": "2026-11-27T08:53:04+00:00",
+    "ticket_number": 9746,
+    "subject": "Yarbrough Susan Camille/Signal Inn - Unit 03/Res #: 64377/ Extension - Another UNit",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-27T08:53:04+00:00",
+    "ticket_number": 9745,
+    "subject": "Unit: Sandalfoot 2C3 | Guest Name: Davis Kathy | Cancelation Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-11-27T00:12:37+00:00",
     "ticket_number": 9744,
     "subject": "Unit: Peace In The Palms | Guest Name: Guertin Isabelle | Amenities Inquiry",
@@ -7838,19 +7852,5 @@
     "subject": "Email Signature",
     "type": "closed",
     "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-27T18:49:34+00:00",
-    "ticket_number": 9418,
-    "subject": "Email Signatures -Lisa, Josh, Christina, Chris",
-    "type": "created",
-    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-27T18:49:34+00:00",
-    "ticket_number": 9417,
-    "subject": "Website Team Pages",
-    "type": "created",
-    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
   }
 ]
