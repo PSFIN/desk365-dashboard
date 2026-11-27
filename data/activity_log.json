@@ -1,5 +1,76 @@
 [
   {
+    "ts": "2026-11-27T18:36:53+00:00",
+    "ticket_number": 9749,
+    "subject": "Cabranes Kate | Unit: Signal Inn - Unit 08 | Res #: 67446 | Cancellation Request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-27T18:36:53+00:00",
+    "ticket_number": 9748,
+    "subject": "Guest Name: Wallace Joy | Res #: 67692 | Unit: Sandalfoot 1C3 | Cancellation request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-27T18:36:53+00:00",
+    "ticket_number": 9747,
+    "subject": "Guest Name: Davis Kathy | Res #: 67646 | Unit: Sandalfoot 2C3 | Cancellation request",
+    "type": "created",
+    "detail": "Created \u2014 assigned to c.hernandez@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-27T18:36:53+00:00",
+    "ticket_number": 9621,
+    "subject": "Birdie | Grill burners",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-27 18:39:00 to 2026-12-04 18:39:00",
+    "from": "2026-11-27 18:39:00",
+    "to": "2026-12-04 18:39:00"
+  },
+  {
+    "ts": "2026-11-27T18:36:53+00:00",
+    "ticket_number": 9557,
+    "subject": "Flip Flop Retreat | 2nd bedroom ceiling",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-27 21:51:00 to 2026-11-30 21:51:00",
+    "from": "2026-11-27 21:51:00",
+    "to": "2026-11-30 21:51:00"
+  },
+  {
+    "ts": "2026-11-27T18:36:53+00:00",
+    "ticket_number": 9500,
+    "subject": "Teams Background",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-27 20:49:00 to 2026-12-04 20:49:00",
+    "from": "2026-11-27 20:49:00",
+    "to": "2026-12-04 20:49:00"
+  },
+  {
+    "ts": "2026-11-27T18:36:53+00:00",
+    "ticket_number": 9499,
+    "subject": "Business Cards - Blank",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-27 20:39:00 to 2026-12-04 20:39:00",
+    "from": "2026-11-27 20:39:00",
+    "to": "2026-12-04 20:39:00"
+  },
+  {
+    "ts": "2026-11-27T18:36:53+00:00",
+    "ticket_number": 9744,
+    "subject": "Unit: Peace In The Palms | Guest Name: Guertin Isabelle | Amenities Inquiry",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
+    "ts": "2026-11-27T18:36:53+00:00",
+    "ticket_number": 9711,
+    "subject": "Thanksgiving Social Posts",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-11-27T08:53:04+00:00",
     "ticket_number": 9746,
     "subject": "Yarbrough Susan Camille/Signal Inn - Unit 03/Res #: 64377/ Extension - Another UNit",
@@ -7779,78 +7850,5 @@
     "detail": "Due date changed from 2026-10-21 21:13:00 to 2026-11-05 22:13:00",
     "from": "2026-10-21 21:13:00",
     "to": "2026-11-05 22:13:00"
-  },
-  {
-    "ts": "2026-10-27T22:47:32+00:00",
-    "ticket_number": 8571,
-    "subject": "DR-11 Form :  Splash Decision - 14881 Laguna Drive",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-27 21:00:00 to 2026-11-02 21:00:00",
-    "from": "2026-10-27 21:00:00",
-    "to": "2026-11-02 21:00:00"
-  },
-  {
-    "ts": "2026-10-27T22:47:32+00:00",
-    "ticket_number": 8562,
-    "subject": "camera for signal from Red1",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-27 16:07:00 to 2026-11-18 17:07:00",
-    "from": "2026-10-27 16:07:00",
-    "to": "2026-11-18 17:07:00"
-  },
-  {
-    "ts": "2026-10-27T22:47:32+00:00",
-    "ticket_number": 8562,
-    "subject": "camera for signal from Red1",
-    "type": "priority_changed",
-    "detail": "Priority changed from 5 to 1",
-    "from": 5,
-    "to": 1
-  },
-  {
-    "ts": "2026-10-27T22:47:32+00:00",
-    "ticket_number": 8550,
-    "subject": "DR-11 Form : Putt in Paradise -19116 SCALLOP LOOP, #202",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-27 21:00:00 to 2026-11-02 21:00:00",
-    "from": "2026-10-27 21:00:00",
-    "to": "2026-11-02 21:00:00"
-  },
-  {
-    "ts": "2026-10-27T22:47:32+00:00",
-    "ticket_number": 8372,
-    "subject": "DR-11 Forms : Multiple Property Units",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-27 21:00:00 to 2026-11-02 21:00:00",
-    "from": "2026-10-27 21:00:00",
-    "to": "2026-11-02 21:00:00"
-  },
-  {
-    "ts": "2026-10-27T22:47:32+00:00",
-    "ticket_number": 9348,
-    "subject": "Sea ya - New photos",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-27T22:47:32+00:00",
-    "ticket_number": 9334,
-    "subject": "Lamcha Sharon |  Signal Inn - Unit 10 | Res #: 54572 | Keurig request",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-27T22:47:32+00:00",
-    "ticket_number": 9323,
-    "subject": "5 Star Review Feedback | Res #: 51536 | Maddox Dennis | Signal Inn - Unit 07 | 10/11/2026 - 10/16/2026",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
-  },
-  {
-    "ts": "2026-10-27T22:47:32+00:00",
-    "ticket_number": 9260,
-    "subject": "Email Signature",
-    "type": "closed",
-    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
   }
 ]
