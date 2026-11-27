@@ -1,5 +1,53 @@
 [
   {
+    "ts": "2026-11-27T00:12:37+00:00",
+    "ticket_number": 9744,
+    "subject": "Unit: Peace In The Palms | Guest Name: Guertin Isabelle | Amenities Inquiry",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-27T00:12:37+00:00",
+    "ticket_number": 9743,
+    "subject": "Sandy Pointe | Hole in the pool bed",
+    "type": "created",
+    "detail": "Created \u2014 assigned to j.rushton@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-27T00:12:37+00:00",
+    "ticket_number": 9731,
+    "subject": "A Hole in one-Lynx lock",
+    "type": "reassigned",
+    "detail": "Reassigned from j.delafuente@choosegulfcoast.com to d.husak@choosegulfcoast.com",
+    "from": "j.delafuente@choosegulfcoast.com",
+    "to": "d.husak@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-27T00:12:37+00:00",
+    "ticket_number": 9704,
+    "subject": "Enjoy Sarasota | Carpets issue",
+    "type": "reassigned",
+    "detail": "Reassigned from j.delafuente@choosegulfcoast.com to j.messasierra@choosegulfcoast.com",
+    "from": "j.delafuente@choosegulfcoast.com",
+    "to": "j.messasierra@choosegulfcoast.com"
+  },
+  {
+    "ts": "2026-11-27T00:12:37+00:00",
+    "ticket_number": 9621,
+    "subject": "Birdie | Grill burners",
+    "type": "due_date_changed",
+    "detail": "Due date changed from 2026-11-26 18:39:00 to 2026-11-27 18:39:00",
+    "from": "2026-11-26 18:39:00",
+    "to": "2026-11-27 18:39:00"
+  },
+  {
+    "ts": "2026-11-27T00:12:37+00:00",
+    "ticket_number": 9700,
+    "subject": "A Shore Thing | No pool sign",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-11-25T23:25:43+00:00",
     "ticket_number": 9742,
     "subject": "Name: Lile Jerry | Res: 48546 | Refund Check Request",
@@ -7804,49 +7852,5 @@
     "subject": "Website Team Pages",
     "type": "created",
     "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-27T18:49:34+00:00",
-    "ticket_number": 9416,
-    "subject": "Fireside Cottage \u2013 Verify Lynx Lock and Guest Key Access",
-    "type": "created",
-    "detail": "Created \u2014 assigned to h.mcnamara@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-27T18:49:34+00:00",
-    "ticket_number": 9415,
-    "subject": "Name: Malinowski Robert | Res: 54453 | Refund Check Request",
-    "type": "created",
-    "detail": "Created \u2014 assigned to k.fisher@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-27T18:49:34+00:00",
-    "ticket_number": 9414,
-    "subject": "Onboarding inventory Sheet for VR owners",
-    "type": "created",
-    "detail": "Created \u2014 assigned to d.penaherrera@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-27T18:49:34+00:00",
-    "ticket_number": 9413,
-    "subject": "Update Team Member List in Streamline (SL)",
-    "type": "created",
-    "detail": "Created \u2014 assigned to b.evans@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-27T18:49:34+00:00",
-    "ticket_number": 9412,
-    "subject": "Deactivating Property : zSugar Beach",
-    "type": "created",
-    "detail": "Created \u2014 assigned to a.guarin@choosegulfcoast.com, status Open"
-  },
-  {
-    "ts": "2026-10-27T18:49:34+00:00",
-    "ticket_number": 9406,
-    "subject": "Keys Please - Photos",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-29 19:54:54 to 2026-11-06 20:54:00",
-    "from": "2026-10-29 19:54:54",
-    "to": "2026-11-06 20:54:00"
   }
 ]
