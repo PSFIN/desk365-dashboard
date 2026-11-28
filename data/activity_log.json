@@ -1,5 +1,19 @@
 [
   {
+    "ts": "2026-11-28T09:39:47+00:00",
+    "ticket_number": 9751,
+    "subject": "Rising Tide| Potential guest booking.",
+    "type": "created",
+    "detail": "Created \u2014 assigned to h.nomura@choosegulfcoast.com, status Open"
+  },
+  {
+    "ts": "2026-11-28T09:39:47+00:00",
+    "ticket_number": 9750,
+    "subject": "Unit: Waterfront Dreamin | Guest Name: Hirsch Jen And Matt | Res #: 52925 | POOL HEAT ON",
+    "type": "created",
+    "detail": "Created \u2014 assigned to s.soriafrausto@choosegulfcoast.com, status Open"
+  },
+  {
     "ts": "2026-11-28T01:44:22+00:00",
     "ticket_number": 9704,
     "subject": "Enjoy Sarasota | Carpets issue",
@@ -7830,23 +7844,5 @@
     "detail": "Priority changed from 5 to 1",
     "from": 5,
     "to": 1
-  },
-  {
-    "ts": "2026-10-27T22:47:32+00:00",
-    "ticket_number": 8868,
-    "subject": "Boardwalk benches",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-27 22:00:00 to 2026-11-30 23:00:00",
-    "from": "2026-10-27 22:00:00",
-    "to": "2026-11-30 23:00:00"
-  },
-  {
-    "ts": "2026-10-27T22:47:32+00:00",
-    "ticket_number": 8856,
-    "subject": "DR-11 Form : Tee Time | 19116 Scallop Loop, #105",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-27 21:00:00 to 2026-11-02 21:00:00",
-    "from": "2026-10-27 21:00:00",
-    "to": "2026-11-02 21:00:00"
   }
 ]
