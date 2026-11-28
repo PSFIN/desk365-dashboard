@@ -1,5 +1,12 @@
 [
   {
+    "ts": "2026-11-28T01:44:22+00:00",
+    "ticket_number": 9704,
+    "subject": "Enjoy Sarasota | Carpets issue",
+    "type": "closed",
+    "detail": "Left the open/pending list (last status: Open) \u2014 likely closed or resolved"
+  },
+  {
     "ts": "2026-11-27T18:36:53+00:00",
     "ticket_number": 9749,
     "subject": "Cabranes Kate | Unit: Signal Inn - Unit 08 | Res #: 67446 | Cancellation Request",
@@ -7841,14 +7848,5 @@
     "detail": "Due date changed from 2026-10-27 21:00:00 to 2026-11-02 21:00:00",
     "from": "2026-10-27 21:00:00",
     "to": "2026-11-02 21:00:00"
-  },
-  {
-    "ts": "2026-10-27T22:47:32+00:00",
-    "ticket_number": 8830,
-    "subject": "Pellito Laurie/Signal Inn - Unit 14/Signal Inn - Unit 14/Property Feedback",
-    "type": "due_date_changed",
-    "detail": "Due date changed from 2026-10-21 21:13:00 to 2026-11-05 22:13:00",
-    "from": "2026-10-21 21:13:00",
-    "to": "2026-11-05 22:13:00"
   }
 ]
